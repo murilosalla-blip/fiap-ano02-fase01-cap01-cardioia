@@ -66,7 +66,7 @@ Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficia
 
 Esta fase é de preparação e curadoria de dados — não há aplicação ou modelo de IA para executar. Os datasets finais já estão disponíveis nas pastas indicadas acima, prontos para consumo em fases futuras (Colab/Jupyter).
 
-**Pré-requisitos:** Python 3.12+ e a biblioteca `pypdf` (Parte 2) e `Pillow` (Parte 3).
+**Pré-requisitos:** Python 3.12+ e a biblioteca `Pillow` (usada em `scripts/preparar_amostra_ecg.py`, Parte 3). O script `scripts/preparar_dataset_numerico.py` (Parte 1) usa apenas bibliotecas nativas do Python (`csv`, `pathlib`).
 
 **Clonar o repositório:**
 ```
