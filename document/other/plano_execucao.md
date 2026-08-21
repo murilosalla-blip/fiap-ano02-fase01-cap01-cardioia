@@ -208,7 +208,8 @@ config/
 - **Proprietário GitHub:** `murilosalla-blip`.
 - **Repositório remoto:** ainda não criado.
 - **Nome planejado do repositório remoto:** `fiap-fase01-cap01-cardioia` (aprovado como candidato; criação ainda pendente).
-- **Primeiro commit:** ainda não realizado neste momento.
+- **Primeiro commit:** concluído — hash curto `e0c063a` ("chore: estrutura inicial do projeto CardioIA", 39 arquivos).
+- **Repositório remoto:** ainda não criado.
 - **Push:** ainda não realizado.
 - **Parte 2:** ainda não iniciada.
 
