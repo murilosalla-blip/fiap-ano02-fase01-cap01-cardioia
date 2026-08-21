@@ -1,0 +1,3506 @@
+METADADOS DO CORPUS
+Título original: Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais
+Instituição/autoria: Ministério da Saúde — Secretaria de Atenção à Saúde — Departamento de Atenção Básica
+Ano: 2006
+PDF local de origem: Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf
+URL oficial de referência: https://bvsms.saude.gov.br/bvs/publicacoes/abcad14.pdf
+URL utilizada para download/consulta: https://bibliodigital.unijui.edu.br/items/e3767702-7feb-4b64-9955-75bf12619e27
+Idioma: português (Brasil)
+Finalidade: corpus textual acadêmico para a Parte 2 do projeto CardioIA — FIAP
+Método de extração: extração local orientada pelo layout original. A ordem das páginas foi preservada; páginas em duas colunas são identificadas e lidas por coluna; tabelas e fluxogramas mantêm espaçamento/posicionamento textual sempre que possível; foram removidos somente números de página isolados e cabeçalhos/rodapés repetitivos.
+Integridade: não houve resumo, tradução, paráfrase ou alteração clínica do conteúdo. Os marcadores [COLUNA ESQUERDA]/[COLUNA DIREITA] e ===== PÁGINA ... ===== foram adicionados apenas para preservar a estrutura de leitura no formato .txt.
+
+INÍCIO DO CONTEÚDO EXTRAÍDO
+================================================================================
+===== PÁGINA 1 DE 56 =====
+
+1   PREVENÇÃO CLÍNICA DE DOENÇAS CARDIOVASCULARES, CEREBROVASCULARES E RENAIS
+
+===== PÁGINA 2 DE 56 =====
+
+CADERNOS                                  DE
+
+ATENÇÃO                       BÁSICA
+
+               MINISTÉRIO  DA SAÚDE
+
+PREVENÇÃO           CLÍNICA      DE   DOENÇA
+
+           CARDIOVASCULAR,
+
+    CEREBROVASCULAR                E  RENAL
+
+                   CRÔNICA
+
+           Cadernos de Atenção Básica - n.º 14
+
+                     Brasília - DF
+                        2006
+
+===== PÁGINA 3 DE 56 =====
+
+CADERNOS                                  DE
+
+ATENÇÃO                       BÁSICA
+
+               MINISTÉRIO  DA SAÚDE
+
+             Secretaria de Atenção à Saúde
+            Departamento de Atenção Básica
+
+PREVENÇÃO           CLÍNICA      DE   DOENÇA
+
+           CARDIOVASCULAR,
+
+    CEREBROVASCULAR                E  RENAL
+
+                   CRÔNICA
+
+           Cadernos de Atenção Básica - n.º 14
+
+           Série A. Normas e Manuais Técnicos
+
+                     Brasília - DF
+
+                        2006
+
+===== PÁGINA 4 DE 56 =====
+
+© 2006 Ministério da Saúde
+Todos os direitos reservados. É permitida a reprodução parcial ou total
+desta obra, desde que citada a fonte e que não seja para venda ou
+qualquer fim comercial.
+A responsabilidade pelos direitos autorais de textos e imagens desta obra
+é de responsabilidade da área técnica.
+A coleção institucional do Ministério da Saúde pode ser acessada na
+íntegra na Biblioteca Virtual em Saúde do Ministério da Saúde: http://
+www.saude.gov.br/bvs
+Cadernos de Atenção Básica n.º 14
+Série A. Normas e Manuais Técnicos
+Tiragem: 1.ª edição - 2006 - 15.000 exemplares
+Elaboração, distribuição e informações: Equipe de apoio administrativo:
+MINISTÉRIO DA SAÚDE                 Alexandre Hauser Gonçalves - DAB/MS
+Secretaria de Atenção à Saúde       Isabel Constança P. M. de Andrade - DAB/MS
+Departamento de Atenção Básica      Maércio Carapeba Júnior - DAB/MS
+Esplanada dos Ministérios, bloco G, 6.º andar, sala 634
+70058-900, Brasília - DF            Colaboradores:
+Tels.: (61) 3315-3302 / 3225-6388   Alexandre José Mont'Alverne Silva - CONASEMS
+Fax.: (61) 3225-6388                Amâncio Paulino de Carvalho - DAE/MS
+Homepage: www.saude.gov.br/dab      Ana Márcia Messeder S. Fernandes - DAF/MS
+                                    Antônio Luiz Brasileiro - INCL/MS
+Supervisão geral:                   Augusto Pimazoni Netto - Consultor Médico/ SP
+Luis Fernando Rolim Sampaio         Carmem de Simone - DAB/MS
+                                    Débora Malta - CGDANT/MS
+Coordenação técnica:                Denizar Vianna Araújo - INCL/MS
+Antonio Dercy Silveira Filho        Dillian Adelaine da Silva Goulart - DAB/MS
+                                    Dirceu Brás Aparecido Barbano - DAF/MS
+Equipe de formulação/MS:            Edson Aguilar Perez - SMS/São Bernardo do Campo - SP
+Antônio Luiz Pinho Ribeiro          Lenildo de Moura - CGDANT/MS
+Carisi Anne Polanczyk               Mário Maia Bracco - CELAFISC
+Carlos Armando Lopes do Nascimento  Newton Sérgio Lopes Lemos - DAB/MS
+José Luiz Dos Santos Nogueira       Regina Maria Aquino Xavier - INCL/MS
+Rosa Sampaio Vila Nova de Carvalho  Renata F. Cachapuz - ANS/MS
+                                    Rubens Wagner Bressanim - DAB/MS
+Equipe técnica:                     Victor Matsudo - CELAFISCS
+Adelaide Borges Costa de Oliveira - DAB/MS
+Ana Cristina Santana de Araújo - DAB/MS Sociedades científicas:
+Antônio Luiz Pinho Ribeiro - DAE/MS José Péricles Steves - SBC
+Carisi Anne Polanczyk - DAE/MS      Augusto Dê Marco Martins - SBC/DF
+Carlos Armando Lopes do Nascimento - DAE/MS Álvaro Avezum - FUNCOR/SBC
+José Luiz Dos Santos Nogueira - DAE/MS Hélio Pena Guimarães - FUNCOR/SBC
+Maria das Mercês Aquino Araújo - DAB/MS Marcos Antônio Tambasci - SBD
+Micheline Marie Milward de Azevedo Meiners - DAB/MS Adriana Costa Forti - SBD
+Sônia Maria Dantas de Souza - DAB/MS Robson Augusto Souza dos Santos - SBH
+                                    Pedro Alejandro Gordan - SBN
+Revisão técnica:                    Patrícia Ferreira Abreu - SBN
+Bruce Bartholow Duncan - UFRGS      José Nery Praxedes - SBN
+Carisi Anne Polanczyk - DAE/MS      Mariza Helena César Coral - SBEM
+Erno Harzheim - UFRGS               Sérgio Alberto Cunha Vêncio - SBEM
+Flávio Danni Fuchs - UFRGS          Maria Inês Padula Anderson - SBMFC
+Maria Inês Schmidt - UFRGS          Hamilton Lima Wagner - SBMFC
+                                    Fadlo Fraige Filho - FENAD
+Ficha Catalográfica
+_________________________________________________________________________________________________________________________________
+      Brasil. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Básica.
+Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais / Ministério da Saúde, Secretaria de Atenção à Saúde,
+Departamento de Atenção Básica. - Brasília : Ministério da Saúde, 2006.
+56 p. - (Cadernos de Atenção Básica; 14) (Série A. Normas e Manuais Técnicos)
+      ISBN 85-334-1197-9
+      1. Doenças cardiovasculares. 2. Transtornos cerebrovasculares. 3. Saúde pública. 4. SUS (BR) I. Título. II. Série.
+                                                                NLM QZ 170
+__________________________________________________________________________________________________________________________________
+Catalogação na fonte - Coordenação-Geral de Documentação e Informação - Editora MS - OS 2006/0637
+Títulos para indexação:
+Em inglês: Clinical Prevention of Cardiovascular, Cerebrovascular and Renal Diseases
+Em espanhol: Prevención Clínica de Enfermedades Cardiovasculares, Cerebrovasculares y Renales
+
+===== PÁGINA 5 DE 56 =====
+
+II. Introdução                                                   10
+III. Risco Global - Conceito                                     14
+
+IV. Risco Cardiovascular - Classificação                         16
+ Estratificação de risco                                         16
+ Fluxograma de classificação de risco vascular                   18
+ Avaliação clínico-laboratorial                                  18
+ Escore de risco global                                          20
+ Escore Framingham Revisado para Homens                          21
+ Escore Framingham Revisado para Mulheres                        22
+V. Risco de Doença Renal Crônica - Conceito e Classificação      23
+VI. Intervenções preventivas                                     26
+ 1. Prevenção não-farmacológica                                  26
+ 1.1 Alimentação saudável                                        26
+ 1.2 Controle de peso                                            29
+ 1.3 Álcool                                                      30
+ 1.4 Atividade Física                                            31
+ 1.5 Tabagismo                                                   33
+ 2. Prevenção farmacológica                                      36
+ 2.1 Anti-hipertensivos                                          36
+ 2.2 Aspirina                                                    37
+ 2.3 Hipolipemiantes                                             38
+ 2.4 Fármacos hipoglicemiantes                                   40
+ 2.5 Vacinação contra-influenza                                  40
+ 2.6 Terapia de Reposição hormonal                               40
+ 3. Abordagem integrada das intervenções                         40
+VII. Intervenções preventivas renais                             44
+VIII. Atribuições e competências da equipe de saúde              47
+IX. Critérios de encaminhamentos para referência e contra-referência 51
+X. Bibliografia                                                  53
+       ○
+       ○
+        ○
+        ○
+         ○
+         ○
+          ○
+         ○
+          ○
+          ○
+           ○
+          ○
+          ○
+           ○
+           ○
+            ○
+            ○
+           ○
+            ○
+            ○
+             ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+              ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                      ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+              ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                           ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                   ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+              ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                           ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                            ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                                  ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                 ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                    ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                 ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+              ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+             ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+             ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+             ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                  ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+               ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+             ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+             ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                    ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                    ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                      ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                          ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                     ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                              ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+                                         ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+             ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+    SUMÁRIO
+I. Apresentação
+         ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
+
+===== PÁGINA 6 DE 56 =====
+
+[COLUNA ESQUERDA]
+I. APRESENTAÇÃO
+
+A
+       o longo dos dois últimos
+      séculos, a revolução tecno-
+      lógica e industrial, com con-
+seqüências econômicas e sociais, re-
+
+sultaram em uma mudança drástica
+do perfil de morbimortalidade da
+população com grande predomínio
+das doenças e mortes devidas às do-
+
+enças crônicas não transmissíveis
+(DCNT), dentre elas o câncer e as do-
+enças cardiovasculares.A carga eco-
+nômica das DCNT produz elevados
+
+custos para os sistemas de saúde e da
+previdência social devido à mortali-
+dade e invalidez precoces, e, sobre-
+tudo para a sociedade, famílias e as
+
+pessoas portadoras dessas doenças.
+
+A doença cardiovascular representa
+hoje no Brasil a maior causa de mor-
+
+[COLUNA DIREITA]
+tes; o número estimado de portado-
+res de Diabetes e de Hipertensão é
+de 23.000.000; cerca de 1.700.000
+
+pessoas têm doença renal crônica
+(DRC), sendo o diabetes e a hiperten-
+são arterial responsáveis por 62,1%
+
+do diagnóstico primário dos subme-
+tidos à diálise.
+
+Essas taxas tendem a crescer nos pró-
+ximos anos, não só pelo crescimento
+
+e envelhecimento da população,
+mas, sobretudo, pela persistência de
+hábitos inadequados de alimentação
+
+e atividade física, além do tabagismo.
+
+O Ministério da Saúde vêm adotan-
+do várias estratégias e ações para re-
+
+===== PÁGINA 7 DE 56 =====
+
+[COLUNA ESQUERDA]
+duzir o ônus das doenças cardiovas-
+culares na população brasileira como
+as medidas anti-tabágicas, as políti-
+
+cas de alimentação e nutrição e de
+promoção da saúde com ênfase na
+
+escola e, ainda, as ações de atenção
+à hipertensão e ao diabetes com ga-
+rantia de medicamentos básicos na
+
+rede pública e, aliado a isso, a
+capacitação de profissionais. A cam-
+
+panha do Pratique Saúde é um bom
+exemplo como estratégia de massa
+para a disseminação da informação
+
+e sensibilização da população para
+a adoção de hábitos saudáveis de vida.
+
+É importante registrar que a adoção
+da estratégia Saúde da Família como
+política prioritária de atenção básica,
+
+por sua conformação e processo de
+trabalho, compreende as condições
+
+mais favoráveis de acesso às medidas
+multissetoriais e integrais que a abor-
+dagem das doenças crônicas não
+
+transmissíveis (DCNT) exige.
+
+Esse protocolo é uma proposição do
+Departamento de Atenção Básica/
+Departamento de Atenção Especi-
+
+alizada da Secretaria de Atenção à
+Saúde, sendo a primeira iniciativa bra-
+sileira de ação estruturada e de base
+
+[COLUNA DIREITA]
+populacional para a prevenção pri-
+mária e secundária das doenças
+cardiovasculares (DCV) e renal crôni-
+
+ca em larga escala. Foi rigorosamen-
+te baseado nas evidências científicas
+
+atuais e teve a contribuição efetiva de
+profissionais de reconhecido saber e
+das sociedades cientificas da área.
+
+Deve ser implementado na rede pú-
+blica de saúde, sobretudo, nas cerca
+
+de 25 mil Equipes Saúde da Família
+hoje existentes no Brasil. Isso exige um
+esforço conjunto dos gestores públi-
+
+cos federal, estaduais e municipais,
+sociedades científicas, instituições de
+ensino, profissionais de saúde e soci-
+
+edade em geral para o completo êxi-
+to na prevenção e controle das do-
+
+enças cardiovasculares e renais do
+nosso país.
+
+    José Gomes Temporão
+
+   Secretário de Atenção à Saúde
+
+===== PÁGINA 8 DE 56 =====
+
+[COLUNA ESQUERDA]
+II. INTRODUÇÃO
+
+A
+      s doenças circulatórias são
+       responsáveis por impacto
+       expressivo na mortalidade
+
+da população brasileira, correspon-
+dendo a 32% dos óbitos em 2002, o
+equivalente a 267.496 mortes. As
+
+doenças do aparelho circulatório
+compreendem um espectro amplo
+
+de síndromes clínicas, mas têm nas
+doenças relacionadas à aterosclerose
+a sua principal contribuição,
+
+manifesta por doença arterial
+coronariana, doença cerebro-
+
+vascular e de vasos periféricos,
+incluindo patologias da aorta, dos
+rins e de membros, com expressiva
+
+morbidade e impacto na qualidade
+de vida  e produtividade da
+
+[COLUNA DIREITA]
+população adulta. Em adição às
+doenças com comprometimento
+vascular, as doenças renais crônicas
+
+têm também um ônus importante na
+saúde da população, sendo estimado
+
+que 1.628.025 indivíduos sejam
+portadores de doença renal crônica
+(DRC) no Brasil, e 65.121 estão em
+
+diálise.
+
+São inúmeros os fatos que podem
+
+estar relacionados com a importância
+cada vez maior destas doenças. Parte
+
+pode ser devida ao envelhecimento
+da população, sobrevida das
+doenças infecciosas, incorporação de
+
+novas tecnologias com diagnóstico
+mais precoce das doenças e redução
+
+===== PÁGINA 9 DE 56 =====
+
+[COLUNA ESQUERDA]
+Quadro 1. Fatores de risco para doença cardio-
+vascular.
+
+• História familiar de DAC prematura (familiar
+  1º. grau sexo masculino <55 anos e sexo
+  feminino <65 anos)
+
+• Homem >45 anos e mulher >55 anos
+
+• Tabagismo
+• Hipercolesterolemia (LDL-c elevado)
+
+• Hipertensão arterial sistêmica
+
+• Diabete melito
+
+• Obesidade ( IMC > 30 kg/m²)
+• Gordura abdominal
+
+• Sedentarismo
+
+• Dieta pobre em frutas e vegetais
+• Estresse psico-social
+
+[COLUNA DIREITA]
+de letalidade, mas uma parcela
+importante pode ser atribuída ao
+controle inadequado, e por vezes em
+
+ascensão, dos fatores associados ao
+desenvolvimento destas doenças.
+
+Os principais fatores de risco estão
+descritos no Quadro 1. A presença de
+
+9 destes fatores explica quase 90%
+do risco atribuível de doença na
+população ao redor do mundo. Vale
+
+ressaltar que muitos desses fatores de
+risco são responsáveis também pelas
+
+doenças renais, sendo que a
+hipertensão arterial sistêmica (HAS)
+e o diabete melito (DM) respondem
+
+por 50% dos casos de DRC terminal.
+
+Dos  fatores potencialmente
+
+controláveis, HAS e DM, são críticos
+do ponto de vista de saúde pública.
+
+No Brasil, dados do Plano de
+Reorganização da Atenção  à
+Hipertensão Arterial e ao Diabete
+
+Melitus de 2001 apontaram para
+uma prevalência destes fatores na
+
+população brasileira acima de 40
+anos de idade de 36% e 10%,
+respectivamente. Estima-se que mais
+
+de 15 milhões de brasileiros têm HAS,
+sendo aproximadamente 12.410.753
+usuários do SUS. Mais de um 1/3
+
+===== PÁGINA 10 DE 56 =====
+
+[COLUNA ESQUERDA]
+desconhecem a doença e menos de
+1/3 dos hipertensos com diagnóstico
+apresentam níveis adequados de
+
+pressão arterial com tratamento
+proposto. Em relação ao diabete
+
+melito, dos 3.643.855 estimados
+como usuários do SUS, quase metade
+desconhecia este diagnóstico e
+
+apenas 2/3 destes indivíduos estão
+em acompanhamento nas unidades
+
+de atenção básica.
+
+Há consenso sobre a importância da
+adoção de estratégias de atenção
+
+integral, cada vez mais precoces ao
+longo do ciclo de vida, focadas na
+
+prevenção do aparecimento de HAS
+e DM e suas complicações. Estão bem
+estabelecidas as ações de saúde que
+
+devem ser implementadas para um
+efetivo controle desses fatores de
+
+risco visando à prevenção da doença
+e de seus agravos. O principal desafio
+é traduzir em ações concretas de
+
+cuidado integral a indivíduos e
+comunidades  o conhecimento
+científico e os avanços tecnológicos
+
+hoje disponíveis e colocá-los no
+âmbito populacional ao alcance de
+
+um maior número  possível de
+indivíduos.
+
+[COLUNA DIREITA]
+Com um espectro amplo de terapias
+preventivas de benefício comprova-
+do hoje existentes e com uma
+
+capacidade crescente de  se
+identificar as pessoas com maior risco
+de doenças, a escolha deve obedecer
+
+a critérios racionais de eficácia e
+eficiência, não sendo possível e nem
+conveniente prescrever "tudo para
+
+todos", levando-se em conta o risco
+de efeitos indesejáveis e a
+necessidade de otimizar os recursos
+
+para cuidados de saúde.
+
+Para maximizar benefícios e
+minimizar riscos e custos, é preciso
+
+organizar estratégias específicas para
+diferentes perfis de risco, levando em
+conta a  complexidade  e  a
+
+disponibilidade das intervenções.
+Felizmente, há muito que pode ser
+feito na prevenção cardiovascular de
+
+menor custo e maior eficiência. A
+diversidade de opções preventivas
+reitera a necessidade de uma escolha
+
+racional, levando em conta o risco
+absoluto global, as preferências e os
+recursos do paciente. A velocidade
+
+de mudanças nessa área requer
+atenção continuada  para as
+novidades, tanto nos esquemas de
+
+classificação de risco quanto nas
+intervenções
+         .
+
+===== PÁGINA 11 DE 56 =====
+
+[COLUNA ESQUERDA]
+Este Manual tem como objetivo
+nortear planos de ação de cuidado
+integral, com foco na prevenção
+
+destas doenças, sistematizando as
+condutas atuais recomendadas com
+
+base em evidências científicas para a
+identificação e manejo de indivíduos
+sem doença manifesta e em risco de
+
+desenvolverem doenças cardíacas
+ateroscleróticas, cerebrovas culares e
+
+renais, aqui denominadas conjunta-
+mente de doenças cardiovasculares,
+se não especificadas. É parte da
+
+Política Nacional de Atenção Integral
+a HAS e DM, seus fatores de risco e
+suas complicações e é dirigido aos
+
+profissionais da rede pública do
+Sistema Único de Saúde, visando
+
+reduzir o impacto destes agravos na
+população brasileira. A identificação,
+manejo e respectivas condutas
+
+preventivas em indivíduos com
+doença manifesta são importantes,
+
+mas serão abordados nos Manuais
+específicos de cada doença.
+
+===== PÁGINA 12 DE 56 =====
+
+[COLUNA ESQUERDA]
+III. RISCO      GLOBAL
+
+M
+         ais importante do que
+         diagnosticar    no
+
+         indivíduo uma patologia
+isoladamente, seja diabetes,
+hipertensão ou a presença de
+
+dislipidemia, é avaliá-lo em termos de
+seu   risco   cardiovascular,
+
+cerebrovascular e renal global.
+
+A prevenção baseada no conceito de
+
+risco cardiovascular global significa
+que os esforços para a prevenção de
+novos eventos cardiovasculares serão
+
+orientados, não de  maneira
+independente pelos riscos da
+
+elevação de fatores isolados como a
+pressão arterial ou o colesterol, mas
+pelo resultado da soma dos riscos
+
+[COLUNA DIREITA]
+- Conceito
+
+ imposta pela presença de múltiplos
+ fatores, estimado pelo risco absoluto
+
+ global de cada indivíduo.
+
+ Sob o enfoque preventivo, quanto
+
+ maior o risco, maior o potencial
+ benefício de uma intervenção
+ terapêutica ou preventiva. O
+
+ benefício de uma terapia na
+ prevenção de  desfechos não
+
+ desejáveis pode ser expresso em
+ termos relativos (p. ex., pela redução
+ relativa de risco com o uso de
+
+ determinado fármaco), ou em
+ termos absolutos que levam em
+
+ conta o risco individual ou a
+ probabilidade de um indivíduo de
+ ter eventos em um período de tempo
+
+===== PÁGINA 13 DE 56 =====
+
+[COLUNA ESQUERDA]
+(p. ex., 2% de mortalidade em 3
+anos). Embora tradicionalmente
+terapias com reduções relativas de
+
+morbimortalidade sejam atrativas, o
+uso racional de intervenções,
+
+levando em consideração equidade
+no sistema de saúde, deve incorporar
+estimativa absoluta de risco.
+
+Por meio desta estimativa é possível
+otimizar o uso de intervenções
+
+implemantadas de acordo com o
+risco cardiovascular global de cada
+
+indivíduo, uma vez que o grau de
+benefício preventivo obtido
+depende da magnitude desse risco.
+
+===== PÁGINA 14 DE 56 =====
+
+[COLUNA ESQUERDA]
+IV.  RISCO      CARDIOV
+
+     Classificação
+
+A
+      intensidade das intervenções
+      preventivas deve ser determi-
+
+      nada pelo grau de risco cardio-
+vascular estimado para cada
+indivíduo e não pelo valor de um
+
+determinado fator. Em termos
+práticos, costuma-se classificar os
+
+indivíduos em três níveis de risco -
+baixo, moderado e alto - para o
+desenvolvimento de  eventos
+
+cardiovasculares maiores. Os eventos
+tradicionalmente computados
+incluem morte por causa vascular,
+
+infarto do miocárdio e acidente
+vascular cerebral.
+
+A Estratificação de Risco baseia-se na
+classificação inicial levando-se em
+
+[COLUNA DIREITA]
+VASCULAR         -
+
+  conta o exame clínico e avança para
+  a indicação de exames comple-
+
+  mentares quando o exame clínico
+  apontar que o grau de risco sugere
+  risco moderado a alto (Figura 1).
+
+  A classificação de risco pode ser
+  repetida a cada 3 a 5 anos ou sempre
+
+  que eventos clínicos apontarem a
+  necessidade de reavaliação.
+
+  Estratificação de Risco
+
+  Avaliação Clínica
+
+  Conforme demonstrado no Quadro
+  2, a classificação inicial baseia-se em
+  dados clínicos como idade e sexo,
+
+===== PÁGINA 15 DE 56 =====
+
+[COLUNA ESQUERDA]
+Quadro 2. Avaliação clínica: Achados no
+exame clínico indicativos de alto risco ou da
+necessidade de exames laboratoriais.
+
+Indicadores de alto risco
+
+Infarto do miocárdio prévio
+Acidente vascular cerebral ou ataque
+isquêmico transitório prévio
+Doença aneurismática de aorta
+
+Doença vascular periférica
+Insuficiência cardíaca congestiva de etiologia
+isquêmica
+Angina de peito
+Doença renal crônica
+
+Indicadores intermediários de risco
+Idade > 45 anos homens, > 55 anos mulheres
+Manifestações de aterosclerose:
+
+ • Sopros arteriais carotídeos
+ • Diminuição ou ausência de pulsos
+  periféricos
+História familiar de infarto agudo do
+miocárdio, morte súbita ou acidente vascular
+cerebral em familiares de 1o. grau ocorrido
+antes dos 50 anos
+
+Diagnóstico prévio de diabete melito,
+tolerância à glicose diminuída, glicemia de
+jejum alterada, diabete gestacional.
+Diagnóstico prévio de dislipidemia
+Diagnóstico prévio de síndrome do ovário
+policístico
+
+Tabagismo
+Obesidade (IMC >30 kg/m2) ou obesidade
+central (cintura medida na crista ilíaca: > 88
+cm em mulheres; > 102 cm em homens)
+Hipertensão (>140/90 mmHg) ou história de
+pré-eclampsia
+
+Historia de doença renal na família (para risco
+de insuficiência renal)
+
+[COLUNA DIREITA]
+história clínica (principalmente, em
+relação a manifestações vasculares,
+sintomas de diabetes), pressão
+
+arterial, circunferência abdominal,
+peso e altura (índice de massa
+
+corporal), e um exame clínico
+focalizado em manifestações de
+aterosclerose.
+
+Indivíduos mais jovens (homens com
+menos de 45 anos e mulheres com
+
+menos de 55 anos), sem manifestação
+de doença ou sintomas e sem
+
+nenhum dos fatores intermediários
+descritos no Quadro  2  são
+caracterizados como sendo de BAIXO
+
+RISCO (Figura 1). Estes indivíduos não
+se  beneficiam  de   exames
+complementares, entrentanto,
+
+devem ser encorajados a manterem
+um perfil de vida saudável.
+
+Homens com idade superior a 45
+anos e mulheres com mais de 55 anos
+
+requerem exames laboratoriais para
+estimar mais precisamente o risco
+
+cardiovascular. Indivíduos mais
+jovens que já apresentam um ou
+mais fatores de risco devem passar
+
+para a avaliação clínico-laboratorial
+subseqüente. Pacientes identificados
+nessa avaliação clínica como de alto
+
+===== PÁGINA 16 DE 56 =====
+
+Figura 1. Fluxograma de classificação de risco
+cardiovascular.
+                                  risco também devem ser avaliados do
+                                  ponto de vista laboratorial para
+                                  orientação terapêutica, embora já
+
+                                  sejam candidatos a intervenções de
+                                  alta intensidade ou mais agressivas,
+                                  conforme descrito adiante.
+
+                                  Avaliação Clínico-Laboratorial
+
+                                  O risco cardiovascular de pacientes
+                                  com os fatores clínicos no grupo
+                                  intermediário é bastante hete-
+
+                                  rogêneo.  Para estimar  mais
+                                  precisamente esse risco pode-se usar
+                                  escores de predição. Infelizmente, até
+
+                                  o momento nenhum dos instrumentos
+                                  disponíveis para a estratificação de
+                                  risco foi desenvolvido ou adaptado
+
+                                  para o contexto brasileiro. Embora
+                                  não exista consenso no escore a ser
+                                  utilizado para estimativa de risco
+
+                                  global, recomenda-se aplicar o modelo
+                                  de Framingham, utilizado no Manual
+                                  de Capacitação dos Profissionais de
+
+                                  Saúde da Rede Básica, revisto em 2005.
+
+                                  A partir deste instrumento, os
+
+                                  indivíduos são classificados em risco
+                                  de  desenvolver  um   evento
+                                  cardiovascular maior (ECV), definido
+
+                                  por infarto do miocárdio ou morte
+                                  por causa cardiovascular, conforme
+                                  Quadro 3.
+
+===== PÁGINA 17 DE 56 =====
+
+[COLUNA ESQUERDA]
+Essa determinação de risco exige a
+    obtenção de pelo menos 2 exames
+    complementares: glicemia de jejum e
+
+    colesterol total. A determinação do
+    perfil lipídico completo, com dosagem
+
+    de triglicerídeos, HDL-C e estimativa de
+    LDL-C1 torna a predição um pouco
+    mais precisa para a maioria dos
+
+    pacientes. Havendo disponibilidade
+    desses exames, em pacientes com
+
+    fatores que sugerem risco mais
+    elevado é recomendado o perfil
+    completo, embora o risco possa ser
+
+    estimado de modo adequado sem
+    estes dados.
+
+Quadro 3. Classificação de risco global, segundo
+Escore de Framingham.
+
+Categoria Evento cardiovascular maior (ECV)
+
+Baixo                <10%/ 10 anos
+Moderado           10 a 20%/ 10 anos
+
+Alto                 >20%/ 10 anos
+
+    1Fórmula de Friedwald para estimativa de LDL-colest
+    LDL = colesterol total - (HDL + triglicerídeos/5).
+
+[COLUNA DIREITA]
+Para pacientes com HAS ou DM,
+  solicita-se ainda creatinina, exame de
+  urina tipo I e eletrocardiograma (ver
+
+  Manual de Hipertensão Arterial e
+  Diabete Melito para SUS). Naqueles
+
+  com diabete  ainda deve ser
+  solicitado teste Hemoglobina glicada
+  (A1c) e microalbuminúria, se
+
+  ausência de proteinúria no exame de
+  urina. A presença de qualquer uma
+
+  das condições abaixo também indica
+  alto risco:
+
+  • nefropatia (proteinúria >300mg/
+  dia ou 200mg proteína/g Cr urinária
+  ou Cr>1,5 mg/dl para homens e 1,3
+
+  mg/dl para mulheres OU albuminúria
+  > 30mg/24 horas ou 30mg/gr Cr
+  urinária)
+
+  • hipertrofia de ventrículo esquerdo
+
+  ao   eletrocardiograma   ou
+  ecocardiograma
+
+  Em pacientes com glicemia de jejum
+  > 100 mg/dL e < 126 mg/dL, com risco
+  calculado pelo   escore  de
+
+  Framingham moderado (entre 10 e
+  20% em 10 anos), recomenda-se
+
+rol [válida para níveis de triglicerídeos < 400 mg/dL]
+
+===== PÁGINA 18 DE 56 =====
+
+[COLUNA ESQUERDA]
+rastreamento de diabete por teste
+de tolerância à glicose (TTG 75 gr).
+Nestes casos, a identificação de DM
+
+muda a classificação para grupo de
+alto risco. É importante ressaltar que
+
+embora a maioria dos pacientes com
+diabete se enquadre na categoria de
+alto risco, nem todos são assim
+
+classificados. A avaliação e manejo
+destes casos está detalhada nos
+
+Manuais específicos.
+
+Escores de Risco Global
+
+As principais variáveis relacionadas
+com risco são: pressão arterial sistólica,
+
+tabagismo, colesterol total, HDL-C,
+
+[COLUNA DIREITA]
+LDL-C, intolerância a glicose, índice
+de massa corporal e idade. Na sua
+maioria ou em combinação elas são
+
+incorporadas em escores preditivos
+globais, como o Escore de Risco de
+
+Framingham.
+
+O cálculo do Escore de Framingham
+
+está descrito nas Figuras 2 e 3 para
+homens e mulheres, respectiva-
+mente. Inicialmente são coletadas
+
+informações sobre idade, LDL-C, HDL-
+C, pressão arterial, diabete e
+
+tabagismo [ETAPA 1]. A partir da
+soma dos pontos de cada fator
+[ETAPA 2] é estimado o risco
+
+cardiovascular em 10 anos [ETAPA 3].
+
+===== PÁGINA 19 DE 56 =====
+
+Figura 2. Escore de Framingham Revisado para Homens
+
+===== PÁGINA 20 DE 56 =====
+
+Figura 3. Escore de Framingham Revisado para Mulheres
+
+===== PÁGINA 21 DE 56 =====
+
+[COLUNA ESQUERDA]
+V. RISCO       DE   DOEN
+
+    CRÔNICA         -  DRC
+
+A
+        doença renal crônica
+       consiste em lesão, perda
+
+       progressiva e irreversível
+da função dos rins. Os principais
+grupos  de   risco  para  o
+desenvolvimento desta patologia
+
+são diabete mellitus, hipertensão
+arterial e história familiar . Além
+destes, outros fatores estão
+
+relacionados à perda de função
+renal, como glomerulopatias, doença
+renal policística, doenças auto-
+
+imunes, infecções sistêmicas,
+infecções urinárias de repetição,
+litíase urinária, uropatias obstrutivas
+
+e neoplasias.
+
+Vale a pena ressaltar que indepen-
+dente do diagnóstico etiológico da
+
+[COLUNA DIREITA]
+NÇA   RENAL
+
+  DRC, a presença de dislipidemia,
+  obesidade e tabagismo acelera a
+
+  progressão da doença.
+
+  O diagnóstico da DRC baseia-se na
+
+  identificação de grupos de risco,
+  presença de alterações de sedimento
+
+  urinário (microalbuminúria, pro-
+  teinúria, hematúria e leucocitúria) e
+  na redução da filtração glomerular
+
+  avaliado pelo clearance de creatina.
+
+  Todo paciente pertencente ao
+
+  chamado grupo de risco, mesmo que
+  assintomático deve ser avaliado
+
+  anualmente com exame de urina
+  (fita reagente ou urina tipo 1),
+  creatinina sérica e depuração
+
+===== PÁGINA 22 DE 56 =====
+
+[COLUNA ESQUERDA]
+Quadro 4. Classificação estágio da DRC
+
+Estágio Função renal Clcr
+                    (ml/min/1,73m²)
+
+0     Grupo de risco:
+      sem lesão renal
+      função normal. > 90
+
+1     Lesão renal (mi-
+      croalbuminúria,pro-
+      teinúria), função
+      preservada, com
+      fatores de risco > 90
+
+2     Lesão renal com
+      insuficiência renal
+      leve          60-89
+
+3     Lesão renal com
+      insuficiência renal
+       moderada     30-59
+
+4     Lesão renal com
+      insuficiência renal
+       severa       15-29
+5     Lesão renal com
+
+      insuficiência renal
+       terminal ou
+      dialítica     < 15
+
+[COLUNA DIREITA]
+estimada de creatinina e microalbu-
+minúria. A microalbuminúria é
+especialmente útil em pacientes com
+
+diabetes, hipertensão e com história
+familiar de DRC sem proteinúria
+
+detectada no exame de urina.
+
+O uso isolado da creatinina para
+
+avaliação da função renal não deve
+ser utilizado, pois somente alcançará
+valores acima do normal após perda
+
+de 50-60% da função renal.
+
+Existem diferentes fórmulas que
+podem ser empregadas para estimar
+o clearance da creatinina (Clcr) a
+
+partir da creatinina sérica. A equação
+mais simplificada e conhecida é a
+Equação de Cockcroft-Gault:
+
+Ccr ml/in = (140-idade) * peso * (0,85, se mulher)
+
+     72 * Cr sérica (mg/dl)
+
+De acordo com o clearance de
+
+creatinina, os indivíduos podem ser
+classificados em 6 estágios, que
+orientarão medidas preventivas e
+
+encaminhamento para especialista
+(Quadro 4).
+
+===== PÁGINA 23 DE 56 =====
+
+[COLUNA ESQUERDA]
+Avaliação da progressão da doença
+renal
+
+A filtração glomerular, estimada pela
+depuração de creatinina, deve ser
+realizada pelo menos uma vez ao
+
+ano nos pacientes de risco no estágio
+0 e 1 e semestralmente no estágio 2
+
+da DRC.
+
+A avaliação trimestral é recomen-
+
+dada para todos os pacientes no
+estágio 3, para aqueles com declínio
+
+rápido da filtração glomerular (acima
+de 4ml/min/1,73m²/ano), nos casos
+onde houve intervenções para
+
+reduzir a progressão ou exposição a
+fatores de risco para perda da
+função aguda e quando se detecta
+
+fatores de risco para progressão mais
+rápida. As ações recomendadas para
+
+redução de risco estão descritas
+adiante.
+
+Os pacientes nos estágios 4 e 5
+apresentam um risco maior de
+deterioração da função renal e
+
+devem OBRIGATORIAMENTE   ser
+encaminhados ao nefrologista.
+
+===== PÁGINA 24 DE 56 =====
+
+[COLUNA ESQUERDA]
+VI.  INTERVENÇÕES
+
+   PREVENTIVAS
+
+    A
+           proposta de Estratégia
+           Global para a Promoção da
+           Alimentação Saudável,
+
+    Atividade Física e Saúde da
+    Organização Mundial da Saúde
+
+    sugere a formulação e implemen-
+    tação de linhas de ação efetivas para
+    reduzir substancialmente as doenças
+
+    em todo o mundo por meio de
+    medidas preventivas. Existem
+    inúmeras intervenções protetoras
+
+    vasculares e renais de benefício
+    comprovado. Entre elas destacam-se
+
+    adoção de hábitos alimentares
+    adequados e saudáveis, cessação do
+    tabagismo, prática de atividade física
+
+    regular, controle da pressão arterial,
+
+[COLUNA DIREITA]
+manejo das dislipidemias, manejo do
+
+diabete com controle da glicemia e
+uso profilático de alguns fármacos.
+
+1. PREVENÇÃO NÃO-FARMACOLÓGICA
+
+1.1 Alimentação Saudável
+
+Um  dos pilares da prevenção
+
+cardiovascular são hábitos de vida
+saudáveis, incluindo alimentação
+
+saudável, cujas diretrizes são
+estabelecidas pela Política Nacional
+e Alimentação e Nutrição (PNAN) e
+
+pelo Guia Alimentar  para a
+População Brasileira e corroboram as
+
+===== PÁGINA 25 DE 56 =====
+
+[COLUNA ESQUERDA]
+recomendações da Organização
+Mundial da Saúde, no âmbito da
+Estratégia Global de Promoção da
+
+Alimentação Saudável, Atividade
+Física e Saúde. Basicamente, definem
+
+que a energia total deve ser
+distribuída nos macronutrientes de
+gorduras, carboidratos e proteínas,
+
+sendo o consumo de colesterol total
+inferior a 300mg/dia e de sódio < 2,0
+
+gr de 2 a 4 gr(equivalente a 5 gramas
+de cloreto de sódio).
+
+• Carboidratos totais: 55% a 75%
+  do valor energético total (VET).
+
+  Desse total, 45% a 65% devem ser
+  provenientes de carboidratos
+  complexos e fibras e menos de
+
+  10%  de açúcares livres (ou
+  simples) como açúcar de mesa,
+
+  refrigerantes e sucos artificiais,
+  doces e guloseimas em geral.
+
+• Gorduras: 15% a 30% do VET da
+
+  alimentação. As gorduras (ou
+  lipídios) incluem uma mistura de
+  substâncias   com     alta
+
+  concentração de energia (óleos e
+  gorduras), que   compõem
+  alimentos de origem vegetal e
+
+[COLUNA DIREITA]
+animal. São  componentes
+  importantes da alimentação
+  humana, contudo o consumo
+
+  excessivo de gorduras saturadas
+  está relacionado a várias doenças
+
+  crônicas não-transmissíveis
+  (doenças  cardiovasculares,
+  diabetes, obesidade, acidentes
+
+  cerebrovasculares e câncer). A
+  gordura saturada não deve
+
+  ultrapassar 10% do VET e as
+  gorduras trans não devem passar
+  de 2g/dia (1% do VET).
+
+• Proteínas: 10% a 15% do VET. São
+
+  componentes dos alimentos de
+  origem vegetal e animal que
+  fornecem  os aminoácidos,
+
+  substâncias importantes e
+  envolvidas em praticamente
+
+  todas as funções bioquímicas e
+  fisiológicas do organismo
+  humano. As fontes alimentares
+
+  mais importantes são as carnes em
+  geral, os ovos e as leguminosas
+
+  (feijões).
+
+Recomendações práticas para a
+população encontram-se descritas
+no Quadro 5. Além destas, algumas
+
+estratégias dietéticas especifica-
+
+===== PÁGINA 26 DE 56 =====
+
+[COLUNA ESQUERDA]
+mente orientadas para a prevenção
+das doenças cardiovasculares são
+apresentadas a seguir.
+
+Quadro 5. Orientações de Dieta
+Saudável
+
+• SAL
+
+Restringir a menos 5 gramas de
+
+cloreto de sódio (1 colher de chá) por
+dia
+
+Reduzir sal e temperos prontos na
+cozinha, evitar comidas industriali-
+
+zadas e lanches rápidos.
+
+• AÇUCAR
+
+Limitar a ingestão de açúcar livre,
+açúcar de mesa, refrigerantes e sucos
+artificiais, doces e guloseimas em
+geral.
+
+• FRUTAS, LEGUMES e VERDURAS
+
+5 porções (400-500gr) de frutas,
+
+legumes e verduras por dia
+
+1 porção = 1 laranja, maçã, banana
+ou 3 colheres de vegetais cozidos
+
+[COLUNA DIREITA]
+• CEREAIS
+
+Aumentar consumo  de cereais
+integrais e leguminosas (feijões,
+ervilha, lentilha, grão de bico)
+
+• GORDURA
+
+Reduzir o consumo de carnes
+gordurosas, embutidos, leite e
+derivadosintegrais. Preferir óleos
+
+vegetais como soja, canola, oliva (01
+colher (sopa/dia)
+
+Retirar a gordura aparente de
+
+carnes, pele de frango e couro de
+peixe antes do preparo.
+
+• PEIXE
+
+Incentivar o consumo de peixes;
+comer pelo menos 03 vezes por
+
+semana.
+
+• ÁLCOOL
+
+Evitar ingesta excessiva de álcool
+
+Homens: Não mais que 2 doses por dia
+
+Mulheres: Não mais que 1 dose por
+dia
+
+===== PÁGINA 27 DE 56 =====
+
+[COLUNA ESQUERDA]
+-• 1.1.1 Dietas Cardioprotetoras
+
+Além dessas diretrizes gerais,
+algumas intervenções nutricionais
+mostraram-se efetivas na redução de
+
+eventos cardiovasculares em
+indivíduos de alto risco. Dietas
+protetoras são baseadas  em
+
+alimentos de origem vegetal em
+abundância (frutas, legumes e
+verduras, cereais integrais, grãos e
+
+leguminosas, nozes e semelhantes),
+azeite de oliva e óleos vegetais
+(milho, soja, canola) como a principal
+
+fonte de gordura (com substituição
+de manteiga e cremes), carne
+
+vermelha em pouca quantidade e
+bebidas alcoólicas em quantidades
+não mais do que moderadas, de
+
+preferência com as refeições.
+Salienta-se que as dietas são ricas em
+fibras alimentares e pobres em
+
+alimentos com carboidratos simples
+refinados e   em   alimentos
+industrializados. Além disso, um
+
+elemento importante nessas dietas é
+o teor mais elevado de ácidos graxos
+omega 3, ingestão aumentada deste
+
+esta relacionada a redução de risco
+cardiovascular. Óleos vegetais, como
+os de canola e de soja, óleo de peixes,
+
+especialmente de águas frias e
+gordurosos, representam fontes
+
+[COLUNA DIREITA]
+alimentares ricas nesses nutrientes.
+
+• 1.1.2. Dietas Hipocolesterolêmicas
+e Anti-Hipertensivas
+
+Uma dieta rica em fitoesteróis
+(substâncias vegetais presentes nos
+
+grãos comestíveis como sementes,
+soja, cereais, especialmente milho,
+legumes, frutos secos), proteína de
+
+soja, fibras solúveis e amêndoas é
+capaz de reduzir níveis de colesterol
+total e sua fração LDL-C em
+
+magnitude similar àquela obtida
+com estatinas. A dieta ideal para
+paciente com  hipertensão --
+
+caracterizada por ser pobre em sal,
+rica em potássio e com grande
+quantidade de frutas, legumes,
+
+verduras e produtos lácteos, reduziu
+os níveis pressóricos e as taxas de
+hipertensão em    magnitude
+
+comparável àquela obtida com o
+emprego de alguns fármacos anti-
+hipertensivos. Para maiores detalhes,
+
+ver o Manual de Hipertensão
+Arterial Sistêmica.
+
+1.2. Controle do peso
+
+Existe uma clara associação entre
+peso e risco cardiovascular. Em
+
+===== PÁGINA 28 DE 56 =====
+
+[COLUNA ESQUERDA]
+indivíduos acima do peso ideal, a
+redução de peso reduz o risco
+cardiovascular e a incidência de
+
+diabete melito. Além disso, o
+tratamento da obesidade a curto e
+médio prazo reduz os níveis de
+
+glicemia, pressão arterial e melhora
+o perfil lipídico. O diagnóstico de
+obesidade é feito a partir do índice
+
+de massa corporal (IMC = peso/
+altura²), sendo o ponto de corte > 30
+
+kg/m². Indivíduos com IMC entre 25
+e 29,9 kg/m² são considerados pré-
+obesos e  se associados com
+
+obesidade central (cintura >88
+mulheres e >102 para homens) ou
+outros fatores de risco, devem ter
+
+intervenção e serem acompanhados.
+
+O tratamento inicial do indivíduo
+obeso ou pré-obeso, mas com outros
+fatores de risco visa promover perdas
+
+de 5 a 10% do peso inicial em até seis
+meses  de  tratamento,  com
+manutenção do novo peso em longo
+
+prazo. Espera-se uma perda média
+de peso de 0,5 a 1kg/semana. O
+
+tratamento inicial pode ser feito com
+orientação de uma dieta com déficit
+de 500 a 1000 kcal/dia (valor
+
+energético total 1000 a 1800 kcal/
+dia), associado com atividade física
+regular. O aumento da atividade
+
+[COLUNA DIREITA]
+física deve ser gradual, 10 min/3x/
+semana  até  30-60  minutos
+diariamente. Orientações específicas
+
+sobre redução de peso encontram-
+se no Manual de Obesidade do
+Ministério da Saúde.
+
+É importante salientar que além da
+dieta e da atividade física, o manejo
+
+da obesidade envolve abordagem
+comportamental, que deve focar a
+motivação, condições para seguir o
+
+tratamento, apoio   familiar,
+tentativas e insucessos prévios,
+tempo disponível e obstáculos para
+
+as mudanças no estilo de vida.
+
+Para indivíduos que atingiram o peso
+ideal ou estão neste nível é
+importante enfatizar a necessidade
+
+de manutenção deste alvo, por meio
+da ingesta energética adequada e
+atividade física regular. O paciente
+
+obeso que perdeu peso deve ser
+alertado de que, para manter o seu
+novo peso é necessário comer menos
+e/ou exercitar-se mais do que fazia
+
+antes do emagrecimento, para
+manter o novo peso alcançado.
+
+1.3. Álcool
+
+A ingestão leve a moderada de
+bebidas alcoólicas, equivalente a
+
+===== PÁGINA 29 DE 56 =====
+
+[COLUNA ESQUERDA]
+duas doses para homens e uma dose
+para mulheres (dose = 1/2 uma
+cerveja, ou 1 cálice de vinho ou 1/2
+
+drinque de destilado por dia) pode
+estar associada com   menor
+
+incidência de doença cardiovascular.
+Vale lembrar, entretanto, que a
+ingestão excessiva de álcool é um
+
+importante fator de risco para morbi-
+mortalidade em todo o mundo, além
+
+de ser fator de risco para acidente
+vascular cerebral, fibrilação atrial e
+insuficiência cardíaca, de forma que
+
+o consumo de álcool não deve ser
+estimulado de forma generalizada.
+
+Para pacientes que optem por
+manter ingestão regular de álcool, os
+profissionais de saúde devem
+
+recomendar  a restrição para
+quantidades menos  deletérias
+
+(Quadro 5).
+
+1.4. Atividade Física
+
+A prática de atividade física
+regularmente promove  efeito
+protetor  para   a  doença
+
+cardiovascular. A recomendação da
+atividade física como ferramenta de
+
+promoção de saúde e prevenção de
+doenças baseia-se em parâmetros de
+
+[COLUNA DIREITA]
+freqüência, duração, intensidade e
+modo de realização. Portanto, a
+atividade física deve ser realizada por
+
+pelo menos  30  minutos, de
+intensidade moderada, na maior
+
+parte dos dias da semana (5) de
+forma contínua ou acumulada.
+Realizando-se desta forma, obtém-se
+
+os benefícios desejados à saude e a
+prevenção de doenças e agravos não
+
+transmissíveis, com a redução do risco
+de eventos cardio-circulatórios,
+como infarto e acidente vascular
+
+cerebral.
+
+A orientação ao paciente deve ser
+clara e objetiva. As pessoas devem
+incorporar a atividade física nas
+
+atividades rotineiras como caminhar,
+subir escadas, realizar atividades
+
+domésticas dentro e fora de casa,
+optar sempre que possível pelo
+transporte ativo nas funções diárias,
+
+que envolvam pelo menos 150
+minutos/semana (equivalente a pelo
+
+menos 30 minutos realizados em 5
+dias por semana). O efeito da
+atividade de intensidade moderada
+
+realizada de forma acumulada é o
+mesmo  daquela realizada de
+maneira contínua, isto é, os trinta
+
+minutos podem ser realizados em
+
+===== PÁGINA 30 DE 56 =====
+
+uma única sessão ou em duas sessões Framingham alto ou aqueles que
+de 15 minutos (p.ex. manhã e tarde) desejem desenvolver programas de
+ou ainda, em três sessões de dez exercícios estruturados ou atividades
+
+minutos (p.ex. manhã, tarde e noite). desportivas que exijam níveis de
+Dessa maneira, atenua-se ou    atividade física de alta intensidade.
+
+elimina-se a principal barreira à
+                               Em relação a crianças e adolescentes
+aquisição do hábito da realização da
+                               em idade escolar recomenda-se que
+atividade física devido a falta de
+                               devam   estar envolvidos em
+tempo (Figura 4).
+                               atividades físicas de intensidade
+De forma prática, atividade física moderada e vigorosa de 60 minutos
+moderada é aquela que pode ser ou mais diariamente, que sejam
+realizada mantendo-se a conversação. apropriadas ao estágio de
+Por exemplo, uma caminhada com o crescimento e desenvolvimento,
+passo acelerado, com a percepção variadas e que propiciem prazer.
+do aumento da freqüência cardíaca Deve-se estimular a prática de
+e da freqüência respiratória, sem atividades físicas fora do horário
+impedir a possibilidade de diálogo escolar em um contexto lúdico e
+
+com outra pessoa. Em  outras   desestimular o hábito de assistir TV,
+palavras, a atividade não deve ser video-game e uso computadores
+
+fatigante, pois aí ela deixaria de ser como forma de lazer. Na escola,
+moderada e passaria a ser intensa. incentivar o fortalecimento das aulas
+Para  prática de  atividades   de educação física como estratégia
+
+moderadas não há necessidade   de aumento do gasto energético. A
+da realização  de avaliação    não ser em situações específicas de
+
+cardiorrespiratória de esforço para agravos à saúde, nunca se deve
+indivíduos iniciarem um programa afastar essas crianças e adolescentes
+de atividades físicas incorporado às das aulas de educação física. As
+
+atividades do dia- a- dia. A avaliação crianças e adolescentes com
+médica e de esforço em indivíduos sobrepeso devem ser estimuladas a
+assintomáticos deve se restringir se integrar aos grupos de prática de
+
+apenas a pacientes com escore de atividade física fortalecendo-se
+
+===== PÁGINA 31 DE 56 =====
+
+vínculos sociais e afetivos.
+
+   Figura 4. Orientações chaves para prática de
+   atividade física.
+
+                            Pelo menos 30
+                             minutos/dia
+
+Maioria dos
+                          RECOMENDAÇÃO
+  dias da                                                Contínua OU
+                         DE ATIVIDADE FÍSICA
+ semana                                                   acumulada
+
+                             Moderada
+
+   1.5. Tabagismo
+                                  para  efetivo abandono   do
+   A recomendação para abandono   tabagismo. A  farmacoterapia
+
+   do tabagismo deve ser universal, melhora, de maneira clinicamente
+   sendo particularmente útil na  importante, a cessação do hábito de
+
+   prevenção de doença cardiovascular, fumar. Para o sucesso do tratamento,
+   cerebro-vascular e renal. Diversas entretanto, é fundamental que o
+   intervenções farmacológicas e não paciente esteja disposto a parar de
+
+   farmacológicas, inclusive o simples fumar. No Quadro 6 esta descrita a
+   aconselhamento de parar de fumar, abordagem inicial de qualquer
+   possuem benefício comprovado   indivíduo fumante.
+
+===== PÁGINA 32 DE 56 =====
+
+[COLUNA ESQUERDA]
+Quadro 6. Abordagem do indivíduo que tabag
+
+[COLUNA DIREITA]
+ista
+
+===== PÁGINA 33 DE 56 =====
+
+[COLUNA ESQUERDA]
+É importante salientar que o apoio
+farmaco-terápico tem um papel bem
+definido no processo de cessação de
+
+fumar, que é minimizar os sintomas
+da síndrome de abstinência quando
+
+estes representam uma importante
+dificuldade para o fumante deixar de
+fumar. Algumas medicações têm
+
+eficácia comprovada em auxiliar o
+fumante a deixar de fumar. Os
+
+medicamentos nicotínicos, também
+chamados de Terapia de Reposição
+de Nicotina (TRN), se apresentam nas
+
+formas de adesivo e goma de
+mascar. Os medicamentos não-
+nicotínicos são os antidepressivos
+
+bupropiona e nortriptilina, e o anti-
+hipertensivo clonidina. A TRN
+
+(adesivo e goma de mascar) e a
+bupropiona  são considerados
+medicamentos de 1ª linha, e devem
+
+ser utilizados preferencialmente. A
+nortriptilina e a clonidina são
+
+medicamentos de 2ª linha, e só
+devem ser utilizados após insucesso
+das medicações de 1ª linha.
+
+1.5.1. Farmacoterapia
+
+Segundo orientação do INCA -
+
+[COLUNA DIREITA]
+Ministério da Saúde (www.inca.gov.br/
+tabagismo), a prescrição de apoio
+
+medicamentoso, deve seguir os
+critérios abaixo:
+
+1. fumantes, que fumam 20 ou mais
+
+cigarros por dia;
+
+2. fumantes que fumam o 1º cigarro
+até 30 minutos após acordar e
+
+fumam no mínimo 10 cigarros por
+dia;
+
+3. fumantes muito dependentes
+
+(com escore do teste de Fagerström
+>5, ou avaliação individual do
+
+profissional);
+
+4. fumantes que já tentaram parar de
+fumar anteriormente apenas com a
+
+abordagem cognitivo-comporta-
+mental, mas não obtiveram êxito,
+
+devido a sintomas da síndrome de
+abstinência;
+
+5. sem contra-indicações clínicas.
+
+Em geral, a monoterapia é suficiente
+
+para a maioria dos pacientes, sendo
+recomendada para pacientes mais
+
+dependentes (> 20 cigarros/dia) a
+posologia descrita no Quadro 7.
+
+===== PÁGINA 34 DE 56 =====
+
+[COLUNA ESQUERDA]
+Quadro 7. Farmacoterapia anti-
+tabagica.
+
+Goma de mascar de nicotina (2-4
+mg):
+
+utilizar goma de mascar com o
+seguinte esquema:
+
+• semana 1 a 4:
+
+  1 tablete a cada 1 a 2 horas
+
+• semana 5 a 8:
+  1 tablete a cada 2 a 4 horas
+
+• semana 19 a 12:
+  1 tablete a cada 4 a 8 horas
+
+Adesivo de nicotina:
+
+• semana 1 a 4:
+
+  adesivo de 21 mg a cada 24 horas
+• semana 5 a 8:
+
+  adesivo de 14 mg a cada 24 horas
+
+• semana 9 a 12:
+  adesivo de 7 mg a cada 24 horas
+
+Bupropiona
+
+• 1 comprimido de 150 mg pela
+manhã por 3 dias,
+
+• 1 comprimido de 150 mg pela
+
+manhã e outro comprimido de 150
+mg, 8 horas após, a partir do 4º dia
+até completar 12 semanas
+
+[COLUNA DIREITA]
+2. PREVENÇÃO FARMACOLÓGICA
+
+2.1. Anti-Hipertensivos
+
+A hipertensão arterial sistêmica é
+fator de risco cardiovascular de alta
+
+prevalência no Brasil. Está bem
+documentado que o risco pode ser
+controlado pela da redução dos
+
+níveis pressórios, e de terapia
+farmacológica específica.
+
+Dos fármacos disponíveis o que se
+
+mostrou mais efetivo na prevenção
+de desfechos cardiovasculares foi o
+diurético tiazídico em doses baixas.
+
+Os tiazídicos mostraram-se eficazes
+em um amplo espectro de pacientes
+hipertensos e, em conjunto com
+
+inibidores da enzima conversora de
+angiotensina (iECA), até em
+
+pacientes pós-acidente vascular
+cerebral e com níveis de pressão
+arterial considerados normais. Os ß-
+
+bloqueadores reduzem o risco para
+mortalidade coronariana e total bem
+
+como para re-infarto, quando
+administrados para pacientes com
+infarto prévio.
+
+Em decorrência desse benefício
+
+comprovado, do custo relativamente
+
+===== PÁGINA 35 DE 56 =====
+
+[COLUNA ESQUERDA]
+baixo de genéricos anti-hipertensivos
+e da taxa pequena de efeitos
+adversos na maioria dos pacientes,
+
+esses medicamentos formam a linha
+de frente para o manejo farmaco-
+
+lógico do risco cardiovascular.
+
+Recomenda-se iniciar com diurético
+tiazídico (hidroclorotiazida), na dose
+de 12,5mg a 25mg ao dia, pela
+
+manhã. Não havendo controle só
+com diurético, deve ser introduzido
+
+Bloqueadores (propranolol) ou iECA
+(captopril, enalapril) como terapia
+adicional. Estas seqüências, diurético
+
+baixa dose mais beta-bloqueador ou
+iECA, são convenientes para a
+maioria dos indivíduos, incluindo
+
+aqueles  portadores de   co-
+morbidades.
+
+É recomendado para que todo
+
+paciente com Hipertensão Arterial
+Sistêmica atinja controle dos níveis
+pressóricos de <140/90 mmHg, sendo
+
+inferiores a 130/80 mmHg naqueles
+com diabete melito e doença renal
+
+crônica.
+
+O manejo e acompanhamento dos
+indivíduos hipertensos está descrito em
+detalhes no Manual de Hipertensão
+
+Arterial Sistêmica para o SUS.
+
+[COLUNA DIREITA]
+2.2. Aspirina
+
+O uso de antiplaquetários, em
+especial a aspirina em dose baixa
+(100   mg/dia),   reduz   a
+
+morbimortalidade cardiovascular de
+pacientes  que   apresentam
+cardiopatia isquêmica em suas
+
+manifestações agudas e crônicas,
+acidente vascular cerebral e doença
+vascular periférica. O emprego de
+
+aspirina em pacientes sem doença
+isquêmica manifesta, principalmente
+naqueles considerados de alto risco
+
+cardiovascular, também se mostrou
+benéfico. Cabe ressaltar, que o
+benefício deve ser balançado com os
+
+efeitos adversos associados a esta
+terapia, como AVCs hemorrágicos e
+hemorragias gastrintestinais. Em
+
+indivíduos de  menor  risco,
+principalmente em indivíduos jovens,
+o uso de aspirina é bastante
+
+questionável, uma vez que a
+redução de eventos cardiovasculares
+praticamente se equipara ao
+
+aumento de sangramentos maiores.
+
+Em indivíduos com risco cardiovas-
+cular moderado e alto, é recomenda-
+do o uso de aspirina profilática (100
+
+mg/dia), após controle ideal ou
+próximo do alvo da pressão arterial
+(<140/90 mmHg).
+
+===== PÁGINA 36 DE 56 =====
+
+[COLUNA ESQUERDA]
+2.3. Hipolipemiantes
+
+Os  fármacos hipolipemiantes
+estatinas são efetivas em reduzir os
+níveis séricos de colesterol e
+especialmente os eventos vasculares
+
+maiores e mortalidade total.
+Atualmente, as estatinas fazem parte
+do arsenal terapêutico e preventivo
+
+para pacientes com alto risco
+cardiovascular, mesmo para aqueles
+com alterações pouco significativas
+
+do perfil lipídico. A recomendação
+atual para uso de estatinas na
+prevenção primária depende do risco
+
+global, sendo menos relevante o
+nível de colesterol-LDL. Quanto
+maior o risco, maior o benefício
+clínico e mais custo-efetivo o
+
+tratamento.
+
+Todos indivíduos com níveis elevados
+de colesterol LDL-c, independente do
+risco global devem ser orientados
+
+para adoção de medidas não-
+farmacológicas, com dieta pobre em
+colesterol e atividade física.
+
+Indivíduos de alto risco com doença
+
+cardiovascular, especialmente com
+manifestações  de    doença
+aterosclerótica como cardiopatia
+isquêmica, doença cerebrovascular,
+
+devem ser considerados para terapia
+com estatinas independente dos
+
+[COLUNA DIREITA]
+níveis de colesterol basal. Da mesma
+forma  aqueles sem   doença
+manifesta, mas com risco pelo escore
+
+de Framingham superior a 20% em
+10 anos  também  devem   ser
+considerados para terapia com
+estatina.
+
+A estatina de referência é a
+
+sinvastatina, sendo preconizada dose
+única de 40 mg/dia, administrada a
+noite. Diversas estatinas estão
+
+disponíveis, sendo aceito um efeito
+semelhante entre os fármacos da
+classe, desde que respeitada a
+
+equipotência da dose, conforme
+Quadro 8.
+
+Quadro 8. Equivalência de doses das
+estatinas.
+
+Estatina  Dose       Dose
+
+          equivalente máxima
+          a 40 mg/dia
+
+          Sinvastatina
+Lovastatina 80 mg    80 mg
+
+Fluvastatina 80 mg   80 mg
+
+Pravastatina 40 mg   80 mg
+
+Atorvastatina 10 mg  80 mg
+
+Rosuvastatina10 mg   40 mg
+
+===== PÁGINA 37 DE 56 =====
+
+[COLUNA ESQUERDA]
+Os efeitos adversos incluem miosite
+e  aumento  das  transaminas
+hepáticas. Por causa destes efeitos, as
+
+transaminases (TGO e TGP) devem ser
+monitoradas antes do início do
+
+tratamento e após 6-12 semanas do
+inicio do tratamento e repetidas
+pelo menos em uma ocasião em 3-6
+
+meses ou quando há incremento da
+dose. Doença hepática ativa ou
+
+crônica com elevação basal de
+transaminases antes do inicio do
+tratamento é contra-indicação para
+
+o uso de estatinas. Além disso,
+pacientes que  apresentarem
+elevações superiores a 3 vezes os
+
+valores normais de referência, devem
+ter a dose da medicação reduzida ou
+
+suspensa.
+
+A elevação de CK (creatinoquinase)
+acompanhada  ou não de dores
+musculares é pouco freqüente, de
+
+modo que a sua dosagem de rotina
+não está indicada no acompa-
+
+nhamento dos pacientes em uso de
+estatinas. Entretanto, pacientes com
+suspeita clínica (dores musculares e/
+
+ou articulares difusas, tipo fadiga e
+pressão) ou com uso de fármacos que
+aumentam a incidência de miopatia
+
+devem ser avaliados com dosagem
+
+[COLUNA DIREITA]
+de CK. Os fibratos, ácido nicotínico e
+ciclosporina aumentam o risco de
+rabdomiólise. A presença de dor
+
+muscular ou aumento de CK superior
+a 10 vezes o valor normal deve
+orientar suspensão do tratamento.
+
+Indivíduos com   níveis  de
+
+triglicerídeos elevados (>200mg/dl)
+também apresentam risco elevado
+para complicações vasculares, sendo
+
+mais importante em portadores de
+diabetes. Em todos os casos devem
+ser afastadas causas secundárias
+
+(diabete descontrolada, hipotireoi-
+dismo e ingesta abusiva de álcool) e
+instituída dieta específica. Indivíduos
+
+devem ser orientados a ingestão
+pobre de açucares, amido, carboidra-
+tos e álcool.
+
+Em indivíduos sem diabetes, a terapia
+
+com fármacos como medida para
+redução eventos cardiovascu-lares é
+controversa, entretanto, níveis
+
+>500mg/dl apresentam risco de
+pancreatite aguda e trombose e
+devem receber terapia farmaco-lógica
+
+específica, com fibratos ou ácido
+nicotínico, se não respon-derem a
+dieta. O manejo da hipertriglice-
+
+ridemia está detalhado  nos
+Protocolos do Ministério da Saúde
+para Medicamentos Excepcionais.
+
+===== PÁGINA 38 DE 56 =====
+
+[COLUNA ESQUERDA]
+2.4. Vacinação Contra Influenza
+
+Existe uma associação clinicamente
+importante entre influenza e doença
+aterotrombótica, sugerindo que a
+
+vacinação contra esse agente
+infeccioso poderia exercer efeito
+
+protetor importante   contra
+desfechos relevantes (p. ex. de
+mortalidade e taxa de hospitalização
+
+por causas cardiovasculares). O
+Ministério da Saúde recomenda que
+
+indivíduos com idade superior ou
+igual a 60 anos bem como indivíduos
+com doença cardiovascular sejam
+
+vacinados. Ainda não está definido
+se essa recomendação deve ser
+estendida também como uma forma
+
+de prevenção de eventos cardio-
+vasculares em indivíduos < 60 anos
+
+sem doença cardiovascular e com
+perfil de risco cardiovascular
+
+moderado ou alto.
+
+2.5. Terapia Hormonal   com
+Estrôgenos
+
+Atualmente, é reconhecido que a
+
+terapia hormonal com estrógenos
+está associada a um aumento na
+
+incidência de eventos isquêmicos
+
+[COLUNA DIREITA]
+cardiovasculares bem como de
+tromboembolismo venoso e de
+
+neoplasia ginecológica. Dessa forma,
+no momento, não existe indicação
+para o uso de qualquer forma ou
+
+dosagem de terapia hormonal com
+estrógenos e progesterona como
+
+medida de prevenção cardiovascular.
+
+3. ABORDAGEM INTEGRADA  DAS
+INTERVENÇÕES
+
+O Quadro 9 resume uma abordagem
+integrada das intervenções baseadas
+na estratificação de risco global.
+
+===== PÁGINA 39 DE 56 =====
+
+[COLUNA ESQUERDA]
+Quadro 9. Intervenções recomen-
+dadas em prevenção cardiovascular
+de acordo com a classificação de risco
+
+global.
+
+ Intensidade Intervenção*
+            Aconselhamento quan
+
+            Fumo
+            Nutrição: Alimentação
+
+            Manutenção de peso/
+ Baixa
+            Atividade física
+            Ênfase em medidas nã
+            dose para hipertensão
+            Vacinação anual contr
+
+            Adicionar:
+            Intensificação de cons
+
+            Nutrição
+ Média
+            Dieta com característic
+            Considerar farmacote
+            Considerar programa
+            Aspirina em baixa dos
+
+            Adicionar:
+
+            Intensificação de alvo
+ Alta       Estatinas
+            Beta-bloqueadores pa
+
+            IECA para pacientes d
+
+[COLUNA DIREITA]
+nto a :
+
+saudável
+
+cintura
+
+o farmacológicas e diurético de baixa
+
+, estágio 1, quando presente
+a influenza em adultos > 60 anos
+
+elhos sobre estilo de vida
+
+as cardio-protetoras
+
+apia contra tabagismo
+estruturado de atividade física
+e
+
+de tratamento para hipertensão
+
+ra pacientes pós-infarto, angina
+
+abéticos e com DRC
+
+===== PÁGINA 40 DE 56 =====
+
+[COLUNA ESQUERDA]
+Ações de Intensidade Baixa
+As intervenções de baixa intensidade
+incluem aconselhamento quanto à
+
+realização de atividade física regular
+de intensidade moderada a intensa,
+por no mínimo 30 minutos, na maior
+
+parte dos dias; orientações gerais
+sobre dieta saudável; abandono do
+tabagismo; e manutenção de peso e
+cintura nas faixas consideradas
+
+saudáveis.
+
+Indivíduos hipertensos, mas de baixo
+risco global devem ter seus níveis
+pressóricos tratados, sempre que
+possível, a partir de medidas não
+
+farmacológicas. Quando  está
+indicada farmacoterapia, deve-se
+favorecer o uso de um diurético
+
+tiazídico.
+
+Adultos com idade maior do que 60
+anos devem receber vacinação anual
+contra influenza.
+
+Ações de Intensidade Moderada
+
+Intervenções de  intensidade
+moderada iniciam com a intensi-
+
+ficação de hábitos de vida saudáveis.
+Recomendações nutricionais incluem
+uma  dieta com características
+
+nutricionais cardioprotetoras; o uso
+
+[COLUNA DIREITA]
+de álcool em moderação e junto às
+refeições; e um estímulo ao aumento
+nas quantias ingeridas de fitosteróis,
+
+grãos e feijões.
+
+Intervenções farmacológicas desti-
+nadas à cessação do tabagismo
+devem ser consideradas, caso o
+
+simples aconselhamento do médico
+não tenha sido efetivo. O uso de
+
+antiplaquetários (aspirina, se
+possível) está indicado, especial-
+mente naqueles com risco maior e
+
+com um nítido interesse em prevenir
+doença.
+
+Ações de Intensidade Alta
+
+Além das intervenções de intensi-
+dade moderada, as intervenções de
+
+alta intensidade incluem o uso de
+fármacos como estatinas e inibidores
+da ECA. O uso de beta-bloqueadores
+
+é indicado em pacientes pós-infarto
+do miocárdio, bem como insuficiência
+
+cardíaca, tais doenças são abordadas
+nos Manuais específicos. O manejo da
+HAS deve ser intensificado em
+
+pacientes que apresentam diabete
+melito, evidência de proteinúria e
+perda de função renal.
+
+===== PÁGINA 41 DE 56 =====
+
+[COLUNA ESQUERDA]
+A  vacinação anual contra a
+influenza, por ser uma medida
+pontual, de baixo custo (especialmente
+
+quando  feita em formato de
+campanha) e com benefícios não-
+
+cardiovasculares adicionais, é
+indicado em pacientes menores de
+60 anos com doenças cardíacas.
+
+===== PÁGINA 42 DE 56 =====
+
+[COLUNA ESQUERDA]
+VII.  INTERVENÇÕES
+
+     RENAIS
+
+O  tratamento  de  pacientes
+
+portadores de DRC pode ser dividido
+em vários componentes, sendo
+alguns de competência do médico de
+
+atenção primária, tais como:
+
+1) Programa de promoção à saúde e
+prevenção primária (grupos de risco
+
+para DRC);
+
+2) Identificação precoce da
+disfunção renal;
+
+3) Detecção e correção de causas
+reversíveis da doença renal;
+
+4) Instituição de intervenções para
+
+retardar a progressão da DRC;
+
+5) Identificação de pacientes que
+necessitam avaliação com especialis-
+
+[COLUNA DIREITA]
+S PREVENTIVAS
+
+  ta para diagnóstico etiológico e
+
+  estadiamento da função renal;
+
+  6) Acompanhamento em conjunto
+  com especialista para prevenção das
+
+  complicações crônicas da doença e
+  comorbidades em comum.
+
+  Alguns fatores de risco estão
+  relacionados com taxa de declínio da
+
+  filtração glomerular com evolução
+  mais rápida, como:  controle
+
+  glicêmico ineficaz, hipertensão
+  arterial, maior proteinúria,
+
+  hipoalbuminemia, dislipidemia e
+  tabagismo. Além destes é conhecido
+
+  que sexo masculino e idade avançada
+  conferem maior risco.
+
+===== PÁGINA 43 DE 56 =====
+
+[COLUNA ESQUERDA]
+Para o indivíduo com diabete é
+recomendado um controle rigoroso
+da glicemia, com valores alvo de
+glicemia de jejum entre 80-120mg/dl
+
+e hemoglobina glicada (A1c) < 7%.
+A presença de microalbuminúria com
+ou sem hipertensão deve ser tratada
+
+com um iECA (captopril, enalapril).
+
+Da mesma forma, deve ser realizado
+o controle rigoroso da pressão
+arterial em todos os pacientes. A
+intensidade do controle da pressão
+
+arterial e os níveis alvo variam de
+acordo  com  a  presença de
+proteinúria, conforme descrito no
+Quadro 10.
+
+Quadro 10. Manejo da Hipertensão
+
+Arterial Sistêmica
+
+Condição Pressão Tratamento
+
+         arterial 1a. escolha
+         ideal
+
+Sem      <140/90 hidrocloro-
+proteinúria mmHg tiazida
+
+Proteinúria < 130/80 Captopril ou
+< 1gr/24h mmHg   Enalapril
+
+Proteinúria <125/75 Captopril ou
+> 1gr/24h mmHg   Enalapril
+
+[COLUNA DIREITA]
+Prevenir a  agudização   da
+insuficiência renal em populações de
+risco é importante, pois modifica de
+
+modo favorável a evolução natural
+da DRC. Para isso se recomenda:
+
+• Prevenir  distúrbios
+
+hemodinâmicos: evitar desidratação
+(diarréia, vômitos, diminuição da
+ingestão líquida, uso excessivo de
+
+laxantes e diuréticos) e hipotensão
+arterial;
+
+• Evitar o uso de agentes
+
+nefrotóxicos  especialmente
+antibióticos aminoglicosídeos
+(gentamicina, garamicina, amicacina)
+
+e anti-inflamatórios não esteróides
+de qualquer espécie;
+
+• Prescrever antibióticos com
+
+cautela em pacientes portadores de
+insuficiência renal, idosos e consultar
+se há necessidade de correção da
+
+droga pelo clearance estimado de
+creatinina;
+
+• Realizar hidratação nos pacientes
+
+com indicação de uso de contraste
+radiológico endovenoso. Solicitar a
+dosagem  de  creatinina nos
+
+portadores de insuficiência renal,
+cardíaca, hepática e idosos,
+
+===== PÁGINA 44 DE 56 =====
+
+[COLUNA ESQUERDA]
+lembrando que nesses casos a
+hidratação é realizada com cautela;
+
+Além destas medidas gerais, é
+importante ressaltar que pacientes
+
+com DRC devem ser encaminhados
+precocemente ao nefrologista. As
+
+indicações para avaliação por um
+especialista incluem:
+
+• Clearance da creatinina abaixo de
+30 ml/min/1,73m² - RISCO IMINENTE
+
+- encaminhamento prioritário
+
+• Redução acelerada do clearance
+de creatinina acima de 4 ml/min/ano
+
+• Clearance da creatinina abaixo de
+
+60 ml/min/1,73m²
+• Proteinúria de qualquer nível na
+
+ausência de retinopatia diabética ou
+hipertensiva
+
+• Hipertensão arterial de difícil
+
+controle, litíase renal, infecção
+urinária de repetição (acima de 3
+
+episódios ao ano)
+• Hiper ou hipopotassemia,
+
+hematúria sem causa aparente.
+
+===== PÁGINA 45 DE 56 =====
+
+[COLUNA ESQUERDA]
+VIII.  ATRIBUIÇÕES
+
+       DA   EQUIPE        DE
+
+A
+       equipe mínima de Saúde
+       da Família é constituída por
+       um médico, um enfermeiro,
+
+um a dois auxiliares de enfermagem
+e quatro a seis agentes comunitários
+
+de saúde, devendo atuar, de forma
+integrada e  com  níveis de
+competência bem estabelecidos, na
+
+abordagem da avaliação de risco
+cardiovascular, medidas preventivas
+primárias e  atendimento  a
+
+hipertensão arterial e diabete melito.
+
+Agente Comunitário de Saúde
+
+1) Esclarecer a comunidade sobre os
+fatores de risco para as doenças
+cardiovasculares, orientando-a sobre
+
+as medidas de prevenção.
+
+[COLUNA DIREITA]
+E  COMPETÊNCIAS
+
+E SAÚDE
+
+  2) Identificar, na população em geral
+  pessoas com fatores de risco para
+  doença cardiovascular, ou seja: idade
+
+  igual ou superior a 40 anos, vida
+  sedentária, obesidade, hipertensão,
+
+  colesterol elevado, mulheres que
+  tiveram filhos com mais de 4 quilos
+  ao nascer e pessoas que têm ou
+
+  tiveram pais, irmãos e/ou outros
+  parentes diretos com doença
+
+  cardiovascular, doença renal ou
+  diabetes.
+
+  3) Encaminhar à consulta de
+  enfermagem   os   indivíduos
+
+  rastreados como suspeitos de serem
+  de risco para doença cardiovascular.
+
+  4) Encaminhar à unidade de saúde,
+
+===== PÁGINA 46 DE 56 =====
+
+[COLUNA ESQUERDA]
+para avaliação clínica adicional e
+exame laboratoriais, as pessoas com
+fatores de risco para doença
+
+cardiovascular, renal ou diabete
+(Quadro 2).
+
+5) Verificar o comparecimento desses
+
+indivíduos às consultas agendadas na
+unidade de saúde, retorno para
+resultado de exames e acompanha-
+
+mento periódico.
+
+6) Perguntar, se o indivíduo esta
+seguindo as orientações de dieta,
+
+atividades físicas, controle de peso,
+cessação do hábito de fumar e da
+ingestão de bebidas alcoólicas, e
+
+naqueles hipertensos e ou diabético
+se está aderindo à terapia prescrita.
+
+7) Registrar, em sua ficha de
+
+acompanhamento, o diagnóstico de
+doenças cardiovasculares ou fatores
+de  risco importantes, como
+
+tabagismo, obesidade, hipertensão,
+diabetes de cada membro da família.
+
+Auxiliar de Enfermagem
+
+1) Verificar os níveis da pressão
+
+arterial, peso, altura e circunferência
+abdominal, em  indivíduos da
+demanda espontânea da unidade
+
+[COLUNA DIREITA]
+de saúde.
+
+2) Orientar a comunidade sobre a
+importância das mudanças nos
+
+hábitos de  vida, ligadas à
+alimentação e à prática de atividade
+física rotineira.
+
+3) Orientar  as pessoas  da
+
+comunidade sobre os fatores de risco
+cardiovascular, em especial aqueles
+
+ligados à hipertensão arterial e
+diabetes.
+
+4) Agendar consultas e reconsultas
+
+médicas e de enfermagem para os
+casos indicados.
+
+5) Proceder as anotações devidas em
+
+ficha clínica.
+
+6) Cuidar dos  equipamentos
+(tensiômetros e glicosímetros) e
+solicitar sua manutenção, quando
+
+necessária.
+
+7) Encaminhar as solicitações de
+exames complementares  para
+
+serviços de referência.
+
+8) Controlar o  estoque  de
+medicamentos e solicitar reposição,
+
+seguindo as  orientações do
+enfermeiro da unidade, no caso de
+impossibilidade do farmacêutico.
+
+===== PÁGINA 47 DE 56 =====
+
+[COLUNA ESQUERDA]
+9) Fornecer medicamentos para o
+paciente em tratamento, quando da
+impossibilidade do farmacêutico.
+
+Enfermeiro
+
+1) Capacitar os auxiliares de
+
+enfermagem   e  os  agentes
+comunitários e supervisionar, de
+forma permanente, suas atividades;
+
+2) Realizar consulta de enfermagem,
+abordando  fatores de  risco,
+tratamento não-medicamentoso,
+
+adesão e possíveis intercorrências ao
+tratamento, encaminhando  o
+indivíduo ao médico, quando
+
+necessário;
+
+3) Desenvolver atividades educativas
+de promoção de saúde com todas as
+pessoas   da    comunidade;
+
+desenvolver atividades educativas
+individuais ou em grupo com os
+
+pacientes hipertensos e diabéticos;
+
+4) Estabelecer, junto à equipe,
+estratégias que possam favorecer a
+adesão (grupos com dislipidemia,
+
+tabagistas, obesos, hipertensos e
+diabéticos);
+
+5) Solicitar, durante a consulta de
+enfermagem, os exames mínimos
+
+[COLUNA DIREITA]
+estabelecidos nos consensos e
+definidos como  possíveis e
+necessários pelo médico da equipe;
+
+6) Repetir a medicação de indivíduos
+
+controlados e sem intercorrências;
+
+7) Encaminhar para consultas
+mensais, com o médico da equipe, os
+
+indivíduos não-aderentes, de difícil
+controle e portadores de lesões em
+órgãos-alvo (cérebro, coração, rins,
+
+olhos, vasos, pé diabético, etc.) ou
+com co-morbidades;
+
+8) Encaminhar para consultas
+trimestrais, com o médico da equipe,
+
+os  indivíduos que   mesmo
+apresentando controle dos níveis
+tensionais e do diabetes, sejam
+
+portadores de lesões em órgãos-alvo
+ou co-morbidades;
+
+9) Encaminhar para consultas
+
+semestrais, com o médico da equipe,
+os indivíduos controlados e sem
+sinais de lesões em órgãos-alvo e sem
+
+co-morbidades;
+
+Médico
+
+1)  Realizar consulta  para
+confirmação diagnóstica, avaliação
+dos fatores de risco, identificação de
+
+===== PÁGINA 48 DE 56 =====
+
+[COLUNA ESQUERDA]
+possíveis lesões em órgãos-alvo e
+comorbidades, visando à estratifi-
+cação de risco cardiovascular e renal
+
+global;
+
+2) Solicitar exames complementares,
+quando necessário;
+
+3) Prescrever tratamento não-
+
+medicamentoso;
+
+4) Tomar a decisão terapêutica,
+definindo o início do tratamento
+medicamentoso;
+
+5) Programar, junto à equipe, estratégias
+para a educação do paciente;
+
+6) Encaminhar às unidades de
+referência secundária e terciária as
+
+pessoas que apresentam doença
+cardiovascular instável, de início recente
+sem avaliação, hipertensão arterial
+
+grave e refratária ao tratamento, com
+lesões importantes em órgãos-alvo, com
+
+suspeita de causas secundárias e
+aqueles que se encontram em estado
+de urgência e emergência hipertensiva;
+
+7) Encaminhar à  unidade de
+
+referência secundária, uma vez ao
+ano, todos os diabéticos, para
+
+rastreamento de complicações
+crônicas, quando da impossibilidade
+de realizá-lo na unidade básica;
+
+[COLUNA DIREITA]
+8) Encaminhar à unidade  de
+referência secundária os pacientes
+diabéticos com dificuldade de
+
+controle metabólico;
+
+9) Encaminhar à unidade  de
+referência secundária os casos de
+
+dislipidemia grave que não responde
+a terapia não medicamentosa e
+farmacológica inicial;
+
+10) Perseguir, obstinadamente, os
+
+objetivos e metas do tratamento
+(níveis pressóricos, glicemia pré-
+
+prandial, hemoglobina glicada,
+controle dos lipídeos e do peso,
+abstinência do fumo e atividade
+
+física regular).
+
+Equipe multiprofissional
+
+A inserção de outros profissionais,
+
+especialmente  nutricionistas,
+assistentes sociais, psicólogos,
+odontólogos, professores de
+
+educação física, é vista como bastante
+enriquecedora, destacando-se a
+
+importância da ação interdisciplinar
+
+para a prevenção dos fatores de risco,
+do DM e da HA, das doenças cardio,
+cerebrovasculares e renais.
+
+===== PÁGINA 49 DE 56 =====
+
+[COLUNA ESQUERDA]
+IX.  CRITÉRIOS         DE
+
+       ENCAMINHAM
+
+       REFERÊNCIA           E
+
+       CONTRA-REFE
+
+C
+     om a finalidade de garantir
+      a atenção  integral ao
+      portador de Risco Cardiovas-
+cular e renal, faz-se necessária uma
+
+normatização para acompanha-
+mento, mesmo na unidade básica de
+saúde. Em algumas situações, haverá
+necessidade de uma  consulta
+
+especializada em unidades de
+referência secundária ou terciária,
+devendo-se, nesses casos, ser
+
+estabelecida uma rede de referência
+e contra-referência.
+
+Critérios de encaminhamento para
+unidades de referência
+
+• Insuficiência cardíaca congestiva
+  (ICC)
+
+[COLUNA DIREITA]
+ENTOS       PARA
+
+E
+
+RÊNCIA
+
+  • Insuficiência renal crônica (IRC)
+
+  • Angina do peito
+
+  • Suspeita de HAS e diabetes
+
+    secundários
+
+  • HAS resistente ou grave
+
+  • HAS e DM em gestantes
+
+  • HAS e DM em crianças e
+    adolescentes
+
+  • Edema agudo de pulmão prévio
+
+  • Complicações oculares
+
+  • Lesões vasculares das
+
+    extremidades, incluindo o pé
+    diabético
+
+===== PÁGINA 50 DE 56 =====
+
+[COLUNA ESQUERDA]
+• AVE prévio com déficit sensitivo
+
+  e ou motor
+
+• Infarto agudo do miocárdio
+  prévio
+
+• Diabéticos de difícil controle
+
+• Diabéticos para rastreamento de
+
+  complicações crônicas (se isto não
+  for possível na unidade básica)
+
+• Dislipidemia de difícil controle
+
+• Doença aneurismática de aorta
+
+===== PÁGINA 51 DE 56 =====
+
+[COLUNA ESQUERDA]
+X.  BIBLIOGRAFIA
+
+Referências citadas no texto
+
+1. MRC/BHF Heart Protection Study
+
+of cholesterol lowering with
+simvastatin in 20,536 high-risk
+
+individuals: a randomised placebo-
+controlled trial. Lancet 2002; 360:7-
+
+22.
+
+2. Collaborative meta-analysis of
+randomised trials of antiplatelet
+
+therapy for prevention of death,
+myocardial infarction, and stroke in
+high risk patients. BMJ 2002; 324:71-
+
+86.
+
+3. Yusuf S, Sleight P, Pogue J, Bosch
+
+[COLUNA DIREITA]
+J, Davies R, Dagenais G. Effects of an
+angiotensin-converting-enzyme
+
+inhibitor, ramipril, on cardiovascular
+events in high-risk patients. The
+Heart  Outcomes  Prevention
+
+Evaluation Study Investigators. N
+Engl J Med 2000; 342:145-153.
+
+4. Randomised trial of a perindopril-
+
+based blood-pressure-lowering
+regimen among 6,105 individuals
+with previous stroke or transient
+
+ischaemic attack. Lancet 2001;
+358:1033-1041.
+
+5. The EURopean trial On reduction
+
+of cardiac events with Perindopril in
+stable coronary Artery disease
+
+===== PÁGINA 52 DE 56 =====
+
+[COLUNA ESQUERDA]
+Investigators. Efficacy of perindopril
+in reduction of cardiovascular events
+among patients with stable coronary
+
+artery disease: randomised, double-
+blind, placebo-controlled, multicentre
+
+trial (the EUROPA study). Lancet
+2003; 362:782-788.
+
+6. Scottish Intercollegiate Guideline
+Network. Lipids and the primary
+
+prevention of coronary heart
+disease. Scottish Intercollegiate
+
+Guideline Network. Disponível
+em:http://www.sign.ac.uk/pdf/
+qrg40.pdf . Acesso em: 27 julho 2003.
+
+7. Executive Summary of The Third
+
+Report of The National Cholesterol
+Education Program (NCEP) Expert
+Panel on Detection, Evaluation, And
+
+Treatment of High Blood Cholesterol
+In Adults (Adult Treatment Panel III).
+
+JAMA 2001; 285:2486-2497.
+
+8. U.S. Preventive Services Task Force
+(USPSTF). Agency for Healthcare
+Research and Quality. Disponível
+
+em:http://www.ahcpr.gov/clinic/
+uspstfix.htm. Acesso em: 12 setembro
+2003.
+
+9. Preventive Health Care. Canadian
+
+Task Force on Preventive Health
+Care.  Disponível  em:http://
+
+[COLUNA DIREITA]
+www.ctfphc.org/. Acesso em: 12
+setembro 2003.
+
+10. Santos RD. III Diretrizes Brasileiras
+Sobre Dislipidemias e Diretriz de
+Prevenção da Aterosclerose do
+Departamento de Aterosclerose da
+Sociedade Brasileira de Cardiologia.
+Arq Bras Cardiol 2001; 77 Suppl 3:1-
+48. [atualizar]
+
+11. Risk assessment tool for
+estimating your 10-year risk of having
+a heart attack. National Heart, Lung
+and Blood Institute. Disponível
+em:http://hin.nhlbi.nih.gov/atpiii/
+calculator.asp?usertype=pub. Acesso
+em: 26 julho 2003.
+
+ 12. Joint British societies coronary risk
+ prediction chart. British Hypertension
+ Society. Disponível em:http://
+
+ www.hyp.ac.uk/bhs/resources/
+ prediction_chart.htm. Acesso em: 26
+ julho 2003.
+ 13. Estimating Coronary Heart
+
+ Disease  (CHD)  Risk  Using
+ Framingham Heart Study Prediction
+ Score Sheets. National Heart, Lung
+ and Blood Institute. Disponível
+ em:http://www.nhlbi.nih.gov/about/
+ framingham/riskabs.htm. Acesso em:
+ 12 setembro 2003.
+
+ 14. D'Agostino RB, Sr., Grundy S,
+ Sullivan LM, Wilson P. Validation of
+ the Framingham coronary heart
+ disease prediction scores: results of a
+
+ multiple ethnic groups investigation.
+ JAMA 2001; 286:180-187.
+
+===== PÁGINA 53 DE 56 =====
+
+[COLUNA ESQUERDA]
+15.  Cardiovascular  Disease
+Programme.   WHO    CVD-risk
+management package for low- and
+
+medium-resource settings. World
+Health Organization. Disponível
+
+em:whqlibdoc.who.int/publications/
+2002/9241545852.pdf . Acesso em: 28
+julho 2003.
+
+16. Chobanian AV, Bakris GL, Black
+
+HR, Cushman WC, Green LA, Izzo JL,
+Jr. et al. The Seventh Report of the
+
+Joint National Committee on
+Prevention, Detection, Evaluation,
+and Treatment of High Blood
+
+Pressure: the JNC 7 report. JAMA
+2003; 289:2560-2572.
+
+17. Report of the Joint WHO/FAO
+Expert Consultation on Diet,
+
+Nutrition and the Prevention of
+Chronic Diseases. WHO Technical
+
+Report Series No. 916. Nutrition for
+Health and Development, World
+Health Organization. Disponível
+
+em:http://www.who.int/nut/
+index.htm. Acesso em: 18 julho 2003.
+
+18. Singh RB, Dubnov G, Niaz MA,
+
+Ghosh S, Singh R, Rastogi SS et al.
+Effect of an Indo-Mediterranean diet
+on progression of coronary artery
+
+disease in high risk patients (Indo-
+
+[COLUNA DIREITA]
+Mediterranean Diet Heart Study): a
+randomised single-blind trial. Lancet
+2002; 360:1455-1461.
+
+19. Hayden M, Pignone M, Phillips C,
+
+Mulrow C. Aspirin for the primary
+prevention of cardiovascular events:
+
+a summary of the evidence for the
+U.S. Preventive Services Task Force.
+Ann Intern Med 2002; 136:161-172.
+
+20.  Meyers  DG.  Myocardial
+
+infarction, stroke, and sudden
+cardiac death may be prevented by
+
+ influenza vaccination. Curr
+ Atheroscler Rep 2003; 5:146-149.
+
+ 21. Gurfinkel EP, de la Fuente RL,
+ Mendiz O, Mautner B. Influenza
+
+ vaccine pilot study in acute coronary
+ syndromes    and    planned
+
+ percutaneous       coronary
+ interventions: the FLU Vaccination
+ Acute  Coronary   Syndromes
+
+ (FLUVACS) Study. Circulation 2002;
+ 105:2143-2147.
+
+ 22. Manson JE, Hsia J, Johnson KC,
+ Rossouw JE, Assaf AR, Lasser NL et al.
+
+ Estrogen plus progestin and the risk
+ of coronary heart disease. N Engl J
+
+ Med 2003; 349:523-534.
+
+ 23. Psaty BM, Smith NL, Siscovick DS,
+
+===== PÁGINA 54 DE 56 =====
+
+[COLUNA ESQUERDA]
+Koepsell TD, Weiss NS, Heckbert SR
+et al. Health outcomes associated
+with antihypertensive therapies used
+
+as first-line agents. A systematic
+review and meta-analysis. JAMA
+
+1997; 277:739-745.
+
+24. Li PKT. Report with Consensus
+Statements of the International
+Society of Nephrology  2004
+
+Consensus Workshop on Prevention
+of Progression of Renal Disease.
+
+Kidney Int 2005, 67:S2-S7.
+
+25. Dirks JH, Zeeuw D, Agarwal SK et
+al. Prevention of Chronic Kidney and
+Vascular Disease: Toward Global
+
+Health Equit - The Bellagio 2004
+Declaration. Kidney Int 2005, 68:S1-S6.
+
+26. Rodriguez-Iturbe B, Bellorin-Font
+
+E. End-Stage  renal  Disease
+Prevention Strategies in Latin
+American. Kidney Int 2005, 68:S30-
+
+S36.
+
+27. Sociedade  Brasileira de
+Nefrologia. Diretrizes Brasileiras de
+
+Doença Renal Crônica. J Bras Nefrol
+2004, 24:1-49.
+
+28. Brasil. Ministério da Saúde -
+Política Nacional de Atenção ao
+
+Portador de Doença Renal. Caderno
+
+[COLUNA DIREITA]
+de Atenção Especializada. Brasília DF.
+www.saude.gov.br/svs, 2004.
+
+29. American Diabete Association.
+Nephropathy in Diabetes. Diabete
+
+Care 2004, 27:S79-S83.
+
+30. Ruilope LM. New European
+guidelines for management of
+hypertension: what is relevant for the
+nephrologists. Nephrol  Dial
+
+Transplant 2004, 19:524-528.
+
+31. Brown WW, Collins A, Chen SC,
+King K, Molony D, Gannon MR,
+Politoski G, Keane WF. Identification
+
+of persons at high risk for kidney
+disease via targeted screening: the
+NKF Kidney Early Evaluation Program.
+Kidney Int Suppl 2003, 83:S50-S55.
+
+32. Zatz R, Romão Jr JE, Noronha IL.
+
+Nephrology in Latin American, with
+emphasis on Brazil. Kidney Int 2003,
+83:S131-S134.
+
+33. Eknoyan G, Hostetter T, Bakris GL,
+
+Hebert L, Levey AS, Parving HH,
+Steffes MW, Toto R. Proteinuria and
+other markers of chronic kidney
+disease: a position statement of the
+
+national kidney foundation (NKF)
+and the national institute of diabete
+and digestive and kidney diseases
+
+(NIDDK). Am J Kidney Dis 2003,
+42:617-622.
+
+===== PÁGINA 55 DE 56 =====
+
+[COLUNA ESQUERDA]
+34. SarnaK   MJ,  Levey AS,
+Schoolwerth AC et al. Kidney Disease
+as a risk factor for development of
+
+cardiovascular disease: a statement
+from the American Heart Association
+Councils on Kidney in Cardiovascular
+
+Disease, High Blood Pressure
+Research, Clinical Cardiology and
+Epidemiology and Prevention.
+Circulation 2003, 108:2154-2169.
+
+35. K/DOQI clinical practice guidelines
+for chronic kidney disease. Am J
+Kidney Disease 2002, 39:S1-S246.
+
+36. Coresh J, Longenecker JC, Miller
+ER. Epidemiology of cardiovascular
+risk factors in chronic renal disease. J
+Am Soc Nephrol 1998, 9:S24-S30.
+
+Referências complementares
+
+1. Cardiovascular Disease Program.
+WHO   CVD-Risk  management
+package for low- and medium-
+Organization. Disponível em:
+whqlibdoc.who.int/publications/
+2002/9241545852.pdf . Acesso em: 12
+setembro 2003.
+
+2. Brasil. Ministério da Saúde.
+Secretaria de Políticas de Saúde.
+Departamento    de    Ações
+Programáticas Estratégicas. Plano de
+
+reorganização da  atenção à
+hipertensão arterial e ao diabete
+melito: hipertensão arterial e
+
+diabete melito / Departamento de
+Ações Programáticas Estratégicas. -
+
+[COLUNA DIREITA]
+Brasília: Ministério da Saúde,
+2001:104p.
+
+3. Duncan BB, Schmidt MI, Giugliani
+ERJ. Medicina  ambulatorial:
+
+condutas de atenção primária
+baseadas em evidências. 3a. ed. Porto
+Alegre: Artmed, 2004:1577p.
+
+4. Brasil. Ministério da Saúde.
+
+Secretaria de Atenção à Saúde.
+Coordenação-Geral da Política de
+
+Alimentação e Nutrição. Guia
+alimentar para a  população
+brasileira: Promovendo a alimenta-
+
+ção saudável / Ministério da Saúde,
+Secretaria de Atenção à Saúde,
+Coordenação-Geral da Política de
+
+Alimentação e Nutrição - Brasília:
+Ministério da Saúde, 2005: 236p.
+
+5. World Health Organization.
+
+Global strategy on diet, physical
+activity and health. Fifty-seventh
+World Health Assembly. WHA 57
+
+170.
+
+6. Ministério da Saúde. Secretaria de
+Assistência à Saúde. Coordenação
+
+Geral da Política de Alimentação e
+Nutrição. Guia Alimentar para a
+População  Brasileira, 2005.
+
+Disponível em  <www.saude/
+a l i m e n t a c a o e n u t r i c a o /
+
+===== PÁGINA 56 DE 56 =====
+
+[COLUNA ESQUERDA]
+documentos>. Acesso em 3 de
+novembro de 2005.
+
+7. Ministério da Saúde. Análise da
+Estratégia Global para Alimentação
+
+Saudável, Atividade Física e Saúde.
+Brasília, abril de 2004. Disponível em
+
+<www.saude/alimentacaoenutricao/
+documentos>. Acesso em 13 de maio
+de 2005.
+
+8. IV  Diretriz Brasileira de
+
+Hipertensão.     Hipertensão
+2002;5:123-63. Disponível em
+
+www.sbh.org.br/documentos/
+index.asp.
+
+9. Ministério da Saúde. Secretaria de
+Assistência à Saúde. Protocolos
+
+Clínicos e Diretrizes Terapêuticas.
+Medicamentos Expecionais. Brasília:
+
+Ministério da Saúde, 2002.
+
+================================================================================
+FIM DO CONTEÚDO EXTRAÍDO
