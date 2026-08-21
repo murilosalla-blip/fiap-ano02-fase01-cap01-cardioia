@@ -1,6 +1,6 @@
 # Plano de Execução — CardioIA: Fase 1, Cap. 1 (Busca de Dados)
 
-> **Este é o plano oficial da atividade.** Deve ser atualizado sempre que houver mudança de estratégia, novo requisito identificado, conclusão de etapa, decisão relevante ou alteração de sequenciamento. Fonte do enunciado: `document/other/Fase 1_Cap 1_Exercício.docx`.
+> **Este é o plano oficial da atividade.** Deve ser atualizado sempre que houver mudança de estratégia, novo requisito identificado, conclusão de etapa, decisão relevante ou alteração de sequenciamento. Fonte do enunciado: `document/other/fontes_parte1/Fase 1_Cap 1_Exercício.docx`.
 
 ## Contexto
 
@@ -41,7 +41,7 @@ Buscar e preparar três tipos de dados fundamentais para pacientes cardíacos: n
 
 ## Contexto complementar — mapa mental oficial CardioIA (fonte visual)
 
-> **Fonte:** `document/other/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg` (versão em alta resolução do mapa mental do enunciado). Todo o conteúdo abaixo é **DIRETRIZ/CONTEXTO DO MAPA MENTAL**, não requisito do enunciado desta fase.
+> **Fonte:** `document/other/fontes_parte1/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg` (versão em alta resolução do mapa mental do enunciado). Todo o conteúdo abaixo é **DIRETRIZ/CONTEXTO DO MAPA MENTAL**, não requisito do enunciado desta fase.
 
 ### As 7 fases do CardioIA (nomes e escopo resumido)
 
@@ -181,7 +181,12 @@ config/
 - Documento de apoio da Parte 1 criado: `document/other/parte1_dados_numericos.md` (fonte, descrição, justificativa clínica das principais variáveis, processo de preparação, governança/privacidade/viés) — pronto para consolidação no README final.
 - **Falta (ação manual pendente):** publicar o dataset em serviço de armazenamento público (OneDrive/Google Drive) com acesso "qualquer pessoa com o link" e inserir o link no espaço já reservado em `document/other/parte1_dados_numericos.md` e, futuramente, no README principal.
 
-### Parte 2 — Dados Textuais: PENDENTE (não iniciada)
+### Parte 2 — Dados Textuais: CONCLUÍDA TECNICAMENTE
+- Reorganização documental: `document/other/fontes_parte1/` passou a conter somente materiais externos/originais (`Fase 1_Cap 1_Exercício.docx` e o SVG do mapa mental); `plano_execucao.md`, `parte1_dados_numericos.md` e `readme.md` retornaram para `document/other/`. Referências internas atualizadas.
+- `document/other/fontes_parte2/` criada, com os 3 PDFs de origem preservados: `Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf` (56 p.), `PCDT_SindromesCoronarianasAgudas.pdf` (46 p.) e `Linha de Cuidado do Infarto Agudo do Miocárdio e o Protocolo de Síndromes Coronarianas Agudas.pdf` (75 p., mantido como fonte complementar).
+- Corpus final: `assets/textos/texto_01_prevencao_cardiovascular.txt` e `assets/textos/texto_02_sindromes_coronarianas_agudas.txt`, com metadados de rastreabilidade completos.
+- Corpus validado tecnicamente (UTF-8 sem corrupção, sem HTML, sequência de páginas íntegra e completa em ambos, seções/termos técnicos esperados presentes, sem sinais de truncamento) e auditado por amostragem estrutural contra os PDFs de origem.
+- Documento de apoio criado: `document/other/parte2_dados_textuais.md`.
 
 ### Parte 3 — Dados Visuais: PENDENTE (não iniciada)
 
@@ -228,7 +233,7 @@ Auditoria da Parte 1 identificou uma interpretação inadequada da variável ori
 *Histórico de atualizações:*
 - *Criação inicial deste arquivo: consolidação do plano aprovado em `~/.claude/plans/` após auditoria multimodal completa do enunciado (texto + imagens + tabelas). A partir desta versão, este arquivo é a fonte oficial do plano da atividade.*
 - *Atualização: Parte 1 validada (303 registros, 14 colunas, sem duplicidades, ausentes apenas em 2 colunas herdados da fonte). Criados `assets/dados/processed/dicionario_variaveis.md` e `document/other/parte1_dados_numericos.md`. Pendência restante da Parte 1: apenas a publicação externa do dataset e inserção do link público.*
-- *Atualização: incorporado contexto complementar do mapa mental oficial CardioIA (`document/other/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg`) — nomes/escopo das 7 fases e diretrizes de reutilização futura dos dados desta fase nas Fases 2 a 6. Nenhum novo requisito obrigatório foi criado; classificado integralmente como DIRETRIZ/CONTEXTO DO MAPA MENTAL.*
+- *Atualização: incorporado contexto complementar do mapa mental oficial CardioIA (`document/other/fontes_parte1/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg`) — nomes/escopo das 7 fases e diretrizes de reutilização futura dos dados desta fase nas Fases 2 a 6. Nenhum novo requisito obrigatório foi criado; classificado integralmente como DIRETRIZ/CONTEXTO DO MAPA MENTAL.*
 - *Atualização: `.gitignore` ajustado (exceções para `assets/dados/processed/*.csv` e `*.xlsx`) e Git local inicializado na raiz. Nenhum commit realizado. Repositório remoto GitHub ainda não criado; nome candidato `fiap-fase01-cap01-cardioia` aguardando aprovação.*
 - *Atualização: adicionada regra `.claude/` ao `.gitignore`. Primeiro commit local realizado (`e0c063a`) e segundo commit de atualização do plano (`b579e00`).*
 - *Atualização: branch local renomeada para `main`; repositório remoto `murilosalla-blip/fiap-fase01-cap01-cardioia` criado (público, vazio); remote `origin` configurado; primeiro push realizado com sucesso (`origin/main`).*
