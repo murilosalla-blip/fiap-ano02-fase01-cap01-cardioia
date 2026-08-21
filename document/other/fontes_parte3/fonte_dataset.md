@@ -43,4 +43,4 @@ O dataset completo (928 arquivos, ~586,7 MB) contém quase metade de conteúdo d
 
 ## Preservação do dataset original
 
-O dataset bruto completo (928 arquivos, ~586,7 MB) permanece apenas na fonte local original (`C:\Users\muril\Downloads\ecg_dataset_mendeley`, fora do repositório) e é referenciado por DOI/URL oficial do Mendeley Data. Não foi copiado para `document/other/fontes_parte3/`.
+O dataset bruto completo (928 arquivos, ~586,7 MB) permanece apenas em uma pasta local temporária de trabalho, fora do repositório, e é referenciado por DOI/URL oficial do Mendeley Data. Não foi copiado para `document/other/fontes_parte3/`.

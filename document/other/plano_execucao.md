@@ -130,11 +130,11 @@ config/
 
 ## Plano de execução sequencial (por peso de avaliação)
 
-1. **Dataset numérico (Parte 1 — peso 3)** — QUASE CONCLUÍDA (ver estado abaixo; falta apenas hospedagem externa)
-2. **Textos médicos/literários (Parte 2 — peso 2)** — PENDENTE
-3. **Imagens médicas (Parte 3 — peso 2)** — PENDENTE
-4. **README.md principal** — PENDENTE
-5. **Documento resumo formal (`document/ai_project_document_fiap.md`)** — PENDENTE
+1. **Dataset numérico (Parte 1 — peso 3)** — CONCLUÍDA TECNICAMENTE (falta apenas hospedagem externa/link público)
+2. **Textos médicos/literários (Parte 2 — peso 2)** — CONCLUÍDA TECNICAMENTE (falta apenas hospedagem externa/link público)
+3. **Imagens médicas (Parte 3 — peso 2)** — CONCLUÍDA TECNICAMENTE (falta apenas hospedagem externa/link público)
+4. **README.md principal** — CONCLUÍDO
+5. **Documento resumo formal (`document/ai_project_document_fiap.md`)** — CONCLUÍDO
 6. **Revisão final de governança/viés e prazo** — PENDENTE
 
 ## Estratégia de dados
@@ -199,20 +199,16 @@ config/
 - Documentação criada: `document/other/fontes_parte3/fonte_dataset.md`, `document/other/fontes_parte3/manifesto_amostra.csv` e `document/other/parte3_dados_visuais.md`.
 - **Link público externo da Parte 3: PENDENTE** — publicação externa a ser realizada no fechamento do projeto, mesmo padrão da Parte 1.
 
-### README.md principal: PENDENTE (não iniciado)
+### README.md principal: CONCLUÍDO — template FIAP preenchido (grupo, integrantes, tutor, coordenador, descrição, estrutura, execução, histórico).
 
-### Documento resumo formal: PENDENTE (não iniciado)
+### Documento resumo formal: CONCLUÍDO — `document/ai_project_document_fiap.md` preenchido em todos os capítulos do template.
 
 ### Revisão final de governança/viés e prazo: PENDENTE
 
 ## Próximos passos
 
-1. **Pendência manual da Parte 1 (proposital, para o fechamento do projeto):** publicar o dataset processado em OneDrive/Google Drive (link público) e preencher o espaço reservado em `document/other/parte1_dados_numericos.md`. Os arquivos ainda estão sendo sincronizados; o link será criado e testado apenas no fechamento.
-2. Iniciar Parte 2: buscar e salvar ≥2 textos `.txt` sobre saúde cardiovascular em `assets/textos/` (aguardando autorização para início).
-3. Iniciar Parte 3: reunir ≥100 imagens de um tipo de exame cardiológico e hospedar externamente.
-4. Preencher `README.md` (**pendente**; consolidação prevista para após a conclusão das Partes 1, 2 e 3, reaproveitando o conteúdo já pronto em `document/other/parte1_dados_numericos.md`).
-5. Preencher `document/ai_project_document_fiap.md`.
-6. Revisão final de governança/viés e prazo.
+1. **Pendência manual das Partes 1, 2 e 3 (proposital, para o fechamento do projeto):** publicar os três conjuntos de dados (numérico, textual e visual) em serviço de armazenamento público (OneDrive/Google Drive ou equivalente) e inserir os links nos espaços já reservados em `document/other/parte1_dados_numericos.md`, `document/other/parte2_dados_textuais.md`, `document/other/parte3_dados_visuais.md` e na seção `## 🔗 Links públicos dos conjuntos de dados` do `README.md`.
+2. Revisão final de governança/viés e prazo, após a publicação dos links.
 
 ## Correção pontual — interpretação da variável `thal`
 

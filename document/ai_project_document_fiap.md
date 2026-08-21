@@ -65,7 +65,7 @@ A metodologia seguida nesta fase consistiu em: (1) leitura integral e auditoria 
 
 ## 3.1. Tecnologias Utilizadas
 
-Python 3.12 como linguagem principal de preparação de dados; bibliotecas `csv` e `pathlib` (nativas) para o processamento do dataset numérico (Parte 1); `pypdf` para extração de texto de documentos oficiais em PDF (Parte 2); `Pillow` (PIL) e `hashlib` para inspeção, deduplicação e preparação das imagens de ECG (Parte 3); Git e GitHub para versionamento e hospedagem do repositório.
+Python 3.12 como linguagem principal de preparação de dados; bibliotecas `csv` e `pathlib` (nativas) para o processamento do dataset numérico (Parte 1); `Pillow` (PIL) e `hashlib` para inspeção, deduplicação e preparação das imagens de ECG (Parte 3); Git e GitHub para versionamento e hospedagem do repositório.
 
 ## 3.2. Modelagem e Algoritmos
 

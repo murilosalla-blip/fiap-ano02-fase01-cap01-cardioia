@@ -21,7 +21,7 @@ Detalhes completos da auditoria da fonte estão em `document/other/fontes_parte3
 ## Dataset original
 
 - 928 arquivos físicos `.jpg`, distribuídos em 4 classes (Myocardial Infarction, Abnormal Heartbeat, History of MI, Normal).
-- Resolução original uniforme: 2213 × 1572 pixels, modo RGB.
+- Resolução original uniforme: 2213 × 1572 pixels, modo RGB. Após a remoção do cabeçalho administrativo (ver seção "Preparação"), a resolução final das 120 imagens entregues é 2213 × 1289 pixels.
 - Tamanho total: aproximadamente 586,7 MB.
 - Divergência identificada: a pasta "Myocardial Infarction Patients (240x12=2880)" contém fisicamente 239 arquivos, não 240, como sugerido pela nomenclatura original da pasta.
 

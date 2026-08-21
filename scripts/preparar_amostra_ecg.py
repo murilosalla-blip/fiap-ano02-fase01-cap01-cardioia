@@ -7,6 +7,8 @@ visualmente em amostras das 4 classes) e grava o resultado em assets/imagens/ecg
 junto com o manifesto de rastreabilidade em document/other/fontes_parte3/.
 
 Fonte bruta (não incluída no repositório): pasta local informada em RAW_DIR.
+Ajuste RAW_DIR para o caminho onde o dataset bruto do Mendeley Data foi baixado
+e extraído na sua máquina antes de executar este script.
 """
 
 import csv
@@ -16,7 +18,7 @@ from pathlib import Path
 
 from PIL import Image
 
-RAW_DIR = Path(r"C:\Users\muril\Downloads\ecg_dataset_mendeley")
+RAW_DIR = Path("ecg_dataset_mendeley")  # ajuste para o caminho local do dataset bruto extraído
 OUT_DIR = Path("assets/imagens/ecg")
 MANIFEST_PATH = Path("document/other/fontes_parte3/manifesto_amostra.csv")
 
