@@ -62,6 +62,12 @@ Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficia
 - `document/other/`: plano de execução, documentos de apoio de cada parte (`parte1_dados_numericos.md`, `parte2_dados_textuais.md`, `parte3_dados_visuais.md`) e materiais de origem/fonte (`fontes_parte1/`, `fontes_parte2/`, `fontes_parte3/`).
 - `scripts/`: scripts de preparação/reprodução dos datasets.
 
+## 🔗 Links públicos dos conjuntos de dados
+
+- **Parte 1 — Dados Numéricos:** PENDENTE — inserir link público no fechamento final.
+- **Parte 2 — Dados Textuais:** PENDENTE — inserir link público no fechamento final.
+- **Parte 3 — Dados Visuais:** PENDENTE — inserir link público no fechamento final.
+
 ## 🔧 Como executar o código
 
 Esta fase é de preparação e curadoria de dados — não há aplicação ou modelo de IA para executar. Os datasets finais já estão disponíveis nas pastas indicadas acima, prontos para consumo em fases futuras (Colab/Jupyter).
