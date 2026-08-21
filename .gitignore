@@ -1,0 +1,37 @@
+# Datasets tabulares (bloqueio padrão para evitar versionar dados grandes/sensíveis por engano)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# Exceção: datasets processados exigidos pela atividade FIAP (devem ser versionados)
+!assets/dados/processed/*.csv
+!assets/dados/processed/*.xlsx
+
+# Segredos e variáveis de ambiente
+.env
+.env.*
+*.pem
+*.key
+
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+
+# Cache e artefatos Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ferramentas/editores
+.vscode/
+.idea/
+
+# Configurações locais do Claude Code (não fazem parte da entrega acadêmica)
+.claude/
