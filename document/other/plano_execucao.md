@@ -176,7 +176,7 @@ config/
 - Original intacto salvo em `assets/dados/raw/heart+disease/` (arquivos-fonte da UCI, não modificados).
 - Versão tratada gerada em `assets/dados/processed/heart_disease_cleveland.csv` (303 linhas + cabeçalho, 14 variáveis clínicas com nomes/valores legíveis em português) — **já em formato `.csv`, cumprindo o requisito de formato**.
 - Script de processamento salvo em `scripts/preparar_dataset_numerico.py` (reprodutível a partir do dado bruto).
-- Dataset **validado**: 303 registros, 14 colunas, sem duplicidades, valores ausentes reais apenas em `num_vasos_principais` (4) e `talassemia` (2), herdados da fonte oficial e preservados sem imputação.
+- Dataset **validado**: 303 registros, 14 colunas, sem duplicidades, valores ausentes reais apenas em `num_vasos_principais` (4) e `resultado_thal` (2), herdados da fonte oficial e preservados sem imputação.
 - Dicionário de variáveis criado: `assets/dados/processed/dicionario_variaveis.md` (uma linha por coluna, com nome original UCI, significado, tipo, valores possíveis e interpretação clínica básica).
 - Documento de apoio da Parte 1 criado: `document/other/parte1_dados_numericos.md` (fonte, descrição, justificativa clínica das principais variáveis, processo de preparação, governança/privacidade/viés) — pronto para consolidação no README final.
 - **Falta (ação manual pendente):** publicar o dataset em serviço de armazenamento público (OneDrive/Google Drive) com acesso "qualquer pessoa com o link" e inserir o link no espaço já reservado em `document/other/parte1_dados_numericos.md` e, futuramente, no README principal.
@@ -193,12 +193,21 @@ config/
 
 ## Próximos passos
 
-1. **Pendência manual da Parte 1:** publicar o dataset processado em OneDrive/Google Drive (link público) e preencher o espaço reservado em `document/other/parte1_dados_numericos.md`.
+1. **Pendência manual da Parte 1 (proposital, para o fechamento do projeto):** publicar o dataset processado em OneDrive/Google Drive (link público) e preencher o espaço reservado em `document/other/parte1_dados_numericos.md`. Os arquivos ainda estão sendo sincronizados; o link será criado e testado apenas no fechamento.
 2. Iniciar Parte 2: buscar e salvar ≥2 textos `.txt` sobre saúde cardiovascular em `assets/textos/` (aguardando autorização para início).
 3. Iniciar Parte 3: reunir ≥100 imagens de um tipo de exame cardiológico e hospedar externamente.
-4. Preencher `README.md` (consolidando o conteúdo já pronto em `document/other/parte1_dados_numericos.md`).
+4. Preencher `README.md` (**pendente**; consolidação prevista para após a conclusão das Partes 1, 2 e 3, reaproveitando o conteúdo já pronto em `document/other/parte1_dados_numericos.md`).
 5. Preencher `document/ai_project_document_fiap.md`.
 6. Revisão final de governança/viés e prazo.
+
+## Correção pontual — interpretação da variável `thal`
+
+Auditoria da Parte 1 identificou uma interpretação inadequada da variável original `thal` da UCI, que havia sido traduzida no dataset processado como `talassemia`. A documentação oficial usada no projeto (`assets/dados/raw/heart+disease/heart-disease.names`) registra apenas os códigos e rótulos do atributo (`3 = normal; 6 = fixed defect; 7 = reversable defect`), sem expandir o significado da sigla `thal` — portanto, a expansão "talassemia" não é sustentada pelas fontes disponíveis no projeto e foi removida.
+
+- Coluna processada corrigida de `talassemia` para `resultado_thal` em todos os artefatos derivados: `scripts/preparar_dataset_numerico.py`, `assets/dados/processed/heart_disease_cleveland.csv`, `assets/dados/processed/dicionario_variaveis.md`, `document/other/parte1_dados_numericos.md`.
+- O atributo original UCI continua identificado como `thal` (sem alteração) em todas as referências à fonte.
+- Script, CSV processado e documentação foram sincronizados e revalidados (303 registros, 14 colunas, sem duplicidades, 4 ausentes em `num_vasos_principais`, 2 ausentes em `resultado_thal`; nenhuma outra transformação/dado alterado).
+- Dados brutos da UCI (`assets/dados/raw/`) não foram alterados.
 
 ## Versionamento (Git/GitHub)
 
@@ -223,3 +232,4 @@ config/
 - *Atualização: `.gitignore` ajustado (exceções para `assets/dados/processed/*.csv` e `*.xlsx`) e Git local inicializado na raiz. Nenhum commit realizado. Repositório remoto GitHub ainda não criado; nome candidato `fiap-fase01-cap01-cardioia` aguardando aprovação.*
 - *Atualização: adicionada regra `.claude/` ao `.gitignore`. Primeiro commit local realizado (`e0c063a`) e segundo commit de atualização do plano (`b579e00`).*
 - *Atualização: branch local renomeada para `main`; repositório remoto `murilosalla-blip/fiap-fase01-cap01-cardioia` criado (público, vazio); remote `origin` configurado; primeiro push realizado com sucesso (`origin/main`).*
+- *Atualização: corrigida interpretação inadequada da variável `thal` — coluna processada renomeada de `talassemia` para `resultado_thal` em script, CSV, dicionário e documento de apoio da Parte 1, sem alterar dados brutos nem a nomenclatura do atributo original UCI (`thal`). Link externo e README final seguem propositalmente pendentes para o fechamento do projeto.*

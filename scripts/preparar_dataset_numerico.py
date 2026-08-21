@@ -26,7 +26,7 @@ COLUNAS = [
     "depressao_st_exercicio",
     "inclinacao_st_pico_exercicio",
     "num_vasos_principais",
-    "talassemia",
+    "resultado_thal",
     "diagnostico_doenca_cardiaca",
 ]
 
@@ -40,7 +40,7 @@ MAPA_TIPO_DOR = {
 MAPA_BOOL = {"1.0": "sim", "0.0": "nao"}
 MAPA_ECG = {"0.0": "normal", "1.0": "anormalidade_onda_st_t", "2.0": "hipertrofia_ventricular_esquerda"}
 MAPA_INCLINACAO = {"1.0": "ascendente", "2.0": "plana", "3.0": "descendente"}
-MAPA_TALASSEMIA = {"3.0": "normal", "6.0": "defeito_fixo", "7.0": "defeito_reversivel"}
+MAPA_THAL = {"3.0": "normal", "6.0": "defeito_fixo", "7.0": "defeito_reversivel"}
 
 
 def traduzir_linha(campos):
@@ -61,7 +61,7 @@ def traduzir_linha(campos):
         oldpeak,
         MAPA_INCLINACAO.get(slope, slope),
         ca if ca != "?" else "ausente",
-        MAPA_TALASSEMIA.get(thal, "ausente" if thal == "?" else thal),
+        MAPA_THAL.get(thal, "ausente" if thal == "?" else thal),
         diagnostico,
     ]
 

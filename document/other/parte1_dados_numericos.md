@@ -20,7 +20,7 @@ O dataset original contém 76 atributos coletados de pacientes submetidos a aval
 - **Registros:** 303 pacientes (linhas de dados), acima do mínimo de 100 exigido pelo enunciado.
 - **Variáveis:** 14 colunas — 13 variáveis preditoras (demográficas, clínicas e de exame) e 1 variável-alvo (diagnóstico de doença cardíaca).
 - **Duplicidades:** nenhuma linha duplicada.
-- **Valores ausentes:** 4 registros com `num_vasos_principais` ausente e 2 registros com `talassemia` ausente (herdados da fonte oficial, preservados sem imputação).
+- **Valores ausentes:** 4 registros com `num_vasos_principais` ausente e 2 registros com `resultado_thal` ausente (herdados da fonte oficial, preservados sem imputação).
 
 ## Formato utilizado
 

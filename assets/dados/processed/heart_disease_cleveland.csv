@@ -1,4 +1,4 @@
-idade,sexo,tipo_dor_peito,pressao_arterial_repouso,colesterol,acucar_jejum_maior_120,eletrocardiograma_repouso,frequencia_cardiaca_maxima,angina_induzida_exercicio,depressao_st_exercicio,inclinacao_st_pico_exercicio,num_vasos_principais,talassemia,diagnostico_doenca_cardiaca
+idade,sexo,tipo_dor_peito,pressao_arterial_repouso,colesterol,acucar_jejum_maior_120,eletrocardiograma_repouso,frequencia_cardiaca_maxima,angina_induzida_exercicio,depressao_st_exercicio,inclinacao_st_pico_exercicio,num_vasos_principais,resultado_thal,diagnostico_doenca_cardiaca
 63,masculino,angina_tipica,145.0,233.0,sim,hipertrofia_ventricular_esquerda,150.0,nao,2.3,descendente,0.0,defeito_fixo,ausente
 67,masculino,assintomatico,160.0,286.0,nao,hipertrofia_ventricular_esquerda,108.0,sim,1.5,plana,3.0,normal,presente
 67,masculino,assintomatico,120.0,229.0,nao,hipertrofia_ventricular_esquerda,129.0,sim,2.6,plana,2.0,defeito_reversivel,presente
