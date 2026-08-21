@@ -188,7 +188,16 @@ config/
 - Corpus validado tecnicamente (UTF-8 sem corrupção, sem HTML, sequência de páginas íntegra e completa em ambos, seções/termos técnicos esperados presentes, sem sinais de truncamento) e auditado por amostragem estrutural contra os PDFs de origem.
 - Documento de apoio criado: `document/other/parte2_dados_textuais.md`.
 
-### Parte 3 — Dados Visuais: PENDENTE (não iniciada)
+### Parte 3 — Dados Visuais: CONCLUÍDA TECNICAMENTE
+- Modalidade escolhida: Eletrocardiograma (ECG).
+- Fonte validada: "ECG Images dataset of Cardiac Patients — Version 2" (Khan & Hussain, Mendeley Data, DOI 10.17632/gwbz3fsgp8.2, CC BY 4.0).
+- Dataset original auditado localmente: 928 arquivos físicos, 4 classes, resolução 2213×1572, ~586,7 MB.
+- Duplicidades identificadas: 437 dos 928 arquivos (≈47%) eram cópias binárias exatas (hash SHA-256) em 3 das 4 classes; apenas 491 imagens eram únicas. Divergência de nomenclatura resolvida (pasta "240x12" continha fisicamente 239 arquivos).
+- Amostra final definida: 30 imagens únicas por classe, 120 imagens no total, seleção determinística e reprodutível (`random_state = 42`), sem duplicatas exatas.
+- Preparação aplicada: remoção do cabeçalho administrativo (ID de paciente, data/hora, dados demográficos) por crop validado visualmente; remoção de metadados EXIF; sem redimensionamento ou alteração do traçado clínico.
+- Imagens validadas tecnicamente (formato, dimensões, integridade, ausência de duplicidade) e por auditoria visual.
+- Documentação criada: `document/other/fontes_parte3/fonte_dataset.md`, `document/other/fontes_parte3/manifesto_amostra.csv` e `document/other/parte3_dados_visuais.md`.
+- **Link público externo da Parte 3: PENDENTE** — publicação externa a ser realizada no fechamento do projeto, mesmo padrão da Parte 1.
 
 ### README.md principal: PENDENTE (não iniciado)
 
