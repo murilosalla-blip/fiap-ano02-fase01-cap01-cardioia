@@ -77,3 +77,7 @@ Este corpus poderá ser reaproveitado na **Fase 5 — Assistente Cardiológico V
 ## Observação de uso acadêmico
 
 O conteúdo destes textos tem finalidade exclusivamente acadêmica e exploratória no contexto da atividade FIAP. Não constitui, nem deve ser interpretado como, ferramenta de diagnóstico médico ou substituto de avaliação clínica profissional.
+
+## Link público para hospedagem externa
+
+**PENDENTE** — inserir link público no fechamento final. O link será referente ao corpus textual final presente em `assets/textos/`.
