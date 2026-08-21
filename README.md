@@ -17,7 +17,7 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- Ana Cristina dos Santos
+- Leonardo Ruiz Orabona
 ### Coordenador(a)
 - André Godoi Chiovato
 
