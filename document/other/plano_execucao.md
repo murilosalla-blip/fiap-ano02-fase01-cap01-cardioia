@@ -226,9 +226,9 @@ Auditoria da Parte 1 identificou uma interpretação inadequada da variável ori
 - **`.claude/` configurado para não ser versionado:** regra `.claude/` adicionada ao `.gitignore` — confirmado via `git check-ignore` que `.claude/settings.local.json` passou a ser ignorado.
 - **Branch padrão:** `main` (renomeada de `master`).
 - **Proprietário GitHub:** `murilosalla-blip`.
-- **Repositório remoto:** criado — `murilosalla-blip/fiap-fase01-cap01-cardioia`, público, sem README/`.gitignore`/licença automáticos.
-- **URL:** `https://github.com/murilosalla-blip/fiap-fase01-cap01-cardioia`
-- **Remote `origin`:** configurado (`https://github.com/murilosalla-blip/fiap-fase01-cap01-cardioia.git`), fetch e push corretos.
+- **Repositório remoto:** criado — `murilosalla-blip/fiap-ano02-fase01-cap01-cardioia` (renomeado de `fiap-fase01-cap01-cardioia` para incluir o Ano 2), público, sem README/`.gitignore`/licença automáticos.
+- **URL:** `https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia`
+- **Remote `origin`:** configurado (`https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git`), fetch e push corretos.
 - **Primeiro commit:** concluído — hash curto `e0c063a` ("chore: estrutura inicial do projeto CardioIA", 39 arquivos).
 - **Segundo commit:** concluído — hash curto `b579e00` ("docs: atualiza estado de versionamento do projeto").
 - **Primeiro push:** concluído — branch `main` enviada, upstream `origin/main` configurado.
@@ -243,3 +243,4 @@ Auditoria da Parte 1 identificou uma interpretação inadequada da variável ori
 - *Atualização: adicionada regra `.claude/` ao `.gitignore`. Primeiro commit local realizado (`e0c063a`) e segundo commit de atualização do plano (`b579e00`).*
 - *Atualização: branch local renomeada para `main`; repositório remoto `murilosalla-blip/fiap-fase01-cap01-cardioia` criado (público, vazio); remote `origin` configurado; primeiro push realizado com sucesso (`origin/main`).*
 - *Atualização: corrigida interpretação inadequada da variável `thal` — coluna processada renomeada de `talassemia` para `resultado_thal` em script, CSV, dicionário e documento de apoio da Parte 1, sem alterar dados brutos nem a nomenclatura do atributo original UCI (`thal`). Link externo e README final seguem propositalmente pendentes para o fechamento do projeto.*
+- *Atualização: repositório remoto renomeado de `fiap-fase01-cap01-cardioia` para `fiap-ano02-fase01-cap01-cardioia` (preservando histórico via `gh repo rename`), para alinhar o nome ao Ano 2 da FIAP. Remote `origin` local atualizado; referências ao nome antigo corrigidas em `README.md` e neste plano.*

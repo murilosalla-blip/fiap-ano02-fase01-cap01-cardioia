@@ -26,7 +26,7 @@
 
 O **CardioIA** é um projeto acadêmico da FIAP que simula, ao longo de 7 fases, um ecossistema de cardiologia inteligente, integrando dados clínicos, IoT, Machine Learning, Visão Computacional e NLP para apoiar o cuidado cardiovascular. Nesta **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"**, o papel assumido pela equipe é o de cientista de dados hospitalar: buscar, organizar, validar e documentar três tipos de dados fundamentais para a saúde cardiovascular — numéricos, textuais e visuais — que servirão de base para as fases seguintes do curso (diagnóstico automatizado por IA, monitoramento via IoT, visão computacional em exames e assistente virtual por NLP).
 
-O repositório está disponível em [github.com/murilosalla-blip/fiap-fase01-cap01-cardioia](https://github.com/murilosalla-blip/fiap-fase01-cap01-cardioia).
+O repositório está disponível em [github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia).
 
 **Parte 1 — Dados Numéricos:** utiliza o dataset público *Heart Disease (Cleveland)*, do UCI Machine Learning Repository (303 registros, 14 variáveis clínicas — idade, sexo, pressão arterial, colesterol, sintomas, frequência cardíaca, entre outras), processado e documentado em `assets/dados/processed/`, com dicionário de variáveis e justificativa clínica da relevância de cada atributo para aplicações futuras de Machine Learning (Fase 2).
 
@@ -76,7 +76,7 @@ Esta fase é de preparação e curadoria de dados — não há aplicação ou mo
 
 **Clonar o repositório:**
 ```
-git clone https://github.com/murilosalla-blip/fiap-fase01-cap01-cardioia.git
+git clone https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git
 ```
 
 **Reproduzir o dataset numérico da Parte 1** (gera `assets/dados/processed/heart_disease_cleveland.csv` a partir do dado bruto em `assets/dados/raw/`):
