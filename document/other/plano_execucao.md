@@ -205,12 +205,14 @@ config/
 - **Git local:** inicializado (`git init`) na raiz do repositório em 21/08/2026. Nenhum commit realizado ainda neste momento.
 - **`.gitignore`:** ajustado para permitir o versionamento dos datasets processados exigidos pela atividade (`assets/dados/processed/*.csv`, `assets/dados/processed/*.xlsx`), mantendo o bloqueio padrão de tabelas genéricas (`*.csv`, `*.tsv`, `*.xls`, `*.xlsx`) fora dessa pasta, além de proteções para `.env`/segredos, ambientes virtuais Python, cache Python e arquivos de SO/editor.
 - **`.claude/` configurado para não ser versionado:** regra `.claude/` adicionada ao `.gitignore` — confirmado via `git check-ignore` que `.claude/settings.local.json` passou a ser ignorado.
+- **Branch padrão:** `main` (renomeada de `master`).
 - **Proprietário GitHub:** `murilosalla-blip`.
-- **Repositório remoto:** ainda não criado.
-- **Nome planejado do repositório remoto:** `fiap-fase01-cap01-cardioia` (aprovado como candidato; criação ainda pendente).
+- **Repositório remoto:** criado — `murilosalla-blip/fiap-fase01-cap01-cardioia`, público, sem README/`.gitignore`/licença automáticos.
+- **URL:** `https://github.com/murilosalla-blip/fiap-fase01-cap01-cardioia`
+- **Remote `origin`:** configurado (`https://github.com/murilosalla-blip/fiap-fase01-cap01-cardioia.git`), fetch e push corretos.
 - **Primeiro commit:** concluído — hash curto `e0c063a` ("chore: estrutura inicial do projeto CardioIA", 39 arquivos).
-- **Repositório remoto:** ainda não criado.
-- **Push:** ainda não realizado.
+- **Segundo commit:** concluído — hash curto `b579e00` ("docs: atualiza estado de versionamento do projeto").
+- **Primeiro push:** concluído — branch `main` enviada, upstream `origin/main` configurado.
 - **Parte 2:** ainda não iniciada.
 
 ---
@@ -219,3 +221,5 @@ config/
 - *Atualização: Parte 1 validada (303 registros, 14 colunas, sem duplicidades, ausentes apenas em 2 colunas herdados da fonte). Criados `assets/dados/processed/dicionario_variaveis.md` e `document/other/parte1_dados_numericos.md`. Pendência restante da Parte 1: apenas a publicação externa do dataset e inserção do link público.*
 - *Atualização: incorporado contexto complementar do mapa mental oficial CardioIA (`document/other/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg`) — nomes/escopo das 7 fases e diretrizes de reutilização futura dos dados desta fase nas Fases 2 a 6. Nenhum novo requisito obrigatório foi criado; classificado integralmente como DIRETRIZ/CONTEXTO DO MAPA MENTAL.*
 - *Atualização: `.gitignore` ajustado (exceções para `assets/dados/processed/*.csv` e `*.xlsx`) e Git local inicializado na raiz. Nenhum commit realizado. Repositório remoto GitHub ainda não criado; nome candidato `fiap-fase01-cap01-cardioia` aguardando aprovação.*
+- *Atualização: adicionada regra `.claude/` ao `.gitignore`. Primeiro commit local realizado (`e0c063a`) e segundo commit de atualização do plano (`b579e00`).*
+- *Atualização: branch local renomeada para `main`; repositório remoto `murilosalla-blip/fiap-fase01-cap01-cardioia` criado (público, vazio); remote `origin` configurado; primeiro push realizado com sucesso (`origin/main`).*
