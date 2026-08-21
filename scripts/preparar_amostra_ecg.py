@@ -4,7 +4,7 @@ dataset bruto "ECG Images dataset of Cardiac Patients" (Mendeley, Khan & Hussain
 DOI 10.17632/gwbz3fsgp8.2), remove duplicatas exatas (por hash SHA-256), aplica
 o crop de remoção do cabeçalho administrativo (região 0-283px, validada
 visualmente em amostras das 4 classes) e grava o resultado em assets/imagens/ecg/,
-junto com o manifesto de rastreabilidade em document/other/fontes_parte3/.
+junto com o manifesto de rastreabilidade em document/other/referencias/parte3/.
 
 Fonte bruta (não incluída no repositório): pasta local informada em RAW_DIR.
 Ajuste RAW_DIR para o caminho onde o dataset bruto do Mendeley Data foi baixado
@@ -20,7 +20,7 @@ from PIL import Image
 
 RAW_DIR = Path("ecg_dataset_mendeley")  # ajuste para o caminho local do dataset bruto extraído
 OUT_DIR = Path("assets/imagens/ecg")
-MANIFEST_PATH = Path("document/other/fontes_parte3/manifesto_amostra.csv")
+MANIFEST_PATH = Path("document/other/referencias/parte3/manifesto_amostra.csv")
 
 CROP_TOP = 283  # remove cabeçalho administrativo (ID, data/hora, dados demográficos)
 

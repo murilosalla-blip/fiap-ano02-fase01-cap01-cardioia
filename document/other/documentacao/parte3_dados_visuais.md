@@ -16,7 +16,7 @@ O enunciado exige no mínimo 100 imagens (.jpg ou .png) de um único tipo de exa
 - **URL oficial:** https://data.mendeley.com/datasets/gwbz3fsgp8/2
 - **Licença:** CC BY 4.0
 
-Detalhes completos da auditoria da fonte estão em `document/other/fontes_parte3/fonte_dataset.md`.
+Detalhes completos da auditoria da fonte estão em `document/other/referencias/parte3/fonte_dataset.md`.
 
 ## Dataset original
 
@@ -44,7 +44,7 @@ Duplicatas exatas foram excluídas da amostra final porque não agregam diversid
 - 30 imagens únicas por classe, 4 classes, **120 imagens no total** — acima do mínimo de 100 exigido pela FIAP.
 - Nenhuma duplicata exata entre os arquivos finais (confirmado por hash SHA-256).
 - Seleção determinística e reprodutível: `random_state = 42`, via script `scripts/preparar_amostra_ecg.py`.
-- Manifesto de rastreabilidade completo em `document/other/fontes_parte3/manifesto_amostra.csv` (arquivo original, hash, arquivo final, classe, transformação aplicada).
+- Manifesto de rastreabilidade completo em `document/other/referencias/parte3/manifesto_amostra.csv` (arquivo original, hash, arquivo final, classe, transformação aplicada).
 
 ## Preparação
 

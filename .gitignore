@@ -8,6 +8,9 @@
 !assets/dados/processed/*.csv
 !assets/dados/processed/*.xlsx
 
+# Exceção: manifesto de rastreabilidade da amostra de imagens da Parte 3 (documentação técnica, não dataset bruto)
+!document/other/referencias/parte3/*.csv
+
 # Segredos e variáveis de ambiente
 .env
 .env.*

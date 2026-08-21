@@ -1,6 +1,6 @@
 # Plano de Execução — CardioIA: Fase 1, Cap. 1 (Busca de Dados)
 
-> **Este é o plano oficial da atividade.** Deve ser atualizado sempre que houver mudança de estratégia, novo requisito identificado, conclusão de etapa, decisão relevante ou alteração de sequenciamento. Fonte do enunciado: `document/other/fontes_parte1/Fase 1_Cap 1_Exercício.docx`.
+> **Este é o plano oficial da atividade.** Deve ser atualizado sempre que houver mudança de estratégia, novo requisito identificado, conclusão de etapa, decisão relevante ou alteração de sequenciamento. Fonte do enunciado: `document/other/referencias/enunciado/Fase 1_Cap 1_Exercício.docx`.
 
 ## Contexto
 
@@ -41,7 +41,7 @@ Buscar e preparar três tipos de dados fundamentais para pacientes cardíacos: n
 
 ## Contexto complementar — mapa mental oficial CardioIA (fonte visual)
 
-> **Fonte:** `document/other/fontes_parte1/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg` (versão em alta resolução do mapa mental do enunciado). Todo o conteúdo abaixo é **DIRETRIZ/CONTEXTO DO MAPA MENTAL**, não requisito do enunciado desta fase.
+> **Fonte:** `document/other/referencias/enunciado/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg` (versão em alta resolução do mapa mental do enunciado). Todo o conteúdo abaixo é **DIRETRIZ/CONTEXTO DO MAPA MENTAL**, não requisito do enunciado desta fase.
 
 ### As 7 fases do CardioIA (nomes e escopo resumido)
 
@@ -178,15 +178,15 @@ config/
 - Script de processamento salvo em `scripts/preparar_dataset_numerico.py` (reprodutível a partir do dado bruto).
 - Dataset **validado**: 303 registros, 14 colunas, sem duplicidades, valores ausentes reais apenas em `num_vasos_principais` (4) e `resultado_thal` (2), herdados da fonte oficial e preservados sem imputação.
 - Dicionário de variáveis criado: `assets/dados/processed/dicionario_variaveis.md` (uma linha por coluna, com nome original UCI, significado, tipo, valores possíveis e interpretação clínica básica).
-- Documento de apoio da Parte 1 criado: `document/other/parte1_dados_numericos.md` (fonte, descrição, justificativa clínica das principais variáveis, processo de preparação, governança/privacidade/viés) — pronto para consolidação no README final.
-- **Falta (ação manual pendente):** publicar o dataset em serviço de armazenamento público (OneDrive/Google Drive) com acesso "qualquer pessoa com o link" e inserir o link no espaço já reservado em `document/other/parte1_dados_numericos.md` e, futuramente, no README principal.
+- Documento de apoio da Parte 1 criado: `document/other/documentacao/parte1_dados_numericos.md` (fonte, descrição, justificativa clínica das principais variáveis, processo de preparação, governança/privacidade/viés) — pronto para consolidação no README final.
+- **Falta (ação manual pendente):** publicar o dataset em serviço de armazenamento público (OneDrive/Google Drive) com acesso "qualquer pessoa com o link" e inserir o link no espaço já reservado em `document/other/documentacao/parte1_dados_numericos.md` e, futuramente, no README principal.
 
 ### Parte 2 — Dados Textuais: CONCLUÍDA TECNICAMENTE
-- Reorganização documental: `document/other/fontes_parte1/` passou a conter somente materiais externos/originais (`Fase 1_Cap 1_Exercício.docx` e o SVG do mapa mental); `plano_execucao.md`, `parte1_dados_numericos.md` e `readme.md` retornaram para `document/other/`. Referências internas atualizadas.
-- `document/other/fontes_parte2/` criada, com os 3 PDFs de origem preservados: `Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf` (56 p.), `PCDT_SindromesCoronarianasAgudas.pdf` (46 p.) e `Linha de Cuidado do Infarto Agudo do Miocárdio e o Protocolo de Síndromes Coronarianas Agudas.pdf` (75 p., mantido como fonte complementar).
+- Reorganização documental: `document/other/referencias/enunciado/` passou a conter somente materiais externos/originais (`Fase 1_Cap 1_Exercício.docx` e o SVG do mapa mental); `plano_execucao.md`, `parte1_dados_numericos.md` e `readme.md` retornaram para `document/other/`. Referências internas atualizadas.
+- `document/other/referencias/parte2/` criada, com os 3 PDFs de origem preservados: `Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf` (56 p.), `PCDT_SindromesCoronarianasAgudas.pdf` (46 p.) e `Linha de Cuidado do Infarto Agudo do Miocárdio e o Protocolo de Síndromes Coronarianas Agudas.pdf` (75 p., mantido como fonte complementar).
 - Corpus final: `assets/textos/texto_01_prevencao_cardiovascular.txt` e `assets/textos/texto_02_sindromes_coronarianas_agudas.txt`, com metadados de rastreabilidade completos.
 - Corpus validado tecnicamente (UTF-8 sem corrupção, sem HTML, sequência de páginas íntegra e completa em ambos, seções/termos técnicos esperados presentes, sem sinais de truncamento) e auditado por amostragem estrutural contra os PDFs de origem.
-- Documento de apoio criado: `document/other/parte2_dados_textuais.md`.
+- Documento de apoio criado: `document/other/documentacao/parte2_dados_textuais.md`.
 
 ### Parte 3 — Dados Visuais: CONCLUÍDA TECNICAMENTE
 - Modalidade escolhida: Eletrocardiograma (ECG).
@@ -196,7 +196,7 @@ config/
 - Amostra final definida: 30 imagens únicas por classe, 120 imagens no total, seleção determinística e reprodutível (`random_state = 42`), sem duplicatas exatas.
 - Preparação aplicada: remoção do cabeçalho administrativo (ID de paciente, data/hora, dados demográficos) por crop validado visualmente; remoção de metadados EXIF; sem redimensionamento ou alteração do traçado clínico.
 - Imagens validadas tecnicamente (formato, dimensões, integridade, ausência de duplicidade) e por auditoria visual.
-- Documentação criada: `document/other/fontes_parte3/fonte_dataset.md`, `document/other/fontes_parte3/manifesto_amostra.csv` e `document/other/parte3_dados_visuais.md`.
+- Documentação criada: `document/other/referencias/parte3/fonte_dataset.md`, `document/other/referencias/parte3/manifesto_amostra.csv` e `document/other/documentacao/parte3_dados_visuais.md`.
 - **Link público externo da Parte 3: PENDENTE** — publicação externa a ser realizada no fechamento do projeto, mesmo padrão da Parte 1.
 
 ### README.md principal: CONCLUÍDO — template FIAP preenchido (grupo, integrantes, tutor, coordenador, descrição, estrutura, execução, histórico).
@@ -207,14 +207,14 @@ config/
 
 ## Próximos passos
 
-1. **Pendência manual das Partes 1, 2 e 3 (proposital, para o fechamento do projeto):** publicar os três conjuntos de dados (numérico, textual e visual) em serviço de armazenamento público (OneDrive/Google Drive ou equivalente) e inserir os links nos espaços já reservados em `document/other/parte1_dados_numericos.md`, `document/other/parte2_dados_textuais.md`, `document/other/parte3_dados_visuais.md` e na seção `## 🔗 Links públicos dos conjuntos de dados` do `README.md`.
+1. **Pendência manual das Partes 1, 2 e 3 (proposital, para o fechamento do projeto):** publicar os três conjuntos de dados (numérico, textual e visual) em serviço de armazenamento público (OneDrive/Google Drive ou equivalente) e inserir os links nos espaços já reservados em `document/other/documentacao/parte1_dados_numericos.md`, `document/other/documentacao/parte2_dados_textuais.md`, `document/other/documentacao/parte3_dados_visuais.md` e na seção `## 🔗 Links públicos dos conjuntos de dados` do `README.md`.
 2. Revisão final de governança/viés e prazo, após a publicação dos links.
 
 ## Correção pontual — interpretação da variável `thal`
 
 Auditoria da Parte 1 identificou uma interpretação inadequada da variável original `thal` da UCI, que havia sido traduzida no dataset processado como `talassemia`. A documentação oficial usada no projeto (`assets/dados/raw/heart+disease/heart-disease.names`) registra apenas os códigos e rótulos do atributo (`3 = normal; 6 = fixed defect; 7 = reversable defect`), sem expandir o significado da sigla `thal` — portanto, a expansão "talassemia" não é sustentada pelas fontes disponíveis no projeto e foi removida.
 
-- Coluna processada corrigida de `talassemia` para `resultado_thal` em todos os artefatos derivados: `scripts/preparar_dataset_numerico.py`, `assets/dados/processed/heart_disease_cleveland.csv`, `assets/dados/processed/dicionario_variaveis.md`, `document/other/parte1_dados_numericos.md`.
+- Coluna processada corrigida de `talassemia` para `resultado_thal` em todos os artefatos derivados: `scripts/preparar_dataset_numerico.py`, `assets/dados/processed/heart_disease_cleveland.csv`, `assets/dados/processed/dicionario_variaveis.md`, `document/other/documentacao/parte1_dados_numericos.md`.
 - O atributo original UCI continua identificado como `thal` (sem alteração) em todas as referências à fonte.
 - Script, CSV processado e documentação foram sincronizados e revalidados (303 registros, 14 colunas, sem duplicidades, 4 ausentes em `num_vasos_principais`, 2 ausentes em `resultado_thal`; nenhuma outra transformação/dado alterado).
 - Dados brutos da UCI (`assets/dados/raw/`) não foram alterados.
@@ -237,8 +237,8 @@ Auditoria da Parte 1 identificou uma interpretação inadequada da variável ori
 ---
 *Histórico de atualizações:*
 - *Criação inicial deste arquivo: consolidação do plano aprovado em `~/.claude/plans/` após auditoria multimodal completa do enunciado (texto + imagens + tabelas). A partir desta versão, este arquivo é a fonte oficial do plano da atividade.*
-- *Atualização: Parte 1 validada (303 registros, 14 colunas, sem duplicidades, ausentes apenas em 2 colunas herdados da fonte). Criados `assets/dados/processed/dicionario_variaveis.md` e `document/other/parte1_dados_numericos.md`. Pendência restante da Parte 1: apenas a publicação externa do dataset e inserção do link público.*
-- *Atualização: incorporado contexto complementar do mapa mental oficial CardioIA (`document/other/fontes_parte1/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg`) — nomes/escopo das 7 fases e diretrizes de reutilização futura dos dados desta fase nas Fases 2 a 6. Nenhum novo requisito obrigatório foi criado; classificado integralmente como DIRETRIZ/CONTEXTO DO MAPA MENTAL.*
+- *Atualização: Parte 1 validada (303 registros, 14 colunas, sem duplicidades, ausentes apenas em 2 colunas herdados da fonte). Criados `assets/dados/processed/dicionario_variaveis.md` e `document/other/documentacao/parte1_dados_numericos.md`. Pendência restante da Parte 1: apenas a publicação externa do dataset e inserção do link público.*
+- *Atualização: incorporado contexto complementar do mapa mental oficial CardioIA (`document/other/referencias/enunciado/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg`) — nomes/escopo das 7 fases e diretrizes de reutilização futura dos dados desta fase nas Fases 2 a 6. Nenhum novo requisito obrigatório foi criado; classificado integralmente como DIRETRIZ/CONTEXTO DO MAPA MENTAL.*
 - *Atualização: `.gitignore` ajustado (exceções para `assets/dados/processed/*.csv` e `*.xlsx`) e Git local inicializado na raiz. Nenhum commit realizado. Repositório remoto GitHub ainda não criado; nome candidato `fiap-fase01-cap01-cardioia` aguardando aprovação.*
 - *Atualização: adicionada regra `.claude/` ao `.gitignore`. Primeiro commit local realizado (`e0c063a`) e segundo commit de atualização do plano (`b579e00`).*
 - *Atualização: branch local renomeada para `main`; repositório remoto `murilosalla-blip/fiap-fase01-cap01-cardioia` criado (público, vazio); remote `origin` configurado; primeiro push realizado com sucesso (`origin/main`).*

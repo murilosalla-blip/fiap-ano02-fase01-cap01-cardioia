@@ -18,7 +18,7 @@ O enunciado exige, no mínimo, 2 arquivos `.txt` sobre doenças cardíacas, saú
 - **Instituição/autoria:** Ministério da Saúde — Secretaria de Atenção à Saúde, Departamento de Atenção Básica
 - **Série:** Cadernos de Atenção Básica, n.º 14 (Série A. Normas e Manuais Técnicos)
 - **Local/ano:** Brasília – DF, 2006
-- **PDF local de origem:** `document/other/fontes_parte2/Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf` (56 páginas)
+- **PDF local de origem:** `document/other/referencias/parte2/Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf` (56 páginas)
 - **URL oficial de referência:** https://bvsms.saude.gov.br/bvs/publicacoes/abcad14.pdf
 - **Arquivo `.txt` derivado:** `assets/textos/texto_01_prevencao_cardiovascular.txt`
 - **Função no corpus:** prevenção cardiovascular, fatores de risco, atenção básica, hábitos de vida (alimentação, atividade física, tabagismo, álcool), estratificação de risco cardiovascular (Escore de Framingham).
@@ -27,14 +27,14 @@ O enunciado exige, no mínimo, 2 arquivos `.txt` sobre doenças cardíacas, saú
 
 - **Título original:** Protocolo Clínico — Síndromes Coronarianas Agudas
 - **Instituição/autoria:** Ministério da Saúde / CONITEC, elaborado a partir das diretrizes da Sociedade Brasileira de Cardiologia
-- **PDF local de origem:** `document/other/fontes_parte2/PCDT_SindromesCoronarianasAgudas.pdf` (46 páginas)
+- **PDF local de origem:** `document/other/referencias/parte2/PCDT_SindromesCoronarianasAgudas.pdf` (46 páginas)
 - **URL oficial de referência:** https://www.gov.br/conitec/pt-br/midias/protocolos/protocolo_uso/pcdt_sindromescoronarianasagudas.pdf
 - **Arquivo `.txt` derivado:** `assets/textos/texto_02_sindromes_coronarianas_agudas.txt`
 - **Função no corpus:** reconhecimento de sintomas (dor torácica), diagnóstico (ECG, marcadores de necrose miocárdica como troponina), tratamento (terapia trombolítica, intervenção coronária percutânea), manejo das síndromes coronarianas agudas e prevenção secundária.
 
 ### Fonte complementar (não incorporada ao corpus principal)
 
-- **Documento:** `Linha de Cuidado do Infarto Agudo do Miocárdio e o Protocolo de Síndromes Coronarianas Agudas.pdf` (75 páginas), mantido em `document/other/fontes_parte2/`.
+- **Documento:** `Linha de Cuidado do Infarto Agudo do Miocárdio e o Protocolo de Síndromes Coronarianas Agudas.pdf` (75 páginas), mantido em `document/other/referencias/parte2/`.
 - **Motivo de não incorporação como terceiro `.txt`:** redundância temática significativa com o PCDT de Síndromes Coronarianas Agudas (ambos tratam do mesmo protocolo assistencial); mantido como material de apoio e fonte de rastreabilidade adicional, não como parte do corpus principal de NLP.
 
 ## Processo de extração e limpeza técnica aplicada

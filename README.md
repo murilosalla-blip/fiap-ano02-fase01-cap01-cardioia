@@ -59,7 +59,9 @@ Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficia
 - `assets/dados/raw/` e `assets/dados/processed/`: dados brutos e processados da Parte 1 (numéricos).
 - `assets/textos/`: corpus textual da Parte 2.
 - `assets/imagens/ecg/`: amostra de imagens de ECG da Parte 3.
-- `document/other/`: plano de execução, documentos de apoio de cada parte (`parte1_dados_numericos.md`, `parte2_dados_textuais.md`, `parte3_dados_visuais.md`) e materiais de origem/fonte (`fontes_parte1/`, `fontes_parte2/`, `fontes_parte3/`).
+- `document/other/entrega/`: documento complementar de submissão (PDF para a plataforma FIAP).
+- `document/other/documentacao/`: plano de execução e documentos de apoio das Partes 1, 2 e 3.
+- `document/other/referencias/`: enunciado e mapa mental oficiais, fontes institucionais utilizadas na Parte 2, rastreabilidade da Parte 3 e materiais de aula da Fase 1.
 - `scripts/`: scripts de preparação/reprodução dos datasets.
 
 ## 🔗 Links públicos dos conjuntos de dados
@@ -84,7 +86,7 @@ git clone https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.g
 python scripts/preparar_dataset_numerico.py
 ```
 
-**Reproduzir a amostra de imagens de ECG da Parte 3** (requer o dataset bruto completo do Mendeley Data, baixado manualmente — ver `document/other/fontes_parte3/fonte_dataset.md`):
+**Reproduzir a amostra de imagens de ECG da Parte 3** (requer o dataset bruto completo do Mendeley Data, baixado manualmente — ver `document/other/referencias/parte3/fonte_dataset.md`):
 ```
 python scripts/preparar_amostra_ecg.py
 ```
