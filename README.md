@@ -6,27 +6,35 @@
 
 <br>
 
-# Nome do projeto
+# CardioIA — Fase 1: Batimentos de Dados
 
-## Nome do grupo
+## Grupo Aura
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- Murilo Salla — RM568041
+- Elias da Silva de Souza — RM568500
+- Julia Duarte de Carvalho — RM567816
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- Ana Cristina dos Santos
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- André Godoi Chiovato
 
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+O **CardioIA** é um projeto acadêmico da FIAP que simula, ao longo de 7 fases, um ecossistema de cardiologia inteligente, integrando dados clínicos, IoT, Machine Learning, Visão Computacional e NLP para apoiar o cuidado cardiovascular. Nesta **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"**, o papel assumido pela equipe é o de cientista de dados hospitalar: buscar, organizar, validar e documentar três tipos de dados fundamentais para a saúde cardiovascular — numéricos, textuais e visuais — que servirão de base para as fases seguintes do curso (diagnóstico automatizado por IA, monitoramento via IoT, visão computacional em exames e assistente virtual por NLP).
+
+O repositório está disponível em [github.com/murilosalla-blip/fiap-fase01-cap01-cardioia](https://github.com/murilosalla-blip/fiap-fase01-cap01-cardioia).
+
+**Parte 1 — Dados Numéricos:** utiliza o dataset público *Heart Disease (Cleveland)*, do UCI Machine Learning Repository (303 registros, 14 variáveis clínicas — idade, sexo, pressão arterial, colesterol, sintomas, frequência cardíaca, entre outras), processado e documentado em `assets/dados/processed/`, com dicionário de variáveis e justificativa clínica da relevância de cada atributo para aplicações futuras de Machine Learning (Fase 2).
+
+**Parte 2 — Dados Textuais:** reúne dois textos `.txt` derivados de publicações oficiais do Ministério da Saúde/CONITEC sobre prevenção cardiovascular e manejo de síndromes coronarianas agudas, formando um corpus complementar (prevenção vs. evento agudo) para futuras tarefas de NLP, com potencial de reutilização no Assistente Cardiológico Virtual (Fase 5).
+
+**Parte 3 — Dados Visuais:** reúne 120 imagens de eletrocardiograma (ECG), curadas a partir do dataset público *ECG Images dataset of Cardiac Patients* (Mendeley Data), balanceadas em 4 classes (normal, infarto do miocárdio, histórico de infarto, batimento anormal), com curadoria rigorosa (deduplicação por hash, remoção de dados administrativos/pessoais) para reutilização futura em Visão Computacional (Fase 4).
+
+Todas as três partes seguiram um processo de **governança de dados** com atenção à origem (real vs. processada), à privacidade (anonimização) e a possíveis vieses (geográficos, temporais e de equipamento), documentados individualmente em `document/other/`.
 
 
 ## 📁 Estrutura de pastas
@@ -47,23 +55,45 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
+Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficiais:
+- `assets/dados/raw/` e `assets/dados/processed/`: dados brutos e processados da Parte 1 (numéricos).
+- `assets/textos/`: corpus textual da Parte 2.
+- `assets/imagens/ecg/`: amostra de imagens de ECG da Parte 3.
+- `document/other/`: plano de execução, documentos de apoio de cada parte (`parte1_dados_numericos.md`, `parte2_dados_textuais.md`, `parte3_dados_visuais.md`) e materiais de origem/fonte (`fontes_parte1/`, `fontes_parte2/`, `fontes_parte3/`).
+- `scripts/`: scripts de preparação/reprodução dos datasets.
+
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+Esta fase é de preparação e curadoria de dados — não há aplicação ou modelo de IA para executar. Os datasets finais já estão disponíveis nas pastas indicadas acima, prontos para consumo em fases futuras (Colab/Jupyter).
+
+**Pré-requisitos:** Python 3.12+ e a biblioteca `pypdf` (Parte 2) e `Pillow` (Parte 3).
+
+**Clonar o repositório:**
+```
+git clone https://github.com/murilosalla-blip/fiap-fase01-cap01-cardioia.git
+```
+
+**Reproduzir o dataset numérico da Parte 1** (gera `assets/dados/processed/heart_disease_cleveland.csv` a partir do dado bruto em `assets/dados/raw/`):
+```
+python scripts/preparar_dataset_numerico.py
+```
+
+**Reproduzir a amostra de imagens de ECG da Parte 3** (requer o dataset bruto completo do Mendeley Data, baixado manualmente — ver `document/other/fontes_parte3/fonte_dataset.md`):
+```
+python scripts/preparar_amostra_ecg.py
+```
 
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+* 0.1.0 - 21/08/2026
+    * Estrutura inicial do projeto CardioIA e configuração do repositório.
+* 0.2.0 - 21/08/2026
+    * Parte 1 concluída: dataset numérico (UCI Heart Disease Cleveland) processado, validado e documentado.
+* 0.3.0 - 21/08/2026
+    * Parte 2 concluída: corpus textual (prevenção cardiovascular e síndromes coronarianas agudas) preparado e documentado.
+* 0.4.0 - 21/08/2026
+    * Parte 3 concluída: amostra de 120 imagens de ECG curada, validada e documentada.
 
 ## 📋 Licença
 
