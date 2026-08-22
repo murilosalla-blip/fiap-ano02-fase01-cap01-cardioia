@@ -109,5 +109,5 @@ Os objetivos definidos para a Fase 1 do CardioIA foram atendidos: os três tipos
 - Documento de apoio da Parte 2 (dados textuais): `document/other/documentacao/parte2_dados_textuais.md`
 - Documento de apoio da Parte 3 (dados visuais): `document/other/documentacao/parte3_dados_visuais.md`
 - Plano de execução da atividade: `document/other/documentacao/plano_execucao.md`
-- Dicionário de variáveis do dataset numérico: `assets/dados/processed/dicionario_variaveis.md`
+- Dicionário de variáveis do dataset numérico: `document/other/documentacao/parte1_dicionario_variaveis.md`
 - Manifesto de rastreabilidade da amostra de imagens de ECG: `document/other/referencias/parte3/manifesto_amostra.csv`

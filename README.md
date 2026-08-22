@@ -28,7 +28,7 @@ O **CardioIA** é um projeto acadêmico da FIAP que simula, ao longo de 7 fases,
 
 O repositório está disponível em [github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia).
 
-**Parte 1 — Dados Numéricos:** utiliza o dataset público *Heart Disease (Cleveland)*, do UCI Machine Learning Repository (303 registros, 14 variáveis clínicas — idade, sexo, pressão arterial, colesterol, sintomas, frequência cardíaca, entre outras), processado e documentado em `assets/dados/processed/`, com dicionário de variáveis e justificativa clínica da relevância de cada atributo para aplicações futuras de Machine Learning (Fase 2).
+**Parte 1 — Dados Numéricos:** utiliza o dataset público *Heart Disease (Cleveland)*, do UCI Machine Learning Repository (303 registros, 14 variáveis clínicas — idade, sexo, pressão arterial, colesterol, sintomas, frequência cardíaca, entre outras), processado em `assets/dados/processed/`, com dicionário de variáveis e justificativa clínica da relevância de cada atributo documentados em `document/other/documentacao/` para aplicações futuras de Machine Learning (Fase 2).
 
 **Parte 2 — Dados Textuais:** reúne dois textos `.txt` derivados de publicações oficiais do Ministério da Saúde/CONITEC sobre prevenção cardiovascular e manejo de síndromes coronarianas agudas, formando um corpus complementar (prevenção vs. evento agudo) para futuras tarefas de NLP, com potencial de reutilização no Assistente Cardiológico Virtual (Fase 5).
 

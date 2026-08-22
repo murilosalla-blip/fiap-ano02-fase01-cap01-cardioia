@@ -177,7 +177,7 @@ config/
 - Versão tratada gerada em `assets/dados/processed/heart_disease_cleveland.csv` (303 linhas + cabeçalho, 14 variáveis clínicas com nomes/valores legíveis em português) — **já em formato `.csv`, cumprindo o requisito de formato**.
 - Script de processamento salvo em `scripts/preparar_dataset_numerico.py` (reprodutível a partir do dado bruto).
 - Dataset **validado**: 303 registros, 14 colunas, sem duplicidades, valores ausentes reais apenas em `num_vasos_principais` (4) e `resultado_thal` (2), herdados da fonte oficial e preservados sem imputação.
-- Dicionário de variáveis criado: `assets/dados/processed/dicionario_variaveis.md` (uma linha por coluna, com nome original UCI, significado, tipo, valores possíveis e interpretação clínica básica).
+- Dicionário de variáveis criado: `document/other/documentacao/parte1_dicionario_variaveis.md` (uma linha por coluna, com nome original UCI, significado, tipo, valores possíveis e interpretação clínica básica).
 - Documento de apoio da Parte 1 criado: `document/other/documentacao/parte1_dados_numericos.md` (fonte, descrição, justificativa clínica das principais variáveis, processo de preparação, governança/privacidade/viés) — pronto para consolidação no README final.
 - **Falta (ação manual pendente):** publicar o dataset em serviço de armazenamento público (OneDrive/Google Drive) com acesso "qualquer pessoa com o link" e inserir o link no espaço já reservado em `document/other/documentacao/parte1_dados_numericos.md` e, futuramente, no README principal.
 
@@ -214,7 +214,7 @@ config/
 
 Auditoria da Parte 1 identificou uma interpretação inadequada da variável original `thal` da UCI, que havia sido traduzida no dataset processado como `talassemia`. A documentação oficial usada no projeto (`assets/dados/raw/heart+disease/heart-disease.names`) registra apenas os códigos e rótulos do atributo (`3 = normal; 6 = fixed defect; 7 = reversable defect`), sem expandir o significado da sigla `thal` — portanto, a expansão "talassemia" não é sustentada pelas fontes disponíveis no projeto e foi removida.
 
-- Coluna processada corrigida de `talassemia` para `resultado_thal` em todos os artefatos derivados: `scripts/preparar_dataset_numerico.py`, `assets/dados/processed/heart_disease_cleveland.csv`, `assets/dados/processed/dicionario_variaveis.md`, `document/other/documentacao/parte1_dados_numericos.md`.
+- Coluna processada corrigida de `talassemia` para `resultado_thal` em todos os artefatos derivados: `scripts/preparar_dataset_numerico.py`, `assets/dados/processed/heart_disease_cleveland.csv`, `document/other/documentacao/parte1_dicionario_variaveis.md`, `document/other/documentacao/parte1_dados_numericos.md`.
 - O atributo original UCI continua identificado como `thal` (sem alteração) em todas as referências à fonte.
 - Script, CSV processado e documentação foram sincronizados e revalidados (303 registros, 14 colunas, sem duplicidades, 4 ausentes em `num_vasos_principais`, 2 ausentes em `resultado_thal`; nenhuma outra transformação/dado alterado).
 - Dados brutos da UCI (`assets/dados/raw/`) não foram alterados.
@@ -237,7 +237,7 @@ Auditoria da Parte 1 identificou uma interpretação inadequada da variável ori
 ---
 *Histórico de atualizações:*
 - *Criação inicial deste arquivo: consolidação do plano aprovado em `~/.claude/plans/` após auditoria multimodal completa do enunciado (texto + imagens + tabelas). A partir desta versão, este arquivo é a fonte oficial do plano da atividade.*
-- *Atualização: Parte 1 validada (303 registros, 14 colunas, sem duplicidades, ausentes apenas em 2 colunas herdados da fonte). Criados `assets/dados/processed/dicionario_variaveis.md` e `document/other/documentacao/parte1_dados_numericos.md`. Pendência restante da Parte 1: apenas a publicação externa do dataset e inserção do link público.*
+- *Atualização: Parte 1 validada (303 registros, 14 colunas, sem duplicidades, ausentes apenas em 2 colunas herdados da fonte). Criados `document/other/documentacao/parte1_dicionario_variaveis.md` e `document/other/documentacao/parte1_dados_numericos.md`. Pendência restante da Parte 1: apenas a publicação externa do dataset e inserção do link público.*
 - *Atualização: incorporado contexto complementar do mapa mental oficial CardioIA (`document/other/referencias/enunciado/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg`) — nomes/escopo das 7 fases e diretrizes de reutilização futura dos dados desta fase nas Fases 2 a 6. Nenhum novo requisito obrigatório foi criado; classificado integralmente como DIRETRIZ/CONTEXTO DO MAPA MENTAL.*
 - *Atualização: `.gitignore` ajustado (exceções para `assets/dados/processed/*.csv` e `*.xlsx`) e Git local inicializado na raiz. Nenhum commit realizado. Repositório remoto GitHub ainda não criado; nome candidato `fiap-fase01-cap01-cardioia` aguardando aprovação.*
 - *Atualização: adicionada regra `.claude/` ao `.gitignore`. Primeiro commit local realizado (`e0c063a`) e segundo commit de atualização do plano (`b579e00`).*

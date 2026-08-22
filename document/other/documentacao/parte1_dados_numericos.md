@@ -78,7 +78,7 @@ Essas variáveis, em conjunto, permitem tanto análises exploratórias (ex.: cor
 ## Referência ao arquivo processado
 
 - Dataset processado: `assets/dados/processed/heart_disease_cleveland.csv`
-- Dicionário de variáveis: `assets/dados/processed/dicionario_variaveis.md`
+- Dicionário de variáveis: `document/other/documentacao/parte1_dicionario_variaveis.md`
 - Dados originais (não modificados): `assets/dados/raw/heart+disease/`
 - Script de geração: `scripts/preparar_dataset_numerico.py`
 
