@@ -84,8 +84,10 @@ Essas variáveis, em conjunto, permitem tanto análises exploratórias (ex.: cor
 
 ## Link público para hospedagem externa (OneDrive)
 
-> **PENDENTE — preencher manualmente após publicar o dataset em um serviço de armazenamento público (OneDrive, Google Drive ou equivalente).**
+> **PENDENTE — inserir link público no fechamento final.**
+>
+> O link será referente a uma **pasta pública** (OneDrive, Google Drive ou equivalente) contendo o dataset final `heart_disease_cleveland.csv`. O arquivo local de origem permanece em `assets/dados/processed/heart_disease_cleveland.csv`.
 >
 > Link: `[A PREENCHER]`
 >
-> Ao publicar, confirmar que o link está configurado como "qualquer pessoa com o link pode visualizar", para garantir acesso pela equipe de correção da FIAP.
+> Ao publicar, confirmar que a pasta está configurada como "qualquer pessoa com o link pode visualizar", para garantir acesso pela equipe de correção da FIAP.

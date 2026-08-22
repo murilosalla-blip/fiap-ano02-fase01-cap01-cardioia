@@ -66,7 +66,7 @@ Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficia
 
 ## 🔗 Links públicos dos conjuntos de dados
 
-- **Parte 1 — Dados Numéricos:** PENDENTE — inserir link público no fechamento final.
+- **Parte 1 — Dados Numéricos:** PENDENTE — inserir link público da pasta contendo o dataset final (`heart_disease_cleveland.csv`).
 - **Parte 2 — Dados Textuais:** PENDENTE — inserir link público no fechamento final.
 - **Parte 3 — Dados Visuais:** PENDENTE — inserir link público no fechamento final.
 
