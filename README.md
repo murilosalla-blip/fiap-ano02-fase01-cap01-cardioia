@@ -64,15 +64,17 @@ Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficia
 - `document/other/referencias/`: enunciado e mapa mental oficiais, fontes institucionais utilizadas na Parte 2, rastreabilidade da Parte 3 e materiais de aula da Fase 1.
 - `scripts/`: scripts de preparação/reprodução dos datasets.
 
-## 🔗 Links públicos dos conjuntos de dados
+## 🔗 Links externos
 
-- **Parte 1 — Dados Numéricos:** [Pasta pública contendo `heart_disease_cleveland.csv`](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing)
-- **Parte 2 — Dados Textuais:** [Pasta pública contendo os 2 arquivos `.txt`](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing)
-- **Parte 3 — Dados Visuais:** [Pasta pública contendo as 120 imagens organizadas em 4 classes](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing)
+- **Parte 1 — Dados Numéricos:** [Acessar pasta](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing)
+- **Parte 2 — Dados Textuais:** [Acessar pasta](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing)
+- **Parte 3 — Dados Visuais:** [Acessar pasta](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing)
 
 ## 🔧 Como executar o código
 
-Esta fase é de preparação e curadoria de dados — não há aplicação ou modelo de IA para executar. Os datasets finais já estão disponíveis nas pastas indicadas acima, prontos para consumo em fases futuras (Colab/Jupyter).
+Esta fase é de preparação e curadoria de dados. Os datasets finais já estão preparados e disponíveis nas pastas do projeto e nos links externos, portanto não é necessário executar código para avaliá-los.
+
+Os scripts abaixo são fornecidos apenas para reprodução e rastreabilidade do processo de preparação dos dados.
 
 **Pré-requisitos:** Python 3.12+ e a biblioteca `Pillow` (usada em `scripts/preparar_amostra_ecg.py`, Parte 3). O script `scripts/preparar_dataset_numerico.py` (Parte 1) usa apenas bibliotecas nativas do Python (`csv`, `pathlib`).
 
