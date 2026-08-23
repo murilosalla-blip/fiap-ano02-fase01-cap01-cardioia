@@ -80,4 +80,6 @@ O conteúdo destes textos tem finalidade exclusivamente acadêmica e exploratór
 
 ## Link público para hospedagem externa
 
-**PENDENTE** — inserir link público no fechamento final. O link será referente ao corpus textual final presente em `assets/textos/`.
+Pasta pública contendo o corpus textual final (`texto_01_prevencao_cardiovascular.txt` e `texto_02_sindromes_coronarianas_agudas.txt`), correspondente ao conteúdo local presente em `assets/textos/`.
+
+Link: https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing

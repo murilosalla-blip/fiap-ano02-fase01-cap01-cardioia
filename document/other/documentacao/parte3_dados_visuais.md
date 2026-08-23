@@ -88,4 +88,6 @@ Nenhum modelo foi implementado ou treinado nesta fase — a Parte 3 se limita à
 
 ## Link público externo
 
-**PENDENTE** — publicação externa/link público a ser realizada no fechamento do projeto, no mesmo padrão já adotado para a Parte 1.
+Pasta pública contendo as 120 imagens finais organizadas em 4 classes (`myocardial_infarction/`, `abnormal_heartbeat/`, `history_mi/`, `normal/`, 30 imagens JPG por classe), correspondente ao conteúdo local presente em `assets/imagens/ecg/`.
+
+Link: https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing

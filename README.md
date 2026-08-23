@@ -66,9 +66,9 @@ Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficia
 
 ## 🔗 Links públicos dos conjuntos de dados
 
-- **Parte 1 — Dados Numéricos:** PENDENTE — inserir link público da pasta contendo o dataset final (`heart_disease_cleveland.csv`).
-- **Parte 2 — Dados Textuais:** PENDENTE — inserir link público no fechamento final.
-- **Parte 3 — Dados Visuais:** PENDENTE — inserir link público no fechamento final.
+- **Parte 1 — Dados Numéricos:** [Pasta pública contendo `heart_disease_cleveland.csv`](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing)
+- **Parte 2 — Dados Textuais:** [Pasta pública contendo os 2 arquivos `.txt`](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing)
+- **Parte 3 — Dados Visuais:** [Pasta pública contendo as 120 imagens organizadas em 4 classes](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing)
 
 ## 🔧 Como executar o código
 

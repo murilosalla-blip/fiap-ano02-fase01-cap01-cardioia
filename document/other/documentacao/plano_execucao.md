@@ -130,9 +130,9 @@ config/
 
 ## Plano de execução sequencial (por peso de avaliação)
 
-1. **Dataset numérico (Parte 1 — peso 3)** — CONCLUÍDA TECNICAMENTE (falta apenas hospedagem externa/link público)
-2. **Textos médicos/literários (Parte 2 — peso 2)** — CONCLUÍDA TECNICAMENTE (falta apenas hospedagem externa/link público)
-3. **Imagens médicas (Parte 3 — peso 2)** — CONCLUÍDA TECNICAMENTE (falta apenas hospedagem externa/link público)
+1. **Dataset numérico (Parte 1 — peso 3)** — CONCLUÍDA (link público publicado)
+2. **Textos médicos/literários (Parte 2 — peso 2)** — CONCLUÍDA (link público publicado)
+3. **Imagens médicas (Parte 3 — peso 2)** — CONCLUÍDA (link público publicado)
 4. **README.md principal** — CONCLUÍDO
 5. **Documento resumo formal (`document/ai_project_document_fiap.md`)** — CONCLUÍDO
 6. **Revisão final de governança/viés e prazo** — PENDENTE
@@ -197,7 +197,7 @@ config/
 - Preparação aplicada: remoção do cabeçalho administrativo (ID de paciente, data/hora, dados demográficos) por crop validado visualmente; remoção de metadados EXIF; sem redimensionamento ou alteração do traçado clínico.
 - Imagens validadas tecnicamente (formato, dimensões, integridade, ausência de duplicidade) e por auditoria visual.
 - Documentação criada: `document/other/referencias/parte3/fonte_dataset.md`, `document/other/referencias/parte3/manifesto_amostra.csv` e `document/other/documentacao/parte3_dados_visuais.md`.
-- **Link público externo da Parte 3: PENDENTE** — publicação externa a ser realizada no fechamento do projeto, mesmo padrão da Parte 1.
+- **Link público externo da Parte 3: CONCLUÍDO** — https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing
 
 ### README.md principal: CONCLUÍDO — template FIAP preenchido (grupo, integrantes, tutor, coordenador, descrição, estrutura, execução, histórico).
 
@@ -207,7 +207,7 @@ config/
 
 ## Próximos passos
 
-1. **Pendência manual das Partes 1, 2 e 3 (proposital, para o fechamento do projeto):** publicar os três conjuntos de dados (numérico, textual e visual) em serviço de armazenamento público (OneDrive/Google Drive ou equivalente) e inserir os links nos espaços já reservados em `document/other/documentacao/parte1_dados_numericos.md`, `document/other/documentacao/parte2_dados_textuais.md`, `document/other/documentacao/parte3_dados_visuais.md` e na seção `## 🔗 Links públicos dos conjuntos de dados` do `README.md`.
+1. **Links públicos das Partes 1, 2 e 3: CONCLUÍDO** — os três conjuntos de dados (numérico, textual e visual) foram publicados no Google Drive e os links inseridos em `document/other/documentacao/parte1_dados_numericos.md`, `document/other/documentacao/parte2_dados_textuais.md`, `document/other/documentacao/parte3_dados_visuais.md` e na seção `## 🔗 Links públicos dos conjuntos de dados` do `README.md`.
 2. Revisão final de governança/viés e prazo, após a publicação dos links.
 
 ## Correção pontual — interpretação da variável `thal`

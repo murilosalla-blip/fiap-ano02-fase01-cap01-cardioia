@@ -82,12 +82,10 @@ Essas variáveis, em conjunto, permitem tanto análises exploratórias (ex.: cor
 - Dados originais (não modificados): `assets/dados/raw/heart+disease/`
 - Script de geração: `scripts/preparar_dataset_numerico.py`
 
-## Link público para hospedagem externa (OneDrive)
+## Link público para hospedagem externa (Google Drive)
 
-> **PENDENTE — inserir link público no fechamento final.**
+> Pasta pública contendo o dataset final `heart_disease_cleveland.csv`. O arquivo local de origem permanece em `assets/dados/processed/heart_disease_cleveland.csv`.
 >
-> O link será referente a uma **pasta pública** (OneDrive, Google Drive ou equivalente) contendo o dataset final `heart_disease_cleveland.csv`. O arquivo local de origem permanece em `assets/dados/processed/heart_disease_cleveland.csv`.
->
-> Link: `[A PREENCHER]`
+> Link: https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing
 >
 > Ao publicar, confirmar que a pasta está configurada como "qualquer pessoa com o link pode visualizar", para garantir acesso pela equipe de correção da FIAP.
