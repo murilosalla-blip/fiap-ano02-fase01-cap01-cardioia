@@ -22,6 +22,7 @@ O enunciado exige, no mínimo, 2 arquivos `.txt` sobre doenças cardíacas, saú
 - **URL oficial de referência:** https://bvsms.saude.gov.br/bvs/publicacoes/abcad14.pdf
 - **Arquivo `.txt` derivado:** `assets/textos/texto_01_prevencao_cardiovascular.txt`
 - **Função no corpus:** prevenção cardiovascular, fatores de risco, atenção básica, hábitos de vida (alimentação, atividade física, tabagismo, álcool), estratificação de risco cardiovascular (Escore de Framingham).
+- **Condição de uso:** documento institucional de acesso público, publicado pelo Ministério da Saúde e disponível na Biblioteca Virtual em Saúde (BVSMS). Utilizado com finalidade exclusivamente acadêmica, com autoria institucional, título e URL de origem preservados nesta documentação.
 
 ### `texto_02_sindromes_coronarianas_agudas.txt`
 
@@ -31,6 +32,7 @@ O enunciado exige, no mínimo, 2 arquivos `.txt` sobre doenças cardíacas, saú
 - **URL oficial de referência:** https://www.gov.br/conitec/pt-br/midias/protocolos/protocolo_uso/pcdt_sindromescoronarianasagudas.pdf
 - **Arquivo `.txt` derivado:** `assets/textos/texto_02_sindromes_coronarianas_agudas.txt`
 - **Função no corpus:** reconhecimento de sintomas (dor torácica), diagnóstico (ECG, marcadores de necrose miocárdica como troponina), tratamento (terapia trombolítica, intervenção coronária percutânea), manejo das síndromes coronarianas agudas e prevenção secundária.
+- **Condição de uso:** documento institucional de acesso público, publicado pelo Ministério da Saúde/CONITEC. Utilizado com finalidade exclusivamente acadêmica, com autoria institucional, título e URL de origem preservados nesta documentação.
 
 ### Fonte complementar (não incorporada ao corpus principal)
 

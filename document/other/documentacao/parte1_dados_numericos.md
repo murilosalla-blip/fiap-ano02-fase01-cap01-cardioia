@@ -40,9 +40,13 @@ Arquivo `.csv`, conforme exigência explícita do enunciado (requisito identific
 
 Toda transformação aplicada é reprodutível: basta executar `python scripts/preparar_dataset_numerico.py` a partir da raiz do repositório, tendo o arquivo original em `assets/dados/raw/` como entrada.
 
-## Justificativa das principais variáveis clínicas
+## Natureza das variáveis (quantitativas, categóricas e variável-alvo)
 
-As variáveis a seguir são consideradas as mais relevantes para um projeto de Inteligência Artificial aplicado à saúde cardiovascular:
+O dataset combina variáveis quantitativas contínuas (ex.: idade, pressão arterial, colesterol, frequência cardíaca máxima, depressão do segmento ST), variáveis categóricas (ex.: sexo, tipo de dor no peito, resultado do ECG de repouso, inclinação do segmento ST, resultado de thal) e uma variável-alvo binária derivada (`diagnostico_doenca_cardiaca`). Essa combinação é típica de bases clínicas tabulares e permite tanto análise exploratória quanto, futuramente, treinamento de classificadores supervisionados.
+
+## Justificativa das variáveis clínicas
+
+Todas as 14 variáveis do dataset têm potencial analítico para IA em saúde cardiovascular. As sete primeiras a seguir têm papel historicamente mais direto em critérios diagnósticos e são frequentemente citadas na literatura como fatores de risco de maior peso; as sete seguintes complementam o quadro clínico e de exame, sendo igualmente úteis como atributos preditores em modelos futuros.
 
 - **`idade`** — representa a idade do paciente em anos. É clinicamente relevante porque a idade é um fator de risco cardiovascular amplamente reconhecido, e sua inclusão permite que modelos de aprendizado de máquina capturem o efeito do envelhecimento sobre a probabilidade de doença coronariana.
 
@@ -56,9 +60,21 @@ As variáveis a seguir são consideradas as mais relevantes para um projeto de I
 
 - **`angina_induzida_exercicio`** e **`depressao_st_exercicio`** — indicam, respectivamente, a presença de angina desencadeada por esforço e a magnitude da depressão do segmento ST durante exercício. Ambas são variáveis diretamente associadas a evidências eletrocardiográficas de isquemia miocárdica, sendo historicamente usadas em critérios diagnósticos de doença coronariana.
 
-- **`diagnostico_doenca_cardiaca`** — variável-alvo (rótulo). É a variável que um modelo de Machine Learning supervisionado buscaria prever a partir das demais, tornando-a o elemento central para qualquer aplicação de classificação nesta base.
+- **`sexo`** — sexo biológico do paciente (categórica binária). Relevante porque a prevalência e a apresentação clínica de doença coronariana variam entre homens e mulheres, tornando essa variável útil como controle de subgrupo em análises exploratórias e como atributo preditor em modelos futuros.
 
-Essas variáveis, em conjunto, permitem tanto análises exploratórias (ex.: correlação entre pressão arterial e diagnóstico) quanto o treinamento de modelos preditivos (ex.: classificadores para estimar a probabilidade de doença coronariana a partir de dados clínicos não invasivos).
+- **`acucar_jejum_maior_120`** — indica se a glicemia de jejum ultrapassa 120 mg/dl (categórica binária). Funciona como proxy simplificado de diabetes/pré-diabetes, condição amplamente associada a maior risco cardiovascular; sua inclusão permite investigar a relação entre controle glicêmico e desfecho.
+
+- **`eletrocardiograma_repouso`** — resultado do ECG em repouso, com três categorias (normal, alteração de onda ST-T, hipertrofia ventricular esquerda). É relevante porque alterações eletrocardiográficas de repouso podem sinalizar isquemia prévia ou sobrecarga estrutural do coração, mesmo antes de qualquer teste de esforço.
+
+- **`inclinacao_st_pico_exercicio`** — inclinação do segmento ST no pico do exercício (ascendente, plana ou descendente). Complementa a variável `depressao_st_exercicio`: o padrão de inclinação é usado em conjunto com a magnitude da depressão para estimar a probabilidade de isquemia miocárdica significativa durante o esforço.
+
+- **`num_vasos_principais`** — número de vasos principais (0 a 3) visualizados por fluoroscopia. Quanto maior o número de vasos comprometidos, maior a extensão anatômica da doença coronariana; é uma variável numérica discreta com forte relação direta com a gravidade do quadro, mas contém valores ausentes herdados da fonte original (ver seção de valores ausentes).
+
+- **`resultado_thal`** — resultado do teste relacionado ao atributo `thal` da base original (normal, defeito fixo, defeito reversível). Defeitos fixos ou reversíveis indicam áreas de perfusão miocárdica comprometida; também contém valores ausentes herdados da fonte original. Conforme já documentado em `document/other/documentacao/parte1_dicionario_variaveis.md`, a documentação oficial da UCI não expande o significado da sigla `thal`, e este projeto não atribui interpretação além do que a fonte sustenta.
+
+- **`diagnostico_doenca_cardiaca`** — variável-alvo (rótulo), binária, derivada da escala original 0–4 da UCI. É a variável que um modelo de Machine Learning supervisionado buscaria prever a partir das demais, tornando-a o elemento central para qualquer aplicação de classificação nesta base.
+
+Essas variáveis, em conjunto, permitem tanto análises exploratórias (ex.: correlação entre pressão arterial e diagnóstico, distribuição de idade por classe) quanto o treinamento de modelos preditivos (ex.: classificadores para estimar a probabilidade de doença coronariana a partir de dados clínicos não invasivos). Interpretações clínicas mais detalhadas de cada variável, incluindo valores possíveis e cuidados de leitura, estão em `document/other/documentacao/parte1_dicionario_variaveis.md`.
 
 **Observação:** esta documentação tem finalidade exclusivamente acadêmica e exploratória. Não constitui, nem deve ser interpretada como, ferramenta de diagnóstico médico. As interpretações clínicas descritas refletem associações amplamente documentadas na literatura cardiológica, não conclusões extraídas por análise estatística própria deste projeto.
 
