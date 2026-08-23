@@ -44,3 +44,11 @@ O dataset completo (928 arquivos, ~586,7 MB) contém quase metade de conteúdo d
 ## Preservação do dataset original
 
 O dataset bruto completo (928 arquivos, ~586,7 MB) permanece apenas em uma pasta local temporária de trabalho, fora do repositório, e é referenciado por DOI/URL oficial do Mendeley Data. Não foi copiado para `document/other/referencias/parte3/`.
+
+## Como reproduzir a amostra (`scripts/preparar_amostra_ecg.py`)
+
+O script não funciona imediatamente após um `git clone`, pois depende do dataset bruto do Mendeley Data, que não é versionado no repositório. Antes de executar:
+
+1. baixar o dataset bruto completo em https://data.mendeley.com/datasets/gwbz3fsgp8/2 e extraí-lo localmente;
+2. abrir `scripts/preparar_amostra_ecg.py` e ajustar a constante `RAW_DIR` (próxima ao início do arquivo) para apontar para o caminho local onde o dataset foi extraído;
+3. executar `python scripts/preparar_amostra_ecg.py`.

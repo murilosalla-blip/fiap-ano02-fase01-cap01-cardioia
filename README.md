@@ -86,7 +86,10 @@ git clone https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.g
 python scripts/preparar_dataset_numerico.py
 ```
 
-**Reproduzir a amostra de imagens de ECG da Parte 3** (requer o dataset bruto completo do Mendeley Data, baixado manualmente — ver `document/other/referencias/parte3/fonte_dataset.md`):
+**Reproduzir a amostra de imagens de ECG da Parte 3** — requer preparação manual antes de executar (ver `document/other/referencias/parte3/fonte_dataset.md`):
+1. baixar o dataset bruto completo do Mendeley Data e extraí-lo localmente;
+2. ajustar a variável `RAW_DIR` no início de `scripts/preparar_amostra_ecg.py` para apontar para a pasta onde o dataset foi extraído;
+3. então executar:
 ```
 python scripts/preparar_amostra_ecg.py
 ```
