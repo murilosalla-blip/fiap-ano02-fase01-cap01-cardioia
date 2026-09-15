@@ -18,7 +18,7 @@ DIRETORIO_FASE2 = Path(__file__).resolve().parent
 sys.path.insert(0, str(DIRETORIO_FASE2 / "src"))
 
 from classificar_risco_texto import (  # noqa: E402
-    probabilidade_alto_risco,
+    avaliar_entrada_textual,
     treinar_modelo_completo,
 )
 from extrair_sintomas import analisar_relato, carregar_mapa  # noqa: E402
@@ -299,7 +299,7 @@ def criar_formulario() -> pd.DataFrame | None:
         enviado = st.form_submit_button(
             "Executar simulação",
             type="primary",
-            use_container_width=True,
+            width="stretch",
         )
 
     if not enviado:
@@ -431,7 +431,7 @@ def mostrar_resultado(registro: pd.DataFrame) -> None:
     with st.expander("Conferir os valores usados na simulação"):
         st.dataframe(
             resumir_registro(registro),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
@@ -455,7 +455,7 @@ def mostrar_resultado(registro: pd.DataFrame) -> None:
             )
             st.dataframe(
                 tabela_aumentaram.style.format({"Força relativa": "{:.3f}"}),
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
 
@@ -469,7 +469,7 @@ def mostrar_resultado(registro: pd.DataFrame) -> None:
             )
             st.dataframe(
                 tabela_reduziram.style.format({"Força relativa": "{:.3f}"}),
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
 
@@ -513,7 +513,7 @@ def pagina_textual() -> None:
         if st.button(
             "Identificar sintomas e associações",
             type="primary",
-            use_container_width=True,
+            width="stretch",
         ):
             resultado = analisar_relato(
                 relato_extracao,
@@ -550,7 +550,7 @@ def pagina_textual() -> None:
                             "Correspondências",
                         ]
                     ],
-                    use_container_width=True,
+                    width="stretch",
                     hide_index=True,
                 )
             st.warning(
@@ -572,16 +572,15 @@ def pagina_textual() -> None:
         if st.button(
             "Classificar frase",
             type="primary",
-            use_container_width=True,
+            width="stretch",
         ):
             if not relato_risco.strip():
                 st.error("Digite uma frase fictícia antes de classificar.")
             else:
                 modelo = obter_modelo_textual()
-                probabilidade = float(
-                    probabilidade_alto_risco(modelo, [relato_risco])[0]
-                )
-                classe = str(modelo.predict([relato_risco])[0])
+                avaliacao = avaliar_entrada_textual(modelo, relato_risco)
+                probabilidade = float(avaliacao["probabilidade_alto_risco"])
+                classe = str(avaliacao["classe"])
                 st.markdown(
                     f"""
                     <div class="result-card">
@@ -599,6 +598,8 @@ def pagina_textual() -> None:
                     unsafe_allow_html=True,
                 )
                 st.progress(probabilidade)
+                for alerta in avaliacao["alertas"]:
+                    st.info(alerta)
                 st.warning(
                     "A classificação foi treinada em frases simuladas. Não use "
                     "este resultado para decidir urgência ou atendimento médico."
@@ -661,7 +662,7 @@ def pagina_desempenho() -> None:
                 "ROC AUC": "{:.3f}",
             }
         ),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
     st.info(

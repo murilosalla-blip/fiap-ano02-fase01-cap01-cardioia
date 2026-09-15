@@ -13,6 +13,7 @@ sys.path.insert(0, str(DIRETORIO_FASE2 / "src"))
 
 from classificar_risco_texto import (  # noqa: E402
     analisar_vies_contrafactual,
+    avaliar_entrada_textual,
     carregar_dataset,
     dividir_por_cenario,
     treinar_e_avaliar,
@@ -151,9 +152,26 @@ def testar_direcao_dos_termos() -> None:
     assert set(tabela[tabela.coeficiente < 0].direcao) == {"alto risco"}
 
 
+def testar_alertas_de_entrada() -> None:
+    modelo, *_ = treinar_e_avaliar()
+    negada = avaliar_entrada_textual(modelo, "Não tenho dor no peito.")
+    assert not negada["confiavel_para_demonstracao"]
+    assert any("negação" in item for item in negada["alertas"])
+    desconhecida = avaliar_entrada_textual(modelo, "xyzqwerty zzzqwerty")
+    assert desconhecida["termos_reconhecidos"] == 0
+    assert not desconhecida["confiavel_para_demonstracao"]
+    try:
+        avaliar_entrada_textual(modelo, "   ")
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("Entrada vazia deveria ser rejeitada")
+
+
 def main() -> None:
     testar_negacao_e_fronteiras()
     testar_direcao_dos_termos()
+    testar_alertas_de_entrada()
     testar_dados_extracao()
     testar_dataset_textual()
     testar_classificador()

@@ -50,4 +50,39 @@ describe("CardioIA Portal", () => {
       "E-mail ou senha de demonstração inválidos.",
     );
   });
+
+  it("busca pacientes simulados e apresenta falha da API", async () => {
+    localStorage.setItem("cardioia_fake_jwt", "token");
+    const view = renderPortal("/pacientes");
+    expect(await screen.findByText("Paciente Teste")).toBeInTheDocument();
+    fireEvent.change(screen.getByLabelText("Buscar paciente"), { target: { value: "ausente" } });
+    expect(screen.queryByText("Paciente Teste")).not.toBeInTheDocument();
+    view.unmount();
+    fetch.mockResolvedValueOnce({ ok: false });
+    renderPortal("/pacientes");
+    expect(await screen.findByRole("alert")).toHaveTextContent("Não foi possível carregar os pacientes.");
+  });
+
+  it("valida, cria, persiste e remove agendamentos", async () => {
+    localStorage.setItem("cardioia_fake_jwt", "token");
+    renderPortal("/agendamentos");
+    fireEvent.click(screen.getByRole("button", { name: "Agendar consulta" }));
+    expect(await screen.findByRole("status")).toHaveTextContent("Preencha paciente e data.");
+    fireEvent.change(screen.getByLabelText("Paciente"), { target: { value: "Pessoa Fictícia" } });
+    fireEvent.change(screen.getByLabelText("Data"), { target: { value: "2026-10-10" } });
+    fireEvent.click(screen.getByRole("button", { name: "Agendar consulta" }));
+    expect(await screen.findByText("Pessoa Fictícia")).toBeInTheDocument();
+    expect(JSON.parse(localStorage.getItem("cardioia_appointments"))).toHaveLength(1);
+    fireEvent.click(screen.getByRole("button", { name: "Remover consulta de Pessoa Fictícia" }));
+    expect(screen.queryByText("Pessoa Fictícia")).not.toBeInTheDocument();
+    expect(JSON.parse(localStorage.getItem("cardioia_appointments"))).toHaveLength(0);
+  });
+
+  it("encerra a sessão e volta ao login", async () => {
+    localStorage.setItem("cardioia_fake_jwt", "token");
+    renderPortal("/");
+    fireEvent.click(await screen.findByRole("button", { name: "Sair" }));
+    expect(await screen.findByText("Entrar no CardioIA")).toBeInTheDocument();
+    expect(localStorage.getItem("cardioia_fake_jwt")).toBeNull();
+  });
 });

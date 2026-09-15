@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import random
+import re
 from pathlib import Path
 
 import joblib
@@ -105,6 +106,26 @@ def criar_pipeline() -> Pipeline:
 def probabilidade_alto_risco(modelo: Pipeline, frases: pd.Series | list[str]):
     indice = list(modelo.classes_).index("alto risco")
     return modelo.predict_proba(frases)[:, indice]
+
+
+def avaliar_entrada_textual(modelo: Pipeline, frase: str) -> dict[str, object]:
+    """Classifica e explicita limites observáveis da entrada demonstrativa."""
+    if not frase.strip():
+        raise ValueError("A frase não pode estar vazia.")
+    termos = int(modelo.named_steps["tfidf"].transform([frase]).nnz)
+    probabilidade = float(probabilidade_alto_risco(modelo, [frase])[0])
+    alertas = []
+    if termos == 0:
+        alertas.append("Nenhum termo conhecido pelo TF-IDF foi identificado.")
+    if re.search(r"\b(?:não|nao|nunca|nego|nega|negou|sem|nem)\b", frase.lower()):
+        alertas.append("Há possível negação; este classificador não interpreta contexto linguístico complexo.")
+    return {
+        "classe": str(modelo.predict([frase])[0]),
+        "probabilidade_alto_risco": probabilidade,
+        "termos_reconhecidos": termos,
+        "alertas": alertas,
+        "confiavel_para_demonstracao": not alertas,
+    }
 
 
 def avaliar_modelo(

@@ -31,12 +31,12 @@ Os roteiros abaixo foram desenhados para manter cada demonstração abaixo de **
 | Tempo | Tela | Fala sugerida |
 |---|---|---|
 | 0:00–0:25 | amostra de ECGs e README | “No segundo Ir Além, formulamos uma classificação binária de ECG em normal e anormal.” |
-| 0:25–0:55 | inventário dos dados | “Selecionamos 60 exames: 30 normais e 30 anormais, mantendo as classes equilibradas para o experimento.” |
-| 0:55–1:30 | notebook de pré-processamento | “As imagens são convertidas para tons de cinza, redimensionadas para 64 por 64, normalizadas e transformadas em vetores.” |
-| 1:30–2:00 | separação e hashes | “A separação treino/teste é estratificada e validada por hash do exame, impedindo que a mesma imagem apareça nos dois conjuntos. A fonte não fornece ID de paciente.” |
-| 2:00–2:35 | arquitetura MLP | “A MLP Keras usa camadas densas, normalização em lote e dropout. A escolha do limiar usa somente a validação.” |
-| 2:35–3:10 | métricas | “No teste com 12 exames, a acurácia balanceada foi 41,7% e a ROC AUC 0,667. Mantivemos esse resultado baixo para relatar honestamente a limitação da amostra.” |
-| 3:10–3:35 | limitações | “O modelo é apenas uma prova de conceito educacional, sem validação clínica. Um próximo passo exigiria mais dados, identificação por paciente e validação externa.” |
+| 0:25–0:55 | inventário dos dados | “O baseline usou 60 imagens. Na revisão, auditamos os 928 arquivos da versão 2 da fonte e removemos cópias exatas, obtendo 491 imagens únicas.” |
+| 0:55–1:30 | notebook de pré-processamento | “Removemos cabeçalho e rodapé, convertemos para tons de cinza e preservamos a proporção em 96 por 56 pixels para a MLP.” |
+| 1:30–2:00 | separação e hashes | “Usamos 313 imagens no treino, 79 na validação e 99 no teste. Nenhum hash se repete entre conjuntos. A fonte, porém, não fornece ID confiável de paciente.” |
+| 2:00–2:35 | arquitetura MLP | “A MLP Keras usa camadas densas, regularização, normalização em lote e dropout. Pesos de classe usam só o treino e o limiar usa só a validação.” |
+| 2:35–3:10 | métricas | “O baseline teve acurácia balanceada de 41,7%. Com 491 imagens, ela subiu para 74,5%, com F1 de 74,6% e ROC AUC de 0,824 no teste final.” |
+| 3:10–3:35 | limitações | “A melhora não torna o modelo clínico. Sem identificação por paciente nem validação externa, ele permanece uma prova de conceito educacional.” |
 
 ## Checklist antes de publicar
 

@@ -29,6 +29,13 @@ export default function Appointments() {
     setMessage("Consulta simulada agendada.");
   }
 
+  function removeAppointment(id) {
+    const next = appointments.filter((item) => item.id !== id);
+    setAppointments(next);
+    localStorage.setItem("cardioia_appointments", JSON.stringify(next));
+    setMessage("Consulta simulada removida.");
+  }
+
   return (
     <>
       <header className={styles.pageHeader}>
@@ -78,8 +85,11 @@ export default function Appointments() {
             <ul className={styles.appointmentList}>
               {appointments.map((item) => (
                 <li key={item.id}>
-                  <strong>{item.patient}</strong>
-                  <span>{item.specialty} • {item.date}</span>
+                  <div><strong>{item.patient}</strong>
+                  <span>{item.specialty} • {item.date}</span></div>
+                  <button type="button" className={styles.removeButton}
+                    aria-label={`Remover consulta de ${item.patient}`}
+                    onClick={() => removeAppointment(item.id)}>Remover</button>
                 </li>
               ))}
             </ul>

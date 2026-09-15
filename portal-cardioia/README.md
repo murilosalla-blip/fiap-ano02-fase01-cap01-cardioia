@@ -13,8 +13,13 @@ Portal responsivo desenvolvido em React + Vite para o **Ir Além 1** da Fase 2 d
 - listagem consumida de JSON local por uma camada de serviço;
 - busca de pacientes;
 - agendamento com useState e useReducer;
+- inclusão, persistência e remoção de consultas simuladas;
 - persistência local dos agendamentos;
 - layout responsivo com CSS Modules.
+
+## Testes
+
+`npm test -- --run` cobre rota protegida, login válido e inválido, busca e falha no carregamento de pacientes, criação/persistência/remoção de agendamentos e logout. `npm run build` valida a versão de produção.
 
 ## Credenciais de demonstração
 

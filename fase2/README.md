@@ -140,6 +140,23 @@ O experimento binário usa 30 imagens normais e 30 anormais selecionadas determi
 
 O baixo desempenho é mantido de forma transparente. Ele mostra que a pequena amostra e uma MLP simples sobre pixels achatados não sustentam generalização. Implementação funcional não equivale a modelo clinicamente útil.
 
+### Revisão ampliada
+
+Para responder à limitação da amostra, foi acrescentado um segundo experimento, sem apagar o baseline. A versão 2 da mesma fonte possui 928 arquivos distribuídos nas quatro pastas; depois da remoção de cópias exatas restam **491 imagens únicas**: 142 normais e 349 anormais. Os cabeçalhos e rodapés são retirados antes do versionamento e do treinamento.
+
+O protocolo usa 313 imagens no treino, 79 na validação e 99 no teste final. A divisão é estratificada pela classe original, os hashes não se repetem entre conjuntos, pesos de classe são calculados somente no treino e o limiar é escolhido somente na validação.
+
+| Métrica | Baseline (60) | Revisão ampliada (491) |
+|---|---:|---:|
+| Acurácia | 41,7% | 69,7% |
+| Acurácia balanceada | 41,7% | 74,5% |
+| Precisão — anormal | 33,3% | 91,7% |
+| Recall — anormal | 16,7% | 62,9% |
+| F1 — anormal | 22,2% | 74,6% |
+| ROC AUC | 0,667 | 0,824 |
+
+O teste ampliado produziu a matriz `[[25, 4], [26, 44]]` (normal/anormal). A melhora confirma a utilidade de ampliar a amostra, mas não demonstra validade clínica. A fonte ainda não oferece identificador confiável de paciente, portanto exames diferentes da mesma pessoa podem estar em conjuntos distintos.
+
 ## Estrutura da Fase 2
 
 ```text
@@ -149,22 +166,27 @@ fase2/
 ├── dados/
 │   ├── classificacao_risco.csv
 │   ├── mapa_conhecimento.csv
-│   └── relatos_sintomas.txt
+│   ├── relatos_sintomas.txt
+│   └── visual_ampliado/
 ├── notebooks/
 │   ├── analise_baseline.ipynb
 │   ├── classificacao_textual_tfidf.ipynb
-│   └── mlp_ecg_binaria.ipynb
+│   ├── mlp_ecg_binaria.ipynb
+│   └── mlp_ecg_ampliada.ipynb
 ├── src/
 │   ├── analisar_modelo.py
 │   ├── classificar_risco_texto.py
 │   ├── extrair_sintomas.py
 │   ├── treinar_baselines.py
-│   └── treinar_mlp_ecg.py
+│   ├── treinar_mlp_ecg.py
+│   ├── preparar_visual_ampliado.py
+│   └── treinar_mlp_ecg_ampliada.py
 ├── tests/
 │   ├── auditar_cenarios.py
 │   ├── test_app.py
 │   ├── test_nlp.py
-│   └── test_visual.py
+│   ├── test_visual.py
+│   └── test_visual_ampliado.py
 ├── requirements.txt
 └── requirements-visual.txt
 ```
@@ -189,6 +211,9 @@ As dependências do TensorFlow foram isoladas para não tornar o deploy do Strea
 pip install -r fase2/requirements-visual.txt
 python fase2/tests/test_visual.py
 python fase2/src/treinar_mlp_ecg.py
+python fase2/src/preparar_visual_ampliado.py --cache /tmp/cardioia-ecg-raw
+python fase2/tests/test_visual_ampliado.py
+python fase2/src/treinar_mlp_ecg_ampliada.py
 ```
 
 ## Validação automática
@@ -203,7 +228,7 @@ Consulte `fase2/CHECKLIST_ENUNCIADO.md` para a correspondência completa entre r
 - bases pequenas, simuladas ou históricas;
 - ausência de validação externa, clínica e prospectiva;
 - desempenho textual perfeito decorrente de base didática separável;
-- baixo desempenho da MLP visual;
+- baixo desempenho do baseline visual e desempenho ainda insuficiente da revisão ampliada;
 - ausência de identificador de paciente na fonte visual;
 - balanceamentos artificiais que não representam prevalência;
 - dados textuais, tabulares e visuais de pessoas e fontes diferentes;

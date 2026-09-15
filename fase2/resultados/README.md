@@ -27,6 +27,8 @@ Separação: 96 frases de treino e 24 de teste, agrupadas por `id_cenario`. Nenh
 
 O resultado perfeito decorre de uma base pequena, simulada e deliberadamente separável. Ele não estima desempenho em relatos reais.
 
+Uma sondagem adicional com 16 entradas verificou negação, caixa, pontuação, paráfrase e texto fora do vocabulário. Quatro entradas não ativaram nenhum termo do TF-IDF e a diferença entre “tenho dor no peito” e sua negação foi de apenas 0,0121. Isso não é uma métrica externa: evidencia que o classificador simples não compreende contexto linguístico complexo e justifica os alertas exibidos no front.
+
 Saídas geradas em `fase2/resultados/nlp/`:
 
 - `metricas_classificador_texto.json`;
@@ -91,6 +93,28 @@ Saídas publicadas no artifact `resultados-mlp-ecg`:
 - curva de perda;
 - matriz de confusão;
 - notebook executado.
+
+### Revisão ampliada
+
+A revisão preserva o baseline e usa todas as 491 imagens únicas recuperadas da versão 2 da mesma fonte. Cabeçalho e rodapé são removidos, e a divisão estratificada pela classe original produz 313 exemplos de treino, 79 de validação e 99 de teste final.
+
+| Métrica | Resultado |
+|---|---:|
+| Acurácia | 0,697 |
+| Acurácia balanceada | 0,745 |
+| Precisão — anormal | 0,917 |
+| Recall — anormal | 0,629 |
+| F1 — anormal | 0,746 |
+| ROC AUC | 0,824 |
+
+O limiar 0,77 foi escolhido somente na validação. A matriz de confusão do teste foi `[[25, 4], [26, 44]]`. Duas execuções com semente 42 produziram o mesmo arquivo de métricas. A melhora em relação ao baseline reduz a incerteza amostral, mas não supre a falta de identificação por paciente ou validação clínica externa.
+
+Saídas em `fase2/resultados/visual_ampliado/`:
+
+- modelo Keras;
+- métricas e histórico de treino;
+- previsões do teste;
+- matriz de confusão.
 
 ## Governança e interpretação
 

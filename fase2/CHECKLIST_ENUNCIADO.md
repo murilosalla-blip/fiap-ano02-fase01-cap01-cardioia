@@ -50,6 +50,19 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | Evidências reproduzíveis | Workflow e artifact `resultados-mlp-ecg` | Concluído |
 | Vídeo de até 4 minutos | Link ainda não fornecido | **Pendente** |
 
+### Revisão ampliada do Ir Além 2
+
+| Verificação adicional | Evidência | Situação |
+|---|---|---|
+| Uso da versão 2 completa da fonte | 928 arquivos físicos auditados; 491 conteúdos únicos | Concluído |
+| Remoção de duplicatas exatas | SHA-256 original em `fase2/auditoria/inventario_visual_ampliado.json` | Concluído |
+| Privacidade dos exemplos | Cabeçalho e rodapé removidos dos derivados em `fase2/dados/visual_ampliado/` | Concluído |
+| Separação treino/validação/teste | 313/79/99, estratificada pela classe original e sem hash repetido | Concluído |
+| Limiar sem consultar o teste | Escolhido na validação; teste final preservado | Concluído |
+| Avaliação ampliada | Acurácia balanceada 74,5%; ROC AUC 0,824 | Concluído |
+| Reprodutibilidade | Duas execuções locais produziram o mesmo arquivo de métricas | Concluído |
+| Restrição por paciente | A fonte não fornece ID confiável; limitação declarada | Concluído com limitação |
+
 ## Feedback da Fase 1
 
 | Feedback | Tratamento na Fase 2 |
@@ -90,6 +103,17 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 - treinamento da MLP;
 - execução do notebook;
 - geração e publicação de modelo, métricas, previsões e gráficos.
+
+### Testes adicionais da revisão
+
+- 491 hashes originais e derivados únicos;
+- 142 imagens normais e 349 anormais;
+- pixels em tons de cinza, 96 × 56 e intervalo 0–1;
+- quatro classes originais presentes em treino, validação e teste;
+- ausência de hash repetido entre os três conjuntos;
+- execução determinística do treinamento ampliado;
+- sondagem textual com negação, caixa, paráfrase e entradas fora do vocabulário;
+- cinco testes do portal e build Vite de produção.
 
 ## Condição para declarar 100%
 
