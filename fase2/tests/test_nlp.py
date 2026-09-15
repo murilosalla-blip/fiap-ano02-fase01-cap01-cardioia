@@ -16,6 +16,7 @@ from classificar_risco_texto import (  # noqa: E402
     carregar_dataset,
     dividir_por_cenario,
     treinar_e_avaliar,
+    termos_mais_influentes,
 )
 from extrair_sintomas import (  # noqa: E402
     analisar_arquivo,
@@ -23,6 +24,7 @@ from extrair_sintomas import (  # noqa: E402
     carregar_mapa,
     carregar_relatos,
     normalizar_texto,
+    mencoes_afirmadas,
 )
 
 
@@ -115,7 +117,43 @@ def testar_classificador() -> None:
     )
 
 
+def testar_negacao_e_fronteiras() -> None:
+    casos = [
+        ("Não tenho dor no peito.", "dor no peito", False),
+        ("Nego dor no peito e falta de ar.", "falta de ar", False),
+        ("Sem dor no peito nem falta de ar.", "falta de ar", False),
+        ("Não tenho dor no peito, mas sinto falta de ar.", "falta de ar", True),
+        ("Sem febre e tenho dor no peito.", "dor no peito", True),
+        ("Não tenho febre. Sinto dor no peito.", "dor no peito", True),
+        ("Não só dor no peito, também falta de ar.", "dor no peito", True),
+        ("Dor no peito que não melhora.", "dor no peito", True),
+        ("Não consigo respirar por causa da falta de ar.", "falta de ar", True),
+        ("Sem dor no peito ontem; hoje tenho dor no peito.", "dor no peito", True),
+        ("Estou em desmaios fictícios.", "desmaio", False),
+        ("Sinto APERTO no TÓRAX!", "aperto no torax", True),
+    ]
+    for frase, sintoma, esperado in casos:
+        assert mencoes_afirmadas(frase, sintoma) is esperado, frase
+    assert not analisar_relato("Não tenho dor no peito.")["encontrou_correspondencia"]
+    try:
+        analisar_relato("   ")
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("Entrada vazia deveria ser rejeitada")
+
+
+def testar_direcao_dos_termos() -> None:
+    modelo, *_ = treinar_e_avaliar()
+    tabela = termos_mais_influentes(modelo, 5)
+    # Na ordem alfabética atual, coeficientes positivos apontam para baixo risco.
+    assert set(tabela[tabela.coeficiente > 0].direcao) == {"baixo risco"}
+    assert set(tabela[tabela.coeficiente < 0].direcao) == {"alto risco"}
+
+
 def main() -> None:
+    testar_negacao_e_fronteiras()
+    testar_direcao_dos_termos()
     testar_dados_extracao()
     testar_dataset_textual()
     testar_classificador()
