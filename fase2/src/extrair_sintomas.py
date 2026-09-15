@@ -65,6 +65,35 @@ def carregar_mapa(caminho: Path = CAMINHO_MAPA) -> list[Associacao]:
     return associacoes
 
 
+def mencoes_afirmadas(relato: str, sintoma: str) -> bool:
+    """Heurística local de negação; não interpreta temporalidade ou terceiros.
+
+    Pontuação e adversativas encerram o escopo. Um novo verbo afirmativo
+    após uma conjunção também encerra a negação. Listas com 'nem' mantêm
+    o escopo. Casos complexos continuam exigindo revisão humana.
+    """
+    partes = re.split(r"[.!?;,\n]+", relato)
+    padrao = r"\b" + re.escape(normalizar_texto(sintoma)) + r"\b"
+    for parte in partes:
+        texto = normalizar_texto(parte)
+        oracoes = re.split(
+            r"\b(?:mas|porem|contudo|entretanto)\b|"
+            r"\be\s+(?=(?:sinto|tenho|apresento|percebo|noto)\b)", texto
+        )
+        for oracao in oracoes:
+            for ocorrencia in re.finditer(padrao, oracao):
+                prefixo = oracao[:ocorrencia.start()]
+                prefixo = re.sub(r"\bnao\s+(?:so|apenas|somente)\b", "", prefixo)
+                negado = re.search(
+                    r"\b(?:sem|nego|nega|negou|nunca|nem|ausencia de)\b|"
+                    r"\bnao\s+(?:tenho|tem|sinto|sente|apresento|apresenta|"
+                    r"percebo|percebe|ha|houve|tive|teve|relato|relata)\b", prefixo
+                )
+                if not negado:
+                    return True
+    return False
+
+
 def analisar_relato(
     relato: str,
     associacoes: list[Associacao] | None = None,
@@ -74,14 +103,13 @@ def analisar_relato(
         raise ValueError("O relato não pode estar vazio.")
 
     mapa = associacoes if associacoes is not None else carregar_mapa()
-    relato_normalizado = normalizar_texto(relato)
     achados: dict[str, dict[str, object]] = defaultdict(
         lambda: {"expressoes": set(), "prioridades": set()}
     )
 
     for associacao in mapa:
         for sintoma in associacao.sintomas:
-            if normalizar_texto(sintoma) in relato_normalizado:
+            if mencoes_afirmadas(relato, sintoma):
                 achados[associacao.doenca]["expressoes"].add(sintoma)
                 achados[associacao.doenca]["prioridades"].add(
                     associacao.prioridade
