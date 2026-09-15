@@ -202,10 +202,10 @@ def termos_mais_influentes(
     pesos = estimador.coef_[0]
     tabela = pd.DataFrame({"termo": termos, "coeficiente": pesos})
     maiores = tabela.nlargest(quantidade, "coeficiente").assign(
-        direcao="alto risco"
+        direcao=str(estimador.classes_[1])
     )
     menores = tabela.nsmallest(quantidade, "coeficiente").assign(
-        direcao="baixo risco"
+        direcao=str(estimador.classes_[0])
     )
     return pd.concat([maiores, menores], ignore_index=True)
 
