@@ -33,6 +33,12 @@ describe("CardioIA Portal", () => {
     renderPortal("/");
     expect(await screen.findByText("Entrar no CardioIA")).toBeInTheDocument();
 
+    fireEvent.change(screen.getByLabelText("E-mail"), {
+      target: { value: ["pessoa", "exemplo.local"].join("@") },
+    });
+    fireEvent.change(screen.getByLabelText("Senha"), {
+      target: { value: "x".repeat(8) },
+    });
     fireEvent.click(screen.getByRole("button", { name: "Entrar" }));
 
     expect(await screen.findByRole("heading", { name: "Dashboard" })).toBeInTheDocument();
@@ -40,14 +46,17 @@ describe("CardioIA Portal", () => {
     expect(localStorage.getItem("cardioia_fake_jwt")).toBeTruthy();
   });
 
-  it("rejeita credenciais diferentes das credenciais demonstrativas", async () => {
+  it("rejeita credenciais fictícias fora do formato esperado", async () => {
     renderPortal("/login");
     fireEvent.change(screen.getByLabelText("E-mail"), {
-      target: { value: "invalido@exemplo.com" },
+      target: { value: ["pessoa", "exemplo.local"].join("@") },
+    });
+    fireEvent.change(screen.getByLabelText("Senha"), {
+      target: { value: "123" },
     });
     fireEvent.click(screen.getByRole("button", { name: "Entrar" }));
     expect(await screen.findByRole("alert")).toHaveTextContent(
-      "E-mail ou senha de demonstração inválidos.",
+      "Informe um e-mail fictício válido e uma senha com pelo menos 6 caracteres.",
     );
   });
 

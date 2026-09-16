@@ -12,8 +12,13 @@ export function AuthProvider({ children }) {
   const [token, setToken] = useState(() => localStorage.getItem(TOKEN_KEY));
 
   function login(email, password) {
-    if (email !== "cardioia@fiap.com" || password !== "aura2026") {
-      return { success: false, message: "E-mail ou senha de demonstração inválidos." };
+    const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+    const senhaValida = password.trim().length >= 6;
+    if (!emailValido || !senhaValida) {
+      return {
+        success: false,
+        message: "Informe um e-mail fictício válido e uma senha com pelo menos 6 caracteres.",
+      };
     }
     const nextToken = criarTokenFake(email);
     localStorage.setItem(TOKEN_KEY, nextToken);

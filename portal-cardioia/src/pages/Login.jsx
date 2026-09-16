@@ -6,8 +6,8 @@ import styles from "../styles/Portal.module.css";
 export default function Login() {
   const { isAuthenticated, login } = useAuth();
   const navigate = useNavigate();
-  const [email, setEmail] = useState("cardioia@fiap.com");
-  const [password, setPassword] = useState("aura2026");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   if (isAuthenticated) return <Navigate to="/" replace />;
@@ -24,7 +24,7 @@ export default function Login() {
       <section className={styles.loginCard}>
         <span className={styles.badge}>Protótipo acadêmico</span>
         <h1>Entrar no CardioIA</h1>
-        <p>Use as credenciais de demonstração já preenchidas.</p>
+        <p>Use um e-mail fictício válido e uma senha com pelo menos 6 caracteres.</p>
         <form onSubmit={handleSubmit}>
           <label>
             E-mail

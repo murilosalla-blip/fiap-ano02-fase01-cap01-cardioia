@@ -131,7 +131,7 @@ O código está em `portal-cardioia/` e inclui:
 - CSS Modules responsivo;
 - testes funcionais e build de produção.
 
-O portal também está publicado no repositório público separado [Julia-carvalho96/fiap-cardioia-portal](https://github.com/Julia-carvalho96/fiap-cardioia-portal). Permanecem pendentes apenas a lista autorizada de integrantes/RMs e o link do vídeo.
+A transferência para o repositório separado exigido e a publicação dos integrantes/RMs permanecem pendentes de ação/autorização.
 
 ## Ir Além 2 — MLP de ECG
 
@@ -231,7 +231,7 @@ python fase2/src/treinar_mlp_ecg_ampliada.py
 - `.github/workflows/fase2-baseline.yml`: NLP, portal React, Streamlit, modelo tabular e notebooks.
 - `.github/workflows/fase2-visual.yml`: dados visuais, arquitetura, MLP, notebook e artifacts.
 
-Consulte `fase2/CHECKLIST_ENUNCIADO.md` para a correspondência completa entre requisitos, arquivos e pendências. O relatório consolidado está em `fase2/RELATORIO_ENTREGA.md` e os três roteiros cronometrados estão em `fase2/ROTEIRO_VIDEO.md`.
+Consulte `fase2/CHECKLIST_ENUNCIADO.md` para a correspondência completa entre requisitos, arquivos e pendências. O relatório consolidado está em `fase2/RELATORIO_ENTREGA.md`.
 
 ## Limitações gerais
 
@@ -251,4 +251,4 @@ O front não usa API própria nem banco de dados e não armazena relatos. Use ap
 
 ## Encerramento da entrega
 
-O repositório público separado do portal já foi criado em [Julia-carvalho96/fiap-cardioia-portal](https://github.com/Julia-carvalho96/fiap-cardioia-portal). Para a submissão acadêmica final ainda é necessário inserir integrantes/RMs e os links dos vídeos não listados. O código, os notebooks e os testes estão implementados.
+Para a submissão acadêmica final ainda é necessário criar o repositório público separado do portal e inserir os links dos vídeos não listados. Essas pendências são externas; o código, os notebooks e os testes já estão implementados.

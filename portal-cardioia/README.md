@@ -4,6 +4,12 @@ Portal responsivo desenvolvido em React + Vite para o **Ir Além 1** da Fase 2 d
 
 > Todos os pacientes e agendamentos são fictícios. O projeto é exclusivamente educacional e não realiza diagnóstico.
 
+## Integrantes
+
+- Murilo Salla — RM568041
+- Elias da Silva de Souza — RM568500
+- Julia Duarte de Carvalho — RM567816
+
 ## Funcionalidades
 
 - autenticação simulada via Context API;
@@ -21,11 +27,10 @@ Portal responsivo desenvolvido em React + Vite para o **Ir Além 1** da Fase 2 d
 
 `npm test -- --run` cobre rota protegida, login válido e inválido, busca e falha no carregamento de pacientes, criação/persistência/remoção de agendamentos e logout. `npm run build` valida a versão de produção.
 
-## Credenciais de demonstração
+## Acesso de demonstração
 
-As credenciais são inteiramente fictícias e aparecem na própria tela de login
-para facilitar a demonstração acadêmica. Não reutilize credenciais reais neste
-protótipo.
+Informe qualquer e-mail fictício em formato válido e uma senha com pelo menos
+seis caracteres. Não reutilize credenciais reais neste protótipo.
 
 ## Estrutura
 
@@ -53,11 +58,6 @@ npm run dev
 npm run build
 ```
 
-## Publicação
+## Pendências de publicação
 
-O portal está publicado em [Julia-carvalho96/fiap-cardioia-portal](https://github.com/Julia-carvalho96/fiap-cardioia-portal).
-
-Pendências finais:
-
-- adicionar a lista de integrantes e RMs após autorização explícita;
 - adicionar o link do vídeo não listado de até quatro minutos.
