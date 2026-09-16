@@ -25,7 +25,7 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 - NLP: 120 frases únicas; 96 treino e 24 teste; acurácia, precisão, recall, F1 e ROC AUC iguais a 1,0.
 - Contrafactual de sexo: diferença absoluta média de 0,002549 e máxima de 0,003250.
 - Streamlit: navegação, integração com o portal, ECG transparente, histórico da sessão e fluxos tabular, extração e classificação textual cobertos.
-- Portal: cinco testes cobrem proteção de rota, login válido e inválido, busca/erro de pacientes, criação/persistência/remoção de consultas e logout; build Vite concluído.
+- Portal: seis testes cobrem proteção de rota, login válido e inválido, busca/erro de pacientes, carteira e agenda fictícias, criação/persistência/remoção de consultas, vínculo com o Streamlit e logout; build Vite concluído.
 - Visual: 60 imagens únicas e equilibradas; 48 treino e 12 teste; hashes sem sobreposição; arquitetura Keras validada.
 - MLP visual: acurácia e acurácia balanceada de 0,4167; ROC AUC de 0,6667.
 - Revisão visual: 491 imagens únicas; 313 treino, 79 validação e 99 teste; acurácia balanceada de 0,7840; F1 anormal de 0,7833; ROC AUC de 0,8350.

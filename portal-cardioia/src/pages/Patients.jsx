@@ -26,6 +26,13 @@ export default function Patients() {
         <p>Nenhum registro representa uma pessoa real.</p>
       </header>
       <section className={styles.contentCard}>
+        <div className={styles.listHeader}>
+          <div>
+            <span className={styles.eyebrow}>Carteira fictícia</span>
+            <h3>{patients.length} pacientes cadastrados</h3>
+          </div>
+          <span className={styles.demoChip}>Dados 100% simulados</span>
+        </div>
         <label className={styles.searchLabel}>
           Buscar paciente
           <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Digite um nome" />
@@ -36,14 +43,24 @@ export default function Patients() {
           {filtered.map((patient) => (
             <article className={styles.patientCard} key={patient.id}>
               <div className={styles.avatar}>{patient.name.charAt(0)}</div>
-              <div>
+              <div className={styles.patientInfo}>
+                <span className={styles.statusChip} data-status={patient.status}>
+                  {patient.status}
+                </span>
                 <h3>{patient.name}</h3>
-                <p>{patient.age} anos • {patient.status}</p>
-                <small>Última consulta: {patient.lastVisit}</small>
+                <p>{patient.age} anos • {patient.city}</p>
+                <small>Plano: {patient.carePlan}</small>
+                <div className={styles.visitRow}>
+                  <span>Última: {patient.lastVisit}</span>
+                  <strong>Próxima: {patient.nextVisit}</strong>
+                </div>
               </div>
             </article>
           ))}
         </div>
+        {!loading && !error && filtered.length === 0 && (
+          <p className={styles.emptyState}>Nenhum paciente fictício encontrado.</p>
+        )}
       </section>
     </>
   );

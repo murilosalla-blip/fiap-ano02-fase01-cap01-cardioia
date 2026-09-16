@@ -133,6 +133,8 @@ O código está em `portal-cardioia/` e inclui:
 - JWT fictício no localStorage;
 - rotas protegidas;
 - pacientes carregados de JSON por camada de serviço;
+- 12 pacientes e seis consultas iniciais totalmente fictícios;
+- próximos atendimentos e distribuição da carteira por status;
 - busca de pacientes;
 - agendamento com `useState` e `useReducer`;
 - dashboard;

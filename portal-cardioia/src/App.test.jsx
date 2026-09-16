@@ -42,7 +42,9 @@ describe("CardioIA Portal", () => {
     fireEvent.click(screen.getByRole("button", { name: "Entrar" }));
 
     expect(await screen.findByRole("heading", { name: "Dashboard" })).toBeInTheDocument();
-    await waitFor(() => expect(screen.getByText("1")).toBeInTheDocument());
+    await waitFor(() =>
+      expect(screen.getByText("Cadastros simulados").parentElement).toHaveTextContent("1"),
+    );
     expect(localStorage.getItem("cardioia_fake_jwt")).toBeTruthy();
   });
 
@@ -75,16 +77,29 @@ describe("CardioIA Portal", () => {
   it("valida, cria, persiste e remove agendamentos", async () => {
     localStorage.setItem("cardioia_fake_jwt", "token");
     renderPortal("/agendamentos");
+    expect(screen.getByText("Carlos Souza")).toBeInTheDocument();
+    expect(screen.getByText(/6 consultas fictícias/)).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Agendar consulta" }));
     expect(await screen.findByRole("status")).toHaveTextContent("Preencha paciente e data.");
     fireEvent.change(screen.getByLabelText("Paciente"), { target: { value: "Pessoa Fictícia" } });
     fireEvent.change(screen.getByLabelText("Data"), { target: { value: "2026-10-10" } });
     fireEvent.click(screen.getByRole("button", { name: "Agendar consulta" }));
     expect(await screen.findByText("Pessoa Fictícia")).toBeInTheDocument();
-    expect(JSON.parse(localStorage.getItem("cardioia_appointments"))).toHaveLength(1);
+    expect(JSON.parse(localStorage.getItem("cardioia_appointments"))).toHaveLength(7);
     fireEvent.click(screen.getByRole("button", { name: "Remover consulta de Pessoa Fictícia" }));
     expect(screen.queryByText("Pessoa Fictícia")).not.toBeInTheDocument();
-    expect(JSON.parse(localStorage.getItem("cardioia_appointments"))).toHaveLength(0);
+    expect(JSON.parse(localStorage.getItem("cardioia_appointments"))).toHaveLength(6);
+  });
+
+  it("exibe a agenda fictícia e o atalho para o produto de IA", async () => {
+    localStorage.setItem("cardioia_fake_jwt", "token");
+    renderPortal("/");
+    expect(await screen.findByRole("heading", { name: "Agenda da equipe" })).toBeInTheDocument();
+    expect(screen.getByText("Dra. Camila Torres")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Abrir CardioIA — realizar avaliação" })).toHaveAttribute(
+      "href",
+      "https://cardioia-fiap.streamlit.app/",
+    );
   });
 
   it("encerra a sessão e volta ao login", async () => {

@@ -27,6 +27,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | JWT fictício no localStorage | `AuthContext.jsx` | Concluído |
 | Rotas protegidas | `src/App.jsx` | Concluído |
 | Pacientes via base simulada | `public/data/patients.json` e `src/services/api.js` | Concluído |
+| Cenário demonstrativo realista | 12 pacientes, seis consultas e diferentes estados fictícios | Concluído |
 | Agendamento com useState e useReducer | `src/pages/Appointments.jsx` | Concluído |
 | Dashboard | `src/pages/Dashboard.jsx` | Concluído |
 | CSS Modules e responsividade | `src/styles/Portal.module.css` | Concluído |
@@ -117,7 +118,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 - ausência de hash repetido entre os três conjuntos;
 - execução determinística do treinamento ampliado;
 - sondagem textual com negação, caixa, paráfrase e entradas fora do vocabulário;
-- cinco testes do portal e build Vite de produção.
+- seis testes do portal e build Vite de produção.
 
 ## Condição para declarar 100%
 

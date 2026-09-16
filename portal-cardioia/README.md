@@ -24,6 +24,9 @@ Streamlit: https://cardioia-fiap.streamlit.app/
 - JWT fictício salvo no localStorage;
 - proteção de rotas;
 - dashboard de pacientes, consultas e prioridades;
+- carteira demonstrativa com 12 pacientes totalmente fictícios;
+- agenda inicial com seis consultas fictícias e diferentes especialidades;
+- visão de próximos atendimentos e distribuição por status;
 - listagem consumida de JSON local por uma camada de serviço;
 - busca de pacientes;
 - agendamento com useState e useReducer;
@@ -33,7 +36,10 @@ Streamlit: https://cardioia-fiap.streamlit.app/
 
 ## Testes
 
-`npm test -- --run` cobre rota protegida, login válido e inválido, busca e falha no carregamento de pacientes, criação/persistência/remoção de agendamentos e logout. `npm run build` valida a versão de produção.
+`npm test -- --run` cobre rota protegida, login válido e inválido, busca e
+falha no carregamento de pacientes, carga da agenda fictícia,
+criação/persistência/remoção de agendamentos, vínculo com o produto de IA e
+logout. `npm run build` valida a versão de produção.
 
 ## Acesso de demonstração
 
