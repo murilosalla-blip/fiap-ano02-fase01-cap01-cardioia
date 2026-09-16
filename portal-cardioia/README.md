@@ -53,8 +53,11 @@ npm run dev
 npm run build
 ```
 
-## Pendências de publicação
+## Publicação
+
+O portal está publicado em [Julia-carvalho96/fiap-cardioia-portal](https://github.com/Julia-carvalho96/fiap-cardioia-portal).
+
+Pendências finais:
 
 - adicionar a lista de integrantes e RMs após autorização explícita;
-- transferir o portal para o repositório público separado exigido;
 - adicionar o link do vídeo não listado de até quatro minutos.
