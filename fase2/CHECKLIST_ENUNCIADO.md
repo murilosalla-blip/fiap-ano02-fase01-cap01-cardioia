@@ -32,8 +32,10 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | CSS Modules e responsividade | `src/styles/Portal.module.css` | Concluído |
 | Testes de autenticação e rota | `src/App.test.jsx` | Concluído |
 | Build de produção | Validada no GitHub Actions | Concluído |
-| Repositório público separado | Código preparado no monorepo | **Pendente de criação/transferência** |
-| Integrantes e RMs no novo README | Exige autorização explícita para nova publicação | **Pendente** |
+| Repositório público separado | `Julia-carvalho96/fiap-cardioia-portal` | Concluído |
+| Integrantes e RMs no novo README | Publicados após autorização explícita | Concluído |
+| Portal publicado | GitHub Pages com vínculo para o Streamlit | Concluído |
+| Integração com o produto | Links recíprocos; Streamlit como produto de IA | Concluído |
 | Vídeo de até 4 minutos | Link ainda não fornecido | **Pendente** |
 
 ## Ir Além 2 — MLP visual
@@ -89,7 +91,8 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 - desempenho mínimo do classificador;
 - diferença contrafactual máxima;
 - inicialização do Streamlit;
-- clique nos três fluxos do app;
+- navegação do produto, vínculo com o portal, módulo visual e histórico da sessão;
+- clique nos três fluxos funcionais do app;
 - treinamento e análise tabular;
 - métricas e intervalos de confiança por sexo e faixa etária;
 - execução dos notebooks textual e tabular;
@@ -120,8 +123,6 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 
 A implementação de código está completa quando os dois workflows finais estiverem verdes. A entrega acadêmica só poderá ser declarada 100% após:
 
-1. criação do repositório separado do portal;
-2. autorização para publicar novamente nomes e RMs nesse repositório;
-3. gravação e publicação do vídeo ou dos vídeos exigidos;
-4. inclusão dos links no README;
-5. auditoria final e merge.
+1. gravação e publicação do vídeo ou dos vídeos exigidos;
+2. inclusão dos links no README;
+3. auditoria final e merge.

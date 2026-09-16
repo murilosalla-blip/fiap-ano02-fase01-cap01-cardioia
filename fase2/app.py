@@ -6,7 +6,9 @@ Execução:
 
 from __future__ import annotations
 
+import json
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import numpy as np
@@ -23,6 +25,19 @@ from classificar_risco_texto import (  # noqa: E402
 )
 from extrair_sintomas import analisar_relato, carregar_mapa  # noqa: E402
 from treinar_baselines import carregar_dados, criar_modelos  # noqa: E402
+
+
+URL_PORTAL = "https://julia-carvalho96.github.io/fiap-cardioia-portal/"
+URL_REPOSITORIO = (
+    "https://github.com/murilosalla-blip/"
+    "fiap-ano02-fase01-cap01-cardioia/tree/fase-2-machine-learning"
+)
+CAMINHO_METRICAS_VISUAIS = (
+    DIRETORIO_FASE2 / "resultados" / "visual_ampliado" / "metricas.json"
+)
+CAMINHO_EXEMPLOS_ECG = (
+    DIRETORIO_FASE2 / "dados" / "visual_ampliado" / "exemplos"
+)
 
 
 st.set_page_config(
@@ -135,6 +150,35 @@ def aplicar_estilo() -> None:
             padding: 1rem;
             border-radius: 16px;
         }
+        .product-card {
+            min-height: 185px;
+            padding: 1.35rem;
+            border: 1px solid #eadce5;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.94);
+            box-shadow: 0 8px 28px rgba(62, 22, 49, 0.06);
+        }
+        .product-card h3 { color: #7e174e; margin: 0.45rem 0; }
+        .product-card p { color: #6f626b; margin-bottom: 0; }
+        .step-number {
+            display: inline-grid;
+            place-items: center;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            color: white;
+            background: #9d145e;
+            font-weight: 750;
+        }
+        .status-pill {
+            display: inline-block;
+            padding: 0.3rem 0.65rem;
+            border-radius: 999px;
+            color: #17613b;
+            background: #def4e7;
+            font-size: 0.78rem;
+            font-weight: 750;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -158,6 +202,26 @@ def obter_modelo_textual():
 @st.cache_resource(show_spinner=False)
 def obter_mapa_conhecimento():
     return carregar_mapa()
+
+
+def iniciar_sessao() -> None:
+    """Inicializa somente o estado efêmero usado pela experiência do produto."""
+    st.session_state.setdefault("historico_avaliacoes", [])
+    st.session_state.setdefault("codigo_atendimento", "SIM-001")
+
+
+def registrar_avaliacao(modalidade: str, resultado: str) -> None:
+    """Registra um resumo sem dados pessoais apenas durante a sessão atual."""
+    st.session_state["historico_avaliacoes"].append(
+        {
+            "Horário": datetime.now().strftime("%d/%m/%Y %H:%M"),
+            "Atendimento fictício": st.session_state.get(
+                "codigo_atendimento", "SIM-001"
+            ),
+            "Modalidade": modalidade,
+            "Resultado acadêmico": resultado,
+        }
+    )
 
 
 def formatar_categoria(valor: str) -> str:
@@ -373,7 +437,7 @@ def explicar_predicao(modelo, registro: pd.DataFrame) -> pd.DataFrame:
     return tabela.sort_values("Magnitude", ascending=False)
 
 
-def mostrar_resultado(registro: pd.DataFrame) -> None:
+def mostrar_resultado(registro: pd.DataFrame) -> float:
     modelo = obter_modelo()
     probabilidade = float(modelo.predict_proba(registro)[0, 1])
     classe = (
@@ -487,6 +551,90 @@ def mostrar_resultado(registro: pd.DataFrame) -> None:
             "apareceu durante esforço."
         )
 
+    return probabilidade
+
+
+def pagina_inicio() -> None:
+    st.markdown("## Um único fluxo para explorar o CardioIA")
+    st.write(
+        "Use o CardioIA para executar demonstrações independentes de modelos "
+        "tabular e textual e para consultar o experimento visual de ECG. Todas "
+        "as bases possuem origens diferentes e nenhum resultado é diagnóstico."
+    )
+
+    coluna_1, coluna_2, coluna_3 = st.columns(3, gap="large")
+    with coluna_1:
+        st.markdown(
+            """
+            <div class="product-card">
+                <span class="step-number">1</span>
+                <h3>Dados clínicos</h3>
+                <p>Preencha 13 atributos da base Cleveland e veja a estimativa,
+                os valores usados e as contribuições locais.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    with coluna_2:
+        st.markdown(
+            """
+            <div class="product-card">
+                <span class="step-number">2</span>
+                <h3>Relato de sintomas</h3>
+                <p>Extraia expressões por mapa de conhecimento e classifique
+                uma frase fictícia com TF-IDF e Regressão Logística.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    with coluna_3:
+        st.markdown(
+            """
+            <div class="product-card">
+                <span class="step-number">3</span>
+                <h3>ECG experimental</h3>
+                <p>Consulte exemplos, protocolo e desempenho da MLP visual sem
+                apresentar o experimento como ferramenta clínica.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    st.info(
+        "Comece pela aba **Nova avaliação**. Use somente dados fictícios e "
+        "consulte o **Histórico da sessão** para revisar as simulações realizadas."
+    )
+    coluna_produto, coluna_codigo = st.columns(2)
+    with coluna_produto:
+        st.link_button(
+            "Conhecer o protótipo administrativo",
+            URL_PORTAL,
+            width="stretch",
+        )
+    with coluna_codigo:
+        st.link_button(
+            "Consultar código e documentação",
+            URL_REPOSITORIO,
+            width="stretch",
+        )
+
+
+def identificar_atendimento() -> None:
+    st.markdown("### Contexto da demonstração")
+    st.text_input(
+        "Código fictício do atendimento",
+        key="codigo_atendimento",
+        max_chars=24,
+        help=(
+            "Use apenas um identificador inventado. Não informe nome, CPF, "
+            "prontuário ou qualquer dado real."
+        ),
+    )
+    st.caption(
+        "O código serve apenas para organizar o histórico temporário desta "
+        "sessão e não é enviado para o modelo."
+    )
+
 
 def pagina_textual() -> None:
     st.subheader("Análise de relatos simulados")
@@ -528,6 +676,10 @@ def pagina_textual() -> None:
                 st.success(
                     "Expressões encontradas: "
                     + ", ".join(resultado["sintomas_identificados"])
+                )
+                registrar_avaliacao(
+                    "Extração textual",
+                    f"{len(resultado['sintomas_identificados'])} expressão(ões) identificada(s)",
                 )
                 hipoteses = pd.DataFrame(resultado["hipoteses_associadas"])
                 hipoteses = hipoteses.rename(
@@ -598,6 +750,10 @@ def pagina_textual() -> None:
                     unsafe_allow_html=True,
                 )
                 st.progress(probabilidade)
+                registrar_avaliacao(
+                    "Classificação textual",
+                    f"{classe.title()} — {probabilidade:.1%}",
+                )
                 for alerta in avaliacao["alertas"]:
                     st.info(alerta)
                 st.warning(
@@ -615,6 +771,98 @@ def pagina_textual() -> None:
             "Os módulos textual, tabular e visual usam bases de origens "
             "diferentes e permanecem independentes."
         )
+
+
+def pagina_visual() -> None:
+    st.subheader("Análise experimental de ECG")
+    st.caption(
+        "Experimento visual do Ir Além 2. A apresentação é transparente e não "
+        "executa inferência sobre imagens enviadas pelo usuário."
+    )
+
+    metricas = json.loads(CAMINHO_METRICAS_VISUAIS.read_text(encoding="utf-8"))
+    colunas = st.columns(4)
+    colunas[0].metric("Imagens únicas", f"{metricas['n_total']}")
+    colunas[1].metric(
+        "Acurácia balanceada", f"{metricas['acuracia_balanceada']:.1%}"
+    )
+    colunas[2].metric("F1 — anormal", f"{metricas['f1_anormal']:.1%}")
+    colunas[3].metric("ROC AUC", f"{metricas['roc_auc']:.3f}")
+
+    st.warning(
+        "O modelo visual não está carregado neste deploy. O TensorFlow foi "
+        "isolado do Streamlit para manter a aplicação leve e reprodutível. "
+        "Por isso não exibimos um botão de previsão de ECG que não possa ser "
+        "validado adequadamente."
+    )
+
+    st.markdown("#### Exemplos da fonte após preparação")
+    exemplos = [
+        ("Normal", "normal.png"),
+        ("Batimento anormal", "abnormal_heartbeat.png"),
+        ("Histórico de infarto", "history_mi.png"),
+        ("Infarto do miocárdio", "myocardial_infarction.png"),
+    ]
+    colunas_imagens = st.columns(4)
+    for coluna, (rotulo, arquivo) in zip(colunas_imagens, exemplos, strict=True):
+        with coluna:
+            st.image(
+                str(CAMINHO_EXEMPLOS_ECG / arquivo),
+                caption=rotulo,
+                width="stretch",
+            )
+
+    coluna_protocolo, coluna_limites = st.columns(2, gap="large")
+    with coluna_protocolo:
+        st.markdown("#### Protocolo")
+        st.write(
+            f"{metricas['n_treino']} imagens para treino, "
+            f"{metricas['n_validacao']} para validação e "
+            f"{metricas['n_teste']} para teste. Duplicatas exatas foram "
+            "removidas por hash e o limiar foi escolhido somente na validação."
+        )
+    with coluna_limites:
+        st.markdown("#### Limitações")
+        for limitacao in metricas["limitacoes"]:
+            st.write(f"- {limitacao}")
+        st.write("- Não houve validação clínica ou externa.")
+
+    with st.expander("Matriz de confusão da revisão ampliada"):
+        st.image(
+            str(
+                DIRETORIO_FASE2
+                / "resultados"
+                / "visual_ampliado"
+                / "matriz_confusao.png"
+            ),
+            caption="Normal/anormal no conjunto de teste final",
+            width=620,
+        )
+
+
+def pagina_historico() -> None:
+    st.subheader("Histórico da sessão")
+    st.caption(
+        "Resumo temporário das ações realizadas desde que esta página foi "
+        "aberta. Nada é salvo em banco de dados."
+    )
+    historico = st.session_state["historico_avaliacoes"]
+    if not historico:
+        st.info("Nenhuma avaliação foi executada nesta sessão.")
+        return
+
+    tabela = pd.DataFrame(historico)
+    st.dataframe(tabela, width="stretch", hide_index=True)
+    st.download_button(
+        "Baixar resumo acadêmico em CSV",
+        data=tabela.to_csv(index=False).encode("utf-8-sig"),
+        file_name="cardioia_resumo_sessao.csv",
+        mime="text/csv",
+        width="stretch",
+    )
+    if st.button("Limpar histórico da sessão", width="stretch"):
+        st.session_state["historico_avaliacoes"] = []
+        st.rerun()
 
 
 def pagina_desempenho() -> None:
@@ -725,13 +973,48 @@ def pagina_desempenho() -> None:
         "interpretado como desempenho perfeito ou ausência de viés."
     )
 
+    st.markdown("---")
+    st.markdown("#### Evidências das demais modalidades")
+    textual, visual = st.columns(2, gap="large")
+    with textual:
+        st.markdown("##### Classificador textual")
+        st.metric("Frases no teste", "24")
+        st.write(
+            "Acurácia, precisão, recall e F1 de 100% em uma base pequena, "
+            "simulada e deliberadamente separável. O resultado demonstra o "
+            "pipeline, não generalização clínica."
+        )
+    with visual:
+        metricas = json.loads(
+            CAMINHO_METRICAS_VISUAIS.read_text(encoding="utf-8")
+        )
+        st.markdown("##### ECG — revisão ampliada")
+        st.metric("Acurácia balanceada", f"{metricas['acuracia_balanceada']:.1%}")
+        st.write(
+            f"Teste final com {metricas['n_teste']} imagens únicas e ROC AUC "
+            f"de {metricas['roc_auc']:.3f}. A ausência de ID confiável de "
+            "paciente permanece uma limitação central."
+        )
+
 
 def pagina_sobre() -> None:
-    st.subheader("Sobre o modelo")
+    st.subheader("Metodologia, produto e limites")
     st.write(
-        "O CardioIA compara dois classificadores supervisionados e seleciona a "
-        "Regressão Logística por desempenho na validação cruzada. O front treina "
-        "uma cópia desse modelo com toda a base para permitir simulações."
+        "O CardioIA reúne três experimentos independentes em uma única "
+        "experiência: dados tabulares históricos, relatos textuais simulados e "
+        "imagens públicas de ECG. As saídas não são combinadas em um diagnóstico."
+    )
+
+    st.markdown("#### Arquitetura da entrega")
+    st.write(
+        "O Streamlit é o produto funcional de IA. O portal React é um protótipo "
+        "administrativo complementar do Ir Além 1, com autenticação simulada, "
+        "pacientes fictícios e agendamentos locais."
+    )
+    st.link_button(
+        "Abrir o protótipo administrativo React",
+        URL_PORTAL,
+        width="stretch",
     )
 
     st.markdown(
@@ -753,17 +1036,25 @@ def pagina_sobre() -> None:
         """
     )
 
+    st.markdown("#### Equipe")
+    st.write(
+        "Murilo Salla — RM568041  \n"
+        "Elias da Silva de Souza — RM568500  \n"
+        "Julia Duarte de Carvalho — RM567816"
+    )
+
 
 def main() -> None:
+    iniciar_sessao()
     aplicar_estilo()
     st.markdown(
         """
         <div class="hero">
-            <div class="academic-badge">Protótipo acadêmico • Fase 2</div>
+            <div class="academic-badge">Produto acadêmico unificado • Fase 2</div>
             <h1>CardioIA</h1>
             <p>
-                Uma demonstração transparente de NLP e Machine Learning
-                aplicado a dados cardiovasculares simulados e históricos.
+                Dados clínicos, relatos de sintomas e evidências visuais em uma
+                experiência transparente de Inteligência Artificial.
             </p>
         </div>
         """,
@@ -775,39 +1066,71 @@ def main() -> None:
         "e não substitui avaliação médica."
     )
 
-    aba_textual, aba_simulacao, aba_desempenho, aba_sobre = st.tabs(
+    (
+        aba_inicio,
+        aba_avaliacao,
+        aba_visual,
+        aba_historico,
+        aba_desempenho,
+        aba_sobre,
+    ) = st.tabs(
         [
-            "Triagem textual",
-            "Modelo tabular",
-            "Desempenho tabular",
-            "Metodologia e limitações",
+            "Início",
+            "Nova avaliação",
+            "ECG experimental",
+            "Histórico da sessão",
+            "Evidências",
+            "Sobre",
         ]
     )
 
-    with aba_textual:
-        pagina_textual()
+    with aba_inicio:
+        pagina_inicio()
 
-    with aba_simulacao:
-        area_resultado = st.container()
-        registro = criar_formulario()
+    with aba_avaliacao:
+        identificar_atendimento()
+        st.markdown("---")
+        modalidade_tabular, modalidade_textual = st.tabs(
+            ["Dados clínicos", "Relato de sintomas"]
+        )
 
-        if registro is not None:
-            st.session_state["ultimo_registro"] = registro
-            st.toast(
-                "Simulação concluída. O resultado foi exibido acima do formulário.",
-                icon="✅",
-            )
+        with modalidade_tabular:
+            area_resultado = st.container()
+            registro = criar_formulario()
 
-        if "ultimo_registro" in st.session_state:
-            with area_resultado:
-                try:
-                    mostrar_resultado(st.session_state["ultimo_registro"])
-                except Exception as erro:
-                    st.error(
-                        "Não foi possível concluir a simulação. "
-                        "Atualize a página e tente novamente."
-                    )
-                    st.exception(erro)
+            if registro is not None:
+                st.session_state["ultimo_registro"] = registro
+                probabilidade_registro = float(
+                    obter_modelo().predict_proba(registro)[0, 1]
+                )
+                registrar_avaliacao(
+                    "Dados clínicos",
+                    f"Estimativa Cleveland — {probabilidade_registro:.1%}",
+                )
+                st.toast(
+                    "Simulação concluída. O resultado foi exibido acima do formulário.",
+                    icon="✅",
+                )
+
+            if "ultimo_registro" in st.session_state:
+                with area_resultado:
+                    try:
+                        mostrar_resultado(st.session_state["ultimo_registro"])
+                    except Exception as erro:
+                        st.error(
+                            "Não foi possível concluir a simulação. "
+                            "Atualize a página e tente novamente."
+                        )
+                        st.exception(erro)
+
+        with modalidade_textual:
+            pagina_textual()
+
+    with aba_visual:
+        pagina_visual()
+
+    with aba_historico:
+        pagina_historico()
 
     with aba_desempenho:
         pagina_desempenho()

@@ -27,10 +27,27 @@ export default function Dashboard() {
         <StatCard label="Prioridades" value={priorities} detail="Marcadores demonstrativos" />
       </section>
       <section className={styles.contentCard}>
-        <h3>Próximas etapas do portal</h3>
+        <span className={styles.eyebrow}>Produto principal</span>
+        <h3>Realize uma avaliação no CardioIA</h3>
         <p>
-          Este front não usa prontuários reais nem back-end. Ele demonstra Context API,
-          Hooks, rotas protegidas, consumo de JSON e controle de estado.
+          Execute as demonstrações de dados clínicos e relatos de sintomas e consulte
+          as evidências do experimento visual de ECG no ambiente unificado em Streamlit.
+        </p>
+        <a
+          className={styles.primaryLink}
+          href="https://cardioia-fiap.streamlit.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Abrir CardioIA — realizar avaliação
+        </a>
+      </section>
+      <section className={styles.contentCard}>
+        <h3>Sobre este protótipo administrativo</h3>
+        <p>
+          Este front usa somente dados fictícios e demonstra Context API, Hooks,
+          rotas protegidas, consumo de JSON e controle de estado. Os modelos de IA
+          são executados separadamente no produto principal.
         </p>
       </section>
     </>

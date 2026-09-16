@@ -16,6 +16,13 @@ export default function Layout() {
           <NavLink to="/" end>Dashboard</NavLink>
           <NavLink to="/pacientes">Pacientes</NavLink>
           <NavLink to="/agendamentos">Agendamentos</NavLink>
+          <a
+            href="https://cardioia-fiap.streamlit.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Modelos de IA ↗
+          </a>
         </nav>
         <button className={styles.secondaryButton} onClick={logout}>Sair</button>
       </aside>

@@ -10,11 +10,16 @@ Esta fase implementa os entregáveis obrigatórios de **NLP, extração de infor
 - **Arquivo:** `fase2/app.py`
 - **Branch:** `fase-2-machine-learning`
 
-A aplicação demonstra três modalidades independentes:
+A aplicação organiza três modalidades independentes em uma única experiência de produto:
 
 1. extração de sintomas por mapa de conhecimento;
 2. classificação textual com TF-IDF;
-3. classificação tabular histórica como extensão.
+3. classificação tabular histórica como extensão;
+4. evidências e limitações do experimento visual de ECG, sem inferência no deploy.
+
+O fluxo inclui início orientado, código fictício de atendimento, avaliação por
+dados clínicos ou relato, histórico temporário da sessão, download de resumo e
+uma área consolidada de evidências. Nenhum dado é persistido em banco.
 
 ## Entrega obrigatória — Parte 1
 
@@ -119,6 +124,9 @@ As faixas possuem somente 18 a 25 pacientes. O resultado perfeito no grupo mais 
 
 ## Ir Além 1 — React + Vite
 
+- **Portal publicado:** https://julia-carvalho96.github.io/fiap-cardioia-portal/
+- **Repositório separado:** https://github.com/Julia-carvalho96/fiap-cardioia-portal
+
 O código está em `portal-cardioia/` e inclui:
 
 - autenticação simulada com Context API;
@@ -131,7 +139,9 @@ O código está em `portal-cardioia/` e inclui:
 - CSS Modules responsivo;
 - testes funcionais e build de produção.
 
-A transferência para o repositório separado exigido e a publicação dos integrantes/RMs permanecem pendentes de ação/autorização.
+O portal está publicado em repositório separado, identifica os integrantes e
+direciona o usuário ao Streamlit para executar os modelos. No sentido inverso,
+o Streamlit apresenta o portal como protótipo administrativo complementar.
 
 ## Ir Além 2 — MLP de ECG
 
@@ -251,4 +261,6 @@ O front não usa API própria nem banco de dados e não armazena relatos. Use ap
 
 ## Encerramento da entrega
 
-Para a submissão acadêmica final ainda é necessário criar o repositório público separado do portal e inserir os links dos vídeos não listados. Essas pendências são externas; o código, os notebooks e os testes já estão implementados.
+Para a submissão acadêmica final ainda é necessário inserir os links dos vídeos
+não listados. O código, os notebooks, os testes, o Streamlit e o portal React
+separado já estão implementados e publicados.

@@ -2,7 +2,7 @@
 
 ## Situação executiva
 
-A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e da extensão tabular está concluída e testada. Restam atividades externas de publicação: criar o repositório público separado do portal, autorizar/inserir integrantes e RMs nesse README e publicar os vídeos não listados no YouTube.
+A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e da extensão tabular está concluída e testada. O Streamlit agora funciona como produto principal unificado e o portal React, publicado separadamente, é um protótipo administrativo complementar. Resta publicar os vídeos não listados no YouTube.
 
 ## Evidências por requisito
 
@@ -14,7 +14,8 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 | Base textual de risco | `fase2/dados/classificacao_risco.csv` | Concluído |
 | TF-IDF e classificador | `fase2/src/classificar_risco_texto.py` e notebook | Concluído |
 | Avaliação e vieses | métricas, matriz de confusão e teste contrafactual | Concluído |
-| Portal React | `portal-cardioia/` | Código concluído; repositório separado pendente |
+| Portal React | `portal-cardioia/` e `Julia-carvalho96/fiap-cardioia-portal` | Concluído e publicado |
+| Produto unificado | Streamlit com avaliações, ECG, histórico e links recíprocos | Concluído |
 | MLP de ECG | script, notebook, testes e resultados visuais | Concluído |
 | README e repositório público | documentação no branch público | Concluído no repositório principal |
 | Vídeos | não publicados | Links do YouTube pendentes |
@@ -23,7 +24,7 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 
 - NLP: 120 frases únicas; 96 treino e 24 teste; acurácia, precisão, recall, F1 e ROC AUC iguais a 1,0.
 - Contrafactual de sexo: diferença absoluta média de 0,002549 e máxima de 0,003250.
-- Streamlit: inicialização e fluxos tabular, extração e classificação textual cobertos.
+- Streamlit: navegação, integração com o portal, ECG transparente, histórico da sessão e fluxos tabular, extração e classificação textual cobertos.
 - Portal: cinco testes cobrem proteção de rota, login válido e inválido, busca/erro de pacientes, criação/persistência/remoção de consultas e logout; build Vite concluído.
 - Visual: 60 imagens únicas e equilibradas; 48 treino e 12 teste; hashes sem sobreposição; arquitetura Keras validada.
 - MLP visual: acurácia e acurácia balanceada de 0,4167; ROC AUC de 0,6667.
@@ -50,8 +51,6 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 
 ## Pendências externas
 
-1. Criar um repositório público vazio chamado, por exemplo, `grupo-aura-cardioia-portal`.
-2. Copiar `portal-cardioia/` para esse repositório.
-3. Inserir integrantes e RMs após autorização explícita para republicação.
-4. Gravar e publicar os vídeos como não listados.
-5. Substituir os marcadores de vídeo nos READMEs pelos URLs finais.
+1. Gravar e publicar os vídeos como não listados.
+2. Inserir os URLs finais nos READMEs.
+3. Realizar a auditoria final da submissão.

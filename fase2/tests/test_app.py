@@ -13,6 +13,28 @@ app.run(timeout=60)
 if app.exception:
     raise AssertionError(f"Erro ao abrir o front: {app.exception}")
 
+abas = [item.label for item in app.tabs]
+for aba_esperada in [
+    "Início",
+    "Nova avaliação",
+    "ECG experimental",
+    "Histórico da sessão",
+    "Evidências",
+    "Sobre",
+]:
+    if aba_esperada not in abas:
+        raise AssertionError(f"A aba '{aba_esperada}' não foi encontrada.")
+
+links = {item.label: item.url for item in app.get("link_button")}
+if links.get("Conhecer o protótipo administrativo") != (
+    "https://julia-carvalho96.github.io/fiap-cardioia-portal/"
+):
+    raise AssertionError("O vínculo com o portal administrativo não foi exibido.")
+
+subtitulos_iniciais = [str(item.value) for item in app.subheader]
+if "Análise experimental de ECG" not in subtitulos_iniciais:
+    raise AssertionError("A transparência do experimento visual não foi exibida.")
+
 botoes = [
     botao
     for botao in app.button
@@ -78,7 +100,17 @@ textos = " ".join(str(item.value) for item in app.markdown)
 if "Resultado do classificador textual acadêmico" not in textos:
     raise AssertionError("O resultado textual não apareceu após o clique.")
 
+historicos = [
+    quadro.value
+    for quadro in app.dataframe
+    if "Modalidade" in getattr(quadro.value, "columns", [])
+]
+if not historicos or len(historicos[0]) < 3:
+    raise AssertionError(
+        "O histórico da sessão não registrou as três modalidades executadas."
+    )
+
 print(
-    "Front aberto; simulações tabular, extrativa e textual executadas "
-    "com explicações e alertas."
+    "Produto unificado aberto; navegação, portal, ECG, histórico e simulações "
+    "tabular, extrativa e textual validados."
 )
