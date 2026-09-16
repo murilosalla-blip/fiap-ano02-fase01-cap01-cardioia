@@ -2,7 +2,7 @@
 
 ## Situação executiva
 
-A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e da extensão tabular está concluída e testada. Restam atividades externas de publicação: criar o repositório público separado do portal, autorizar/inserir integrantes e RMs nesse README e publicar os vídeos não listados no YouTube.
+A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e da extensão tabular está concluída e testada. O portal foi publicado no repositório separado [Julia-carvalho96/fiap-cardioia-portal](https://github.com/Julia-carvalho96/fiap-cardioia-portal). Restam inserir os integrantes/RMs autorizados e publicar os vídeos não listados no YouTube.
 
 ## Evidências por requisito
 
@@ -14,7 +14,7 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 | Base textual de risco | `fase2/dados/classificacao_risco.csv` | Concluído |
 | TF-IDF e classificador | `fase2/src/classificar_risco_texto.py` e notebook | Concluído |
 | Avaliação e vieses | métricas, matriz de confusão e teste contrafactual | Concluído |
-| Portal React | `portal-cardioia/` | Código concluído; repositório separado pendente |
+| Portal React | `portal-cardioia/` e [repositório separado](https://github.com/Julia-carvalho96/fiap-cardioia-portal) | Concluído |
 | MLP de ECG | script, notebook, testes e resultados visuais | Concluído |
 | README e repositório público | documentação no branch público | Concluído no repositório principal |
 | Vídeos | roteiros prontos | Links do YouTube pendentes |
@@ -50,8 +50,6 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 
 ## Pendências externas
 
-1. Criar um repositório público vazio chamado, por exemplo, `grupo-aura-cardioia-portal`.
-2. Copiar `portal-cardioia/` para esse repositório.
-3. Inserir integrantes e RMs após autorização explícita para republicação.
-4. Gravar e publicar os vídeos como não listados.
-5. Substituir os marcadores de vídeo nos READMEs pelos URLs finais.
+1. Inserir integrantes e RMs após autorização explícita para republicação.
+2. Gravar e publicar os vídeos como não listados.
+3. Substituir os marcadores de vídeo nos READMEs pelos URLs finais.
