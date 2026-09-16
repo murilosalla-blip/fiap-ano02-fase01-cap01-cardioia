@@ -5,4 +5,5 @@ numpy>=1.26,<3
 pandas>=2.2,<3
 Pillow>=10,<13
 scikit-learn>=1.5,<2
-tensorflow-cpu>=2.17,<3
+# Versão fixada para manter arquitetura, limiar e métricas reproduzíveis.
+tensorflow-cpu==2.21.0

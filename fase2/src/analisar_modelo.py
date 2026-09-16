@@ -23,9 +23,11 @@ from sklearn.model_selection import train_test_split
 
 from treinar_baselines import (
     DIRETORIO_RESULTADOS,
+    ROTULOS_FAIXA_ETARIA,
     SEMENTE,
     calcular_metricas,
     carregar_dados,
+    categorizar_faixa_etaria,
 )
 
 
@@ -58,13 +60,19 @@ def estimar_intervalos(
     predicoes: np.ndarray,
     probabilidades: np.ndarray,
 ) -> pd.DataFrame:
-    """Calcula IC 95% por bootstrap no teste geral e por sexo."""
+    """Calcula IC 95% por bootstrap geral, por sexo e por faixa etária."""
     rng = np.random.default_rng(SEMENTE)
-    grupos: dict[str, np.ndarray] = {
-        "geral": np.ones(len(atributos_teste), dtype=bool),
+    grupos: dict[str, tuple[str, np.ndarray]] = {
+        "geral": ("geral", np.ones(len(atributos_teste), dtype=bool)),
     }
     for sexo in sorted(atributos_teste["sexo"].dropna().unique()):
-        grupos[str(sexo)] = atributos_teste["sexo"].eq(sexo).to_numpy()
+        grupos[str(sexo)] = (
+            "sexo",
+            atributos_teste["sexo"].eq(sexo).to_numpy(),
+        )
+    faixas_etarias = categorizar_faixa_etaria(atributos_teste["idade"])
+    for faixa in ROTULOS_FAIXA_ETARIA:
+        grupos[faixa] = ("faixa_etaria", faixas_etarias.eq(faixa).to_numpy())
 
     nomes_metricas = [
         "acuracia",
@@ -77,7 +85,7 @@ def estimar_intervalos(
     ]
     linhas: list[dict[str, float | int | str]] = []
 
-    for grupo, mascara in grupos.items():
+    for grupo, (dimensao, mascara) in grupos.items():
         y_grupo = alvo_teste.to_numpy()[mascara]
         pred_grupo = predicoes[mascara]
         prob_grupo = probabilidades[mascara]
@@ -100,6 +108,7 @@ def estimar_intervalos(
             valores = np.asarray(amostras[metrica], dtype=float)
             linhas.append(
                 {
+                    "dimensao": dimensao,
                     "grupo": grupo,
                     "n": int(len(y_grupo)),
                     "metrica": metrica,
@@ -297,6 +306,47 @@ def salvar_distribuicao_alvo(
     plt.close()
 
 
+def salvar_distribuicao_alvo_por_faixa_etaria(
+    atributos_teste: pd.DataFrame,
+    alvo_teste: pd.Series,
+) -> None:
+    """Mostra tamanho e composição do teste em cada faixa etária."""
+    dados = pd.DataFrame(
+        {
+            "faixa_etaria": categorizar_faixa_etaria(
+                atributos_teste["idade"]
+            ).to_numpy(),
+            "diagnostico": alvo_teste.map(
+                {0: "Ausente", 1: "Presente"}
+            ).to_numpy(),
+        }
+    )
+    contagens = pd.crosstab(dados["faixa_etaria"], dados["diagnostico"])
+    contagens = contagens.reindex(
+        index=ROTULOS_FAIXA_ETARIA,
+        columns=["Ausente", "Presente"],
+        fill_value=0,
+    )
+    eixo = contagens.plot(
+        kind="bar",
+        stacked=True,
+        figsize=(8, 5),
+        color=["#B8B8B8", COR_PRINCIPAL],
+    )
+    eixo.set_xticklabels(eixo.get_xticklabels(), rotation=0)
+    eixo.legend(title="Diagnóstico")
+    configurar_grafico(
+        "Distribuição do diagnóstico por faixa etária — teste",
+        "Faixa etária",
+        "Número de pacientes",
+    )
+    plt.savefig(
+        DIRETORIO_GRAFICOS / "distribuicao_alvo_por_faixa_etaria.png",
+        dpi=180,
+    )
+    plt.close()
+
+
 def salvar_importancia_variaveis(modelo: object) -> pd.DataFrame:
     """Extrai coeficientes ou importâncias do pipeline selecionado."""
     preprocessador = modelo.named_steps["preprocessamento"]
@@ -376,6 +426,7 @@ def main() -> None:
     salvar_curva_precisao_recall(atributos_teste, alvo_teste, probabilidades)
     salvar_curva_calibracao(alvo_teste, probabilidades)
     salvar_distribuicao_alvo(atributos_teste, alvo_teste)
+    salvar_distribuicao_alvo_por_faixa_etaria(atributos_teste, alvo_teste)
     salvar_importancia_variaveis(modelo)
 
     print(f"Intervalos calculados com {N_BOOTSTRAP} reamostragens.")

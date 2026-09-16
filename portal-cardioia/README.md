@@ -23,8 +23,9 @@ Portal responsivo desenvolvido em React + Vite para o **Ir Além 1** da Fase 2 d
 
 ## Credenciais de demonstração
 
-- E-mail: `cardioia@fiap.com`
-- Senha: `aura2026`
+As credenciais são inteiramente fictícias e aparecem na própria tela de login
+para facilitar a demonstração acadêmica. Não reutilize credenciais reais neste
+protótipo.
 
 ## Estrutura
 
@@ -39,7 +40,7 @@ src/
 
 ## Executar
 
-Pré-requisito: Node.js 20 ou superior.
+Pré-requisito: Node.js `22.13` ou superior, ou Node.js `24`. Essas versões são compatíveis com as dependências registradas no `package-lock.json`.
 
 ```bash
 npm install

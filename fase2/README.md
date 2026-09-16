@@ -90,7 +90,7 @@ O desempenho perfeito não deve ser generalizado: a base é pequena, simulada e 
 
 ## Feedback da Fase 1
 
-- **Desempenho por sexo:** o modelo tabular continua avaliado separadamente por sexo.
+- **Desempenho demográfico:** o modelo tabular é avaliado separadamente por sexo e pelas faixas até 49 anos, 50–59 anos e 60 anos ou mais, sempre com tamanho do grupo e intervalos de confiança.
 - **Viés textual:** pares contrafactuais verificam se o marcador feminino/masculino muda a previsão para sintomas equivalentes.
 - **Separação:** registros tabulares são separados por paciente; pares textuais, por cenário; imagens, por hash de exame único.
 - **Ausência de ID visual:** a fonte das imagens não fornece identificador de paciente, portanto a separação por indivíduo não pode ser garantida e é registrada como limitação.
@@ -106,6 +106,16 @@ A Regressão Logística e o Random Forest são comparados com a base Cleveland. 
 | 86,9% | 81,3% | 92,9% | 86,7% | 0,958 |
 
 Esse módulo permanece como extensão e não substitui a atividade textual.
+
+### Avaliação por faixa etária
+
+| Faixa etária | n | Casos positivos | Acurácia | Sensibilidade | F1 | ROC AUC |
+|---|---:|---:|---:|---:|---:|---:|
+| Até 49 anos | 18 | 5 | 100,0% | 100,0% | 100,0% | 1,000 |
+| 50 a 59 anos | 25 | 12 | 84,0% | 91,7% | 84,6% | 0,981 |
+| 60 anos ou mais | 18 | 11 | 77,8% | 90,9% | 83,3% | 0,870 |
+
+As faixas possuem somente 18 a 25 pacientes. O resultado perfeito no grupo mais jovem ocorreu em apenas 18 registros e não permite concluir desempenho perfeito, ausência de viés ou capacidade de generalização.
 
 ## Ir Além 1 — React + Vite
 
@@ -148,14 +158,14 @@ O protocolo usa 313 imagens no treino, 79 na validação e 99 no teste final. A 
 
 | Métrica | Baseline (60) | Revisão ampliada (491) |
 |---|---:|---:|
-| Acurácia | 41,7% | 69,7% |
-| Acurácia balanceada | 41,7% | 74,5% |
-| Precisão — anormal | 33,3% | 91,7% |
-| Recall — anormal | 16,7% | 62,9% |
-| F1 — anormal | 22,2% | 74,6% |
-| ROC AUC | 0,667 | 0,824 |
+| Acurácia | 41,7% | 73,7% |
+| Acurácia balanceada | 41,7% | 78,4% |
+| Precisão — anormal | 33,3% | 94,0% |
+| Recall — anormal | 16,7% | 67,1% |
+| F1 — anormal | 22,2% | 78,3% |
+| ROC AUC | 0,667 | 0,835 |
 
-O teste ampliado produziu a matriz `[[25, 4], [26, 44]]` (normal/anormal). A melhora confirma a utilidade de ampliar a amostra, mas não demonstra validade clínica. A fonte ainda não oferece identificador confiável de paciente, portanto exames diferentes da mesma pessoa podem estar em conjuntos distintos.
+Com TensorFlow CPU 2.21.0, fixado nas dependências, duas execuções produziram o mesmo resultado e a matriz `[[26, 3], [23, 47]]` (normal/anormal). A melhora confirma a utilidade de ampliar a amostra, mas não demonstra validade clínica. A fonte ainda não oferece identificador confiável de paciente, portanto exames diferentes da mesma pessoa podem estar em conjuntos distintos.
 
 ## Estrutura da Fase 2
 
@@ -226,6 +236,7 @@ Consulte `fase2/CHECKLIST_ENUNCIADO.md` para a correspondência completa entre r
 ## Limitações gerais
 
 - bases pequenas, simuladas ou históricas;
+- subgrupos demográficos pequenos, com intervalos de confiança amplos;
 - ausência de validação externa, clínica e prospectiva;
 - desempenho textual perfeito decorrente de base didática separável;
 - baixo desempenho do baseline visual e desempenho ainda insuficiente da revisão ampliada;

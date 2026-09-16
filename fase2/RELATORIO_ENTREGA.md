@@ -27,13 +27,14 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 - Portal: cinco testes cobrem proteção de rota, login válido e inválido, busca/erro de pacientes, criação/persistência/remoção de consultas e logout; build Vite concluído.
 - Visual: 60 imagens únicas e equilibradas; 48 treino e 12 teste; hashes sem sobreposição; arquitetura Keras validada.
 - MLP visual: acurácia e acurácia balanceada de 0,4167; ROC AUC de 0,6667.
-- Revisão visual: 491 imagens únicas; 313 treino, 79 validação e 99 teste; acurácia balanceada de 0,7453; F1 anormal de 0,7458; ROC AUC de 0,8241.
+- Revisão visual: 491 imagens únicas; 313 treino, 79 validação e 99 teste; acurácia balanceada de 0,7840; F1 anormal de 0,7833; ROC AUC de 0,8350.
 - Reprodutibilidade ampliada: duas execuções produziram métricas idênticas com semente 42.
 - Robustez textual: 16 sondagens sintéticas; quatro entradas sem vocabulário e apenas 0,0121 de diferença entre afirmação e negação, registrada como limitação explícita no front.
+- Demografia tabular: avaliação adicional em três faixas etárias (18, 25 e 18 pacientes), com métricas e IC 95% por 2.000 reamostragens.
 
 ## Resposta ao feedback anterior
 
-- **Análise por sexo/demografia:** realizada no modelo tabular e complementada com teste contrafactual feminino/masculino no texto.
+- **Análise por sexo/demografia:** realizada por sexo e faixa etária no modelo tabular, com intervalos de confiança, e complementada com teste contrafactual feminino/masculino no texto.
 - **Separação por paciente/exame:** o Cleveland usa registros independentes; no visual não há ID de paciente na fonte, então foi aplicada separação por hash de conteúdo e a limitação foi registrada. Hash elimina repetição exata, mas não prova indivíduos distintos.
 - **Balanceamento 30 por classe:** mantido no baseline para preservar a Fase 1. A revisão usa as 491 imagens únicas disponíveis, com pesos calculados no treino; nenhum dos dois desenhos é apresentado como prevalência.
 - **Modalidades independentes:** texto, tabular e imagem possuem pipelines, resultados e interfaces separados.
@@ -43,6 +44,7 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 - 100% no NLP resulta de uma base simulada pequena e deliberadamente separável.
 - O baseline visual tem teste muito pequeno; a revisão ampliada melhora a evidência, mas continua insuficiente para uso real.
 - Nenhum modelo foi validado externamente ou clinicamente.
+- Os subgrupos etários têm somente 18 a 25 pacientes; métricas altas e intervalos amplos não demonstram generalização ou equidade.
 - A ausência de ID de paciente nas imagens impede garantir separação por paciente.
 - O balanceamento experimental não representa prevalência de doenças.
 

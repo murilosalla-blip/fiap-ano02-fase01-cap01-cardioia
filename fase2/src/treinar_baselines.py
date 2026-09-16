@@ -61,6 +61,12 @@ COLUNAS_CATEGORICAS = [
     "resultado_thal",
 ]
 
+ROTULOS_FAIXA_ETARIA = [
+    "até 49 anos",
+    "50 a 59 anos",
+    "60 anos ou mais",
+]
+
 
 def carregar_dados() -> tuple[pd.DataFrame, pd.Series]:
     """Carrega e valida o dataset processado da Fase 1."""
@@ -164,6 +170,15 @@ def criar_modelos() -> dict[str, Pipeline]:
     }
 
 
+def categorizar_faixa_etaria(idades: pd.Series) -> pd.Series:
+    """Agrupa idades em três faixas com amostras comparáveis na base Cleveland."""
+    return pd.cut(
+        idades,
+        bins=[-np.inf, 49, 59, np.inf],
+        labels=ROTULOS_FAIXA_ETARIA,
+    )
+
+
 def calcular_metricas(
     y_verdadeiro: pd.Series | np.ndarray,
     y_predito: np.ndarray,
@@ -234,7 +249,8 @@ def avaliar_validacao_cruzada(
             alvo_treino,
             cv=validacao,
             scoring=pontuacoes,
-            n_jobs=-1,
+            # Execução sequencial evita falhas em computadores com pouca memória.
+            n_jobs=1,
             return_train_score=False,
         )
         for metrica in pontuacoes:
@@ -316,8 +332,27 @@ def main() -> None:
         index=False,
     )
 
-    previsoes = atributos_teste[["sexo"]].copy()
+    faixas_etarias = categorizar_faixa_etaria(atributos_teste["idade"])
+    linhas_faixa_etaria: list[dict[str, float | int | str]] = []
+    for faixa in ROTULOS_FAIXA_ETARIA:
+        mascara = faixas_etarias.eq(faixa).to_numpy()
+        metricas = calcular_metricas(
+            alvo_teste.to_numpy()[mascara],
+            predicoes[mascara],
+            probabilidades[mascara],
+        )
+        linhas_faixa_etaria.append(
+            {"modelo": melhor_nome, "faixa_etaria": faixa, **metricas}
+        )
+
+    pd.DataFrame(linhas_faixa_etaria).to_csv(
+        DIRETORIO_RESULTADOS / "metricas_por_faixa_etaria.csv",
+        index=False,
+    )
+
+    previsoes = atributos_teste[["idade", "sexo"]].copy()
     previsoes.insert(0, "indice_original", previsoes.index)
+    previsoes["faixa_etaria"] = faixas_etarias.astype("string")
     previsoes["diagnostico_real"] = alvo_teste.map({0: "ausente", 1: "presente"})
     previsoes["diagnostico_predito"] = pd.Series(
         predicoes,

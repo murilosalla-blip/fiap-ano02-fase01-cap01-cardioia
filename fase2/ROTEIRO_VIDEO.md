@@ -19,7 +19,7 @@ Os roteiros abaixo foram desenhados para manter cada demonstração abaixo de **
 | Tempo | Tela | Fala sugerida |
 |---|---|---|
 | 0:00–0:20 | README do portal | “Como primeiro Ir Além, criamos um portal médico acadêmico em React e Vite.” |
-| 0:20–0:50 | tela de login | “A autenticação é simulada, gera um token local e usa Context API. Credenciais de demonstração: cardioia@fiap.com e aura2026.” |
+| 0:20–0:50 | tela de login | “A autenticação é simulada, gera um token local e usa Context API. As credenciais fictícias aparecem na própria tela para facilitar a demonstração.” |
 | 0:50–1:20 | rota protegida e dashboard | “Sem autenticação, as rotas internas redirecionam para o login. Após entrar, o dashboard apresenta indicadores calculados a partir dos dados simulados.” |
 | 1:20–1:55 | pacientes | “A listagem de pacientes é consumida por uma camada de serviço que simula uma API.” |
 | 1:55–2:35 | agendamentos | “Nos agendamentos, o estado é controlado com reducer; podemos incluir e remover registros sem backend.” |
@@ -35,7 +35,7 @@ Os roteiros abaixo foram desenhados para manter cada demonstração abaixo de **
 | 0:55–1:30 | notebook de pré-processamento | “Removemos cabeçalho e rodapé, convertemos para tons de cinza e preservamos a proporção em 96 por 56 pixels para a MLP.” |
 | 1:30–2:00 | separação e hashes | “Usamos 313 imagens no treino, 79 na validação e 99 no teste. Nenhum hash se repete entre conjuntos. A fonte, porém, não fornece ID confiável de paciente.” |
 | 2:00–2:35 | arquitetura MLP | “A MLP Keras usa camadas densas, regularização, normalização em lote e dropout. Pesos de classe usam só o treino e o limiar usa só a validação.” |
-| 2:35–3:10 | métricas | “O baseline teve acurácia balanceada de 41,7%. Com 491 imagens, ela subiu para 74,5%, com F1 de 74,6% e ROC AUC de 0,824 no teste final.” |
+| 2:35–3:10 | métricas | “O baseline teve acurácia balanceada de 41,7%. Com 491 imagens, ela subiu para 78,4%, com F1 de 78,3% e ROC AUC de 0,835 no teste final.” |
 | 3:10–3:35 | limitações | “A melhora não torna o modelo clínico. Sem identificação por paciente nem validação externa, ele permanece uma prova de conceito educacional.” |
 
 ## Checklist antes de publicar

@@ -46,7 +46,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | MLP com Keras | Duas camadas densas, dropout e saída sigmoide | Concluído |
 | Treino e teste | Divisão estratificada por exame único | Concluído |
 | Avaliação | Acurácia, acurácia balanceada, precisão, recall, F1 e ROC AUC | Concluído |
-| Notebook comentado | `fase2/notebooks/mlp_ecg_binaria.ipynb` | Concluído |
+| Notebook comentado | Baseline em `mlp_ecg_binaria.ipynb`; revisão ampliada autocontida em `mlp_ecg_ampliada.ipynb` | Concluído |
 | Evidências reproduzíveis | Workflow e artifact `resultados-mlp-ecg` | Concluído |
 | Vídeo de até 4 minutos | Link ainda não fornecido | **Pendente** |
 
@@ -59,7 +59,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | Privacidade dos exemplos | Cabeçalho e rodapé removidos dos derivados em `fase2/dados/visual_ampliado/` | Concluído |
 | Separação treino/validação/teste | 313/79/99, estratificada pela classe original e sem hash repetido | Concluído |
 | Limiar sem consultar o teste | Escolhido na validação; teste final preservado | Concluído |
-| Avaliação ampliada | Acurácia balanceada 74,5%; ROC AUC 0,824 | Concluído |
+| Avaliação ampliada | Acurácia balanceada 78,4%; ROC AUC 0,835 | Concluído |
 | Reprodutibilidade | Duas execuções locais produziram o mesmo arquivo de métricas | Concluído |
 | Restrição por paciente | A fonte não fornece ID confiável; limitação declarada | Concluído com limitação |
 
@@ -67,7 +67,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 
 | Feedback | Tratamento na Fase 2 |
 |---|---|
-| Avaliar desempenho por sexo e outras características | Modelo tabular avaliado por sexo; classificador textual auditado com pares contrafactuais feminino/masculino |
+| Avaliar desempenho por sexo e outras características | Modelo tabular avaliado por sexo e faixa etária, com tamanho dos grupos e IC 95%; classificador textual auditado com pares contrafactuais feminino/masculino |
 | Separar por paciente ou exame original | Tabular: uma linha por paciente. Texto: pares agrupados por cenário. Visual: hashes exclusivos por exame; a fonte não possui ID de paciente e essa limitação é declarada |
 | Não interpretar balanceamento visual como prevalência | Aviso registrado no notebook, script, front e documentação |
 | Manter modalidades independentes | Pipelines, dados, métricas e notebooks separados para texto, tabela e imagem |
@@ -91,6 +91,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 - inicialização do Streamlit;
 - clique nos três fluxos do app;
 - treinamento e análise tabular;
+- métricas e intervalos de confiança por sexo e faixa etária;
 - execução dos notebooks textual e tabular;
 - geração e publicação dos resultados como artifact.
 

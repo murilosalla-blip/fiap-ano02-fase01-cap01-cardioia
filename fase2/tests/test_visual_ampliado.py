@@ -26,6 +26,17 @@ def main() -> None:
         if celula["cell_type"] == "code"
     ]
     assert any("treinar_mlp_ecg_ampliada" in codigo for codigo in codigos)
+    codigo_completo = "\n".join(codigos)
+    for etapa in [
+        "pixels(dados)",
+        "dividir(dados, x)",
+        "compute_class_weight",
+        "rede.fit",
+        "balanced_accuracy_score",
+        "confusion_matrix",
+    ]:
+        assert etapa in codigo_completo, f"Etapa ausente do notebook: {etapa}"
+    assert len(codigos) >= 8, "O notebook deve detalhar as etapas em células próprias."
     for indice, codigo in enumerate(codigos):
         compile(codigo, f"celula_{indice}", "exec")
 

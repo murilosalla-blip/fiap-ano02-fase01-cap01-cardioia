@@ -69,6 +69,16 @@ A comparação entre Regressão Logística e Random Forest usa a modalidade tabu
 
 Os subgrupos são pequenos. As diferenças são descritivas e não permitem conclusões clínicas ou de equidade.
 
+### Avaliação descritiva por faixa etária
+
+| Faixa etária | n | Positivos | Acurácia | Precisão | Recall | F1 | ROC AUC |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Até 49 anos | 18 | 5 | 1,000 | 1,000 | 1,000 | 1,000 | 1,000 |
+| 50 a 59 anos | 25 | 12 | 0,840 | 0,786 | 0,917 | 0,846 | 0,981 |
+| 60 anos ou mais | 18 | 11 | 0,778 | 0,769 | 0,909 | 0,833 | 0,870 |
+
+Os resultados por idade também são descritivos. Cada faixa contém somente 18 a 25 pacientes; por isso, o desempenho perfeito observado até 49 anos não demonstra generalização nem ausência de viés. Os intervalos de confiança completos ficam em `intervalos_confianca_bootstrap.csv`.
+
 ## MLP visual — Ir Além 2
 
 A MLP utiliza 60 imagens: 30 normais e 30 anormais. Os 30 exemplos anormais são selecionados deterministicamente, dez de cada classe original anormal.
@@ -100,14 +110,14 @@ A revisão preserva o baseline e usa todas as 491 imagens únicas recuperadas da
 
 | Métrica | Resultado |
 |---|---:|
-| Acurácia | 0,697 |
-| Acurácia balanceada | 0,745 |
-| Precisão — anormal | 0,917 |
-| Recall — anormal | 0,629 |
-| F1 — anormal | 0,746 |
-| ROC AUC | 0,824 |
+| Acurácia | 0,737 |
+| Acurácia balanceada | 0,784 |
+| Precisão — anormal | 0,940 |
+| Recall — anormal | 0,671 |
+| F1 — anormal | 0,783 |
+| ROC AUC | 0,835 |
 
-O limiar 0,77 foi escolhido somente na validação. A matriz de confusão do teste foi `[[25, 4], [26, 44]]`. Duas execuções com semente 42 produziram o mesmo arquivo de métricas. A melhora em relação ao baseline reduz a incerteza amostral, mas não supre a falta de identificação por paciente ou validação clínica externa.
+O limiar 0,71 foi escolhido somente na validação. A matriz de confusão do teste foi `[[26, 3], [23, 47]]`. Duas execuções com semente 42 e TensorFlow CPU 2.21.0 produziram o mesmo arquivo de métricas. A melhora em relação ao baseline reduz a incerteza amostral, mas não supre a falta de identificação por paciente ou validação clínica externa.
 
 Saídas em `fase2/resultados/visual_ampliado/`:
 

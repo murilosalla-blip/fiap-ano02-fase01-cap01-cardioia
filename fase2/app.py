@@ -671,6 +671,60 @@ def pagina_desempenho() -> None:
         "desempenho perfeito em outras populações."
     )
 
+    st.markdown("#### Avaliação descritiva por faixa etária")
+    desempenho_idade = pd.DataFrame(
+        [
+            {
+                "Faixa etária": "Até 49 anos",
+                "n": 18,
+                "Casos positivos": 5,
+                "Acurácia": 1.000,
+                "Precisão": 1.000,
+                "Sensibilidade": 1.000,
+                "F1": 1.000,
+                "ROC AUC": 1.000,
+            },
+            {
+                "Faixa etária": "50 a 59 anos",
+                "n": 25,
+                "Casos positivos": 12,
+                "Acurácia": 0.840,
+                "Precisão": 0.786,
+                "Sensibilidade": 0.917,
+                "F1": 0.846,
+                "ROC AUC": 0.981,
+            },
+            {
+                "Faixa etária": "60 anos ou mais",
+                "n": 18,
+                "Casos positivos": 11,
+                "Acurácia": 0.778,
+                "Precisão": 0.769,
+                "Sensibilidade": 0.909,
+                "F1": 0.833,
+                "ROC AUC": 0.870,
+            },
+        ]
+    )
+    st.dataframe(
+        desempenho_idade.style.format(
+            {
+                "Acurácia": "{:.1%}",
+                "Precisão": "{:.1%}",
+                "Sensibilidade": "{:.1%}",
+                "F1": "{:.1%}",
+                "ROC AUC": "{:.3f}",
+            }
+        ),
+        width="stretch",
+        hide_index=True,
+    )
+    st.info(
+        "Cada faixa contém somente 18 a 25 pacientes. O resultado de 100% até "
+        "49 anos ocorreu em apenas 18 registros de teste e não deve ser "
+        "interpretado como desempenho perfeito ou ausência de viés."
+    )
+
 
 def pagina_sobre() -> None:
     st.subheader("Sobre o modelo")
