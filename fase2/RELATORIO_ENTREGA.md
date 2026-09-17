@@ -14,7 +14,7 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 | Base textual de risco | `fase2/dados/classificacao_risco.csv` | Concluído |
 | TF-IDF e classificador | `fase2/src/classificar_risco_texto.py` e notebook | Concluído |
 | Avaliação e vieses | métricas, matriz de confusão e teste contrafactual | Concluído |
-| Portal React | `portal-cardioia/` e `Julia-carvalho96/fiap-cardioia-portal` | Concluído e publicado |
+| Portal React | `portal-cardioia/` e `Julia-carvalho96/grupo-aura-cardioia-portal` | Concluído e publicado |
 | Produto unificado | Streamlit com avaliações, ECG, histórico e links recíprocos | Concluído |
 | MLP de ECG | script, notebook, testes e resultados visuais | Concluído |
 | README e repositório público | documentação no branch público | Concluído no repositório principal |

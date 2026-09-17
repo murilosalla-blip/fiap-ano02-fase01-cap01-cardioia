@@ -27,7 +27,7 @@ for aba_esperada in [
 
 links = {item.label: item.url for item in app.get("link_button")}
 if links.get("Conhecer o protótipo administrativo") != (
-    "https://julia-carvalho96.github.io/fiap-cardioia-portal/"
+    "https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/"
 ):
     raise AssertionError("O vínculo com o portal administrativo não foi exibido.")
 

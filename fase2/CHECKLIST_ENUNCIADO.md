@@ -33,7 +33,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | CSS Modules e responsividade | `src/styles/Portal.module.css` | Concluído |
 | Testes de autenticação e rota | `src/App.test.jsx` | Concluído |
 | Build de produção | Validada no GitHub Actions | Concluído |
-| Repositório público separado | `Julia-carvalho96/fiap-cardioia-portal` | Concluído |
+| Repositório público separado | `Julia-carvalho96/grupo-aura-cardioia-portal` | Concluído |
 | Integrantes e RMs no novo README | Publicados após autorização explícita | Concluído |
 | Portal publicado | GitHub Pages com vínculo para o Streamlit | Concluído |
 | Integração com o produto | Links recíprocos; Streamlit como produto de IA | Concluído |

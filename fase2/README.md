@@ -124,8 +124,8 @@ As faixas possuem somente 18 a 25 pacientes. O resultado perfeito no grupo mais 
 
 ## Ir Além 1 — React + Vite
 
-- **Portal publicado:** https://julia-carvalho96.github.io/fiap-cardioia-portal/
-- **Repositório separado:** https://github.com/Julia-carvalho96/fiap-cardioia-portal
+- **Portal publicado:** https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/
+- **Repositório separado:** https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal
 
 O código está em `portal-cardioia/` e inclui:
 

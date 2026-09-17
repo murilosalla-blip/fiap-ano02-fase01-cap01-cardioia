@@ -27,7 +27,7 @@ from extrair_sintomas import analisar_relato, carregar_mapa  # noqa: E402
 from treinar_baselines import carregar_dados, criar_modelos  # noqa: E402
 
 
-URL_PORTAL = "https://julia-carvalho96.github.io/fiap-cardioia-portal/"
+URL_PORTAL = "https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/"
 URL_REPOSITORIO = (
     "https://github.com/murilosalla-blip/"
     "fiap-ano02-fase01-cap01-cardioia/tree/fase-2-machine-learning"
