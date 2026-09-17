@@ -1,0 +1,17 @@
+categoria,frase,predicao,probabilidade_alto_risco,termos_reconhecidos
+afirmacao,Tenho dor no peito e falta de ar.,alto risco,0.704056583673295,11
+negacao,Não tenho dor no peito nem falta de ar.,alto risco,0.6919378345604208,11
+contraste,"Não tenho febre, mas sinto dor no peito e falta de ar.",alto risco,0.6818875300999343,12
+historico,Há dez anos tive dor no peito; hoje estou sem sintomas.,alto risco,0.543942156529069,9
+terceiro,Meu vizinho teve dor no peito; eu estou bem.,alto risco,0.7428748549098532,5
+hipotese,"Se eu tivesse dor no peito, o que aconteceria?",alto risco,0.6690688708490833,8
+maiusculas,TENHO DOR NO PEITO E FALTA DE AR.,alto risco,0.704056583673295,11
+pontuacao,Tenho dor no peito! E falta de ar!,alto risco,0.704056583673295,11
+sem_acentos,Sinto pressao no torax e nauseas.,alto risco,0.5885525994497293,5
+parafrase,Parece que estão apertando meu peito e está difícil puxar o ar.,alto risco,0.5676166455135397,5
+vago,Estou estranho hoje.,baixo risco,0.4683477041196179,0
+fora_dominio,Preciso trocar a senha do computador.,baixo risco,0.4672775066246093,2
+desconhecido,xyzqwerty zzzqwerty,baixo risco,0.4683477041196179,0
+vazio,,baixo risco,0.4683477041196179,0
+espacos,   ,baixo risco,0.4683477041196179,0
+leve,Depois de digitar a tarde inteira meu punho ficou um pouco dolorido.,baixo risco,0.335994199137543,7

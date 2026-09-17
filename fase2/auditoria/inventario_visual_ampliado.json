@@ -1,0 +1,3461 @@
+{
+  "fonte": "10.17632/gwbz3fsgp8.2",
+  "contagens": {
+    "myocardial_infarction": {
+      "arquivos": 239,
+      "unicos": 30
+    },
+    "abnormal_heartbeat": {
+      "arquivos": 233,
+      "unicos": 233
+    },
+    "history_mi": {
+      "arquivos": 172,
+      "unicos": 86
+    },
+    "normal": {
+      "arquivos": 284,
+      "unicos": 142
+    }
+  },
+  "imagens": [
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/03fddb86723ab5dea94648cb794d237045a3ddcd2d7337a0907ea24ffda24de0.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "03fddb86723ab5dea94648cb794d237045a3ddcd2d7337a0907ea24ffda24de0",
+      "hash_derivado": "f5c5a07d589a1fa2d6e8c097159afe4979dce7a2ed42a56b3f6b467826f68455"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/0935d66598c9e6b01af32cec24721a0a04a14c1fdbdfa34236e7caa5b4839184.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "0935d66598c9e6b01af32cec24721a0a04a14c1fdbdfa34236e7caa5b4839184",
+      "hash_derivado": "be894a9eed376b0a3cef11b3f29d34d5742df9214acaa58a4116fa4a82eb9836"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/0e6d156773a243b8d4eac372ab4d77cbfc717886c2d7891d6a77cb9968f44d8b.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "0e6d156773a243b8d4eac372ab4d77cbfc717886c2d7891d6a77cb9968f44d8b",
+      "hash_derivado": "49b7065c7e7119934c30fb825a71c158f50eeaf00cbc3e8cd4c60f5bc73c0605"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/1120adfffe68911429ae1e43acd8102c79c67f14fe1892fab075d1237e4ab3b4.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "1120adfffe68911429ae1e43acd8102c79c67f14fe1892fab075d1237e4ab3b4",
+      "hash_derivado": "b2ca5bfb6732f8c3138acc43ca96ec55bbcfd356e3068c2ee8defc3a3c88a339"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/14fca0d50973beb9106e5e0f791653fd1cacd9065f1ed4a175dc35091cb7dafc.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "14fca0d50973beb9106e5e0f791653fd1cacd9065f1ed4a175dc35091cb7dafc",
+      "hash_derivado": "339826d452cd3bf6e5b942319f19fee95571f77527ec052eeb37c553499e3668"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/15db408fc7d47723eef36e50e85252ced08b766065959f5f9321788d659fa413.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "15db408fc7d47723eef36e50e85252ced08b766065959f5f9321788d659fa413",
+      "hash_derivado": "ffe9ceef87f2feb6fb31a524110251d2489e50a860436a9f8378884bcf6fc0b7"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/166c77007b236930956cdcd3d138b9d624b547e85397e1ff92e8196a45f4699a.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "166c77007b236930956cdcd3d138b9d624b547e85397e1ff92e8196a45f4699a",
+      "hash_derivado": "3bd0b38c1db8a3bd4cf866721ec7115bb1e403f7af356188acb7241896abda85"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/1689ce08600a464d8019b365297bc493f4fce5b6f3bf77cb43de9ac1dde2204c.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "1689ce08600a464d8019b365297bc493f4fce5b6f3bf77cb43de9ac1dde2204c",
+      "hash_derivado": "c8d6fdcd0992aa33cff38f816f42fd870aadcc8277d53487a381b75f6bf18b2e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/283b52bac093f966f8eabe37d97ac55e6d857cf7c0aec5e0bbdf38e60ce9a014.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "283b52bac093f966f8eabe37d97ac55e6d857cf7c0aec5e0bbdf38e60ce9a014",
+      "hash_derivado": "229beb947df307d85c1c0b3b43fe7e96d8f7558450ce80dc68986808e052fea4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/3e42b63bf5c3b828613a3e594825b1bddee4ed688c9776f71a5f932e5b985d66.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "3e42b63bf5c3b828613a3e594825b1bddee4ed688c9776f71a5f932e5b985d66",
+      "hash_derivado": "a981c2a5f317d528f98584ffe6b197850d4108b7ccc0719653e415f3264af880"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/45525dd6795a6bfbda18b0125b5c585d937fd6cec7fb58d779076e4bcbdb176a.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "45525dd6795a6bfbda18b0125b5c585d937fd6cec7fb58d779076e4bcbdb176a",
+      "hash_derivado": "b0865517c92c350dfadaa6864d6300f5fb6e945e05b90fcce002314ca1c741d2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/534b519568990c20962c784d8d9313e3aaefae56eebea1e4174c4c6d4185134d.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "534b519568990c20962c784d8d9313e3aaefae56eebea1e4174c4c6d4185134d",
+      "hash_derivado": "e15c3de9d008752f55db017abfb30a15c2411b063f63c631b6a4a1c3a4147b48"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/53ae6a375ee5bf22969d7ab9639926427675cf170543559556f9348216e3d00d.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "53ae6a375ee5bf22969d7ab9639926427675cf170543559556f9348216e3d00d",
+      "hash_derivado": "a65fb74d9205565d5a550777b22790b31f27c573af990299e38596444119a3a8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/5b15d32b3a1f0119a4020369526f526ddf201dc79ec4a6c75ddc6f0b1a6bd2ac.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "5b15d32b3a1f0119a4020369526f526ddf201dc79ec4a6c75ddc6f0b1a6bd2ac",
+      "hash_derivado": "5d25e6de19f55f8a26c529209ad14dfc5ae8e2177e3c29121ebcf7acf6945dba"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/65679979fee5060eecc4508df73d8b8cb26b63a5913bfd089d98161a04d5e3dd.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "65679979fee5060eecc4508df73d8b8cb26b63a5913bfd089d98161a04d5e3dd",
+      "hash_derivado": "2cb5993479cfabaab1633c1d77d5cdbdae4f25379eecb8483c2412f9e8285504"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/6c70c51e769559a6cec5484367afb2c2fdf94fe3ae607039abd9075b09a889fe.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "6c70c51e769559a6cec5484367afb2c2fdf94fe3ae607039abd9075b09a889fe",
+      "hash_derivado": "c85fe6cb7e061527198ddaa3f26bde018720536b09bcdbbce6ae794dc0e6e2e5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/70b7b81665777d83f9331708d729e8494c40e90f4820d0d9b9f85d103395ff4a.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "70b7b81665777d83f9331708d729e8494c40e90f4820d0d9b9f85d103395ff4a",
+      "hash_derivado": "15885a1526a5e77636439402d097c7ffc53820d7a3127ad35eeef2e892db8a40"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/7d8084d54ce9a9068b97602330b1eef978ca7ab92fe9d20f8b00d939066dca41.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "7d8084d54ce9a9068b97602330b1eef978ca7ab92fe9d20f8b00d939066dca41",
+      "hash_derivado": "2909fbf466e810662aebae0e4d31de4f91bd48d88fde343e3ccf6b1842b7af23"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/95f977acf7a91361e285bf353be0667053859a891cb9f52c6326efa1dd8d05d7.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "95f977acf7a91361e285bf353be0667053859a891cb9f52c6326efa1dd8d05d7",
+      "hash_derivado": "95df7bdae43edfba85bc1c3c930d03be01649e66d17ea3195854c4c052760cdc"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/9b8031259163fece985eaf9274cab065e10cd6f23e49006f85bfb5d77d88fc91.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "9b8031259163fece985eaf9274cab065e10cd6f23e49006f85bfb5d77d88fc91",
+      "hash_derivado": "ccddfc77d4fe2b636a558894ea4c8efdbbab6ab5f13945567cac7a45780c2134"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/a36f352120a282971e5f3b7f64ef0de8ed1370d6d1dea8a777bfb5dc961f7c96.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "a36f352120a282971e5f3b7f64ef0de8ed1370d6d1dea8a777bfb5dc961f7c96",
+      "hash_derivado": "1747aa39bb0c99b5381dacbf5f5ac71599d82368830ee76c7b6094b3995417ae"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/a504f8faa0b492e38b9215592e72d0fb6b88267540c86f9da714e4cccbbbfee0.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "a504f8faa0b492e38b9215592e72d0fb6b88267540c86f9da714e4cccbbbfee0",
+      "hash_derivado": "9eaed5305245087c9a8ce473aa3387b9a44466f88d1cd62d7de42129da69f99e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/ab7f6ac48f817bd48f77a9b4755d3bf8f45063e3c1342954fb3e22f85c1c7157.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "ab7f6ac48f817bd48f77a9b4755d3bf8f45063e3c1342954fb3e22f85c1c7157",
+      "hash_derivado": "1ea8c8c8d4eae787cbf6b8ec5d7e9846660ab1570e2f5774c7c50d229f75457d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/b96c393d834812f0ef219e7927a2793fb37bee999b839cfccf30dfb3ee938aac.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "b96c393d834812f0ef219e7927a2793fb37bee999b839cfccf30dfb3ee938aac",
+      "hash_derivado": "65308e0c37cbc6eb6a787ec12daaca20b0dba5127367a3f14c96691830c04a13"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/c739a5e6c10f1242382a12dfcc9b0a14981c7f2984b8a9be4c4b70621a0daee4.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "c739a5e6c10f1242382a12dfcc9b0a14981c7f2984b8a9be4c4b70621a0daee4",
+      "hash_derivado": "d48e01183b3da5857fb8928e91df1a553fef4425b7587accf8c3588b120c032e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/c850b3433f638a9198a31e30d40fedb94d48d211be37e30691ea7464266e632b.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "c850b3433f638a9198a31e30d40fedb94d48d211be37e30691ea7464266e632b",
+      "hash_derivado": "7fbd1afc7a763882283a2c41e4d30c639eeebfa301955153a28772b8733db430"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/e411da33a0df7b29e23e009ccd37c5469c2edb737f7deae2c270f812c175d682.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "e411da33a0df7b29e23e009ccd37c5469c2edb737f7deae2c270f812c175d682",
+      "hash_derivado": "6b41b6ca4ece36026ae21e7d85e4528eae2548199f18db3e7b8d8efb4c4f1eba"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/e678791a89f23c7b9a8ed542d72ea8c128055538ebae384f0fbd33457fa7cea8.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "e678791a89f23c7b9a8ed542d72ea8c128055538ebae384f0fbd33457fa7cea8",
+      "hash_derivado": "6463f4f2260d959efe7a60290014105fe457277ff90ea7b1ab3428764a1b08e2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/ef09cad54cf14c2e94c95937df8628c89483110157db3a8e674e96c6dca6a823.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "ef09cad54cf14c2e94c95937df8628c89483110157db3a8e674e96c6dca6a823",
+      "hash_derivado": "0279b78e7904b6b28250bb5d78dfddca00120196b7c8bec824c6c55dca8495f9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/myocardial_infarction/fe33c766281703e5f0cbb3d54e7384bc697490d08ea1635b86b5bd0e7c5c2d4e.png",
+      "classe_original": "myocardial_infarction",
+      "alvo": 1,
+      "hash_original": "fe33c766281703e5f0cbb3d54e7384bc697490d08ea1635b86b5bd0e7c5c2d4e",
+      "hash_derivado": "2a39dd22cb63a62e3df0e150394b47249b8870859ec6ce597b1e9d792b22a884"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/00a84c8e35a3baf3671fed28ba009eb6c6b55fe8e7b4b46737a49bbbc174b61e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "00a84c8e35a3baf3671fed28ba009eb6c6b55fe8e7b4b46737a49bbbc174b61e",
+      "hash_derivado": "bd01f0a41f2bd70626dc93a8d4ecf3c36a94ba4c1c50eac24f40eea03688d935"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/021f496379132b96f999e96c1799db5d3aac317491631515a317e5eb5238591c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "021f496379132b96f999e96c1799db5d3aac317491631515a317e5eb5238591c",
+      "hash_derivado": "99d43b9cf0153c7ed0f545e6bdfc94200f0d7d60cdb210c65dcf826d72fdbac1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/023b214ab4bb761fc967fe37fe80ff190946148a8708f259d88f9139cbaa4d75.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "023b214ab4bb761fc967fe37fe80ff190946148a8708f259d88f9139cbaa4d75",
+      "hash_derivado": "45227ca4107fee53d9d06885af7f1927b140c00134dd1748152d475dc3256ef3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/023e50d0606325a8817e0aeadc5367e34e4dc4824a4e7ba624a5e432a5373fc9.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "023e50d0606325a8817e0aeadc5367e34e4dc4824a4e7ba624a5e432a5373fc9",
+      "hash_derivado": "150527296d793f80c8caaa1e1b588fc30ed8604907addea54cdd3d500706547a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/03706ce94b08d1c85771866b641407cb21ee3833f4b4e37495e8f479118ccd2d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "03706ce94b08d1c85771866b641407cb21ee3833f4b4e37495e8f479118ccd2d",
+      "hash_derivado": "b80379b08cc6d0befdae450a399d0d6d14c000e78fffb7b966965ce9b20e7eb6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/03738649ced6b2f32e3206f9c6739a8a1b4a7e7725343b3bc46afac8624dd542.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "03738649ced6b2f32e3206f9c6739a8a1b4a7e7725343b3bc46afac8624dd542",
+      "hash_derivado": "284e9b29b473db9f9e1cc2a43ff72d0ac0ca1aab2493702948856b26d85846a8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/066a103c71132b14a864ed6cc0ce2d75e67eb23ba8340f11ff1879177f59175e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "066a103c71132b14a864ed6cc0ce2d75e67eb23ba8340f11ff1879177f59175e",
+      "hash_derivado": "e08be2c02bdbb17ce6e2abb39295c58e13eeba4f08d84b60a8c59e00878a0d81"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/066f0770b6abc8837386ba3a27221a0e1021dcbfe597e9448776eab8dac1463b.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "066f0770b6abc8837386ba3a27221a0e1021dcbfe597e9448776eab8dac1463b",
+      "hash_derivado": "d9e3a28b7ee32ff56a00adbb35d0ccce80875db448f9a0164e3298e6f3788d5e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/067f1cc301a28b82dc62abc6c1b44359a5cf43773460f58a2baa66fd03fb6b13.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "067f1cc301a28b82dc62abc6c1b44359a5cf43773460f58a2baa66fd03fb6b13",
+      "hash_derivado": "d5b557acba62c413251b0b7dee30913cc3d1d3ab9925065263bd1075c2617eda"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/073daad4ca041ef15faebc4288b4f417f6690a9ef6dbb0b619f19985aabc3bc8.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "073daad4ca041ef15faebc4288b4f417f6690a9ef6dbb0b619f19985aabc3bc8",
+      "hash_derivado": "e16ca3693f0281ba83493b1e4dfc5f906ed93d60405254ac9d711c3287cf7a07"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/074b302579c86c806348d83561f0eb75c47facc327f632c48c4f9a0213ec9103.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "074b302579c86c806348d83561f0eb75c47facc327f632c48c4f9a0213ec9103",
+      "hash_derivado": "253c5ff9a763dde963996640a99a5f6d4af665f7937bd1ae7dbecab79c18892b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/07a876a8f13aa46eef45b07713baa557c46a21cbe959cfb8002e82328f1bd29d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "07a876a8f13aa46eef45b07713baa557c46a21cbe959cfb8002e82328f1bd29d",
+      "hash_derivado": "2680f60c7534cf7028aa5e46856b99c2c0c4495928d02200494aba14a06917d3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/07c94f094cc7b8f15b6b13ea389a0fb08c4e4c91c616c8d490b5886a94b60724.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "07c94f094cc7b8f15b6b13ea389a0fb08c4e4c91c616c8d490b5886a94b60724",
+      "hash_derivado": "066203a609bb68d6af334c55dd7ab4ed261cac3742c7b2986119cf0edcfc2a6d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/08163e874a3983d697fae87a541d3850c714536937565ec92c90e0301881f470.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "08163e874a3983d697fae87a541d3850c714536937565ec92c90e0301881f470",
+      "hash_derivado": "5e3393730f641f26e6f2f6065309241c21710df81e9867731f521c8d22894da2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/0a8f61cd5bbc2be5c49987d58bba43ed1e187668077a501b23b6aa6953c55cbc.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "0a8f61cd5bbc2be5c49987d58bba43ed1e187668077a501b23b6aa6953c55cbc",
+      "hash_derivado": "91d77480b3f28c9a343b2e48ace88c514d0fa6b374ce4a89cfb8a9e2d461d233"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/0c5c27f592218cc2a2be76a02199794abc04dcfbc366f3eb766bcb2741be3256.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "0c5c27f592218cc2a2be76a02199794abc04dcfbc366f3eb766bcb2741be3256",
+      "hash_derivado": "2b17ae3b27809512ad58d9faff6c8e822d355902225e0de6c62022233bc4e0f2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1021c9931ed506ae9b1561c6e03530abd902c63a301ecae31530c2ddf2109af4.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1021c9931ed506ae9b1561c6e03530abd902c63a301ecae31530c2ddf2109af4",
+      "hash_derivado": "e8e07c456e1b96124ddf38cf83bcaa7d48031035d142cef22fee7f974d64401f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/115c85b58b3261bf2068c7d643c048be5691eba962a91e9a613d1fd87bbfa644.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "115c85b58b3261bf2068c7d643c048be5691eba962a91e9a613d1fd87bbfa644",
+      "hash_derivado": "8a2916edca84825b55c69b5fd7b4b79b5955fbbac479bec7f109b12700d5630a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/12542eab355b40a213ce7e4d99e7511e11560389e141d27b4cf64324e00456d4.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "12542eab355b40a213ce7e4d99e7511e11560389e141d27b4cf64324e00456d4",
+      "hash_derivado": "958f349f86b629223f579aaf091c913efc4fd94e5f72bb9eadf9746301eb0f8b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/12f74c7872fd3ad36b02cd56224010994a604244f146fcf1b940d7df836aecf1.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "12f74c7872fd3ad36b02cd56224010994a604244f146fcf1b940d7df836aecf1",
+      "hash_derivado": "2b777ecb1e09aa4f73be2a1bf1d6536f8d1a3da2367a3a5adc9813314e1a8c06"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/15934753dc69bf3ff094f9559cec704dc49cb8d8daeffebafd18ffe73b1a0b30.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "15934753dc69bf3ff094f9559cec704dc49cb8d8daeffebafd18ffe73b1a0b30",
+      "hash_derivado": "0a67ff1e5815816966515d1d67633757bd9d83453c7dc8f598d49dfb1f56ab36"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/15d5dd2ddd0dd66a8e07c7590e5f586dfc0caa4ad0c3eda6d78823f217271d45.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "15d5dd2ddd0dd66a8e07c7590e5f586dfc0caa4ad0c3eda6d78823f217271d45",
+      "hash_derivado": "bf4077f41feef70e9d61577fbc89764ada9d08575ca1d861d874ed7430541d36"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/16c1e3acba314ccff26f30f939884fce4d78edc5278c86b37759ce9bfc6e2057.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "16c1e3acba314ccff26f30f939884fce4d78edc5278c86b37759ce9bfc6e2057",
+      "hash_derivado": "33a099fca2b836955d69b3c7fadf96eed65da88efbb1b7b25a61d471c9965ff2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1844b4c35491e8f62f02ca2bdf3ba9b9894b474460e1a0a4d7167cdb4d72626a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1844b4c35491e8f62f02ca2bdf3ba9b9894b474460e1a0a4d7167cdb4d72626a",
+      "hash_derivado": "0213b2f02547f4f6b4c68ce23b90a7092f4331ad5b5814e3c288eafb775e540b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/193a44dbccbfc48d492cc896240392515b3eddf6d4bd4bcb65ad27f4f34ec235.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "193a44dbccbfc48d492cc896240392515b3eddf6d4bd4bcb65ad27f4f34ec235",
+      "hash_derivado": "b6c7af8282f2f663b0b7553d6eaecd6fdf6dbf3165f84e5db58149e07c717835"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/19e8dd062ada80ed20e05d2b9534ab72c4df5f9a3d3b0099b2625acffee1aab0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "19e8dd062ada80ed20e05d2b9534ab72c4df5f9a3d3b0099b2625acffee1aab0",
+      "hash_derivado": "447c5dc837f1c9b488cfd89123eb05fee6abae802ba9dec86f41bdc5e8c2b57d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1a931601cdb0b815bc6ea075d4e0f176533b0bd015a23a1d6bb73a13c957ca00.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1a931601cdb0b815bc6ea075d4e0f176533b0bd015a23a1d6bb73a13c957ca00",
+      "hash_derivado": "843b9ee0fcc23144228bc0a92f992281e9b912de0c2019ac961265a1169b6820"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1bceea504c3bf24992948d9c8d5349ec67254bd6031917372653cf955169e073.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1bceea504c3bf24992948d9c8d5349ec67254bd6031917372653cf955169e073",
+      "hash_derivado": "7e86586448cd18b74e14f1cbcfde0919d9d31f1efca5506dc6016c3706ef5518"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1d0f3a4fc1b9ff9afd244259fa355e254ba082c0616921d86b6d060369a7860a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1d0f3a4fc1b9ff9afd244259fa355e254ba082c0616921d86b6d060369a7860a",
+      "hash_derivado": "6ed1819c0e84f307c60586682f5e09e1203ef67cee3d20369bfea664045adffd"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1d367c387d3aa1ff49a50f900dacbd23355970c7ec351234f0c1f1e05a48fa39.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1d367c387d3aa1ff49a50f900dacbd23355970c7ec351234f0c1f1e05a48fa39",
+      "hash_derivado": "785529fe2e75c8909c162032aeded9eeb90446bf3a4812db523b286694296822"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1e326cbcccf87cbe4b8bd47e5cffe0984587539604d26e1caf18fc92f2ad3105.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1e326cbcccf87cbe4b8bd47e5cffe0984587539604d26e1caf18fc92f2ad3105",
+      "hash_derivado": "1fa0657649ad3ee54236fc55203b058c23a041b9a8e0e4e20d2797745161693f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1f36813960b7aeb98e1b0c575defc0ecfa22648f587f15365ec51ebc2145d9e7.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1f36813960b7aeb98e1b0c575defc0ecfa22648f587f15365ec51ebc2145d9e7",
+      "hash_derivado": "f8486680f7398193194f20d51591fc103a900bba5fcacb552e29e2be1ee5f5f2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/1f724381f3e6baf9b1c6935cb8c05dc3e1c28fc019c48ffc06a6e8136256f5d4.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "1f724381f3e6baf9b1c6935cb8c05dc3e1c28fc019c48ffc06a6e8136256f5d4",
+      "hash_derivado": "5f452b67c1e223998fa014cb263062abd88e619c17d812454204ded1bf153652"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/2384ea3faece9b96bd9ea0d0be0310e2312a3cbbc790b272556ad8b3578aab26.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "2384ea3faece9b96bd9ea0d0be0310e2312a3cbbc790b272556ad8b3578aab26",
+      "hash_derivado": "5c32d3b5ce0a5f3b2f38031693b70cba90efcacabdb4f1bce384b95e38aa3fd5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/24b602b7652353be971959becafd669554c5883341ff66c1a014560d195540d0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "24b602b7652353be971959becafd669554c5883341ff66c1a014560d195540d0",
+      "hash_derivado": "d40808e6bc225ac933804599e0d766fb8721dc6d8c74e74f566b32283f5ed401"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/273c003df134dc535fb558773aaf04b150c02cee06e37cd4ffc8cb6dd71686f2.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "273c003df134dc535fb558773aaf04b150c02cee06e37cd4ffc8cb6dd71686f2",
+      "hash_derivado": "7df2dfe6901c981c62f9011f7674577df01e0b110abbe0954d2c1b29d40983da"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/279b0314089463e9b721c574fd8236891a277a60c1430b302ed8f10759202f33.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "279b0314089463e9b721c574fd8236891a277a60c1430b302ed8f10759202f33",
+      "hash_derivado": "1a3d2e9bea11010dd2bfc8b7852fe87e41e546a1c4c969866c5cf69765a325f8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/2a62b6493f0f6b854336a3bd49b5e83e60fbd75e15a608fc59e9c68c505cac38.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "2a62b6493f0f6b854336a3bd49b5e83e60fbd75e15a608fc59e9c68c505cac38",
+      "hash_derivado": "f25f465ffc3d1959645057e52a8a74cd589191a7fc6baa5f900a759e3ac0b858"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/2b59ac546713ccae05d23cb2a09fc388ca5034630daf41c208395fc530763841.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "2b59ac546713ccae05d23cb2a09fc388ca5034630daf41c208395fc530763841",
+      "hash_derivado": "87896753e3d60ff0e4a6022c19fa8f2dfce507db98d192db6900c242f856d7ad"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/2d3c22be33b178ef70dbed99e6f4f535609bd511f8de4d0a891f0370226e0f21.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "2d3c22be33b178ef70dbed99e6f4f535609bd511f8de4d0a891f0370226e0f21",
+      "hash_derivado": "338327e40ac2cd5c0b53463d3f7d2313ff48764541dab9a782e243c4068d0785"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/2e83d191dd81d82afc2cfaf02722ead9ca4deead3db6b00337e34bae77f40f01.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "2e83d191dd81d82afc2cfaf02722ead9ca4deead3db6b00337e34bae77f40f01",
+      "hash_derivado": "91792cc719324d72dfb3c86b899226545bf20b8c8ad0d0df3c5e62f49441cc9a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/2edb106a384c1d2d529e24e0940afd681eece825fc301625e7f9faf7db8d787f.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "2edb106a384c1d2d529e24e0940afd681eece825fc301625e7f9faf7db8d787f",
+      "hash_derivado": "305a42973e3a272cbf17f55277a4b0ef7b7f1ce5531fa89838834cb8fc766896"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/31a01720e29178efd06ddcb1dc45072ca75589e040b5fbe025c3ed7d27f6ca8d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "31a01720e29178efd06ddcb1dc45072ca75589e040b5fbe025c3ed7d27f6ca8d",
+      "hash_derivado": "909fd33c193b2c5885b55ba899c1a128de3e81f79144e823886a65c7d23f4419"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/32832be8060962725bb441e15b9fe5000f5bb8ed7b1059f4145b193ab97bd59c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "32832be8060962725bb441e15b9fe5000f5bb8ed7b1059f4145b193ab97bd59c",
+      "hash_derivado": "87ec6cfdabf6be8040e0dc4c8e00effaa90f4f9ccbfb15499742fd2314e0f852"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/32db130afe09ece1e214a434fcf4f846860f3904a8d468f960dc8fbc87b94adf.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "32db130afe09ece1e214a434fcf4f846860f3904a8d468f960dc8fbc87b94adf",
+      "hash_derivado": "350269509ec46d80203fd10fe233d1b0ba2b84ac46e183710b7a86735bd86e34"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/33e8eb716ec1f1ab5e167720078b4a9e5af03f1d4b50ba3f2dc1c67eeb0ca610.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "33e8eb716ec1f1ab5e167720078b4a9e5af03f1d4b50ba3f2dc1c67eeb0ca610",
+      "hash_derivado": "bd33eaaaa8e35a0943b1d0e5b8c4d83254641c5a0d1a76b51d38146e0682901e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/344b4edd29ce8beb99b07b5d6ed8210abb3248fb0242c51f29c9b4531400cde0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "344b4edd29ce8beb99b07b5d6ed8210abb3248fb0242c51f29c9b4531400cde0",
+      "hash_derivado": "e7167dfd6c6eb4dc592be0238599df760f4804ea945e011991b90efc0733bb41"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/34f389390b96713260f87454a264cea0c9571541aff86b5e419216cf4ec22c47.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "34f389390b96713260f87454a264cea0c9571541aff86b5e419216cf4ec22c47",
+      "hash_derivado": "069ea3b228098f8af05d582258e42ce6c732c13d42c61a6f1f0c842c391ecf8a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3521a25196ef223cb1d9cd0fc060807656a22f4c80835446d65874ead7a5c3dd.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3521a25196ef223cb1d9cd0fc060807656a22f4c80835446d65874ead7a5c3dd",
+      "hash_derivado": "892a14f75d0c892ab8f4f62b7151c65f4bd6b9ba67cd51538bcc9651efe0e13d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/357baf7400f143befaac89354fb0906ccb1ca64bb5f5180e6fdd4be9c83eb6b7.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "357baf7400f143befaac89354fb0906ccb1ca64bb5f5180e6fdd4be9c83eb6b7",
+      "hash_derivado": "7d97bb5fa5042cbcb40b695fedf26e9d4c5b9df7e926020bce07a07ab17e6431"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/371bcc21c2c8136a17fe19a6783fa0b13dcf6e690b64566ae5b2ba6b4e476959.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "371bcc21c2c8136a17fe19a6783fa0b13dcf6e690b64566ae5b2ba6b4e476959",
+      "hash_derivado": "29d62cf459033e7e85cb0d683b315d65b3cf2cbbc0baf24ea587360f29d62a73"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3922a65e38e22d8a5fec62cb6064ac44c1ef06066976b2c6832d42d867c6085e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3922a65e38e22d8a5fec62cb6064ac44c1ef06066976b2c6832d42d867c6085e",
+      "hash_derivado": "a372d4ade0070d213f72501879f4764e76a25e67b84a018dc9c3f2b58a3ffa4d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/39412aa747b7cd6a7a4fda583c93b8aa1b12cf32ac93d7107feb3a7b7559d052.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "39412aa747b7cd6a7a4fda583c93b8aa1b12cf32ac93d7107feb3a7b7559d052",
+      "hash_derivado": "3238a3b1ddd918b740809062f9333dace1c86263dadff5f966c29c4dad841981"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/39da4e160427bc1e9fb2f24195a55a97920da70fd83e012a033dadd26815755a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "39da4e160427bc1e9fb2f24195a55a97920da70fd83e012a033dadd26815755a",
+      "hash_derivado": "033fc5887df70213f7441236d03155f223e82130818d62b9721414818a395fc0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3c8e534693c950237a61c80466a63201680d34f0fb01529b295a2ad4737ae8c9.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3c8e534693c950237a61c80466a63201680d34f0fb01529b295a2ad4737ae8c9",
+      "hash_derivado": "23f773b69b3c932eb2aca62b7fb34248e64c559292fc1e22900070fac0ed6558"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3d12e1aca51daf05525cbe8c30ef96f81d273c1d4409d0ed7272c016337de5c8.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3d12e1aca51daf05525cbe8c30ef96f81d273c1d4409d0ed7272c016337de5c8",
+      "hash_derivado": "60ea3a2644da1f297275fd7b19518d6eadc7701118b6e2b37446370701fdf202"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3d6860c88e9e278160de088c57ba7be183421c5a0485a32742a008420e4f0966.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3d6860c88e9e278160de088c57ba7be183421c5a0485a32742a008420e4f0966",
+      "hash_derivado": "b13701814097b0e72a30069dc5387356e2bc09ba053f25d8d60e0ea128e64106"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3eed36e55d6d060de5eff3d163baa46e532495d5a932188e956869194e44cad9.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3eed36e55d6d060de5eff3d163baa46e532495d5a932188e956869194e44cad9",
+      "hash_derivado": "07e5973ae5f3de882a0651eb97ada47f297433d67ba0cd32751f09b24acb380a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3f80d01bc58c68af5776159acc613563db67265e249b25c9651410a8dbaf7c4c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3f80d01bc58c68af5776159acc613563db67265e249b25c9651410a8dbaf7c4c",
+      "hash_derivado": "33e418e42254ba4016dbb96f2c82266c04575174294091ab0dd80bcb8fe935e1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3f8a1bb0735a102afeed33b27fb0ce042c9d9f17c031a5cc5c5a13e58fa2bc92.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3f8a1bb0735a102afeed33b27fb0ce042c9d9f17c031a5cc5c5a13e58fa2bc92",
+      "hash_derivado": "1914c05709f4d388e63c0f75375766ded9fe7db68ad5337480159cfd095ab23f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/3f9e12024255c14155c2f4c1e9a95d156899ae8fe4e0461009f311ee6d3a7935.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "3f9e12024255c14155c2f4c1e9a95d156899ae8fe4e0461009f311ee6d3a7935",
+      "hash_derivado": "20349f1e568899a7f7d1d08281f3c9bc047ecd83781c4bda29633d8f99eae7c0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4464f543c00e36d03886098cd807c66c47894139f9169e6ab1d55804c91598f0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4464f543c00e36d03886098cd807c66c47894139f9169e6ab1d55804c91598f0",
+      "hash_derivado": "997014007c17fc9846c776a2c472e81e3e7fc81ed19a2835b34aa5654db65abb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/465f309cf0acb290bff1840841dfdb6cafbba1df2ef3445da51cb205c8d1b46b.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "465f309cf0acb290bff1840841dfdb6cafbba1df2ef3445da51cb205c8d1b46b",
+      "hash_derivado": "52eb9d25883b4a33f90914f4678ad5237be3991aadb46eb4b2c137a9541c73ef"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/46695d9c610995820f3a915e87ffe01c1c1a7f1a8cd2092b38c640d7cb2b5d12.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "46695d9c610995820f3a915e87ffe01c1c1a7f1a8cd2092b38c640d7cb2b5d12",
+      "hash_derivado": "f9a0825fe3925762824fd22076b7a0f83ea1dd39e0c4ebb97da2fb800f84636a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/46ae9b349b22927805df64d5d4ca26b0bc03d149f957e1bc58875b430900615d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "46ae9b349b22927805df64d5d4ca26b0bc03d149f957e1bc58875b430900615d",
+      "hash_derivado": "68ce830a2b2c14e2ee594fd8edc6ed27737545e034128fd11f12e6c97bb45a13"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/46c8fe8973f863a7cb611bf7b4d91c57b4d35ec1a02401634adf72a01234e5d8.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "46c8fe8973f863a7cb611bf7b4d91c57b4d35ec1a02401634adf72a01234e5d8",
+      "hash_derivado": "57ef4d4b5b1ca2e08b80d24ee56962cc41f67e12f5b3f7bd5f63e2e90ccf9e4c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/46e55585b6f04757dacf5da82e9819cdd4ca9385a4a619bedbf99d7020bd1059.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "46e55585b6f04757dacf5da82e9819cdd4ca9385a4a619bedbf99d7020bd1059",
+      "hash_derivado": "54ad736125420a147dd1a22098257140528487af9254e8ce172082f2570e32e3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/47e7be13119f581241ccf47cf6cc7232bb3e5d1e8e769f02e195e4fe7ee9dca6.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "47e7be13119f581241ccf47cf6cc7232bb3e5d1e8e769f02e195e4fe7ee9dca6",
+      "hash_derivado": "5ec7a61a301bedd298382274f8550765fc3cd2e71b4340b134b415bc7665f5c6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4931f57690b82cc71990df1091d6cdb6df2e9ab6c119d3eee75ecd70a654e96b.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4931f57690b82cc71990df1091d6cdb6df2e9ab6c119d3eee75ecd70a654e96b",
+      "hash_derivado": "1717372e1fcda4c67234fc3bb6eceac263c5c2ca00dab0f16f7ddf30cc25d462"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4960bdb7e355bc3a44d857f3cd0b41cb6478e22d9a73a5836b03566e4e1b722f.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4960bdb7e355bc3a44d857f3cd0b41cb6478e22d9a73a5836b03566e4e1b722f",
+      "hash_derivado": "70906c628ba9097ad3604eb57e3ba62cfb1b5e5c0320619ce7f0377ace5a7066"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4b51307a92e86743927219aded28a2d332b2b5401d06e8cb0225c26597b49be8.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4b51307a92e86743927219aded28a2d332b2b5401d06e8cb0225c26597b49be8",
+      "hash_derivado": "bd16d56b8e8400ee2df15dbfa782c8cd87dde1d461f6fe2260116342d6b810c2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4bfde169273268a52ee13843068cee35f731886db78a220cb0262b5cc59b1be9.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4bfde169273268a52ee13843068cee35f731886db78a220cb0262b5cc59b1be9",
+      "hash_derivado": "bf2dbbec571bbc5e58f4326acaecc052be0a1a0147292ba4d4537224ea51ee0c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4c0806b4093cd05712ac9fef0e17d6bf39b8bc62b7dd2b65f3e02ca054d98374.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4c0806b4093cd05712ac9fef0e17d6bf39b8bc62b7dd2b65f3e02ca054d98374",
+      "hash_derivado": "a3bc27432fe4f8142e85423dbef50a2b3a0ab49d8725a6c27411340fae268f40"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4cb0682817623c3e3f8c6dbabe832e5a4aac12528cf7787d0be211dbb0e09e94.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4cb0682817623c3e3f8c6dbabe832e5a4aac12528cf7787d0be211dbb0e09e94",
+      "hash_derivado": "90c4c0d8cfe2173d4ae1aab6623698bf5bdde49d949ad4f212c02163201bcd64"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4d602b6aa72bf9c17703a8dcd486074a92a9c31d8ff1df9c4bba3f395b5b3ab5.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4d602b6aa72bf9c17703a8dcd486074a92a9c31d8ff1df9c4bba3f395b5b3ab5",
+      "hash_derivado": "14980cafa608e351c48a933b3700c04ff886352a57187cd7e62246579b62fd27"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4e0739e3560d8395c615d3cff2be75fdace8359c9fb0e646d977236f4594802d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4e0739e3560d8395c615d3cff2be75fdace8359c9fb0e646d977236f4594802d",
+      "hash_derivado": "4e28bc68aa58297884d76410e3eac2593a6379590e6f2f3bed6564abc2ba3f49"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/4fe66bef7b842d750e1068bcf88f15a398179076512d46dc21afc0316c741c18.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "4fe66bef7b842d750e1068bcf88f15a398179076512d46dc21afc0316c741c18",
+      "hash_derivado": "6c40a76d7b76b380322af810dc8026d8db04b1a64dca46c89c16eb16877305a5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/55c2a82f66ef7d1dddcf409e3244f07a11c05221ab32e991c4b681018bff0959.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "55c2a82f66ef7d1dddcf409e3244f07a11c05221ab32e991c4b681018bff0959",
+      "hash_derivado": "b5962e0b23bee8a41a01d43d36591e3dc4e0cc035688a5a98f4d0960df93daeb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/55ca92acfb1175995b1a257919e9e6a4b4d98a385d036da125bb92ddbc1b82b4.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "55ca92acfb1175995b1a257919e9e6a4b4d98a385d036da125bb92ddbc1b82b4",
+      "hash_derivado": "d25a3f89bacca0716b226f8971909f2784e346e161e367b61d7732d262d8662b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/58950c33515e394b8921d379ada4e2f30a67929ff591139ceaf39f3102c624a5.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "58950c33515e394b8921d379ada4e2f30a67929ff591139ceaf39f3102c624a5",
+      "hash_derivado": "3b0dd4c101df40785d4933a6b617e8f2324ef074341973d51e80bcbe021071c4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/58d17df0e26e2e055ba94cff8940db047463db0d2d4ae1b18af7a9d76a9269ad.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "58d17df0e26e2e055ba94cff8940db047463db0d2d4ae1b18af7a9d76a9269ad",
+      "hash_derivado": "eaa5d13ef2b6ff2fb1febb33310d4dda740ba9caac764c1349df4491b25c016d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/58fe903c52d9039c5b53bf39320c8158a5170cd6dd0e23d41aa2a49ef1eccd65.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "58fe903c52d9039c5b53bf39320c8158a5170cd6dd0e23d41aa2a49ef1eccd65",
+      "hash_derivado": "52c49b8dd8ba0298d93751dd6f50510ad99429f2a85ec012fcb59b7acf7ef81c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/5945638958f8db48167cd61a76021cd138449d1c7be4fbe46568f39126847a78.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "5945638958f8db48167cd61a76021cd138449d1c7be4fbe46568f39126847a78",
+      "hash_derivado": "95a9cc6f85c27ac215c6fadddd4bd82d24992a5d723a299eef1be9a34becbdaa"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/5bf0813a81b80077863aa12fa5ea939cfc91fb73a97ac3ad8094b0fdca1f1e05.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "5bf0813a81b80077863aa12fa5ea939cfc91fb73a97ac3ad8094b0fdca1f1e05",
+      "hash_derivado": "4c230057a9175f0785e9e11018ac8464362a9f726ba7defdf0738cf34ab0a0dd"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/5cb94fb1bf846101e2f0bfd5bd2a21b43c0dc72e1e28823de55a00216da15b80.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "5cb94fb1bf846101e2f0bfd5bd2a21b43c0dc72e1e28823de55a00216da15b80",
+      "hash_derivado": "6736e9a045439814e5db66cb25ec124f109b829a9b0c3ed03144903f30e1fb2e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/5d6fbad40fcabc2cce7d96fa2e79930a1672734e715fee0faf86f095b7d57fa0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "5d6fbad40fcabc2cce7d96fa2e79930a1672734e715fee0faf86f095b7d57fa0",
+      "hash_derivado": "1be044d5a6be67103aac49ae9c6e9f741ab815b6c4863bd067cc126b847987f6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/5dd15d08a3e67e61a848528d0a6b37914b7262721f1c7de355886168bd4e2b52.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "5dd15d08a3e67e61a848528d0a6b37914b7262721f1c7de355886168bd4e2b52",
+      "hash_derivado": "9eba2f9b49069cbd273d9756e91277e4a14eac04177e7829b7f36446465cba91"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/5f1b295907f06cae3ad7d579d81b93481c278ab680cbf976560ded04b096974a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "5f1b295907f06cae3ad7d579d81b93481c278ab680cbf976560ded04b096974a",
+      "hash_derivado": "d2355061ffef9ca03ab54a5bffebfa8877146b0c3ea132414470e58b89b3a857"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/5fa46823f60e5d8c1b71e8412d6bbda64a9feeee4f4dcd08729738fe666a2a51.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "5fa46823f60e5d8c1b71e8412d6bbda64a9feeee4f4dcd08729738fe666a2a51",
+      "hash_derivado": "29bb57d585007b938727fd06178f06e3d20affb440daf29832e351329e2e1aae"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/5fb878179b20d44b8574416e0e96a063c919da1e4d8367f2517a64d370b298e8.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "5fb878179b20d44b8574416e0e96a063c919da1e4d8367f2517a64d370b298e8",
+      "hash_derivado": "59aac5bd6290c7e13332da0af34219eb3f3bed075ff00fb5965b4499dafbb6a4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6201fb26fdbfb9d9e0059f0829cb4278c6a017a47abdb7624ae1dc07e60842fd.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6201fb26fdbfb9d9e0059f0829cb4278c6a017a47abdb7624ae1dc07e60842fd",
+      "hash_derivado": "cef314cf1ff2519e5094949377a94e96d9dfdc7a235facada0a5f805350f2358"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6327a781f5614a78efd4628ca9bd50257ac5f1e6554bbb19a6028ff3cb47b4a3.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6327a781f5614a78efd4628ca9bd50257ac5f1e6554bbb19a6028ff3cb47b4a3",
+      "hash_derivado": "b2879297c322abd215e3523e45fac05f2301c41484974c4dbd0c564a3947e85e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/632c6fbe7af6a179ca84ad619720ac337d937c47a7d4bd0ee6c4e904be2609e7.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "632c6fbe7af6a179ca84ad619720ac337d937c47a7d4bd0ee6c4e904be2609e7",
+      "hash_derivado": "21dabd8136fba6c251574e1729be56a2357093145fa23e093c4a6f95dbd72d2f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/63751a0e5fe813c4dd658a119b813d0dd4ccbbf136fe23ff63f5403932d3a90c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "63751a0e5fe813c4dd658a119b813d0dd4ccbbf136fe23ff63f5403932d3a90c",
+      "hash_derivado": "b3f93d1520f67ea76ba79589b0171366f9e37ca89bed4e799bc6d3f2c29ed893"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/637d5116d4a9eddc5233be536cd6d581d7a233de91db1bddedfd7d40369a60b6.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "637d5116d4a9eddc5233be536cd6d581d7a233de91db1bddedfd7d40369a60b6",
+      "hash_derivado": "9c01ed6a9bd806824a0e7e66f271d213b9922eaa953ec2557f0d9407ce89d666"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/63f5ba8f968d57231902948a93354edaf901f44fcceae33b83dc96c27f2e62ae.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "63f5ba8f968d57231902948a93354edaf901f44fcceae33b83dc96c27f2e62ae",
+      "hash_derivado": "836ebbc30123c5cdfb0a3e31adbad1a39e9ef08cb5d9b8b1b065f431ed985966"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/65c7ea904969e55e042309750c9d095cdf1e8ab6c1243b5b8212096e27ae3837.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "65c7ea904969e55e042309750c9d095cdf1e8ab6c1243b5b8212096e27ae3837",
+      "hash_derivado": "0ce5bd9775b14ecb0a1e1602ff38c9b45036c874833ac6fdb12fe9f876b3fdf6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6678d63caae1b3043fe97d26759cd428e7b6eb97bf4fb68260f56dfc467e03ac.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6678d63caae1b3043fe97d26759cd428e7b6eb97bf4fb68260f56dfc467e03ac",
+      "hash_derivado": "742f67b7de2ef155fbc616d97a37e8707e7adb0df4aa7ae8d1c33d87771af490"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6744ac71bb917ed20ca08b941998a7b32785baea49d98cfbbbdcc9bd744dd00e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6744ac71bb917ed20ca08b941998a7b32785baea49d98cfbbbdcc9bd744dd00e",
+      "hash_derivado": "34f4f9cad0ef09510f165a0727ff2831f41c4e07c94ab1a26e08a1e2d1a773ca"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6840224b79c09bbd8e3ca945aeb8f9777be07cfd13d29651b5f9331135e64100.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6840224b79c09bbd8e3ca945aeb8f9777be07cfd13d29651b5f9331135e64100",
+      "hash_derivado": "aa913ce2dc4412a01cc4e6292c3a0d76d38fd70ef14f459a09a50df2539c1c73"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6a30903f14b407801355978fd5068cb8c47f200f0ca0feb166bba94687dfe09d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6a30903f14b407801355978fd5068cb8c47f200f0ca0feb166bba94687dfe09d",
+      "hash_derivado": "1e103cb16175247a6d67c24186b8701901dc97aeb20c27b6ccaea88342cdfdfd"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6a475356b3afae02b578e1e2235c0f173dcc5a945edaeb296cde5aacfb941b67.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6a475356b3afae02b578e1e2235c0f173dcc5a945edaeb296cde5aacfb941b67",
+      "hash_derivado": "f07ef56b1d1f27210b7737b216b0b294ec698b246f267fcd8f5dc8d4616e9512"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6a9cedac6f35ce00be21606fe5e7b490234e38fd9f6d6e67b0623834a59fbc9e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6a9cedac6f35ce00be21606fe5e7b490234e38fd9f6d6e67b0623834a59fbc9e",
+      "hash_derivado": "427371afc82545a0bc81f70c75d04fd8d735e3118d5a8fb698db2a5f1f7ccd18"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6ad98f4decc5fd91dc7e84888a14f721b2f61001637cd76d33da56f46b1d6e0a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6ad98f4decc5fd91dc7e84888a14f721b2f61001637cd76d33da56f46b1d6e0a",
+      "hash_derivado": "3c743994fbf5467200a09755d493efa4da86367d2c79e943e619d57d45ca4151"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6bc714a704021c45af5c5d2bbba6b309e6a494dd61aa512c2d5cdd643323cd66.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6bc714a704021c45af5c5d2bbba6b309e6a494dd61aa512c2d5cdd643323cd66",
+      "hash_derivado": "d7158cd871b4baa6b00984fbb21edf7522a2abffbc455e813f5b2ba026b52468"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6d593fe3d9dedbc4adb79610f97c25a1bb9c596ceb8162962219579d2130bad3.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6d593fe3d9dedbc4adb79610f97c25a1bb9c596ceb8162962219579d2130bad3",
+      "hash_derivado": "490ee1c38d0a2e90d0c2251465a859b54db4d2f9c0a5317f2ecde37c688ad7eb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/6ee190ba95aa74dd3911bfdaf2dd4dbfb0eabebe6b99ed85fc8bfea33a7c2419.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "6ee190ba95aa74dd3911bfdaf2dd4dbfb0eabebe6b99ed85fc8bfea33a7c2419",
+      "hash_derivado": "cf2af7e4603398bda8361f5790e66820ddcaf05154b00d76199b2e8240b71bd8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/71da4d469217a4174bf3107f95cf24d0b91afdbbb8bee717f12d2315bda60efd.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "71da4d469217a4174bf3107f95cf24d0b91afdbbb8bee717f12d2315bda60efd",
+      "hash_derivado": "52658d2029924eaabdfce23ffc48d623b7bc336c27efd5413af565e8975c9ebb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/728d977bdd463f2cec3e9c4429183faa0191fb75721681466d096280f97760f0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "728d977bdd463f2cec3e9c4429183faa0191fb75721681466d096280f97760f0",
+      "hash_derivado": "02e942b9a55b3863e41c0ac5d4bc28405440e4b82b0585032c93e2623094e406"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/73f3e300276f68f43b5f42f7eab99206a9cab5683dfc3746dd900b639bd2128b.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "73f3e300276f68f43b5f42f7eab99206a9cab5683dfc3746dd900b639bd2128b",
+      "hash_derivado": "088525f29cc53361f2c144758219c21c9c2e7f8101df065fce44a73de3608f29"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/74925e6e1e65f8acbfdbad0c75b117c13160eb6f593d1d1fa91b8a8d953852f5.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "74925e6e1e65f8acbfdbad0c75b117c13160eb6f593d1d1fa91b8a8d953852f5",
+      "hash_derivado": "fded4107171779c2d950562aa5682a0e1741f52ec9f9c301182ec8392e9e66c3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/76aec773064e4dc7b128b38d3e666e4ffe02f1765068f6983a3a485d09963f8d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "76aec773064e4dc7b128b38d3e666e4ffe02f1765068f6983a3a485d09963f8d",
+      "hash_derivado": "c91774e0bf1476ba5a448f9f7f529a5fab29f64557e3171184f29e1bdb6ba0e6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/77efcda6194fa5fa3a53b3c324104078d69807f4d658c760ecd5cbb7a177e040.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "77efcda6194fa5fa3a53b3c324104078d69807f4d658c760ecd5cbb7a177e040",
+      "hash_derivado": "d2ca87c3b724e2e722ccb1fe4e95be545ae935043eb13b705c8f50acfdb55e9b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/7810269d074390d79e3e08b53619d6ec3c7355c3eb2619c873b043b3cc3316c6.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "7810269d074390d79e3e08b53619d6ec3c7355c3eb2619c873b043b3cc3316c6",
+      "hash_derivado": "ab8b4fdafea9ffb58e752034e50e3e23ae59ec8bd0c73a2ae5e08b564acb3bbb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/78bebebb90cdb1cb1dac2d85cccaa6e81cb6f93fdfc856f4b53153ee430ee6fa.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "78bebebb90cdb1cb1dac2d85cccaa6e81cb6f93fdfc856f4b53153ee430ee6fa",
+      "hash_derivado": "99a5f14ec1dc6b5a2c5de9a55664c5c81e3be7d1aeeebac86f569f0de8c0196f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/79b920d95466085800373c3930ea277b8db198115e0462aebde9f934c0096204.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "79b920d95466085800373c3930ea277b8db198115e0462aebde9f934c0096204",
+      "hash_derivado": "821df3607aa1232a1332fb096a1b128a127005d2e74b250bce0ad2556aae0d0e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/7d940585059d99053cc42168a3987da0025e6e57d28cbf84bd65d419a4f2489e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "7d940585059d99053cc42168a3987da0025e6e57d28cbf84bd65d419a4f2489e",
+      "hash_derivado": "cd4a49138f2c4aaa2422989e18ff0c4296f2942d2dcaecb8d9d62ea20fd7fdcf"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/7fcbfaa4fad46860c14e0301081c1649fe263edd82f413e2009a510f312b1cc5.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "7fcbfaa4fad46860c14e0301081c1649fe263edd82f413e2009a510f312b1cc5",
+      "hash_derivado": "4f7a58940021ba484cc2cba0bb10ac6e8f8dd9a1bd1dac999809a6c876f598a3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/804527fd8f5e926179cb8eb2e6535022a5b96a04456e9d9dcd21d216e737bdfd.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "804527fd8f5e926179cb8eb2e6535022a5b96a04456e9d9dcd21d216e737bdfd",
+      "hash_derivado": "9959ef093bf96abb397f7fa54ce5ba58e752d77988a12bf0b1ed0fef69f41957"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/821a6d98e44f86479886a5cc08a40fe26806f0b7354e30f30d1e666c2acfa217.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "821a6d98e44f86479886a5cc08a40fe26806f0b7354e30f30d1e666c2acfa217",
+      "hash_derivado": "a04c82f9e779214d3c90af0491c1c8063f76019287ad2a35bee9b0e078d3b836"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/82e3b310a28aa0066a1c6d5d247bccfda020685d72abd339389d35116bc21f0f.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "82e3b310a28aa0066a1c6d5d247bccfda020685d72abd339389d35116bc21f0f",
+      "hash_derivado": "60743ee300f242d68f9ed598a8e6a0ca56a655a7a630b72c45659dcdf0f1a168"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/83665a8f65b6df17e84d252871179e08d6f895c05638c9f792f883f71366c1ee.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "83665a8f65b6df17e84d252871179e08d6f895c05638c9f792f883f71366c1ee",
+      "hash_derivado": "3b9df8e62598ec427b6cdf891e1b273492ead03768bdddad509abbe04dadc500"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/84175af94d588d5b3f2bfc6dd1615b356b98e6c97e21d994387c70b2ef8d1928.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "84175af94d588d5b3f2bfc6dd1615b356b98e6c97e21d994387c70b2ef8d1928",
+      "hash_derivado": "9b3b3b7f15258fc7abd1df55a9bf85ced846253184d07ce9dc95a98565e4fda2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/84537e68cb6960ca350f3bc3131f97e1506477b205ac44f8dfc00a155f9081bc.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "84537e68cb6960ca350f3bc3131f97e1506477b205ac44f8dfc00a155f9081bc",
+      "hash_derivado": "762960d23bfb569d565403f15b502bd5580d627c6063bc0743e8084c4d1f6450"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8913612e1fa4940956740e79715dae7235edc87742172cb9aca3d0b1d2e275aa.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8913612e1fa4940956740e79715dae7235edc87742172cb9aca3d0b1d2e275aa",
+      "hash_derivado": "123239aa441d34be0fefdf59b08bd5f3076cb8360dedd42cac2da79699df64a7"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8916ea989c8fcca32c8529bd846a737501aae5def13ee2bbabaaac893e6048aa.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8916ea989c8fcca32c8529bd846a737501aae5def13ee2bbabaaac893e6048aa",
+      "hash_derivado": "0f6a7f5fcd81ae1621d896c532a9b6ccf186bace5c783ff3b94b773f71b7f1ca"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/893cfcbb5450673f0dcea35943cfe0c838bec2104a770e0d2d67b985ea139d47.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "893cfcbb5450673f0dcea35943cfe0c838bec2104a770e0d2d67b985ea139d47",
+      "hash_derivado": "f40ed9955ff06e7341c25f733e67c4090de04eba3a4b1bd7fc97a62f88d878c1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/89410b2a239170eadaf75c8f578af3f4e2f2e5b74de7b386f3a918ecce2170c2.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "89410b2a239170eadaf75c8f578af3f4e2f2e5b74de7b386f3a918ecce2170c2",
+      "hash_derivado": "8064fddfccde00e7e26d5661a1cdc97af8dbce37ceaebcfa18c6781c314b5ea7"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8b2bea502080c61e74e4b6192bc738765d2eaa24222f990d9d1e99b92d2c9861.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8b2bea502080c61e74e4b6192bc738765d2eaa24222f990d9d1e99b92d2c9861",
+      "hash_derivado": "9ba7cfb6ebedac60a9a82e6de6658ac75d7fbdda1890e1c97514223fc251cff9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8b41d125df64e665d033aae27ab624af0afeca5bb6afece10d324b22a42075fe.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8b41d125df64e665d033aae27ab624af0afeca5bb6afece10d324b22a42075fe",
+      "hash_derivado": "bf39affa86f0feb9664dc012112f47ac6cc02e0340ed2e2241f8e746ed922119"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8b759ad9875e026b5c0d326d2d92d348abfcdb52f4171fa44d722e6c7e7d49ef.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8b759ad9875e026b5c0d326d2d92d348abfcdb52f4171fa44d722e6c7e7d49ef",
+      "hash_derivado": "71a4ae80cb40beba6bde5a9e3b18dc685bfab374d52c377d3af00a341b43d092"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8b95a8ef1677ea9e7eeeedcdb552baeca78700fd2f2ec3f492316e1d904aea51.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8b95a8ef1677ea9e7eeeedcdb552baeca78700fd2f2ec3f492316e1d904aea51",
+      "hash_derivado": "bfd3dc6101f705e538c4b14a9c97cc2eea7ce653f23f42723c50e8e1526d45c8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8c6a6409d4ab06fe1ebdd2b1be4d1abf54d3afc29c0f4e2ba3f680295c253ee7.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8c6a6409d4ab06fe1ebdd2b1be4d1abf54d3afc29c0f4e2ba3f680295c253ee7",
+      "hash_derivado": "3efd9392b26130d6ac02a801b6f5dd140b3e5bcd27c82814ef0cd1f693735db0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8d155663289f73b3d97f7ad140f70cc170a2a8c30bc48fb1f530847ddde7d8fe.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8d155663289f73b3d97f7ad140f70cc170a2a8c30bc48fb1f530847ddde7d8fe",
+      "hash_derivado": "816e8467e0c57781d0961b21a3b5543472234c9e06ad7ebe9672871ba44f0d8c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8dc4dd4766deb5781f8de7e5e4bfb524c72a730d326e8c4b1ece0398632b0367.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8dc4dd4766deb5781f8de7e5e4bfb524c72a730d326e8c4b1ece0398632b0367",
+      "hash_derivado": "19a146d26b77f8ac1d4f68182288f245e372e11d49611ae330aa423dce71bbc2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8e0841b0e95e1c8745678d22637ee1048d054baf0c06cd2201da4a99486cfb90.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8e0841b0e95e1c8745678d22637ee1048d054baf0c06cd2201da4a99486cfb90",
+      "hash_derivado": "744b7fbd447b1642e7152117408f4931cb2167bda4c5441464b46149203d6fb6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8f906008b0650eab637571855ebbeb38d908a51b8bb91ce98576cd4bf1063b58.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8f906008b0650eab637571855ebbeb38d908a51b8bb91ce98576cd4bf1063b58",
+      "hash_derivado": "edeeae700d9398be1cf15ce87e523b0f3a7ed0ec91a691754c04770f619844b3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/8ffdaa4e1f92dcb4273ed483e8ff91a9e26b95dd72709a65934cbf02a4784234.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "8ffdaa4e1f92dcb4273ed483e8ff91a9e26b95dd72709a65934cbf02a4784234",
+      "hash_derivado": "ae502879d6ee035c104dbccfcee5c0ce168a3d682e87c0ac9822c02b3ad0d1d9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/905d047867ac7efa2ab2f30417f360139c3ff329350015a6a3b9e199064e2604.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "905d047867ac7efa2ab2f30417f360139c3ff329350015a6a3b9e199064e2604",
+      "hash_derivado": "1e81d499b196e5e60dfde33924558ba13eb9377d328f20f90bbcde75e86e2b9f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/91b4c8a8918de3f2e0e2212e237063ac335d081607da35e6a666d40f8b2aa8cd.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "91b4c8a8918de3f2e0e2212e237063ac335d081607da35e6a666d40f8b2aa8cd",
+      "hash_derivado": "41655a3c7a1768d295ffe75a1df63c148ec7bf366409a35b910e2f81ad6c8624"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/9318decc46a3ea3306a135c89cd29841ca96c12877247c97c9afed955b8a925b.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "9318decc46a3ea3306a135c89cd29841ca96c12877247c97c9afed955b8a925b",
+      "hash_derivado": "82020b7ecdfdbadd7325dbcda7e1e04d656ab08b4fb808d6369e9eceda281002"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/931bbc2dd7dffa414d61161b4991b5908f18f83bdddf24b0f27c4e71d5674dcf.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "931bbc2dd7dffa414d61161b4991b5908f18f83bdddf24b0f27c4e71d5674dcf",
+      "hash_derivado": "c4b68f0afefce4c86567f9d546c7a51c33e88ac8d7b724f9b18d8c844b69eaa5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/93da5bbc2f46d81238e845cd088fd1c2f20b96e0aa2adac115b3a38d429f73ad.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "93da5bbc2f46d81238e845cd088fd1c2f20b96e0aa2adac115b3a38d429f73ad",
+      "hash_derivado": "50fac855535686b91d78dc334bfc3fa18ac05375150fc6687e60a2cc4ac52744"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/956331eb6a405f361972e3ddc80cc9c150afbe34564144471d7948ebe46ae8e7.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "956331eb6a405f361972e3ddc80cc9c150afbe34564144471d7948ebe46ae8e7",
+      "hash_derivado": "b2843658452a09b7d5ae700bbbe593f0aafc793b357f45f4216c98af9a154fe2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/95f368b701c2b870bd15fd707fa0180862fe9eccc2ac0a40db1110dcb8556a28.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "95f368b701c2b870bd15fd707fa0180862fe9eccc2ac0a40db1110dcb8556a28",
+      "hash_derivado": "1c76977df04f087dbe87728fa11d3316084de28dc77d81d3aae567c9759ebb5e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/98dd2cbbd8f990ea72bc3554c95c7b5e3c6e349b32d31889e1af6618fc5eb2fc.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "98dd2cbbd8f990ea72bc3554c95c7b5e3c6e349b32d31889e1af6618fc5eb2fc",
+      "hash_derivado": "78166a3edebbdd5090312a4fafc6ce676038a189453fcc54142e3c23e064210e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/9a2e3ca66b281134d3b1bc746f7c1bc3a181ec44ab439a5429dfab791459e9f9.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "9a2e3ca66b281134d3b1bc746f7c1bc3a181ec44ab439a5429dfab791459e9f9",
+      "hash_derivado": "58702531835ce8903f9b2e7bd69c264b6a544b783bd7e1f4ac3c0334584161e8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/9a4dc6b6e045427093d29bebd734ed2dc904f7dd678f93a799e9eff4d0e5a28d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "9a4dc6b6e045427093d29bebd734ed2dc904f7dd678f93a799e9eff4d0e5a28d",
+      "hash_derivado": "0852bb8bccf6b0be7c8d18303fd6d333ef49fd3263045e70796e8e76390fe29d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/9b149c7464f47134cb81801ec72f717327c040de13886ee1a4bf09b66e2de31e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "9b149c7464f47134cb81801ec72f717327c040de13886ee1a4bf09b66e2de31e",
+      "hash_derivado": "2c4efa985c282675264ae751f1c6c50f1eef14b834c775d1b0bb0c43302df3a3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/9c3c2d789098529aaa82718e4bae53e165c46a8a2b03f25d7f1d5bd1ce05b516.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "9c3c2d789098529aaa82718e4bae53e165c46a8a2b03f25d7f1d5bd1ce05b516",
+      "hash_derivado": "0c87be2a600bf4139fb66f0e470c217eb282df33ed346c799443fb4284879df5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/9dffc0888ce977238a4fe97dfaac0ce96f710c23cff04a25c497f47e18780adf.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "9dffc0888ce977238a4fe97dfaac0ce96f710c23cff04a25c497f47e18780adf",
+      "hash_derivado": "d73b178c41dcbf3fed2fdb2ca95c3150152fb703eb71763a24e2c3cb1df50525"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/9ed795212d38f7d3dd51484a9f131bb74d1e417c8975fdb037f85eef8972607e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "9ed795212d38f7d3dd51484a9f131bb74d1e417c8975fdb037f85eef8972607e",
+      "hash_derivado": "84dd99b05276004867406c85544683ad879977c7be6edc7d2cf47ef5aa11e575"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/9f806e696f4fa92c80a4521e1373082ec72a350666b444a724203f0dbe881a5e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "9f806e696f4fa92c80a4521e1373082ec72a350666b444a724203f0dbe881a5e",
+      "hash_derivado": "6918e3d6e4777dd7cb99d868764459668575109a2160f16bfb2d7858c0623a57"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/a06b7426d02e254fe05206a5b18607949c3f6378f912da692dfb5b46b1c6cceb.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "a06b7426d02e254fe05206a5b18607949c3f6378f912da692dfb5b46b1c6cceb",
+      "hash_derivado": "6e00ccfb38d1809d8819ce4385f56da7322f053c063bd38ce0d506a2d90424c1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/a0dc5c822e45184d653f50d0c1b0acbaac1408cae9b8b67ab29fa0116323abc2.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "a0dc5c822e45184d653f50d0c1b0acbaac1408cae9b8b67ab29fa0116323abc2",
+      "hash_derivado": "f745f5e06529bd6f0b97d303ff9b4584409e34e794af987735d1d13009f6d124"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/a23dae15c77453f7671e0d2c88e2acd792ac62b6240a350e138e5fe174eca858.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "a23dae15c77453f7671e0d2c88e2acd792ac62b6240a350e138e5fe174eca858",
+      "hash_derivado": "cf030945032e14b1c8b8f4d26742769f04fa7fbfcadb319602fe15d4789716a1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/a584d6920502433ee3dc2338e439d13e4c3a644e742832c9809133f5648b115c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "a584d6920502433ee3dc2338e439d13e4c3a644e742832c9809133f5648b115c",
+      "hash_derivado": "dec26b9e37a23ccc4f4cc61602ee847a68fc6eed011ad82e50e4b011bbe06212"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/a5d3d2b18f25c354bd0e1acdd21cb87d25658bd8a780ba930fece30841a4be4c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "a5d3d2b18f25c354bd0e1acdd21cb87d25658bd8a780ba930fece30841a4be4c",
+      "hash_derivado": "e823c82219e2f5fd39d3cd86d3dc56635a676f9588845c2f00736a6180a56e38"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/a7e4535765ecf3bfd2e5e39cc60f170e6a19737f25ed934990ea13040c2e478e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "a7e4535765ecf3bfd2e5e39cc60f170e6a19737f25ed934990ea13040c2e478e",
+      "hash_derivado": "fea29b2dc7f2d745213f4789dc9f0a9a52c2ebe04d943b5196899469feef668d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/a88993702c855ac5e81aacf6a487106a8e87107de8ae3facec6cdf20dffee7f8.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "a88993702c855ac5e81aacf6a487106a8e87107de8ae3facec6cdf20dffee7f8",
+      "hash_derivado": "3ccdbb641bd0629be0a5c9fbe8e9f6694ab740a3ec1dfb762aa676ea382630bc"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/aa9684f94a4366fc6e3c5abfe80d4a0d9862de5c023d1f6d87700729991edbfa.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "aa9684f94a4366fc6e3c5abfe80d4a0d9862de5c023d1f6d87700729991edbfa",
+      "hash_derivado": "c49ab5d050ad2e1e32a5dbbd50a1f851ad1131ac023ea10f4da12025fe8ea39f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/afe5f05dd97f95764f3e7fed8113eb7fe7a633fc5d9e88edc3e794b96a2091cb.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "afe5f05dd97f95764f3e7fed8113eb7fe7a633fc5d9e88edc3e794b96a2091cb",
+      "hash_derivado": "486ea9ac9844765ca9a937b7d733efde1d3887aceee0a38f58557ddf4ac5e6c5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/b2158baf6f0fb4c9b89281f1eb5652272781794206ce763b947ac4b619a463fc.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "b2158baf6f0fb4c9b89281f1eb5652272781794206ce763b947ac4b619a463fc",
+      "hash_derivado": "c4a782f8fa3c1fe9ae7b52e7f8685f284fe4c27afc0e925e547b8752442fbc15"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/b57efbe4ec42f16e0ba120baff3db530e9853279f808d29e6d15c0522d260164.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "b57efbe4ec42f16e0ba120baff3db530e9853279f808d29e6d15c0522d260164",
+      "hash_derivado": "dfd1ec7449bc298afa75313052b5baec1967a87823036ffcb912566eaf2da35f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/b6688abcd94f7da43834fe0c646ee6e29a57f7d3de738cb86cb652b282b56bbf.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "b6688abcd94f7da43834fe0c646ee6e29a57f7d3de738cb86cb652b282b56bbf",
+      "hash_derivado": "cdb43c6bf9d97e831dd4a06d7ad67fd8f7e11dfa13fca54c8f6a64ed80522a90"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/b9c316f5688a7fae0624c9d9e8a519ebd278a405a836499bae10de157ab1bf3b.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "b9c316f5688a7fae0624c9d9e8a519ebd278a405a836499bae10de157ab1bf3b",
+      "hash_derivado": "e27c33b6cc3a4146b274b7444e5017d2cc855833a274e93bd9183b236ad3aba5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/b9c6d7706c4bf0fb08591b889527cee43fe2d209abe7490ad3b7fbe8416ca82d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "b9c6d7706c4bf0fb08591b889527cee43fe2d209abe7490ad3b7fbe8416ca82d",
+      "hash_derivado": "7e79fd9ffffa1ae4fbd8aea143bb5b52260acfc33002deb7afa9e7cee40aff52"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/b9ee2651753a379e4a5bc42d74c4a9a9fcca72749ce3ad65673ae18b6fddb702.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "b9ee2651753a379e4a5bc42d74c4a9a9fcca72749ce3ad65673ae18b6fddb702",
+      "hash_derivado": "9f7faa27731e21b6dc56c03aee5d325e40738cbb046d4c30f2cf96f6c834e663"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/bb890664258526b44ca8434a7e6be74c86090e3a99892c9c83015bd341c43cfa.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "bb890664258526b44ca8434a7e6be74c86090e3a99892c9c83015bd341c43cfa",
+      "hash_derivado": "5fbb5d2ddc9a266ae1d56f0715f2e37fc68d3100bf98c176b2b31c39621bc4fc"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/bbc9a4f661298810963efa1994d926a907a2e21ce4d4eddd854e9e0bed01da8d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "bbc9a4f661298810963efa1994d926a907a2e21ce4d4eddd854e9e0bed01da8d",
+      "hash_derivado": "95c36b62d0e8428f2669e063d273d410d4f9f9a844a4640f8c583a9baec3d7c2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/bc894760b558ea9bf6c65caf1f9a2453433ca667df5d48c348885754b40f4ad9.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "bc894760b558ea9bf6c65caf1f9a2453433ca667df5d48c348885754b40f4ad9",
+      "hash_derivado": "d0f7188ba8abf41f4c6d557944a4dbef25e103b1dc7ddcdac991c887d53ab1db"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/bda259dca300eee105db7e40e292550d662e97ffde8dbb90a19e2e2eceaf0821.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "bda259dca300eee105db7e40e292550d662e97ffde8dbb90a19e2e2eceaf0821",
+      "hash_derivado": "e24115fc25722b14ecdd29b180e63baa36123d54e8ab013ee2ff4a6a22f5be5a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c015d868942cd2727375b8939dc7cdcc9334dbcfc4ac8998935163f328a49b3a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c015d868942cd2727375b8939dc7cdcc9334dbcfc4ac8998935163f328a49b3a",
+      "hash_derivado": "9594bc2a04a44c49fab7e42017661347764306a245893938fe6b0e5c67f2813d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c0c4cfeb242d345978cb2c87880af9df2e86e39f832ab257444a54accd80a0e0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c0c4cfeb242d345978cb2c87880af9df2e86e39f832ab257444a54accd80a0e0",
+      "hash_derivado": "2c29f989caaf0caeb31c134d8dfca3ce16a446a3510986026ff9e1138c6e953a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c1c36684f2580e2cff80a7439be908fa6e64193ef30e0021abfd04433e32979c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c1c36684f2580e2cff80a7439be908fa6e64193ef30e0021abfd04433e32979c",
+      "hash_derivado": "b739ae7ad9a7c073e8203cba5465666bdac83c43b1113436dfeab9dbba5e99fe"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c2b32115979ebf9516677cabb9421644dac87094a4501295dc468caddc443b88.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c2b32115979ebf9516677cabb9421644dac87094a4501295dc468caddc443b88",
+      "hash_derivado": "782f9255c3bf2909c03f4dad702235345b1eb13b2f08dfb45869b54b8b4758a1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c373ad775b2783408e1fe163a8ea1d2415e6ef1697b1a3b133376a589f6c1c0b.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c373ad775b2783408e1fe163a8ea1d2415e6ef1697b1a3b133376a589f6c1c0b",
+      "hash_derivado": "dd6e4aea394792bcac3b4e6b88d614597936af7736e634e8e2d20afb580ba1ee"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c3e24e52524e8ae9071a4ed4709d90f7590846e4a76c4dd63e85b307f5a2713c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c3e24e52524e8ae9071a4ed4709d90f7590846e4a76c4dd63e85b307f5a2713c",
+      "hash_derivado": "2155d04b61c077b516efc86891b5781663ee11d6b0c23b51d7fbaef8ee8d0939"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c61525579390ccecfc91e22099e35a1a18032ea717ec70e13c2b50e3b5cfc8f5.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c61525579390ccecfc91e22099e35a1a18032ea717ec70e13c2b50e3b5cfc8f5",
+      "hash_derivado": "b2e608214b904494664b8f0b75da3863d58b48ea58fab55a12a6133728a469ea"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c778b5cd4808696049eb621e823e07b6dc9042bc1ed3a6947208fdd89b18b62e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c778b5cd4808696049eb621e823e07b6dc9042bc1ed3a6947208fdd89b18b62e",
+      "hash_derivado": "39e4cc483ab193c4cd22d0fbbff145d37c4c6d6618eed1663f593732a2a357c6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/c8275d2c66c555da846799aa836c8a8bdebad4088fd543f41036bd0d5e92ec49.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "c8275d2c66c555da846799aa836c8a8bdebad4088fd543f41036bd0d5e92ec49",
+      "hash_derivado": "75bb503f96a5b0197b37ae900aae078dc9c079fe2b39cfd7fac2c3d5bed52d6e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/caadea74580ef8650035775d170ae90588f0b1311afdb27cca86da0442908f69.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "caadea74580ef8650035775d170ae90588f0b1311afdb27cca86da0442908f69",
+      "hash_derivado": "39ed3d858a4eac0ebbc8993029e773d086db8ac4527b5cc87bc1ecf67e449a27"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/caf48ef9454fb5578a0d5dd2077e53a437f8a5e2247eb5aa56123c42f588540d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "caf48ef9454fb5578a0d5dd2077e53a437f8a5e2247eb5aa56123c42f588540d",
+      "hash_derivado": "b0a41e1f32b9bd6cd08de7d9bfe76655c15b3128d626969bb9bc2dd6e59d5258"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/cc09aeff3082609a93432318e511b78f14dd813089a139afdcdd51e2df9f9d89.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "cc09aeff3082609a93432318e511b78f14dd813089a139afdcdd51e2df9f9d89",
+      "hash_derivado": "c17e9378829f324adf22a45d4bf9acd0338d9ca1d0504245c67702c632152157"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/cc59f4db29d5c2088ba536f4ae6d045d722022140cb374d077bc2d8acb6ab740.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "cc59f4db29d5c2088ba536f4ae6d045d722022140cb374d077bc2d8acb6ab740",
+      "hash_derivado": "3057f08af1959c126b1607394c7eadb11b9b5a5e575d286e948d174f108e6528"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/cda195ad171861560176aeaa02455ad3990affc9cb7e058f3cb4e1861872176c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "cda195ad171861560176aeaa02455ad3990affc9cb7e058f3cb4e1861872176c",
+      "hash_derivado": "f6e429d78a7c27eaa2dda0c19ed27db4bf1208d39511b622b29cd55c2feca5ed"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/cf6631d08d42e14355edbaaa21c579f7f77a2daca50e1c5280f3bf72af78ced0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "cf6631d08d42e14355edbaaa21c579f7f77a2daca50e1c5280f3bf72af78ced0",
+      "hash_derivado": "7e0d444bb76bc4488a1414c00d41adb5efa6efd24190ba237117cb5512d38f4c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/cf86bc3d3a0e2f3473f3562f408dfaf649593f15fcf10afa7803a48d4cf1bdd8.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "cf86bc3d3a0e2f3473f3562f408dfaf649593f15fcf10afa7803a48d4cf1bdd8",
+      "hash_derivado": "fb830877b441214ad292548a53edbbe20c7e64398c216a1b2e9175ddf1adca3c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/d02cbb5b6c6451360ad32ed47e76add5132ede6311e311919a030ab1f78259b4.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "d02cbb5b6c6451360ad32ed47e76add5132ede6311e311919a030ab1f78259b4",
+      "hash_derivado": "4d73e42ca575d7f9516c74adc8581725108bd60681e1a23a88952cee3a57dcd4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/d085774aef09230739843e300687242eb33d5925d8a7799d8e8e1d71d2781556.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "d085774aef09230739843e300687242eb33d5925d8a7799d8e8e1d71d2781556",
+      "hash_derivado": "6a141f09929d1b853036d5a3229426d9ca310275bd72fdd911064bd81a8f6f6b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/d290b08d8c1433d4759cf345b952ed01260b334cab8bb13be0d44724db44282e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "d290b08d8c1433d4759cf345b952ed01260b334cab8bb13be0d44724db44282e",
+      "hash_derivado": "db0bff8aeaefa45db8aeaaa2090b83c9ed0c701590e6f646534d01677fb6497c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/d58fe775ed83dca794e49e9d08648a1b24b0bbc4779eba06eab9b11949e5a22f.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "d58fe775ed83dca794e49e9d08648a1b24b0bbc4779eba06eab9b11949e5a22f",
+      "hash_derivado": "b643fefaf136d185026717c17d9369fb5e48c38c84eec4583e721910a78be7d5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/d678962c82c02b4ee76d942ebf7ffbda9421b34a942c13661091730d6ae2ee84.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "d678962c82c02b4ee76d942ebf7ffbda9421b34a942c13661091730d6ae2ee84",
+      "hash_derivado": "e40d020375d0fc99622b190aeaf82ad7ca7604af8e5a31e2c5378ebd028b40bd"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/d842008b47e2cb0bc11e66f0b6591ce5f5fa388ff12ef00721b03d98dbad626c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "d842008b47e2cb0bc11e66f0b6591ce5f5fa388ff12ef00721b03d98dbad626c",
+      "hash_derivado": "c87d4f667d52bffc3fdf69769395b89dab37f4e61954ac3dc8741de6af5127dd"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/d94189ae54d2085bc42752796a7d24c1cc7c976d4f9116ef5b3993d97264fac6.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "d94189ae54d2085bc42752796a7d24c1cc7c976d4f9116ef5b3993d97264fac6",
+      "hash_derivado": "22120570912f3af158cd46a60db1f5107c68b1c290697c6127e90651eb06a208"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/da6a966f62e20ee867f2d7110f86b8f0605356b023dd62665b6ee9e69caf0a43.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "da6a966f62e20ee867f2d7110f86b8f0605356b023dd62665b6ee9e69caf0a43",
+      "hash_derivado": "28952e374e8224b1ee66e1d10741862b65292b5d292aca1af6e7f30172a366a9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/db27288a16be362f56c654bc331f40e9e6195deb69dfbe79562d21c757af2387.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "db27288a16be362f56c654bc331f40e9e6195deb69dfbe79562d21c757af2387",
+      "hash_derivado": "2262e0ba444e6e24f1bea67fb204a36d3a143cfa6994406823062fc806d189d1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/dcbbacabe40bc29827fdbdf29e9aa46bda7bda30a13fcc7a71e3cbb9fe1c5c4c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "dcbbacabe40bc29827fdbdf29e9aa46bda7bda30a13fcc7a71e3cbb9fe1c5c4c",
+      "hash_derivado": "206427cf60896f9921bc6535edd1f9eca6be51800e7a65720976b8f6fb5c1d50"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/dddc934b72818f8a8f7d1764af819197daccef4e679d39ee00bf0f15358a00e6.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "dddc934b72818f8a8f7d1764af819197daccef4e679d39ee00bf0f15358a00e6",
+      "hash_derivado": "ec9394f8f1b6e2beb7f6a131cb677ca44f16af076e7036a84d91161668aae1f1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/decfa93afe1a29d17ef31e0f6d1b31eb2e65827aba2c300a0441c1a3f4e3b13f.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "decfa93afe1a29d17ef31e0f6d1b31eb2e65827aba2c300a0441c1a3f4e3b13f",
+      "hash_derivado": "9c9fa8a16b60561976003031dcbde0249f95a539b601394433bdcabbb7f5b257"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e0a97488b8250c6a6e9f806122043af4ee004df690580cd4b630c26905d62d2a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e0a97488b8250c6a6e9f806122043af4ee004df690580cd4b630c26905d62d2a",
+      "hash_derivado": "4722f5eca2f21d65857b483094a657cc1b683b3044aecb485956fbff3bb00de4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e1517c7515ec4f9d68d991c3b042f5f00121c6b4a85c8d7d60a83c785f1450ae.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e1517c7515ec4f9d68d991c3b042f5f00121c6b4a85c8d7d60a83c785f1450ae",
+      "hash_derivado": "a7d55dfc25c1e5197fb6aae0ea9154e8fe14eb4394b6d44570f115e6499506b5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e26a8c0c733dd6d14a3aa61ebded557e0b74ae8f2c2ef84687aaa2b600669f01.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e26a8c0c733dd6d14a3aa61ebded557e0b74ae8f2c2ef84687aaa2b600669f01",
+      "hash_derivado": "89d6af027b3d8cba2b7eefa9193cd3ab5649e0f3f2d463cc23430f9e435a8ee6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e380ef7bdefe173a950257514c943a4dc2f1aa92da440130522b9201c7ed8e0c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e380ef7bdefe173a950257514c943a4dc2f1aa92da440130522b9201c7ed8e0c",
+      "hash_derivado": "5cb2135576be90ea17208df5b3a97539d387334f2ec52e36377fa08c33c2225a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e3961f9c368b34d4ce530ab3c743051409935d2a5616290f7e4795b4cadb2fd1.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e3961f9c368b34d4ce530ab3c743051409935d2a5616290f7e4795b4cadb2fd1",
+      "hash_derivado": "c6433175fd5a0144416c180b56a431ad304053cfc01806bcd9885cd3e1436889"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e3ab69049635624b91c01d1fab47336dc39443ce754815bf350bd49d127ceb93.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e3ab69049635624b91c01d1fab47336dc39443ce754815bf350bd49d127ceb93",
+      "hash_derivado": "ec0c1d4d91e33931f15c425586f1bca4f49a52d380343c38cb8045386df9b7ca"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e463982bc40503fc387535ee0ece7bca44b5e5a494fa32cceb96d1b4d4b06650.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e463982bc40503fc387535ee0ece7bca44b5e5a494fa32cceb96d1b4d4b06650",
+      "hash_derivado": "8f92e2470b6f9bc3e5c05e2ea337589366bdf1c9e091b03b785903acbdfd2963"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e4baf3621fe33bb376b7f024765792da28f5df6f2861b028501c30e6bda52a2f.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e4baf3621fe33bb376b7f024765792da28f5df6f2861b028501c30e6bda52a2f",
+      "hash_derivado": "9409d84edce8e8b995a498cb58ce5b5b4845ce36d8ade2d3ed2ba0594a22d775"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e676ed04056de49a6e8aab1ab754585c39fff8306a8d8d229e5978768a552184.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e676ed04056de49a6e8aab1ab754585c39fff8306a8d8d229e5978768a552184",
+      "hash_derivado": "6687dcd0e4a06c782539d28c59b4bcda111af9165abb1fe918e349925a6c560f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e85ae97da4579487e0cea26d0411b5172c089be690f2052aa431331511b1014a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e85ae97da4579487e0cea26d0411b5172c089be690f2052aa431331511b1014a",
+      "hash_derivado": "c66e5971cce68e2cfb05ca7d25e07e85ad637f6e25c802b0b1aed5351fbee3dd"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e866b9fe9bf6fb5289848fbc41f589c5195977cf36718ff7b1bcab3a34fda395.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e866b9fe9bf6fb5289848fbc41f589c5195977cf36718ff7b1bcab3a34fda395",
+      "hash_derivado": "d637c40d316cafca6e6e12d8ad9a9f10800f2b343d14ebf8f76a40df55252e2e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e8a31c547516de8a618fd855155c411aae100e45099cae3374a5b449eed5b224.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e8a31c547516de8a618fd855155c411aae100e45099cae3374a5b449eed5b224",
+      "hash_derivado": "ac4439709cd6ad058089b05aac2274bcb9b234f9a02cab7fa8af98907710b6b3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/e9f93912c66b14fdff459c2b612969e27cd02212e43689037596f57ffea85320.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "e9f93912c66b14fdff459c2b612969e27cd02212e43689037596f57ffea85320",
+      "hash_derivado": "18c43cc9c93b439d6ceb2b622e1891db22fc051dea0e833c4f25b16011d7dde1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/ea62f54eb534ad6660c99448bffa22d587ba35f290c4d30906893ff3de98567e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "ea62f54eb534ad6660c99448bffa22d587ba35f290c4d30906893ff3de98567e",
+      "hash_derivado": "cc34dcbfca41358b0e10bd32426f8e9b118a0a976d6a95b080a7a974b92c6c4e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/ebcdc8d3c1caddb3ed1b1c0091db93dc7e607b9128afe677aef0132fbde4b090.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "ebcdc8d3c1caddb3ed1b1c0091db93dc7e607b9128afe677aef0132fbde4b090",
+      "hash_derivado": "1e3243f9d9dceed675306d97ea65efeb302bad2060afe2e80920e7bf1467a731"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/ec09b7eba5007d5e6e32783a29a4f819503dd3ab4601a1e957fc2c918e81ca65.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "ec09b7eba5007d5e6e32783a29a4f819503dd3ab4601a1e957fc2c918e81ca65",
+      "hash_derivado": "cd0a44f62c37228bcecbecd2cb7fc70bc05beb2e428f547d760d6af2b394af09"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/ec32094d897adec8151be367a13e7ec5172310b4c329df91a42c83dc8b3086a1.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "ec32094d897adec8151be367a13e7ec5172310b4c329df91a42c83dc8b3086a1",
+      "hash_derivado": "27afbcb3d0d1329b0f59415d75dbf3d517adf1d8c8b4d56ac748784c91f5f710"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/ec3d5bd71fb6cd164195a415f58434e090df6b0154de95bc8200a3ca5270be7a.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "ec3d5bd71fb6cd164195a415f58434e090df6b0154de95bc8200a3ca5270be7a",
+      "hash_derivado": "f4fc2b41234350fa2db57dd42d7577e89a246572324eb204e6a8f201a0ddf2e4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/ec70f11e99e4eec1b087322e2c9607980c98a5f186672365016de151ca4197a3.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "ec70f11e99e4eec1b087322e2c9607980c98a5f186672365016de151ca4197a3",
+      "hash_derivado": "65ac8c4904437bb934a42e604b74e67330303cb63e4699e695cd538b17f86e96"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/ef2cf99c2c48f09ab68560a5f4088f41ffaca12ac652572224deb442f0f207d0.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "ef2cf99c2c48f09ab68560a5f4088f41ffaca12ac652572224deb442f0f207d0",
+      "hash_derivado": "56a9728b62ec4da321fd5e4ce80812c1ee98643fcce0200f2c128ca257a4a9a0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/ef840538f05f960405f0418a0c43c6411f16ad3247cf126bf1eaefca26353cb7.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "ef840538f05f960405f0418a0c43c6411f16ad3247cf126bf1eaefca26353cb7",
+      "hash_derivado": "3cf6c9007938129c8da5b5f52749536e36a76d88084118507626df1bcb2752b0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/f1caf92d0a9f14e3e499243d987fd45a2749279168cdd263f723b13cf961c6ff.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "f1caf92d0a9f14e3e499243d987fd45a2749279168cdd263f723b13cf961c6ff",
+      "hash_derivado": "4346554d7379813bb76c1f0a866b2639dcfa64e0b8855cd21ad400fbc0688640"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/f1f10297a03bdf03928df3f5e454038edda0dea789088a31c15b656c8d0207be.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "f1f10297a03bdf03928df3f5e454038edda0dea789088a31c15b656c8d0207be",
+      "hash_derivado": "233d0ce128999c0d99510ecf96855ffbd2a58d0b53024f62f2ea38a9f002caf4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/f2ad9874a8f3b550a569a934d86b0bf2f24d5d1897930998ae1085e703474c2c.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "f2ad9874a8f3b550a569a934d86b0bf2f24d5d1897930998ae1085e703474c2c",
+      "hash_derivado": "1dbd463d4aa510623d1c78a9f2943fcb145601c4bfd4a52521cd60a22522ef83"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/f5b6b58e0a1fbffb457bf477a33440481fcb1f6fc2b9fd0cc42134ddc11f57cf.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "f5b6b58e0a1fbffb457bf477a33440481fcb1f6fc2b9fd0cc42134ddc11f57cf",
+      "hash_derivado": "fab3ec80ee37329d989160c77196b4ced9d0ed597448737e7bd30b0866be142c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/f5c78ba9d87fdf9adb6745c624c687fb571a7f45287d77d570847ff2eb93fedd.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "f5c78ba9d87fdf9adb6745c624c687fb571a7f45287d77d570847ff2eb93fedd",
+      "hash_derivado": "ef8ccbb354c76879574893ae3aaae46a78b1d8e721ea546accb1613c7ec8e76c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/f66d9cfad437b6e1628cb711437758ef1b6636d142caa6af0b32755544faa99d.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "f66d9cfad437b6e1628cb711437758ef1b6636d142caa6af0b32755544faa99d",
+      "hash_derivado": "b9d6e5db77e02c806265e6020718ebc58f51d24fee00471ad272a9d48fee1c95"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/f7ce8cf8f9b25f44ef49997ac11fefe9b80280ce78757d2e9aa3981a2703f3bc.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "f7ce8cf8f9b25f44ef49997ac11fefe9b80280ce78757d2e9aa3981a2703f3bc",
+      "hash_derivado": "a58c5987097505347bc348c2854d4adc71c499f3950dc9eb3497e10aceb6d6c9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/f84207a26992d70f4a2b4ff18f6951aa6a2f98e6ff53e5f6245db3a8155cdbf3.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "f84207a26992d70f4a2b4ff18f6951aa6a2f98e6ff53e5f6245db3a8155cdbf3",
+      "hash_derivado": "92b7d7dbf37a99f2d2290e89ac6331267362e2cfd30edd1f712ca15d091f169a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/faa1cac00d99e6215cc3c64f50ec38a6d6da9956f2283cce33096743173753b1.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "faa1cac00d99e6215cc3c64f50ec38a6d6da9956f2283cce33096743173753b1",
+      "hash_derivado": "dc969474defe410b053969918d94d60a167b78a86047d933c568d445d21ce65e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/fabeedf46d007a5707fdcb66adc4bc6aa68ebf52c451e71359fcb8db7b3b4d1e.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "fabeedf46d007a5707fdcb66adc4bc6aa68ebf52c451e71359fcb8db7b3b4d1e",
+      "hash_derivado": "44462ae1629ebe335e1f280d6f43e8f271b0ed6168bc82bcf4dd4744369215b6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/fdd578fda2c70ccdce381fce24a0f54f30d6ce74562ccdbb21bd2e695026e853.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "fdd578fda2c70ccdce381fce24a0f54f30d6ce74562ccdbb21bd2e695026e853",
+      "hash_derivado": "aa8e0a447292e62e823a1f3f9b7c5ec359f2e010ac2f000d470118f70bbae051"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/abnormal_heartbeat/feae4f3e0ac9fe3f0eb57a9f4b62573690f569abb909734076f203f875274d29.png",
+      "classe_original": "abnormal_heartbeat",
+      "alvo": 1,
+      "hash_original": "feae4f3e0ac9fe3f0eb57a9f4b62573690f569abb909734076f203f875274d29",
+      "hash_derivado": "a90c31258ab57bc6aef815fdd3cda2c2568115e8c9a1c3d4b35da18bfe14e647"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/03ac4de6ab6ef41f2bd985eda2f73db9700a861b13bd3b5e50e48bfde8217245.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "03ac4de6ab6ef41f2bd985eda2f73db9700a861b13bd3b5e50e48bfde8217245",
+      "hash_derivado": "fd0c37b2f83079678f19abdc7b10ae7a109d838fcaecfdf0ec66ca94e360b4d6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/085b5619dca41699d90e5154723a57531189d2329cea47627a56cd68ccdbd873.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "085b5619dca41699d90e5154723a57531189d2329cea47627a56cd68ccdbd873",
+      "hash_derivado": "84eb696ba444d6cf9dd6bbe34d9e1445b7857d71611b90fc6df4aa6a9c8b0358"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/08be69610f41ad2d53a5591dc6019d6b0a2f0188c00369082af3b24fac19c777.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "08be69610f41ad2d53a5591dc6019d6b0a2f0188c00369082af3b24fac19c777",
+      "hash_derivado": "9fe3ce99b7bebfbb509bb65e16c2806d189e03e41ec509f9b01dde7ca61d3d8d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/0a79a800de68945660503410c505d77ba4b72589f4fcd940618763e1dfff079c.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "0a79a800de68945660503410c505d77ba4b72589f4fcd940618763e1dfff079c",
+      "hash_derivado": "dcc863dc2f9e3f7f1b512c69d9612cdd86c5a6e026934a977ae0da534cc315a2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/0d5ce2557de601f5dc4ff348d597b8f5cdd46130172644160dfc1f77278897de.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "0d5ce2557de601f5dc4ff348d597b8f5cdd46130172644160dfc1f77278897de",
+      "hash_derivado": "5a904687eff4d86684d1574853d2b399269d41f60d4bbe8f7ab4bc2a862a09e4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/0f5bbf7899d20adde608441cc7bac51fe28e503c9f5b0ef35558ae849e6d7333.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "0f5bbf7899d20adde608441cc7bac51fe28e503c9f5b0ef35558ae849e6d7333",
+      "hash_derivado": "715f0e6efad6a2a4b3ac284407b8657bf36470817d439e35bde95cb83c51c4ba"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/16a4602e0f1ef7692f21a50764c76dab28e21052010f0b8a709bd25c8dd80feb.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "16a4602e0f1ef7692f21a50764c76dab28e21052010f0b8a709bd25c8dd80feb",
+      "hash_derivado": "96632bd73c096d10645292f905e9ba2e359f3d583fa869d35a41dbe4b201f5ad"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/1d2c56a73146250bbb4538e9a23ea181ca7af9369f5ae6fe5d75c6703a1d7eaf.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "1d2c56a73146250bbb4538e9a23ea181ca7af9369f5ae6fe5d75c6703a1d7eaf",
+      "hash_derivado": "2b6dfbcff84d20656ee2f4d908f4206b576442612c54ed34be502efbc4ba448d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/1ff320d5389fb117453c815a8c602fb54da5a73a72d2e0a6a21b31491a7b607a.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "1ff320d5389fb117453c815a8c602fb54da5a73a72d2e0a6a21b31491a7b607a",
+      "hash_derivado": "34048d39dd848181b1f11021e621bf1b11d05a0f594b14c673e51c79dd63f306"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/205da06911a79e4e2a66c962c6f0515a48843a7c36e1460211fe3fe7ba165f51.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "205da06911a79e4e2a66c962c6f0515a48843a7c36e1460211fe3fe7ba165f51",
+      "hash_derivado": "318b14a1b4905a98618b8d86743f937d0b97f6ac303967420e255326d4d70ce6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/20a3f65e3b2e1e8b63985dc428175eefcee2dab040a25b9f4b06920ad8444834.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "20a3f65e3b2e1e8b63985dc428175eefcee2dab040a25b9f4b06920ad8444834",
+      "hash_derivado": "cb1180513fc738feeeb6ddd2ad9bd236cb39cd9f463c6917c29fee76bfc7c753"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/22512ecd17aa52f740f4d7aa32dee64cd797d0bed77216e97483ca52f404a021.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "22512ecd17aa52f740f4d7aa32dee64cd797d0bed77216e97483ca52f404a021",
+      "hash_derivado": "d3e0cbe4067a7924ec5c00f3c018ac540a2b2b796ddbdf039075973224679d5b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/265a5edbe2fb2a00385aa2e97a76599b1b3bc8cdda3ccc8c0360dfb859c8820d.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "265a5edbe2fb2a00385aa2e97a76599b1b3bc8cdda3ccc8c0360dfb859c8820d",
+      "hash_derivado": "68e5cbcc7621ad0e985c37939d64747f7e73065213992b9b5e1be41646eea410"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/27bf1cc9195c842909e59b5c18b53e7357bbeee89a845dee824d0398a7d11f4f.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "27bf1cc9195c842909e59b5c18b53e7357bbeee89a845dee824d0398a7d11f4f",
+      "hash_derivado": "216a4f736a2915c277f7d15988dfcce8c854bdd954b2ef71714e9341e4c2e80d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/2b10866e2991db436e65c7b068f5e7f416e6ee8e90d83e45ba7e723194fda3a3.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "2b10866e2991db436e65c7b068f5e7f416e6ee8e90d83e45ba7e723194fda3a3",
+      "hash_derivado": "927fdb6b65d02ece093be678de00efe53905498fc15ae99277c3c495e7ecbf7d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/2ba4812ac5710066bf629493dae76c14637a8ba0c2d81d79b73b78652985b505.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "2ba4812ac5710066bf629493dae76c14637a8ba0c2d81d79b73b78652985b505",
+      "hash_derivado": "de1376e1bb94b2145e2ba039362272b7d471d6a3ebacf7a1e32909a879c04979"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/2bb341fee1d212f2128f990467290744734e9f7c729cbe682fa37d02e28456e8.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "2bb341fee1d212f2128f990467290744734e9f7c729cbe682fa37d02e28456e8",
+      "hash_derivado": "40f9af696c80d8da3089fd54755c55576c05dd5dac5cdc39cc672c0bf37333c8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/2c5e6a6faba63c982259bde6c65b89339da39c6345cd2b59753f751c4f984eeb.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "2c5e6a6faba63c982259bde6c65b89339da39c6345cd2b59753f751c4f984eeb",
+      "hash_derivado": "5fecb598af18327dfe4903fd63bd1d87a84d98dc69874c54afc860d752eed9ed"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/30f2e485b9c210947744f7f22ab9c50f4a491ce11c87cb803b45c7d4f73dc86e.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "30f2e485b9c210947744f7f22ab9c50f4a491ce11c87cb803b45c7d4f73dc86e",
+      "hash_derivado": "d86a958b2e48dde68c5bb10c0e404a43f316d5b123e4f5e4e32009d728cf0fcc"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/3533fbff20ca7caf4abffdba1546c3bb43eabda881b0b53815597fdce34e7642.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "3533fbff20ca7caf4abffdba1546c3bb43eabda881b0b53815597fdce34e7642",
+      "hash_derivado": "49f6f47d1455e6db40d42681da735ec1179c20f4a1de80f6928a91810fbf8e3b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/372f1aaf60b9c14850f2735fc367a381f704d9103cca5fdd8a38cba025dafe9c.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "372f1aaf60b9c14850f2735fc367a381f704d9103cca5fdd8a38cba025dafe9c",
+      "hash_derivado": "b9117825484e10a5c6c756ad2096a79c1f5b3fd8ca45856f180b970b6a338fa2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/3b9ef56eae0aa194a219edda50ed7dbc5be6986355d224fcfcdf48040bedbf00.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "3b9ef56eae0aa194a219edda50ed7dbc5be6986355d224fcfcdf48040bedbf00",
+      "hash_derivado": "69da1c73789677e508628b629e8d1d5031caeb33e2d38c30d622b8a12f939129"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/3db8a873cdbccb518d08266223b05437a8d04ad29cdf99116d5376306443e0e2.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "3db8a873cdbccb518d08266223b05437a8d04ad29cdf99116d5376306443e0e2",
+      "hash_derivado": "0c065018559bd12a1f4f93b29ce0c183f22c08eaa6f3901048fb8d4b556da5de"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/3fbe9fbb3353cf2d36111cc23e49fca03df0492a57f66d1c1c7a9683ea172f34.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "3fbe9fbb3353cf2d36111cc23e49fca03df0492a57f66d1c1c7a9683ea172f34",
+      "hash_derivado": "2f76d1884a8947d84c6dc102e6724532d582b5e813c05df5004805e70b9f4667"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/412d708ea825b80af4e924076c64c0b23802c31fb9879167bc0188a8c91b4d51.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "412d708ea825b80af4e924076c64c0b23802c31fb9879167bc0188a8c91b4d51",
+      "hash_derivado": "0c66de9aec6ed7d433c75c0695b18016889fa7fae85fc60c62ac3a2ac51ba039"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/428aaa14348a47b17484eca534074f7d93a22a4d7c464e035132752a21238adb.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "428aaa14348a47b17484eca534074f7d93a22a4d7c464e035132752a21238adb",
+      "hash_derivado": "b03373adcea513eaf452a3a38e81bcefef83469264cb4bd257e22105d7822eda"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/472f3ef2f0d20a2df517671a60c70edb569cca24a36d059c211e13cd2058c12c.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "472f3ef2f0d20a2df517671a60c70edb569cca24a36d059c211e13cd2058c12c",
+      "hash_derivado": "60f0d596e29813269d18596cece63d6f1c9e84e16276955e883bb584d09bae74"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/4b6de837f76ea7837f8cdccbf81e79315d9e271d52c62d56223c4fb98f59f88e.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "4b6de837f76ea7837f8cdccbf81e79315d9e271d52c62d56223c4fb98f59f88e",
+      "hash_derivado": "ac3f472b1bcf8824d07002d0e1d1626cb512ad1e36e9a5f8de951b96a7c31b87"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/4f606c6e7960012006b2a76de1fddcb7cf70d845a6a5301931b51a0dda92c5f9.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "4f606c6e7960012006b2a76de1fddcb7cf70d845a6a5301931b51a0dda92c5f9",
+      "hash_derivado": "ee8f90963945d9363556a8a4c78f2cba524f0ec1a437aacbe7af6f52e2a7d93f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/52cd5f248372f4ceb15e3aa1f03469d2fb4fdc57cf6fc9c4e1bd3e85d0312914.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "52cd5f248372f4ceb15e3aa1f03469d2fb4fdc57cf6fc9c4e1bd3e85d0312914",
+      "hash_derivado": "d6baf3f2b8e95388f00dabfc57b81d96f863e9983a4d1d4128798460859efee3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/53c48e2448eaeefb7a6310fe325411f9e9f76dfc0d24630b3a87258c44c10162.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "53c48e2448eaeefb7a6310fe325411f9e9f76dfc0d24630b3a87258c44c10162",
+      "hash_derivado": "1f5a19450ba88bf7f087b474e071cbbd0ed437353bbe7d7d778d5cae3818ebe7"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/577e532ed3e69ee7f96fa68b4a1e834202583bdd5b2a123f35429d1937e3dd77.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "577e532ed3e69ee7f96fa68b4a1e834202583bdd5b2a123f35429d1937e3dd77",
+      "hash_derivado": "ecac7c1b434520baa8c940ae14928e82daf8b9d1c7a5275d6a3cc71ef764693d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/5b581f41b6ee91bf7c76560f10a7b07492f171540a9d4acdbf9fd4fe3793cfca.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "5b581f41b6ee91bf7c76560f10a7b07492f171540a9d4acdbf9fd4fe3793cfca",
+      "hash_derivado": "5ee6dca0841fc3a2b00ff5a26d1fdea1b661c0408395be0e4349dd48a75688a9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/5c40a5a0cbfc61ceac4129547f7de04029b883fcc50604bcf02b66fe92d112d5.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "5c40a5a0cbfc61ceac4129547f7de04029b883fcc50604bcf02b66fe92d112d5",
+      "hash_derivado": "dc1377db552b3aab76648873973625de3e84a68c83a3eb9958d71839cfe07179"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/62bd1d860b691fdc749c1addcdd5ca8c9fc13a41ca7102907f33a4f736378bff.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "62bd1d860b691fdc749c1addcdd5ca8c9fc13a41ca7102907f33a4f736378bff",
+      "hash_derivado": "b48258791858d3979cd69b777ac38840a9b4e01001c6121402c42076b68c02de"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/648ff2b5f7401a489e5f073478344bd47736777cb15a9393d875af7d63c39b73.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "648ff2b5f7401a489e5f073478344bd47736777cb15a9393d875af7d63c39b73",
+      "hash_derivado": "a267564578ec051dd545e0f37b051faaf9fbfcd87af5def63e21ed9b47207f13"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/66aad13cab77de968e9d9c7b616d3a24351f53627a6af05f31ac2d35c451db1e.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "66aad13cab77de968e9d9c7b616d3a24351f53627a6af05f31ac2d35c451db1e",
+      "hash_derivado": "855f3015ac34dd27e2c408a56cb1f221a6aa68c3b5b167a2374ed7f9a5ca4ebb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/67bca53fc520ab1a80705faac38eb03250cab88c9206b4ef21b909978346155e.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "67bca53fc520ab1a80705faac38eb03250cab88c9206b4ef21b909978346155e",
+      "hash_derivado": "fed7efd913d4c1fc0788bea8a4ff2909f6f18027f19b32b746b0aefd51702738"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/6998a012d1e10adcd5359da618bc88b8e832a0fe52f5a344e14a5633ab2c3e25.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "6998a012d1e10adcd5359da618bc88b8e832a0fe52f5a344e14a5633ab2c3e25",
+      "hash_derivado": "0445faffca74b392bf69cd6a0baf18b1aa91c9c7d324873e10ac4841ffa2508b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/71cfa61de4f0853a2d73a0071c5c8333ba80a84a33c7e05f980ec045084c1762.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "71cfa61de4f0853a2d73a0071c5c8333ba80a84a33c7e05f980ec045084c1762",
+      "hash_derivado": "2fc7ddeddcb66373c1d29b85cf168caac1d6a1167cdec8d56ae038f369e469b9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/73d2fad91ac689360c8b2585efaa0ef0df5dc2f9773db40a6c773f61881cf5b0.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "73d2fad91ac689360c8b2585efaa0ef0df5dc2f9773db40a6c773f61881cf5b0",
+      "hash_derivado": "c1177421d8a7317ded717bc62a8119c3e17255eb143d284aa6532d48b8dd0100"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/73de48603eb6fdbde03c4bbd2f55f4a87ca5fa7c0c95b11d7386e753f1ed1f2a.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "73de48603eb6fdbde03c4bbd2f55f4a87ca5fa7c0c95b11d7386e753f1ed1f2a",
+      "hash_derivado": "1c57f1c85dded13b3f5c9a39d6891996b009a7cb865fbb010e51bb7447e3e102"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/77b3d50e3cd8ea543e75475b29639daa09b34fce7bbce20853f008ae7a332771.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "77b3d50e3cd8ea543e75475b29639daa09b34fce7bbce20853f008ae7a332771",
+      "hash_derivado": "5417425a0751bb8fe05b102c08b0513cd90548a10f2f02ca183c97d50380c9b9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/795f1d0aaef323938a773d5d05accee9463af588c90e23eebd479b236073d0d0.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "795f1d0aaef323938a773d5d05accee9463af588c90e23eebd479b236073d0d0",
+      "hash_derivado": "06e1cee659acef9784e802025c544211d7cea2550dc858afd2163e498a38f9ea"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/796831366bca66fd505b3d0b66841936c6c6569db7d71e7f618caa557f494ebc.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "796831366bca66fd505b3d0b66841936c6c6569db7d71e7f618caa557f494ebc",
+      "hash_derivado": "9c37ef4af58d68aa1935c44a2d4a2af7dcfb10f84dfac4c29d3642d69d6f3f7d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/79c9cb1abca79830205f1c4a9b0c626ccdfdea3a8608e8d7879c1e1663a1136c.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "79c9cb1abca79830205f1c4a9b0c626ccdfdea3a8608e8d7879c1e1663a1136c",
+      "hash_derivado": "ad259b6297d32f9a37a95eaf18d3bde581ca829915aaaae311cf992d0f2e3cec"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/7c0b77c635d24a25e792f12a52c9d5ebdc773f5e1b399f069e9df5ba1179c78b.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "7c0b77c635d24a25e792f12a52c9d5ebdc773f5e1b399f069e9df5ba1179c78b",
+      "hash_derivado": "0f41090f475460bfb2b461afea204a3aebc6929dd62076860014b60393555e5b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/7e5d6ad87d2785f6ea2110ec0b3441201b26f3aff71a761e193b33419f55979d.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "7e5d6ad87d2785f6ea2110ec0b3441201b26f3aff71a761e193b33419f55979d",
+      "hash_derivado": "52baa95d7ae74d996c3b954907429171d95307e3ca428f427d77255f92c2ad82"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/84f691c1006215ea989c1cc6c777c7fb407c19cf8e6a7e68ad36fa45b87033b3.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "84f691c1006215ea989c1cc6c777c7fb407c19cf8e6a7e68ad36fa45b87033b3",
+      "hash_derivado": "e186e2b602d9f6aa16f4cff6e027342ad101a1dab8c702b505d893c1cd440592"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/8f93cc9b93c58fe953819afe6e1f3ce98db1968a33d99886b4334ef55f1e1daa.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "8f93cc9b93c58fe953819afe6e1f3ce98db1968a33d99886b4334ef55f1e1daa",
+      "hash_derivado": "cfbb290bd9b47df221677bdeb079fac9e60e49621e164b673dbd22df76a01dff"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/916ca68e13466d0577cee34f89c3f2ff4fc34681aa7da6c1814c164a27cfccd7.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "916ca68e13466d0577cee34f89c3f2ff4fc34681aa7da6c1814c164a27cfccd7",
+      "hash_derivado": "db6597962ad4c067dc9e11ddf40f1dec259d0ffe6d4e14d7cad3e52f6c6cb1f3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/92967e992d0c71b48d4dd20df8dfa94a762b64e7283c4b891b514f0b3f69d0f6.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "92967e992d0c71b48d4dd20df8dfa94a762b64e7283c4b891b514f0b3f69d0f6",
+      "hash_derivado": "5bf9c2119df5b457f1319fb6eab67a2c5b316e50ef3bd5217462259e2c74b98b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/9304bc1c9709e1d94b0b18848c0aff2eb1b64c342aca1911f01d54682d9fbe85.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "9304bc1c9709e1d94b0b18848c0aff2eb1b64c342aca1911f01d54682d9fbe85",
+      "hash_derivado": "1375164be5283e4d735250254fe658c7eb49dec83ff1c6e4ea1f451bd41e9758"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/93fafb9a173073dff41d8abb563032faec194da6393e64e5a485f8cfa130dd07.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "93fafb9a173073dff41d8abb563032faec194da6393e64e5a485f8cfa130dd07",
+      "hash_derivado": "9a3f4c9197e622f497f0c0c5524e61dd01561f10d99d31f1074b7a0e895eecb6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/94bbef171ae129c5939861850927cb97645d9f02d82e7194d6ce22daddaed3ea.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "94bbef171ae129c5939861850927cb97645d9f02d82e7194d6ce22daddaed3ea",
+      "hash_derivado": "7054ca4997e62920b6366104c33bd7ec34906f44ca53569ee679c19ff8c1025f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/963f4ffb1bcd373eaee49cfc239f1883ca7b39bd19ce327c6410079616238b27.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "963f4ffb1bcd373eaee49cfc239f1883ca7b39bd19ce327c6410079616238b27",
+      "hash_derivado": "26fbcca7b0a296f5170bb96e9099d584f40a83dd9adc17afbaa45c29f100aacb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/a0463a9937c26ad68d667be3b383e4292edd31c24e3c7d934c80025dd333f2c3.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "a0463a9937c26ad68d667be3b383e4292edd31c24e3c7d934c80025dd333f2c3",
+      "hash_derivado": "38ca54ecaa07b8a67ac45ef691209a6b988d7f0da401d2ce291a5cbf43f156b3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/a2f8d2852439b7acf611d87e871cc2808c63c944ffa8919fd00b69cdbda46ade.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "a2f8d2852439b7acf611d87e871cc2808c63c944ffa8919fd00b69cdbda46ade",
+      "hash_derivado": "33f1f9ccbd45485e913473333699269827427de9c1ffb4de690f5694e6861f16"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/a6d532d124e2f7e68dbe06f7069af642816602fa4f8c90c699573595863ef45a.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "a6d532d124e2f7e68dbe06f7069af642816602fa4f8c90c699573595863ef45a",
+      "hash_derivado": "ae2e816793cfdddf9eaf302893bbdf93b67e365df736c9648ab603e0467971a4"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/aa5673b47b6376b32219e283105cdbcf90a10bbb084827d128b9bbca6687161b.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "aa5673b47b6376b32219e283105cdbcf90a10bbb084827d128b9bbca6687161b",
+      "hash_derivado": "486d1a0e5e90a53e6961ce81570c32a53b75d1774ddf1fcb6fe5fb47ca9c29fe"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/aeb2e9735f59683e13ba1fb5808a969e88a7445997248a33525fcb4a1220cdb0.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "aeb2e9735f59683e13ba1fb5808a969e88a7445997248a33525fcb4a1220cdb0",
+      "hash_derivado": "1d298e0c2f92862233e30cbeb32a8ac0ca72fb3a356cfacdc53c9bf344a8f650"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/b090f51de4281c7aaf46a0a0b7bde31cb5133993b77fee8203e2e8cb7e4f1180.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "b090f51de4281c7aaf46a0a0b7bde31cb5133993b77fee8203e2e8cb7e4f1180",
+      "hash_derivado": "3cb68687b5efaf0b8ecae225f254455bff64903bb57d05caffbd14be7e11c266"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/b1af0d86551b3b01f3f1ec9a41a387be97d5bd60b5242819416d0b717f8f1281.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "b1af0d86551b3b01f3f1ec9a41a387be97d5bd60b5242819416d0b717f8f1281",
+      "hash_derivado": "23e477df445c74a8b58f0010598e2696db9dc270ccc0ef459b711d231b0f3c43"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/b7021caea140bf9f24a73dc9297640e8630250cf21ff9a3a7b655d9f146b05ba.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "b7021caea140bf9f24a73dc9297640e8630250cf21ff9a3a7b655d9f146b05ba",
+      "hash_derivado": "16385f9b2a323f8a6bb7d159af19bd153480a5326149550e4e924bc246730127"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/b9b8c5897cff3cf0c77135f08c90205704a0e0960787924c70bc33304107849e.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "b9b8c5897cff3cf0c77135f08c90205704a0e0960787924c70bc33304107849e",
+      "hash_derivado": "214efb9086f5613788d8446f5bc713958f63f0705c09ede595433f2dbe7165e2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/c34a2452fd67ba4a1a9bd8ffeebcd8765a83e4fe5336fe81b593a3d74584c66c.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "c34a2452fd67ba4a1a9bd8ffeebcd8765a83e4fe5336fe81b593a3d74584c66c",
+      "hash_derivado": "b73dde039b90b92b367003b66278366fc7add950a21c988e0d7fedd889b19227"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/c8c7e748738373f3087a32d416894e6f6a3afea5e0c606d9c76f5be988abc679.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "c8c7e748738373f3087a32d416894e6f6a3afea5e0c606d9c76f5be988abc679",
+      "hash_derivado": "5ac780c0b2544289866f711755e9b43cd5f8116f6813105f57c03d5eec84e01a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/c9202b5cb39e8a281373c65d2d20ce7c259a9c73b4caaa5fbccc60441a15e55d.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "c9202b5cb39e8a281373c65d2d20ce7c259a9c73b4caaa5fbccc60441a15e55d",
+      "hash_derivado": "786e633b8a4683a031abb168a7a4c151108b788ccf15793566e5eecec250e3e9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/c92edd818fdf5c546bef838d77763c40fbb1ff8e3cf89a3c90d279551a86cd2e.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "c92edd818fdf5c546bef838d77763c40fbb1ff8e3cf89a3c90d279551a86cd2e",
+      "hash_derivado": "eecca5774350d63c31695607585801ce133d5874a28ac326569717980814d29e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/d410571de15b0cb9ee91ab0ece7b1d59f72dc71574ec2e13f188d777973406c4.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "d410571de15b0cb9ee91ab0ece7b1d59f72dc71574ec2e13f188d777973406c4",
+      "hash_derivado": "abd1f50f08aca8c460d7612cabf11836bfd5ea678044b2a076caf774f034a2ee"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/d637ef13eb919c53958fc890578989e78d641030802315dbc413dbf4e9ce4ff6.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "d637ef13eb919c53958fc890578989e78d641030802315dbc413dbf4e9ce4ff6",
+      "hash_derivado": "8b31953043dce9e06e228dfef0e0d2befb471dee7f330f1a73bf0fc1c9c47e25"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/d7fe1270db7f136369842e43de2b4764d03d6b86d73c87b2247947164c7a3ef7.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "d7fe1270db7f136369842e43de2b4764d03d6b86d73c87b2247947164c7a3ef7",
+      "hash_derivado": "92411ffd91bcd19038c56502022824703c4520b539d35f6b8761fa913755b3eb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/dad16ae4d3ff6c3f34e1c7468eb8442c5d57cf061d016718b6ef9f7ff4436875.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "dad16ae4d3ff6c3f34e1c7468eb8442c5d57cf061d016718b6ef9f7ff4436875",
+      "hash_derivado": "bdacea019ae8d9070a7172760bdd5955c1a42217fcc6062fb9832aaf28f00066"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/e2bc0004d42586a359efc8596b37ffc4bb6ff7de047f8d737a02e2c0bb7e0194.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "e2bc0004d42586a359efc8596b37ffc4bb6ff7de047f8d737a02e2c0bb7e0194",
+      "hash_derivado": "c544242921766f3d0fed8afa316850ce10efdf5792c1cd38bd4bf257fe2ef65f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/e8f6b22d3bc74de7e70f5692d6aad624e2b318cb4a9c9fcfd4af65fa5ddaeb73.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "e8f6b22d3bc74de7e70f5692d6aad624e2b318cb4a9c9fcfd4af65fa5ddaeb73",
+      "hash_derivado": "980a26275722310edca1203c3afff819e602bad6bbe450895135e2611908c5d8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/eef4e45d097e5cc275141a0036aea0a7822dc14de8ac46cee91a93ebd121c1ad.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "eef4e45d097e5cc275141a0036aea0a7822dc14de8ac46cee91a93ebd121c1ad",
+      "hash_derivado": "85e411069354b9cb6fcbc3957bac6b7b63b6f0b01b0b81289846a9bf14b184ef"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/ef9767b7a09e97d36a014f562cc21dae0b7d5a2c08e8f3ca456cd384035df2f0.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "ef9767b7a09e97d36a014f562cc21dae0b7d5a2c08e8f3ca456cd384035df2f0",
+      "hash_derivado": "19b999b60f1ff2c603d7f68b2e572b204928daef25ffea8ea41780d8c8f42384"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/f03edfe9d0440c7ec232df6b93df3fceb3b4e2061d3bc04b47c865d4e2cb71a0.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "f03edfe9d0440c7ec232df6b93df3fceb3b4e2061d3bc04b47c865d4e2cb71a0",
+      "hash_derivado": "c764a7d0f982a5ed353157fce65a68dd5c5ae46edcbd145084ee272e95775507"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/f22bc6e43f2d14cd60b9378f41acec7aef990b7bee78c8a7b63748e45faeb402.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "f22bc6e43f2d14cd60b9378f41acec7aef990b7bee78c8a7b63748e45faeb402",
+      "hash_derivado": "9add734a196263729b9e440a6dfd46004c7ee19f9ef756645646aab8fd1c8b6e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/f29763646745ee1ae27b12c5a1be2536a42b798489dee4934a437ac79293dbe4.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "f29763646745ee1ae27b12c5a1be2536a42b798489dee4934a437ac79293dbe4",
+      "hash_derivado": "213eee9bb8d72834650b7b1f53114f44a4f4962fae5c4c684ef418514f0750e9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/f42a379a1c1e9cee3684f97d8b784cc33de5cfe8d4e3965dc3a0fc6490ed38fa.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "f42a379a1c1e9cee3684f97d8b784cc33de5cfe8d4e3965dc3a0fc6490ed38fa",
+      "hash_derivado": "0ff12708afbf7220a478a5f7643a7ee9b0b71ee21b6589df39d544fc3aed2b82"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/f47bed5bc50ff604c3347c2ddeb867eebd589b3e0e1dab667734af6968868405.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "f47bed5bc50ff604c3347c2ddeb867eebd589b3e0e1dab667734af6968868405",
+      "hash_derivado": "b7baa573286c7cc2b898004dc11912948be7d336f7c7eee7e4b2ef7d116f9c8a"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/f5e1388fd41589feb9a419a6cfc37adadda0a2ff472835fb7675ddee4c6314de.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "f5e1388fd41589feb9a419a6cfc37adadda0a2ff472835fb7675ddee4c6314de",
+      "hash_derivado": "c85624a599a0a1cd3c2f04d8a8cb6549909b07634a9d76525974aaf5e7e33d57"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/f642d2f86a7a0e933d5107aaeb6c6a57550b0baa6b1a29472729ee00716e6f57.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "f642d2f86a7a0e933d5107aaeb6c6a57550b0baa6b1a29472729ee00716e6f57",
+      "hash_derivado": "04f679679a6488fe76314f577cd33c47c03124afa7d4ac823619e53683738ff1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/fc6a66e09347fb90d265c84ff0857be87e1fbee05b27f1171e56b39fc4ce6a71.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "fc6a66e09347fb90d265c84ff0857be87e1fbee05b27f1171e56b39fc4ce6a71",
+      "hash_derivado": "9332ec76c95af240906a8830ee7a33389e1ea41e4557f1bda00c1e56cafb1785"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/history_mi/fe48418b9c4463837d1d5ad63d6be0d909e5ba4c3103d2e30adbb9913080b200.png",
+      "classe_original": "history_mi",
+      "alvo": 1,
+      "hash_original": "fe48418b9c4463837d1d5ad63d6be0d909e5ba4c3103d2e30adbb9913080b200",
+      "hash_derivado": "e51f8f13af68cae1100f6abb2302b15675980d0f8329ccf04216df3d47101356"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/00fbd1348ff52cb7e465bbcc0598f5833d7ae5c5ba88b5b3f4fb1dc384ff9e93.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "00fbd1348ff52cb7e465bbcc0598f5833d7ae5c5ba88b5b3f4fb1dc384ff9e93",
+      "hash_derivado": "408f26600a8ba06a6ace69b2c8f6965e17eae9a7cca9327acca25d3dc4991b44"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/035a1154eb35a76c71faaa4e4ce229a20b0048fbfbbfe0beb20a52171a9022ec.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "035a1154eb35a76c71faaa4e4ce229a20b0048fbfbbfe0beb20a52171a9022ec",
+      "hash_derivado": "62be5a7d0201c393e72b4b616303b5386fe59324284cecd7e7e4be59f92f8974"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/041613bb3833080a92df4b818817ceec72e7ac5018feceb5a50a7de3e91a5ed8.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "041613bb3833080a92df4b818817ceec72e7ac5018feceb5a50a7de3e91a5ed8",
+      "hash_derivado": "a24be04fa2639b0935dc9fb59d896cddc6b00693179d6a054e7a2c2f4496289d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/0577a2e73911efeac91bcaf29f24e7c6a41809870e14bee943bd1b10e4b9ff50.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "0577a2e73911efeac91bcaf29f24e7c6a41809870e14bee943bd1b10e4b9ff50",
+      "hash_derivado": "589ec05b5fe65061db131650c5e7657956bdfb7e0f05b0c3a97c3b1fddd463cc"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/061945a7cf9cae223d18889415a7d3246b23e49be352a8086936ce4060d4fbbc.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "061945a7cf9cae223d18889415a7d3246b23e49be352a8086936ce4060d4fbbc",
+      "hash_derivado": "152ad0fb5d2b62112e84e7f32a00227a504ea62d4c1183f2baaf4938c7027093"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/06ff0d8ef56016c0db48deab9bd1e7ae27ae64419cc94be51d16bc0899143adb.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "06ff0d8ef56016c0db48deab9bd1e7ae27ae64419cc94be51d16bc0899143adb",
+      "hash_derivado": "53c3a90ad79aa58afb295e95168de3faa4677c527ddafb11e853add868262632"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/073c0e742faadf0dc6440fab258fadf9a391693687c338e917c058cd264959a9.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "073c0e742faadf0dc6440fab258fadf9a391693687c338e917c058cd264959a9",
+      "hash_derivado": "32b9646edeef44187fbbec7b233dfb56ad32ea8165db5afc38051970bd6bb7e8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/089f750fd950367df52da00e2bcc06db7daee81f06c4fb3d41754d7892508beb.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "089f750fd950367df52da00e2bcc06db7daee81f06c4fb3d41754d7892508beb",
+      "hash_derivado": "c579d585f0354a439b19b908db713b726e8a49916cc5ca0eec5b875233152305"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/0c44ae1195970ba74c008b23b5ff7e096c2e108b1cea7528ef2e1ad611586a0d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "0c44ae1195970ba74c008b23b5ff7e096c2e108b1cea7528ef2e1ad611586a0d",
+      "hash_derivado": "be02c612a8607eb58b779a1f188a97c7da73e91677cb8db14979c5b42507bff9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/102644f44104b76adce7bb242cf3f41e251e522ebd01d35eda786aec90180b3d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "102644f44104b76adce7bb242cf3f41e251e522ebd01d35eda786aec90180b3d",
+      "hash_derivado": "e24c55da7be95b2d4f7eae450ca79348aeaf2ecb830031c9b4a58f0401968a10"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/111252d21cd6d31fcaa53af44e5a94cbda65ada62fe64a78004a5c3b6df5e182.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "111252d21cd6d31fcaa53af44e5a94cbda65ada62fe64a78004a5c3b6df5e182",
+      "hash_derivado": "ebec254d1c8294f23b2fe91c020ab25f329e4b7bd7a6ed9c8aff64056266930c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/1350ba64b2305d93e7a55d99f0f821299003b66f425e515b6a8a0af1979c327b.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "1350ba64b2305d93e7a55d99f0f821299003b66f425e515b6a8a0af1979c327b",
+      "hash_derivado": "c4f5eb369bd65caedf881b675ec7ab8c6b637862494136388cbebc2cef52734c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/13fdac36bebb8b9d0b163b179894f205a013c07bd8dc36f1cb2344078666b3c2.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "13fdac36bebb8b9d0b163b179894f205a013c07bd8dc36f1cb2344078666b3c2",
+      "hash_derivado": "20e86c0dd00d36d263f96c096d3dbb4cb08a7f257018f247e9d7454ee52dc983"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/14166e52d445e546fbec264d572ddbe36e30af16f64fd286b505c7f6f28ca52e.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "14166e52d445e546fbec264d572ddbe36e30af16f64fd286b505c7f6f28ca52e",
+      "hash_derivado": "232e8a286327e9a6b8090d000e1a2c33c8bef9e2f632b8d073800540c87e64a1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/15015c4ba818bcc24674c4b70b85ee50987e3068659b454a328711c0e8c6fda6.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "15015c4ba818bcc24674c4b70b85ee50987e3068659b454a328711c0e8c6fda6",
+      "hash_derivado": "609ee0ac6709b7a18ddade7d8032475da6ec590b96dc3fd333efd6af84725cd9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/169b94bf61d78fbaf4d3cc1470ab29d09ad74c40a3869a002e68a1408105a514.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "169b94bf61d78fbaf4d3cc1470ab29d09ad74c40a3869a002e68a1408105a514",
+      "hash_derivado": "90c2e93c38a82a74ddbf727e780e0b3e92cd57dc2398ae8fb8812cfbf7e52eb9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/1780742f83cd080424f7ef8410571f44d93dbb5cb6e534f4975b6e945e59695d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "1780742f83cd080424f7ef8410571f44d93dbb5cb6e534f4975b6e945e59695d",
+      "hash_derivado": "ac2f6f2277e41caeb3e1944a55de736ef41ece1589e34c5c56368739bd28fc67"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/18f7dd598fb055cc0937b160d9bf3e4757817192d5fb2ad28f65fd5aff5b76e9.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "18f7dd598fb055cc0937b160d9bf3e4757817192d5fb2ad28f65fd5aff5b76e9",
+      "hash_derivado": "a7603254c2e79a5f998336dbfcfdb6e691e99080f86ddc5ba742ac56f2bf87af"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/19345f7680eac300d45e7d7305383ddd50aa7c6a6329a39e2a1b29876d41c136.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "19345f7680eac300d45e7d7305383ddd50aa7c6a6329a39e2a1b29876d41c136",
+      "hash_derivado": "24b1b4adf59016fd3bf8b043fbf9dc1a83217053269acece301bd8fe69b6e131"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/1ccd6b3cbfa85de535d8475b0354d20933b66fa7834b978696100521b47b980d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "1ccd6b3cbfa85de535d8475b0354d20933b66fa7834b978696100521b47b980d",
+      "hash_derivado": "3f933ab79c18fe2ca0700dd2261038a9630393aa5ae1ed0fac7f1acb774f7dab"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/1cd09ff0a157ea4972d9aed6b5dabb70246633a3d9aab0d6862c75682c931064.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "1cd09ff0a157ea4972d9aed6b5dabb70246633a3d9aab0d6862c75682c931064",
+      "hash_derivado": "6e2d948e685fd14da16797e27f111b64e24c7a80618440cca0f0203cec095774"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/1dd81ef9c3d6e98dbae5d33aa4782fdbd3ec58a0a43214e77e6feba94dc94ad1.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "1dd81ef9c3d6e98dbae5d33aa4782fdbd3ec58a0a43214e77e6feba94dc94ad1",
+      "hash_derivado": "e6f027aca1bdd491491d5c99232130d6f7396122babbfd4a86c531932045c30b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/25ca5d1be9f43b89dcca4161a7eccd92b3909bd593b0bf39c42fed7e6ef910f4.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "25ca5d1be9f43b89dcca4161a7eccd92b3909bd593b0bf39c42fed7e6ef910f4",
+      "hash_derivado": "6c3283566664c176b1dcc63b64e00c8427aa8750f051ed8b08d662fdeeee3132"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/2a211ed1ed38818dbf72b5c25fabb72c6985d1fb4783a09024b5a4a4d3284c9f.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "2a211ed1ed38818dbf72b5c25fabb72c6985d1fb4783a09024b5a4a4d3284c9f",
+      "hash_derivado": "17dd54c6f106c4b8e02a4654fc77971fc2516db45aaac79f5a2033daa087dc3c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/2fc1b8c05cd9c2959d856dd2a94ef0e1a74061d74605f82e35784db6f5fd73d6.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "2fc1b8c05cd9c2959d856dd2a94ef0e1a74061d74605f82e35784db6f5fd73d6",
+      "hash_derivado": "73111426bd115e6e5ae9c451d0ed9eabc85035ecb4d631a5948c61834bb5c716"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/326288f133ee6f1a65e8a9c3d348c14de34b1db3415a7a4cfdcbde0958d93523.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "326288f133ee6f1a65e8a9c3d348c14de34b1db3415a7a4cfdcbde0958d93523",
+      "hash_derivado": "b597437144d870a95f2bede1ac8358df68ba40938b7c61a62aabb78a127db00e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/33c8e5de8836c3b6d7db86dd4c8fae3dec0350044c471f68054c0490b139d17b.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "33c8e5de8836c3b6d7db86dd4c8fae3dec0350044c471f68054c0490b139d17b",
+      "hash_derivado": "bd18e9f078a106ef770a17698efb2e077277cc38a969ecb99bdc251bba579488"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/352386e19647e4d834783db1bfb4528e4339bfa5a162713adb98654aa67414fd.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "352386e19647e4d834783db1bfb4528e4339bfa5a162713adb98654aa67414fd",
+      "hash_derivado": "79219a803941e234f9e4f89ce07eb0e580571f407e632885af98ea3b11f97172"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/370a7e32ad8a028cc5ddece284e9abd9c62d15b18559f07553e9672a8274a002.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "370a7e32ad8a028cc5ddece284e9abd9c62d15b18559f07553e9672a8274a002",
+      "hash_derivado": "3e83068634a057bc82fe7264a5039f1cbcaeb81c6a6151842c7ebd8939c4bba1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/37679d2bb9a1f974137d38cdb338ef7789792d412f940057f7b8e26aba998b10.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "37679d2bb9a1f974137d38cdb338ef7789792d412f940057f7b8e26aba998b10",
+      "hash_derivado": "e0d5debcadf5542f8494cf71c1656012556b281b014d4ebb341ecb476f7eacd2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/38d5d22413906db00102500adbc0b2abb24f603da6021da09fcc43d7f31ea4f4.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "38d5d22413906db00102500adbc0b2abb24f603da6021da09fcc43d7f31ea4f4",
+      "hash_derivado": "19033364d909455c2986bf334d0fe0f3525ba255c9351ae698e38b32d590c83c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/3a75bd692a0a9ed213b76db89899f799a54808a752642bdd61677dcb21069c25.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "3a75bd692a0a9ed213b76db89899f799a54808a752642bdd61677dcb21069c25",
+      "hash_derivado": "e6f2ddef9c4289b10037e23e22879dc0ce63dbd4a7f8f91e9fadf2d1cd41431c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/3c20c99048ae68589bc589adfa694397dbcd773885c9e69981c952383a184a57.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "3c20c99048ae68589bc589adfa694397dbcd773885c9e69981c952383a184a57",
+      "hash_derivado": "c4f7f1dc54b52d3791e23721b4b040a3ca888c0c2a8d58ed522dd3a58107a0bf"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/400ccd0e10fcb96fa28f5d932ccdbe18879b060d2fbfd4eb7f5394c54744b915.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "400ccd0e10fcb96fa28f5d932ccdbe18879b060d2fbfd4eb7f5394c54744b915",
+      "hash_derivado": "e8463c0f7e1593be981a9507541c7d5e889623317cc3c66f626df0c3e8070b22"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/4202a3555f842229200d1679ab11fdce0c64ae96da858755d10371b8469fae0a.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "4202a3555f842229200d1679ab11fdce0c64ae96da858755d10371b8469fae0a",
+      "hash_derivado": "96cda8963956c9d48a7a0a7db4807b73be1c7077c14bcbd20bf965038af1536b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/44269790d33172a73b10dcc59b2ec4800a17177518163920cbe315a507739f67.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "44269790d33172a73b10dcc59b2ec4800a17177518163920cbe315a507739f67",
+      "hash_derivado": "faa1aad1b868e14ff28f26152a5e4f143a9dc049c647cbeebf13bb9312f4bd66"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/482d5643acf733b3cec0b5de80a82e6cecc3faeca0962b15bc60fa2a2b46f724.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "482d5643acf733b3cec0b5de80a82e6cecc3faeca0962b15bc60fa2a2b46f724",
+      "hash_derivado": "72f8963187e3ee03984c0c5e91883ee5c2d93c923de09f62b2123357b96653ee"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/48a6d19b98738ed603eec20abdc1be6bea089b27f6e45ac0ef17103d0a1cd04a.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "48a6d19b98738ed603eec20abdc1be6bea089b27f6e45ac0ef17103d0a1cd04a",
+      "hash_derivado": "2a017a0008db2e87b816454c262658c29f99e6a76ade57f0c8fccbec1b3a4da8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/4b1a3a46d666a0172dff9b66d29b7a15a34119cceb4ea9ea2716e3b9fa22c8f2.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "4b1a3a46d666a0172dff9b66d29b7a15a34119cceb4ea9ea2716e3b9fa22c8f2",
+      "hash_derivado": "47489c1ec3a03bf919ecb621e408d4c48420337a11c51a39bce4f9b386fd464e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/53f4b4921aaa92ed941c3d8abb0e45ae96e763e69e915a5800328e908e1bdf92.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "53f4b4921aaa92ed941c3d8abb0e45ae96e763e69e915a5800328e908e1bdf92",
+      "hash_derivado": "78952389d2afbeb461555c85f698e94a8f4c83fa66018d1f139e31ba05c0cd3c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/5492fcaabc87472766df380c9a25536ccf22310d280f0f3ae9e3166ae3f5a8f7.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "5492fcaabc87472766df380c9a25536ccf22310d280f0f3ae9e3166ae3f5a8f7",
+      "hash_derivado": "2f19a2540ec8d9d12ee95eb363203eb45a4e1394fce575eadae26b9f2b95972c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/579f39e9e34a225850aacf02dc1d48f07eb57bc8406977b1b126cf1db67bf9a4.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "579f39e9e34a225850aacf02dc1d48f07eb57bc8406977b1b126cf1db67bf9a4",
+      "hash_derivado": "ceab43ae07839772c26063aca2494170a885069fcd4b5f578c32333e46d334f9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/5818e139c12bc23aebcde8a43d2a4d9815d57db09ef3cf90424e74473c2d6cc0.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "5818e139c12bc23aebcde8a43d2a4d9815d57db09ef3cf90424e74473c2d6cc0",
+      "hash_derivado": "a99e983abe566a7586e97591f2de0123ce0744c3b28854763f8901bcbf54e306"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/5860313f7426ccb5c1ff7634c2ad583114a2a144db91be874238e78037eab105.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "5860313f7426ccb5c1ff7634c2ad583114a2a144db91be874238e78037eab105",
+      "hash_derivado": "6893db963cff93e5ddb248f9753ee9650b9517738ff2c0ae5db054f47a64bbce"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/58daa13d18b28578b3c05e70cd3333b0558635cd9d41fb973e233ade8029ffad.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "58daa13d18b28578b3c05e70cd3333b0558635cd9d41fb973e233ade8029ffad",
+      "hash_derivado": "4bf799e6fff85bade61646ebc18e300174b5dd681b7775fcd11b5605281e3394"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/5d2c2f719f84d884e0bba02eaef1ac09f96d2713fdf76f160904b4be5c74e351.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "5d2c2f719f84d884e0bba02eaef1ac09f96d2713fdf76f160904b4be5c74e351",
+      "hash_derivado": "794488f494a601810605f6857f1ceccd2b01b1dfd3342b70dad72dde005833c9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/5e3f763730a891cafb4f413622d1ed813663885552ba7effe189e95d46afb3fa.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "5e3f763730a891cafb4f413622d1ed813663885552ba7effe189e95d46afb3fa",
+      "hash_derivado": "11287da3018824f4528e93361bce8eb9e1672401ed3eb53fbac3578c18813ced"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/5e79dcff8ab1def3ec2a8c30915ac896964b431276a74173598d74b71dabe85f.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "5e79dcff8ab1def3ec2a8c30915ac896964b431276a74173598d74b71dabe85f",
+      "hash_derivado": "4fddab217d16d374852cf23f6ee19325e0aa297e7b61e45351f18f4201c3096c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/5f503ffc71c39959ddbb202da0db08f45f158e0061951af0c3b8e0801a411247.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "5f503ffc71c39959ddbb202da0db08f45f158e0061951af0c3b8e0801a411247",
+      "hash_derivado": "10502721471f23c088b79457bc2e84a733f44b1969ad663b42414258c4b42526"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/60ffd42ed2942426e7c05978ba5db7a72af986e861cff5872e4e5b6c6c09a161.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "60ffd42ed2942426e7c05978ba5db7a72af986e861cff5872e4e5b6c6c09a161",
+      "hash_derivado": "6baf14d09d1de615d0bc3cd8e968c4d34205b8b77c54fcfa007de13377227421"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/64c3556d564e3d89e39a9bca29fa0034d4a0c993418ab73dceaa29fbf0213040.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "64c3556d564e3d89e39a9bca29fa0034d4a0c993418ab73dceaa29fbf0213040",
+      "hash_derivado": "8debb79dd367a3714eef36497db5d609b8173c7007a02e6618f9a1b68d792a43"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/66b9b4ff16e6560a740f7084eb8c163ba3c42c27a0e9d890f3f0b4d83b1ed21a.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "66b9b4ff16e6560a740f7084eb8c163ba3c42c27a0e9d890f3f0b4d83b1ed21a",
+      "hash_derivado": "0c507a03c12929143486dde4093831b5448b860fee7f90860db7f27c3d54db27"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/66e387c6a16e07201086f2cf462ebb2df1e10188574bb8bb5040e38e7635c09e.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "66e387c6a16e07201086f2cf462ebb2df1e10188574bb8bb5040e38e7635c09e",
+      "hash_derivado": "80b6641bd752e3adc046fa9141354b86f50141ca20c9820dc8a0d3acae93ae92"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/67acd69ff3f540adbcbe143489c23090952af222dfb6786a2723542dbdf544c2.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "67acd69ff3f540adbcbe143489c23090952af222dfb6786a2723542dbdf544c2",
+      "hash_derivado": "af4d8155f2821fc82228731e4ef2bf2ebb74c2aa3dc545c8c33005fdd5abd7d0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/68000247962306d1859307488a52029b8c62e0a9bedff771084b0da91c3990f2.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "68000247962306d1859307488a52029b8c62e0a9bedff771084b0da91c3990f2",
+      "hash_derivado": "5b7c3fe25cbd9764cc3277882f6d51a9fa85a516402dcd661ba5a9326d508e3f"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/6936023485d4dcfef3660eb8772ce351e13d6f94bf571111942971b8ee96ad59.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "6936023485d4dcfef3660eb8772ce351e13d6f94bf571111942971b8ee96ad59",
+      "hash_derivado": "513a7973788404c52cdc6005f6bbfd61f579926a75813768c62036b7b5076190"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/697559cbf8441ca8508160e3695042e013bc09222a80c484863f08b3e2820abb.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "697559cbf8441ca8508160e3695042e013bc09222a80c484863f08b3e2820abb",
+      "hash_derivado": "41eb5d1a68acdd78f82fe24bc8cd2aabad193bd59b66b05517609e74dd464fb8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/6b60e748e2e9e660c3a8be190b8aa2bcb7b34ed4852773c712c8815e1aa73397.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "6b60e748e2e9e660c3a8be190b8aa2bcb7b34ed4852773c712c8815e1aa73397",
+      "hash_derivado": "89de46b6132e46acafec1c6548a513750d62cdfb64aab26be2fee7d45d08c635"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/6d65a71c5de2146320ea5a2f0b693ec862b3bff805a291d3e4c9f1af12347f8b.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "6d65a71c5de2146320ea5a2f0b693ec862b3bff805a291d3e4c9f1af12347f8b",
+      "hash_derivado": "d8bdc0d0ad5c23d31d872f02a052f576a7edbc551ad829d28e8d42ea8f726c3d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/6d77c18913773ad34bd151294b208aff1134458cfdbfd53169cabe847365192f.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "6d77c18913773ad34bd151294b208aff1134458cfdbfd53169cabe847365192f",
+      "hash_derivado": "53c38a964c039230ee30b3953f4de17b97f18a471383c0b5cc005cc9bce21992"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/6d9aac09a5ec8d11e83b3faa09ab6d0235573c7ab63f654ca8a51c54e432dbf6.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "6d9aac09a5ec8d11e83b3faa09ab6d0235573c7ab63f654ca8a51c54e432dbf6",
+      "hash_derivado": "6444152dbbee479f5375c4fd60ad982ce1654b9129da454d73888d8d29ec65e9"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/6deeb3a8e27c2662c2f8055dbfef30eb2347b6ca160ea12291a015c2b8b7d664.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "6deeb3a8e27c2662c2f8055dbfef30eb2347b6ca160ea12291a015c2b8b7d664",
+      "hash_derivado": "0da82faadeb4a5701596a5acc86a38d1e05b7406940b0033507481aae3be21a8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/71e4140e6280192499e20430da4fd8b2dfe22384baa4509b3a3eb0b9004c4e39.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "71e4140e6280192499e20430da4fd8b2dfe22384baa4509b3a3eb0b9004c4e39",
+      "hash_derivado": "67916d3ce87057b014523fcd99ab7cdd6b60700615c98df0ab0c6f20b299b61b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/729871e4625a1f7de81ef82a93969f3a988421427b317887ea54ea75a2864792.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "729871e4625a1f7de81ef82a93969f3a988421427b317887ea54ea75a2864792",
+      "hash_derivado": "5500e5aa05b3da5877ea62b67bfd8b02905882269886a088a474202d326c6f14"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/77ef188d888359c4bcf23f6bc8e767d36dd3b73edce5e9ca7a569d6dd9a26855.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "77ef188d888359c4bcf23f6bc8e767d36dd3b73edce5e9ca7a569d6dd9a26855",
+      "hash_derivado": "72b421c667a9ccc3861c315feec208a2c6886548662ce6a1610b80c9d5cc6143"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/79e72bf01a71c81dc0d21e77e752eccf753271834ad54bdb8c60f5115db2cd3a.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "79e72bf01a71c81dc0d21e77e752eccf753271834ad54bdb8c60f5115db2cd3a",
+      "hash_derivado": "20a9cc18faa2eacb363d78bf7954bdfa26289d6ec6ccb5d3cbc84a905cf193c7"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/7a968c115ecf7abfa244e446fe48eaffc0edab10864e5afe39c359fa7d1d8f2f.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "7a968c115ecf7abfa244e446fe48eaffc0edab10864e5afe39c359fa7d1d8f2f",
+      "hash_derivado": "fa2a24e388cbcfcccb31803b706c165a20e6a99eae60de074a1b976f9990f5cc"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/7bdb52d752a1ca760e2d0534cb26b6a7c42cc6820e5cc21af8078236b89dc583.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "7bdb52d752a1ca760e2d0534cb26b6a7c42cc6820e5cc21af8078236b89dc583",
+      "hash_derivado": "8629283749fb0972a356dfc94f783a4c3d26a61c0dd52160bd6d33d8c432f80e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/7d03ad4002ab0dbde41621a464fe27e7ad0f498e462ac8ffb8be472987ced399.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "7d03ad4002ab0dbde41621a464fe27e7ad0f498e462ac8ffb8be472987ced399",
+      "hash_derivado": "501963341bab803f33629bb238d535f90744a0ca18c68543cb253e9483524eb0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/7e66d43fc46c82b374700b4825afb6ee57314a970f74fb797a87e8d5f7cf52a6.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "7e66d43fc46c82b374700b4825afb6ee57314a970f74fb797a87e8d5f7cf52a6",
+      "hash_derivado": "69d3d8af09ac39bec29084a3d87a340d3b5f0f84a6aa8e3573a5ba667deb2251"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/801349e4a68b850a0d4beb1ba1d11388e3eb40b33a5938cd6872756a510e7c9f.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "801349e4a68b850a0d4beb1ba1d11388e3eb40b33a5938cd6872756a510e7c9f",
+      "hash_derivado": "678b62e1482bb3fb7103c1ece7afafe1abb97be9fea291464e64f7a1aec9e932"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/80fafaab8f08e75752287d2d5ee52654f31eea1e340a5515bdf5857fb77df28d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "80fafaab8f08e75752287d2d5ee52654f31eea1e340a5515bdf5857fb77df28d",
+      "hash_derivado": "cee1b9d777c521cdb8ea67886a2eac638a238da15ac70f79dea908146dfdbdec"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/81da7d7f8110e4bd8992e2a23999894e0d52b0ebd4d020c927103d500543706e.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "81da7d7f8110e4bd8992e2a23999894e0d52b0ebd4d020c927103d500543706e",
+      "hash_derivado": "272b7844113d91d89c1dec5ff6d7603f8f7073422e633816bac114276f87bc86"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/83cb1ebeaea2afb15313a7c1d889a253159ef535f9d94459ee26a1ad9d293b60.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "83cb1ebeaea2afb15313a7c1d889a253159ef535f9d94459ee26a1ad9d293b60",
+      "hash_derivado": "d975240756296586ad4dbab3f6c338f7339058c72d16bc382f3b61a4b49e95de"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/8af29f530765f0304acd0894df336041d84b62bbf2f93c980943ed9443733c75.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "8af29f530765f0304acd0894df336041d84b62bbf2f93c980943ed9443733c75",
+      "hash_derivado": "6ff248d2ad9c7736c77af5dc3a1df4226cf263961be58efa82e45fb88f538ff0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/8b1b4ce9ddf96191967f6a1b5a919b811ffd7afa5713461e54e8435a77d0e3f3.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "8b1b4ce9ddf96191967f6a1b5a919b811ffd7afa5713461e54e8435a77d0e3f3",
+      "hash_derivado": "30c250f73e839c2675b5950524efebdabe2e18c88ddc4f625e516c52dbbfac91"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/8b3bef66ab43f587acb3d70bb089cba75379a8bdc44beb470b65c87d14be6269.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "8b3bef66ab43f587acb3d70bb089cba75379a8bdc44beb470b65c87d14be6269",
+      "hash_derivado": "49ba91f658b067b662a9b8f12bd1be2389fe19adc5a8cd1df21d8ac0ea719bf7"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/8e5903e29331885b26944bf8c5139a8e673f907dbe9fc492ec1bacb27d968ee0.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "8e5903e29331885b26944bf8c5139a8e673f907dbe9fc492ec1bacb27d968ee0",
+      "hash_derivado": "41d97e3f1cf9d04f5258a2b6798cf6e9fe55f86996be44f774542bc0cf6bafad"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/9673249a4c0d35036672e45125ec012eae19c0be414cc546f5ac564ae3dab2d9.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "9673249a4c0d35036672e45125ec012eae19c0be414cc546f5ac564ae3dab2d9",
+      "hash_derivado": "45f6a86c10c850bba5b78d4c4af1467add1e6ab86884a1ffefbd9c0b25717328"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/974a6e1dbba5feabe40a1fcdee85837c7d13f6c075bc5d07493cb1d77b7cb8f4.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "974a6e1dbba5feabe40a1fcdee85837c7d13f6c075bc5d07493cb1d77b7cb8f4",
+      "hash_derivado": "4f48bfb83dbc5f7230e70fa248de7da9225aeb8b5a30bd2e0f32b96838bf8fe1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/987121ed40aae1a4099e742a93feba2bee300a04128460872e1c890bb42b32a0.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "987121ed40aae1a4099e742a93feba2bee300a04128460872e1c890bb42b32a0",
+      "hash_derivado": "c5234eec826fb352504393e856aeefe00fa476715681b1b978f3c16252bf670e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/98d6195e6bd60cdefe81a64132eb561e63dd93a58ee3f7ffc5d37ef9a5321a95.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "98d6195e6bd60cdefe81a64132eb561e63dd93a58ee3f7ffc5d37ef9a5321a95",
+      "hash_derivado": "8c5bc5aa105466df7a1e09498f2a526c5158f6c91aeb010c596176bd56e5b2ba"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/9a750df24f8d4d4d737fd504349ff2062a6031bef792ae47ec832bdb949550a7.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "9a750df24f8d4d4d737fd504349ff2062a6031bef792ae47ec832bdb949550a7",
+      "hash_derivado": "ff5c1fb67eff5c1ecaa19f41a5a59abf0733dde44feb70ab2dbddec9583cb035"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/9a8d4075f1a24d8234091bd034cd48ac74848f87dbcba2d66700d68d3924bc41.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "9a8d4075f1a24d8234091bd034cd48ac74848f87dbcba2d66700d68d3924bc41",
+      "hash_derivado": "29a284da49e1be82172dc43307f3337a768dd1d72f6605a7cbaa5f479983ebe5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/9ab119c7f798d0ec20acf042b6f42b437c21b85bba87c248d368fd711a04a479.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "9ab119c7f798d0ec20acf042b6f42b437c21b85bba87c248d368fd711a04a479",
+      "hash_derivado": "f352d3a42c47a030bd6af61fca6f257759017f08505fbae687ba404452057b15"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/9ce64c777e992a2f0e0c0478836177ef052a2fc93a762e09c7c247747d013e01.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "9ce64c777e992a2f0e0c0478836177ef052a2fc93a762e09c7c247747d013e01",
+      "hash_derivado": "96179f9c45c3946206f8f2bce1e457690de766af02ed0611f638d9b9ed336f1e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/9dd95e3e8d922ff7a9e750b37fe54e27b06e68a6820c44d1178eb40fb3d754ac.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "9dd95e3e8d922ff7a9e750b37fe54e27b06e68a6820c44d1178eb40fb3d754ac",
+      "hash_derivado": "ab0a9bdf66e1f6076fc018e961321391dac84be775394a7005d3772ee2d40cd6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a0507efc059b0dc4606a86eae4d9aa3eecbf07c5669920d1857bfef999a24241.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a0507efc059b0dc4606a86eae4d9aa3eecbf07c5669920d1857bfef999a24241",
+      "hash_derivado": "6891cc591cba5c5c5f0949b4e51a20e1077ab9ae522e1b7f4180dce0e67c6d7b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a21f61e3d37e8afb5c5c666a9f03f475914453dc8292dc9d630cb2a595fedde7.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a21f61e3d37e8afb5c5c666a9f03f475914453dc8292dc9d630cb2a595fedde7",
+      "hash_derivado": "2671443f9a4d820eca196d7c085833131db8d9b777d9c6b85181f8576026847e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a2ed3c432f3e8da6539c605fafa5b0714d90a2b564deca3cdff34ed7561af780.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a2ed3c432f3e8da6539c605fafa5b0714d90a2b564deca3cdff34ed7561af780",
+      "hash_derivado": "202f46719396402ec30770b6f6610666e49aa70fd14966a3b87f680715d46279"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a37416012fc9520e6c93c0e697475dbe7ea36d0888c1ed307c4a421519756b1f.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a37416012fc9520e6c93c0e697475dbe7ea36d0888c1ed307c4a421519756b1f",
+      "hash_derivado": "aa5f9daefa48501a4bb4ca8c42c371bbc3d1e5eb23055788adc867cc11c0bcb3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a64c30719a030c78eba6aeecf7206e52a528bba292bbcc725a91b68412a44919.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a64c30719a030c78eba6aeecf7206e52a528bba292bbcc725a91b68412a44919",
+      "hash_derivado": "772320c0a6665443e6808696ae05ff42d4bce226618f5469d8f1febdff1bc8a5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a65251cdaf718a6e882cbb12be26b236d3fd2ff625ce4d6ff8ecd6e6d9d410ac.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a65251cdaf718a6e882cbb12be26b236d3fd2ff625ce4d6ff8ecd6e6d9d410ac",
+      "hash_derivado": "cfa95323cac500d6628088fe7a07757388261ef44f78c453447af76b98c175b5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a6ac46f7b5c7615e0f99f20492b1fe86deee208a664472a37f36cf492b381d6f.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a6ac46f7b5c7615e0f99f20492b1fe86deee208a664472a37f36cf492b381d6f",
+      "hash_derivado": "8ed50a32bba0e1f8ac0643273e7fcafd1cbec80abf4ec3c747bb8e048438c590"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a6b53f5f3625605e892d878577454b16dab38de9e1e7c6b4c6aac2c0f43129a9.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a6b53f5f3625605e892d878577454b16dab38de9e1e7c6b4c6aac2c0f43129a9",
+      "hash_derivado": "c846ef836e2780b9cb2248a8ecbfd47e6f275c4f7018b4b059e2baed0f437087"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a6e1c75478987645bd981d4021222dee5f7de3c4d0394c9aeed65eca9118d8ba.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a6e1c75478987645bd981d4021222dee5f7de3c4d0394c9aeed65eca9118d8ba",
+      "hash_derivado": "44ef0f719bd369d41eb5fac4a77289c0d2515aaf79da743ec5ec905dc219ca53"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a80b237e93d57252b552bd0829d9c1a9ec3838f09424eac7d3154b82fdb1bc38.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a80b237e93d57252b552bd0829d9c1a9ec3838f09424eac7d3154b82fdb1bc38",
+      "hash_derivado": "6941a07dddc0935bd6110c5577ff1367cc66ca6ff802fca202d42b406a0171b5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/a9c19a583377e55153eb019e61bce35a43ac0dc9f5f686b7825e15ca1a170f06.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "a9c19a583377e55153eb019e61bce35a43ac0dc9f5f686b7825e15ca1a170f06",
+      "hash_derivado": "b9429b93c0683d3fb38eb6dc10652582b2de77d666b62136cf87ed8504dedba8"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/aaa7537dfb52c0e78765552875a08895081dbe9dba5d53d2788fcab60a5ade7a.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "aaa7537dfb52c0e78765552875a08895081dbe9dba5d53d2788fcab60a5ade7a",
+      "hash_derivado": "4757eb3fa8bd2bfc62cc38ea521a8dad69cbf0aad10b20ad7e598ba36478fcb1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/aaf5a98b92b44eccdbf2a957373793be8683b70740215ce8b0e084a8d7059249.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "aaf5a98b92b44eccdbf2a957373793be8683b70740215ce8b0e084a8d7059249",
+      "hash_derivado": "44b086595085aa6b8ff02bcb532a67d06e4b4622ec4edf47fcf6f8b100695f2b"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/ab3be2788dc56c15fb80755869c688fef0ab017e0b838c556879c626db74beaf.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "ab3be2788dc56c15fb80755869c688fef0ab017e0b838c556879c626db74beaf",
+      "hash_derivado": "c25b458053d9f25a83b689efbee2218fb64377a4060905dbfaecbec207c5b6e3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/abc1b908fa5cc8d15d7fe47d2bf377da8bda56cf3feb1d364ffb13f426a1d304.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "abc1b908fa5cc8d15d7fe47d2bf377da8bda56cf3feb1d364ffb13f426a1d304",
+      "hash_derivado": "c8df9facaeed7752ff1e7100d3021ba6b27ea6364128bba77a1e26d7266aead2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/af99b9ddf554052c422344c8a55a1ec3fa345b062219810ae6a895a4eefec493.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "af99b9ddf554052c422344c8a55a1ec3fa345b062219810ae6a895a4eefec493",
+      "hash_derivado": "483dfab40fed7cbbaaf1607c1072e913f5ddcdd1a15937f727e965e6d2fc6888"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/afdd5c2d52f7618910cbad7368750951dcc083f0d5a845b3da3ce9e88810fc9d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "afdd5c2d52f7618910cbad7368750951dcc083f0d5a845b3da3ce9e88810fc9d",
+      "hash_derivado": "129a3a8fdd35149686792866925c4f1901d9e22aa7c9af4d15da8fa54b7a8f98"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/b2790b05c4c4ae6b198eb83f2424dda55ca5714cec931ebbad7f932126d3cf7b.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "b2790b05c4c4ae6b198eb83f2424dda55ca5714cec931ebbad7f932126d3cf7b",
+      "hash_derivado": "fca86dba424da406dfba868212f65d76add734d816bc837d26af0537d3485b6d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/b44ad5196f8a87dfca174745a43f512607493d146e865f808508340ec2ede11d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "b44ad5196f8a87dfca174745a43f512607493d146e865f808508340ec2ede11d",
+      "hash_derivado": "6c1237ba16d66ce0eb4238e30cb4a30c373378a75de2c4bc9ae7742ddce1a8cc"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/b7d9d33bf5d5c14ae160937dd8f75a192f897dbd53974c7d68c8e3bb96853b79.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "b7d9d33bf5d5c14ae160937dd8f75a192f897dbd53974c7d68c8e3bb96853b79",
+      "hash_derivado": "d4401cb8f1246225c4e822c2a75e4644adbd9aabd2c3ff1ea17f921cd11782a5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/b8c875d1dcde7a3d96e38950af4c98f85c95099f04faaddcae7c6521909b4be1.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "b8c875d1dcde7a3d96e38950af4c98f85c95099f04faaddcae7c6521909b4be1",
+      "hash_derivado": "9d4a9ef166fd3f1b1b86ab712616ef337300e3a825a454412064fdae8e2561d0"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/b8e5029fc9605ec7823798f7cfac8b92cd393724b46daf925327dacddb82a437.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "b8e5029fc9605ec7823798f7cfac8b92cd393724b46daf925327dacddb82a437",
+      "hash_derivado": "90e4e2789383f400dce9e839f16f0ffd571ba5649a87acb3622ff3a76549bdc6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/b9ec4621fbb106c866499800d56b5af4f4dfe6f9eb7c811ce2ce0de621803fd6.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "b9ec4621fbb106c866499800d56b5af4f4dfe6f9eb7c811ce2ce0de621803fd6",
+      "hash_derivado": "b10bbecb9b69d0266581ce3d919619150a4bc1445f04a3711c2c61fcf214f554"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/ba4e9474d526622a4f5f1d52f05ed1281052b7960bae6d370d93f73ebe9a3b4d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "ba4e9474d526622a4f5f1d52f05ed1281052b7960bae6d370d93f73ebe9a3b4d",
+      "hash_derivado": "d0c97a02f9c51ba4436dbcb736e9a725a6e98ac0d27d7deef8f40b9faecb6489"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/be660d6025d08f4f8688cded93c8b23e44bca309b18ff222db6c00fbca721010.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "be660d6025d08f4f8688cded93c8b23e44bca309b18ff222db6c00fbca721010",
+      "hash_derivado": "beb10ad397bab93b467c1390f39b7eff9936c28a4127eff7818caba22e7898c6"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/c2f91187b7322d508db750e4a268872b39ccfe747a6a28049d6917ebf4f337b3.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "c2f91187b7322d508db750e4a268872b39ccfe747a6a28049d6917ebf4f337b3",
+      "hash_derivado": "888318314617ccc35f2de0304909b4de0d284767b488c57a10a75cbbb147c261"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/c524b342df3f6340ffe5c7c29e45384c313db5ace0182e36b6aa0756e5f1458b.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "c524b342df3f6340ffe5c7c29e45384c313db5ace0182e36b6aa0756e5f1458b",
+      "hash_derivado": "6d37ec23db97a9029f81bcc9562b81f724a54feb3bf05841d73b555f1034a3ea"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/cf5b533acf28f09f45d59f8103d793d1c3b9740a1726d61acdd24a16143ecf3e.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "cf5b533acf28f09f45d59f8103d793d1c3b9740a1726d61acdd24a16143ecf3e",
+      "hash_derivado": "c7241f6b206d0352e2383ec0dba56a07f87b303cf1a53b0a315b41892412c6e1"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/d10b8c83f01fab5aaee30f8d66487c81d75f5e44f9e91cee3edf2d7addca8757.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "d10b8c83f01fab5aaee30f8d66487c81d75f5e44f9e91cee3edf2d7addca8757",
+      "hash_derivado": "94af22a84ba1337d97764c47b96915c04436ea87b4a411759a42884bdc120554"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/d39cf2421248d480e48bd8638cb96b5f3d8a14bb14448af318b818824c50c90b.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "d39cf2421248d480e48bd8638cb96b5f3d8a14bb14448af318b818824c50c90b",
+      "hash_derivado": "e32a53a374adf957c203769d33ae04cafca91a9dca75305cea1def104a1de867"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/d3f7fae60152d0356774b3edaa42f3a605c6997a4aa956e4f9a83538f24b9cbc.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "d3f7fae60152d0356774b3edaa42f3a605c6997a4aa956e4f9a83538f24b9cbc",
+      "hash_derivado": "96e274492814886e9c552bef36029ef76c14122befaece7dc60ca8df0ba183f5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/d6b53d008718db14b024d9ea13141a7293ed9150b721ae177b37a1dc962f8f7c.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "d6b53d008718db14b024d9ea13141a7293ed9150b721ae177b37a1dc962f8f7c",
+      "hash_derivado": "64b4ae421923584b1964bef186d3e57fe393f93ba304f4adf6088ded47b965d7"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/d7cf6cecaa17bdc7136cb524c1e7d7a3596e8b1816fbc375d1bc8a4a0dfb5d59.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "d7cf6cecaa17bdc7136cb524c1e7d7a3596e8b1816fbc375d1bc8a4a0dfb5d59",
+      "hash_derivado": "2f5451ff6363414c5982f81efd2ce0bb10280402221b23ed7ac8a1183b7a3d8e"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/da873bdb42beb6d216c06734b9b99987fcd845dd34c6a1994334c8f8c65e943e.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "da873bdb42beb6d216c06734b9b99987fcd845dd34c6a1994334c8f8c65e943e",
+      "hash_derivado": "6dcf283a9930340a596e042e926d8e23abd31113614b39e5d95ff151d5956a30"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/dbf0eb2ca9b3482a8c4e0b5d49f46c18a7a5888c5b63d84f1546c8d9305354bf.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "dbf0eb2ca9b3482a8c4e0b5d49f46c18a7a5888c5b63d84f1546c8d9305354bf",
+      "hash_derivado": "3ca099e992f7217c1af97428ca6af1b62060209caa483162f79a6ee411d62bbb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/dd5e3b19949b31efca428f2d1843dd8869f2956f33cd720524b3a5af26f4ccf5.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "dd5e3b19949b31efca428f2d1843dd8869f2956f33cd720524b3a5af26f4ccf5",
+      "hash_derivado": "aeef582c61ecee8eed953b336210039daa9f9953ba5380a6c8c311b6150c378d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/e5e1f65b5e5833e91cf9e68610dcadff857fff0a9bbfa10ced638af4919c813b.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "e5e1f65b5e5833e91cf9e68610dcadff857fff0a9bbfa10ced638af4919c813b",
+      "hash_derivado": "9fa31222d1b8ad9d00b2e49b0e508541d348254a3a65d5e4f5065e4d99e8c6a2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/e677d4a1af246fb1513923e8b93efe98fedc8d6e84176d6b0e3110f31a124c29.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "e677d4a1af246fb1513923e8b93efe98fedc8d6e84176d6b0e3110f31a124c29",
+      "hash_derivado": "14bf0b48aa4bcae8d1b44a0d66317dff63fb38e4e769ec52f5092f37e7eabd65"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/e74cbabf8a93ac9383bb5fc75f354666fdbe4646c2a5f697b3b81d18394611b1.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "e74cbabf8a93ac9383bb5fc75f354666fdbe4646c2a5f697b3b81d18394611b1",
+      "hash_derivado": "4de74389c993aede5f12c6514234a823f37e8d303be993a5d9a85308f36e4991"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/e7ae122677322c89b9ef34877bb359a609c8e346f1abafffb206f1fb3c885ff5.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "e7ae122677322c89b9ef34877bb359a609c8e346f1abafffb206f1fb3c885ff5",
+      "hash_derivado": "dc2faa9a6611564839fbd98de208f3b7791b6fd6217f2f454a5cdd1d26b243bf"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/e7c83f5846ee3821cdc5599cb2d5f96cfd7c5b9eab8c4f69f0ba26ba42934973.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "e7c83f5846ee3821cdc5599cb2d5f96cfd7c5b9eab8c4f69f0ba26ba42934973",
+      "hash_derivado": "db36daf862e2a0741c85d886dc98796ad16414091f9cbd58410f610ec64628b5"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/e8774faa850fde868a6203a127e320c27d2df6ed8e64f91a871fad9bfdc5fb3a.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "e8774faa850fde868a6203a127e320c27d2df6ed8e64f91a871fad9bfdc5fb3a",
+      "hash_derivado": "ef692eadaabd0ad913a9539873bd948fb7cdef5fa826841fe6dbf71b797f5aba"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/e956c0d69fe44e4270b9e81e9957a374a769df4653dee73d792a0723baa83915.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "e956c0d69fe44e4270b9e81e9957a374a769df4653dee73d792a0723baa83915",
+      "hash_derivado": "7eb9c4792c3f341d4a7252495665c01ee921010403a931fe8fee6fc8694cdbc3"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/eaf795b5bb09d751f62b5a5e08fc627bbbde6184e397d84eb42f65cc054caa62.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "eaf795b5bb09d751f62b5a5e08fc627bbbde6184e397d84eb42f65cc054caa62",
+      "hash_derivado": "a71751d51c51f114a07e04ae537333410c75875f22bb830788d8c6301872dcee"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/f020068365e18245f7ebbaa7baf7692a1dd4895bc37d22d354acc544ace016ca.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "f020068365e18245f7ebbaa7baf7692a1dd4895bc37d22d354acc544ace016ca",
+      "hash_derivado": "433b52bcca354cd9dc39fc96d07818fa2e0fb922a556c47bee6ebf4b76f751e2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/f1b0b97f4e5ca89813c37dce58ea03f3ce276d191b99f7f35180aecaee70ff82.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "f1b0b97f4e5ca89813c37dce58ea03f3ce276d191b99f7f35180aecaee70ff82",
+      "hash_derivado": "0a7cf35dc81c77c5b5f27e4f93d33bf14ed32a7d425b3af1ca2d2a56d1952c84"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/f1e08f559ab16bb7fa28246115e33453a75b1428fdd65bda40c1155b7bf5296e.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "f1e08f559ab16bb7fa28246115e33453a75b1428fdd65bda40c1155b7bf5296e",
+      "hash_derivado": "d8c7092ea83763f350c92af48436dc60a3aebf3c0a59fbdf98ea8816595f3f7d"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/f4be96716749765229c7d5f00b83d019780aeb1d73c2ba3aa8f015b1e20e7f7c.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "f4be96716749765229c7d5f00b83d019780aeb1d73c2ba3aa8f015b1e20e7f7c",
+      "hash_derivado": "181bbc107862af24abe04216d6dd5b5c67340cf560c34eeb8184fb03b9cfa8e2"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/f51e392fd73f056f658e4c9ef6d96fe90e88448a4041bd66f3b57fc8e00e8f3f.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "f51e392fd73f056f658e4c9ef6d96fe90e88448a4041bd66f3b57fc8e00e8f3f",
+      "hash_derivado": "324658ae4139a22638592ffb5533d6f2ff0321555369be4fd6b0ea9745761a85"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/f783eb9c1b129899a05c39546cd063361a1f817f26a46c190427a528d2d937dd.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "f783eb9c1b129899a05c39546cd063361a1f817f26a46c190427a528d2d937dd",
+      "hash_derivado": "92cc3b60b36cb44390e260c3bf4cab7bafefc9e893141420de8ca4ce0b34088c"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/fa1b423d26c39361d3e45a83557171a4dff604b415ad02637594eecb65f7978b.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "fa1b423d26c39361d3e45a83557171a4dff604b415ad02637594eecb65f7978b",
+      "hash_derivado": "3b969d69ea63ae523100fb81e8839bc8a0614d1c618ca67193a7dfb7f2ee8c01"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/fc1e7b43a4c44b446f0178d8c0be50e135b356d2aab4fdd515905f03b68bc740.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "fc1e7b43a4c44b446f0178d8c0be50e135b356d2aab4fdd515905f03b68bc740",
+      "hash_derivado": "49c2a3b3e19291f091ac121fd036b7e37befed3ff9a277a3bdac76ee97904aae"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/fc36652449f70b57074b3e9ff8f14b31a432c48e594af6a13450184d7eba3553.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "fc36652449f70b57074b3e9ff8f14b31a432c48e594af6a13450184d7eba3553",
+      "hash_derivado": "2db4b8567dbd67244b21bdf300d4f080148f0cd44bb5aece1f7944bf9a0136fb"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/fc8b07293b82e149e6bcc981140f5bc29aae291be0a83e6d0cd70d9c3b3eea5a.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "fc8b07293b82e149e6bcc981140f5bc29aae291be0a83e6d0cd70d9c3b3eea5a",
+      "hash_derivado": "dc9b06490601932cf1d2c6cb903b5bb5a99e86c362d5c89627c8a29373ebd675"
+    },
+    {
+      "arquivo": "fase2/dados/visual_ampliado/normal/fe1171d49d86810787263191af695316dcbf26709b6b9d453296082dcf6f940d.png",
+      "classe_original": "normal",
+      "alvo": 0,
+      "hash_original": "fe1171d49d86810787263191af695316dcbf26709b6b9d453296082dcf6f940d",
+      "hash_derivado": "35d8b8cca65cf74a67f7c709280f253b40a5b5d7f2838b64c246e5028cdca3f0"
+    }
+  ],
+  "aviso": "Hashes n\u00e3o provam indiv\u00edduos distintos. Recortes exigem revis\u00e3o visual antes de publica\u00e7\u00e3o."
+}

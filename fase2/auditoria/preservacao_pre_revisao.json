@@ -1,0 +1,1344 @@
+{
+  "baseline_commit": "ee6b22dc40fa307c528b17b57856890fa264c20c",
+  "description": "Estado anterior à revisão autorizada em 15/09/2026. Arquivos fora de fase2/ e portal-cardioia/ devem permanecer idênticos, exceto os workflows próprios da Fase 2 e a remoção autorizada da referência ao roteiro no README raiz; nenhum arquivo da Fase 1 pode ser removido.",
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": ".github/problem-report.md",
+      "sha": "953c2ec2dd0c3fb6757a34eeb73ea3fc3100476f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": ".github/workflows/fase2-baseline.yml",
+      "sha": "d40aee2ba8636ed36142635e5f89ea91437d4eef",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": ".github/workflows/fase2-visual.yml",
+      "sha": "658e8cb912a558118590a1af048efe73e862bef4",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": ".gitignore",
+      "sha": "1ebf06248d76ddaaa52e374d5ea5c9c4f6d903eb",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "README.md",
+      "sha": "5300ba1910c8d1d7de36669a5c5348c76d35576d",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "assets/dados/processed/heart_disease_cleveland.csv",
+      "sha": "89e014319a7065595b6d049322632cba18f91a8e",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/Index",
+      "sha": "0ffe7e7a70cd8a00ed5fb6fc772d2994793e3a5f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/WARNING",
+      "sha": "3fabc2cf2cccf7d1e3536e237b9e7948e632352f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/ask-detrano",
+      "sha": "70ff758ac4fde2b4db46e00597d9853dcb295d7b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/bak",
+      "sha": "96264ab895c595fb4c5927cd6bd551a03d23a89a",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/cleve.mod",
+      "sha": "3ff03cef7a2646af2ca3c7ac2de057dbb03e24b2",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/cleveland.data",
+      "sha": "0ddbbfc9d140dc7d16815cc8bfc43523b1ebf8bc",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/costs/Index",
+      "sha": "3bcb5384c929db6c708e49044d125cf60d38d030",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/costs/heart-disease.README",
+      "sha": "70cf54d7f0ae20cd8f615f5cd87911af07f2cf99",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/costs/heart-disease.cost",
+      "sha": "0619edfc75667d7d106d9f0955adbf2dba5fbda6",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/costs/heart-disease.delay",
+      "sha": "60d231baa8eb982c486785c87859a0a2123d32a5",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/costs/heart-disease.expense",
+      "sha": "a2978d401e80dbdf51c7c9a635c374a0276a7546",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/costs/heart-disease.group",
+      "sha": "2e66466c9c032c28534c6111d1097f6fcc9af910",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/heart-disease.names",
+      "sha": "f26722c5f8066c5e83f205d28c0d2d33b2b2a3b7",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/hungarian.data",
+      "sha": "c7e18d785e17c7e33fa4d756e494a8ab700e5edd",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/long-beach-va.data",
+      "sha": "cf848bd4d531eaabde2cf2558d768c359c1db1cb",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/new.data",
+      "sha": "c8e14ad47b67665b403259edd05e989e72caef2b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/processed.cleveland.data",
+      "sha": "97e936c65918c6cda5c1c62661c548ed69afc7b8",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/processed.hungarian.data",
+      "sha": "23b36897a9e72ce2f2fd35edc455630828ca15c8",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/processed.switzerland.data",
+      "sha": "bc6bedb50ad1ac27a6602f45ec54a11c7831941e",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/processed.va.data",
+      "sha": "553c3a1e6a09716e2d701cc67b6ac40d65defb45",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/reprocessed.hungarian.data",
+      "sha": "7c4d0504564125dcb5059ad2d3d2f212503299fc",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/dados/raw/heart+disease/switzerland.data",
+      "sha": "db9cc7e73b9d6ff2cb06339db256b2026a81ef83",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_001.jpg",
+      "sha": "ec903e7f57c1fab12be1079d57b56329bc8223f4",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_002.jpg",
+      "sha": "b67845cd9eeba3a1ea2e92007e29d1a82a9f0380",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_003.jpg",
+      "sha": "ed5ed416984d8f9990368cfa38cdf93a8db2616b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_004.jpg",
+      "sha": "73432f8f25fbace61ad982863ae44c00071c5f81",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_005.jpg",
+      "sha": "0ba28c91a1dd0d688c0e804a5216de097beddd19",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_006.jpg",
+      "sha": "9a5e2b6d9db0f3ca868463108105d5e22cf29b17",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_007.jpg",
+      "sha": "9d91bf8b628fc23fe0f8f6d86d262d3b9521a240",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_008.jpg",
+      "sha": "fdb9d3dac00f15f55a0199b010410e2476de2538",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_009.jpg",
+      "sha": "caf649536bcb92d1567fd016891057e078c91b34",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_010.jpg",
+      "sha": "8551b2f1621d92a3797deebcfa69b46f10ee2f83",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_011.jpg",
+      "sha": "b4a65fcd3ef55e23cb16c33faad44d5edabc14e2",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_012.jpg",
+      "sha": "199461870417d09a481afaf3bb8bd1df22b421a3",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_013.jpg",
+      "sha": "1e1353d1a650216f98697b8b0f3a5098116057ba",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_014.jpg",
+      "sha": "fd3342a7943acc079a9fc5b04e49aaabe3890d15",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_015.jpg",
+      "sha": "bf8f8e804e5ab3217b4c4f803fa3f657307ea839",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_016.jpg",
+      "sha": "3ba27ceb5c9df28c718f435b767cc8d0af16bfd9",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_017.jpg",
+      "sha": "d27372b9476b484400a30c0c203a0f5d5a5d79f0",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_018.jpg",
+      "sha": "d081eb9188c5ab5a1a670cd3b2759f4f367e3973",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_019.jpg",
+      "sha": "514b8efa9dc717c33f2ca7aff01706b56d5b4ac4",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_020.jpg",
+      "sha": "9d3a2c41d616ff5252f921576590c79d210b1b64",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_021.jpg",
+      "sha": "aa5dd209fc7fb350f695fd042879e2be598fa1b4",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_022.jpg",
+      "sha": "918a7e261cd7a360e24c2b4bbef638cbc4d7ed6c",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_023.jpg",
+      "sha": "2becab1df69fe4ccdc73144d200a32f6303e1c0a",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_024.jpg",
+      "sha": "b0c040c8ba484b6706eb3844b2de8243dd44a4b5",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_025.jpg",
+      "sha": "cc22595d7c29e7f5eeee09a247930b9cf45647fa",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_026.jpg",
+      "sha": "29397e56dddf15dfd0ce47565b90595a2eb90582",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_027.jpg",
+      "sha": "c56add08cafeb0d5fd58cc205a418afb05efbe89",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_028.jpg",
+      "sha": "befe00fdc98723b944b649db5aadda32a9b0b9a3",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_029.jpg",
+      "sha": "0e65eee8a06b030a642dab986fa5debaa5c8b851",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/abnormal_heartbeat/ahb_030.jpg",
+      "sha": "4abec87f0f3c42a97486694e010b772fb91fa818",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_001.jpg",
+      "sha": "f4c0f26510b5e984480f4b9e79e92934768cb661",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_002.jpg",
+      "sha": "eb7dcd53d7cb59b0aa055f6c59ceb3d81e507650",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_003.jpg",
+      "sha": "b98ad70bda02ea8a9e53ac6d813fa61f6f490382",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_004.jpg",
+      "sha": "fd2327dd5f0e65c289c205e4baa38a6f51d9a88b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_005.jpg",
+      "sha": "8513dcc75f7d91ffab812caf5dcf3819b649bbc0",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_006.jpg",
+      "sha": "81c44c68ad3a676d925ff7c3690a4f2e3de7cd82",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_007.jpg",
+      "sha": "325189654c6b0723dc0a6b75f327c9dc16f35eff",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_008.jpg",
+      "sha": "08240913a7bb14c01c143ade64cae900bf932d9b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_009.jpg",
+      "sha": "d3b9b48e5a327214c349f2cfe83dd7e6026ec696",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_010.jpg",
+      "sha": "089c6dbcf45e4b5fc91c1065c8104e28ba2aba9c",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_011.jpg",
+      "sha": "b574961ff39cc036d93e4608056da5cfae0f5451",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_012.jpg",
+      "sha": "58302d66d50c49da223fafe4517a3035812ca8d9",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_013.jpg",
+      "sha": "cb26648249aab89b0895000aba8ddb6a3d31624d",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_014.jpg",
+      "sha": "b88375adeceb5bda7295f3df98030350b65efc74",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_015.jpg",
+      "sha": "b9715e7d90d1bc9757c35112e42b9c02aabce55e",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_016.jpg",
+      "sha": "b6f4959798ec072cf6e2722f1203e295bc45288e",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_017.jpg",
+      "sha": "d4239e2203617b0add51659c78142cba8e37ea48",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_018.jpg",
+      "sha": "8572281b3eb0216bbef64c8be29c95987a7c426f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_019.jpg",
+      "sha": "8784cb0db4594f5f95ff10b1d52cfd322fc5e28f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_020.jpg",
+      "sha": "7aaf3ad3d63ebcc3e4107aa7f67dc4b8173adf30",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_021.jpg",
+      "sha": "33e0e4c10e1c9bc8939725425811f0a2132fbe0f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_022.jpg",
+      "sha": "3833b6394d7c87ad1a972ac41e52c03655bde7a5",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_023.jpg",
+      "sha": "e303c81872b5d111390e191a37154b2eef16908b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_024.jpg",
+      "sha": "07e2f488ce0694fcd2e5bb96f0287404c79e6ff8",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_025.jpg",
+      "sha": "606b9e3312c5779a09138c555d896b8ed1446510",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_026.jpg",
+      "sha": "44db899d16d9df665b3afdafdcd0ff701738dba8",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_027.jpg",
+      "sha": "5cc50aa4176ca64ea96d95f698e6daa4a8b998d2",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_028.jpg",
+      "sha": "ec04955eca409eb1058d3ed19a20532fb25b855c",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_029.jpg",
+      "sha": "541ed7a66d90246ce7ac944f658371bdd6db0808",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/history_mi/hmi_030.jpg",
+      "sha": "d737782278be21d320456531c0a5b37a87ed831a",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_001.jpg",
+      "sha": "b500fe32cef5da854e42bfa006b8af376c161f49",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_002.jpg",
+      "sha": "22be4a6d34443eb433f3b89535be8272db19408b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_003.jpg",
+      "sha": "ab3a97eef764a91dbc0866d51219c3191cf01302",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_004.jpg",
+      "sha": "5a177306bcae4b5910af9d5d096ab57daf6f7f31",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_005.jpg",
+      "sha": "f261bfd56566b08837e6d6df41011cce9f8fb887",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_006.jpg",
+      "sha": "85adda46d065f01abaa0e5de30b8305a9c0c83fb",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_007.jpg",
+      "sha": "b50399fd51e5d527b3915cbbcced5b940ab6fab6",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_008.jpg",
+      "sha": "be70177866ced8f4af404731c0f1ea9d9293123e",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_009.jpg",
+      "sha": "6ff2dc444009d737bad6c1c7f9521b6459d0fd73",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_010.jpg",
+      "sha": "0eceaec5a0e6b4b5a5bb0342c686b9f0e22f55c7",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_011.jpg",
+      "sha": "ec29f115a34d65d8e0707f8132f53e37d4e77f63",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_012.jpg",
+      "sha": "f9b7777aa8050e86019badc73312db9ded34babe",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_013.jpg",
+      "sha": "4d93b59317f7d50d3c0b5e8a81088d73cd696430",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_014.jpg",
+      "sha": "775a6f2627d806260c71bd82c6fb44eb2557ffbb",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_015.jpg",
+      "sha": "2772eb145dcc8d93a930c89d21e50752da02b94f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_016.jpg",
+      "sha": "d6f561ecf24c827417ef37313ee10f51204338f0",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_017.jpg",
+      "sha": "921e3e1bd8510a109e3de862dfca6650a01ed034",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_018.jpg",
+      "sha": "1292774b227c1da3101f09182bdf4691455d6f84",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_019.jpg",
+      "sha": "cf68e8f477182d0e94c9c729139d28b70d421290",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_020.jpg",
+      "sha": "3f9184dec0327134e8838087dd6d935463e93ea1",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_021.jpg",
+      "sha": "46b88e9ac62331c002713bf80dd70ce584327d51",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_022.jpg",
+      "sha": "cfeb74ababaf1b751ac0e8be03c30fc020c68257",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_023.jpg",
+      "sha": "4ac080808ae3d76d39fbab02ac951dbf0f3a3fa8",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_024.jpg",
+      "sha": "479f9e839e89379bf353917f3e354d60b1038618",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_025.jpg",
+      "sha": "ab46f2855d5d7f1b7de31eea21ad1af5e5805734",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_026.jpg",
+      "sha": "4dc97b806f752105f5643c864cc8ce0a2f59ad41",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_027.jpg",
+      "sha": "afe31aea537ad841d32dc90c4128d23ae10b6b49",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_028.jpg",
+      "sha": "491c5914806ee26ebafc77ce0a6a16736b3467db",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_029.jpg",
+      "sha": "6def131013b91ff53807b921b6dee0681798bf02",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/myocardial_infarction/mi_030.jpg",
+      "sha": "af6b642f5e3f65a6bbb88a401d1249390e5dd8ed",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_001.jpg",
+      "sha": "135021dbf5331a8ea3c8889e8ae142bd48106b13",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_002.jpg",
+      "sha": "dc391b5e7dc62a481fe6af9c920a5fbe529e53da",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_003.jpg",
+      "sha": "e3f6590d740920d2b9f20c56a156ab173d1906cc",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_004.jpg",
+      "sha": "9a69332c003233527e6627ecf879a75961927389",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_005.jpg",
+      "sha": "31799b23353c553882fe354d66dc338df2750a7e",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_006.jpg",
+      "sha": "cc7a3189637fee9bd0925d8d7931f17b7f9cb508",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_007.jpg",
+      "sha": "ca22b2b671c4a56102fd6a433b568bd48fcea0e4",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_008.jpg",
+      "sha": "cd2c541737e79ef6c5c4df7c7aa98319ed0c955d",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_009.jpg",
+      "sha": "1cca21c18fbf206015cfd1a4b4749a11b01b3ec7",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_010.jpg",
+      "sha": "ee2fd1045c01bbf7007e6d1e8c2dbfa7ed0bcbab",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_011.jpg",
+      "sha": "ee7d20f0571be34fec3733a40a0b492ef58f00b6",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_012.jpg",
+      "sha": "ed9468b66c374acd38d3f2f69b547b3c20063a3c",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_013.jpg",
+      "sha": "4f9a583a7462595b8f1451da93907a35b961cc9e",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_014.jpg",
+      "sha": "e90e70b5063054f6c4b731e466434806bd8674d2",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_015.jpg",
+      "sha": "e83e59c2d68db13fed4addb4cf3855e2f8a01dce",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_016.jpg",
+      "sha": "5e65c30d7a29ebdf0dfb6ff637b1675e32e061f9",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_017.jpg",
+      "sha": "16edf83e93fc676138f18e07eeed7a7fa794b9d4",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_018.jpg",
+      "sha": "8c48be43ba655d9bf19edaf13dc6cb26cf26bf48",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_019.jpg",
+      "sha": "e50abf2b7671b6642ab2cb5c31d82647fa9f80be",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_020.jpg",
+      "sha": "39fc0030e591e7810c8eab317935da01fa3ad315",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_021.jpg",
+      "sha": "aa6adc007052b38a04d3c7415e61e3efbc5f6a90",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_022.jpg",
+      "sha": "d724868a545c35d22d09a5ed94ab16b68d74d57b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_023.jpg",
+      "sha": "9fd959c079dcc122bf244132d2f0e1248fb33405",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_024.jpg",
+      "sha": "00c8a70d5e666ee3f6a3dc1b68ef50f28cc31034",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_025.jpg",
+      "sha": "4fc6a37fa45ace44cdf73a4be1a247589d328f10",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_026.jpg",
+      "sha": "d65892d2d131461076a4623017c7ea6e98813035",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_027.jpg",
+      "sha": "497346944464d791e01cbfe198e5ef1b3633729a",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_028.jpg",
+      "sha": "30bfb5563476fb2ae6d758c6bd34581adacf664e",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_029.jpg",
+      "sha": "b430b8f929c6770e03037c6e7a2af1ce241e0cc9",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/imagens/ecg/normal/normal_030.jpg",
+      "sha": "db7fa015a236fe7df6151a700135b277f90593fd",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/logo-fiap.png",
+      "sha": "3f34dc6bb5a36f0d10b2852f9966ff5c990e1a50",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/textos/texto_01_prevencao_cardiovascular.txt",
+      "sha": "4ab3fd105377cf51d19b05ee406144785d0b901c",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "assets/textos/texto_02_sindromes_coronarianas_agudas.txt",
+      "sha": "911f12ac0ab41001c6ef168388d2fdb38521c7a3",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "config/readme.md",
+      "sha": "c93dac1a29b73ed2fe3b6ae8d9c5fda63be7eddd",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/ai_project_document_fiap.md",
+      "sha": "83251ddc5b4423014dee861b078c75c0765ee082",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/documentacao/parte1_dados_numericos.md",
+      "sha": "16568278ef2e5b26415e8e536ad1a9df8a88034a",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/documentacao/parte1_dicionario_variaveis.md",
+      "sha": "5e785964cb34e3c2d6362a4d5308c4ad01de16ad",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/documentacao/parte2_dados_textuais.md",
+      "sha": "4c8944a089ee004e288cfce50133c98f7901cdd3",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/documentacao/parte3_dados_visuais.md",
+      "sha": "239490a513e20e667de9b94f5c705e30b0e6063f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/documentacao/plano_execucao.md",
+      "sha": "a6747ea3a5b9463722c817bd75937fbbaa17617a",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/entrega/cardioia_fase1_entrega_fiap.pdf",
+      "sha": "fd526ddbf6108075174e7d1eb55fd4acd0f3c359",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/readme.md",
+      "sha": "739436fed96d35a9c97125c5b0e0c8711026e0ad",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap01 - A Busca de Dados Preparando o Terreno para a Inteligência Cardiológica_RevFinal.pdf",
+      "sha": "20f870e2034c1c77f46d1398146b7b04dda395b7",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap02 - RPA Bots que Libertam Humanos_RevFinal.pdf",
+      "sha": "29aae4cacb730f03c1b2fcaf4824eb9643790d44",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap03 - Computação Neuromórfica Inspirando Máquinas com o Cérebro_RevFinal.pdf",
+      "sha": "4ab63addcfd56055de7949fc86543f7376760e2c",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap04 - Computação Quântica Quebrando as Barreiras Clássicas_RevFinal.pdf",
+      "sha": "99e8bb46429b5f0c9ba08ac3eaf7eec53834a46a",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap05 - Frontend Magico Interfaces que Encantam no Mobile_RevFinal.pdf",
+      "sha": "36848b1e8eb348b79bb10efdf21458a23bff9380",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap06 - IA Generativa Criatividade Codificada_RevFinal.pdf",
+      "sha": "fb3a0d71b1a19ae21f42048f9e02f94858b01256",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap07 - Governança em IA O Cérebro Ético dos Dados_RevFinal.pdf",
+      "sha": "e4bc8afc21d28d4b979f9420d719b607a9116522",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap08 - IoT Cognitivo Sensores que Falam e Pensam_RevFinal.pdf",
+      "sha": "a86d65dcf514d266b2db82e1a290a48aa97a0f4f",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap09 - O Encontro do IoT com a Nuvem_RevFinal.pdf",
+      "sha": "001c6ee7c9e0d694a69cc9f7c137fe734deb23d6",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap10 - NLP e Chatbots Vozes Digitais que Compreendem_RevFinal.pdf",
+      "sha": "506d4fd0ebee56bb0d5198cf33b896f4ab853126",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap11 - Visão Computacional Máquinas com Olhos e Intuição_RevFinal.pdf",
+      "sha": "ac11ce79caa186d7637b8594a58db3f18d5a1acf",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/enunciado/Fase 1_Cap 1_Exercício.docx",
+      "sha": "22eeb77ee73eedd32b656c5107d89a4f252be5c7",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/enunciado/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg",
+      "sha": "a55af7732347b19e48e4e81fd287c11a73f2b39c",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/parte2/Linha de Cuidado do Infarto Agudo do Miocárdio e o Protocolo de Síndromes Coronarianas Agudas.pdf",
+      "sha": "da332691ab12dc38c18ebc2d7e706c00e0fc3319",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/parte2/PCDT_SindromesCoronarianasAgudas.pdf",
+      "sha": "a6b5e41d3162053d0ef7f766ee833f8684644c41",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/parte2/Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf",
+      "sha": "d1c760bdce698b53edd866e670676fb814aaaa36",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/parte3/fonte_dataset.md",
+      "sha": "2f39e98713b35d83b425ee5b25b448df5a436285",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "document/other/referencias/parte3/manifesto_amostra.csv",
+      "sha": "3cd83b5a33b9bb4e2ecd8215f6d13c7ff0c64a65",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "fase2/CHECKLIST_ENUNCIADO.md",
+      "sha": "d858e785190b7f7525113cbce585b0aa1153e858",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/README.md",
+      "sha": "2db28798cca88a7abb0cf08c03d7e30fed9d5d18",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/RELATORIO_ENTREGA.md",
+      "sha": "51e782fafec8a184a8989793c5eaae64c87852d7",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/app.py",
+      "sha": "c5f57fc9502d453b5294346451daf931306d5633",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/dados/classificacao_risco.csv",
+      "sha": "7879697a97620f4bbfce2d6d631883a74874de4e",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/dados/mapa_conhecimento.csv",
+      "sha": "fdf6835ce913125f302c928c5986a053504e33b6",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/dados/relatos_sintomas.txt",
+      "sha": "e0f83efb92454225a29db4860d0b7215cbee11bc",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/notebooks/analise_baseline.ipynb",
+      "sha": "ebc2e5f7c9367456a7a90ff7b2135d13f837430b",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/notebooks/classificacao_textual_tfidf.ipynb",
+      "sha": "c3c9757f77d27daaf0f96e56b26406700519fb52",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/notebooks/mlp_ecg_binaria.ipynb",
+      "sha": "e08779f6b18e31759568b58389544f4e8020d73d",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/requirements-visual.txt",
+      "sha": "9600a7aec0b5dfdef45c8f893f773f3aae90cb73",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/requirements.txt",
+      "sha": "cde7296c82034ac11b00d2dd7c08293f32f33622",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/resultados/README.md",
+      "sha": "ad21a52206c671cc9f808c9050c5a6d360e7f778",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/src/analisar_modelo.py",
+      "sha": "c8a275da814f3c7c8cb3240b326a49ded19e1428",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/src/classificar_risco_texto.py",
+      "sha": "0d853ad2b30820e89952cb53d5a2dc9435110fa6",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/src/extrair_sintomas.py",
+      "sha": "9e924974c1fe3d61f92dcfda225e02f1816e78e7",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/src/treinar_baselines.py",
+      "sha": "c80462558bfc2e44605992a7b2000ba12aacea73",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/src/treinar_mlp_ecg.py",
+      "sha": "05c411c0c9f61ce2c1cb1faeb45c8ec818eac547",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/tests/auditar_cenarios.py",
+      "sha": "5343b81dba1b2d6de32f1f9a38f016ca5689333b",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/tests/test_app.py",
+      "sha": "226e5c698bb5e90cccadc3a2d3226f96e34b8b12",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/tests/test_nlp.py",
+      "sha": "19c805c0e4781264728cbd3fd48dd1e8d318df98",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "fase2/tests/test_visual.py",
+      "sha": "6def1f7070bbca8e2273438cb197358caaa73b2c",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/README.md",
+      "sha": "b471953f6c1a3b8b166db9ec8aed8f76c89db75b",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/index.html",
+      "sha": "4ae5f6532f571fc8ea2b533a8e4d0bba153515d1",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/package.json",
+      "sha": "8137181e76995885e1e6b197d7cfa9dab98d3b5d",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/public/data/patients.json",
+      "sha": "fb00da14ff0804b18a71b3bd75171c71094bfe21",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/App.jsx",
+      "sha": "e7f7028327edfcb7cbbc61f2d3228c321842c0fa",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/App.test.jsx",
+      "sha": "ad5005eb51eea3319e0210a1e63a00e217be8593",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/components/Layout.jsx",
+      "sha": "1c4b9015f6573dc5cf40ae90ac4bf2246e2cc795",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/components/StatCard.jsx",
+      "sha": "2ff3217daf7cf7c51063ad28e1c2c6427d97ad7b",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/contexts/AuthContext.jsx",
+      "sha": "3f98e5c6ae93bbb298f08a5b797b162482b21337",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/main.jsx",
+      "sha": "79b3f327783c4b0094c052fd8ccc55f5472e4949",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/pages/Appointments.jsx",
+      "sha": "c07026b172b6f078caf7ebfda523ef5e28af2f4e",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/pages/Dashboard.jsx",
+      "sha": "050662c41bd34b07a81d4d6377da193a4fa9817a",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/pages/Login.jsx",
+      "sha": "92ae0cb1b77191533a4e12ffddf2b396a4ed2371",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/pages/Patients.jsx",
+      "sha": "9f69247938ad89dc491aa0392518c6a3c4278b8c",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/services/api.js",
+      "sha": "60dd10d5bdc052e9ac56328603362558eaa8f810",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/styles/Portal.module.css",
+      "sha": "c7002f8a8bb99c4427476ac7a0dac49aa5b85dbf",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/src/styles/global.css",
+      "sha": "5b4e8b1b4c2bcd2aacd9336a89e40aea8747ec95",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "portal-cardioia/vite.config.js",
+      "sha": "cf6b76d59f716b1f2428b81eed4ce869e1ce0a96",
+      "mode": "100644",
+      "immutable": false
+    },
+    {
+      "path": "scripts/preparar_amostra_ecg.py",
+      "sha": "f44957b523547831373db01afccee02e49bba08d",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "scripts/preparar_dataset_numerico.py",
+      "sha": "8e15b3156161d5c1aea172ce4433bb069dd6e807",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "scripts/readme.md",
+      "sha": "62c11d69600585db5edd0c210fca1a0f15b5430b",
+      "mode": "100644",
+      "immutable": true
+    },
+    {
+      "path": "src/readme.md",
+      "sha": "5c7ff620661147fbffe5f92bed49d59ef88cadb1",
+      "mode": "100644",
+      "immutable": true
+    }
+  ]
+}

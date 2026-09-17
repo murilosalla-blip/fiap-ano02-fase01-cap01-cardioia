@@ -6,7 +6,7 @@
 
 <br>
 
-# CardioIA — Fase 1: Batimentos de Dados
+# CardioIA — Fases 1 e 2
 
 ## Grupo Aura
 
@@ -24,7 +24,9 @@
 
 ## 📜 Descrição
 
-O **CardioIA** é um projeto acadêmico da FIAP que simula, ao longo de 7 fases, um ecossistema de cardiologia inteligente, integrando dados clínicos, IoT, Machine Learning, Visão Computacional e NLP para apoiar o cuidado cardiovascular. Nesta **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"**, o papel assumido pela equipe é o de cientista de dados hospitalar: buscar, organizar, validar e documentar três tipos de dados fundamentais para a saúde cardiovascular — numéricos, textuais e visuais — que servirão de base para as fases seguintes do curso (diagnóstico automatizado por IA, monitoramento via IoT, visão computacional em exames e assistente virtual por NLP).
+O **CardioIA** é um projeto acadêmico da FIAP desenvolvido ao longo de 7 fases. A **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"** reuniu, validou e documentou dados numéricos, textuais e visuais relacionados à saúde cardiovascular. A **Fase 2 — Machine Learning** tem como entrega obrigatória uma solução de NLP para extrair sintomas de relatos e classificar risco cardiovascular com TF-IDF. O projeto também vai além com um portal React, um experimento visual com MLP e a manutenção do modelo tabular da base Cleveland como extensão acadêmica.
+
+> **Uso exclusivamente educacional.** O projeto não realiza diagnóstico, não estima risco clínico real e não substitui avaliação médica.
 
 O repositório está disponível em [github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia).
 
@@ -36,6 +38,36 @@ O repositório está disponível em [github.com/murilosalla-blip/fiap-ano02-fase
 
 Todas as três partes seguiram um processo de **governança de dados** com atenção à proveniência, privacidade, qualidade e rastreabilidade. Limitações e possíveis vieses identificados, detalhados nos documentos específicos em `document/other/documentacao/`: a Parte 1 usa uma base originada na Cleveland Clinic (EUA, década de 1980), sem representatividade populacional garantida para outros contextos; a Parte 2 usa textos institucionais brasileiros de linguagem técnica (não espontânea de pacientes), sendo que um dos materiais tem contexto temporal mais antigo (2006); a Parte 3 usa um dataset originado no Paquistão, com possíveis vieses de população e de equipamento de aquisição, e a amostra curada e balanceada não representa necessariamente a prevalência real das condições nas classes.
 
+
+## 🧠 Fase 2 — Machine Learning
+
+A entrega obrigatória da Fase 2 está organizada em duas partes independentes:
+
+1. **Extração de sintomas:** dez relatos simulados completos em `.txt`, mapa de conhecimento sintoma–doença em CSV e um extrator Python tolerante a maiúsculas, acentos e pontuação.
+2. **Classificação textual de risco:** base simulada com 120 frases únicas e balanceadas, vetorização TF-IDF, Regressão Logística, divisão treino/teste agrupada por cenário e avaliação de desempenho e viés.
+
+Também foram implementados os dois desafios **Ir Além**:
+
+- **Portal React + Vite:** autenticação simulada com token local, rotas protegidas, pacientes, agendamentos e dashboard, com testes automatizados;
+- **Classificação visual de ECG:** experimento binário normal/anormal com 60 exames equilibrados, pré-processamento em escala de cinza 64×64 e MLP Keras, mantendo exames sem duplicação entre treino e teste.
+
+Como extensão adicional, o projeto preserva o modelo tabular da base Heart Disease — Cleveland e sua aplicação Streamlit. As três modalidades são apresentadas de forma separada para evitar a falsa impressão de um sistema multimodal clínico.
+
+**Aplicação:** [cardioia-fiap.streamlit.app](https://cardioia-fiap.streamlit.app/)
+
+**Documentação completa:** [fase2/README.md](fase2/README.md)  
+**Checklist do enunciado:** [fase2/CHECKLIST_ENUNCIADO.md](fase2/CHECKLIST_ENUNCIADO.md)  
+**Resultados reproduzíveis:** [fase2/resultados/README.md](fase2/resultados/README.md)  
+**Relatório de entrega:** [fase2/RELATORIO_ENTREGA.md](fase2/RELATORIO_ENTREGA.md)  
+Resultados dos experimentos:
+
+| Experimento | Amostra de teste | Resultado principal |
+|---|---:|---:|
+| NLP — TF-IDF + Regressão Logística | 24 frases | acurácia 100,0% |
+| Tabular — Cleveland | 61 registros | ROC AUC 0,958 |
+| Visual — MLP de ECG | 12 exames | acurácia balanceada 41,7% |
+
+> Os dados textuais são simulados e intencionalmente separáveis; por isso, 100% no teste não demonstra validade clínica. O resultado visual baixo foi mantido de forma transparente, sem ajuste sobre o teste. Nenhum experimento realiza diagnóstico nem foi validado para uso assistencial.
 
 ## 📁 Estrutura de pastas
 
@@ -63,6 +95,7 @@ Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficia
 - `document/other/documentacao/`: plano de execução e documentos de apoio das Partes 1, 2 e 3.
 - `document/other/referencias/`: enunciado e mapa mental oficiais, fontes institucionais utilizadas na Parte 2, rastreabilidade da Parte 3 e materiais de aula da Fase 1.
 - `scripts/`: scripts de preparação/reprodução dos datasets.
+- `fase2/`: treinamento, análises, notebook, testes, resultados documentados e aplicação Streamlit da Fase 2.
 
 ## 🔗 Links externos
 
@@ -97,6 +130,42 @@ python scripts/preparar_amostra_ecg.py
 ```
 
 
+## ▶️ Como executar a Fase 2
+
+A aplicação pública pode ser avaliada sem usar o terminal:
+
+- [Abrir CardioIA](https://cardioia-fiap.streamlit.app/)
+
+Para reprodução técnica da entrega obrigatória de NLP com Python 3.12:
+
+```bash
+pip install -r fase2/requirements.txt
+python fase2/src/extrair_sintomas.py
+python fase2/src/classificar_risco_texto.py
+pytest -q fase2/tests/test_nlp.py fase2/tests/test_app.py
+streamlit run fase2/app.py
+```
+
+Para o portal React:
+
+```bash
+cd portal-cardioia
+npm install
+npm test
+npm run build
+npm run dev
+```
+
+Para o experimento visual, use o ambiente separado com TensorFlow:
+
+```bash
+pip install -r fase2/requirements-visual.txt
+pytest -q fase2/tests/test_visual.py
+python fase2/src/treinar_mlp_ecg.py
+```
+
+Os workflows do GitHub Actions executam automaticamente os testes, treinamentos, notebooks, build do portal e validação das saídas obrigatórias. Os resultados ficam disponíveis como artefatos dos workflows.
+
 ## 🗃 Histórico de lançamentos
 
 * 0.1.0 - 21/08/2026
@@ -107,9 +176,16 @@ python scripts/preparar_amostra_ecg.py
     * Parte 2 concluída: corpus textual (prevenção cardiovascular e síndromes coronarianas agudas) preparado e documentado.
 * 0.4.0 - 21/08/2026
     * Parte 3 concluída: amostra de 120 imagens de ECG curada, validada e documentada.
+* 0.5.0 - 14/09/2026
+    * Fase 2: pipeline de Machine Learning, comparação de modelos e avaliação concluídos.
+* 0.6.0 - 14/09/2026
+    * Fase 2: análises de incerteza, calibração, interpretação e desempenho por sexo concluídas.
+* 0.7.0 - 14/09/2026
+    * Fase 2: front acadêmico publicado, auditado e coberto por testes automatizados.
+* 0.8.0 - 14/09/2026
+    * Fase 2: entrega obrigatória de NLP, portal React e experimento visual com MLP implementados e documentados.
 
 ## 📋 Licença
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
-
 

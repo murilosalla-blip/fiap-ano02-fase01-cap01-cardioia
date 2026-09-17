@@ -1,0 +1,14 @@
+[
+  {"id": 1, "name": "Ana Martins", "age": 58, "status": "Acompanhamento", "lastVisit": "10/09/2026", "nextVisit": "23/09/2026", "carePlan": "Revisão de exames", "city": "São Paulo"},
+  {"id": 2, "name": "Carlos Souza", "age": 64, "status": "Prioridade", "lastVisit": "08/09/2026", "nextVisit": "17/09/2026", "carePlan": "Retorno prioritário", "city": "Osasco"},
+  {"id": 3, "name": "Marina Lima", "age": 45, "status": "Estável", "lastVisit": "02/09/2026", "nextVisit": "15/10/2026", "carePlan": "Acompanhamento anual", "city": "São Paulo"},
+  {"id": 4, "name": "João Ribeiro", "age": 71, "status": "Acompanhamento", "lastVisit": "28/08/2026", "nextVisit": "28/09/2026", "carePlan": "Monitoramento de pressão", "city": "Barueri"},
+  {"id": 5, "name": "Beatriz Alves", "age": 39, "status": "Estável", "lastVisit": "25/08/2026", "nextVisit": "20/11/2026", "carePlan": "Avaliação preventiva", "city": "São Paulo"},
+  {"id": 6, "name": "Paulo Costa", "age": 52, "status": "Prioridade", "lastVisit": "21/08/2026", "nextVisit": "18/09/2026", "carePlan": "Discussão de resultados", "city": "Guarulhos"},
+  {"id": 7, "name": "Helena Rocha", "age": 67, "status": "Acompanhamento", "lastVisit": "19/08/2026", "nextVisit": "01/10/2026", "carePlan": "Ajuste de acompanhamento", "city": "São Paulo"},
+  {"id": 8, "name": "Rafael Mendes", "age": 48, "status": "Estável", "lastVisit": "14/08/2026", "nextVisit": "30/10/2026", "carePlan": "Retorno com exames", "city": "Santo André"},
+  {"id": 9, "name": "Lúcia Ferreira", "age": 73, "status": "Prioridade", "lastVisit": "12/08/2026", "nextVisit": "21/09/2026", "carePlan": "Avaliação cardiológica", "city": "São Paulo"},
+  {"id": 10, "name": "Diego Nunes", "age": 34, "status": "Estável", "lastVisit": "05/08/2026", "nextVisit": "03/12/2026", "carePlan": "Avaliação de rotina", "city": "Campinas"},
+  {"id": 11, "name": "Sônia Campos", "age": 61, "status": "Acompanhamento", "lastVisit": "31/07/2026", "nextVisit": "08/10/2026", "carePlan": "Revisão semestral", "city": "São Paulo"},
+  {"id": 12, "name": "Eduardo Freitas", "age": 56, "status": "Estável", "lastVisit": "22/07/2026", "nextVisit": "12/11/2026", "carePlan": "Prevenção cardiovascular", "city": "São Bernardo do Campo"}
+]
