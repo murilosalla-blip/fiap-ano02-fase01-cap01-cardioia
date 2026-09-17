@@ -6,8 +6,13 @@ on:
       - fase-2-machine-learning
     paths:
       - "fase2/src/treinar_mlp_ecg.py"
+      - "fase2/src/treinar_mlp_ecg_ampliada.py"
       - "fase2/tests/test_visual.py"
+      - "fase2/tests/test_visual_ampliado.py"
       - "fase2/notebooks/mlp_ecg_binaria.ipynb"
+      - "fase2/notebooks/mlp_ecg_ampliada.ipynb"
+      - "fase2/dados/visual_ampliado/**"
+      - "fase2/auditoria/inventario_visual_ampliado.json"
       - "fase2/requirements-visual.txt"
       - "assets/imagens/ecg/**"
       - ".github/workflows/fase2-visual.yml"
@@ -38,7 +43,9 @@ jobs:
       - name: Verificar sintaxe
         run: |
           python -m py_compile fase2/src/treinar_mlp_ecg.py
+          python -m py_compile fase2/src/treinar_mlp_ecg_ampliada.py
           python -m py_compile fase2/tests/test_visual.py
+          python -m py_compile fase2/tests/test_visual_ampliado.py
 
       - name: Testar dados e arquitetura
         run: python fase2/tests/test_visual.py
@@ -50,6 +57,16 @@ jobs:
         run: |
           jupyter nbconvert --to notebook --execute fase2/notebooks/mlp_ecg_binaria.ipynb --output-dir fase2/resultados/visual --output mlp_ecg_binaria_executada.ipynb --ExecutePreprocessor.timeout=900
 
+      - name: Testar dados e arquitetura ampliados
+        run: python fase2/tests/test_visual_ampliado.py
+
+      - name: Treinar e avaliar MLP ampliada
+        run: python fase2/src/treinar_mlp_ecg_ampliada.py
+
+      - name: Executar notebook visual ampliado
+        run: |
+          jupyter nbconvert --to notebook --execute fase2/notebooks/mlp_ecg_ampliada.ipynb --output-dir fase2/resultados/visual_ampliado --output mlp_ecg_ampliada_executada.ipynb --ExecutePreprocessor.timeout=900
+
       - name: Conferir saídas
         run: |
           test -s fase2/resultados/visual/metricas_mlp_ecg.json
@@ -59,10 +76,18 @@ jobs:
           test -s fase2/resultados/visual/curva_perda_mlp.png
           test -s fase2/resultados/visual/matriz_confusao_mlp.png
           test -s fase2/resultados/visual/mlp_ecg_binaria_executada.ipynb
+          test -s fase2/resultados/visual_ampliado/metricas.json
+          test -s fase2/resultados/visual_ampliado/previsoes_teste.csv
+          test -s fase2/resultados/visual_ampliado/modelo_mlp_ecg_ampliada.keras
+          test -s fase2/resultados/visual_ampliado/historico_treino.csv
+          test -s fase2/resultados/visual_ampliado/matriz_confusao.png
+          test -s fase2/resultados/visual_ampliado/mlp_ecg_ampliada_executada.ipynb
 
       - name: Disponibilizar evidências da execução
         uses: actions/upload-artifact@v4
         with:
           name: resultados-mlp-ecg
-          path: fase2/resultados/visual/
+          path: |
+            fase2/resultados/visual/
+            fase2/resultados/visual_ampliado/
           if-no-files-found: error

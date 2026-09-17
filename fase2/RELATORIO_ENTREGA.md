@@ -28,7 +28,7 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 - Portal: seis testes cobrem proteção de rota, login válido e inválido, busca/erro de pacientes, carteira e agenda fictícias, criação/persistência/remoção de consultas, vínculo com o Streamlit e logout; build Vite concluído.
 - Visual: 60 imagens únicas e equilibradas; 48 treino e 12 teste; hashes sem sobreposição; arquitetura Keras validada.
 - MLP visual: acurácia e acurácia balanceada de 0,4167; ROC AUC de 0,6667.
-- Revisão visual: 491 imagens únicas; 313 treino, 79 validação e 99 teste; acurácia balanceada de 0,7840; F1 anormal de 0,7833; ROC AUC de 0,8350.
+- Revisão visual: 491 imagens únicas; 313 treino, 79 validação e 99 teste; acurácia balanceada de 0,7453; F1 anormal de 0,7458; ROC AUC de 0,8241.
 - Reprodutibilidade ampliada: duas execuções produziram métricas idênticas com semente 42.
 - Robustez textual: 16 sondagens sintéticas; quatro entradas sem vocabulário e apenas 0,0121 de diferença entre afirmação e negação, registrada como limitação explícita no front.
 - Demografia tabular: avaliação adicional em três faixas etárias (18, 25 e 18 pacientes), com métricas e IC 95% por 2.000 reamostragens.

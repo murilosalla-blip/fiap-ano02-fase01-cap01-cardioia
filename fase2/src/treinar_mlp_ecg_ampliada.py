@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib, json, os, random
 from pathlib import Path
 os.environ.setdefault('TF_CPP_MIN_LOG_LEVEL','2')
+os.environ.setdefault('TF_ENABLE_ONEDNN_OPTS','0')
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -22,6 +23,7 @@ TAMANHO=(96,56)
 
 def sementes():
     random.seed(SEMENTE); np.random.seed(SEMENTE); tf.keras.utils.set_random_seed(SEMENTE)
+    tf.config.experimental.enable_op_determinism()
 
 def inventario():
     meta=json.loads(AUDITORIA.read_text())

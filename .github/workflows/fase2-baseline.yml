@@ -57,6 +57,10 @@ jobs:
           python -m py_compile fase2/tests/test_app.py
           python -m py_compile fase2/tests/auditar_cenarios.py
           python -m py_compile fase2/tests/test_nlp.py
+          python -m py_compile fase2/tests/test_notebooks_executados.py
+
+      - name: Validar evidências versionadas nos notebooks
+        run: python fase2/tests/test_notebooks_executados.py
 
       - name: Validar extração de sintomas
         run: python fase2/src/extrair_sintomas.py

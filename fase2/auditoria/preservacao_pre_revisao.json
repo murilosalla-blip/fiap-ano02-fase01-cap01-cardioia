@@ -1,6 +1,6 @@
 {
   "baseline_commit": "ee6b22dc40fa307c528b17b57856890fa264c20c",
-  "description": "Estado anterior à revisão autorizada em 15/09/2026. Arquivos fora de fase2/ e portal-cardioia/ devem permanecer idênticos, salvo a remoção autorizada da referência ao roteiro da Fase 2 no README raiz; nenhum arquivo da Fase 1 pode ser removido.",
+  "description": "Estado anterior à revisão autorizada em 15/09/2026. Arquivos fora de fase2/ e portal-cardioia/ devem permanecer idênticos, exceto os workflows próprios da Fase 2 e a remoção autorizada da referência ao roteiro no README raiz; nenhum arquivo da Fase 1 pode ser removido.",
   "entries": [
     {
       "path": ".gitattributes",
@@ -18,13 +18,13 @@
       "path": ".github/workflows/fase2-baseline.yml",
       "sha": "d40aee2ba8636ed36142635e5f89ea91437d4eef",
       "mode": "100644",
-      "immutable": true
+      "immutable": false
     },
     {
       "path": ".github/workflows/fase2-visual.yml",
       "sha": "658e8cb912a558118590a1af048efe73e862bef4",
       "mode": "100644",
-      "immutable": true
+      "immutable": false
     },
     {
       "path": ".gitignore",

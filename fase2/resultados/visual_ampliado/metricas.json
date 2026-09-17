@@ -3,22 +3,22 @@
   "n_treino": 313,
   "n_validacao": 79,
   "n_teste": 99,
-  "limiar": 0.7100000000000002,
-  "epocas": 29,
-  "acuracia": 0.7373737373737373,
-  "acuracia_balanceada": 0.7839901477832512,
-  "precisao_anormal": 0.94,
-  "recall_anormal": 0.6714285714285714,
-  "f1_anormal": 0.7833333333333333,
-  "roc_auc": 0.8349753694581281,
+  "limiar": 0.77,
+  "epocas": 34,
+  "acuracia": 0.696969696969697,
+  "acuracia_balanceada": 0.7453201970443349,
+  "precisao_anormal": 0.9166666666666666,
+  "recall_anormal": 0.6285714285714286,
+  "f1_anormal": 0.7457627118644068,
+  "roc_auc": 0.8241379310344826,
   "matriz_confusao": [
     [
-      26,
-      3
+      25,
+      4
     ],
     [
-      23,
-      47
+      26,
+      44
     ]
   ],
   "distribuicao": {

@@ -62,7 +62,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | Privacidade dos exemplos | Cabeçalho e rodapé removidos dos derivados em `fase2/dados/visual_ampliado/` | Concluído |
 | Separação treino/validação/teste | 313/79/99, estratificada pela classe original e sem hash repetido | Concluído |
 | Limiar sem consultar o teste | Escolhido na validação; teste final preservado | Concluído |
-| Avaliação ampliada | Acurácia balanceada 78,4%; ROC AUC 0,835 | Concluído |
+| Avaliação ampliada | Acurácia balanceada 74,5%; ROC AUC 0,824 | Concluído |
 | Reprodutibilidade | Duas execuções locais produziram o mesmo arquivo de métricas | Concluído |
 | Restrição por paciente | A fonte não fornece ID confiável; limitação declarada | Concluído com limitação |
 

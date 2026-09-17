@@ -170,14 +170,16 @@ O protocolo usa 313 imagens no treino, 79 na validação e 99 no teste final. A 
 
 | Métrica | Baseline (60) | Revisão ampliada (491) |
 |---|---:|---:|
-| Acurácia | 41,7% | 73,7% |
-| Acurácia balanceada | 41,7% | 78,4% |
-| Precisão — anormal | 33,3% | 94,0% |
-| Recall — anormal | 16,7% | 67,1% |
-| F1 — anormal | 22,2% | 78,3% |
-| ROC AUC | 0,667 | 0,835 |
+| Acurácia | 41,7% | 69,7% |
+| Acurácia balanceada | 41,7% | 74,5% |
+| Precisão — anormal | 33,3% | 91,7% |
+| Recall — anormal | 16,7% | 62,9% |
+| F1 — anormal | 22,2% | 74,6% |
+| ROC AUC | 0,667 | 0,824 |
 
-Com TensorFlow CPU 2.21.0, fixado nas dependências, duas execuções produziram o mesmo resultado e a matriz `[[26, 3], [23, 47]]` (normal/anormal). A melhora confirma a utilidade de ampliar a amostra, mas não demonstra validade clínica. A fonte ainda não oferece identificador confiável de paciente, portanto exames diferentes da mesma pessoa podem estar em conjuntos distintos.
+Com TensorFlow CPU 2.21.0, Keras 3.12.0, operações determinísticas e oneDNN desativado, duas execuções produziram o mesmo arquivo de métricas e a matriz `[[25, 4], [26, 44]]` (normal/anormal). A melhora confirma a utilidade de ampliar a amostra, mas não demonstra validade clínica. A fonte ainda não oferece identificador confiável de paciente, portanto exames diferentes da mesma pessoa podem estar em conjuntos distintos.
+
+Os quatro notebooks da Fase 2 são versionados com contagens de execução e saídas visíveis. O teste `fase2/tests/test_notebooks_executados.py` impede a publicação acidental de notebooks sem evidências.
 
 ## Estrutura da Fase 2
 
@@ -241,7 +243,7 @@ python fase2/src/treinar_mlp_ecg_ampliada.py
 ## Validação automática
 
 - `.github/workflows/fase2-baseline.yml`: NLP, portal React, Streamlit, modelo tabular e notebooks.
-- `.github/workflows/fase2-visual.yml`: dados visuais, arquitetura, MLP, notebook e artifacts.
+- `.github/workflows/fase2-visual.yml`: baseline e revisão ampliada, incluindo dados, arquiteturas, treinamentos, notebooks executados e artifacts.
 
 Consulte `fase2/CHECKLIST_ENUNCIADO.md` para a correspondência completa entre requisitos, arquivos e pendências. O relatório consolidado está em `fase2/RELATORIO_ENTREGA.md`.
 

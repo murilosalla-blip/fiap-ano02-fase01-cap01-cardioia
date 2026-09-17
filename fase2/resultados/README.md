@@ -110,14 +110,14 @@ A revisão preserva o baseline e usa todas as 491 imagens únicas recuperadas da
 
 | Métrica | Resultado |
 |---|---:|
-| Acurácia | 0,737 |
-| Acurácia balanceada | 0,784 |
-| Precisão — anormal | 0,940 |
-| Recall — anormal | 0,671 |
-| F1 — anormal | 0,783 |
-| ROC AUC | 0,835 |
+| Acurácia | 0,697 |
+| Acurácia balanceada | 0,745 |
+| Precisão — anormal | 0,917 |
+| Recall — anormal | 0,629 |
+| F1 — anormal | 0,746 |
+| ROC AUC | 0,824 |
 
-O limiar 0,71 foi escolhido somente na validação. A matriz de confusão do teste foi `[[26, 3], [23, 47]]`. Duas execuções com semente 42 e TensorFlow CPU 2.21.0 produziram o mesmo arquivo de métricas. A melhora em relação ao baseline reduz a incerteza amostral, mas não supre a falta de identificação por paciente ou validação clínica externa.
+O limiar 0,77 foi escolhido somente na validação. A matriz de confusão do teste foi `[[25, 4], [26, 44]]`. Duas execuções com semente 42, TensorFlow CPU 2.21.0, Keras 3.12.0, operações determinísticas e oneDNN desativado produziram o mesmo arquivo de métricas. A melhora em relação ao baseline reduz a incerteza amostral, mas não supre a falta de identificação por paciente ou validação clínica externa.
 
 Saídas em `fase2/resultados/visual_ampliado/`:
 
