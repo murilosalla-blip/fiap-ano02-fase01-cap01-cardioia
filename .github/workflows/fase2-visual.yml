@@ -6,6 +6,7 @@ on:
       - fase-2-machine-learning
     paths:
       - "fase2/src/treinar_mlp_ecg.py"
+      - "fase2/src/preparar_visual_ampliado.py"
       - "fase2/src/treinar_mlp_ecg_ampliada.py"
       - "fase2/tests/test_visual.py"
       - "fase2/tests/test_visual_ampliado.py"
@@ -43,6 +44,7 @@ jobs:
       - name: Verificar sintaxe
         run: |
           python -m py_compile fase2/src/treinar_mlp_ecg.py
+          python -m py_compile fase2/src/preparar_visual_ampliado.py
           python -m py_compile fase2/src/treinar_mlp_ecg_ampliada.py
           python -m py_compile fase2/tests/test_visual.py
           python -m py_compile fase2/tests/test_visual_ampliado.py
@@ -56,6 +58,9 @@ jobs:
       - name: Executar notebook visual
         run: |
           jupyter nbconvert --to notebook --execute fase2/notebooks/mlp_ecg_binaria.ipynb --output-dir fase2/resultados/visual --output mlp_ecg_binaria_executada.ipynb --ExecutePreprocessor.timeout=900
+
+      - name: Preparar base visual ampliada
+        run: python fase2/src/preparar_visual_ampliado.py --cache /tmp/cardioia-ecg-raw
 
       - name: Testar dados e arquitetura ampliados
         run: python fase2/tests/test_visual_ampliado.py
