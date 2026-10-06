@@ -49,11 +49,15 @@ A entrega obrigatória da Fase 2 está organizada em duas partes independentes:
 Também foram implementados os dois desafios **Ir Além**:
 
 - **Portal React + Vite:** autenticação simulada com token local, rotas protegidas, pacientes, agendamentos e dashboard, com testes automatizados;
-- **Classificação visual de ECG:** experimento binário normal/anormal com 60 exames equilibrados, pré-processamento em escala de cinza 64×64 e MLP Keras, mantendo exames sem duplicação entre treino e teste.
+- **Classificação visual de ECG:** baseline binário com 60 exames equilibrados e revisão ampliada com os 491 conteúdos únicos recuperados da mesma fonte pública, pré-processamento em escala de cinza e MLP Keras. A divisão ampliada mantém hashes distintos entre treino, validação e teste e documenta a ausência de um identificador confiável de paciente na fonte.
 
 Como extensão adicional, o projeto preserva o modelo tabular da base Heart Disease — Cleveland e sua aplicação Streamlit. As três modalidades são apresentadas de forma separada para evitar a falsa impressão de um sistema multimodal clínico.
 
-**Aplicação:** [cardioia-fiap.streamlit.app](https://cardioia-fiap.streamlit.app/)
+**Aplicação principal:** [cardioia-fiap.streamlit.app](https://cardioia-fiap.streamlit.app/)
+
+**Portal administrativo:** [julia-carvalho96.github.io/grupo-aura-cardioia-portal](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/)
+
+**Repositório separado do portal:** [Julia-carvalho96/grupo-aura-cardioia-portal](https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal)
 
 **Documentação completa:** [fase2/README.md](fase2/README.md)  
 **Checklist do enunciado:** [fase2/CHECKLIST_ENUNCIADO.md](fase2/CHECKLIST_ENUNCIADO.md)  
@@ -65,9 +69,17 @@ Resultados dos experimentos:
 |---|---:|---:|
 | NLP — TF-IDF + Regressão Logística | 24 frases | acurácia 100,0% |
 | Tabular — Cleveland | 61 registros | ROC AUC 0,958 |
-| Visual — MLP de ECG | 12 exames | acurácia balanceada 41,7% |
+| Visual — MLP de ECG ampliada | 99 imagens | acurácia balanceada 74,5%; ROC AUC 0,824 |
 
-> Os dados textuais são simulados e intencionalmente separáveis; por isso, 100% no teste não demonstra validade clínica. O resultado visual baixo foi mantido de forma transparente, sem ajuste sobre o teste. Nenhum experimento realiza diagnóstico nem foi validado para uso assistencial.
+> Os dados textuais são simulados e intencionalmente separáveis; por isso, 100% no teste não demonstra validade clínica. No experimento visual, o limiar foi definido somente na validação e o conjunto de teste foi preservado. Nenhum experimento realiza diagnóstico nem foi validado para uso assistencial.
+
+## 🎥 Vídeos de demonstração
+
+Os vídeos exigidos pelo enunciado serão publicados no YouTube como **não listados**, com duração máxima de quatro minutos. Os links abaixo serão preenchidos após a gravação da versão final:
+
+- **Entrega obrigatória — NLP e classificação textual:** link pendente de publicação;
+- **Ir Além 1 — Portal React:** link pendente de publicação;
+- **Ir Além 2 — MLP visual de ECG:** link pendente de publicação.
 
 ## 📁 Estrutura de pastas
 
