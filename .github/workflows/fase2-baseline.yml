@@ -3,6 +3,7 @@ name: Validar Fase 2
 on:
   push:
     branches:
+      - main
       - fase-2-machine-learning
     paths:
       - "fase2/**"
