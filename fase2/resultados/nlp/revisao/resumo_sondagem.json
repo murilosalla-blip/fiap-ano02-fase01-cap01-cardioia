@@ -1,0 +1,7 @@
+{
+  "n_casos": 16,
+  "diferenca_afirmacao_negacao": 0.01211874911287425,
+  "diferenca_caixa": 0.0,
+  "entradas_sem_vocabulario": 4,
+  "limite": "Sondagem simulada sem rótulos clínicos; não é acurácia externa. O estimador binário sempre produz uma classe, inclusive sem evidência textual."
+}

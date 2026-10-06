@@ -1,0 +1,51 @@
+{
+  "n_total": 491,
+  "n_treino": 313,
+  "n_validacao": 79,
+  "n_teste": 99,
+  "limiar": 0.77,
+  "epocas": 34,
+  "acuracia": 0.696969696969697,
+  "acuracia_balanceada": 0.7453201970443349,
+  "precisao_anormal": 0.9166666666666666,
+  "recall_anormal": 0.6285714285714286,
+  "f1_anormal": 0.7457627118644068,
+  "roc_auc": 0.8241379310344826,
+  "matriz_confusao": [
+    [
+      25,
+      4
+    ],
+    [
+      26,
+      44
+    ]
+  ],
+  "distribuicao": {
+    "abnormal_heartbeat": {
+      "treino": 149,
+      "validacao": 37,
+      "teste": 47
+    },
+    "history_mi": {
+      "treino": 55,
+      "validacao": 14,
+      "teste": 17
+    },
+    "myocardial_infarction": {
+      "treino": 19,
+      "validacao": 5,
+      "teste": 6
+    },
+    "normal": {
+      "treino": 90,
+      "validacao": 23,
+      "teste": 29
+    }
+  },
+  "limitacoes": [
+    "A fonte não oferece chave de paciente confirmada.",
+    "Hashes evitam duplicatas exatas, não exames do mesmo indivíduo.",
+    "Balanceamento por peso não representa prevalência clínica."
+  ]
+}
