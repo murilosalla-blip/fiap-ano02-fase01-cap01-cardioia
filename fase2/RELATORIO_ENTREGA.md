@@ -2,7 +2,7 @@
 
 ## Situação executiva
 
-A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e da extensão tabular está concluída e testada. O Streamlit agora funciona como produto principal unificado e o portal React, publicado separadamente, é um protótipo administrativo complementar. Resta publicar os vídeos não listados no YouTube.
+A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e da extensão tabular está concluída, testada e publicada. O Streamlit funciona como produto principal unificado, o portal React é o protótipo administrativo complementar e o vídeo único da demonstração está disponível no YouTube como não listado.
 
 ## Evidências por requisito
 
@@ -18,7 +18,7 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 | Produto unificado | Streamlit com avaliações, ECG, histórico e links recíprocos | Concluído |
 | MLP de ECG | script, notebook, testes e resultados visuais | Concluído |
 | README e repositório público | documentação no branch público | Concluído no repositório principal |
-| Vídeos | não publicados | Links do YouTube pendentes |
+| Vídeo único da entrega | [YouTube — demonstração completa](https://youtu.be/qoKjl6oeotY) | Concluído |
 
 ## Resultado dos testes
 
@@ -49,8 +49,9 @@ A implementação técnica do escopo obrigatório, dos dois desafios Ir Além e 
 - A ausência de ID de paciente nas imagens impede garantir separação por paciente.
 - O balanceamento experimental não representa prevalência de doenças.
 
-## Pendências externas
+## Situação final
 
-1. Gravar e publicar os vídeos como não listados.
-2. Inserir os URLs finais nos READMEs.
-3. Realizar a auditoria final da submissão.
+- Vídeo único publicado como não listado: [assistir no YouTube](https://youtu.be/qoKjl6oeotY).
+- URL incluído nos READMEs do projeto principal, da Fase 2 e do portal.
+- Auditoria final, testes e merge em `main` concluídos.
+- Não há pendências de desenvolvimento ou documentação.
