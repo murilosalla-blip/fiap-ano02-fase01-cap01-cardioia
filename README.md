@@ -73,13 +73,11 @@ Resultados dos experimentos:
 
 > Os dados textuais são simulados e intencionalmente separáveis; por isso, 100% no teste não demonstra validade clínica. No experimento visual, o limiar foi definido somente na validação e o conjunto de teste foi preservado. Nenhum experimento realiza diagnóstico nem foi validado para uso assistencial.
 
-## 🎥 Vídeos de demonstração
+## 🎥 Vídeo de demonstração
 
-Os vídeos exigidos pelo enunciado serão publicados no YouTube como **não listados**, com duração máxima de quatro minutos. Os links abaixo serão preenchidos após a gravação da versão final:
+O vídeo único da entrega apresenta, em menos de quatro minutos, a solução obrigatória de NLP e classificação textual, o portal React do Ir Além 1 e a MLP visual de ECG do Ir Além 2.
 
-- **Entrega obrigatória — NLP e classificação textual:** link pendente de publicação;
-- **Ir Além 1 — Portal React:** link pendente de publicação;
-- **Ir Além 2 — MLP visual de ECG:** link pendente de publicação.
+- **Assistir no YouTube (não listado):** [CardioIA — Fase 2 completa](https://youtu.be/qoKjl6oeotY)
 
 ## 📁 Estrutura de pastas
 
