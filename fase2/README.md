@@ -263,8 +263,12 @@ Consulte `fase2/CHECKLIST_ENUNCIADO.md` para a correspondência completa entre r
 
 O front não usa API própria nem banco de dados e não armazena relatos. Use apenas exemplos fictícios e nunca forneça nome, CPF, prontuário ou outra informação identificável.
 
+## Vídeo de demonstração
+
+O vídeo único da entrega demonstra a solução obrigatória de NLP e classificação textual, o portal React do Ir Além 1 e a MLP visual de ECG do Ir Além 2.
+
+- **YouTube (não listado, até quatro minutos):** [CardioIA — Fase 2 completa](https://youtu.be/qoKjl6oeotY)
+
 ## Encerramento da entrega
 
-Para a submissão acadêmica final ainda é necessário inserir os links dos vídeos
-não listados. O código, os notebooks, os testes, o Streamlit e o portal React
-separado já estão implementados e publicados.
+A implementação, os notebooks, os testes, o Streamlit, o portal React separado e o vídeo final estão concluídos e publicados.
