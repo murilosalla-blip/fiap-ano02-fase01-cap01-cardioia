@@ -16,7 +16,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | Notebook comentado | `fase2/notebooks/classificacao_textual_tfidf.ipynb` | Concluído |
 | Repositório público | Repositório atual | Concluído |
 | README completo | `README.md` e `fase2/README.md` | Concluído |
-| Vídeo de até 4 minutos, não listado | Link ainda não fornecido | **Pendente** |
+| Vídeo de até 4 minutos, não listado | [YouTube — demonstração completa](https://youtu.be/qoKjl6oeotY) | Concluído |
 
 ## Ir Além 1 — Portal React
 
@@ -37,7 +37,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | Integrantes e RMs no novo README | Publicados após autorização explícita | Concluído |
 | Portal publicado | GitHub Pages com vínculo para o Streamlit | Concluído |
 | Integração com o produto | Links recíprocos; Streamlit como produto de IA | Concluído |
-| Vídeo de até 4 minutos | Link ainda não fornecido | **Pendente** |
+| Vídeo de até 4 minutos | [YouTube — demonstração completa](https://youtu.be/qoKjl6oeotY) | Concluído |
 
 ## Ir Além 2 — MLP visual
 
@@ -51,7 +51,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 | Avaliação | Acurácia, acurácia balanceada, precisão, recall, F1 e ROC AUC | Concluído |
 | Notebook comentado | Baseline em `mlp_ecg_binaria.ipynb`; revisão ampliada autocontida em `mlp_ecg_ampliada.ipynb` | Concluído |
 | Evidências reproduzíveis | Workflow e artifact `resultados-mlp-ecg` | Concluído |
-| Vídeo de até 4 minutos | Link ainda não fornecido | **Pendente** |
+| Vídeo de até 4 minutos | [YouTube — demonstração completa](https://youtu.be/qoKjl6oeotY) | Concluído |
 
 ### Revisão ampliada do Ir Além 2
 
@@ -120,10 +120,6 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 - sondagem textual com negação, caixa, paráfrase e entradas fora do vocabulário;
 - seis testes do portal e build Vite de produção.
 
-## Condição para declarar 100%
+## Condição final da entrega
 
-A implementação de código está completa quando os dois workflows finais estiverem verdes. A entrega acadêmica só poderá ser declarada 100% após:
-
-1. gravação e publicação do vídeo ou dos vídeos exigidos;
-2. inclusão dos links no README;
-3. auditoria final e merge.
+Os dois workflows finais estão verdes, o vídeo único foi publicado como não listado, o link foi incluído nos READMEs e a auditoria final com merge em `main` foi concluída. A entrega está 100% concluída.
