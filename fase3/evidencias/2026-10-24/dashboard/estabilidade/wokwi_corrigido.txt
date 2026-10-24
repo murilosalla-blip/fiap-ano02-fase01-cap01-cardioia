@@ -1,0 +1,126 @@
+Browser tab: 253594054, Title: "CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator", URL: "https://wokwi.com/projects/478772789361460225".
+0 AXWebArea CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator, URL: wokwi.com/projects/478772789361460225
+	1 container
+		2 container
+			3 link wokwi.com/
+			4 button SAVE
+			5 button
+			6 button SHARE
+			7 button Like this project
+			8 link Description: Docs, Value: docs.wokwi.com/?utm_source=wokwi
+			9 button toggle dark mode
+			10 button SIGN IN SIGN UP
+				11 text SIGN IN
+				12 text SIGN UP
+		13 container
+			14 container
+				15 button sketch.ino
+				16 button diagram.json
+				17 button cardioia_mqtt.ino
+					18 text cardioia_mqtt.ino
+				19 button edge_core.h
+				20 button mqtt_delivery.h
+				21 button libraries.txt
+				22 button Library Manager
+				23 button
+				24 container
+					25 editor (settable) Description: Editor content;Press Alt+F1 for Accessibility Options., Value:   delay(1);
+}
+
+					26 container
+						27 text 263  286 
+						28 content list
+							29 container
+								30 text void
+								31 text setup
+								32 text (
+								33 text )
+								34 text {
+							35 container
+								36 text if
+								37 text (
+								38 text xTaskCreatePinnedToCore
+								39 text (
+								40 text networkTask
+								41 text ,
+								42 text "cardioia-mqtt"
+								43 text ,
+								44 text 8192
+								45 text ,
+								46 text nullptr
+								47 text ,
+								48 text 1
+								49 text ,
+								50 text nullptr
+								51 text ,
+								52 text 0
+								53 text )
+								54 text !=
+								55 text  pdPASS
+								56 text )
+								57 text {
+			58 container
+				59 button Simulation
+				60 container
+					61 button Restart the simulation
+					88 button Stop the simulation
+					89 button Pause
+					90 button WiFi: Connected to Wokwi-GUEST (Public IoT Gateway)
+				99 text 00:13.265 3%
+				63 container
+					64 image
+						65 container
+							66 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+						67 text ESP32
+					68 image
+						69 text DHT22
+					70 button  green pushbutton
+						71 image
+					72 container connection
+						73 checkbox (settable, integer) 1
+						74 image
+					75 text Temperatura
+e umidade
+					76 text Batimento simulado
+Pressione B
+					77 text Conexao simulada
+Esquerda: offline
+Direita: online
+					78 image
+				92 container simple-tabpanel-0
+					93 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA MQTT sessao=546cb527f2cc13d5 capacidade=2000
+# bytes_fila=80016 heap_livre=206188
+# Chave direita=online; Serial: broker_off / broker_on
+# mqtt_tempos keepalive_s=300 socket_timeout_s=5
+# conexao_simulada=online
+# wifi_conectando
+# mqtt_conectado: aguardando confirmacao do consumidor
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"546cb527f2cc13d5","sequence":1,"collected_uptime_ms":6395,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":6395,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=1 fila=0
+# coleta seq=2 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"546cb527f2cc13d5","sequence":2,"collected_uptime_ms":11395,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":11395,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=2 fila=0
+
+					94 text field (settable)
+					95 button Serial plotter
+					96 button Auto scroll
+					97 button
+					98 button Collapse
+		86 container Restart the simulation
+			87 text Restart the simulation
+
+The focused UI element is 61 button Restart the simulation

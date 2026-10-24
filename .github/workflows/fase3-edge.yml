@@ -1,0 +1,53 @@
+name: Validar Fase 3 IoT
+
+on:
+  push:
+    paths:
+      - "fase3/**"
+      - ".github/workflows/fase3-edge.yml"
+  pull_request:
+    paths:
+      - "fase3/**"
+      - ".github/workflows/fase3-edge.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  nucleo-e-contrato:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar validador do contrato
+        run: python -m pip install -r fase3/requirements-dev.txt
+      - name: Validar mensagens
+        run: python -m unittest discover -s fase3/tests -p 'test_*.py' -v
+      - name: Compilar núcleo compartilhado com ESP32
+        run: g++ -std=c++11 -Wall -Wextra -Werror fase3/tests/test_edge_core.cpp -o /tmp/cardioia-edge-test
+      - name: Testar fila e pulsos
+        run: /tmp/cardioia-edge-test
+      - name: Compilar e testar política de confirmação MQTT
+        run: |
+          g++ -std=c++11 -Wall -Wextra -Werror fase3/tests/test_mqtt_delivery.cpp -o /tmp/cardioia-mqtt-test
+          /tmp/cardioia-mqtt-test
+  painel-node-red:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: fase3/node-red/package-lock.json
+      - name: Instalar dependências do painel
+        run: npm ci --prefix fase3/node-red --ignore-scripts --no-audit --no-fund
+      - name: Conferir regras e fluxo importável
+        run: |
+          node --test fase3/tests/test_dashboard.cjs
+          node fase3/node-red/gerar_fluxo.js

@@ -1,0 +1,71 @@
+Browser tab: 2, Title: "CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator", URL: "https://wokwi.com/projects/478772789361460225".
+1 AXWebArea CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator, URL: wokwi.com/projects/478772789361460225
+	2 container
+		3 container
+			4 link wokwi.com/
+			6 button
+			8 button Like this project
+			9 button toggle dark mode
+			10 button SIGN IN SIGN UP
+				11 text SIGN IN
+				12 text SIGN UP
+		13 tab group
+			14 tab (selected, settable, boolean) Simulation, Value: 1
+			15 tab (selectable, settable, boolean) Code, Value: 0
+		16 container
+			17 button Restart the simulation
+			37 button Stop the simulation
+			38 button Pause
+			49 button Connecting to WiFi...
+				50 image wifi
+			51 text 00:12.349 75%
+			21 container
+				22 image
+					23 container
+						24 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+					25 text ESP32
+				26 image
+					27 text DHT22
+				28 button  green pushbutton
+					29 image
+				30 container connection
+					31 checkbox (settable, integer) 0
+					32 image
+				33 text Temperatura
+e umidade
+				34 text Batimento simulado
+Pressione B
+				35 text Conexao simulada
+Esquerda: offline
+Direita: online
+				36 image
+			40 container simple-tabpanel-0
+				41 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA MQTT sessao=7fbf813494bcbf14 capacidade=2000
+# bytes_fila=80016 heap_livre=206188
+# Chave direita=online; Serial: broker_off / broker_on
+# conexao_simulada=online
+# wifi_conectando
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+# coleta seq=2 fila=2 perdas=0 resultado=armazenada
+# wifi_conectando
+
+				42 text field (settable)
+				43 button Serial plotter
+				44 button Auto scroll
+				45 button
+				46 button Collapse
+		47 container Restart the simulation
+			48 text Restart the simulation
+
+The focused UI element is 17 button Restart the simulation

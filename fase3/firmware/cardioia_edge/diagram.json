@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Grupo Aura — CardioIA",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 160, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": 20, "left": 260, "attrs": { "temperature": "24", "humidity": "40" } },
+    { "type": "wokwi-pushbutton", "id": "pulse", "top": 285, "left": 260, "attrs": { "color": "green", "label": "", "key": "B" } },
+    { "type": "wokwi-slide-switch", "id": "connection", "top": 445, "left": 270, "attrs": { "value": "", "bounce": "0" } },
+    { "type": "wokwi-text", "id": "label_temperature", "top": -25, "left": 225, "attrs": { "text": "Temperatura\ne umidade" } },
+    { "type": "wokwi-text", "id": "label_pulse", "top": 225, "left": 200, "attrs": { "text": "Batimento simulado\nPressione B" } },
+    { "type": "wokwi-text", "id": "label_connection", "top": 530, "left": 200, "attrs": { "text": "Conexao simulada\nEsquerda: offline\nDireita: online" } }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "dht:VCC", "esp:3V3", "red", [ "v20", "h-110", "*", "h20" ] ],
+    [ "dht:GND", "esp:GND.2", "#9e9e9e", [ "v35", "h130", "*", "h440", "v100", "h-20" ] ],
+    [ "dht:SDA", "esp:D15", "green", [ "v50", "h-80", "*", "h55" ] ],
+    [ "esp:D26", "pulse:1.l", "orange", [ "h-30", "v150", "*", "v100", "h-40" ] ],
+    [ "pulse:2.r", "esp:GND.2", "#9e9e9e", [ "h130", "*", "h440", "v100", "h-20" ] ],
+    [ "esp:D27", "connection:2", "blue", [ "h-50", "v220", "*", "v20" ] ],
+    [ "connection:1", "esp:GND.2", "#9e9e9e", [ "v25", "h145", "*", "h440", "v100", "h-20" ] ]
+  ]
+}

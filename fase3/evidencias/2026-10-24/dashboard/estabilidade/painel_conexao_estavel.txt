@@ -1,0 +1,95 @@
+Browser tab: 253594051, Title: "Monitoramento", URL: "http://127.0.0.1:1880/dashboard/monitoramento".
+0 AXWebArea Monitoramento, URL: 127.0.0.1:1880/dashboard/monitoramento
+	1 container
+		2 container
+			3 container
+				4 text GRUPO AURA  /  FASE 03
+			5 heading CardioIA, Value: 1
+				6 text Cardio IA
+			7 text Do sensor à informação, em tempo real.
+			8 text Broker MQTT conectado
+			9 text ESP32 · monitoramento simulado
+			10 text ↗
+			70 text Dispositivo conectado · aguardando próxima leitura
+			71 text Mantenho o último valor recebido em cinza, com indicação de falta de atualização. Os alertas atuais aguardam uma nova leitura válida.
+			13 container
+				14 text BATIMENTOS SIMULADOS 0 BPM Último valor recebido · sem atualização
+			15 container
+				16 text ÚLTIMA LEITURA RECEBIDA #3 Recebida há 111 s
+			17 container
+				18 text ÚLTIMA CONFIRMAÇÃO #3 Gravação confirmada pelo consumidor
+			19 container
+				20 text PERDAS INFORMADAS 0 Fila no último envio: 1
+			21 container
+				22 text EVOLUÇÃO DA SESSÃO
+				23 heading Batimentos ao longo das leituras, Value: 2
+					24 text Batimentos ao longo das leituras
+				72 text 3 / 120 leituras Pulsos simulados Leitura recuperada Limite didático: > 120 BPM
+				26 container Gráfico de batimentos simulados por sequência, com limite didático de 120 BPM
+				73 text Registrei 3 leituras com 0 BPM. Acione e solte o botão verde do Wokwi para registrar pulsos. Eixo horizontal: sequência de coleta. Passe o mouse sobre os pontos para consultar cada leitura.
+			28 container
+				29 text SENSOR DHT22
+				30 heading Temperatura ambiente, Value: 2
+					31 text Temperatura ambiente
+				32 container Última temperatura recebida: 24 graus Celsius
+				33 text Último valor recebido · sem atualização Umidade 40% Alerta didático > 30 °C Temperatura do ambiente simulado, sem interpretação de temperatura corporal.
+			34 container
+				35 text DADOS RECEBIDOS
+				36 heading Últimas leituras, Value: 2
+					37 text Últimas leituras
+				38 table
+					39 row
+						40 cell
+							41 text Leitura
+						42 cell
+							43 text BPM
+						44 cell
+							45 text Ambiente
+						46 cell
+							47 text Idade no envio
+						48 cell
+							49 text Recebimento
+					74 row
+						75 cell
+							76 text #3
+						77 cell
+							78 text 0
+						79 cell
+							80 text 24 °C
+						81 cell
+							82 text 1 s
+						83 cell
+							84 text Atual na chegada
+					85 row
+						86 cell
+							87 text #2
+						88 cell
+							89 text 0
+						90 cell
+							91 text 24 °C
+						92 cell
+							93 text 0 s
+						94 cell
+							95 text Atual na chegada
+					50 row
+						51 cell
+							52 text #1
+						53 cell
+							54 text 0
+						55 cell
+							56 text 24 °C
+						57 cell
+							58 text 0 s
+						59 cell
+							60 text Atual na chegada
+			61 container
+				62 text ACOMPANHAMENTO
+				63 heading Eventos do monitoramento, Value: 2
+					64 text Eventos do monitoramento
+				65 content list
+					66 container
+						67 text Iniciei o acompanhamento de uma nova sessão. 16:31:16
+				68 text Como os alertas funcionam Confirmo a entrada e a saída em duas leituras atuais consecutivas. Retorno à faixa definida: até 108 BPM e até 28 °C. Dados recuperados não disparam alertas atuais.
+			69 text CardioIA · Grupo Aura Demonstração acadêmica · sinais simulados · sem avaliação clínica
+
+The focused UI element is 0 AXWebArea Monitoramento, URL: 127.0.0.1:1880/dashboard/monitoramento

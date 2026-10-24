@@ -1,0 +1,14 @@
+{
+  "resultado": "aprovado",
+  "session_id": "546cb527f2cc13d5",
+  "duracao_observada_s": 100.98,
+  "leituras_observadas": [
+    1,
+    2
+  ],
+  "modos_de_atualidade": [
+    "live",
+    "stale"
+  ],
+  "interrupcoes_de_conexao": 0
+}

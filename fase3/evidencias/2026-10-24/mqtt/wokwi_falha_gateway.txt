@@ -1,0 +1,132 @@
+Browser tab: 2, Title: "New ESP32 Project - Wokwi Simulator", URL: "https://wokwi.com/projects/new/esp32".
+0 AXWebArea New ESP32 Project - Wokwi Simulator, URL: wokwi.com/projects/new/esp32
+	1 container
+		2 container
+			3 link wokwi.com/
+			4 button SAVE
+			5 button
+			6 button SHARE
+			7 button toggle dark mode
+			8 button SIGN IN SIGN UP
+				9 text SIGN IN
+				10 text SIGN UP
+		11 container
+			12 container
+				13 button sketch.ino
+					14 text sketch.ino
+				15 button diagram.json
+					34 text diagram.json
+				16 button Library Manager
+				17 button cardioia_mqtt.ino
+				18 button edge_core.h
+				19 button mqtt_delivery.h
+				20 button libraries.txt
+				21 button
+				32 container
+					33 editor (settable) Description: Editor content;Press Alt+F1 for Accessibility Options., Value:     [ "pulse:2.r", "esp:GND.2", "#9e9e9e", [ "h130", "*", "h440", "v100", "h-20" ] ],
+    [ "esp:D27", "connection:2", "blue", [ "h-50", "v220", "*", "v20" ] ],
+    [ "connection:1", "esp:GND.2", "#9e9e9e", [ "v25", "h145", "*", "h440", "v100", "h-20" ] ]
+  ]
+}
+
+			24 container
+				25 button Simulation
+				26 container
+					27 button Restart the simulation
+					51 button Stop the simulation
+					52 button Pause
+					61 button WiFi Error: Connection to IoT Gateway wss://netwi.wokwi.com/ failed
+				62 text 03:06.219 100%
+				30 container
+					35 image
+						36 container
+							37 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+						38 text ESP32
+					39 image
+						40 text DHT22
+					41 button  green pushbutton
+						42 image
+					43 container connection
+						44 checkbox (settable, integer) 1
+						45 image
+					46 text Temperatura
+e umidade
+					47 text Batimento simulado
+Pressione B
+					48 text Conexao simulada
+Esquerda: offline
+Direita: online
+					31 image
+				54 container simple-tabpanel-0
+					55 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA MQTT sessao=5fbc8e879a543b96 capacidade=2000
+# bytes_fila=80016 heap_livre=206188
+# Chave direita=online; Serial: broker_off / broker_on
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+# coleta seq=2 fila=2 perdas=0 resultado=armazenada
+# coleta seq=3 fila=3 perdas=0 resultado=armazenada
+# coleta seq=4 fila=4 perdas=0 resultado=armazenada
+# coleta seq=5 fila=5 perdas=0 resultado=armazenada
+# coleta seq=6 fila=6 perdas=0 resultado=armazenada
+# coleta seq=7 fila=7 perdas=0 resultado=armazenada
+# coleta seq=8 fila=8 perdas=0 resultado=armazenada
+# coleta seq=9 fila=9 perdas=0 resultado=armazenada
+# coleta seq=10 fila=10 perdas=0 resultado=armazenada
+# coleta seq=11 fila=11 perdas=0 resultado=armazenada
+# coleta seq=12 fila=12 perdas=0 resultado=armazenada
+# coleta seq=13 fila=13 perdas=0 resultado=armazenada
+# coleta seq=14 fila=14 perdas=0 resultado=armazenada
+# conexao_simulada=online
+# wifi_conectando
+# coleta seq=15 fila=15 perdas=0 resultado=armazenada
+# coleta seq=16 fila=16 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=17 fila=17 perdas=0 resultado=armazenada
+# coleta seq=18 fila=18 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=19 fila=19 perdas=0 resultado=armazenada
+# coleta seq=20 fila=20 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=21 fila=21 perdas=0 resultado=armazenada
+# coleta seq=22 fila=22 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=23 fila=23 perdas=0 resultado=armazenada
+# coleta seq=24 fila=24 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=25 fila=25 perdas=0 resultado=armazenada
+# coleta seq=26 fila=26 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=27 fila=27 perdas=0 resultado=armazenada
+# coleta seq=28 fila=28 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=29 fila=29 perdas=0 resultado=armazenada
+# coleta seq=30 fila=30 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=31 fila=31 perdas=0 resultado=armazenada
+# coleta seq=32 fila=32 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=33 fila=33 perdas=0 resultado=armazenada
+# coleta seq=34 fila=34 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=35 fila=35 perdas=0 resultado=armazenada
+# coleta seq=36 fila=36 perdas=0 resultado=armazenada
+
+					56 text field (settable)
+					57 button Serial plotter
+					58 button Auto scroll
+					59 button
+					60 button Collapse
+		49 container Restart the simulation
+			50 text Restart the simulation
+
+The focused UI element is 27 button Restart the simulation

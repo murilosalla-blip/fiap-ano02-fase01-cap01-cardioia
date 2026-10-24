@@ -1,0 +1,102 @@
+Browser tab: 1, Title: "New ESP32 Project - Wokwi Simulator", URL: "https://wokwi.com/projects/new/esp32".
+1 AXWebArea New ESP32 Project - Wokwi Simulator, URL: wokwi.com/projects/new/esp32
+	2 container
+		3 container
+			4 link wokwi.com/
+			5 button SAVE
+			6 button
+			7 button SHARE
+			8 button toggle dark mode
+			9 button SIGN IN SIGN UP
+				10 text SIGN IN
+				11 text SIGN UP
+		12 container
+			13 container
+				14 button sketch.ino
+					31 text sketch.ino
+				15 button diagram.json
+					34 text diagram.json
+				16 button Library Manager
+				17 button cardioia_edge.ino
+				18 button edge_core.h
+				19 button libraries.txt
+				20 button
+				64 container
+					65 editor (settable) Description: Editor content;Press Alt+F1 for Accessibility Options., Value: // CardioIA: firmware em cardioia_edge.ino
+
+			42 container
+				43 button Simulation
+				44 container
+					45 button Restart the simulation
+					66 button Stop the simulation
+					67 button Pause
+				92 text 01:18.962 100%
+				77 container
+					78 image
+						79 container
+							80 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+						81 text ESP32
+					82 image
+						83 text DHT22
+					84 container pulse
+						85 button Batimento simulado green pushbutton
+							86 image
+						87 text Batimento simulado
+					88 container connection
+						89 checkbox (settable, integer) 1
+						90 image
+					91 image
+				69 container simple-tabpanel-0
+					70 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA Edge: saida SERIAL LOCAL, sem MQTT nesta entrega
+# Botao B = pulso; chave esquerda = offline; direita = online
+# sessao=3876db8196560239 capacidade=2000 tamanho_amostra=40 bytes_fila=80016
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+# coleta seq=2 fila=2 perdas=0 resultado=armazenada
+# coleta seq=3 fila=3 perdas=0 resultado=armazenada
+# coleta seq=4 fila=4 perdas=0 resultado=armazenada
+# conexao_simulada=online
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":1,"collected_uptime_ms":5510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":4,"simulated":true,"transport":"serial_demo"}
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":2,"collected_uptime_ms":10510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":3,"simulated":true,"transport":"serial_demo"}
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":3,"collected_uptime_ms":15510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"serial_demo"}
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":4,"collected_uptime_ms":20510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=5 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":5,"collected_uptime_ms":25510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=6 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":6,"collected_uptime_ms":30510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=7 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":7,"collected_uptime_ms":35510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=8 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":8,"collected_uptime_ms":40510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=9 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":9,"collected_uptime_ms":45510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=10 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":10,"collected_uptime_ms":50510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":2,"heart_rate_bpm":24.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=11 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":11,"collected_uptime_ms":55510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":4,"heart_rate_bpm":48.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=12 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":12,"collected_uptime_ms":60510,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=13 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":13,"collected_uptime_ms":65510,"window_ms":5000,"temperature_c":39.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=14 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":14,"collected_uptime_ms":70510,"window_ms":5000,"temperature_c":39.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=15 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3876db8196560239","sequence":15,"collected_uptime_ms":75510,"window_ms":5000,"temperature_c":39.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+
+					71 text field (settable)
+					72 button Serial plotter
+					73 button Auto scroll
+					74 button
+					75 button Collapse
+
+The focused UI element is 1 AXWebArea New ESP32 Project - Wokwi Simulator, URL: wokwi.com/projects/new/esp32

@@ -1,0 +1,15 @@
+{
+  "resultado": "aprovado",
+  "session_id": "5f1ffeb88efb4c0c",
+  "intervalo_conferido": [
+    1,
+    75
+  ],
+  "leituras_unicas_persistidas": 75,
+  "sequencias_sem_lacunas": true,
+  "perdas_reportadas": 0,
+  "deduplicacao_conferida": [
+    1,
+    65
+  ]
+}

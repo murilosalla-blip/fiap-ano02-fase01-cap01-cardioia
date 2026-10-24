@@ -1,0 +1,110 @@
+{
+  "mode": "live",
+  "broker": "connected",
+  "status": "online",
+  "session": "48796d02683a4306",
+  "current": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "48796d02683a4306",
+    "sequence": 3,
+    "collected_uptime_ms": 15000,
+    "window_ms": 5000,
+    "temperature_c": 31,
+    "humidity_pct": 40,
+    "pulse_count": 11,
+    "heart_rate_bpm": 132,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 15000,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "tempKnown": true,
+  "alerts": [
+    "Pulsos acima do limite didático",
+    "Temperatura ambiente acima do limite didático"
+  ],
+  "pending": false,
+  "history": [
+    {
+      "sequence": 1,
+      "bpm": 72,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1792857746758
+    },
+    {
+      "sequence": 2,
+      "bpm": 132,
+      "temperature": 31,
+      "replay": false,
+      "receivedAt": 1792857747642
+    },
+    {
+      "sequence": 3,
+      "bpm": 132,
+      "temperature": 31,
+      "replay": false,
+      "receivedAt": 1792857748062
+    }
+  ],
+  "events": [
+    {
+      "at": 1792857748062,
+      "kind": "alert",
+      "text": "Temperatura ambiente: limite didático ultrapassado."
+    },
+    {
+      "at": 1792857748062,
+      "kind": "alert",
+      "text": "Pulsos simulados: limite didático ultrapassado."
+    },
+    {
+      "at": 1792857746758,
+      "kind": "info",
+      "text": "Iniciei o acompanhamento de uma nova sessão."
+    }
+  ],
+  "last": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "48796d02683a4306",
+    "sequence": 3,
+    "collected_uptime_ms": 15000,
+    "window_ms": 5000,
+    "temperature_c": 31,
+    "humidity_pct": 40,
+    "pulse_count": 11,
+    "heart_rate_bpm": 132,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 15000,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "lastSequence": 3,
+  "ack": null,
+  "ageSeconds": 0,
+  "liveAgeSeconds": 0,
+  "rejected": 1,
+  "duplicates": 1,
+  "totalInChart": 3,
+  "rules": {
+    "pulseEnter": 120,
+    "pulseExit": 108,
+    "tempEnter": 30,
+    "tempExit": 28,
+    "consecutive": 2
+  },
+  "generatedAt": 1792857748062,
+  "testMode": true
+}

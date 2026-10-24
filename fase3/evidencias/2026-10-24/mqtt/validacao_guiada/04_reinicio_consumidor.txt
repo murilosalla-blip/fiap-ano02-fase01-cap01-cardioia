@@ -1,0 +1,62 @@
+# mqtt_publicacao=tentada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":65,"collected_uptime_ms":326394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":329394,"age_ms":3000,"attempt":2,"replay":false}
+# mqtt_publicacao=tentada
+# coleta seq=66 fila=2 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":65,"collected_uptime_ms":326394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"mqtt","sent_uptime_ms":332394,"age_ms":6000,"attempt":3,"replay":false}
+# mqtt_publicacao=tentada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":65,"collected_uptime_ms":326394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"mqtt","sent_uptime_ms":335394,"age_ms":9000,"attempt":4,"replay":false}
+# mqtt_publicacao=tentada
+# coleta seq=67 fila=3 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":65,"collected_uptime_ms":326394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":3,"simulated":true,"transport":"mqtt","sent_uptime_ms":338394,"age_ms":12000,"attempt":5,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=68 fila=4 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":65,"collected_uptime_ms":326394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":4,"simulated":true,"transport":"mqtt","sent_uptime_ms":341394,"age_ms":15000,"attempt":6,"replay":true}
+# mqtt_publicacao=tentada
+# mqtt_falha estado=-4 porta=1883
+# coleta seq=69 fila=5 perdas=0 resultado=armazenada
+# mqtt_falha estado=-4 porta=1883
+# coleta seq=70 fila=6 perdas=0 resultado=armazenada
+# mqtt_falha estado=-4 porta=1883
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=71 fila=7 perdas=0 resultado=armazenada
+# mqtt_conectado: aguardando confirmacao do consumidor
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":65,"collected_uptime_ms":326394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":7,"simulated":true,"transport":"mqtt","sent_uptime_ms":358903,"age_ms":32509,"attempt":7,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=72 fila=8 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":65,"collected_uptime_ms":326394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":8,"simulated":true,"transport":"mqtt","sent_uptime_ms":361903,"age_ms":35509,"attempt":8,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=65 fila=7
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":66,"collected_uptime_ms":331394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":7,"simulated":true,"transport":"mqtt","sent_uptime_ms":362552,"age_ms":31158,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=66 fila=6
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":67,"collected_uptime_ms":336394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":6,"simulated":true,"transport":"mqtt","sent_uptime_ms":363438,"age_ms":27044,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=67 fila=5
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":68,"collected_uptime_ms":341394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":5,"simulated":true,"transport":"mqtt","sent_uptime_ms":364321,"age_ms":22927,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=68 fila=4
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":69,"collected_uptime_ms":346394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":4,"simulated":true,"transport":"mqtt","sent_uptime_ms":365167,"age_ms":18773,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=69 fila=3
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":70,"collected_uptime_ms":351394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":3,"simulated":true,"transport":"mqtt","sent_uptime_ms":366035,"age_ms":14641,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=73 fila=4 perdas=0 resultado=armazenada
+# ack_confirmado seq=70 fila=3
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":71,"collected_uptime_ms":356394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":3,"simulated":true,"transport":"mqtt","sent_uptime_ms":366802,"age_ms":10408,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=71 fila=2
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":72,"collected_uptime_ms":361394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"mqtt","sent_uptime_ms":367697,"age_ms":6303,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=72 fila=1
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":73,"collected_uptime_ms":366394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":368583,"age_ms":2189,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=73 fila=0
+# coleta seq=74 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":74,"collected_uptime_ms":371394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":371394,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=74 fila=0
+# coleta seq=75 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"5f1ffeb88efb4c0c","sequence":75,"collected_uptime_ms":376394,"window_ms":5000,"temperature_c":31,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":376394,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=75 fila=0

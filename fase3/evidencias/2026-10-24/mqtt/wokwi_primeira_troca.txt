@@ -1,0 +1,113 @@
+Browser tab: 2, Title: "CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator", URL: "https://wokwi.com/projects/478772789361460225".
+1 AXWebArea CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator, URL: wokwi.com/projects/478772789361460225
+	2 container
+		3 container
+			4 link wokwi.com/
+			5 button (disabled) SAVE
+			6 button
+			7 button SHARE
+			8 button Like this project
+			9 button toggle dark mode
+			10 button SIGN IN SIGN UP
+				11 text SIGN IN
+				12 text SIGN UP
+		13 container
+			14 container
+				15 button sketch.ino
+				16 button diagram.json
+				17 button cardioia_mqtt.ino
+				18 button edge_core.h
+				19 button mqtt_delivery.h
+				20 button libraries.txt
+				21 button Library Manager
+				22 button
+				23 container
+					24 editor (settable) Description: Editor content;Press Alt+F1 for Accessibility Options., Value: // CardioIA: firmware em cardioia_mqtt.ino
+
+			25 container
+				26 button Simulation
+				27 container
+					28 button Restart the simulation
+					47 button Stop the simulation
+					48 button Pause
+					58 button WiFi: Connected to Wokwi-GUEST (Public IoT Gateway)
+				62 text 00:49.483 103%
+				31 container
+					32 image
+						33 container
+							34 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+						35 text ESP32
+					36 image
+						37 text DHT22
+					38 button  green pushbutton
+						39 image
+					40 container connection
+						41 checkbox (settable, integer) 1
+						42 image
+					43 text Temperatura
+e umidade
+					44 text Batimento simulado
+Pressione B
+					45 text Conexao simulada
+Esquerda: offline
+Direita: online
+					46 image
+				50 container simple-tabpanel-0
+					51 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA MQTT sessao=475b824253d928c2 capacidade=2000
+# bytes_fila=80016 heap_livre=206188
+# Chave direita=online; Serial: broker_off / broker_on
+# conexao_simulada=online
+# wifi_conectando
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+# coleta seq=2 fila=2 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=3 fila=3 perdas=0 resultado=armazenada
+# coleta seq=4 fila=4 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=5 fila=5 perdas=0 resultado=armazenada
+# coleta seq=6 fila=6 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=7 fila=7 perdas=0 resultado=armazenada
+# coleta seq=8 fila=8 perdas=0 resultado=armazenada
+# mqtt_conectado: aguardando confirmacao do consumidor
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"475b824253d928c2","sequence":1,"collected_uptime_ms":6394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":8,"simulated":true,"transport":"mqtt","sent_uptime_ms":41910,"age_ms":35516,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"475b824253d928c2","sequence":1,"collected_uptime_ms":6394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":8,"simulated":true,"transport":"mqtt","sent_uptime_ms":44910,"age_ms":38516,"attempt":2,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=1 fila=7
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"475b824253d928c2","sequence":2,"collected_uptime_ms":11394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":7,"simulated":true,"transport":"mqtt","sent_uptime_ms":45507,"age_ms":34113,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=2 fila=6
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"475b824253d928c2","sequence":3,"collected_uptime_ms":16394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":6,"simulated":true,"transport":"mqtt","sent_uptime_ms":46393,"age_ms":29999,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=9 fila=7 perdas=0 resultado=armazenada
+# ack_confirmado seq=3 fila=6
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"475b824253d928c2","sequence":4,"collected_uptime_ms":21394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":6,"simulated":true,"transport":"mqtt","sent_uptime_ms":47196,"age_ms":25802,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=4 fila=5
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"475b824253d928c2","sequence":5,"collected_uptime_ms":26394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":5,"simulated":true,"transport":"mqtt","sent_uptime_ms":48041,"age_ms":21647,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=5 fila=4
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"475b824253d928c2","sequence":6,"collected_uptime_ms":31394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":4,"simulated":true,"transport":"mqtt","sent_uptime_ms":48906,"age_ms":17512,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+
+					52 text field (settable)
+					53 button Serial plotter
+					54 button Auto scroll
+					55 button
+					56 button Collapse
+		57 container Restart the simulation
+			61 text Restart the simulation
+
+The focused UI element is 28 button Restart the simulation

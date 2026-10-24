@@ -1,0 +1,195 @@
+Browser tab: 253594009, Title: "CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator", URL: "https://wokwi.com/projects/478772789361460225".
+0 AXWebArea CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator, URL: wokwi.com/projects/478772789361460225
+	1 container
+		2 container
+			3 link wokwi.com/
+			4 button (disabled) SAVE
+			5 button
+			6 button SHARE
+			7 button Like this project
+			8 link Description: Docs, Value: docs.wokwi.com/?utm_source=wokwi
+			9 button toggle dark mode
+			10 button SIGN IN SIGN UP
+				11 text SIGN IN
+				12 text SIGN UP
+		13 container
+			14 container
+				15 button sketch.ino
+				16 button diagram.json
+				17 button cardioia_mqtt.ino
+				18 button edge_core.h
+				19 button mqtt_delivery.h
+				20 button libraries.txt
+				21 button Library Manager
+				22 button
+				23 container
+					24 editor (settable) Description: Editor content;Press Alt+F1 for Accessibility Options., Value: // CardioIA: firmware em cardioia_mqtt.ino
+
+			25 container
+				26 button Simulation
+				27 container
+					28 button Restart the simulation
+					47 button Stop the simulation
+					48 button Pause
+					59 button WiFi Error: Connection to IoT Gateway wss://netwi.wokwi.com/ failed
+				60 text 06:26.571 58%
+				31 container
+					32 image
+						33 container
+							34 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+						35 text ESP32
+					36 image
+						37 text DHT22
+					38 button  green pushbutton
+						39 image
+					40 container connection
+						41 checkbox (settable, integer) 1
+						42 image
+					43 text Temperatura
+e umidade
+					44 text Batimento simulado
+Pressione B
+					45 text Conexao simulada
+Esquerda: offline
+Direita: online
+					46 image
+				52 container simple-tabpanel-0
+					53 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA MQTT sessao=e9cda461d5b0bdfb capacidade=2000
+# bytes_fila=80016 heap_livre=206188
+# Chave direita=online; Serial: broker_off / broker_on
+# conexao_simulada=online
+# wifi_conectando
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+# coleta seq=2 fila=2 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=3 fila=3 perdas=0 resultado=armazenada
+# coleta seq=4 fila=4 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=5 fila=5 perdas=0 resultado=armazenada
+# coleta seq=6 fila=6 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=7 fila=7 perdas=0 resultado=armazenada
+# coleta seq=8 fila=8 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=9 fila=9 perdas=0 resultado=armazenada
+# coleta seq=10 fila=10 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=11 fila=11 perdas=0 resultado=armazenada
+# coleta seq=12 fila=12 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=13 fila=13 perdas=0 resultado=armazenada
+# coleta seq=14 fila=14 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=15 fila=15 perdas=0 resultado=armazenada
+# coleta seq=16 fila=16 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=17 fila=17 perdas=0 resultado=armazenada
+# coleta seq=18 fila=18 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=19 fila=19 perdas=0 resultado=armazenada
+# coleta seq=20 fila=20 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=21 fila=21 perdas=0 resultado=armazenada
+# coleta seq=22 fila=22 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=23 fila=23 perdas=0 resultado=armazenada
+# coleta seq=24 fila=24 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=25 fila=25 perdas=0 resultado=armazenada
+# coleta seq=26 fila=26 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=27 fila=27 perdas=0 resultado=armazenada
+# coleta seq=28 fila=28 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=29 fila=29 perdas=0 resultado=armazenada
+# coleta seq=30 fila=30 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=31 fila=31 perdas=0 resultado=armazenada
+# coleta seq=32 fila=32 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=33 fila=33 perdas=0 resultado=armazenada
+# coleta seq=34 fila=34 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=35 fila=35 perdas=0 resultado=armazenada
+# coleta seq=36 fila=36 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=37 fila=37 perdas=0 resultado=armazenada
+# coleta seq=38 fila=38 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=39 fila=39 perdas=0 resultado=armazenada
+# coleta seq=40 fila=40 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=41 fila=41 perdas=0 resultado=armazenada
+# coleta seq=42 fila=42 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=43 fila=43 perdas=0 resultado=armazenada
+# coleta seq=44 fila=44 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=45 fila=45 perdas=0 resultado=armazenada
+# coleta seq=46 fila=46 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=47 fila=47 perdas=0 resultado=armazenada
+# coleta seq=48 fila=48 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=49 fila=49 perdas=0 resultado=armazenada
+# coleta seq=50 fila=50 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=51 fila=51 perdas=0 resultado=armazenada
+# coleta seq=52 fila=52 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=53 fila=53 perdas=0 resultado=armazenada
+# coleta seq=54 fila=54 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=55 fila=55 perdas=0 resultado=armazenada
+# coleta seq=56 fila=56 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=57 fila=57 perdas=0 resultado=armazenada
+# coleta seq=58 fila=58 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=59 fila=59 perdas=0 resultado=armazenada
+# coleta seq=60 fila=60 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=61 fila=61 perdas=0 resultado=armazenada
+# coleta seq=62 fila=62 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=63 fila=63 perdas=0 resultado=armazenada
+# coleta seq=64 fila=64 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=65 fila=65 perdas=0 resultado=armazenada
+# coleta seq=66 fila=66 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=67 fila=67 perdas=0 resultado=armazenada
+# coleta seq=68 fila=68 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=69 fila=69 perdas=0 resultado=armazenada
+# coleta seq=70 fila=70 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=71 fila=71 perdas=0 resultado=armazenada
+# coleta seq=72 fila=72 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=73 fila=73 perdas=0 resultado=armazenada
+# coleta seq=74 fila=74 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=75 fila=75 perdas=0 resultado=armazenada
+# coleta seq=76 fila=76 perdas=0 resultado=armazenada
+# wifi_conectando
+# coleta seq=77 fila=77 perdas=0 resultado=armazenada
+
+					54 text field (settable)
+					55 button Serial plotter
+					56 button Auto scroll
+					57 button
+					58 button Collapse
+
+The focused UI element is 28 button Restart the simulation

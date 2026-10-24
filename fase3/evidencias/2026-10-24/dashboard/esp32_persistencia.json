@@ -1,0 +1,87 @@
+{
+  "resultado": "aprovado",
+  "origem": "ESP32 do Wokwi",
+  "session_id": "31dd7dd8dfd544b0",
+  "sequencias_conferidas": [
+    1,
+    2,
+    3
+  ],
+  "leituras": [
+    {
+      "sequence": 1,
+      "payload": {
+        "schema_version": 1,
+        "device_id": "cardioia-esp32-01",
+        "session_id": "31dd7dd8dfd544b0",
+        "sequence": 1,
+        "collected_uptime_ms": 6394,
+        "window_ms": 5000,
+        "temperature_c": 24,
+        "humidity_pct": 40,
+        "pulse_count": 0,
+        "heart_rate_bpm": 0,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "mqtt",
+        "sent_uptime_ms": 8523,
+        "age_ms": 2129,
+        "attempt": 1,
+        "replay": false
+      },
+      "received_at": "2026-10-24T16:06:52.052589+00:00"
+    },
+    {
+      "sequence": 2,
+      "payload": {
+        "schema_version": 1,
+        "device_id": "cardioia-esp32-01",
+        "session_id": "31dd7dd8dfd544b0",
+        "sequence": 2,
+        "collected_uptime_ms": 11394,
+        "window_ms": 5000,
+        "temperature_c": 24,
+        "humidity_pct": 40,
+        "pulse_count": 0,
+        "heart_rate_bpm": 0,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "mqtt",
+        "sent_uptime_ms": 12756,
+        "age_ms": 1362,
+        "attempt": 1,
+        "replay": false
+      },
+      "received_at": "2026-10-24T16:07:31.953051+00:00"
+    },
+    {
+      "sequence": 3,
+      "payload": {
+        "schema_version": 1,
+        "device_id": "cardioia-esp32-01",
+        "session_id": "31dd7dd8dfd544b0",
+        "sequence": 3,
+        "collected_uptime_ms": 16394,
+        "window_ms": 5000,
+        "temperature_c": 24,
+        "humidity_pct": 40,
+        "pulse_count": 0,
+        "heart_rate_bpm": 0,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "mqtt",
+        "sent_uptime_ms": 17756,
+        "age_ms": 1362,
+        "attempt": 1,
+        "replay": false
+      },
+      "received_at": "2026-10-24T16:10:00.225745+00:00"
+    }
+  ]
+}

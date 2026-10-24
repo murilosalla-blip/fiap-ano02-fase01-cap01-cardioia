@@ -1,0 +1,29 @@
+{
+  "resultado": "aprovado",
+  "sessao": "86d93890772938d3",
+  "leituras_antes": 7,
+  "leituras_depois": 7,
+  "ultimo_valor": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "86d93890772938d3",
+    "sequence": 7,
+    "collected_uptime_ms": 36396,
+    "window_ms": 5000,
+    "temperature_c": 24,
+    "humidity_pct": 40,
+    "pulse_count": 0,
+    "heart_rate_bpm": 0,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 36396,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "modo": "offline",
+  "historico_preservado": true
+}
