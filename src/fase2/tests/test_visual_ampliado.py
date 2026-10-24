@@ -12,6 +12,7 @@ from PIL import Image
 
 
 DIRETORIO_FASE2 = Path(__file__).resolve().parents[1]
+RAIZ_REPOSITORIO = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(DIRETORIO_FASE2 / "src"))
 
 from treinar_mlp_ecg_ampliada import dividir, inventario, modelo, pixels  # noqa: E402
@@ -48,7 +49,7 @@ def main() -> None:
     assert int((dados["classe_original"] == "normal").sum()) == 142
     assert int((dados["classe_original"] != "normal").sum()) == 349
     for caminho in dados["arquivo"]:
-        with Image.open(DIRETORIO_FASE2.parent / caminho) as imagem:
+        with Image.open(RAIZ_REPOSITORIO / caminho) as imagem:
             assert imagem.size == (384, 224)
             assert imagem.mode == "L"
             assert not imagem.getexif(), "O derivado não deve preservar EXIF."

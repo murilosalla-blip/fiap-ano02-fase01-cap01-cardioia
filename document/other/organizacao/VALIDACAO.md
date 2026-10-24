@@ -40,4 +40,6 @@ Os desafios REST/e-mail, neuromorfismo e fechamento da Fase 3 continuam pendente
 
 ## Preservação dos links externos
 
+Na revisão para integração do PR #3, corrigi também a raiz usada pelo teste visual ampliado para abrir os derivados: passei a resolver os caminhos a partir da raiz do repositório, mantendo a arquitetura, os dados esperados e as verificações existentes.
+
 Conferi os endereços do README anterior à reorganização. Preservei o vídeo da Fase 2 e restaurei no README os três links do Drive da Fase 1, além da referência ao repositório e do endereço de clonagem. Mantive os links do Drive também no guia da Fase 1. Registrei todos os endereços anteriores em `links_externos_preservados.json` e incluí sua conferência no validador de organização. Não alterei as permissões nem confirmei a disponibilidade dos serviços externos nesta revisão.
