@@ -1,0 +1,1315 @@
+[
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 6,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 0.0
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 7,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 1.02
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 8,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 2.03
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 9,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 3.06
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 10,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 4.09
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 11,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 5.12
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 12,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 6.12
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 13,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 7.12
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 14,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 8.14
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 15,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 9.14
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 16,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 10.14
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 17,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 11.14
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 18,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 12.16
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 19,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 13.16
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 20,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 14.16
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 21,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 15.16
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 22,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 16.17
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 23,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 17.17
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 24,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 18.19
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 25,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 19.2
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 26,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 20.22
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 27,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 21.22
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 28,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 22.23
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 29,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 23.23
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 30,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 24.23
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 31,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 25.23
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 32,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 26.25
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 33,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 27.25
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 34,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 28.25
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 35,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 29.27
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 36,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 30.27
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 37,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 31.27
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 38,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 32.28
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 39,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 33.3
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 40,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 34.31
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 41,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 35.31
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 42,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 36.31
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 43,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 37.34
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 44,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 38.34
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 45,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 39.38
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 46,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 40.38
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 47,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 41.39
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 48,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 42.42
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 49,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 43.42
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 50,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 44.42
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 51,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 45.42
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 52,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 46.44
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 53,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 47.47
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 54,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 48.47
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 55,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 49.48
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 56,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 50.48
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 57,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 51.48
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 58,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 52.48
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 59,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 53.48
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 60,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 54.52
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 61,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 55.52
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 62,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 56.53
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 63,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 57.55
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 64,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 58.55
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 65,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 59.55
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 66,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 60.56
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 67,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 61.56
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 68,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 62.59
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 69,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 63.61
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 70,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 64.62
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 71,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 65.62
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 72,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 66.62
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 73,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 67.62
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 74,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 68.66
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 75,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 69.66
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 76,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 70.66
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 77,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 71.67
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 78,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 72.67
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 79,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 73.67
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 80,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 74.67
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 81,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 75.69
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 82,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 76.69
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 83,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 77.7
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 84,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 78.72
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 85,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 79.73
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 86,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 80.75
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 87,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 81.77
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 88,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 82.78
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 89,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 83.8
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 90,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 84.8
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 91,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 85.81
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 93,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 86.84
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 94,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 87.86
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 95,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 88.88
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 96,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 89.88
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 97,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 90.89
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 98,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 91.92
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 99,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 92.92
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 100,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 93.94
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 101,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 94.94
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 102,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 95.95
+  },
+  {
+    "mode": "stale",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 1,
+    "ageSeconds": 103,
+    "ack": {
+      "sequence": 1,
+      "at": 1792870276870
+    },
+    "elapsed_seconds": 96.95
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 2,
+    "ageSeconds": 0,
+    "ack": {
+      "sequence": 2,
+      "at": 1792870380830
+    },
+    "elapsed_seconds": 97.95
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 2,
+    "ageSeconds": 1,
+    "ack": {
+      "sequence": 2,
+      "at": 1792870380830
+    },
+    "elapsed_seconds": 98.97
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 2,
+    "ageSeconds": 2,
+    "ack": {
+      "sequence": 2,
+      "at": 1792870380830
+    },
+    "elapsed_seconds": 99.98
+  },
+  {
+    "mode": "live",
+    "connection": "online",
+    "broker": "connected",
+    "status": "online",
+    "lastSequence": 2,
+    "ageSeconds": 3,
+    "ack": {
+      "sequence": 2,
+      "at": 1792870380830
+    },
+    "elapsed_seconds": 100.98
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "fonte": "registros de interface do Wokwi",
+  "fila_cheia": "aprovado",
+  "botao_segurado": "aprovado: um pulso nas mensagens capturadas",
+  "reinicio": "aprovado: nova sessao e nova fila em RAM",
+  "capacidade_restaurada": 2000,
+  "mensagens_validadas": 5,
+  "sequencias_recuperadas": [
+    1,
+    2,
+    3,
+    7,
+    8
+  ],
+  "perdas_antes_da_recuperacao": 3,
+  "sessao_antes": "8138d6c080d852d7",
+  "sessao_apos": "9be268f5e539c9bd",
+  "transporte": "serial_demo",
+  "limite": "A fila em RAM e perdida ao reiniciar; isto nao valida MQTT."
+}

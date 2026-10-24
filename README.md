@@ -6,7 +6,7 @@
 
 <br>
 
-# CardioIA — Fases 1 e 2
+# CardioIA — Fases 1 e 2 e monitoramento IoT da Fase 3
 
 ## Grupo Aura
 
@@ -72,6 +72,22 @@ Resultados dos experimentos:
 | Visual — MLP de ECG ampliada | 99 imagens | acurácia balanceada 74,5%; ROC AUC 0,824 |
 
 > Os dados textuais são simulados e intencionalmente separáveis; por isso, 100% no teste não demonstra validade clínica. No experimento visual, o limiar foi definido somente na validação e o conjunto de teste foi preservado. Nenhum experimento realiza diagnóstico nem foi validado para uso assistencial.
+
+## Fase 3 — Monitoramento contínuo em desenvolvimento
+
+Na Fase 3, implementei e validei o ESP32 no Wokwi com DHT22 e botão de pulsos, fila offline limitada, transmissão MQTT com confirmação após persistência e dashboard Node-RED com gráfico, gauge e alertas didáticos. Conferi entrada e retorno dos alertas, recuperação da conexão e deduplicação das leituras.
+
+Mantive no roteiro os dois desafios Ir Além: REST com e-mail simulado e comparação de modelos tradicionais e neuromórficos em séries temporais. Ainda preciso implementar esses desafios e concluir os relatórios e a submissão final.
+
+- [Roteiro completo e etapas de validação](fase3/ROTEIRO_ENTREGA.md)
+- [Estado e instruções da Fase 3](fase3/README.md)
+- [Checklist do enunciado](fase3/CHECKLIST_ENUNCIADO.md)
+
+Concluí as entregas 1 a 3 do roteiro. Preservei as evidências de validação, incluindo 75 medições únicas no ensaio MQTT e 27 medições na revisão do painel. Distingo sinais simulados e temperatura ambiente de uma avaliação clínica.
+
+- [Projeto ESP32 com MQTT no Wokwi](https://wokwi.com/projects/478772789361460225)
+- [Instalação e execução do painel Node-RED](fase3/node-red/README.md)
+- [Validação final do painel e dos alertas](fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md)
 
 ## 🎥 Vídeo de demonstração
 

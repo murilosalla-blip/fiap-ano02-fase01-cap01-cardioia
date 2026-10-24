@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardioIA telemetria simulada v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "device_id", "session_id", "sequence", "collected_uptime_ms", "window_ms", "temperature_c", "humidity_pct", "pulse_count", "heart_rate_bpm", "dht_valid", "dropped_total", "backlog_samples", "simulated", "transport"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "device_id": { "type": "string", "pattern": "^[a-zA-Z0-9_-]{1,64}$" },
+    "session_id": { "type": "string", "pattern": "^[a-f0-9]{16}$" },
+    "sequence": { "type": "integer", "minimum": 1, "maximum": 4294967295 },
+    "collected_uptime_ms": { "type": "integer", "minimum": 0 },
+    "window_ms": { "type": "integer", "minimum": 1 },
+    "temperature_c": { "type": ["number", "null"], "minimum": -40, "maximum": 80 },
+    "humidity_pct": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "pulse_count": { "type": "integer", "minimum": 0 },
+    "heart_rate_bpm": { "type": "number", "minimum": 0 },
+    "dht_valid": { "type": "boolean" },
+    "dropped_total": { "type": "integer", "minimum": 0 },
+    "backlog_samples": { "type": "integer", "minimum": 1, "maximum": 2000 },
+    "simulated": { "const": true },
+    "transport": { "enum": ["serial_demo", "mqtt"] },
+    "sent_uptime_ms": { "type": "integer", "minimum": 0 },
+    "age_ms": { "type": "integer", "minimum": 0 },
+    "attempt": { "type": "integer", "minimum": 1 },
+    "replay": { "type": "boolean" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "transport": { "const": "mqtt" } } },
+      "then": { "required": ["sent_uptime_ms", "age_ms", "attempt", "replay"] }
+    },
+    {
+      "if": { "properties": { "dht_valid": { "const": false } } },
+      "then": { "properties": { "temperature_c": { "type": "null" }, "humidity_pct": { "type": "null" } } },
+      "else": { "properties": { "temperature_c": { "type": "number" }, "humidity_pct": { "type": "number" } } }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "executado_em": "2026-10-24T14:41:34.404418+00:00",
+  "origem": "publicador Python; nao e o ESP32/Wokwi",
+  "broker": "broker.hivemq.com:1883",
+  "topic_root": "cardioia/aura/fase3/478054573982428161/teste-python/cf240a90125d412d",
+  "sessao": "cf240a90125d412d",
+  "medicoes_unicas": 2,
+  "duplicatas": 2,
+  "confirmacoes_omitidas": 1,
+  "conflitos_rejeitados": 1,
+  "resultado": "aprovado"
+}

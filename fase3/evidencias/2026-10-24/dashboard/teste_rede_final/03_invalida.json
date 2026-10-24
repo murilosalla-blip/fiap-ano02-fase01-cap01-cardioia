@@ -1,0 +1,83 @@
+{
+  "mode": "live",
+  "broker": "connected",
+  "status": "online",
+  "session": "391f3b63cfe64f0d",
+  "current": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "391f3b63cfe64f0d",
+    "sequence": 1,
+    "collected_uptime_ms": 5000,
+    "window_ms": 5000,
+    "temperature_c": 24,
+    "humidity_pct": 40,
+    "pulse_count": 6,
+    "heart_rate_bpm": 72,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 5000,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "tempKnown": true,
+  "alerts": [],
+  "pending": false,
+  "history": [
+    {
+      "sequence": 1,
+      "bpm": 72,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1792858037649
+    }
+  ],
+  "events": [
+    {
+      "at": 1792858037649,
+      "kind": "info",
+      "text": "Iniciei o acompanhamento de uma nova sessão."
+    }
+  ],
+  "last": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "391f3b63cfe64f0d",
+    "sequence": 1,
+    "collected_uptime_ms": 5000,
+    "window_ms": 5000,
+    "temperature_c": 24,
+    "humidity_pct": 40,
+    "pulse_count": 6,
+    "heart_rate_bpm": 72,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 5000,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "lastSequence": 1,
+  "ack": null,
+  "ageSeconds": 0,
+  "liveAgeSeconds": 0,
+  "rejected": 1,
+  "duplicates": 1,
+  "totalInChart": 1,
+  "rules": {
+    "pulseEnter": 120,
+    "pulseExit": 108,
+    "tempEnter": 30,
+    "tempExit": 28,
+    "consecutive": 2
+  },
+  "generatedAt": 1792858038179,
+  "testMode": true
+}

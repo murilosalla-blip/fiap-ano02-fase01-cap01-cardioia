@@ -38,3 +38,9 @@ Thumbs.db
 
 # Configurações locais do Claude Code (não fazem parte da entrega acadêmica)
 .claude/
+
+# Ferramentas locais e saídas de compilação da Fase 3
+.tools/
+fase3/build/
+fase3/runtime/
+fase3/node-red/node_modules/

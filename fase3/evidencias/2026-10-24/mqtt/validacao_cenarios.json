@@ -1,0 +1,26 @@
+{
+  "resultado": "aprovado",
+  "ack_omitido_reenvio_ms": 3000,
+  "tentativas_sem_consumidor": 18,
+  "reinicio_consumidor": {
+    "primeira_sequencia_confirmada": 1,
+    "ultima_sequencia_confirmada": 24,
+    "fila_final": 0
+  },
+  "recuperacao_endpoint": {
+    "primeira_sequencia_confirmada": 3,
+    "ultima_sequencia_confirmada": 46,
+    "fila_final": 0
+  },
+  "recuperacao_chave": {
+    "primeira_sequencia_confirmada": 47,
+    "ultima_sequencia_confirmada": 64,
+    "fila_final": 0
+  },
+  "comunicacao_apos_ajuste_timeout": {
+    "primeira_sequencia_confirmada": 1,
+    "ultima_sequencia_confirmada": 6,
+    "fila_final": 0
+  },
+  "perdas_reportadas_nos_pacotes_conferidos": 0
+}

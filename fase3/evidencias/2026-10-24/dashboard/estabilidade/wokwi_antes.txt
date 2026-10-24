@@ -1,0 +1,111 @@
+Browser tab: 253594054, Title: "CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator", URL: "https://wokwi.com/projects/478772789361460225".
+0 AXWebArea CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator, URL: wokwi.com/projects/478772789361460225
+	1 container
+		2 container
+			3 link wokwi.com/
+			4 button (disabled) SAVE
+			5 button
+			6 button SHARE
+			7 button Like this project
+			8 link Description: Docs, Value: docs.wokwi.com/?utm_source=wokwi
+			9 button toggle dark mode
+			10 button SIGN IN SIGN UP
+				11 text SIGN IN
+				12 text SIGN UP
+		13 container
+			14 container
+				15 button sketch.ino
+				16 button diagram.json
+				17 button cardioia_mqtt.ino
+				18 button edge_core.h
+				19 button mqtt_delivery.h
+				20 button libraries.txt
+				21 button Library Manager
+				22 button
+				23 container
+					24 editor (settable) Description: Editor content;Press Alt+F1 for Accessibility Options., Value: // CardioIA: firmware em cardioia_mqtt.ino
+
+			25 container
+				26 button Simulation
+				27 container
+					28 button Restart the simulation
+					29 button Stop the simulation
+					30 button Pause
+					31 button WiFi: Connected to Wokwi-GUEST (Public IoT Gateway)
+				56 text 00:33.555 2%
+				33 container
+					34 image
+						35 container
+							36 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+						37 text ESP32
+					38 image
+						39 text DHT22
+					40 button  green pushbutton
+						41 image
+					42 container connection
+						43 checkbox (settable, integer) 1
+						44 image
+					45 text Temperatura
+e umidade
+					46 text Batimento simulado
+Pressione B
+					47 text Conexao simulada
+Esquerda: offline
+Direita: online
+					48 image
+				49 container simple-tabpanel-0
+					50 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA MQTT sessao=3c222a2492134e3c capacidade=2000
+# bytes_fila=80016 heap_livre=206188
+# Chave direita=online; Serial: broker_off / broker_on
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+# conexao_simulada=online
+# wifi_conectando
+# coleta seq=2 fila=2 perdas=0 resultado=armazenada
+# mqtt_falha estado=-4 porta=1883
+# mqtt_conectado: aguardando confirmacao do consumidor
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3c222a2492134e3c","sequence":1,"collected_uptime_ms":6394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"mqtt","sent_uptime_ms":15152,"age_ms":8758,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# coleta seq=3 fila=3 perdas=0 resultado=armazenada
+# ack_confirmado seq=1 fila=2
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3c222a2492134e3c","sequence":2,"collected_uptime_ms":11394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"mqtt","sent_uptime_ms":16437,"age_ms":5043,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# mqtt_conectado: aguardando confirmacao do consumidor
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3c222a2492134e3c","sequence":2,"collected_uptime_ms":11394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"mqtt","sent_uptime_ms":20251,"age_ms":8857,"attempt":2,"replay":false}
+# mqtt_publicacao=tentada
+# coleta seq=4 fila=3 perdas=0 resultado=armazenada
+# ack_confirmado seq=2 fila=2
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3c222a2492134e3c","sequence":3,"collected_uptime_ms":16394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"mqtt","sent_uptime_ms":21467,"age_ms":5073,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=3 fila=1
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3c222a2492134e3c","sequence":4,"collected_uptime_ms":21394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":22202,"age_ms":808,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=4 fila=0
+# mqtt_conectado: aguardando confirmacao do consumidor
+# coleta seq=5 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3c222a2492134e3c","sequence":5,"collected_uptime_ms":26394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":15,"heart_rate_bpm":180,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":26394,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=5 fila=0
+# coleta seq=6 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"3c222a2492134e3c","sequence":6,"collected_uptime_ms":31394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":18,"heart_rate_bpm":216,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":31394,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=6 fila=0
+# mqtt_conectado: aguardando confirmacao do consumidor
+
+					51 text field (settable)
+					52 button Serial plotter
+					53 button Auto scroll
+					54 button
+					55 button Collapse
+
+The focused UI element is 40 button  green pushbutton

@@ -1,0 +1,13 @@
+{
+  "resultado": "aprovado",
+  "session_id": "546cb527f2cc13d5",
+  "leituras_unicas": 27,
+  "intervalo": [
+    1,
+    27
+  ],
+  "sem_lacunas": true,
+  "perdas_reportadas": 0,
+  "ultima_temperatura_c": 24.79999924,
+  "ultima_umidade_pct": 6.5
+}

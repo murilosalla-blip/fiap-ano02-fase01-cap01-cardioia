@@ -1,0 +1,8 @@
+{
+  "resultado": "aprovado",
+  "painel_http": 200,
+  "editor_http": 200,
+  "consulta_estado_http": 200,
+  "consumidor_conectado": true,
+  "comando": "node fase3/node-red/iniciar.js --com-consumidor"
+}

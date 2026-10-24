@@ -1,0 +1,76 @@
+{
+  "mode": "offline",
+  "connection": "device_offline",
+  "broker": "connected",
+  "status": "offline_simulated",
+  "session": "546cb527f2cc13d5",
+  "current": null,
+  "tempKnown": false,
+  "alerts": [],
+  "pending": false,
+  "history": [
+    {
+      "sequence": 1,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1792870276816,
+      "ageMs": 0
+    },
+    {
+      "sequence": 2,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1792870380550,
+      "ageMs": 0
+    }
+  ],
+  "events": [
+    {
+      "at": 1792870276816,
+      "kind": "info",
+      "text": "Iniciei o acompanhamento de uma nova sessão."
+    }
+  ],
+  "last": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "546cb527f2cc13d5",
+    "sequence": 2,
+    "collected_uptime_ms": 11395,
+    "window_ms": 5000,
+    "temperature_c": 24,
+    "humidity_pct": 40,
+    "pulse_count": 0,
+    "heart_rate_bpm": 0,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 11395,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "lastSequence": 2,
+  "ack": {
+    "sequence": 2,
+    "at": 1792870380830
+  },
+  "ageSeconds": 101,
+  "liveAgeSeconds": null,
+  "rejected": 0,
+  "duplicates": 0,
+  "totalInChart": 2,
+  "rules": {
+    "pulseEnter": 120,
+    "pulseExit": 108,
+    "tempEnter": 30,
+    "tempExit": 28,
+    "consecutive": 2
+  },
+  "generatedAt": 1792870482517,
+  "testMode": false
+}

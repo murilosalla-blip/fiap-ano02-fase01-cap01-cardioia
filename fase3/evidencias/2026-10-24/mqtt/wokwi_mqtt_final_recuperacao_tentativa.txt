@@ -1,0 +1,268 @@
+Browser tab: 2, Title: "CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator", URL: "https://wokwi.com/projects/478772789361460225".
+1 AXWebArea CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator, URL: wokwi.com/projects/478772789361460225
+	2 container
+		3 container
+			4 link wokwi.com/
+			6 button
+			7 button Like this project
+			8 button toggle dark mode
+			9 button SIGN IN SIGN UP
+				10 text SIGN IN
+				11 text SIGN UP
+		12 tab group
+			13 tab (selected, settable, boolean) Simulation, Value: 1
+			14 tab (selectable, settable, boolean) Code, Value: 0
+		15 container
+			16 button Restart the simulation
+			36 button Stop the simulation
+			37 button Pause
+			46 button WiFi: Connected to Wokwi-GUEST (Public IoT Gateway)
+			55 text 03:14.752 87%
+			20 container
+				21 image
+					22 container
+						23 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+					24 text ESP32
+				25 image
+					26 text DHT22
+				27 button  green pushbutton
+					28 image
+				29 container connection
+					30 checkbox (settable, integer) 1
+					31 image
+				32 text Temperatura
+e umidade
+				33 text Batimento simulado
+Pressione B
+				34 text Conexao simulada
+Esquerda: offline
+Direita: online
+				35 image
+			48 container simple-tabpanel-0
+				49 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA MQTT sessao=53f75a2264ae4c7d capacidade=2000
+# bytes_fila=80016 heap_livre=206188
+# Chave direita=online; Serial: broker_off / broker_on
+# conexao_simulada=online
+# wifi_conectando
+# mqtt_conectado: aguardando confirmacao do consumidor
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":1,"collected_uptime_ms":6394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":6394,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=1 fila=0
+# coleta seq=2 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":2,"collected_uptime_ms":11394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":11394,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=2 fila=0
+# teste_broker: endpoint TCP indisponivel, WiFi permanece ativo
+# coleta seq=3 fila=1 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=4 fila=2 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=5 fila=3 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=6 fila=4 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=7 fila=5 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=8 fila=6 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=9 fila=7 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=10 fila=8 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=11 fila=9 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=12 fila=10 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=13 fila=11 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=14 fila=12 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=15 fila=13 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=16 fila=14 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=17 fila=15 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=18 fila=16 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# coleta seq=19 fila=17 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# teste_broker: endpoint normal restaurado
+# coleta seq=20 fila=18 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=21 fila=19 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# coleta seq=22 fila=20 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# coleta seq=23 fila=21 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=24 fila=22 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# coleta seq=25 fila=23 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# coleta seq=26 fila=24 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=27 fila=25 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# coleta seq=28 fila=26 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# coleta seq=29 fila=27 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# mqtt_recuperacao: reiniciando WiFi apos tres falhas
+# wifi_conectando
+# coleta seq=30 fila=28 perdas=0 resultado=armazenada
+# mqtt_falha estado=-2 porta=1883
+# mqtt_falha estado=-4 porta=1883
+# coleta seq=31 fila=29 perdas=0 resultado=armazenada
+# mqtt_conectado: aguardando confirmacao do consumidor
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":3,"collected_uptime_ms":16394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":29,"simulated":true,"transport":"mqtt","sent_uptime_ms":159235,"age_ms":142841,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=3 fila=28
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":4,"collected_uptime_ms":21394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":28,"simulated":true,"transport":"mqtt","sent_uptime_ms":160035,"age_ms":138641,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=4 fila=27
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":5,"collected_uptime_ms":26394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":27,"simulated":true,"transport":"mqtt","sent_uptime_ms":160851,"age_ms":134457,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=32 fila=28 perdas=0 resultado=armazenada
+# ack_confirmado seq=5 fila=27
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":6,"collected_uptime_ms":31394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":27,"simulated":true,"transport":"mqtt","sent_uptime_ms":161566,"age_ms":130172,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=6 fila=26
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":7,"collected_uptime_ms":36394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":26,"simulated":true,"transport":"mqtt","sent_uptime_ms":162369,"age_ms":125975,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=7 fila=25
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":8,"collected_uptime_ms":41394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":25,"simulated":true,"transport":"mqtt","sent_uptime_ms":163103,"age_ms":121709,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=8 fila=24
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":9,"collected_uptime_ms":46394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":24,"simulated":true,"transport":"mqtt","sent_uptime_ms":163898,"age_ms":117504,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=9 fila=23
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":10,"collected_uptime_ms":51394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":23,"simulated":true,"transport":"mqtt","sent_uptime_ms":164662,"age_ms":113268,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=10 fila=22
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":11,"collected_uptime_ms":56394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":22,"simulated":true,"transport":"mqtt","sent_uptime_ms":165472,"age_ms":109078,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=11 fila=21
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":12,"collected_uptime_ms":61394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":21,"simulated":true,"transport":"mqtt","sent_uptime_ms":166246,"age_ms":104852,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=33 fila=22 perdas=0 resultado=armazenada
+# ack_confirmado seq=12 fila=21
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":13,"collected_uptime_ms":66394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":21,"simulated":true,"transport":"mqtt","sent_uptime_ms":166951,"age_ms":100557,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=13 fila=20
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":14,"collected_uptime_ms":71394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":20,"simulated":true,"transport":"mqtt","sent_uptime_ms":167744,"age_ms":96350,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=14 fila=19
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":15,"collected_uptime_ms":76394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":19,"simulated":true,"transport":"mqtt","sent_uptime_ms":168528,"age_ms":92134,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=15 fila=18
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":16,"collected_uptime_ms":81394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":18,"simulated":true,"transport":"mqtt","sent_uptime_ms":169261,"age_ms":87867,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=16 fila=17
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":17,"collected_uptime_ms":86394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":17,"simulated":true,"transport":"mqtt","sent_uptime_ms":170024,"age_ms":83630,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=17 fila=16
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":18,"collected_uptime_ms":91394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":16,"simulated":true,"transport":"mqtt","sent_uptime_ms":170791,"age_ms":79397,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=34 fila=17 perdas=0 resultado=armazenada
+# ack_confirmado seq=18 fila=16
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":19,"collected_uptime_ms":96394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":16,"simulated":true,"transport":"mqtt","sent_uptime_ms":171527,"age_ms":75133,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=19 fila=15
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":20,"collected_uptime_ms":101394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":15,"simulated":true,"transport":"mqtt","sent_uptime_ms":172312,"age_ms":70918,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=20 fila=14
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":21,"collected_uptime_ms":106394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":14,"simulated":true,"transport":"mqtt","sent_uptime_ms":173106,"age_ms":66712,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=21 fila=13
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":22,"collected_uptime_ms":111394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":13,"simulated":true,"transport":"mqtt","sent_uptime_ms":173862,"age_ms":62468,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=22 fila=12
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":23,"collected_uptime_ms":116394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":12,"simulated":true,"transport":"mqtt","sent_uptime_ms":174655,"age_ms":58261,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=23 fila=11
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":24,"collected_uptime_ms":121394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":11,"simulated":true,"transport":"mqtt","sent_uptime_ms":175411,"age_ms":54017,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=24 fila=10
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":25,"collected_uptime_ms":126394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":10,"simulated":true,"transport":"mqtt","sent_uptime_ms":176207,"age_ms":49813,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=35 fila=11 perdas=0 resultado=armazenada
+# ack_confirmado seq=25 fila=10
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":26,"collected_uptime_ms":131394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":10,"simulated":true,"transport":"mqtt","sent_uptime_ms":176872,"age_ms":45478,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=26 fila=9
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":27,"collected_uptime_ms":136394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":9,"simulated":true,"transport":"mqtt","sent_uptime_ms":177641,"age_ms":41247,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=27 fila=8
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":28,"collected_uptime_ms":141394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":8,"simulated":true,"transport":"mqtt","sent_uptime_ms":178435,"age_ms":37041,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=28 fila=7
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":29,"collected_uptime_ms":146394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":7,"simulated":true,"transport":"mqtt","sent_uptime_ms":179141,"age_ms":32747,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=29 fila=6
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":30,"collected_uptime_ms":151394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":6,"simulated":true,"transport":"mqtt","sent_uptime_ms":179925,"age_ms":28531,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=30 fila=5
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":31,"collected_uptime_ms":156394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":5,"simulated":true,"transport":"mqtt","sent_uptime_ms":180638,"age_ms":24244,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=31 fila=4
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":32,"collected_uptime_ms":161394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":4,"simulated":true,"transport":"mqtt","sent_uptime_ms":181302,"age_ms":19908,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# coleta seq=36 fila=5 perdas=0 resultado=armazenada
+# ack_confirmado seq=32 fila=4
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":33,"collected_uptime_ms":166394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":4,"simulated":true,"transport":"mqtt","sent_uptime_ms":181917,"age_ms":15523,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=33 fila=3
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":34,"collected_uptime_ms":171394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":3,"simulated":true,"transport":"mqtt","sent_uptime_ms":182721,"age_ms":11327,"attempt":1,"replay":true}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=34 fila=2
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":35,"collected_uptime_ms":176394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":2,"simulated":true,"transport":"mqtt","sent_uptime_ms":183436,"age_ms":7042,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=35 fila=1
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":36,"collected_uptime_ms":181394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":184231,"age_ms":2837,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=36 fila=0
+# coleta seq=37 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":37,"collected_uptime_ms":186394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":186394,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=37 fila=0
+# coleta seq=38 fila=1 perdas=0 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"53f75a2264ae4c7d","sequence":38,"collected_uptime_ms":191394,"window_ms":5000,"temperature_c":24,"humidity_pct":40,"pulse_count":0,"heart_rate_bpm":0,"dht_valid":true,"dropped_total":0,"backlog_samples":1,"simulated":true,"transport":"mqtt","sent_uptime_ms":191394,"age_ms":0,"attempt":1,"replay":false}
+# mqtt_publicacao=tentada
+# ack_confirmado seq=38 fila=0
+
+				50 text field (settable)
+				51 button Serial plotter
+				52 button Auto scroll
+				53 button
+				54 button Collapse
+
+The focused UI element is 50 text field (settable)

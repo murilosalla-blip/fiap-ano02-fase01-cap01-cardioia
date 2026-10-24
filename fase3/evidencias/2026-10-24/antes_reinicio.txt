@@ -1,0 +1,102 @@
+Browser tab: 1, Title: "CardioIA Grupo Aura Fase 3 Edge Entrega 1 - Wokwi ESP32, STM32, Arduino Simulator", URL: "https://wokwi.com/projects/478054573982428161".
+1 AXWebArea CardioIA Grupo Aura Fase 3 Edge Entrega 1 - Wokwi ESP32, STM32, Arduino Simulator, URL: wokwi.com/projects/478054573982428161
+	2 container
+		3 container
+			4 link wokwi.com/
+			5 button SAVE
+			6 button
+			7 button SHARE
+			8 button Like this project
+			9 button toggle dark mode
+			10 button SIGN IN SIGN UP
+				11 text SIGN IN
+				12 text SIGN UP
+		13 container
+			14 container
+				15 button sketch.ino
+					46 text sketch.ino
+				16 button diagram.json
+				17 button cardioia_edge.ino
+				18 button edge_core.h
+				19 button libraries.txt
+				20 button Library Manager
+				21 button
+				22 container
+					23 editor (settable) Description: Editor content;Press Alt+F1 for Accessibility Options., Value: // Teste temporario de fila cheia; restaurar 2000 apos a validacao.
+#define CARDIOIA_QUEUE_CAPACITY 3
+
+			24 container
+				25 button Simulation
+				26 container
+					27 button Restart the simulation
+					49 button Stop the simulation
+					50 button Pause
+				59 text 01:15.851 93%
+				30 container
+					31 image
+						32 container
+							33 text VIN GND D13 D12 D14 D27 D26 D25 D33 D32 D35 D34 VN VP EN 3V3 GND D15 D2 D4 RX2 TX2 D5 D18 D19 D21 RX0 TX0 D22 D23
+						34 text ESP32
+					35 image
+						36 text DHT22
+					37 button  green pushbutton
+						38 image
+					39 container connection
+						40 checkbox (settable, integer) 0
+						41 image
+					42 text Temperatura
+e umidade
+					43 text Batimento simulado
+Pressione B
+					44 text Conexao simulada
+Esquerda: offline
+Direita: online
+					45 image
+				52 container simple-tabpanel-0
+					53 text ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+# CardioIA Edge: saida SERIAL LOCAL, sem MQTT nesta entrega
+# Botao B = pulso; chave esquerda = offline; direita = online
+# sessao=8138d6c080d852d7 capacidade=3 tamanho_amostra=40 bytes_fila=136
+# coleta seq=1 fila=1 perdas=0 resultado=armazenada
+# coleta seq=2 fila=2 perdas=0 resultado=armazenada
+# coleta seq=3 fila=3 perdas=0 resultado=armazenada
+# coleta seq=4 fila=3 perdas=1 resultado=fila_cheia
+# coleta seq=5 fila=3 perdas=2 resultado=fila_cheia
+# coleta seq=6 fila=3 perdas=3 resultado=fila_cheia
+# conexao_simulada=online
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"8138d6c080d852d7","sequence":1,"collected_uptime_ms":5505,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":3,"backlog_samples":3,"simulated":true,"transport":"serial_demo"}
+# coleta seq=7 fila=3 perdas=3 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"8138d6c080d852d7","sequence":2,"collected_uptime_ms":10505,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":3,"backlog_samples":3,"simulated":true,"transport":"serial_demo"}
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"8138d6c080d852d7","sequence":3,"collected_uptime_ms":15505,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":1,"heart_rate_bpm":12.00,"dht_valid":true,"dropped_total":3,"backlog_samples":2,"simulated":true,"transport":"serial_demo"}
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"8138d6c080d852d7","sequence":7,"collected_uptime_ms":35505,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":3,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=8 fila=1 perdas=3 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"8138d6c080d852d7","sequence":8,"collected_uptime_ms":40505,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":3,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=9 fila=1 perdas=3 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"8138d6c080d852d7","sequence":9,"collected_uptime_ms":45505,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":3,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=10 fila=1 perdas=3 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"8138d6c080d852d7","sequence":10,"collected_uptime_ms":50505,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":3,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# coleta seq=11 fila=1 perdas=3 resultado=armazenada
+{"schema_version":1,"device_id":"cardioia-esp32-01","session_id":"8138d6c080d852d7","sequence":11,"collected_uptime_ms":55505,"window_ms":5000,"temperature_c":24.00,"humidity_pct":40.00,"pulse_count":0,"heart_rate_bpm":0.00,"dht_valid":true,"dropped_total":3,"backlog_samples":1,"simulated":true,"transport":"serial_demo"}
+# conexao_simulada=offline
+# coleta seq=12 fila=1 perdas=3 resultado=armazenada
+# coleta seq=13 fila=2 perdas=3 resultado=armazenada
+# coleta seq=14 fila=3 perdas=3 resultado=armazenada
+# coleta seq=15 fila=3 perdas=4 resultado=fila_cheia
+
+					54 text field (settable)
+					55 button Serial plotter
+					56 button Auto scroll
+					57 button
+					58 button Collapse
+
+The focused UI element is 37 button  green pushbutton
