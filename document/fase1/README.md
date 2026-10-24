@@ -12,7 +12,15 @@ Reuni dados numéricos, textuais e visuais para preparar as etapas seguintes do 
 - [Documento submetido](cardioia_fase1_entrega_fiap.pdf)
 - [Enunciado e referências das aulas](../other/referencias/fase1/)
 
-## Reprodução
+## Materiais externos da entrega
+
+Preservo os endereços compartilhados na entrega original:
+
+- [Parte 1 — Dados Numéricos](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing)
+- [Parte 2 — Dados Textuais](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing)
+- [Parte 3 — Dados Visuais](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing)
+
+## Reprodução dos scripts
 
 Executo os comandos a partir da raiz do repositório. Sigo os pré-requisitos e a preparação dos dados descritos nos documentos de cada modalidade.
 

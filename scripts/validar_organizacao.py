@@ -11,6 +11,12 @@ ROOT = Path(__file__).resolve().parents[1]
 def verificar():
     registro = json.loads((ROOT / "document/other/organizacao/mapa_arquivos.json").read_text(encoding="utf-8"))
     erros = []
+    links_externos = json.loads((ROOT / "document/other/organizacao/links_externos_preservados.json").read_text(encoding="utf-8"))
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    urls_atuais = set(re.findall(r"https?://[^\s<>\"')]+", readme))
+    for url in links_externos["urls"]:
+        if url not in urls_atuais:
+            erros.append("Link externo removido do README: " + url)
     integros = 0
     for item in registro["arquivos"]:
         p = ROOT / item["depois"]

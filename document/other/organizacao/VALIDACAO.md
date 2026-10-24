@@ -7,7 +7,7 @@ Conferi a estrutura e a execução em 24/10/2026, na branch `codex/organizar-est
 - Localizei os destinos dos 397 arquivos que já estavam versionados.
 - Conferi 310 conteúdos protegidos da reorganização, incluindo firmware, datasets, imagens e registros. Preservei binários byte a byte; normalizei somente CRLF/LF na comparação dos textos e conferi o fluxo JSON por conteúdo estruturado.
 - Conferi os 223 arquivos do manifesto anterior da Fase 1, usando os destinos atuais ou as cópias originais arquivadas. Preservei o manifesto e seus hashes anteriores.
-- Validei 88 links locais e mantive as saídas originais dos quatro notebooks.
+- Validei 89 links locais e mantive as saídas originais dos quatro notebooks.
 - Separei as aulas em 11 PDFs da Fase 1, 12 da Fase 2 e 11 da Fase 3, com enunciados separados por fase.
 - Conferi a descrição do README com 207 palavras, abaixo do limite de 600 palavras do modelo.
 
@@ -37,3 +37,7 @@ Compilei todas as células dos quatro notebooks e conferi os caminhos dos experi
 Não publiquei uma nova versão do Streamlit, do portal ou dos projetos Wokwi para validar esta mudança de pastas. Preservei os endereços e a entrada do Streamlit Cloud; testei localmente a entrada anterior e o código atual. A publicação independente do portal permanece no seu próprio repositório.
 
 Os desafios REST/e-mail, neuromorfismo e fechamento da Fase 3 continuam pendentes no roteiro; esta reorganização não altera a situação dessas entregas.
+
+## Preservação dos links externos
+
+Conferi os endereços do README anterior à reorganização. Preservei o vídeo da Fase 2 e restaurei no README os três links do Drive da Fase 1, além da referência ao repositório e do endereço de clonagem. Mantive os links do Drive também no guia da Fase 1. Registrei todos os endereços anteriores em `links_externos_preservados.json` e incluí sua conferência no validador de organização. Não alterei as permissões nem confirmei a disponibilidade dos serviços externos nesta revisão.

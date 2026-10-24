@@ -87,10 +87,20 @@ Abro [monitoramento local](http://127.0.0.1:1880/dashboard/monitoramento). Uso o
 
 ## Aplicações e registros anteriores
 
+- [Repositório do exercício](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia)
+- [Fase 1 — materiais de dados numéricos no Drive](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing)
+- [Fase 1 — materiais de dados textuais no Drive](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing)
+- [Fase 1 — materiais de dados visuais no Drive](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing)
 - [Aplicativo Streamlit](https://cardioia-fiap.streamlit.app/)
 - [Portal publicado](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/)
 - [Repositório independente do portal](https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal)
 - [Vídeo da Fase 2](https://youtu.be/qoKjl6oeotY)
+
+Preservo os links externos das entregas anteriores, incluindo as três pastas da Fase 1 e a gravação completa da Fase 2. Em uma pasta nova, obtenho uma cópia do código com:
+
+```powershell
+git clone https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git
+```
 
 Preservo os documentos submetidos e os resultados anteriores. Identifico mudanças de caminho no [mapa de arquivos](document/other/organizacao/mapa_arquivos.json); não uso a reorganização como nova evidência de conclusão dos desafios pendentes.
 

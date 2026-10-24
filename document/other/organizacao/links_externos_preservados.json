@@ -1,0 +1,25 @@
+{
+  "descricao": "Preservo todos os endereços externos que constavam no README anterior à organização, incluindo materiais da Fase 1 e a gravação da Fase 2.",
+  "commit_origem": "643d8abf3c7c6929087364065f2f8c547a184066",
+  "arquivo_origem": "README.md",
+  "urls": [
+    "http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1",
+    "http://creativecommons.org/ns#",
+    "http://purl.org/dc/terms/",
+    "https://cardioia-fiap.streamlit.app/",
+    "https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing",
+    "https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing",
+    "https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing",
+    "https://fiap.com.br",
+    "https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal",
+    "https://github.com/agodoi/template",
+    "https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia",
+    "https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git",
+    "https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/",
+    "https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1",
+    "https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1",
+    "https://wokwi.com/projects/478772789361460225",
+    "https://www.fiap.com.br/",
+    "https://youtu.be/qoKjl6oeotY"
+  ]
+}

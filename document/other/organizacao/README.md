@@ -13,6 +13,8 @@ Organizei as três fases em 24/10/2026 com base no [modelo FIAP](https://github.
 
 ## Compatibilidade que preservei
 
+Preservo no README os links externos das entregas anteriores, incluindo as três pastas de materiais da Fase 1 no Drive e a gravação da Fase 2 no YouTube. Registrei os endereços originais em [links_externos_preservados.json](links_externos_preservados.json); verifico sua presença com `python scripts/validar_organizacao.py`. Mantenho também os links nos guias das respectivas fases. Essa conferência verifica a preservação dos endereços; não altera as permissões dos serviços externos.
+
 Mantenho `fase2/app.py` e `fase2/requirements.txt` como entradas para o Streamlit Cloud. O aplicativo completo fica em `src/fase2/app.py`. A publicação independente do portal usa outro repositório, cuja estrutura não alterei.
 
 Mantenho `python src/fase3/python/consumidor_mqtt.py` e `node fase3/node-red/iniciar.js --com-consumidor` por meio de entradas que encaminham aos componentes atuais. O banco, os eventos e o diretório de execução continuam em `fase3/runtime/`; não movo o banco durante uma sessão em andamento. Para uma instalação nova, sigo os comandos atuais do [guia do painel](../../fase3/node-red/README.md).
