@@ -6,7 +6,7 @@ import os
 from streamlit.testing.v1 import AppTest
 
 
-CAMINHO_APP = Path(os.environ.get("CARDIOIA_APP_PATH", Path(__file__).resolve().parents[1] / "app.py"))
+CAMINHO_APP = Path(os.environ.get("CARDIOIA_APP_PATH", Path(__file__).resolve().parents[1] / "app.py")).resolve()
 
 app = AppTest.from_file(str(CAMINHO_APP))
 app.run(timeout=60)
