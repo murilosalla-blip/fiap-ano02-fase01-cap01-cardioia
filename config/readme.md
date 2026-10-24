@@ -1,1 +1,3 @@
-Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+# Configurações
+
+Separo dependências e parâmetros em [fase2](fase2/) e [fase3](fase3/). Mantenho os contratos em [fase3/contratos](fase3/contratos/) e a configuração do Node-RED em [fase3/node-red/settings.js](fase3/node-red/settings.js). Mantenho manifestos e lockfiles junto dos aplicativos quando as ferramentas exigem essa localização.

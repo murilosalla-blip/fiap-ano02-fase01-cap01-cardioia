@@ -1,113 +1,61 @@
+<img src="../assets/logo-fiap.png" alt="FIAP" width="30%">
 
-<img src="../assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=30% height=30%>
+# AI Project Document — CardioIA
 
-# AI Project Document - Módulo 1 - FIAP
+**Grupo Aura:** Murilo Salla (RM568041), Elias da Silva de Souza (RM568500) e Julia Duarte de Carvalho (RM567816).
 
-**_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
+**Tutor:** Leonardo Ruiz Orabona. **Coordenador:** André Godoi Chiovato.
 
-## Nome do Grupo
+## 1. Introdução
 
-Grupo Aura
+Desenvolvo o CardioIA como projeto acadêmico para estudar dados cardiovasculares, modelos de IA e integração IoT. Organizo a evolução por fase e preservo as evidências de cada entrega. Uso dados públicos, bases textuais simuladas e sensores simulados; não interpreto os resultados como diagnóstico ou validação clínica.
 
-#### Nomes dos integrantes do grupo
+## 2. Visão geral
 
-- Murilo Salla — RM568041
-- Elias da Silva de Souza — RM568500
-- Julia Duarte de Carvalho — RM567816
+Na Fase 1, preparei dados numéricos, textuais e visuais. Na Fase 2, implementei extração de sintomas, classificação textual e experimentos complementares, com interfaces demonstrativas. Na Fase 3, integrei coleta no ESP32, recuperação offline, transporte MQTT, persistência e monitoramento em Node-RED.
 
+| Fase | Documentação de referência |
+|---|---|
+| 1 | [Guia e submissão](fase1/README.md) |
+| 2 | [Execução](fase2/README.md) e [relatório da entrega](fase2/RELATORIO_ENTREGA.md) |
+| 3 | [Execução](fase3/README.md), [roteiro](fase3/ROTEIRO_ENTREGA.md) e [checklist](fase3/CHECKLIST_ENUNCIADO.md) |
 
+## 3. Desenvolvimento
 
-## Sumário
+### 3.1 Dados e preparação
 
-[1. Introdução](#c1)
+Reuni 303 registros e 14 variáveis da base Cleveland, textos derivados de fontes oficiais de saúde e uma amostra de 120 imagens de ECG. Preservei a rastreabilidade das fontes, os dicionários e os scripts de preparação da Fase 1. Na Fase 2, construí uma base textual simulada e usei uma base visual ampliada com 491 imagens deduplicadas, mantendo as limitações de identificação de pacientes registradas no relatório.
 
-[2. Visão Geral do Projeto](#c2)
+### 3.2 Modelos e interfaces
 
-[3. Desenvolvimento do Projeto](#c3)
+Implementei um mapa de conhecimento para dez relatos de sintomas e um classificador TF-IDF com regressão logística. Separei os pares de cenários entre treino e teste para evitar vazamento. Também comparei modelos tabulares, avaliei desempenho por subgrupos e experimentei MLPs visuais. Construí o aplicativo Streamlit e o portal React como interfaces acadêmicas, mantendo as modalidades e suas limitações explícitas.
 
-[4. Resultados e Avaliações](#c4)
+### 3.3 Integração e testes da Fase 3
 
-[5. Conclusões e Trabalhos Futuros](#c5)
+Implementei coleta em janelas de cinco segundos simulados, fila em RAM limitada a 2.000 leituras e contagem de descartes. Usei MQTT, identificação por dispositivo/sessão/sequência, deduplicação SQLite e ACK somente depois da gravação. A fila não sobrevive ao desligamento do ESP32. No Node-RED, separei conexão, atualidade da leitura, recuperação e alertas didáticos, com histórico limitado e confirmação em duas janelas consecutivas.
 
-[6. Referências](#c6)
+Testei os núcleos C++, os contratos, a persistência, as regras do painel e os fluxos de execução. Registrei separadamente os ensaios Python, as execuções no Wokwi e as validações do painel para não confundir publicações sintéticas de teste com evidência do ESP32.
 
-[Anexos](#c7)
+## 4. Resultados e avaliações
 
-<br>
+Na Fase 1, concluí a preparação das três modalidades. Na Fase 2, registrei acurácia de 1,000 em 24 frases simuladas de teste, ROC AUC tabular de aproximadamente 0,958 em 61 registros e acurácia balanceada de aproximadamente 0,745 no experimento visual ampliado com 99 imagens de teste. Consulto divisões, métricas, vieses e limitações no [relatório da Fase 2](fase2/RELATORIO_ENTREGA.md); não generalizo esses números para uso clínico.
 
-# <a name="c1"></a>1. Introdução
+Na Fase 3, validei coleta offline, retomada, reenvio, deduplicação, pulsos, alteração da temperatura ambiente e alertas do dashboard. Preservo os [resultados Edge](other/fase3/evidencias/2026-10-24/RESULTADOS.md), [MQTT](other/fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md) e [Node-RED](other/fase3/evidencias/2026-10-24/dashboard/RESULTADOS.md).
 
-## 1.1. Escopo do Projeto
+## 5. Conclusões e trabalhos futuros
 
-### 1.1.1. Contexto da Inteligência Artificial
+Concluí a base de dados e os experimentos das Fases 1 e 2 e validei as três primeiras entregas práticas da Fase 3. Ainda preciso implementar e validar REST/e-mail, realizar a comparação com modelos neuromórficos e concluir os relatórios e a submissão final. Mantenho o acompanhamento no [roteiro da Fase 3](fase3/ROTEIRO_ENTREGA.md).
 
-A Inteligência Artificial aplicada à saúde é um segmento em expansão global, com destaque para o apoio ao diagnóstico, triagem e monitoramento de doenças crônicas. As doenças cardiovasculares são a principal causa de mortalidade no mundo, o que torna a cardiologia um dos campos de maior potencial de impacto para soluções de IA — desde classificadores que auxiliam a identificar risco cardíaco até sistemas de visão computacional para leitura de exames e assistentes virtuais de orientação ao paciente. O projeto **CardioIA** se insere nesse contexto como uma plataforma acadêmica que simula, ao longo de 7 fases, um ecossistema de cardiologia inteligente, abordando módulos de dados, Machine Learning, IoT, Visão Computacional e NLP.
+## 6. Referências
 
-### 1.1.2. Descrição da Solução Desenvolvida
+- [Fontes e documentação das modalidades da Fase 1](fase1/README.md).
+- [Referências e limitações dos experimentos da Fase 2](fase2/RELATORIO_ENTREGA.md).
+- [Modelo oficial de repositório FIAP](https://github.com/agodoi/templateFiapVfinal), revisão `50e1e2720637b222357a7ebd1919c38a44af7cd2`.
+- [Enunciados e aulas por fase](other/referencias/README.md).
 
-Nesta Fase 1, o papel da equipe é o de cientista de dados hospitalar, responsável por buscar, preparar, validar e documentar três tipos de dados fundamentais para o CardioIA: **dados numéricos** (variáveis clínicas de pacientes cardíacos), **dados textuais** (materiais sobre saúde cardiovascular para NLP) e **dados visuais** (imagens de exame cardiológico para Visão Computacional). Nenhum modelo de IA foi treinado nesta etapa — o objetivo é consolidar uma base de dados curada, com governança e rastreabilidade, que sustentará o desenvolvimento de soluções de IA nas fases seguintes do curso.
+## 7. Anexos
 
-# <a name="c2"></a>2. Visão Geral do Projeto
-
-## 2.1. Objetivos do Projeto
-
-Buscar, organizar e documentar três tipos de dados fundamentais para pacientes cardíacos — numéricos, textuais e visuais — com foco em governança de dados e atenção a vieses desde o início, formando uma base sólida e rastreável para as fases seguintes do CardioIA (diagnóstico automatizado, IoT, visão computacional e assistente virtual).
-
-## 2.2. Público-Alvo
-
-Nesta fase, o público-alvo é acadêmico: a própria equipe do curso de IA da FIAP e o corpo docente responsável pela avaliação da atividade. Em uma perspectiva de continuidade do CardioIA (fases futuras), o público-alvo final da plataforma seria composto por profissionais de saúde (equipes de atenção primária e cardiologia) e pacientes em acompanhamento cardiovascular, mas nenhuma validação com esses usuários finais foi realizada nesta etapa.
-
-## 2.3. Metodologia
-
-A metodologia seguida nesta fase consistiu em: (1) leitura integral e auditoria multimodal do enunciado da atividade (texto, imagens, tabelas e mapa mental), para mapear todos os requisitos; (2) seleção de fontes públicas, institucionais, documentadas e rastreáveis para cada uma das três partes (numérica, textual e visual); (3) coleta e preservação dos dados brutos originais, sem alteração; (4) preparação e curadoria de cada conjunto (tradução de códigos, remoção de duplicidades, remoção de dados administrativos/pessoais, conforme o caso); (5) validação técnica de cada dataset (integridade, contagem, formato); (6) documentação individual de cada parte, incluindo justificativa clínica/técnica e considerações de governança e viés; (7) versionamento incremental de todo o processo em repositório Git público.
-
-# <a name="c3"></a>3. Desenvolvimento do Projeto
-
-## 3.1. Tecnologias Utilizadas
-
-Python 3.12 como linguagem principal de preparação de dados; bibliotecas `csv` e `pathlib` (nativas) para o processamento do dataset numérico (Parte 1); `Pillow` (PIL) e `hashlib` para inspeção, deduplicação e preparação das imagens de ECG (Parte 3); Git e GitHub para versionamento e hospedagem do repositório.
-
-## 3.2. Modelagem e Algoritmos
-
-Nesta fase não houve treinamento de modelos de IA. O escopo do trabalho foi exclusivamente a preparação, curadoria e documentação dos dados. As modalidades de IA que poderão ser exploradas em fases futuras, a partir dos dados aqui preparados, incluem: classificadores supervisionados de Machine Learning para diagnóstico de doença cardíaca (Fase 2, a partir do dataset numérico), técnicas de NLP como classificação de tópicos e extração de entidades médicas (Fase 5, a partir do corpus textual) e Redes Neurais Convolucionais (CNNs) para classificação de imagens de ECG (Fase 4, a partir do dataset visual).
-
-## 3.3. Treinamento e Teste
-
-Treinamento e teste de modelos de IA não fazem parte do escopo desta entrega (Fase 1). Os três conjuntos de dados preparados — numérico, textual e visual — foram validados tecnicamente (integridade, formato, ausência de duplicidades) e documentados, ficando prontos para serem utilizados como conjuntos de treinamento e teste nas fases posteriores do CardioIA.
-
-# <a name="c4"></a>4. Resultados e Avaliações
-
-## 4.1. Análise dos Resultados
-
-**Parte 1 (dados numéricos):** dataset UCI Heart Disease (Cleveland) processado com sucesso — 303 registros, 14 variáveis clínicas, sem duplicidades, valores ausentes documentados e preservados (sem imputação) em 2 colunas. Dicionário de variáveis e justificativa clínica produzidos.
-
-**Parte 2 (dados textuais):** corpus de 2 arquivos `.txt` preparados a partir de publicações oficiais do Ministério da Saúde/CONITEC, cobrindo prevenção cardiovascular e síndromes coronarianas agudas, formando um par temático complementar (antes/depois do evento cardíaco).
-
-**Parte 3 (dados visuais):** dataset de imagens de ECG auditado localmente, revelando uma taxa de duplicação de aproximadamente 47% nos arquivos originais; a amostra final foi curada para 120 imagens únicas, balanceadas em 4 classes, com remoção de dados administrativos/pessoais do cabeçalho de cada imagem.
-
-Em todas as três partes, o processo de auditoria e curadoria revelou divergências entre a documentação original das fontes e o conteúdo real dos arquivos (ex.: contagem de imagens, interpretação de notação de derivações do ECG, nomenclatura de variáveis clínicas), que foram investigadas e resolvidas com evidência direta dos dados antes da incorporação ao projeto.
-
-## 4.2. Feedback dos Usuários
-
-Não houve coleta de feedback de usuários finais nesta etapa, pois não faz parte do escopo da Fase 1 — o trabalho desenvolvido foi de preparação e curadoria de dados, sem interação com pacientes ou profissionais de saúde.
-
-# <a name="c5"></a>5. Conclusões e Trabalhos Futuros
-
-Os objetivos definidos para a Fase 1 do CardioIA foram atendidos: os três tipos de dados exigidos (numéricos, textuais e visuais) foram buscados, preparados, validados e documentados, com atenção à governança e a possíveis vieses desde a escolha das fontes. Como ponto forte, destaca-se o processo de auditoria rigorosa aplicado a cada fonte, que identificou e tratou problemas reais (duplicidades no dataset de ECG, interpretação incorreta de uma variável clínica no dataset numérico, ausência de licença explícita em documentos textuais) antes da incorporação ao projeto. Como limitação, destaca-se que a hospedagem externa com link público dos três conjuntos de dados ainda está pendente, a ser concluída no fechamento da entrega. Como trabalho futuro, conforme o mapa mental oficial do CardioIA, os dados aqui preparados serão a base para: modelos de Machine Learning para diagnóstico automatizado (Fase 2), simulação de monitoramento contínuo via IoT (Fase 3), Visão Computacional para diagnóstico por imagem (Fase 4), um assistente cardiológico virtual com NLP (Fase 5), previsão de crises com séries temporais (Fase 6) e, por fim, a consolidação de todos os módulos em uma plataforma única (Fase 7).
-
-# <a name="c6"></a>6. Referências
-
-- UCI Machine Learning Repository — Heart Disease Data Set (Cleveland). Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1988). DOI: 10.24432/C52P4X.
-- Ministério da Saúde. Cadernos de Atenção Básica n.º 14 — Prevenção Clínica de Doença Cardiovascular, Cerebrovascular e Renal Crônica. Brasília, 2006.
-- Ministério da Saúde / CONITEC. Protocolo Clínico — Síndromes Coronarianas Agudas.
-- Khan, A. H., & Hussain, M. ECG Images dataset of Cardiac Patients — Version 2. Mendeley Data, DOI: 10.17632/gwbz3fsgp8.2.
-- FIAP. Enunciado da atividade "Fase 1_Cap 1_Exercício" e mapa mental oficial do projeto CardioIA.
-
-# <a name="c7"></a>Anexos
-
-- Documento de apoio da Parte 1 (dados numéricos): `document/other/documentacao/parte1_dados_numericos.md`
-- Documento de apoio da Parte 2 (dados textuais): `document/other/documentacao/parte2_dados_textuais.md`
-- Documento de apoio da Parte 3 (dados visuais): `document/other/documentacao/parte3_dados_visuais.md`
-- Plano de execução da atividade: `document/other/documentacao/plano_execucao.md`
-- Dicionário de variáveis do dataset numérico: `document/other/documentacao/parte1_dicionario_variaveis.md`
-- Manifesto de rastreabilidade da amostra de imagens de ECG: `document/other/referencias/parte3/manifesto_amostra.csv`
+- [Documento original da Fase 1](other/historico/fase1/document/ai_project_document_fiap.md).
+- [Registro da organização e verificação de preservação](other/organizacao/README.md).
+- [Submissão da Fase 1](fase1/cardioia_fase1_entrega_fiap.pdf).
+- [Relatório da Fase 2](fase2/RELATORIO_ENTREGA.md).

@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preservo documentos, imagens e modelos sem conversão de fim de linha.
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.xlsx binary
+*.zip binary
+*.keras binary
+*.joblib binary
+
+# Mantenho a formatação original das cópias históricas verificadas por hash.
+document/other/historico/** -whitespace

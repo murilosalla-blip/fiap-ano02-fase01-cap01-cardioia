@@ -1,217 +1,106 @@
-# FIAP - Faculdade de Informática e Administração Paulista
+# FIAP — CardioIA
 
-<p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
-</p>
-
-<br>
-
-# CardioIA — Fases 1 e 2 e monitoramento IoT da Fase 3
+<p align="center"><a href="https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP" width="40%"></a></p>
 
 ## Grupo Aura
 
-## 👨‍🎓 Integrantes: 
 - Murilo Salla — RM568041
 - Elias da Silva de Souza — RM568500
 - Julia Duarte de Carvalho — RM567816
 
-## 👩‍🏫 Professores:
-### Tutor(a) 
-- Leonardo Ruiz Orabona
-### Coordenador(a)
-- André Godoi Chiovato
+**Tutor:** Leonardo Ruiz Orabona. **Coordenador:** André Godoi Chiovato.
 
+## Descrição
 
-## 📜 Descrição
+Desenvolvo o CardioIA ao longo das sete fases do projeto acadêmico da FIAP, partindo de dados cardiovasculares até a integração de modelos, interfaces e dispositivos simulados.
 
-O **CardioIA** é um projeto acadêmico da FIAP desenvolvido ao longo de 7 fases. A **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"** reuniu, validou e documentou dados numéricos, textuais e visuais relacionados à saúde cardiovascular. A **Fase 2 — Machine Learning** tem como entrega obrigatória uma solução de NLP para extrair sintomas de relatos e classificar risco cardiovascular com TF-IDF. O projeto também vai além com um portal React, um experimento visual com MLP e a manutenção do modelo tabular da base Cleveland como extensão acadêmica.
+Na Fase 1, reuni e documentei três modalidades: a base numérica Heart Disease Cleveland, com 303 registros e 14 variáveis; textos derivados de publicações oficiais do Ministério da Saúde e da CONITEC; e uma amostra de 120 imagens de ECG. Registrei fontes, preparação e limitações para permitir a reprodução das etapas seguintes.
 
-> **Uso exclusivamente educacional.** O projeto não realiza diagnóstico, não estima risco clínico real e não substitui avaliação médica.
+Na Fase 2, implementei a extração de sintomas de dez relatos simulados e um classificador textual com TF-IDF. Também implementei o modelo tabular Cleveland, um aplicativo Streamlit, um portal React e experimentos visuais com MLP. Preservei a separação dos experimentos e suas limitações: as métricas das bases simuladas não representam desempenho clínico.
 
-O repositório está disponível em [github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia).
+Na Fase 3, implementei a coleta simulada com ESP32 no Wokwi, fila limitada para interrupções, envio MQTT, persistência SQLite antes do ACK e painel Node-RED. Validei coleta offline, recuperação, reenvio, deduplicação, pulsos, temperatura ambiente e alertas didáticos. Ainda preciso concluir os desafios de REST/e-mail e comparação com modelos neuromórficos, além dos relatórios e da submissão final dessa fase.
 
-**Parte 1 — Dados Numéricos:** utiliza o dataset público *Heart Disease (Cleveland)*, do UCI Machine Learning Repository (303 registros, 14 variáveis clínicas — idade, sexo, pressão arterial, colesterol, sintomas, frequência cardíaca, entre outras), processado em `assets/dados/processed/`, com dicionário de variáveis e justificativa clínica da relevância de cada atributo documentados em `document/other/documentacao/` para aplicações futuras de Machine Learning (Fase 2).
+Uso o projeto exclusivamente para fins educacionais, com dados e simulações identificados. Não realizo diagnóstico nem substituo avaliação médica.
 
-**Parte 2 — Dados Textuais:** reúne dois textos `.txt` derivados de publicações oficiais do Ministério da Saúde/CONITEC — um sobre prevenção cardiovascular (fatores de risco, atenção básica) e outro sobre manejo de síndromes coronarianas agudas (sintomas, diagnóstico, tratamento) — formando um corpus complementar (antes vs. depois do evento cardíaco). Esse corpus poderá apoiar futuramente tarefas de NLP como identificação e extração de termos clínicos (sintomas, fatores de risco, procedimentos), classificação temática (prevenção vs. evento agudo), recuperação de informação e sumarização, além de servir de base textual para um sistema de perguntas e respostas ou para o Assistente Cardiológico Virtual (Fase 5).
+## Fases e entregas
 
-**Parte 3 — Dados Visuais:** reúne 120 imagens de eletrocardiograma (ECG), curadas a partir do dataset público *ECG Images dataset of Cardiac Patients* (Mendeley Data), balanceadas em 4 classes (`normal`, `myocardial_infarction`, `history_mi`, `abnormal_heartbeat`), com curadoria rigorosa (deduplicação por hash, remoção de dados administrativos/pessoais). Cada arquivo `.jpg` representa uma imagem de um exame de ECG de 12 derivações — não necessariamente um paciente único. Esse conjunto poderá ser reutilizado futuramente para classificação de imagens de ECG, aprendizado de padrões visuais e experimentos de distinção entre as quatro classes disponibilizadas com técnicas de Visão Computacional (Fase 4), sem qualquer promessa de capacidade diagnóstica clínica nesta etapa.
+| Fase | Entrega | Guia e evidências |
+|---|---|---|
+| 1 | Preparação dos dados numéricos, textuais e visuais | [Guia e documento submetido](document/fase1/README.md) |
+| 2 | NLP, classificador textual, modelos complementares e interfaces | [Execução e resultados](document/fase2/README.md), [relatório](document/fase2/RELATORIO_ENTREGA.md) |
+| 3 | ESP32, fila offline, MQTT e painel validados; desafios e fechamento em andamento | [Guia](document/fase3/README.md), [roteiro](document/fase3/ROTEIRO_ENTREGA.md), [checklist](document/fase3/CHECKLIST_ENUNCIADO.md) |
 
-Todas as três partes seguiram um processo de **governança de dados** com atenção à proveniência, privacidade, qualidade e rastreabilidade. Limitações e possíveis vieses identificados, detalhados nos documentos específicos em `document/other/documentacao/`: a Parte 1 usa uma base originada na Cleveland Clinic (EUA, década de 1980), sem representatividade populacional garantida para outros contextos; a Parte 2 usa textos institucionais brasileiros de linguagem técnica (não espontânea de pacientes), sendo que um dos materiais tem contexto temporal mais antigo (2006); a Parte 3 usa um dataset originado no Paquistão, com possíveis vieses de população e de equipamento de aquisição, e a amostra curada e balanceada não representa necessariamente a prevalência real das condições nas classes.
+Consulto a visão consolidada no [AI Project Document](document/ai_project_document_fiap.md). Confiro a reorganização e os caminhos anteriores no [registro de organização](document/other/organizacao/README.md).
 
+## Organização conforme o modelo FIAP
 
-## 🧠 Fase 2 — Machine Learning
+| Pasta | Conteúdo |
+|---|---|
+| `src/fase2/`, `src/fase3/`, `src/portal-cardioia/` | Código, notebooks e testes por componente |
+| `scripts/` | Preparação da Fase 1, inicialização e validação da Fase 3 |
+| `config/fase2/`, `config/fase3/` | Dependências, contratos e configuração local |
+| `assets/` | Datasets, imagens e resultados; recursos novos separados por fase |
+| `document/fase1/`, `document/fase2/`, `document/fase3/` | Guias e documentos das entregas |
+| `document/other/` | Referências, auditorias, evidências textuais e histórico |
+| `fase2/`, `fase3/` | Entradas mínimas de compatibilidade; execução local da Fase 3 ignorada pelo Git |
 
-A entrega obrigatória da Fase 2 está organizada em duas partes independentes:
+Mantenho manifestos que as ferramentas exigem junto dos respectivos aplicativos, como `package.json`, lockfiles e arquivos do Wokwi. Preservo os caminhos dos recursos e scripts originais da Fase 1.
 
-1. **Extração de sintomas:** dez relatos simulados completos em `.txt`, mapa de conhecimento sintoma–doença em CSV e um extrator Python tolerante a maiúsculas, acentos e pontuação.
-2. **Classificação textual de risco:** base simulada com 120 frases únicas e balanceadas, vetorização TF-IDF, Regressão Logística, divisão treino/teste agrupada por cenário e avaliação de desempenho e viés.
+## Como reproduzo
 
-Também foram implementados os dois desafios **Ir Além**:
+Executo os comandos abaixo na raiz do repositório. Uso Python 3.12; para o painel, Node.js 24. Para o experimento visual, preparo um ambiente separado com as versões fixadas em `config/fase2/requirements-visual.txt`.
 
-- **Portal React + Vite:** autenticação simulada com token local, rotas protegidas, pacientes, agendamentos e dashboard, com testes automatizados;
-- **Classificação visual de ECG:** baseline binário com 60 exames equilibrados e revisão ampliada com os 491 conteúdos únicos recuperados da mesma fonte pública, pré-processamento em escala de cinza e MLP Keras. A divisão ampliada mantém hashes distintos entre treino, validação e teste e documenta a ausência de um identificador confiável de paciente na fonte.
+### Fase 1
 
-Como extensão adicional, o projeto preserva o modelo tabular da base Heart Disease — Cleveland e sua aplicação Streamlit. As três modalidades são apresentadas de forma separada para evitar a falsa impressão de um sistema multimodal clínico.
+Sigo os pré-requisitos e comandos de preparação no [guia da Fase 1](document/fase1/README.md), com `scripts/preparar_dataset_numerico.py` e `scripts/preparar_amostra_ecg.py`.
 
-**Aplicação principal:** [cardioia-fiap.streamlit.app](https://cardioia-fiap.streamlit.app/)
+### Fase 2
 
-**Portal administrativo:** [julia-carvalho96.github.io/grupo-aura-cardioia-portal](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/)
-
-**Repositório separado do portal:** [Julia-carvalho96/grupo-aura-cardioia-portal](https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal)
-
-**Documentação completa:** [fase2/README.md](fase2/README.md)  
-**Checklist do enunciado:** [fase2/CHECKLIST_ENUNCIADO.md](fase2/CHECKLIST_ENUNCIADO.md)  
-**Resultados reproduzíveis:** [fase2/resultados/README.md](fase2/resultados/README.md)  
-**Relatório de entrega:** [fase2/RELATORIO_ENTREGA.md](fase2/RELATORIO_ENTREGA.md)  
-Resultados dos experimentos:
-
-| Experimento | Amostra de teste | Resultado principal |
-|---|---:|---:|
-| NLP — TF-IDF + Regressão Logística | 24 frases | acurácia 100,0% |
-| Tabular — Cleveland | 61 registros | ROC AUC 0,958 |
-| Visual — MLP de ECG ampliada | 99 imagens | acurácia balanceada 74,5%; ROC AUC 0,824 |
-
-> Os dados textuais são simulados e intencionalmente separáveis; por isso, 100% no teste não demonstra validade clínica. No experimento visual, o limiar foi definido somente na validação e o conjunto de teste foi preservado. Nenhum experimento realiza diagnóstico nem foi validado para uso assistencial.
-
-## Fase 3 — Monitoramento contínuo em desenvolvimento
-
-Na Fase 3, implementei e validei o ESP32 no Wokwi com DHT22 e botão de pulsos, fila offline limitada, transmissão MQTT com confirmação após persistência e dashboard Node-RED com gráfico, gauge e alertas didáticos. Conferi entrada e retorno dos alertas, recuperação da conexão e deduplicação das leituras.
-
-Mantive no roteiro os dois desafios Ir Além: REST com e-mail simulado e comparação de modelos tradicionais e neuromórficos em séries temporais. Ainda preciso implementar esses desafios e concluir os relatórios e a submissão final.
-
-- [Roteiro completo e etapas de validação](fase3/ROTEIRO_ENTREGA.md)
-- [Estado e instruções da Fase 3](fase3/README.md)
-- [Checklist do enunciado](fase3/CHECKLIST_ENUNCIADO.md)
-
-Concluí as entregas 1 a 3 do roteiro. Preservei as evidências de validação, incluindo 75 medições únicas no ensaio MQTT e 27 medições na revisão do painel. Distingo sinais simulados e temperatura ambiente de uma avaliação clínica.
-
-- [Projeto ESP32 com MQTT no Wokwi](https://wokwi.com/projects/478772789361460225)
-- [Instalação e execução do painel Node-RED](fase3/node-red/README.md)
-- [Validação final do painel e dos alertas](fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md)
-
-## 🎥 Vídeo de demonstração
-
-O vídeo único da entrega apresenta, em menos de quatro minutos, a solução obrigatória de NLP e classificação textual, o portal React do Ir Além 1 e a MLP visual de ECG do Ir Além 2.
-
-- **Assistir no YouTube (não listado):** [CardioIA — Fase 2 completa](https://youtu.be/qoKjl6oeotY)
-
-## 📁 Estrutura de pastas
-
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
-
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
-
-Nesta fase, os artefatos reais estão organizados assim dentro das pastas oficiais:
-- `assets/dados/raw/` e `assets/dados/processed/`: dados brutos e processados da Parte 1 (numéricos).
-- `assets/textos/`: corpus textual da Parte 2.
-- `assets/imagens/ecg/`: amostra de imagens de ECG da Parte 3.
-- `document/other/entrega/`: documento complementar de submissão (PDF para a plataforma FIAP).
-- `document/other/documentacao/`: plano de execução e documentos de apoio das Partes 1, 2 e 3.
-- `document/other/referencias/`: enunciado e mapa mental oficiais, fontes institucionais utilizadas na Parte 2, rastreabilidade da Parte 3 e materiais de aula da Fase 1.
-- `scripts/`: scripts de preparação/reprodução dos datasets.
-- `fase2/`: treinamento, análises, notebook, testes, resultados documentados e aplicação Streamlit da Fase 2.
-
-## 🔗 Links externos
-
-- **Parte 1 — Dados Numéricos:** [Acessar pasta](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing)
-- **Parte 2 — Dados Textuais:** [Acessar pasta](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing)
-- **Parte 3 — Dados Visuais:** [Acessar pasta](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing)
-
-## 🔧 Como executar o código
-
-Esta fase é de preparação e curadoria de dados. Os datasets finais já estão preparados e disponíveis nas pastas do projeto e nos links externos, portanto não é necessário executar código para avaliá-los.
-
-Os scripts abaixo são fornecidos apenas para reprodução e rastreabilidade do processo de preparação dos dados.
-
-**Pré-requisitos:** Python 3.12+ e a biblioteca `Pillow` (usada em `scripts/preparar_amostra_ecg.py`, Parte 3). O script `scripts/preparar_dataset_numerico.py` (Parte 1) usa apenas bibliotecas nativas do Python (`csv`, `pathlib`).
-
-**Clonar o repositório:**
-```
-git clone https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git
+```powershell
+python -m pip install -r config/fase2/requirements.txt
+python src/fase2/src/extrair_sintomas.py
+python src/fase2/src/classificar_risco_texto.py
+python src/fase2/tests/test_nlp.py
+python src/fase2/tests/test_app.py
+streamlit run src/fase2/app.py
 ```
 
-**Reproduzir o dataset numérico da Parte 1** (gera `assets/dados/processed/heart_disease_cleveland.csv` a partir do dado bruto em `assets/dados/raw/`):
-```
-python scripts/preparar_dataset_numerico.py
-```
+Para o portal:
 
-**Reproduzir a amostra de imagens de ECG da Parte 3** — requer preparação manual antes de executar (ver `document/other/referencias/parte3/fonte_dataset.md`):
-1. baixar o dataset bruto completo do Mendeley Data e extraí-lo localmente;
-2. ajustar a variável `RAW_DIR` no início de `scripts/preparar_amostra_ecg.py` para apontar para a pasta onde o dataset foi extraído;
-3. então executar:
-```
-python scripts/preparar_amostra_ecg.py
+```powershell
+npm ci --prefix src/portal-cardioia
+npm test --prefix src/portal-cardioia
+npm run build --prefix src/portal-cardioia
 ```
 
+Consulto treinamento, notebooks e experimento visual no [guia completo](document/fase2/README.md). Mantenho a entrada `fase2/app.py` e o arquivo de dependências anterior para preservar a configuração existente do Streamlit Cloud.
 
-## ▶️ Como executar a Fase 2
+### Fase 3
 
-A aplicação pública pode ser avaliada sem usar o terminal:
-
-- [Abrir CardioIA](https://cardioia-fiap.streamlit.app/)
-
-Para reprodução técnica da entrega obrigatória de NLP com Python 3.12:
-
-```bash
-pip install -r fase2/requirements.txt
-python fase2/src/extrair_sintomas.py
-python fase2/src/classificar_risco_texto.py
-pytest -q fase2/tests/test_nlp.py fase2/tests/test_app.py
-streamlit run fase2/app.py
+```powershell
+python -m pip install -r config/fase3/requirements-mqtt.txt
+npm ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
+node scripts/fase3/iniciar_dashboard.js --com-consumidor
 ```
 
-Para o portal React:
+Abro [monitoramento local](http://127.0.0.1:1880/dashboard/monitoramento). Uso os projetos [Edge](https://wokwi.com/projects/478054573982428161) e [MQTT](https://wokwi.com/projects/478772789361460225) no Wokwi, seguindo os [testes de validação](document/fase3/validacao/entrega3.md). Mantenho o banco e os eventos em `fase3/runtime/`, fora do Git.
 
-```bash
-cd portal-cardioia
-npm install
-npm test
-npm run build
-npm run dev
-```
+## Aplicações e registros anteriores
 
-Para o experimento visual, use o ambiente separado com TensorFlow:
+- [Aplicativo Streamlit](https://cardioia-fiap.streamlit.app/)
+- [Portal publicado](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/)
+- [Repositório independente do portal](https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal)
+- [Vídeo da Fase 2](https://youtu.be/qoKjl6oeotY)
 
-```bash
-pip install -r fase2/requirements-visual.txt
-pytest -q fase2/tests/test_visual.py
-python fase2/src/treinar_mlp_ecg.py
-```
+Preservo os documentos submetidos e os resultados anteriores. Identifico mudanças de caminho no [mapa de arquivos](document/other/organizacao/mapa_arquivos.json); não uso a reorganização como nova evidência de conclusão dos desafios pendentes.
 
-Os workflows do GitHub Actions executam automaticamente os testes, treinamentos, notebooks, build do portal e validação das saídas obrigatórias. Os resultados ficam disponíveis como artefatos dos workflows.
+## Histórico de lançamentos
 
-## 🗃 Histórico de lançamentos
-
-* 0.1.0 - 21/08/2026
-    * Estrutura inicial do projeto CardioIA e configuração do repositório.
-* 0.2.0 - 21/08/2026
-    * Parte 1 concluída: dataset numérico (UCI Heart Disease Cleveland) processado, validado e documentado.
-* 0.3.0 - 21/08/2026
-    * Parte 2 concluída: corpus textual (prevenção cardiovascular e síndromes coronarianas agudas) preparado e documentado.
-* 0.4.0 - 21/08/2026
-    * Parte 3 concluída: amostra de 120 imagens de ECG curada, validada e documentada.
-* 0.5.0 - 14/09/2026
-    * Fase 2: pipeline de Machine Learning, comparação de modelos e avaliação concluídos.
-* 0.6.0 - 14/09/2026
-    * Fase 2: análises de incerteza, calibração, interpretação e desempenho por sexo concluídas.
-* 0.7.0 - 14/09/2026
-    * Fase 2: front acadêmico publicado, auditado e coberto por testes automatizados.
-* 0.8.0 - 14/09/2026
-    * Fase 2: entrega obrigatória de NLP, portal React e experimento visual com MLP implementados e documentados.
+- 0.1.0 a 0.4.0 — 21/08/2026: estruturei o projeto e preparei as três modalidades da Fase 1.
+- 0.5.0 a 0.8.0 — 14/09/2026: implementei e documentei modelos, NLP e interfaces da Fase 2.
+- 0.9.0 — 24/10/2026: validei as entregas ESP32, MQTT e Node-RED da Fase 3.
+- Revisão de organização — 24/10/2026: organizei as fases conforme o modelo FIAP e atualizei os caminhos de execução, preservando as entregas anteriores.
 
 ## 📋 Licença
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
-

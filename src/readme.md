@@ -1,1 +1,3 @@
-Posicione aqui os arquivos e pastas de código-fonte do projeto. A cada entrega de sprint, será considerado o último commit dentro do prazo. A partir dali, toda e qualquer alteração será considerada na próxima sprint. Apague este arquivo .md ao final do módulo.
+# Código-fonte
+
+Organizo o código em [fase2](fase2/), [fase3](fase3/) e [portal-cardioia](portal-cardioia/). Consulto instalação e execução nos [guias por fase](../README.md#como-reproduzo).

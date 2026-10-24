@@ -1,9 +1,3 @@
-Posicione aqui arquivos extras de documentação do projeto. Apague este arquivo ao final do módulo 
+# Documentação complementar
 
-Nota de navegação:
-- `entrega/` — documento complementar para submissão (PDF na plataforma FIAP).
-- `documentacao/` — plano de execução e documentação de apoio das Partes 1, 2 e 3.
-- `referencias/enunciado/` — enunciado oficial e mapa mental do CardioIA.
-- `referencias/parte2/` — fontes institucionais utilizadas na Parte 2.
-- `referencias/parte3/` — rastreabilidade do dataset visual da Parte 3.
-- `referencias/aulas/` — materiais de aula da Fase 1.
+Organizo as [referências por fase](referencias/README.md), as [auditorias da Fase 2](fase2/auditoria/), as [evidências da Fase 3](fase3/evidencias/) e o [registro de organização](organizacao/README.md). Preservo os documentos originais da Fase 1 no histórico; acompanho a situação atual no [documento principal](../ai_project_document_fiap.md).
