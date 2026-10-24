@@ -8,7 +8,6 @@ on:
       - "assets/fase3/**"
       - "scripts/fase3/**"
       - "document/other/fase3/**"
-      - "fase3/**"
       - ".github/workflows/fase3-edge.yml"
   pull_request:
     paths:
@@ -17,7 +16,6 @@ on:
       - "assets/fase3/**"
       - "scripts/fase3/**"
       - "document/other/fase3/**"
-      - "fase3/**"
       - ".github/workflows/fase3-edge.yml"
   workflow_dispatch:
 

@@ -34,8 +34,7 @@ SEMENTE = 42
 RAIZ_REPOSITORIO = Path(__file__).resolve().parents[3]
 CAMINHO_DADOS = (
     RAIZ_REPOSITORIO
-    / "assets"
-    / "dados"
+    / 'assets/fase1/dados'
     / "processed"
     / "heart_disease_cleveland.csv"
 )

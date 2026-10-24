@@ -22,7 +22,7 @@ Auditoria feita a partir do enunciado oficial enviado em 14/09/2026 e do feedbac
 
 | Requisito | Evidência | Situação |
 |---|---|---|
-| React + Vite | `src/portal-cardioia/` | Concluído |
+| React + Vite | `src/fase2/portal-cardioia/` | Concluído |
 | Autenticação via Context API | `src/contexts/AuthContext.jsx` | Concluído |
 | JWT fictício no localStorage | `AuthContext.jsx` | Concluído |
 | Rotas protegidas | `src/App.jsx` | Concluído |

@@ -8,7 +8,9 @@ Esta fase implementa os entregáveis obrigatórios de **NLP, extração de infor
 
 - **CardioIA:** https://cardioia-fiap.streamlit.app/
 - **Código atual:** `src/fase2/app.py`
-- **Entrada de compatibilidade para a publicação:** `fase2/app.py`
+- **Arquivo de entrada padronizado:** `src/fase2/app.py`
+- **Requisitos reconhecidos pelo Streamlit:** `src/fase2/requirements.txt`, com referência a `config/fase2/requirements.txt`.
+- **Repositório da publicação consultado no perfil público:** [fork da Julia](https://github.com/Julia-carvalho96/fiap-ano02-fase01-cap01-cardioia).
 - **Branch da entrega anterior:** `fase-2-machine-learning`
 
 A aplicação organiza três modalidades independentes em uma única experiência de produto:
@@ -128,7 +130,7 @@ As faixas possuem somente 18 a 25 pacientes. O resultado perfeito no grupo mais 
 - **Portal publicado:** https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/
 - **Repositório separado:** https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal
 
-O código está em `src/portal-cardioia/` e inclui:
+O código está em `src/fase2/portal-cardioia/` e inclui:
 
 - autenticação simulada com Context API;
 - JWT fictício no localStorage;

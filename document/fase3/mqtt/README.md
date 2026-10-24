@@ -42,7 +42,7 @@ python -m pip install -r config/fase3/requirements-mqtt.txt
 python src/fase3/python/consumidor_mqtt.py
 ```
 
-Gravo a base em `fase3/runtime/telemetria.sqlite3` e os eventos em `fase3/runtime/eventos_mqtt.jsonl`, fora do versionamento. Para conferir uma confirmação perdida, executo:
+Gravo a base em `.tools/runtime/fase3/telemetria.sqlite3` e os eventos em `.tools/runtime/fase3/eventos_mqtt.jsonl`, fora do versionamento. Para conferir uma confirmação perdida, executo:
 
 ```sh
 python src/fase3/python/consumidor_mqtt.py --reter-primeiro-ack

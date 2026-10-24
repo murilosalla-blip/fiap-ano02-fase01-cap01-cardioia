@@ -57,7 +57,7 @@ node .\src\fase3\node-red\gerar_fluxo.js
 
 Posso importar `flows.json` no editor em [Editor Node-RED](http://127.0.0.1:1880/editor/). Para reproduzir em outra instância, também instalo o pacote FlowFuse Dashboard e carrego `settings.js`, que disponibiliza `monitor.js` em `functionGlobalContext`. O export depende desses arquivos versionados; não é um JSON independente das regras do projeto.
 
-Na inicialização, gero uma cópia do fluxo em `fase3/runtime/node-red/`. Se eu editar pelo editor, exporto minhas mudanças antes de reiniciar, pois o inicializador recria a cópia a partir dos arquivos versionados. Mantenho o histórico do painel em memória; a persistência das medições continua no SQLite do consumidor. Reiniciar o painel reinicia seu gráfico e não apaga o banco.
+Na inicialização, gero uma cópia do fluxo em `.tools/runtime/fase3/node-red/`. Se eu editar pelo editor, exporto minhas mudanças antes de reiniciar, pois o inicializador recria a cópia a partir dos arquivos versionados. Mantenho o histórico do painel em memória; a persistência das medições continua no SQLite do consumidor. Reiniciar o painel reinicia seu gráfico e não apaga o banco.
 
 Vinculei o serviço a `127.0.0.1`, com editor em `/editor` e painel em `/dashboard/monitoramento`. Para conferir o estado em testes, disponibilizei a consulta local `/cardioia/api/state`; essa consulta não substitui o desafio REST da próxima entrega.
 
@@ -80,7 +80,7 @@ node .\scripts\fase3\iniciar_dashboard.js
 Em outro terminal, com as dependências Python disponíveis, executo:
 
 ```powershell
-python scripts/fase3/testar_dashboard_mqtt.py --topico cardioia/aura/fase3/dashboard-test/meu-ensaio --saida fase3/runtime/teste-dashboard
+python scripts/fase3/testar_dashboard_mqtt.py --topico cardioia/aura/fase3/dashboard-test/meu-ensaio --saida .tools/runtime/fase3/teste-dashboard
 ```
 
 Usei diretório de execução e tópicos separados para não misturar esse ensaio com as medições do Wokwi. Não mantive o inicializador do consumidor integrado no modo de ensaio.

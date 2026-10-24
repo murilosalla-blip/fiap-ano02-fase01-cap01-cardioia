@@ -4,7 +4,7 @@ module.exports = {
   uiHost: '127.0.0.1',
   uiPort: Number(process.env.CARDIOIA_PORT || 1880),
   httpAdminRoot: '/editor',
-  flowFile: path.join(process.env.CARDIOIA_RUNTIME_DIR || path.join(__dirname,'../../../fase3/runtime/node-red'),'flows.json'),
+  flowFile: path.join(process.env.CARDIOIA_RUNTIME_DIR || path.join(__dirname,'../../../.tools/runtime/fase3/node-red'),'flows.json'),
   functionGlobalContext: {
     cardioia: monitor,
     cardioiaConfig: {

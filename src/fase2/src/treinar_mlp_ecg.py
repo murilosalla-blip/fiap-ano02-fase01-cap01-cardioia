@@ -37,7 +37,7 @@ from sklearn.utils.class_weight import compute_class_weight
 SEMENTE = 42
 TAMANHO_IMAGEM = (64, 64)
 RAIZ_REPOSITORIO = Path(__file__).resolve().parents[3]
-DIRETORIO_IMAGENS = RAIZ_REPOSITORIO / "assets" / "imagens" / "ecg"
+DIRETORIO_IMAGENS = RAIZ_REPOSITORIO / 'assets/fase1/imagens' / "ecg"
 DIRETORIO_RESULTADOS = RAIZ_REPOSITORIO / 'assets/fase2/resultados' / "visual"
 CLASSE_NORMAL = "normal"
 

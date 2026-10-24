@@ -116,4 +116,4 @@ Planejei organizar os arquivos em `src/fase3/firmware/`, `src/fase3/node-red/`, 
 - `README.md`, `document/ai_project_document_fiap.md`
 - `document/fase2/README.md`, `document/fase2/RELATORIO_ENTREGA.md`, `document/fase2/CHECKLIST_ENUNCIADO.md`
 - `src/fase2/src/extrair_sintomas.py`, `assets/fase2/resultados/nlp/revisao/resumo_sondagem.json`, `document/other/fase2/auditoria/bloco2_negacao_e_regressao.md`
-- `src/portal-cardioia/src/services/api.js`, `src/portal-cardioia/src/pages/Dashboard.jsx`, `src/portal-cardioia/package.json`
+- `src/fase2/portal-cardioia/src/services/api.js`, `src/fase2/portal-cardioia/src/pages/Dashboard.jsx`, `src/fase2/portal-cardioia/package.json`

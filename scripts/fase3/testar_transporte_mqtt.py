@@ -26,7 +26,7 @@ def main():
     args.saida.mkdir(parents=True, exist_ok=True)
     run_id = uuid.uuid4().hex[:16]
     topic_root = f"cardioia/aura/fase3/478054573982428161/teste-python/{run_id}"
-    db = ROOT.parents[1] / f"fase3/runtime/teste_rede_{run_id}.sqlite3"
+    db = ROOT.parents[1] / f".tools/runtime/fase3/teste_rede_{run_id}.sqlite3"
     events = args.saida / "eventos_consumidor.jsonl"
     log = (args.saida / "consumidor_stdout.txt").open("w", encoding="utf-8")
     creationflags = subprocess.CREATE_NO_WINDOW if sys.platform == "win32" else 0

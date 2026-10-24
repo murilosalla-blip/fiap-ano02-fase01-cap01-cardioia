@@ -36,15 +36,14 @@ Consulto a visão consolidada no [AI Project Document](document/ai_project_docum
 
 | Pasta | Conteúdo |
 |---|---|
-| `src/fase2/`, `src/fase3/`, `src/portal-cardioia/` | Código, notebooks e testes por componente |
-| `scripts/` | Preparação da Fase 1, inicialização e validação da Fase 3 |
-| `config/fase2/`, `config/fase3/` | Dependências, contratos e configuração local |
-| `assets/` | Datasets, imagens e resultados; recursos novos separados por fase |
+| `src/fase1/`, `src/fase2/`, `src/fase3/` | Código por fase; portal dentro de `src/fase2/portal-cardioia/` |
+| `scripts/fase1/`, `scripts/fase3/` | Verificação de preservação, inicialização e validação |
+| `config/fase1/`, `config/fase2/`, `config/fase3/` | Dependências, contratos e configuração local |
+| `assets/fase1/`, `assets/fase2/`, `assets/fase3/` | Datasets, imagens, resultados e evidências; logo compartilhado em `assets/` |
 | `document/fase1/`, `document/fase2/`, `document/fase3/` | Guias e documentos das entregas |
 | `document/other/` | Referências, auditorias, evidências textuais e histórico |
-| `fase2/`, `fase3/` | Entradas mínimas de compatibilidade; execução local da Fase 3 ignorada pelo Git |
 
-Mantenho manifestos que as ferramentas exigem junto dos respectivos aplicativos, como `package.json`, lockfiles e arquivos do Wokwi. Preservo os caminhos dos recursos e scripts originais da Fase 1.
+Mantenho na raiz apenas as pastas institucionais `.github/`, `assets/`, `config/`, `document/`, `scripts/` e `src/`, além do README e dos arquivos de controle do Git. Dentro delas, organizo as fases. Mantenho os manifestos exigidos pelas ferramentas junto dos aplicativos. Preservo o conteúdo das entregas anteriores e registro os novos caminhos no histórico de organização.
 
 ## Como reproduzo
 
@@ -52,7 +51,7 @@ Executo os comandos abaixo na raiz do repositório. Uso Python 3.12; para o pain
 
 ### Fase 1
 
-Sigo os pré-requisitos e comandos de preparação no [guia da Fase 1](document/fase1/README.md), com `scripts/preparar_dataset_numerico.py` e `scripts/preparar_amostra_ecg.py`.
+Sigo os pré-requisitos e comandos de preparação no [guia da Fase 1](document/fase1/README.md), com `src/fase1/preparar_dataset_numerico.py` e `src/fase1/preparar_amostra_ecg.py`.
 
 ### Fase 2
 
@@ -68,12 +67,12 @@ streamlit run src/fase2/app.py
 Para o portal:
 
 ```powershell
-npm ci --prefix src/portal-cardioia
-npm test --prefix src/portal-cardioia
-npm run build --prefix src/portal-cardioia
+npm ci --prefix src/fase2/portal-cardioia
+npm test --prefix src/fase2/portal-cardioia
+npm run build --prefix src/fase2/portal-cardioia
 ```
 
-Consulto treinamento, notebooks e experimento visual no [guia completo](document/fase2/README.md). Mantenho a entrada `fase2/app.py` e o arquivo de dependências anterior para preservar a configuração existente do Streamlit Cloud.
+Consulto treinamento, notebooks e experimento visual no [guia completo](document/fase2/README.md). Para publicar no Streamlit Cloud, uso `src/fase2/app.py`; o arquivo `src/fase2/requirements.txt` encaminha aos requisitos em `config/fase2/`. Confiro a branch e o arquivo configurados no serviço antes de publicar uma mudança de entrada.
 
 ### Fase 3
 
@@ -83,7 +82,7 @@ npm ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
 node scripts/fase3/iniciar_dashboard.js --com-consumidor
 ```
 
-Abro [monitoramento local](http://127.0.0.1:1880/dashboard/monitoramento). Uso os projetos [Edge](https://wokwi.com/projects/478054573982428161) e [MQTT](https://wokwi.com/projects/478772789361460225) no Wokwi, seguindo os [testes de validação](document/fase3/validacao/entrega3.md). Mantenho o banco e os eventos em `fase3/runtime/`, fora do Git.
+Abro [monitoramento local](http://127.0.0.1:1880/dashboard/monitoramento). Uso os projetos [Edge](https://wokwi.com/projects/478054573982428161) e [MQTT](https://wokwi.com/projects/478772789361460225) no Wokwi, seguindo os [testes de validação](document/fase3/validacao/entrega3.md). Mantenho o banco e os eventos em `.tools/runtime/fase3/`, fora do Git.
 
 ## Aplicações e registros anteriores
 
