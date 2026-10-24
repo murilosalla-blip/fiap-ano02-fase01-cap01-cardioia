@@ -6,9 +6,27 @@ on:
       - main
       - fase-2-machine-learning
     paths:
+      - "src/fase2/**"
+      - "config/fase2/**"
+      - "assets/fase2/**"
+      - "scripts/fase2/**"
+      - "document/other/fase2/**"
+      - "src/portal-cardioia/**"
       - "fase2/**"
-      - "portal-cardioia/**"
       - "assets/dados/processed/heart_disease_cleveland.csv"
+      - "assets/imagens/ecg/**"
+      - ".github/workflows/fase2-baseline.yml"
+  pull_request:
+    paths:
+      - "src/fase2/**"
+      - "config/fase2/**"
+      - "assets/fase2/**"
+      - "scripts/fase2/**"
+      - "document/other/fase2/**"
+      - "src/portal-cardioia/**"
+      - "fase2/**"
+      - "assets/dados/processed/heart_disease_cleveland.csv"
+      - "assets/imagens/ecg/**"
       - ".github/workflows/fase2-baseline.yml"
   workflow_dispatch:
 
@@ -29,52 +47,55 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: fase2/requirements.txt
+          cache-dependency-path: config/fase2/requirements.txt
 
       - name: Instalar dependências
-        run: python -m pip install -r fase2/requirements.txt
+        run: python -m pip install -r config/fase2/requirements.txt
+
+      - name: Conferir preservação da Fase 1
+        run: python src/fase2/tests/verificar_preservacao.py
 
       - name: Configurar Node
         uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
-          cache-dependency-path: portal-cardioia/package.json
+          cache-dependency-path: src/portal-cardioia/package-lock.json
 
       - name: Validar build do portal React
-        working-directory: portal-cardioia
+        working-directory: src/portal-cardioia
         run: |
-          npm install --no-audit --no-fund
+          npm ci --no-audit --no-fund
           npm test
           npm run build
 
       - name: Verificar sintaxe
         run: |
-          python -m py_compile fase2/app.py
-          python -m py_compile fase2/src/treinar_baselines.py
-          python -m py_compile fase2/src/analisar_modelo.py
-          python -m py_compile fase2/src/extrair_sintomas.py
-          python -m py_compile fase2/src/classificar_risco_texto.py
-          python -m py_compile fase2/tests/test_app.py
-          python -m py_compile fase2/tests/auditar_cenarios.py
-          python -m py_compile fase2/tests/test_nlp.py
-          python -m py_compile fase2/tests/test_notebooks_executados.py
+          python -m py_compile src/fase2/app.py
+          python -m py_compile src/fase2/src/treinar_baselines.py
+          python -m py_compile src/fase2/src/analisar_modelo.py
+          python -m py_compile src/fase2/src/extrair_sintomas.py
+          python -m py_compile src/fase2/src/classificar_risco_texto.py
+          python -m py_compile src/fase2/tests/test_app.py
+          python -m py_compile src/fase2/tests/auditar_cenarios.py
+          python -m py_compile src/fase2/tests/test_nlp.py
+          python -m py_compile src/fase2/tests/test_notebooks_executados.py
 
       - name: Validar evidências versionadas nos notebooks
-        run: python fase2/tests/test_notebooks_executados.py
+        run: python src/fase2/tests/test_notebooks_executados.py
 
       - name: Validar extração de sintomas
-        run: python fase2/src/extrair_sintomas.py
+        run: python src/fase2/src/extrair_sintomas.py
 
       - name: Testar entregáveis de NLP
-        run: python fase2/tests/test_nlp.py
+        run: python src/fase2/tests/test_nlp.py
 
       - name: Gerar resultados do classificador textual
-        run: python fase2/src/classificar_risco_texto.py
+        run: python src/fase2/src/classificar_risco_texto.py
 
       - name: Testar inicialização do front
         run: |
-          streamlit run fase2/app.py --server.headless true --server.port 8501 > /tmp/cardioia-streamlit.log 2>&1 &
+          streamlit run src/fase2/app.py --server.headless true --server.port 8501 > /tmp/cardioia-streamlit.log 2>&1 &
           app_pid=$!
           trap 'kill "$app_pid" 2>/dev/null || true' EXIT
 
@@ -89,50 +110,55 @@ jobs:
           exit 1
 
       - name: Testar envio da simulação
-        run: python fase2/tests/test_app.py
+        run: python src/fase2/tests/test_app.py
+
+      - name: Conferir entrada publicada de compatibilidade
+        env:
+          CARDIOIA_APP_PATH: fase2/app.py
+        run: python src/fase2/tests/test_app.py
 
       - name: Auditar cenários sintéticos
-        run: python fase2/tests/auditar_cenarios.py
+        run: python src/fase2/tests/auditar_cenarios.py
 
       - name: Executar treinamento
-        run: python fase2/src/treinar_baselines.py
+        run: python src/fase2/src/treinar_baselines.py
 
       - name: Executar análise estatística e visual
-        run: python fase2/src/analisar_modelo.py
+        run: python src/fase2/src/analisar_modelo.py
 
       - name: Executar notebooks
         run: |
-          jupyter nbconvert --to notebook --execute fase2/notebooks/analise_baseline.ipynb --output-dir fase2/resultados --output analise_baseline_executada.ipynb --ExecutePreprocessor.timeout=300
-          jupyter nbconvert --to notebook --execute fase2/notebooks/classificacao_textual_tfidf.ipynb --output-dir fase2/resultados/nlp --output classificacao_textual_tfidf_executada.ipynb --ExecutePreprocessor.timeout=300
+          python -m nbconvert --to notebook --execute src/fase2/notebooks/analise_baseline.ipynb --output-dir assets/fase2/resultados --output analise_baseline_executada.ipynb --ExecutePreprocessor.timeout=300
+          python -m nbconvert --to notebook --execute src/fase2/notebooks/classificacao_textual_tfidf.ipynb --output-dir assets/fase2/resultados/nlp --output classificacao_textual_tfidf_executada.ipynb --ExecutePreprocessor.timeout=300
 
       - name: Conferir saídas obrigatórias
         run: |
-          test -s fase2/resultados/metricas_validacao_cruzada.csv
-          test -s fase2/resultados/metricas_teste.csv
-          test -s fase2/resultados/metricas_por_sexo.csv
-          test -s fase2/resultados/previsoes_teste.csv
-          test -s fase2/resultados/metadados_execucao.json
-          test -s fase2/resultados/melhor_modelo.joblib
-          test -s fase2/resultados/intervalos_confianca_bootstrap.csv
-          test -s fase2/resultados/importancia_variaveis.csv
-          test -s fase2/resultados/graficos/matriz_confusao.png
-          test -s fase2/resultados/graficos/curva_roc.png
-          test -s fase2/resultados/graficos/curva_precisao_recall.png
-          test -s fase2/resultados/graficos/curva_calibracao.png
-          test -s fase2/resultados/graficos/distribuicao_alvo_por_sexo.png
-          test -s fase2/resultados/graficos/importancia_variaveis.png
-          test -s fase2/resultados/analise_baseline_executada.ipynb
-          test -s fase2/resultados/nlp/metricas_classificador_texto.json
-          test -s fase2/resultados/nlp/previsoes_teste_texto.csv
-          test -s fase2/resultados/nlp/vies_contrafactual_sexo.csv
-          test -s fase2/resultados/nlp/termos_influentes.csv
-          test -s fase2/resultados/nlp/classificador_risco_texto.joblib
-          test -s fase2/resultados/nlp/matriz_confusao_texto.png
-          test -s fase2/resultados/nlp/classificacao_textual_tfidf_executada.ipynb
+          test -s assets/fase2/resultados/metricas_validacao_cruzada.csv
+          test -s assets/fase2/resultados/metricas_teste.csv
+          test -s assets/fase2/resultados/metricas_por_sexo.csv
+          test -s assets/fase2/resultados/previsoes_teste.csv
+          test -s assets/fase2/resultados/metadados_execucao.json
+          test -s assets/fase2/resultados/melhor_modelo.joblib
+          test -s assets/fase2/resultados/intervalos_confianca_bootstrap.csv
+          test -s assets/fase2/resultados/importancia_variaveis.csv
+          test -s assets/fase2/resultados/graficos/matriz_confusao.png
+          test -s assets/fase2/resultados/graficos/curva_roc.png
+          test -s assets/fase2/resultados/graficos/curva_precisao_recall.png
+          test -s assets/fase2/resultados/graficos/curva_calibracao.png
+          test -s assets/fase2/resultados/graficos/distribuicao_alvo_por_sexo.png
+          test -s assets/fase2/resultados/graficos/importancia_variaveis.png
+          test -s assets/fase2/resultados/analise_baseline_executada.ipynb
+          test -s assets/fase2/resultados/nlp/metricas_classificador_texto.json
+          test -s assets/fase2/resultados/nlp/previsoes_teste_texto.csv
+          test -s assets/fase2/resultados/nlp/vies_contrafactual_sexo.csv
+          test -s assets/fase2/resultados/nlp/termos_influentes.csv
+          test -s assets/fase2/resultados/nlp/classificador_risco_texto.joblib
+          test -s assets/fase2/resultados/nlp/matriz_confusao_texto.png
+          test -s assets/fase2/resultados/nlp/classificacao_textual_tfidf_executada.ipynb
 
       - name: Disponibilizar evidências da execução
         uses: actions/upload-artifact@v4
         with:
           name: resultados-fase2-nlp-e-tabular
-          path: fase2/resultados/
+          path: assets/fase2/resultados/
           if-no-files-found: error

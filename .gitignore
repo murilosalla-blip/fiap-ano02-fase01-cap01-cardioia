@@ -44,3 +44,27 @@ Thumbs.db
 fase3/build/
 fase3/runtime/
 fase3/node-red/node_modules/
+
+# Fontes organizados por fase: dependências e artefatos ficam locais.
+**/node_modules/
+src/fase3/build/
+src/fase3/runtime/
+
+# Recursos tabulares pequenos já exigidos e versionados na Fase 2.
+!assets/fase2/dados/classificacao_risco.csv
+!assets/fase2/dados/mapa_conhecimento.csv
+!assets/fase2/resultados/nlp/revisao/sondagem_linguagem.csv
+!assets/fase2/resultados/visual_ampliado/historico_treino.csv
+!assets/fase2/resultados/visual_ampliado/previsoes_teste.csv
+
+# Resultados regeneráveis; preservo as evidências pequenas da entrega anterior.
+assets/fase2/resultados/**
+!assets/fase2/resultados/**/
+!assets/fase2/resultados/README.md
+!assets/fase2/resultados/nlp/revisao/resumo_sondagem.json
+!assets/fase2/resultados/nlp/revisao/sondagem_linguagem.csv
+!assets/fase2/resultados/visual_ampliado/.gitignore
+!assets/fase2/resultados/visual_ampliado/historico_treino.csv
+!assets/fase2/resultados/visual_ampliado/matriz_confusao.png
+!assets/fase2/resultados/visual_ampliado/metricas.json
+!assets/fase2/resultados/visual_ampliado/previsoes_teste.csv

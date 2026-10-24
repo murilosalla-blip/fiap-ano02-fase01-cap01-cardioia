@@ -1,0 +1,2238 @@
+{
+  "commit_anterior": "643d8abf3c7c6929087364065f2f8c547a184066",
+  "descricao": "Registro os destinos e hashes anteriores para conferir a reorganização sem perder entregas.",
+  "arquivos": [
+    {
+      "antes": ".gitattributes",
+      "depois": ".gitattributes",
+      "sha256_antes": "d8fb0de4792538f93822b2c0d235604921299d5e54a3d6ec7a6cb34536e8bf1e",
+      "sha256_lf": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    },
+    {
+      "antes": ".github/problem-report.md",
+      "depois": ".github/problem-report.md",
+      "sha256_antes": "25d1214cc69164593af4bff4f8e5fecaf2f6084f60dcbc88aa3f3543e6949519",
+      "sha256_lf": "d72917f9288bdd0c6d5c4a3ed88266ece7ebf8a9aba01890ce9abb56fba9b022"
+    },
+    {
+      "antes": ".github/workflows/fase2-baseline.yml",
+      "depois": ".github/workflows/fase2-baseline.yml",
+      "sha256_antes": "526e6ee4374933a16eedf197e865191be210fa75b1dbf75d58ea66eb584b647e",
+      "sha256_lf": "0b9facc21e4ba8ce554f651b3084dbb78079cc8dbdbaa178b601c803dc6d0013"
+    },
+    {
+      "antes": ".github/workflows/fase2-visual.yml",
+      "depois": ".github/workflows/fase2-visual.yml",
+      "sha256_antes": "1e648301c1c9343a3be090fbaae47dde2282a2ddc90775f211163ccd36f47ef2",
+      "sha256_lf": "2586606cb9b585d269c8c58dc0d1ff102a2d48992383e65b2e640b341d0e703c"
+    },
+    {
+      "antes": ".github/workflows/fase3-edge.yml",
+      "depois": ".github/workflows/fase3-edge.yml",
+      "sha256_antes": "d05c40d61d60e043a91487f9518a30305c54606d548323f1f3457eb12625d2b4",
+      "sha256_lf": "9dff1c92ea3dcfca6e9247eccf7873f8c97c28c56a546b67ff5c54491ebeac37"
+    },
+    {
+      "antes": ".gitignore",
+      "depois": ".gitignore",
+      "sha256_antes": "5171eaadc67f4b710b44349fa2adc0186012f3a2da8846cf8264396453814413",
+      "sha256_lf": "8d19eaeebc5ed71a35fd6cd2144af2b3381751d2ec54311cc4621b0d106637f2"
+    },
+    {
+      "antes": "README.md",
+      "depois": "README.md",
+      "sha256_antes": "eb9fd99949f3e123430416eeb1667f29c48f18265aa836abac3b21a21becd7f0",
+      "sha256_lf": "da9bc6ef1e81538fab9cd849b853cbbdfc962dad2566f95c22d6f1bba9469bfc"
+    },
+    {
+      "antes": "assets/dados/processed/heart_disease_cleveland.csv",
+      "depois": "assets/dados/processed/heart_disease_cleveland.csv",
+      "sha256_antes": "f53ed8c77c17d64a9f68aedaad86c2918566d071a6c3540b3508036b99127800",
+      "sha256_lf": "d9bc4bb07bc204b5dc7f1901e55f387b9b057c97dace6673a7939fa1ad09a3b6"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/Index",
+      "depois": "assets/dados/raw/heart+disease/Index",
+      "sha256_antes": "c1e565c2053982a1ae051daba26c07339e9219f7ad6454e4449273598c7b2c82",
+      "sha256_lf": "d41af1035979b6068dd812c7acf3533dff92195f060b71b805d0cf476dc129cc"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/WARNING",
+      "depois": "assets/dados/raw/heart+disease/WARNING",
+      "sha256_antes": "6cee5cc52c0e2e4367015d710b6455689787cb7cfd3bf101de6b157a5a78a239",
+      "sha256_lf": "01ae7cb6ab43a387b206f7127ce81869639d9d3076d447c12d7df17ad583f954"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/ask-detrano",
+      "depois": "assets/dados/raw/heart+disease/ask-detrano",
+      "sha256_antes": "7d79f0381033a5532c7090c0ec12d341efa22f697ff9a3a742f802017644bc86",
+      "sha256_lf": "9c6fd6da312d211b92686e999d31472d9df375e5961003d975e2b1b4adfba732"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/bak",
+      "depois": "assets/dados/raw/heart+disease/bak",
+      "sha256_antes": "740f02976cd4a66e66f89cfdaf113866953c5736011e12822bb0bb289531d7e6",
+      "sha256_lf": "256ce8acebd722879c364199b4b62b94abc9dd9373a0c15c7677508f1e1aafd1"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/cleve.mod",
+      "depois": "assets/dados/raw/heart+disease/cleve.mod",
+      "sha256_antes": "cbc427b275c72eaba5b37ba6fa6d4efbd0751746ad79fef9fb69d7d518995274",
+      "sha256_lf": "a1d2a0369d138b45a761522e897f34dc49d779a1b8f7c323dd9732d632ecc83d"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/cleveland.data",
+      "depois": "assets/dados/raw/heart+disease/cleveland.data",
+      "sha256_antes": "9278214845d1cf45cdce6404038b232ce23dedaf801709650712f6d145d1b7b7",
+      "sha256_lf": "9278214845d1cf45cdce6404038b232ce23dedaf801709650712f6d145d1b7b7"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/costs/Index",
+      "depois": "assets/dados/raw/heart+disease/costs/Index",
+      "sha256_antes": "964818249aeca74c521642e5cfe82a33b3846610feb9bb699aa998e8a67b7be2",
+      "sha256_lf": "0f6a2a6e449c0897b66bb4ad6743052416b6d0fd1785d75da2cbcbfe4e9721a3"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/costs/heart-disease.README",
+      "depois": "assets/dados/raw/heart+disease/costs/heart-disease.README",
+      "sha256_antes": "169190e71fd6e80a150e17fddfb54d2eb14b6fbb1bb13d30053f7e0aee4d1073",
+      "sha256_lf": "2eabbf5ba4931bdad358fb724d85f1145216179fad6d969eb712612e24ab1ec5"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/costs/heart-disease.cost",
+      "depois": "assets/dados/raw/heart+disease/costs/heart-disease.cost",
+      "sha256_antes": "209b11a9e99885c51b3dcb0f8e2e893c7212c46055fcb663a67b84a89a590679",
+      "sha256_lf": "d7dd7d4e6988e0fd372cde12807bb274ee7ffc9f806fb284e018b1fbceb562a6"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/costs/heart-disease.delay",
+      "depois": "assets/dados/raw/heart+disease/costs/heart-disease.delay",
+      "sha256_antes": "b55531b87906adce537a9fc3fb84405b54ef6d526f473b44872c4e6df9ca7767",
+      "sha256_lf": "3ab763060ee82642a50043f21cd6f2b5a6af1ad27b879de6737447b4da415811"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/costs/heart-disease.expense",
+      "depois": "assets/dados/raw/heart+disease/costs/heart-disease.expense",
+      "sha256_antes": "b2360b0a02f90d67a912587144b5b6cde55b124040eb6f3eda00dba864a82137",
+      "sha256_lf": "1a760067be382086895a6fe3bc6a4c1f532d5f06b4c201c6654fce28af73dafe"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/costs/heart-disease.group",
+      "depois": "assets/dados/raw/heart+disease/costs/heart-disease.group",
+      "sha256_antes": "23d0b528629a27900f014156e8a3dbf19e672130297422889f89a37d108a349e",
+      "sha256_lf": "5304099521b34ba089857a8e1550221fc32f16d537cae080848a6a958aa37770"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/heart-disease.names",
+      "depois": "assets/dados/raw/heart+disease/heart-disease.names",
+      "sha256_antes": "02db618268cbe8b314137282a0a4cae6d5eb178b2e263fe94c64241f12ae4dc4",
+      "sha256_lf": "ec7ed5aa4ed8321097808f47b836301c2a0c36f3bb09c40b8b43b622363e6b61"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/hungarian.data",
+      "depois": "assets/dados/raw/heart+disease/hungarian.data",
+      "sha256_antes": "da18bbf1e0c0c0ab0d6418e65edac54f76d52a1d155da4e532f441d0943ae732",
+      "sha256_lf": "b8e4bbd06b9bf9ec831c992ba397639f22815e525c43b489e1a6e75b3be29a75"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/long-beach-va.data",
+      "depois": "assets/dados/raw/heart+disease/long-beach-va.data",
+      "sha256_antes": "a7e0e8fca70c06de52533bd86174a8b6c41ace3c84d6663cd49c7ba145f8e88c",
+      "sha256_lf": "16d44b28ccb139d07509ee17f22c51fcd568caea8beb607d1503e4a679133353"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/new.data",
+      "depois": "assets/dados/raw/heart+disease/new.data",
+      "sha256_antes": "dd8212d2687d92e47162fd209ad51251f20ea652e6ede92fd7df7c448489bb30",
+      "sha256_lf": "2a75652db155d77b76c506b172848d73a58869cb707943474d265f8415de6c4c"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/processed.cleveland.data",
+      "depois": "assets/dados/raw/heart+disease/processed.cleveland.data",
+      "sha256_antes": "13f2c7cc1ebfc284ead179a49d04ef4935ede24cff35452bf19a8eb643c7a8af",
+      "sha256_lf": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/processed.hungarian.data",
+      "depois": "assets/dados/raw/heart+disease/processed.hungarian.data",
+      "sha256_antes": "31134d83efc3266e486acece5e259585d7a52f16afa5567f195e70a993327afe",
+      "sha256_lf": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/processed.switzerland.data",
+      "depois": "assets/dados/raw/heart+disease/processed.switzerland.data",
+      "sha256_antes": "422aa0182e5b95ff4ef2d95512caf3335e114fc1816db477a5a30286b267c2d7",
+      "sha256_lf": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/processed.va.data",
+      "depois": "assets/dados/raw/heart+disease/processed.va.data",
+      "sha256_antes": "1a12cdc1aa204bc5506aa22f04b6c45224b23f36adbd1c62039f65f370e334ea",
+      "sha256_lf": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/reprocessed.hungarian.data",
+      "depois": "assets/dados/raw/heart+disease/reprocessed.hungarian.data",
+      "sha256_antes": "9e9822a8dd5f7bdc1a2cc61601c294e5f3368d2d67b923bc72c5ca2189f4b950",
+      "sha256_lf": "b699122ef9f81fd06363083ab2646bcb225a3775abe801edb81c3093c8f92819"
+    },
+    {
+      "antes": "assets/dados/raw/heart+disease/switzerland.data",
+      "depois": "assets/dados/raw/heart+disease/switzerland.data",
+      "sha256_antes": "2a711f038ff382d1d974a154afc8299ecfc79a9151e884365639cddbaa82a592",
+      "sha256_lf": "fe1618a50ec2fc99f57ec1ca3fa93bd1fcad93b9daf92d49704476e3a3e4d0b2"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_001.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_001.jpg",
+      "sha256_antes": "3e681b94e7961d8bd5c1162280c71fb7fcbd0ad2bbd7b1baf00d606f19000014"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_002.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_002.jpg",
+      "sha256_antes": "3e756967bede64368d07ce495713802183c7733456eb407f625b290e3ae40d9b"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_003.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_003.jpg",
+      "sha256_antes": "b288de43940265feafd87813e4b76f44f8cdebd5b118c6d28336c4fc0a0801dd"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_004.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_004.jpg",
+      "sha256_antes": "82d5595e6bca2cee24ac29cbc9e9ee3353ce24bdb194d20ad393b39773e37617"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_005.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_005.jpg",
+      "sha256_antes": "4d98506bedd5c27ed65191c99c251722e2321eca96fa946f1a6994de61a7c971"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_006.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_006.jpg",
+      "sha256_antes": "ddb52772e7691cfd7fd7fd442686a4e0279b88e1ae3075264b739d2c484122f7"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_007.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_007.jpg",
+      "sha256_antes": "4407600743b078931175b9a75bf2d1080576e94cc2771b59dbb80898db3f74bb"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_008.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_008.jpg",
+      "sha256_antes": "98e57024849d8986218945cfa570315c472307c96e741e49fd5a0ccd49224d47"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_009.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_009.jpg",
+      "sha256_antes": "20dea89772267f26c0302888ece857d016d9ec1c9571c56130cbea3c19ea457a"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_010.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_010.jpg",
+      "sha256_antes": "28cc789bf1d77c4cb4089f73a81843d7ec47dcdeabdeba384e2ce7997b271b2b"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_011.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_011.jpg",
+      "sha256_antes": "1863168b3edf85b8732e49b95d8d9f19648b2244dde738dc45f103bd5a1502aa"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_012.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_012.jpg",
+      "sha256_antes": "e95cf2d2067526f3ebbf9a8fa0d339a78110a3e62e094cd2390f9fc9b5198456"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_013.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_013.jpg",
+      "sha256_antes": "ed974ee594539d236d02712c047d3d95bb3257f00a9c4718e81fcc35dc8bcf39"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_014.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_014.jpg",
+      "sha256_antes": "b143bbe9c49cb713c80fbb8e1b8264defc14f75d62f439f1c823d536adbf0927"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_015.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_015.jpg",
+      "sha256_antes": "934d3659d1c79e279d114ac9a8410a392f55d74be9b67fd919a06bab8b3d1001"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_016.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_016.jpg",
+      "sha256_antes": "94d70580028234e8f0e8cdfa8812f176270e0652ac9f9757ad7aeef134f7ca73"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_017.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_017.jpg",
+      "sha256_antes": "56dadc0220f483fa0c598e6de6e72e5b7986b42a0b49645a5b978d5ec436b10e"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_018.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_018.jpg",
+      "sha256_antes": "29c70fd3583bc8ef8ac58d5258d1184c4826013c03cddb6a8fd462e7599e143d"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_019.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_019.jpg",
+      "sha256_antes": "bb03de0fbd4a9c4cfe6b37143f45da9e911f19264f518be9f6af971962d644b3"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_020.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_020.jpg",
+      "sha256_antes": "22fec062d34eba6a6dabdfc7021d37b079be38097f764c9e42a95d1fcf88315f"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_021.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_021.jpg",
+      "sha256_antes": "afe221f08e8ac2314e3ddd8d489f67acbf800de4f1f5ab5809601292ee835b10"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_022.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_022.jpg",
+      "sha256_antes": "eca5ebfba78443a8f4e03856c7451c547a9a8f1e23b406f2e4c75cddb96c0c42"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_023.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_023.jpg",
+      "sha256_antes": "8fb3196e0d5860ed3f6010731c57e38042d3825fa4f4bbfedc8e3f5e3de02929"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_024.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_024.jpg",
+      "sha256_antes": "1b7da066c94c2dcdd6a009bd0b01ae30408c021b5fabaac4105eff563fceb6fe"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_025.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_025.jpg",
+      "sha256_antes": "c34d5c72b5315c98a9e63da61c4e6de666cd017a39984a0239181d9e4f5349d8"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_026.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_026.jpg",
+      "sha256_antes": "1079eb85876c3d5a49e5cd814506cb2550a5b8e4a80aa839aa290d24c7f00f2e"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_027.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_027.jpg",
+      "sha256_antes": "e69f44b62980f4bbf407a8d44d48b0710416f92433b5522b24999ac579f49ac5"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_028.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_028.jpg",
+      "sha256_antes": "c955a845b354aa0a15cadaa8a9239873081a863dffa5e0423536faa0eaccc8ba"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_029.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_029.jpg",
+      "sha256_antes": "b51509631c9f784b2cd169ebaa25f1f8ccd15b7c4e51c09bcb25039e474e55d1"
+    },
+    {
+      "antes": "assets/imagens/ecg/abnormal_heartbeat/ahb_030.jpg",
+      "depois": "assets/imagens/ecg/abnormal_heartbeat/ahb_030.jpg",
+      "sha256_antes": "b89ff40c7869b92e30685c713ee87d8c38d7bc81c634571aa60bbf9471ef8c5a"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_001.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_001.jpg",
+      "sha256_antes": "94f7ddd5cd7703b10441d305cd3a99ab6514da0f519ac5a7d5714647ea607e6c"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_002.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_002.jpg",
+      "sha256_antes": "acc65187206a70dfc29d31243e2d3bccc417c316c990b5ee06c5a11c77296ab4"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_003.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_003.jpg",
+      "sha256_antes": "64a737868d5b8f25940a968f8809ea9718328c18f520885f9787f10f45369b4b"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_004.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_004.jpg",
+      "sha256_antes": "5c02e173508202b66d6c4409dd90e88a97506470aad8ae8c978e736b7864a00f"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_005.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_005.jpg",
+      "sha256_antes": "51a4677718509bdfb9f67ad99c9fc3be331e20680bd6c788ab936faa5b6705e0"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_006.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_006.jpg",
+      "sha256_antes": "c6c3a77661a3d4202e0ed1dd0c8845dc735b76e1f9a1b30d47890c639f4c2e31"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_007.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_007.jpg",
+      "sha256_antes": "bf26f03e693f7a79675d1177b74c49658388d36262f567a64103e6062a246122"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_008.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_008.jpg",
+      "sha256_antes": "7f63f8841cdc11aa9e51bfe9a06efcbfbee8f5b013ed004b3ff3b7434fce732d"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_009.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_009.jpg",
+      "sha256_antes": "a1a2bb64fcec973ea6d105ff2cbe240dabe60b6c59efb67d776c084d3ddfb7af"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_010.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_010.jpg",
+      "sha256_antes": "4f23abfc42a589ded343566362a8a1a7c1c284974957f267fcb99f07e77a6ca4"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_011.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_011.jpg",
+      "sha256_antes": "50be67e465dc78574122db84ed98da21697e2844e7d82829818d4ae6b099f7cd"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_012.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_012.jpg",
+      "sha256_antes": "f1342cf8af537a72dd61727fd5e2ce79f028e0cbfac38feff265ea6d7b64f69c"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_013.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_013.jpg",
+      "sha256_antes": "c7ec4b725db797bfd60d4c37e0c6d27fb5ec30a3e912ef3da6d8814f06a60283"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_014.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_014.jpg",
+      "sha256_antes": "ad69605dafdee3c95eec23308fbacaafc85651596cfa4576709c7751d55635d6"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_015.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_015.jpg",
+      "sha256_antes": "0abd56e170eff6ec94d8186572bb3bcecdd09baee8f2437c5781e1bd0ebf20f1"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_016.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_016.jpg",
+      "sha256_antes": "552b8400ff38b44d459a9740da1911544b1f2beb01eaee7c9734f87f18cb5fd2"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_017.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_017.jpg",
+      "sha256_antes": "184c558a6fdcef6f1ea70be51fcc127f37ab47c3a1f60310fab701218adfb6e7"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_018.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_018.jpg",
+      "sha256_antes": "f8e11e37c5b25d9e2bc1f3de3b22c0d4315e442d2ca762c5641afba4b617b1aa"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_019.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_019.jpg",
+      "sha256_antes": "82d040a8354f6e66d1862eb994411099ea271a8c80e74521c95c22c65f6b064d"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_020.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_020.jpg",
+      "sha256_antes": "886370f40c1383e33d3f8d2b51f9dcef9e5d02c6899235d4e9ef47a3c930affa"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_021.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_021.jpg",
+      "sha256_antes": "67ed62abcf421b4b3173e217f59ea5698946a8eae3b11a230151dd246447e14e"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_022.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_022.jpg",
+      "sha256_antes": "2c9329fe5ce93ffadf3b187752dde20d3fedab60c896b948e140a85f8e0d8335"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_023.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_023.jpg",
+      "sha256_antes": "965862f3b5bba0a155db92479ab29f44b418f7e6607fb2ca22e53a34357ac1ab"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_024.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_024.jpg",
+      "sha256_antes": "3ba79b59d162fb57ac4f9931328a21ffa729f6e75e1e3b6240f2003162c9e53e"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_025.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_025.jpg",
+      "sha256_antes": "991a93c14acb396a7538cd2cbc40f7f54cd2db8c37b4b1a3b4441ba0841d47f4"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_026.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_026.jpg",
+      "sha256_antes": "1b59b93a374ec01a03b1c527c7cf831cc5c6be301d5719329b652c2c91c65a2e"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_027.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_027.jpg",
+      "sha256_antes": "ccebb9909b5c350821edd89c22ad07e589f9397cb9db45af0dd969353a0fc4d7"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_028.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_028.jpg",
+      "sha256_antes": "5b273b0687dcc3da18b62d11da47bac02ea8ca7cd80f8ce99c156b84f8d66dae"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_029.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_029.jpg",
+      "sha256_antes": "0ecc711525b4edf785066f55e7afbff5f5612b35288eeebb4db12afdb439afb9"
+    },
+    {
+      "antes": "assets/imagens/ecg/history_mi/hmi_030.jpg",
+      "depois": "assets/imagens/ecg/history_mi/hmi_030.jpg",
+      "sha256_antes": "3fc44abb037e4a54a2318c1e1f790c823dc5668d0fa472c56752a26191077985"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_001.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_001.jpg",
+      "sha256_antes": "17f6ae1d38e621f9a3d9039f92135dda2ce483283191ff2891e32a302e436941"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_002.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_002.jpg",
+      "sha256_antes": "9fd987007a6d1c7be8af95c1facd60fab1739bc2f3c36883da7a5be15bb98ac5"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_003.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_003.jpg",
+      "sha256_antes": "0f8a2b2b275382ac305fb443e3beb2cc6ae5d4fe5d37368245fb01ad5bf4ffe6"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_004.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_004.jpg",
+      "sha256_antes": "e0cb15c93edc985ddb5918ad86fbd7d74f01bb47490b2b5d148218349853dcff"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_005.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_005.jpg",
+      "sha256_antes": "1ed4a8e1fea8bd71dcca7e54cf9c4fbb251c19cfbf5c8635e6cab70810eaf44c"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_006.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_006.jpg",
+      "sha256_antes": "c70e599e5139af079be10e6b8cd38281201c8e360369e68b5299f46fa47f7d19"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_007.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_007.jpg",
+      "sha256_antes": "700ab1021ef4b1e6b4bde5803605462337bcea52d8fad08ffec634d79d3aed75"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_008.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_008.jpg",
+      "sha256_antes": "858c633ac7dc3f342b8f3912ebfd2c98377daa1484f1ee9c79ff8e8d6402a4ab"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_009.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_009.jpg",
+      "sha256_antes": "da6075c7356adcfd5a39e0cf9d0e064c32ea311587f87990b78fb1a423518d92"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_010.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_010.jpg",
+      "sha256_antes": "426b8a481a485d98c9318ad6746fff0af4cf8af1fdf91870a798e4c6b54a3c6c"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_011.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_011.jpg",
+      "sha256_antes": "03a9720a18db30facbecd92c6ab8c86b16e88622294f02c17b4b8180205b7e30"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_012.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_012.jpg",
+      "sha256_antes": "188d2219aa6db1fdf1c486b57c85c32459b3d4f116ed5fa92db5ae427e356f20"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_013.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_013.jpg",
+      "sha256_antes": "ed601ceba4d853acf1aaf5d847e978cdfd7a7909f5e221efbb5350e660b41a05"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_014.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_014.jpg",
+      "sha256_antes": "df6a7c5d408b1de2e2caf85832c8bcadce6500b47ae1f960bf89b9b692bf8ec2"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_015.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_015.jpg",
+      "sha256_antes": "48552861aa4ce5f931718bac5f9fd21e5319990f694a71e646de485322859185"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_016.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_016.jpg",
+      "sha256_antes": "e31a2bb9e874101f07f9a803af19f3ca29430841bb7e8c5a8d3ba0cad8a0a815"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_017.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_017.jpg",
+      "sha256_antes": "c0706cb4ca0c74b52e38fa31311bd9fdf2491fb15f72ca1a9015c0201ea3e4b4"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_018.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_018.jpg",
+      "sha256_antes": "0cf78179bc6e5dd67a4d1d6a97a3dfd68c7ed3877ac9e471f60176cc6eb3c547"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_019.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_019.jpg",
+      "sha256_antes": "9283bcad6b969d263019042c5ab19ba648e6a7e03793cf04d841e31b421f1a2d"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_020.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_020.jpg",
+      "sha256_antes": "8b1717def09688a3598156dd7a6a6ccbde532816155c0b7f21cf3506338c5b9d"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_021.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_021.jpg",
+      "sha256_antes": "7564718a4152e2d14594baee153de83d07d4a99ab38fced56c0dfe0f40356e08"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_022.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_022.jpg",
+      "sha256_antes": "f33e2e2e50039a236925e70a960bf22213ffa967fa51a98d2d83f8377246746a"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_023.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_023.jpg",
+      "sha256_antes": "3b5e991afb9e152d4f9e45ccf687011fe32ed5d800043aec481935263f4fca32"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_024.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_024.jpg",
+      "sha256_antes": "3f3d3d0c40f1c0b1efd6232fe1d455e2c2974672b7cbb054759b2ec109032823"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_025.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_025.jpg",
+      "sha256_antes": "77c53579bd52f495560a68d89032d2da75850bbd0207f8c08b43afa8bbf526b0"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_026.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_026.jpg",
+      "sha256_antes": "324e8ca46fd023520f36c3427dde92aebc1419c527d6ae8719e6f02234969bac"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_027.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_027.jpg",
+      "sha256_antes": "74c7ae9442da51a36b99880be9e56239f3e8e871edad0027623b6bf0f0c4e46b"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_028.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_028.jpg",
+      "sha256_antes": "673e464fdeb0f147647986c4715f1e0edd5bb14d57cc757e144d5d16b97f7d09"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_029.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_029.jpg",
+      "sha256_antes": "5627843f489f33610aa1d5628a14ec51d08130ddeb952bcf4b1b156e12c97a11"
+    },
+    {
+      "antes": "assets/imagens/ecg/myocardial_infarction/mi_030.jpg",
+      "depois": "assets/imagens/ecg/myocardial_infarction/mi_030.jpg",
+      "sha256_antes": "fff32301dcd37c586b564c07b6bce50b71abaf1d1af29fc3935690f5a911d1ca"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_001.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_001.jpg",
+      "sha256_antes": "ccb5d006d42ca9d57ae73ebd2b6f07c6a68a239e1fbd8ce3b24b6c39ab614fd1"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_002.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_002.jpg",
+      "sha256_antes": "5e6100631abcf13ff32b80eb0d09dc0d1c065bf60a5c3e8729b9ea022fd0d37c"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_003.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_003.jpg",
+      "sha256_antes": "117d744100083003781e03364e40e727ec5525e239fa866aa9a38d8c6e8cabed"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_004.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_004.jpg",
+      "sha256_antes": "f88f46d7c6b6616437d652d755faae68697965130c9effb042a7bdf75b644186"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_005.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_005.jpg",
+      "sha256_antes": "d30dd03e63029cac27861de5e8cac198166d296dbc8361f73946af14e6a877f9"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_006.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_006.jpg",
+      "sha256_antes": "0771de106151b13c07c21b25025fbd2b5a330b19b4461bdf1d59e04355965483"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_007.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_007.jpg",
+      "sha256_antes": "c815b51e93aec829b8633e88b498e8a2e8a1195406b8383cc26796a89290c10f"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_008.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_008.jpg",
+      "sha256_antes": "073fc21c75ccea4db48a7993230789ad7c6dc95385a31eeca03199aa1e2110ea"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_009.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_009.jpg",
+      "sha256_antes": "0a735169e983cbc5a9fb0c0eec4f6062b2349576f1f0505c653c30e8aeea7426"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_010.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_010.jpg",
+      "sha256_antes": "b62706d39e8648f690aa76ae173abe9d59fa58798e23709e8a2d951b5e3241f2"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_011.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_011.jpg",
+      "sha256_antes": "5e55b0e8b48b4d940189920a81fe6f027a1e3524f050f37b210944b0fc4c32c2"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_012.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_012.jpg",
+      "sha256_antes": "d5da22c19769ddea4482aaba413de9bd19ca6ff1c4ae21f35301445ffbe826cd"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_013.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_013.jpg",
+      "sha256_antes": "24055316b8a153f269d564710b2e13484e712e0c47a3255d0084e9d53de2b385"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_014.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_014.jpg",
+      "sha256_antes": "f80c309c22042ee0081d4af450f768ddbc3ccaa308ba4fc402735677fabb4a30"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_015.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_015.jpg",
+      "sha256_antes": "aed2a1d163dbd87069eb4b4fbab22df93325914e9c6a0d4a644ae9a255611b78"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_016.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_016.jpg",
+      "sha256_antes": "d70ad265831c415fd82cf27af6db009d1493c600e4f8483958e07051dc4eff35"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_017.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_017.jpg",
+      "sha256_antes": "cf326cdc8af06423bcb86569271dfb2d3c81c8e48baf9d069646bc4cbcd5bb7c"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_018.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_018.jpg",
+      "sha256_antes": "8d20354feb4e3aa4514788a287967665e1163b22d924be194ad5efcb215ea1f4"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_019.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_019.jpg",
+      "sha256_antes": "2a2665b59ddd593c0113d3da3900be9a901f8ae19b4eb998d72264574b761c5b"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_020.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_020.jpg",
+      "sha256_antes": "6f4b0a406d88b4e322ce038a5b5a532f4e6a5fa3c9bd4be0282bf3a09685b96f"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_021.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_021.jpg",
+      "sha256_antes": "49f6e17a74abdb872bc6064582eb840ec2d710470338095a937b397721b7f813"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_022.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_022.jpg",
+      "sha256_antes": "8fd8ff07100cd718987f8305d4650733b7e8b844e588843aa6ca6c771a9984af"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_023.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_023.jpg",
+      "sha256_antes": "dd104d9f9f3a5a048235aa7b3f5bcfed9fa8e7256f3f523779a0c890e199c5d7"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_024.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_024.jpg",
+      "sha256_antes": "881a329e48be69060726a255da51d28cc5944fc71a176c83fcd2259dd3946d1a"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_025.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_025.jpg",
+      "sha256_antes": "5d964777780b6edb1394405ae6963af0d259cb68fb77abbb88a69b67052af431"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_026.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_026.jpg",
+      "sha256_antes": "f7df45104dbfef8adbeb9d4464c7877a000b6c6b1f6c0b83060cc5a15f54dc27"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_027.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_027.jpg",
+      "sha256_antes": "254a0e3e64d9569a3697805c742c902ae6f892026fc45890e7bc18f30d13e42e"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_028.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_028.jpg",
+      "sha256_antes": "e836d7217c2b0ff145dbe50972b219fcf343d6ad0c7000ab84d0216172c01234"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_029.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_029.jpg",
+      "sha256_antes": "3498f189eb0ee5396884639e33aaeddccc4df176a38e222e13971a03efa291c0"
+    },
+    {
+      "antes": "assets/imagens/ecg/normal/normal_030.jpg",
+      "depois": "assets/imagens/ecg/normal/normal_030.jpg",
+      "sha256_antes": "bb59c4d5036103b4cde7a201b27621908200a39e4f2df6bd83d7085699770c9b"
+    },
+    {
+      "antes": "assets/logo-fiap.png",
+      "depois": "assets/logo-fiap.png",
+      "sha256_antes": "f9046d595b20e0101955ab757668723fc961aab348641d2080b4644cd7320d6e"
+    },
+    {
+      "antes": "assets/textos/texto_01_prevencao_cardiovascular.txt",
+      "depois": "assets/textos/texto_01_prevencao_cardiovascular.txt",
+      "sha256_antes": "4e6c16c69f00f444e9c1c4ed1685719c51303b8853f664af9413cf7d8b47a0e4",
+      "sha256_lf": "d80a3f48cc4ad684eadeda204d22177e255e1a0f274474409144de2e0c25847d"
+    },
+    {
+      "antes": "assets/textos/texto_02_sindromes_coronarianas_agudas.txt",
+      "depois": "assets/textos/texto_02_sindromes_coronarianas_agudas.txt",
+      "sha256_antes": "cb1936ee0c5c90dac244b482d1a046fe4a9b3300427c407dc175262060ba21cd",
+      "sha256_lf": "29da8d1012bee0d4915d2a2a28454f9ec4d18366e20e2db60a064b38aa49bb9f"
+    },
+    {
+      "antes": "config/readme.md",
+      "depois": "config/readme.md",
+      "sha256_antes": "ea110d982ddf4410fa5c00cfad331bcc2778e73e94d1f7d79efbf4c4c1b0de15",
+      "sha256_lf": "ea110d982ddf4410fa5c00cfad331bcc2778e73e94d1f7d79efbf4c4c1b0de15"
+    },
+    {
+      "antes": "document/ai_project_document_fiap.md",
+      "depois": "document/ai_project_document_fiap.md",
+      "sha256_antes": "6be57af29105e2fcee12524bccef219b4a52edd8f90c848020dc01a0e9217c92",
+      "sha256_lf": "1347f74554dc8a5b6b2961e2a9127344cb5f5db6975f947774ddb0adbb2670da"
+    },
+    {
+      "antes": "document/other/documentacao/parte1_dados_numericos.md",
+      "depois": "document/other/documentacao/parte1_dados_numericos.md",
+      "sha256_antes": "792009fa7e23fdaf4ef342fdb98aa752503a7134baa4e38613dec4012637285b",
+      "sha256_lf": "bea96b1c789c8b474d56d70071898d5b46df8967630b8255b793d5ef886e1fbb"
+    },
+    {
+      "antes": "document/other/documentacao/parte1_dicionario_variaveis.md",
+      "depois": "document/other/documentacao/parte1_dicionario_variaveis.md",
+      "sha256_antes": "0c5dbe85decc4880634efb0451a28686d92c4bee65fa3cd30cd54d840d028bf5",
+      "sha256_lf": "1844b521f448f24acb1e8c48eda0dc43ff2bf775cdcf719234b0e5045907b966"
+    },
+    {
+      "antes": "document/other/documentacao/parte2_dados_textuais.md",
+      "depois": "document/other/documentacao/parte2_dados_textuais.md",
+      "sha256_antes": "e5ade07b7b55b8f37d984397fdbea41a77fe273937d973e4056733eae1194796",
+      "sha256_lf": "bea495026da042a2dc5e461104e2d5b1fec359e1c7a1800c3d2280a0426f8916"
+    },
+    {
+      "antes": "document/other/documentacao/parte3_dados_visuais.md",
+      "depois": "document/other/documentacao/parte3_dados_visuais.md",
+      "sha256_antes": "dcc76dd95f6fbf2fba3fb5da69b816ed81d12d03c8c2b8695cb839f28efa33d6",
+      "sha256_lf": "f972f85b13d3f9c5bc214947238863f5fcc38c30425600d8e0f537b4c28c66e4"
+    },
+    {
+      "antes": "document/other/documentacao/plano_execucao.md",
+      "depois": "document/other/documentacao/plano_execucao.md",
+      "sha256_antes": "5b44c710e0ee8d80006cc48427c3a8b1b43903efefbe29a0b94bdc4ccc3c4ffd",
+      "sha256_lf": "30a51b837af79e8c6111efd6c371f57a854f21f8b0d116e3f1081d3dc11bbcdd"
+    },
+    {
+      "antes": "document/other/entrega/cardioia_fase1_entrega_fiap.pdf",
+      "depois": "document/fase1/cardioia_fase1_entrega_fiap.pdf",
+      "sha256_antes": "4661218bab2a9a6ce355f97a16329b977d9df1a3f68c3452e13c6d351f9e6577"
+    },
+    {
+      "antes": "document/other/readme.md",
+      "depois": "document/other/readme.md",
+      "sha256_antes": "277ba3f9a5ad737c8cb8277c71653e8722b46464d9f03a252e67e7476a674d13",
+      "sha256_lf": "a06f8070b527078c3713dcf5ca34cf57e9762ba79cc9658042a2f64e5f5f0c92"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap01 - A Busca de Dados Preparando o Terreno para a Inteligência Cardiológica_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap01 - A Busca de Dados Preparando o Terreno para a Inteligência Cardiológica_RevFinal.pdf",
+      "sha256_antes": "348c0515732a7c8c860275ef765ccf30714c6234eef5315a1834949e7b1e593b"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap02 - RPA Bots que Libertam Humanos_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap02 - RPA Bots que Libertam Humanos_RevFinal.pdf",
+      "sha256_antes": "e979c0af20a42b56e2b67df9c0a5b767f780aa63d1b80014a50220174caf3cfc"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap03 - Computação Neuromórfica Inspirando Máquinas com o Cérebro_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap03 - Computação Neuromórfica Inspirando Máquinas com o Cérebro_RevFinal.pdf",
+      "sha256_antes": "f57990521d9afd4b8609b7e8bb2c125d66151e971037477e56d723189ab620fa"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap04 - Computação Quântica Quebrando as Barreiras Clássicas_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap04 - Computação Quântica Quebrando as Barreiras Clássicas_RevFinal.pdf",
+      "sha256_antes": "fedade0758f6a70ecb9646148463f8583a117350ae0bc66e4f0ac23fd735f5c3"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap05 - Frontend Magico Interfaces que Encantam no Mobile_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap05 - Frontend Magico Interfaces que Encantam no Mobile_RevFinal.pdf",
+      "sha256_antes": "e93f4593b5f3c161860ab5b12f420ff3a94d03cb74089b5d6642d4f005806513"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap06 - IA Generativa Criatividade Codificada_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap06 - IA Generativa Criatividade Codificada_RevFinal.pdf",
+      "sha256_antes": "4a66e7f195628ad9a9a93f15fc0cff7fa04c1628f1a4af7ab51f5646f0b7c081"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap07 - Governança em IA O Cérebro Ético dos Dados_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap07 - Governança em IA O Cérebro Ético dos Dados_RevFinal.pdf",
+      "sha256_antes": "787d3a1b0f1ce3b850d53397329fb2d76b8e515eda5db6d75e8796a8ca36207c"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap08 - IoT Cognitivo Sensores que Falam e Pensam_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap08 - IoT Cognitivo Sensores que Falam e Pensam_RevFinal.pdf",
+      "sha256_antes": "6078958c1055045194708e9e8549d6c7f7b721d259d7c3eafec966f183619e28"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap09 - O Encontro do IoT com a Nuvem_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap09 - O Encontro do IoT com a Nuvem_RevFinal.pdf",
+      "sha256_antes": "0b399b16ebff299c2bc51300809e6a8d55b45f1482227c0b575f0a35f28a38de"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap10 - NLP e Chatbots Vozes Digitais que Compreendem_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap10 - NLP e Chatbots Vozes Digitais que Compreendem_RevFinal.pdf",
+      "sha256_antes": "2d8ba8bc3c06487e523b8c6fce031dbd50b99234d80d39598fbdec8a0a3ff7fd"
+    },
+    {
+      "antes": "document/other/referencias/aulas/2TIAOA - Fase 1 - Cap11 - Visão Computacional Máquinas com Olhos e Intuição_RevFinal.pdf",
+      "depois": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap11 - Visão Computacional Máquinas com Olhos e Intuição_RevFinal.pdf",
+      "sha256_antes": "a59dfbe4a52cb005461321dde533107d06ea2b88b88c95562a421d39a19362c7"
+    },
+    {
+      "antes": "document/other/referencias/enunciado/Fase 1_Cap 1_Exercício.docx",
+      "depois": "document/other/referencias/fase1/enunciado/Fase 1_Cap 1_Exercício.docx",
+      "sha256_antes": "4d8d9b24db13c285b1b2ad69589f1094c67663dc98b7c86108cdfcc635cf3002"
+    },
+    {
+      "antes": "document/other/referencias/enunciado/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg",
+      "depois": "document/other/referencias/fase1/enunciado/mapaMental - CardioIA_ A Nova Era da Cardiologia Inteligente.svg",
+      "sha256_antes": "e52b1824b834ff447c8082a943fa4dbd8e80bb66f2e954499df48b384e2d4caf",
+      "sha256_lf": "adc9c08f4e07b0e3a58437952d12ccaf0a5eba78e7ebca10331d27e95996fe14"
+    },
+    {
+      "antes": "document/other/referencias/parte2/Linha de Cuidado do Infarto Agudo do Miocárdio e o Protocolo de Síndromes Coronarianas Agudas.pdf",
+      "depois": "document/other/referencias/parte2/Linha de Cuidado do Infarto Agudo do Miocárdio e o Protocolo de Síndromes Coronarianas Agudas.pdf",
+      "sha256_antes": "d57eeb465d0363ecc2fae883b75ee87b860dde3c629b4a2c7f9ba27014bd6788"
+    },
+    {
+      "antes": "document/other/referencias/parte2/PCDT_SindromesCoronarianasAgudas.pdf",
+      "depois": "document/other/referencias/parte2/PCDT_SindromesCoronarianasAgudas.pdf",
+      "sha256_antes": "d81d47bf038c0b2fd75182cef70e18dcdb4179d48a45ba462a81d6c136661e0b"
+    },
+    {
+      "antes": "document/other/referencias/parte2/Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf",
+      "depois": "document/other/referencias/parte2/Prevenção clínica de doenças cardiovasculares, cerebrovasculares e renais.pdf",
+      "sha256_antes": "ce8ec2feede36c821caaa13123115c8ce8062db20e88c71c2eb4b34f26a2dacb"
+    },
+    {
+      "antes": "document/other/referencias/parte3/fonte_dataset.md",
+      "depois": "document/other/referencias/parte3/fonte_dataset.md",
+      "sha256_antes": "66df8075e2d37aa7784e608dff0f49c3d0b7624e42a831ac82112f23f502b5f8",
+      "sha256_lf": "04f16fd96ff87fcb76373b8f72f0941fb222552339d0f4ece0f8df22288c8d96"
+    },
+    {
+      "antes": "document/other/referencias/parte3/manifesto_amostra.csv",
+      "depois": "document/other/referencias/parte3/manifesto_amostra.csv",
+      "sha256_antes": "a6fc37e7cf8b82baccd8b4f69e174e26a630f26ac322ce976e1bc337d92f0b7b",
+      "sha256_lf": "2f80b1a130d2faa81d461837b4a8816500feb2ba3cb5ea685db6ac5b7ae80ac1"
+    },
+    {
+      "antes": "fase2/CHECKLIST_ENUNCIADO.md",
+      "depois": "document/fase2/CHECKLIST_ENUNCIADO.md",
+      "sha256_antes": "cbb1d691c2d26ed09d9a764d78ba8b988fe7956c849d0864758627ea27805237",
+      "sha256_lf": "c2799f914ef45a6ae694a24607a379a8e1faf9c0c4d864fddabcff21996e7336"
+    },
+    {
+      "antes": "fase2/README.md",
+      "depois": "document/fase2/README.md",
+      "sha256_antes": "e9927a5488260fc842dadbf4f77664a5786bdf6e380e236104c488ddee094bf4",
+      "sha256_lf": "f050114a484772f637a9a4d52e96492470634fb658e1f993b56636a3d0c08344"
+    },
+    {
+      "antes": "fase2/RELATORIO_ENTREGA.md",
+      "depois": "document/fase2/RELATORIO_ENTREGA.md",
+      "sha256_antes": "77cf1e4c56f1145a5e3d7aadca8de83d592d867de6230355acf3d6b3437e3fba",
+      "sha256_lf": "ddc89bbb2e80994e17e7dd3f233a36ceef07fb0ed3509ef09941f18108e5c94f"
+    },
+    {
+      "antes": "fase2/app.py",
+      "depois": "src/fase2/app.py",
+      "sha256_antes": "d0ea2c283ad78edf7b9ff087aa126cd631a75efb647bff1533240e70e46b2f4b",
+      "sha256_lf": "c610798bd3cb8d3836e2ad9904dc34b2e6b7683d58930e4d3bab05541b4cd8f6"
+    },
+    {
+      "antes": "fase2/auditoria/bloco1_inventario_e_escopo.md",
+      "depois": "document/other/fase2/auditoria/bloco1_inventario_e_escopo.md",
+      "sha256_antes": "32b0545de1d5b1d63f28fbb2d2708ceab8efbca4f9e6516630948e9b295db478",
+      "sha256_lf": "00b4c4d561cb08c7961eb5b8422d65de34f72933937a5989e9e5038f308ded65"
+    },
+    {
+      "antes": "fase2/auditoria/bloco2_negacao_e_regressao.md",
+      "depois": "document/other/fase2/auditoria/bloco2_negacao_e_regressao.md",
+      "sha256_antes": "f6e51632026e9092988069fb13db50fb1fc5ef772558ba533c904a4ba864b195",
+      "sha256_lf": "0f8baf25d872c6ae0e37c6d0881200456c6dc35475cba3dfec052be2075db1ff"
+    },
+    {
+      "antes": "fase2/auditoria/inventario_visual_ampliado.json",
+      "depois": "document/other/fase2/auditoria/inventario_visual_ampliado.json",
+      "sha256_antes": "3eaa05caf4db48f20d0750a0514e350deda85b9a709e2d651fc9cc2c09e95149",
+      "sha256_lf": "6c6aa8b7493c3a5d9abbc199a7cc8e2d4a249f27ff1553e46b948b9eabd87f2e"
+    },
+    {
+      "antes": "fase2/auditoria/preservacao_pre_revisao.json",
+      "depois": "document/other/fase2/auditoria/preservacao_pre_revisao.json",
+      "sha256_antes": "68673f0a3b41dd6112b3a27c8b7fb2d8583f55aec47690add3f2ace7c0254df7",
+      "sha256_lf": "3f54918fadde75fd3e768e8578fa8579d772d4e4503b30973aa51226286c1908"
+    },
+    {
+      "antes": "fase2/dados/classificacao_risco.csv",
+      "depois": "assets/fase2/dados/classificacao_risco.csv",
+      "sha256_antes": "ccef4eb74d6e3f5a3550e3ecc83315c804c4b7cda155af2685f470f6d1e0d7c2",
+      "sha256_lf": "e8bec65c0116dec546047347125d36bfa41d3454712adbdabb74a3d4d4d47856"
+    },
+    {
+      "antes": "fase2/dados/mapa_conhecimento.csv",
+      "depois": "assets/fase2/dados/mapa_conhecimento.csv",
+      "sha256_antes": "15c32e79f482f2263b75f04369ab21b29de2cca38ee800984c48dd7502659036",
+      "sha256_lf": "d3316aa9a835e0d2997da6acc11d7d1d7b19d4ac634ba00f57d51fcdc423cf92"
+    },
+    {
+      "antes": "fase2/dados/relatos_sintomas.txt",
+      "depois": "assets/fase2/dados/relatos_sintomas.txt",
+      "sha256_antes": "baa5cb53df9b7dbea171ee323c2c4a0c0487697f20791d92c46c0fe928a96b2b",
+      "sha256_lf": "cc7bfe75f485f1ade0885e3526c74c4a8785d8c86ec08564dd3a527a932efd0f"
+    },
+    {
+      "antes": "fase2/dados/visual_ampliado/.gitignore",
+      "depois": "assets/fase2/dados/visual_ampliado/.gitignore",
+      "sha256_antes": "7cfaaf03424a000c2c5aa7cefa41a0331b9ba79f2ece7fb37f52aa20d908f27f",
+      "sha256_lf": "7828aecff0295b7300ee2063617cdbde36eae288f5c43b61b9038c4a93d6356b"
+    },
+    {
+      "antes": "fase2/dados/visual_ampliado/README.md",
+      "depois": "assets/fase2/dados/visual_ampliado/README.md",
+      "sha256_antes": "f697d188bc58e0a92620a250b1731e663f0526ce985b4872094d25a2f8bf3e50",
+      "sha256_lf": "dc14d9bf2285d5076475bef6c07a6813b3e8779da7b49c3889732ae6dcdba895"
+    },
+    {
+      "antes": "fase2/dados/visual_ampliado/exemplos/abnormal_heartbeat.png",
+      "depois": "assets/fase2/dados/visual_ampliado/exemplos/abnormal_heartbeat.png",
+      "sha256_antes": "7081dcc8b21ad475953f4b59ab77c96e34074a8b41415f90aacd0a0e526eba9d"
+    },
+    {
+      "antes": "fase2/dados/visual_ampliado/exemplos/history_mi.png",
+      "depois": "assets/fase2/dados/visual_ampliado/exemplos/history_mi.png",
+      "sha256_antes": "45ed5c67b7a8ef3579453a95db7e4514f3e7ce73b48669025f1d4f5769148b4e"
+    },
+    {
+      "antes": "fase2/dados/visual_ampliado/exemplos/myocardial_infarction.png",
+      "depois": "assets/fase2/dados/visual_ampliado/exemplos/myocardial_infarction.png",
+      "sha256_antes": "29cd0789eb91e20573205307ec430eaf704b0c3facc54cc78e28227b45c7e9a0"
+    },
+    {
+      "antes": "fase2/dados/visual_ampliado/exemplos/normal.png",
+      "depois": "assets/fase2/dados/visual_ampliado/exemplos/normal.png",
+      "sha256_antes": "ca5b61bd7b3145781e8152ba3fe19f176b7f14ce0b1e6abdef32ac8a57f4cfdb"
+    },
+    {
+      "antes": "fase2/notebooks/analise_baseline.ipynb",
+      "depois": "src/fase2/notebooks/analise_baseline.ipynb",
+      "sha256_antes": "6dc784a2fd857e76c442cedf0f64637d29b2ba57a5782eb75d34128001ba4536",
+      "sha256_saidas_notebook": "2ad14bb4e446843f73537776fe418f19a9117613e8b43def27932a29c1859a0b",
+      "sha256_lf": "b004185ecedcc85284dc8e092e3a51a5403875ba807c2768e9fb3058f7a49a08"
+    },
+    {
+      "antes": "fase2/notebooks/classificacao_textual_tfidf.ipynb",
+      "depois": "src/fase2/notebooks/classificacao_textual_tfidf.ipynb",
+      "sha256_antes": "2e45fb23db3f244417665f4a9da0541a5f439600460a5ed895e2847dff8e7798",
+      "sha256_saidas_notebook": "2b61f247634b8c67d97f6d6817f0eb9687b38968fef88b1e9a897d3a5a0aaceb",
+      "sha256_lf": "9bac347196938c620949271e3e675a743517ad71af19da320d9941552fcf6699"
+    },
+    {
+      "antes": "fase2/notebooks/mlp_ecg_ampliada.ipynb",
+      "depois": "src/fase2/notebooks/mlp_ecg_ampliada.ipynb",
+      "sha256_antes": "82673bd6ed0656bc66aef2491b4c32252f864c471d3f7486be94e6c5b3426666",
+      "sha256_saidas_notebook": "053acc68b72e585089027ffcf6116be06be9c1957334f9ae5aa7b3d35c417f66",
+      "sha256_lf": "1e6c65a85fbd3a47f905b21a6ff2ac669036b74ad3a90fb9b100f70007532657"
+    },
+    {
+      "antes": "fase2/notebooks/mlp_ecg_binaria.ipynb",
+      "depois": "src/fase2/notebooks/mlp_ecg_binaria.ipynb",
+      "sha256_antes": "8023716f8638d5ae9fd20accd03ddd59e35ff9368d3b8a26a394afee5e9c139f",
+      "sha256_saidas_notebook": "eed1801f4513c7746d16e30fcdf1e50cc21617094647022ab01824d4fdd5af4d",
+      "sha256_lf": "3ccdfb3c68230ee4d6f4c2c62f99fb0842941d3bc473e0214afe37a301a987c2"
+    },
+    {
+      "antes": "fase2/requirements-visual.txt",
+      "depois": "config/fase2/requirements-visual.txt",
+      "sha256_antes": "204cdd311fba597fb1b29d53c3c5d481e7d17863b8637f4e276b80bb4c7ab8f6",
+      "sha256_lf": "fa8307b07fd054f83185e98eeb6a100fbe0b93b553a4196b1257e39ab888795b"
+    },
+    {
+      "antes": "fase2/requirements.txt",
+      "depois": "config/fase2/requirements.txt",
+      "sha256_antes": "78b3669ad4c4c6d73d68f40f03e6077d0548d123ff0890027f10fac1b3a51598",
+      "sha256_lf": "56c4bb8b0d787f2859e646ca29749bf40f3547f34dd270c1839650369eea9bbc"
+    },
+    {
+      "antes": "fase2/resultados/README.md",
+      "depois": "assets/fase2/resultados/README.md",
+      "sha256_antes": "48cf846c3a022231a65a2842aa74d7c40f9c52ca00afac9e9620e7ea9a4b13e6",
+      "sha256_lf": "12b12abf8ba3e3125a14576f73d0c4a1692390cbafa9c58a183fded39be7ce50"
+    },
+    {
+      "antes": "fase2/resultados/nlp/revisao/resumo_sondagem.json",
+      "depois": "assets/fase2/resultados/nlp/revisao/resumo_sondagem.json",
+      "sha256_antes": "6947dd1a4df6038bf1fd5d16fef5ffd077646ecddd5e60291419dbfd140d4b94",
+      "sha256_lf": "285a950f21edd4e9e8c60f2543d52ead6e90dacd8e824304bab2db18ab3b5890"
+    },
+    {
+      "antes": "fase2/resultados/nlp/revisao/sondagem_linguagem.csv",
+      "depois": "assets/fase2/resultados/nlp/revisao/sondagem_linguagem.csv",
+      "sha256_antes": "1a96e4320dd7a826e6a8f20e4aeee1e0addc0f2c40d793840d9098585925a4eb",
+      "sha256_lf": "60008b6d94a000b85a66b8dbecc6dcf18640a417fac5526d74e44fcb87c907e1"
+    },
+    {
+      "antes": "fase2/resultados/visual_ampliado/.gitignore",
+      "depois": "assets/fase2/resultados/visual_ampliado/.gitignore",
+      "sha256_antes": "a9da875e8ad87b5a59164cfa40e66965d9efb9207068d9871ac4c0b12ad7fad6",
+      "sha256_lf": "977b669c05db1a7184ee2c6ea9827504b845d127a51982ffb82b81611d818917"
+    },
+    {
+      "antes": "fase2/resultados/visual_ampliado/historico_treino.csv",
+      "depois": "assets/fase2/resultados/visual_ampliado/historico_treino.csv",
+      "sha256_antes": "720a96e65fdf4206ee8873521a8af728959c08364331927b8e3e949b07271f87",
+      "sha256_lf": "8b199fbcde940bf19d1f228336f0cd06b72d3c41c1842ebb1a50ae4c44e309fd"
+    },
+    {
+      "antes": "fase2/resultados/visual_ampliado/matriz_confusao.png",
+      "depois": "assets/fase2/resultados/visual_ampliado/matriz_confusao.png",
+      "sha256_antes": "bdb83ebc2288a337ebbd7daf669f100d74e0f1f0bc61a74c308149899081701b"
+    },
+    {
+      "antes": "fase2/resultados/visual_ampliado/metricas.json",
+      "depois": "assets/fase2/resultados/visual_ampliado/metricas.json",
+      "sha256_antes": "f2c20c9a3f3444d8f5b4350c27247e447acea6a22644e68e2521d863a5687f77",
+      "sha256_lf": "f642a9bd2ade530cf406a9b308502e1668c10b8e143373e135fac33983e047aa"
+    },
+    {
+      "antes": "fase2/resultados/visual_ampliado/previsoes_teste.csv",
+      "depois": "assets/fase2/resultados/visual_ampliado/previsoes_teste.csv",
+      "sha256_antes": "8229db9d5bf3549e1f663d1d546b153e95a474df2d8693998e598f03ad65952b",
+      "sha256_lf": "6bd7bfd0a7946abd5e146a79c2f51ea7b3b6d689712f8acac49be892fc8b79c3"
+    },
+    {
+      "antes": "fase2/src/analisar_modelo.py",
+      "depois": "src/fase2/src/analisar_modelo.py",
+      "sha256_antes": "1a9638014a6de6dbf51dbbd9262196e18a1824b95e5e60860dfba1bb203cd1f5",
+      "sha256_lf": "38c3d8295375b49a646e8e61cdfd99155b5d9e4cbbeca47de4f2fdc9eb2ccb7e"
+    },
+    {
+      "antes": "fase2/src/avaliar_robustez_textual.py",
+      "depois": "src/fase2/src/avaliar_robustez_textual.py",
+      "sha256_antes": "19f254ccb4ed1532b99c8f243617c01a64bc78cc77d0f110a8b79d9ef28424bc",
+      "sha256_lf": "0fe5f26c98eff91aeb6e7096add5f4c9ddc81f4ee7a720fddbb91874a47f48a1"
+    },
+    {
+      "antes": "fase2/src/classificar_risco_texto.py",
+      "depois": "src/fase2/src/classificar_risco_texto.py",
+      "sha256_antes": "411cc9b0f0f79d7d07997ebdac8d62ee965ba32256852e5e8a16fa4303c314c1",
+      "sha256_lf": "f595423492c71676901f585a38cfb1879678dfec6d962caed12a7c2e78e6ded1"
+    },
+    {
+      "antes": "fase2/src/extrair_sintomas.py",
+      "depois": "src/fase2/src/extrair_sintomas.py",
+      "sha256_antes": "1f2e1cc8b75de6c62964223bee02b6c3c8a78188fed98b0cfb1748aa050f008f",
+      "sha256_lf": "0678e6496a57854414b191c9df789b8c701043d0ed5c1e42c140bf3c6739ace9"
+    },
+    {
+      "antes": "fase2/src/preparar_visual_ampliado.py",
+      "depois": "src/fase2/src/preparar_visual_ampliado.py",
+      "sha256_antes": "77b902057cdd48be49be311a9a1147fc06dd2166859299b383978a67fd5c0991",
+      "sha256_lf": "84457586c6089a7fdca27d829308c61af96d3d69c556bdcb5a9c293d3c73fe47"
+    },
+    {
+      "antes": "fase2/src/treinar_baselines.py",
+      "depois": "src/fase2/src/treinar_baselines.py",
+      "sha256_antes": "c2bfbbb08781de8e37505a6daf14e4051d0cf61b609a15fe2af0651a3d763b8b",
+      "sha256_lf": "ce1da696639b9ebca93d8bc2d0761d3c8b2464c544d96a01440d022fd981b166"
+    },
+    {
+      "antes": "fase2/src/treinar_mlp_ecg.py",
+      "depois": "src/fase2/src/treinar_mlp_ecg.py",
+      "sha256_antes": "4c60f32893a24ea7e7e54c2c2e89dcdbe0048a5b906202b3ed61e9714600b33a",
+      "sha256_lf": "feec1ffca034d9e7a4d617100a081adb478a4a2545d7cce1b1ce7ec64beef528"
+    },
+    {
+      "antes": "fase2/src/treinar_mlp_ecg_ampliada.py",
+      "depois": "src/fase2/src/treinar_mlp_ecg_ampliada.py",
+      "sha256_antes": "fa1e9b4b2d33c5e71201cdd6f7f894948b738193f585ad3cf3061c1647c3a175",
+      "sha256_lf": "e54e23b034214801c5cc3ebaa30c513aeb95ea45d4b712e78a1151551e1b4e17"
+    },
+    {
+      "antes": "fase2/tests/auditar_cenarios.py",
+      "depois": "src/fase2/tests/auditar_cenarios.py",
+      "sha256_antes": "733b675d8dcac27d55bc722264ae52f383b89351fb1ca3adc67e85d01ad4b901",
+      "sha256_lf": "4013ba233de5aa49743233c4ce3a3b7bd18be43e23b0397ba7c27bb6e023c6e9"
+    },
+    {
+      "antes": "fase2/tests/test_app.py",
+      "depois": "src/fase2/tests/test_app.py",
+      "sha256_antes": "cc1b94b139080df10b7ff1fcd6a6f28874436689e14464ab491fdb00fc352b40",
+      "sha256_lf": "b36ad2b9abf208239fd92a12697a576d86642c84473465af17beb42e15b113cf"
+    },
+    {
+      "antes": "fase2/tests/test_demografia.py",
+      "depois": "src/fase2/tests/test_demografia.py",
+      "sha256_antes": "d17a4af3a5b1d72d194a9a904eed0b5e9df129ebd6843f7e58227544b8ef7828",
+      "sha256_lf": "044df64dc88100c44f9a92608d5b68ec97624aafeae2a12fcc0a385a1b0fe472"
+    },
+    {
+      "antes": "fase2/tests/test_nlp.py",
+      "depois": "src/fase2/tests/test_nlp.py",
+      "sha256_antes": "aa8918cbf2bea9430bfa45fcb529b0d73db10fb8fec282e2f6781b16915eedb3",
+      "sha256_lf": "bdfb7dd47d5af2cc356b827f3dcb743e93e1635409324280db3e2b871ff77f86"
+    },
+    {
+      "antes": "fase2/tests/test_notebooks_executados.py",
+      "depois": "src/fase2/tests/test_notebooks_executados.py",
+      "sha256_antes": "34eae9ca2c4f20db581adc5b9d42ddd444103bc76dabf8273cc69abc3de340e7",
+      "sha256_lf": "a5ea5b46f03eb68eeb14e368357c6c56faa5c4b3556c975fec40e7ce37cd9a58"
+    },
+    {
+      "antes": "fase2/tests/test_visual.py",
+      "depois": "src/fase2/tests/test_visual.py",
+      "sha256_antes": "cb32a004acc046a014d5165f869b7a05910b2c9f706670fdef33bab5efede45d",
+      "sha256_lf": "b6e5561a63f907de5e1037af593f3701e424a765e46dffe015f33307afe5c873"
+    },
+    {
+      "antes": "fase2/tests/test_visual_ampliado.py",
+      "depois": "src/fase2/tests/test_visual_ampliado.py",
+      "sha256_antes": "3f79ff729a1a08f402b71fd48d16cc9ca971ae461ceb39ef49122e182ca3b094",
+      "sha256_lf": "9317edf297af9b5c7a0ae0c7c568177d053afa6176d080619d98fc5a5d5daa10"
+    },
+    {
+      "antes": "fase2/tests/verificar_preservacao.py",
+      "depois": "src/fase2/tests/verificar_preservacao.py",
+      "sha256_antes": "d216d6ea1aea50b1aea48e5c9fe3749c2c8fee9e77687cb6013ab5304683ffc0",
+      "sha256_lf": "1d330a5c4fc23393c6913226a0572f56b5c8797f50f3ac4fba1f5be66e40c246"
+    },
+    {
+      "antes": "fase3/CHECKLIST_ENUNCIADO.md",
+      "depois": "document/fase3/CHECKLIST_ENUNCIADO.md",
+      "sha256_antes": "09e1796e9d5404c4d004d11c0bbfcbe6fc9fc1b943d9592c0d8e2a73ee61c232",
+      "sha256_lf": "c80b51cdef8a1eba92a731b03a38cc910ce86f541b756f4596c23b2163492756"
+    },
+    {
+      "antes": "fase3/README.md",
+      "depois": "document/fase3/README.md",
+      "sha256_antes": "821be3eec6dc1372e9ae2284df40312de02a31bf08de7a74063d8225316d0787",
+      "sha256_lf": "6c17e03b5e65928df52ee14cfddadc045c755ca83f399f74376ca217cfcea2bc"
+    },
+    {
+      "antes": "fase3/ROTEIRO_ENTREGA.md",
+      "depois": "document/fase3/ROTEIRO_ENTREGA.md",
+      "sha256_antes": "7c8a66334a6f2e6506c3698830140ca38ba3d122b002cd37f99753d1618bef9b",
+      "sha256_lf": "8155aa94c6e34b6e9c6f8d8e8bc8b8f7d3146924ccd5a73c90d0014eeed9de92"
+    },
+    {
+      "antes": "fase3/contratos/README.md",
+      "depois": "document/fase3/contratos/README.md",
+      "sha256_antes": "d31e383ac5753b0a2dd9e279445f509367d2c8390a89ac0973de8e1fa6f23f72",
+      "sha256_lf": "b7da9e2ef763b8c7225a085fe623831d35c053cd21abbb2c2e9acfb9cc637eae"
+    },
+    {
+      "antes": "fase3/contratos/ack.schema.json",
+      "depois": "config/fase3/contratos/ack.schema.json",
+      "sha256_antes": "5c2db3c972899412511fb4bced95f2f067acee29e29a4aa963db88cd939640aa",
+      "sha256_lf": "dbd0945c708cfe762483fd290a5862010e0a22ae005e4d8ab0a2fe7dc5db8197"
+    },
+    {
+      "antes": "fase3/contratos/exemplo_telemetria.json",
+      "depois": "config/fase3/contratos/exemplo_telemetria.json",
+      "sha256_antes": "628a9d0238923ae6b84b551548ba4df6e59b8870e64738218b8d5bb8129258e7",
+      "sha256_lf": "c388908d5cc664816da4207bdbe1e011efff7d47a35a47a6fe5ff8196a669be9"
+    },
+    {
+      "antes": "fase3/contratos/telemetria.schema.json",
+      "depois": "config/fase3/contratos/telemetria.schema.json",
+      "sha256_antes": "e723a10e59b4999c73a340fa24c98d4526c5d1bddce2423af193df29c0a22f12",
+      "sha256_lf": "2fabec1709dd7a79356c0a82e0d456d45e172dba2223c3def1658b8ba81922db"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/RESULTADOS.md",
+      "depois": "document/other/fase3/evidencias/2026-10-24/RESULTADOS.md",
+      "sha256_antes": "8a93ce8dd04601caf400d15804a0e89dccb2a670122f7a44df727df4135f8f66",
+      "sha256_lf": "65cc6941a9bcbcf772ac24fab7f171382affe8d545b755b0f10bb9fb227f50bf"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/antes_reinicio.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/antes_reinicio.txt",
+      "sha256_antes": "ea62a5ed8fb050eb398681eae506e4cd4174246b2b062b7664b9bf70a7a437d5",
+      "sha256_lf": "1661bb2371823ab92ee75803f35e44980e075ba164a0462353d5050b6e790d48"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/apos_reinicio.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/apos_reinicio.txt",
+      "sha256_antes": "7f0cd04ae5f59e2ac31a4168b90a9987b99bef991d1c919287a388f688f8bcf5",
+      "sha256_lf": "4487b107608b2c0b9dd21eed3e12bbeb14f1434c07c969d9a11c7b7bb8805209"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/capacidade_restaurada.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/capacidade_restaurada.txt",
+      "sha256_antes": "b89412825f4e141781bc15dcaeceea9c50c919c711a5ce24c861f8f2978dbcb5",
+      "sha256_lf": "96abdc11f51b14ad67c8cd133a52eac63b820c2bd36897e92ca47f21961336c2"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/RESULTADOS.md",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/RESULTADOS.md",
+      "sha256_antes": "ebd0348ff923450fb80cc953dd12598aa73ef6c37fc561187276a4434ed09b5d",
+      "sha256_lf": "d2be199d8626bd0809b09f8b8f1d203480d944888c3fbccd058cbde2c11e2dd1"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/ajuste_ultimos_valores.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/ajuste_ultimos_valores.json",
+      "sha256_antes": "ec11f3f6a206342f2cb1e5a4204470680199bbbfd07c3fcc2a0c31320787ebd3",
+      "sha256_lf": "794e05e9293380866e02d30cffdce36aa03a0a5d82cc65c3d6e5824d09b1729a"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/ensaio_painel.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/dashboard/ensaio_painel.png",
+      "sha256_antes": "ad3c986cbcbd2a3cfe62e78c6e840e96e35c66cf5ecdb3e988fa0e4fe0225e3d"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/esp32_persistencia.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/esp32_persistencia.json",
+      "sha256_antes": "c5c514ea0e7308532453a0b82e04da470f173391d4ca39a5fb576de22c35004a",
+      "sha256_lf": "4cfb5534d25ed78a7a5c5cf85e41b71fd4a6409d2716231d64f0eb061e39db95"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/RESULTADOS.md",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estabilidade/RESULTADOS.md",
+      "sha256_antes": "3ce96a332fa26cd6c0c616c9cf3df2758aa9589dd223e0a6ba9c5ba6eda903d4",
+      "sha256_lf": "18a5b0136e0074acfb9acee5fb81d2d0370ce167ade4d781a3a4ec7db2041ae7"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/desconexao_explicita.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estabilidade/desconexao_explicita.json",
+      "sha256_antes": "a6a3021738968ab57fbe7c44f9c4558e61e5b696f47746555eedc1f17ed1ff3a",
+      "sha256_lf": "311a8693b92dd5e090726cee9be1b1afc2d6f04aee58232b8e8b1dc589a80ee7"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/observacao.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estabilidade/observacao.json",
+      "sha256_antes": "d9ff00a36edcf3dd4bc53c86d2cfcf2472934c03a203c3009e773b0f0df30e7c",
+      "sha256_lf": "359569c608cd6f6ef2966e933c13d12537d81ac317b9d05df4a408ba4ddaf110"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/painel_conexao_estavel.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/dashboard/estabilidade/painel_conexao_estavel.png",
+      "sha256_antes": "717ba80d16a18ae708359895a06c97478f30dbe8f70d60457aaa19b49a8cd822"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/painel_conexao_estavel.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estabilidade/painel_conexao_estavel.txt",
+      "sha256_antes": "268cfa220415e29b8a68cf1c6ab9ae4c02fe4d578246b583cf49b818068664ad",
+      "sha256_lf": "712a6a27ea67a3c6f060cc07f4fd97f900ae286f112f31ace252e3a74c119734"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/reconexao_explicita.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estabilidade/reconexao_explicita.json",
+      "sha256_antes": "5578ce3aa85d06a47c598e85d311f726a6d25e232ff4f363ec69a2f254340111",
+      "sha256_lf": "d47af4e7ebae7c980796bab140f69a1a0dd905db5290b0fccc19c585ffbd760c"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/resultado.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estabilidade/resultado.json",
+      "sha256_antes": "464d2e6e7b53a93797fa358b1b352d833f906be8227ef8fa8dd6769f427400be",
+      "sha256_lf": "9f6e5b0a5b6c4377ac8c03dfa3ea1f5190d77665b48480f795a960ee01270d07"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/wokwi_antes.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estabilidade/wokwi_antes.txt",
+      "sha256_antes": "b8b386b69d05924504647b30324503f806cd8c41905ec0b865923d11ce4d0741",
+      "sha256_lf": "6c1956895c3b64bd2542432315b9bd40797f5f7ea77dda2b3e0d4b9426bc623d"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estabilidade/wokwi_corrigido.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estabilidade/wokwi_corrigido.txt",
+      "sha256_antes": "b6c8dbc5c7c592631684f3b71205a4ecf54d391579f7fdc94860b2c7a70aba1b",
+      "sha256_lf": "8867b1220fcbeda5747b77234f8664a10b0da37471a037c990bf925c0da67727"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/estado_esp32.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/estado_esp32.json",
+      "sha256_antes": "8380baff6157e474fe651216a4485f652239cc287e6127d7dc41376c32136c9c",
+      "sha256_lf": "f84bc08ad741dbb1c9a906760f8dfb4af7d8ea63f742125a9dc513e8518de3a5"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/eventos_esp32.jsonl",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/eventos_esp32.jsonl",
+      "sha256_antes": "cb0b29b979204a6335a9e4b6724a2540bec30d261631d5cb7f3ea94f8d73684a",
+      "sha256_lf": "a1b64d90841f7566e64345bf61fa4e95e62a1d0e4e0d1465a4a7746cd26e6362"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/inicializacao.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/inicializacao.json",
+      "sha256_antes": "9f3faca8709d0a6b967c606317e78a42326bccbe7d0482558654771a14f2d256",
+      "sha256_lf": "686e6ce50499f581edb9e6cb553553d0f7a8cdae5c6f4a2f5a11a548a409e2f4"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/painel_ultimos_valores.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/dashboard/painel_ultimos_valores.png",
+      "sha256_antes": "9352219c91f9f85232effbb1bf683de8f51786145fd5e2b6043c99eaf5861e76"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/01_atual.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/01_atual.json",
+      "sha256_antes": "890e4d81380894e0e953f7afc276ea2240fb1a7c5e4ded3d040f9df1d08b6bdd",
+      "sha256_lf": "d462f8c7c5bdfa9398d07bb945b2649e89008fe134d6fc712f7f93d717c5dbbc"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/02_reenvio.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/02_reenvio.json",
+      "sha256_antes": "03a10e457421150034d5c8eb11fe82237a185a330d977cd55b7aa5ceb708d0bf",
+      "sha256_lf": "dd6a1c75de7ca7950864aff518a44f35744e5276bcaca895c594f0549b00c434"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/03_invalida.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/03_invalida.json",
+      "sha256_antes": "390b17be894c8fe51662d1061bd02e01e789eb526513e0c6587c52beb7e21eec",
+      "sha256_lf": "731b127ed01eac9452ee32d19629ad95b09e179f10f2094d82902e6bae49ca75"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/04_primeiro_limiar.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/04_primeiro_limiar.json",
+      "sha256_antes": "6b1af9615b42e16c58a16806fde5851b7c9226218c5fdf4358e3813a57802719",
+      "sha256_lf": "2598e50eb7a377d730e4b52dc86cb451ded54af6df899ddd27aee40b66606da1"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/05_alerta_confirmado.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/05_alerta_confirmado.json",
+      "sha256_antes": "d0e51667bd880a05297ba418c50518fd960e1e7253b9f32e52d9c1f73b0406ed",
+      "sha256_lf": "6e3ca3407ecc9b2311db38beec58950b43cb7389ab5ec87798f4dbbed06a97db"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/06_permanencia.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/06_permanencia.json",
+      "sha256_antes": "046b32d44a5401e8eb6525809e3a1d7c2098df24e6e6086e48772469973a1eec",
+      "sha256_lf": "01f123892e9f5ba569b6b2109fbe49d4032ea8c16e9efb62eb11c9c0061e233b"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/07_recuperada.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/07_recuperada.json",
+      "sha256_antes": "d8785e0c0915a1b27f10c31f27d9a7fa6b731845f3dd19ee65ed79858d45e7e9",
+      "sha256_lf": "734b067e4f6235a998c999e1de305c88b46ef90b06c1226d8c8bf9d4c91f25e1"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/08_saida_alerta.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/08_saida_alerta.json",
+      "sha256_antes": "6300f3530db81cf4f3bc08dc4ae5dfbfd328366ad47ae8f04bb42d53a626783f",
+      "sha256_lf": "d9bf450e1cc4ff4a7e282397e5aec186118c56a192832fb38e23d07ca43da412"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/09_sensor_indisponivel.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/09_sensor_indisponivel.json",
+      "sha256_antes": "dd57f181d75e017cbf718f5705d562d89a310de6dbafd5fee2550e43dc7318e3",
+      "sha256_lf": "53e37f1458cc09508802b9be196a79db51016ce1355a99c2f21156e86974b7e7"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/10_offline.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/10_offline.json",
+      "sha256_antes": "1670738c366508492820ea4d8dd34b3bc9d6ce4f7a0231dd9e2e6d1345acdc18",
+      "sha256_lf": "0b4db20ff55c06cd7190264fbbda51b52f253d3be2942c13bf489bdce37b3784"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/11_reconectado.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/11_reconectado.json",
+      "sha256_antes": "6202de2415e78b9704409a604b6cee9eefdd13c2ea09bad00b9ff8629ab29412",
+      "sha256_lf": "aed415866b786bc2dd6213820e4a5966926dd480b40570746e225f728a5a2a36"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/12_sem_dados_recentes.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/12_sem_dados_recentes.json",
+      "sha256_antes": "8079146b678d9fc924f722df01e265f5744966dff01bb9879c60d3fc78b41813",
+      "sha256_lf": "bf0fc53b333c0dc8ef00d2db88d42387ea48ab229bdcb8e7d9497208bbb2ef91"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede/resultado.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/resultado.json",
+      "sha256_antes": "a7ec92a24997fa97eee36710422448fb412c8de1ed7c5239060e1467f3f7ea00",
+      "sha256_lf": "7998fa6316171b17292f6d2dea3efc917920bde17859f2d4725f2c931bbaaadf"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/01_atual.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/01_atual.json",
+      "sha256_antes": "eb28307e884b772066980ed6664801cd7fda7ed33d2738fb999bc14c70e1394a",
+      "sha256_lf": "777f64edeeeccdd3d5435676fc5275512822cd8653cb8210ac7676fa808adfcb"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/02_reenvio.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/02_reenvio.json",
+      "sha256_antes": "d73b8be3ab85c030856d50000c63eb30b3cc8925f7164ed4363cfc00baaa0c7e",
+      "sha256_lf": "0bb0f6f3d340e1bbd2a5d4e8a2be9566d1f5a055e1d0f0009be4293fabcfc6b4"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/03_invalida.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/03_invalida.json",
+      "sha256_antes": "82c9cd2f10c75bd1d429d14aa70a4ee654d04a16d3379990cc9e53a37ab30b92",
+      "sha256_lf": "6354165a48dc9b3df7ad31ec8d50852f2e5ed935815b065916f921792075ef4e"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/04_primeiro_limiar.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/04_primeiro_limiar.json",
+      "sha256_antes": "ce4cc955f7700b0bcbe199db75d6c086a532ec5a6db2c62e9b55114fcba81f33",
+      "sha256_lf": "a4d4c76b7c936b4b438d862f9d48cfc8bd32770f8efc6ea0fc312fdade00ae37"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/05_alerta_confirmado.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/05_alerta_confirmado.json",
+      "sha256_antes": "1937f92dac53b9e9a9de904fc62883cd9770726322422639ce14d207fd4007ac",
+      "sha256_lf": "f5012a30363dedb9078edcb2066f7251fdf25ba1beb814a6c59effedf053748c"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/06_permanencia.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/06_permanencia.json",
+      "sha256_antes": "d42ba3148b6f15d164d9838025960cb2c97bdae755c282daaf160feb51567c61",
+      "sha256_lf": "da73e8aaec5e8a35dc518bb42d59ca04bcf69a5a125c8c643af16850c16da425"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/07_recuperada.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/07_recuperada.json",
+      "sha256_antes": "393cecaa645086d185aefd1b7b7827cc0203bec4bf26905ae799c1ac4ab54ee4",
+      "sha256_lf": "3794c1d73b11317f01a47e36a3901ad8363ed9ca98831ededc7322a881f35ca0"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/08_saida_alerta.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/08_saida_alerta.json",
+      "sha256_antes": "992b5418301d5c7ade937075dfabe2fab1f5eaf506b84cc2b2744df18b9de002",
+      "sha256_lf": "e0113b58255224de7274f4ca16ec3fa9e6bb9de90e5ddbd491121188da9e4f78"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/09_sensor_indisponivel.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/09_sensor_indisponivel.json",
+      "sha256_antes": "cca1c44fc1cd8507f6a7861829e1797e2738a4b8c7490e35a85dbbfc0c3edc6f",
+      "sha256_lf": "3cb728b6d405324a8b8fb8d3c70cc4131c98f7b039f4a2490e993786fc6f1bed"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/10_offline.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/10_offline.json",
+      "sha256_antes": "44a0705a3f59334876382bcf288b640bd5034a981e728d13fdcf704a1ff474c6",
+      "sha256_lf": "1826a7adf518ed2d06b39b1a878703b198951662dcefae0355ffab88594840e5"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/11_reconectado.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/11_reconectado.json",
+      "sha256_antes": "323773de330a9144b34ba4517332758b97449e09afc70d34249f9c9a3541aaa2",
+      "sha256_lf": "4d9176d4daea1b65ce08748da625780c7952a15a764e9d2258579e84a70ee92f"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/12_sem_dados_recentes.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/12_sem_dados_recentes.json",
+      "sha256_antes": "01ea54e3afef72db84248d31d45e9028c11dedf4d2a746d072afee25cc56651f",
+      "sha256_lf": "758744fce21cbbd8539ec1d754afe3c1327c2fb740f3b91504a79df1980f1033"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/teste_rede_final/resultado.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede_final/resultado.json",
+      "sha256_antes": "9219c09f4520aa2667f6bda7c1bfc7dd8c58a516c5c144745b32dfd743cb7ba0",
+      "sha256_lf": "c95c4aa772d6c4d1d88b871831940ffefea7b70e184ce33d71220cd0734ae926"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/validacao_guiada/01_alerta_pulsos.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/01_alerta_pulsos.png",
+      "sha256_antes": "0b995c901b84925cc1936fc268f007821a491f65c9021db7801545606235aebe"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/validacao_guiada/02_alerta_temperatura_retorno_pulsos.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/02_alerta_temperatura_retorno_pulsos.png",
+      "sha256_antes": "be5efc50aa0bbcdb50572415b8976468d864fa5d0f9e5239744058fcd28012b6"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/validacao_guiada/03_retorno_temperatura.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/03_retorno_temperatura.png",
+      "sha256_antes": "2e0da4b4d8d3118a765c7e41aed3d4d614fd49474c2a1745d86feb593f0b31fb"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md",
+      "sha256_antes": "21694f3f3dda1ae7e04e56e36a1ffcf5a9056a7e5d7192fddde4c38fd4cf2913",
+      "sha256_lf": "266e58fbbbc70ceb8e532120eecc270e7f92ba6695905dc9e153b60194f904f9"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/validacao_guiada/conferencia.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/conferencia.json",
+      "sha256_antes": "5552f8ef43d9faf4920ac7d7575576839bc750eba37a409d9f8310aa7ee515f4",
+      "sha256_lf": "d7ad9fd8b0d7088614e136f7525e04f1cb5fd95aabd847a3fa4fb9af98932259"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/dashboard/validacao_guiada/leituras_1_a_27.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/leituras_1_a_27.json",
+      "sha256_antes": "dc562cc3eb010a29ad16f97bd2dbdfaf063d1ffe22238f556ae325ae05f821b2",
+      "sha256_lf": "1e087cf91246414ad2195d16c591df0fdc6a54e83481ae5ac6fee387b2af33d9"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/fila_cheia_offline.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/fila_cheia_offline.txt",
+      "sha256_antes": "c249ed9ffe05138fe5670c7a61eded121b9602f63a80111d879560e7ecc1286c",
+      "sha256_lf": "a138c325980b97a726fc6599b1835630e20c846326ee5f5702ffd0471d7751f2"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/fila_cheia_recuperacao.jsonl",
+      "depois": "document/other/fase3/evidencias/2026-10-24/fila_cheia_recuperacao.jsonl",
+      "sha256_antes": "c6fb1cbdddd1c7ff46564a210e1514799e36a0ee865475ef950db677f7f8d8bd",
+      "sha256_lf": "8ed249cce1aaa8784ea72e284f6bb3a770fd3481e716d7be80422088ed41cb27"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/fila_cheia_recuperacao.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/fila_cheia_recuperacao.txt",
+      "sha256_antes": "ee5024a9d0f9ffc59a5cf714c73b8fea00462148d9342320f0171eb63a63176a",
+      "sha256_lf": "f37ccf07e3be56000e1ab67740121a88a361a96fa34055caa2dccf2a324cef82"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md",
+      "sha256_antes": "261a8dab75893781e7308db72d8f9917e4eb04018d4aa6ec33e41f6187f2c9ff",
+      "sha256_lf": "1b939919142551e8aa77c5ea2704edf49a4cc358232677a5027b5d7025266da6"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/eventos_consumidor.jsonl",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/eventos_consumidor.jsonl",
+      "sha256_antes": "6314243d03b5f542ae0177b5c6ede0a7634f56d564722139a3ab9167c79bbcff",
+      "sha256_lf": "3e19207eba1f846d98b38594755b18de142142b5237ab2f5defd4ce9ffff1680"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/teste_rede_python/consumidor_stdout.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/teste_rede_python/consumidor_stdout.txt",
+      "sha256_antes": "2fd463620c52b2947951d502d0457c431c96356f7bb43b167aacdf26ce739caf",
+      "sha256_lf": "5fa1cb07deed5bfa4c522bddd0b9b12e5e0325caf0c232edb2121b4ddab79f13"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/teste_rede_python/eventos_consumidor.jsonl",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/teste_rede_python/eventos_consumidor.jsonl",
+      "sha256_antes": "8ed15bc95e491d540266f27aae33f62128b8391aebca8ad23d900b875fa21c82",
+      "sha256_lf": "562b9a3d0ea58cd7b1260e164a128090d18f8cad196ec387efb3a0b8bf335de8"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/teste_rede_python/resultado.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/teste_rede_python/resultado.json",
+      "sha256_antes": "ce4d4f71e32163ad0122ae7a0968d52b8ccbb1f64da6b88caf19dee6d5611451",
+      "sha256_lf": "dabc3ec475a4994dee0446a4d0ab311edc2efc4095908745f878f8bc88ba306a"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_cenarios.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_cenarios.json",
+      "sha256_antes": "e3775c09f3579fed734e55bd2c8ac25b203c76a309f74e01840b5bbb34a74137",
+      "sha256_lf": "4f787e428075c53ef500ae50c637b901ec073023573d91675045b2e5ccc0f5ec"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_guiada/01_primeira_conexao_parcial.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada/01_primeira_conexao_parcial.txt",
+      "sha256_antes": "bc3847badef4d97ed40fcbfca90f73ca9c13773644d2d227874bc6290320466a",
+      "sha256_lf": "ff328ddb597f4f0e3d2e70e29e6e5980166220313c6dd1cf07614137e6350033"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_guiada/02_sensores_e_falha_broker.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada/02_sensores_e_falha_broker.txt",
+      "sha256_antes": "4976b61b79317f265ba6e88ce43027f538d6aead2e4c9a936c783d8e94d4fdbf",
+      "sha256_lf": "40d3fef4e32a094c66be39e26155aae0293134cef339ef1bf73e5ab311923bca"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_guiada/03_recuperacao_broker.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada/03_recuperacao_broker.txt",
+      "sha256_antes": "258515246e0996d041c066aaeaa09994b121f742245574bf35d7ce5a1fc78a96",
+      "sha256_lf": "567e94acfb9d9e1f69b5047fc809b261fdb6621cab6488e10e02de8513557669"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_guiada/04_reinicio_consumidor.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada/04_reinicio_consumidor.txt",
+      "sha256_antes": "76eaff41ec511d343005cf0f2f5ff9788b86bbece1cd66eee047af87ad060635",
+      "sha256_lf": "c1ab7d4a6290b0c98239cc8381055335de750abaed620c8917cd562c9feddc48"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_guiada/RESULTADOS.md",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada/RESULTADOS.md",
+      "sha256_antes": "1fcc59f765736a8d1f92860418763197a99b277086ebbd0f574d0302cfd72bff",
+      "sha256_lf": "c8c39bf829fc8103c25aefb71175bffe071dca2934bd6baeb0c55c659c81d926"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_guiada/amostras_persistidas_1_a_75.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada/amostras_persistidas_1_a_75.json",
+      "sha256_antes": "a5662727d842cd1060a07397f0a72358eb187115abbb238a214a2138a2acffb7",
+      "sha256_lf": "c70af948c535ff00441d9162ece212a4ddfbedd2bf8941d9c9fc71bda6deb562"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_guiada/conferencia_banco.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada/conferencia_banco.json",
+      "sha256_antes": "b1d43e96b3b429a8855886a53508fa837f5cf92e25fc01443f736c8c0206bbdc",
+      "sha256_lf": "a92c727634ade66571f4d1796c096d3584ea82725ff7c7a4d9e88d7580822368"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/validacao_guiada/eventos_sessao_1_a_75.jsonl",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada/eventos_sessao_1_a_75.jsonl",
+      "sha256_antes": "35d3b038091983340b37d792b17f8b43245239a461d3a97b52d1bd838565432b",
+      "sha256_lf": "088f5e96ed10d91788353f3cf73caa2ce50be5123ca25c0cbd85c9ba2df200b7"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_apos_reiniciar_consumidor.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_apos_reiniciar_consumidor.txt",
+      "sha256_antes": "3ab8d771f7b81b9b2e331280b77f49729bf9028fc39d4994f6efb56b1d45da3e",
+      "sha256_lf": "0f0734ee93f574477bc8d08daa2495ef09726e1e4558af36aa465e37cae4a8a3"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_broker_off.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_broker_off.txt",
+      "sha256_antes": "9dec231c9ffe0745be6e718fa3ee6c4cd4ed555fe21205c22a8e9ffa82f3d8c0",
+      "sha256_lf": "b6ea2950a6a4e3eaee44080c73da178414d2e4dd72661be882aff9c9543412b7"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_ensaio_offline.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_ensaio_offline.txt",
+      "sha256_antes": "20352845033f3a4b3f08ef31532783f70813ebebcd69e288374900643c0abd86",
+      "sha256_lf": "c2e6040291ddd4546a34b3eefae40dfd9875af113a3987ae3b04ca4d513cf494"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_falha_gateway.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/mqtt/wokwi_falha_gateway.png",
+      "sha256_antes": "ba6ff025c15783d9a5ac6038ec62b9a46f7cc0a8a6d84695186e0e1fb2d040b2"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_falha_gateway.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_falha_gateway.txt",
+      "sha256_antes": "150d0a7d5e46a518c7858d581e63134574276c7a39ceb66855bc63db9fcbd38a",
+      "sha256_lf": "9bd95449e4cfb6b91bb36e5c4b1bdfe9cd2f9dcf061a3c80715396d3e9a1208d"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_falha_gateway_chrome.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/mqtt/wokwi_falha_gateway_chrome.png",
+      "sha256_antes": "0a27be0d610eead21fb7c50e5b278fe62296dd1645bde5363fa2c11f7ee56582"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_falha_gateway_chrome.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_falha_gateway_chrome.txt",
+      "sha256_antes": "bede7d6f78806a6f0fff8ecdb2fafb4a752eafdb39dadb1e188d66a0fcc17ff7",
+      "sha256_lf": "7127ee057ddc1e29c0e04e4a0417b2f84d1d774f306842c769587ca80f339639"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_inicial_offline.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_inicial_offline.txt",
+      "sha256_antes": "1a66f397c576b873ba72933b019a251f6a8582027141621f2a088ab33fab224e",
+      "sha256_lf": "79fc1e1ab621bc0d129d20ce0c14797513fbb6204be7769ec874f3ebc241bf03"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_broker_off.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_broker_off.txt",
+      "sha256_antes": "98c24bcf59324aa19826e6afba67ab6ecb5dea302c054e24ad1ccb3352297d1b",
+      "sha256_lf": "bf81c0d5f0afb26bb68a9c80dee07519962c505bc726c3e7000f9e6bce27008e"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_broker_recuperado.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_broker_recuperado.txt",
+      "sha256_antes": "fd08b844d191d9d9927334cb42add73f94b1e816f9fb7a42958c51e6fff8fdb6",
+      "sha256_lf": "838c42ab3c7293639a4b96b6b8a8d2c3d228bcac4244f8a58b9b5b5e3ee49e42"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_chave_offline.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_chave_offline.txt",
+      "sha256_antes": "3920f7b850f4e92ff889f89c3b04d2a1970336594e8cda2473531232a16f06ec",
+      "sha256_lf": "a9e36148b1da15387e97f1b5070be25253f9db50d50d513824b558b726e6695d"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_chave_recuperada.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_chave_recuperada.txt",
+      "sha256_antes": "e1b14a64fe122f7858d9316ed7a46a3d125b7cb5f895d506d00e9c66bf9a1a39",
+      "sha256_lf": "3b58a93fb0b3814f8a3b2f87d823b9d32841dc156ef50b41cdd72b9f4790c9f4"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_conectado.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_conectado.txt",
+      "sha256_antes": "6664c15baa1e87f698092d1f8d4008f1e41c56475d821a5e9d06eefd77cfa5a7",
+      "sha256_lf": "e542718b7f4b6ea3d7727ba1e984a3653695aaedbff516f04009562b964fc633"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_gateway_indisponivel.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_gateway_indisponivel.txt",
+      "sha256_antes": "6c55c290f4b3769788de79f5b25e1a6fc98dca5d81b76f036a4c8acf96bc4b68",
+      "sha256_lf": "8b269a58bd30a9c6c22e9a7f94768e683999f740fedc78fd199f2afee63152eb"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_offline.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_offline.txt",
+      "sha256_antes": "2e5cdad298502ea1c010a9144fa634515cf475bbb70b053238cc03bc430d4981",
+      "sha256_lf": "815ebbb17eb70271c81e11e92d2a48aacf821210317512ea87532d45f9e03688"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_recuperacao_tentativa.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_final_recuperacao_tentativa.txt",
+      "sha256_antes": "207b7048b6f1dcf346960d1d7f45a31f4b4fba62721b8c35f12e54333f7ef7d3",
+      "sha256_lf": "05289560dabb77af4e0d76031061bd22d55925064f5d0e8aacd2e6ea53fbf9de"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_timeout_final.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_timeout_final.txt",
+      "sha256_antes": "fd858489ec588ddadf879c29379b745d517fc16b56ed5fea976c4cf3f32ba353",
+      "sha256_lf": "3736168d097e3a3651e4bdda224c3235b146386942a69f48182bdf1718bceacf"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_validado.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/mqtt/wokwi_mqtt_validado.png",
+      "sha256_antes": "f34e3748b306353c591e8db39e22814c7e1cdead35024430667d02f1cb703dc9"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_primeira_recuperacao_incompleta.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_primeira_recuperacao_incompleta.txt",
+      "sha256_antes": "b4b85783ef7d5204945e40c2292e4d90c94d0c8f63e2dbdfbfddc39d8f83c6e9",
+      "sha256_lf": "a1e5607c7b5a72950d7af63558d76fc2ca51389a2478a7aa340f46f836cda194"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_primeira_troca.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_primeira_troca.txt",
+      "sha256_antes": "8ebe701fadde1de2e529173f1e72d385cd43281663f654d4bba32944f88f1077",
+      "sha256_lf": "18da000c2ae4ffe7bf756a9fbb4646e95d0e96a2bd38cb944911ee3b0fe854da"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/mqtt/wokwi_sem_consumidor.txt",
+      "depois": "document/other/fase3/evidencias/2026-10-24/mqtt/wokwi_sem_consumidor.txt",
+      "sha256_antes": "d1b650412ea627dd3b550056a61d1e525a6cfe7080518b06b7e3b44d0753222a",
+      "sha256_lf": "2b21f2268a113a10b1f5245b2474cf69f6157c82f0db5022bcd73ffced189822"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/prototipo_restaurado.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/prototipo_restaurado.png",
+      "sha256_antes": "ce7c1c1a0bc5fdeb2f6dc6fe2bea6ed5c1ce99723abe5cbf0090e39a10c90044"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/reinicio.png",
+      "depois": "assets/fase3/evidencias/2026-10-24/reinicio.png",
+      "sha256_antes": "0b5cdc8608d9a5fd7d28fb0955da6da888af3a130218720345a4f7a93e5fb5ec"
+    },
+    {
+      "antes": "fase3/evidencias/2026-10-24/validacao_cenarios.json",
+      "depois": "document/other/fase3/evidencias/2026-10-24/validacao_cenarios.json",
+      "sha256_antes": "45f81ccb463921eb871329e1b45baab996568418210b1d2fa2c5875b39ca3585",
+      "sha256_lf": "466ad381ac34233ada477fe93619f3aff800130ffd509a1d52a62c45497a4f15"
+    },
+    {
+      "antes": "fase3/evidencias/entrega1_resultados.md",
+      "depois": "document/other/fase3/evidencias/entrega1_resultados.md",
+      "sha256_antes": "a58a4fb7c3836c285a41e494669574e217d189602d2c63adafbc9c64c6fb58ea",
+      "sha256_lf": "afc85981b7594eba145506f41291b13b22521f5e7a958525057083ed88806944"
+    },
+    {
+      "antes": "fase3/evidencias/wokwi_entrega1.png",
+      "depois": "assets/fase3/evidencias/wokwi_entrega1.png",
+      "sha256_antes": "b48025bf6df49e6d751872280048ac76d2ec2a5b5a9236f794aa8641594478fe"
+    },
+    {
+      "antes": "fase3/evidencias/wokwi_entrega1_estado.txt",
+      "depois": "document/other/fase3/evidencias/wokwi_entrega1_estado.txt",
+      "sha256_antes": "12454f61d6c96737391e65e2ff9c8f4694d3d789f8e43ff0435247426e9d4d03",
+      "sha256_lf": "ff1ba29ba8ca644e1ef93e8459091bd1cdd693c51aa779768245d14541e8ab90"
+    },
+    {
+      "antes": "fase3/evidencias/wokwi_entrega1_telemetria.jsonl",
+      "depois": "document/other/fase3/evidencias/wokwi_entrega1_telemetria.jsonl",
+      "sha256_antes": "d654afa178aa73fa690f2be9daa79eb8dec4058754f831c03e9e7a692abb0b33",
+      "sha256_lf": "0935fac178d2a3c9660d890fd4b5c8730119ef44274171878d7f3162ab23c8f3"
+    },
+    {
+      "antes": "fase3/evidencias/wokwi_layout_organizado.png",
+      "depois": "assets/fase3/evidencias/wokwi_layout_organizado.png",
+      "sha256_antes": "8d5203adf91c5acf803e6367899bf9246ceb323bd8b1599bbca9a9c6dfc08266"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_edge/cardioia_edge.ino",
+      "depois": "src/fase3/firmware/cardioia_edge/cardioia_edge.ino",
+      "sha256_antes": "4a174911a8754c7192fa1b34fe724c2f9e14028dbef74964a14bf85b9010801f",
+      "sha256_lf": "b24fdf673b35bb630e293fc5e64db713e42cab45c61ecf27f67b1dbff62e4547"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_edge/diagram.json",
+      "depois": "src/fase3/firmware/cardioia_edge/diagram.json",
+      "sha256_antes": "dc83b817b55118490a8d3964e4775a9463860e5d90b2835de4e08ecac2d56d15",
+      "sha256_lf": "db8774728e39ab913c0341d3a41b11d5f8fd07f50d60e4181a8ad3fb4d1523bf"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_edge/edge_core.h",
+      "depois": "src/fase3/firmware/cardioia_edge/edge_core.h",
+      "sha256_antes": "bd4c34b01529873f39afe610d61cd5495d4adc9f3feef6d16131da6b3290fa06",
+      "sha256_lf": "30e089acb0668c713efef12f50d1e8cf3d08545efcd98124ff7ce913e5b4357e"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_edge/libraries.txt",
+      "depois": "src/fase3/firmware/cardioia_edge/libraries.txt",
+      "sha256_antes": "7f402da70c6ccfdb1080266cbfce07dc1154222aef0357a353d2c5507b78b512",
+      "sha256_lf": "652f92b0e7836bb2bbfdcc28d5e3dd539b952fb991e1343e359ba27700c3fb9f"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_mqtt/cardioia_mqtt.ino",
+      "depois": "src/fase3/firmware/cardioia_mqtt/cardioia_mqtt.ino",
+      "sha256_antes": "1e92ff6550f4d5fb058776143844bb2efce70280d984f05fdebb78a2e8dcede4",
+      "sha256_lf": "9017885b7a76b1e25f88d87b91721528be699ebc803080222a8ddf1eaf898f5c"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_mqtt/diagram.json",
+      "depois": "src/fase3/firmware/cardioia_mqtt/diagram.json",
+      "sha256_antes": "dc83b817b55118490a8d3964e4775a9463860e5d90b2835de4e08ecac2d56d15",
+      "sha256_lf": "db8774728e39ab913c0341d3a41b11d5f8fd07f50d60e4181a8ad3fb4d1523bf"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_mqtt/edge_core.h",
+      "depois": "src/fase3/firmware/cardioia_mqtt/edge_core.h",
+      "sha256_antes": "bd4c34b01529873f39afe610d61cd5495d4adc9f3feef6d16131da6b3290fa06",
+      "sha256_lf": "30e089acb0668c713efef12f50d1e8cf3d08545efcd98124ff7ce913e5b4357e"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_mqtt/libraries.txt",
+      "depois": "src/fase3/firmware/cardioia_mqtt/libraries.txt",
+      "sha256_antes": "9494823e4f0e70c7b0f6d1de25b531c3850280f34c2aff0874260ffba465271d",
+      "sha256_lf": "ad1d8f1d4fe82a67d772a4a99b0252e34b915dfdc3b6eb5a841ddabada0e4409"
+    },
+    {
+      "antes": "fase3/firmware/cardioia_mqtt/mqtt_delivery.h",
+      "depois": "src/fase3/firmware/cardioia_mqtt/mqtt_delivery.h",
+      "sha256_antes": "263284204fe93006f18858981c2d0d8081dbd84c9f3ce9aa47175ece1dd55664",
+      "sha256_lf": "d7c4c18af64f08b0cc41d6ac3a5256f6ca89aee6763289c6568c9cad9cf39257"
+    },
+    {
+      "antes": "fase3/mqtt/README.md",
+      "depois": "document/fase3/mqtt/README.md",
+      "sha256_antes": "972469b9a7fd7022d0506ea8680cd277f1fc09e21517b33381b8e7aaa95d51ac",
+      "sha256_lf": "db62ed58de1df75508337c5bf5c26dfb00fae9c3c644dcfcb4efed46a41833b2"
+    },
+    {
+      "antes": "fase3/node-red/README.md",
+      "depois": "document/fase3/node-red/README.md",
+      "sha256_antes": "06401f5a0b8d88dd7583bbc10fce5a43fff3fb9e1d6b6e074e88e69148def610",
+      "sha256_lf": "3245aab5815324b3e0c35affc44f41cba545956036f8c24c1b9b857b9f5e6f58"
+    },
+    {
+      "antes": "fase3/node-red/flows.json",
+      "depois": "src/fase3/node-red/flows.json",
+      "sha256_antes": "34e7a973d911f58c03da87e0e1ef946de34ac90853c39a9fab9f6f5a97f6a558",
+      "sha256_json": "bf5ee798dd505d3d3fdd9fe5490de4f219d40b08018b9c51f5d928ba21f87885",
+      "sha256_lf": "7b227d3cbb5952f81e816a2ffc8b6b62088202ebbab70ef54231400383fc2480"
+    },
+    {
+      "antes": "fase3/node-red/gerar_fluxo.js",
+      "depois": "src/fase3/node-red/gerar_fluxo.js",
+      "sha256_antes": "46053b82153da34285d7ff682b27586ca86ce352d787523869b82275c5fc7133",
+      "sha256_lf": "70d429e8ae58f0078ee0ef487ee5de45ae5dfb6582ca11320c80a5bf3e05b84a"
+    },
+    {
+      "antes": "fase3/node-red/iniciar.js",
+      "depois": "scripts/fase3/iniciar_dashboard.js",
+      "sha256_antes": "d7e8e7004e3ab66029a06d7ede95452b19be40d10c063b664ea48e6663feff66",
+      "sha256_lf": "22705b1524505cd08fdb2c4e739538d211bd0ad570fc0ad2784c0e2ef3ccf9e1"
+    },
+    {
+      "antes": "fase3/node-red/monitor.js",
+      "depois": "src/fase3/node-red/monitor.js",
+      "sha256_antes": "6cbb30d0be0e37f27dd39fbbc9ec13e34eaf712466c47fe197eb0f5f7d1204c1",
+      "sha256_lf": "7f3047930c88274fb46b26938a74bc8aa723ebbd70098839593ed03e55b8612b"
+    },
+    {
+      "antes": "fase3/node-red/package-lock.json",
+      "depois": "src/fase3/node-red/package-lock.json",
+      "sha256_antes": "cb27c118bbe155260d2c47a65798a51ec5ad6dcd4ae12b2fb3b36b8feff2483a",
+      "sha256_lf": "c0f812cf04efa0b9b7a3ec45a700eec36de26811ed2b332a1a39803608044dbc"
+    },
+    {
+      "antes": "fase3/node-red/package.json",
+      "depois": "src/fase3/node-red/package.json",
+      "sha256_antes": "806d38ad50e707d47f882599c517e3d56bb356138a790f768b35b488919d7602",
+      "sha256_lf": "bcce3c943ec52777172374f27cf66ea26feea473e4906336877750d26bff95b9"
+    },
+    {
+      "antes": "fase3/node-red/painel.vue",
+      "depois": "src/fase3/node-red/painel.vue",
+      "sha256_antes": "203c63b0503c940510be38c288b4a0d8fcf0db52dabb35af3f93f205b62da3a6",
+      "sha256_lf": "c6da6f1ff3a20787f1b2432eff19648dd538a84bdc5f2f6bcefea9908ba8fd24"
+    },
+    {
+      "antes": "fase3/node-red/settings.js",
+      "depois": "config/fase3/node-red/settings.js",
+      "sha256_antes": "1a83d0321602099215417758e83207931617cc9b475dda57a98b0e3768ef4128",
+      "sha256_lf": "025142108025b94800f94ac5197c77f6edce28a5f52e1fc341f582d6bd1f6ca0"
+    },
+    {
+      "antes": "fase3/python/consumidor_mqtt.py",
+      "depois": "src/fase3/python/consumidor_mqtt.py",
+      "sha256_antes": "56c1b7e91a569fe8a2f961b981888349c0bf93bd19d02f30b4ff55e367c35d0d",
+      "sha256_lf": "672aa893c703a0188133a13d9e934458351618eed118e1587d9573f2b09f3582"
+    },
+    {
+      "antes": "fase3/python/mqtt_store.py",
+      "depois": "src/fase3/python/mqtt_store.py",
+      "sha256_antes": "9b13a0f629ddf22404f5d2a2240f4b65a6e8ced825db264599af33521d0127ed",
+      "sha256_lf": "3797514df799998dc0a7b50bfcc4a82db20872aa01f8c217ac785354c5e52fcc"
+    },
+    {
+      "antes": "fase3/requirements-dev.txt",
+      "depois": "config/fase3/requirements-dev.txt",
+      "sha256_antes": "83979de442b6f367911092c24acdc47cd538c73a550a2e723ba89c8ebe06157d",
+      "sha256_lf": "44ff0dc2f1e40311b8239e83146749ab9d9cee2a650e699f5464755d552ee20d"
+    },
+    {
+      "antes": "fase3/requirements-mqtt.txt",
+      "depois": "config/fase3/requirements-mqtt.txt",
+      "sha256_antes": "a01c9693881b2abdc3f32c9c188bb75e133218c6b355f03ab69680edd5680727",
+      "sha256_lf": "32689a2f238440a2f90f5d5888fd61edbc288ecdfbe8bc36aee1284b3e220a84"
+    },
+    {
+      "antes": "fase3/scripts/conferir_estabilidade_mqtt.py",
+      "depois": "scripts/fase3/conferir_estabilidade_mqtt.py",
+      "sha256_antes": "67d1f8ae78c23e561482e2c7305617ae84e50adf3c08f001030674f21069e331",
+      "sha256_lf": "0d0fffd70931bcead3e9cad00c5692947e0e58fca87cc29f68cab07a44dcfa63"
+    },
+    {
+      "antes": "fase3/scripts/testar_dashboard_mqtt.py",
+      "depois": "scripts/fase3/testar_dashboard_mqtt.py",
+      "sha256_antes": "916b758c2aad0d927e0adf6d469722ccd119dc392d4db650d32a96ad4c033c85",
+      "sha256_lf": "f427e9aef9abe1c11f54ae4f652b8f0e4cb32f1d9c4e4dc8ee0e5d588a1db875"
+    },
+    {
+      "antes": "fase3/scripts/testar_transporte_mqtt.py",
+      "depois": "scripts/fase3/testar_transporte_mqtt.py",
+      "sha256_antes": "f42a26aad267245a735b7057fe6f281b459375c536aa08d2aa3ccc56254f15b8",
+      "sha256_lf": "4a6a636adb2090e84e562c22d5d682c4d4c257b96ac02ada7df23932409e3070"
+    },
+    {
+      "antes": "fase3/scripts/validar_cenarios_edge.py",
+      "depois": "scripts/fase3/validar_cenarios_edge.py",
+      "sha256_antes": "64e2c3fd93f09e650cfc242e2fff8c7d7f6461f1e7828c2ea0d2ce256c9f3889",
+      "sha256_lf": "cbec6a3e3eb4bcc86a0580816d6de03bdb77b1d8eae43f98d638cfa3e3e70a80"
+    },
+    {
+      "antes": "fase3/scripts/validar_cenarios_mqtt.py",
+      "depois": "scripts/fase3/validar_cenarios_mqtt.py",
+      "sha256_antes": "1c0355cb8ff110ffb3d62e4a610605d0e07ca85f936a3bed5b31faaad2f369a9",
+      "sha256_lf": "0a6a5bfb19319ed5603454c10afe72fdc514de98d23326ad9c2f3330faa823f6"
+    },
+    {
+      "antes": "fase3/tests/README.md",
+      "depois": "document/fase3/tests/README.md",
+      "sha256_antes": "990fc2c1dd819f00b33b27e83222ae98b748c9b6d1a5d56c1e15d4993be8a558",
+      "sha256_lf": "d34cf44bbd84503ca930a54fb633c8ce9743e36e8c148b99af04a94ac76be283"
+    },
+    {
+      "antes": "fase3/tests/test_contrato.py",
+      "depois": "src/fase3/tests/test_contrato.py",
+      "sha256_antes": "0e40e9265f5e5a9c9e93b275266c701238d94a530e0da099138bec25eae3331f",
+      "sha256_lf": "aca13cd486acf4e60268638e3283b99fc36f608f159f4ac62778a01921d39a27"
+    },
+    {
+      "antes": "fase3/tests/test_dashboard.cjs",
+      "depois": "src/fase3/tests/test_dashboard.cjs",
+      "sha256_antes": "d26fe98989da19f2aabf2ddb70e7fb2a3a9c3f37b37ab5f707c000dc00e7f362",
+      "sha256_lf": "66d9fd9a059ae5f10855a7d8c8efbe823b5a2046277dd80ba1ce148c9875e273"
+    },
+    {
+      "antes": "fase3/tests/test_edge_core.cpp",
+      "depois": "src/fase3/tests/test_edge_core.cpp",
+      "sha256_antes": "9addbe25605406bc7d27765aed0abfcfb614a64168d0d2667ff50e10f8f2809c",
+      "sha256_lf": "88b5e64293d6264ab6f24641552f236b86c1400762a9f6768fda142720d98086"
+    },
+    {
+      "antes": "fase3/tests/test_mqtt_delivery.cpp",
+      "depois": "src/fase3/tests/test_mqtt_delivery.cpp",
+      "sha256_antes": "645347cd7570db9b18f41e56817229ce5d3e2cfe70e7310d434b8812dc2aa202",
+      "sha256_lf": "05e2dc4fab7503eb65482cd6f9a324b144fd126b590d6196589b5373c6f4e27b"
+    },
+    {
+      "antes": "fase3/tests/test_mqtt_store.py",
+      "depois": "src/fase3/tests/test_mqtt_store.py",
+      "sha256_antes": "04e352dadd1fc69ff8faed96399243c7fba8b1c3d05474d64752587c295b5963",
+      "sha256_lf": "87eec4059ddecd6daa1b832edf0f7f938176fd2e0632731f2b43926694ea7b1a"
+    },
+    {
+      "antes": "fase3/validacao/entrega1.md",
+      "depois": "document/fase3/validacao/entrega1.md",
+      "sha256_antes": "46667a3b713efed8c27f4031855592d53e2fcf436da982ae07265e0c3448385e",
+      "sha256_lf": "a559e347f6bde58a7a827d1abf91322724120a93b26126d6db0262b47c3b7f11"
+    },
+    {
+      "antes": "fase3/validacao/entrega2.md",
+      "depois": "document/fase3/validacao/entrega2.md",
+      "sha256_antes": "20dfe756b300167b2059ebbf7c92928024aff2be5f3b9332bfaa6910a5aaf0da",
+      "sha256_lf": "6b036317d74d4d5d2a2905aabcd2eb22ab597a9be3b60206f22dadff0b38400a"
+    },
+    {
+      "antes": "fase3/validacao/entrega3.md",
+      "depois": "document/fase3/validacao/entrega3.md",
+      "sha256_antes": "1aeae26d42b507e89e9941124469f5bde382fb7253a2ef1599a8150fedd05e5a",
+      "sha256_lf": "707035823f0332b27c55d8ba15cf9e2b2271cba0fa56eaa4e1017c4ba9bf6626"
+    },
+    {
+      "antes": "portal-cardioia/.github/workflows/deploy-pages.yml",
+      "depois": "src/portal-cardioia/.github/workflows/deploy-pages.yml",
+      "sha256_antes": "36cb5ca52aed8cd978490b1dc6cc4d6c53ded05e8b63e201222b032b0185a0cd",
+      "sha256_lf": "36329c71ebde6f40d6cd6e2fd3466e759fb405664b615dc346e3ab14a9fdce43"
+    },
+    {
+      "antes": "portal-cardioia/.gitignore",
+      "depois": "src/portal-cardioia/.gitignore",
+      "sha256_antes": "32054a71bafe13ed92a4ff746103cc6c052b9963feeab7dbce1ce450ab367887",
+      "sha256_lf": "a98486a0709b7b7ae3901e4639f9888919e4dde8ecd7401a81843d0f6ae40a21"
+    },
+    {
+      "antes": "portal-cardioia/README.md",
+      "depois": "document/fase2/PORTAL.md",
+      "sha256_antes": "ffb3139b522048e49d35ecb95671d1cfd032ba5bc95a7c92cbdc96239e601d38",
+      "sha256_lf": "a4a9c0f150ff453099d3d291b8cb5c14da480fd1d201eb810e871ed4f1de0ea1"
+    },
+    {
+      "antes": "portal-cardioia/index.html",
+      "depois": "src/portal-cardioia/index.html",
+      "sha256_antes": "db6e7faa0bb3558ddcac6b4a92dd24efe4b62a1f01973bdb65f19d2a5fd3e558",
+      "sha256_lf": "ab87eabf1841e85f10f9718f567bef5a666a1ebe7d73969a174450a2516df849"
+    },
+    {
+      "antes": "portal-cardioia/package-lock.json",
+      "depois": "src/portal-cardioia/package-lock.json",
+      "sha256_antes": "027dbc620e60d8b7da291a1cdd218556b08c59250453a83d63b0b5da045b574c",
+      "sha256_lf": "05e8c48cb49abee5eab8f34f0f95bb0b919830b112736d7dfc3c2f859fee4347"
+    },
+    {
+      "antes": "portal-cardioia/package.json",
+      "depois": "src/portal-cardioia/package.json",
+      "sha256_antes": "89eecc3bc0e15cbc53d001b2c3642b86ffae1dc935f46ae9a26472bd1e65602e",
+      "sha256_lf": "5ca7a70bb94bd070985602252f9e83c0f2788081085eba725d89f0d7af92cc93"
+    },
+    {
+      "antes": "portal-cardioia/public/data/patients.json",
+      "depois": "src/portal-cardioia/public/data/patients.json",
+      "sha256_antes": "d1b734a24e9a66d201f319235ca1a07e41481a570c0197aaf17c9eb52bac5589",
+      "sha256_lf": "0a83899895bc7cf8972f66a4fb69310c73a5ee57b6ecb41497cea1155d475b76"
+    },
+    {
+      "antes": "portal-cardioia/src/App.jsx",
+      "depois": "src/portal-cardioia/src/App.jsx",
+      "sha256_antes": "38a99624135b7c05f8621133d4c05a5e5f3dcc466565c0708860ca87cd89c0a6",
+      "sha256_lf": "34272dafca54da16a8803f562b3660ad40478a4a7276c882821b197c91e67c46"
+    },
+    {
+      "antes": "portal-cardioia/src/App.test.jsx",
+      "depois": "src/portal-cardioia/src/App.test.jsx",
+      "sha256_antes": "085a5f8b1d3108d3053f9b3f61556f72365e75f612ec0bc9519fdeaa40bc0567",
+      "sha256_lf": "c015ad37c214bd767cbaa64388058c402fb141b3f5f4b9980f5c43a90846af50"
+    },
+    {
+      "antes": "portal-cardioia/src/components/Layout.jsx",
+      "depois": "src/portal-cardioia/src/components/Layout.jsx",
+      "sha256_antes": "34a4aea54f271750db9a2535be5c2bf9465c8092f8e7623e383b8a2e29cdff82",
+      "sha256_lf": "d6ff693c540ff372dbd93d1b9cfff3a525f010725e3493fdb8432dc7f848d845"
+    },
+    {
+      "antes": "portal-cardioia/src/components/StatCard.jsx",
+      "depois": "src/portal-cardioia/src/components/StatCard.jsx",
+      "sha256_antes": "c9b2c174441e8b29ea222ada15ed0183c72e4908328d88d79beaaacae0929b20",
+      "sha256_lf": "434fe8980bc0f8467b0ef320fcd489ff3fd9d4027b9fa984bd11ad2eae16e2a5"
+    },
+    {
+      "antes": "portal-cardioia/src/contexts/AuthContext.jsx",
+      "depois": "src/portal-cardioia/src/contexts/AuthContext.jsx",
+      "sha256_antes": "fd8c47af00e1b55a10ba74b916d2e6be51c184df27eb80e1b532ee2d7e1ae191",
+      "sha256_lf": "d9f8714d9d33e94b5ac731d4d2f1bfc8b5729a41bdb5205f68907133accd702a"
+    },
+    {
+      "antes": "portal-cardioia/src/data/demoData.js",
+      "depois": "src/portal-cardioia/src/data/demoData.js",
+      "sha256_antes": "4d079ffb21fb120e5448d2f6ed98dd6e9c147f5e82587a3c14cd4e041c460636",
+      "sha256_lf": "1f9f0b5e3ef176954eec7125c8fe71244aca50b521f58bd0a2c1bc9c822953dd"
+    },
+    {
+      "antes": "portal-cardioia/src/main.jsx",
+      "depois": "src/portal-cardioia/src/main.jsx",
+      "sha256_antes": "fe5777d6b3b6d3c563b43789d6c593f8d87c0909f7de713829e2218bb3608c6a",
+      "sha256_lf": "4065eaad9a499e0d8b688ca070f4cff58c0ed9ddd96d8957a3dc7654f127332c"
+    },
+    {
+      "antes": "portal-cardioia/src/pages/Appointments.jsx",
+      "depois": "src/portal-cardioia/src/pages/Appointments.jsx",
+      "sha256_antes": "67e9575ed56f0da16b4f5c1503f8c1f02ba06e5cbe07b13a95f200966dbbcbec",
+      "sha256_lf": "fe225d2c4c03dd3e603772d5db9ec6258718d133de2b8f344d56f0976c33331a"
+    },
+    {
+      "antes": "portal-cardioia/src/pages/Dashboard.jsx",
+      "depois": "src/portal-cardioia/src/pages/Dashboard.jsx",
+      "sha256_antes": "864b786f46f5ed949c105eae5b6fd2e4f80f9ee42e34e55f11ee544536161f76",
+      "sha256_lf": "eb52d4777357a88a80f7f503f8217e57def2138617a67e4178befe799c9d78d1"
+    },
+    {
+      "antes": "portal-cardioia/src/pages/Login.jsx",
+      "depois": "src/portal-cardioia/src/pages/Login.jsx",
+      "sha256_antes": "5bd3d9f7312e063560834aaefbb2cc9f4bafc019b44362f42b87a763169b89af",
+      "sha256_lf": "1ec69777e7a9524ba243052f7e491534e80bd32084477d96605d098d8e04b735"
+    },
+    {
+      "antes": "portal-cardioia/src/pages/Patients.jsx",
+      "depois": "src/portal-cardioia/src/pages/Patients.jsx",
+      "sha256_antes": "7a4ef5336a40882e6b387d6648122ffc9a7fc536ed284625a091aa174b6988e9",
+      "sha256_lf": "5fccff650dc0af5494396a02d32d6c74f8c92fe0b1fa4fdfa6032636eb7b82cd"
+    },
+    {
+      "antes": "portal-cardioia/src/services/api.js",
+      "depois": "src/portal-cardioia/src/services/api.js",
+      "sha256_antes": "680c78d35085c39c87f00a0e7424ccc8bff6d2ba9dfc9bc14e3fa1f637d32f75",
+      "sha256_lf": "3256608f787088c1ff5606adb1a453600e98107fcc5754b5e379637ff9462841"
+    },
+    {
+      "antes": "portal-cardioia/src/services/api.test.js",
+      "depois": "src/portal-cardioia/src/services/api.test.js",
+      "sha256_antes": "9b19fc30653a48559ab52fd689d02dc12ea19c22465cfa6fe566d24b8ee05c8b",
+      "sha256_lf": "0b0e8d787babbf7f27a28fb9e6a3ff98feaae4a71b87deab4682db6f29cd6884"
+    },
+    {
+      "antes": "portal-cardioia/src/styles/Portal.module.css",
+      "depois": "src/portal-cardioia/src/styles/Portal.module.css",
+      "sha256_antes": "9e4469d70dd3d8a6c53ab7eb1f55cb9ca98256981721a6fe0aa8d14f580128c7",
+      "sha256_lf": "b9f4ff04f2781fa32e9be49deeea44645c966eaa0c8cf53390d1435c26ed3f72"
+    },
+    {
+      "antes": "portal-cardioia/src/styles/global.css",
+      "depois": "src/portal-cardioia/src/styles/global.css",
+      "sha256_antes": "297c740eb872b56ee32b4a188eff53cff66f77c8f04a7c02fa245b4885f7a01f",
+      "sha256_lf": "f01bd1833d5cc8150fe0eb0a0e39a699621655b7c3fbc9048bc5157d6911e803"
+    },
+    {
+      "antes": "portal-cardioia/vite.config.js",
+      "depois": "src/portal-cardioia/vite.config.js",
+      "sha256_antes": "c03a910f3d386c781f78c2a9625e89a3f88c7716bd8efc814e351bbce182f2bf",
+      "sha256_lf": "440d9361e0881e7a737aa94753f986d036663371034cafbb8af2f6550bffd948"
+    },
+    {
+      "antes": "scripts/preparar_amostra_ecg.py",
+      "depois": "scripts/preparar_amostra_ecg.py",
+      "sha256_antes": "9e46358a9ba23c70a55d35f168e9f894b8dd2ddcf4e9e385260d3f89bd188db2",
+      "sha256_lf": "6dbe1ec80508f746a7ad995a5a8db6626fc67cb1a12efa02f6c060247648a913"
+    },
+    {
+      "antes": "scripts/preparar_dataset_numerico.py",
+      "depois": "scripts/preparar_dataset_numerico.py",
+      "sha256_antes": "69b13910c48c41777063a430891a5a0f2836f9594347f1b83268456dcc8d668a",
+      "sha256_lf": "79c78c4d40cfd820b7f49f9fb69c196e732934b0d55e63646519fec84b1e34e4"
+    },
+    {
+      "antes": "scripts/readme.md",
+      "depois": "scripts/readme.md",
+      "sha256_antes": "3335b47fba63e59ddafbb2d67efdd1d81f134ee742659752df97bde8d0b152a2",
+      "sha256_lf": "3335b47fba63e59ddafbb2d67efdd1d81f134ee742659752df97bde8d0b152a2"
+    },
+    {
+      "antes": "src/readme.md",
+      "depois": "src/readme.md",
+      "sha256_antes": "77fc996badb3dcdaf0c3b57d94b76ef826b50b323f968e2d7cf04d5a1569fd4d",
+      "sha256_lf": "b48a966ef82530ba7106a23f88528111513660698a97fbf845667ea22a1e9789"
+    }
+  ]
+}
