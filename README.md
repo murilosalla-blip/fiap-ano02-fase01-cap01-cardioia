@@ -191,7 +191,7 @@ Preservamos nos repositórios históricos a estrutura e os documentos dos fecham
 
 ## 🔧 Como executar o código
 
-Os dados finais da **Fase 1** já estão preparados e disponíveis nas pastas do projeto e nos links externos; não é necessário executar código para avaliá-los. Fornecemos os scripts para reprodução e rastreabilidade da preparação. As aplicações e os modelos da Fase 2 e o monitoramento da Fase 3 têm instruções próprias nas seções seguintes.
+As instruções abaixo preparam uma cópia local do CardioIA. Depois, seguir a seção de execução da fase desejada: preparação dos dados na Fase 1, aplicações e modelos na Fase 2 ou monitoramento IoT na Fase 3.
 
 **Pré-requisitos:** Git e Python **3.12**. Para as imagens, utilizamos Pillow. Para o portal React e o Node-RED, utilizamos Node.js **24** com npm. O Wokwi e o broker público exigem internet e acesso à porta TCP **1883**. Não é necessário comprar hardware.
 
@@ -204,6 +204,10 @@ python -m venv .venv
 ```
 
 Se a cópia e o ambiente já existem, seguir diretamente os comandos da fase desejada. Utilizamos o executável do ambiente virtual sem precisar ativá-lo ou alterar a política de execução do PowerShell. No Linux/macOS, criar com `python3.12 -m venv .venv` e substituir `.venv/Scripts/python.exe` por `.venv/bin/python`, nas pastas correspondentes. Os comandos `node` e `npm` permanecem iguais.
+
+## ▶️ Como executar a Fase 1
+
+Os dados finais da **Fase 1** já estão preparados e disponíveis nas pastas do projeto e nos links externos; não é necessário executar código para avaliá-los. Fornecemos os scripts para reprodução e rastreabilidade da preparação. Para reexecutá-los, utilizar o ambiente preparado acima e executar os comandos na raiz do repositório.
 
 **Reproduzir o dataset numérico da Parte 1** — gera o CSV a partir da fonte bruta incluída no repositório:
 
