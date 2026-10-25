@@ -305,30 +305,13 @@ O [guia completo da Fase 3](document/fase3/README.md) detalha instalação para 
 
 ## 🗃 Histórico de lançamentos
 
-* 0.1.0 - 21/08/2026
-    * Estruturamos o projeto CardioIA e sua configuração no repositório.
-* 0.2.0 - 21/08/2026
-    * Preparamos, validamos e documentamos o dataset numérico Cleveland.
-* 0.3.0 - 21/08/2026
-    * Preparamos e documentamos o corpus textual sobre prevenção e síndromes coronarianas agudas.
-* 0.4.0 - 21/08/2026
-    * Preparamos e documentamos a amostra de 120 imagens de ECG.
-* 0.5.0 - 14/09/2026
-    * Implementamos o pipeline tabular e a comparação e avaliação dos modelos da Fase 2.
-* 0.6.0 - 14/09/2026
-    * Acrescentamos análises de incerteza, calibração, interpretação e desempenho por subgrupos.
-* 0.7.0 - 14/09/2026
-    * Publicamos e testamos a aplicação acadêmica Streamlit.
-* 0.8.0 - 14/09/2026
-    * Implementamos e documentamos NLP, portal React e experimento visual com MLP.
-* Fechamento da Fase 2 - 07/10/2026
-    * Registramos o vídeo publicado e o encerramento da documentação da entrega.
-* 0.9.0 - 24/10/2026
-    * Validamos as implementações ESP32, recuperação offline, MQTT e Node-RED da Fase 3.
-* Organização e revisão documental - 24 e 25/10/2026
-    * Organizamos as fases nas pastas oficiais, preservamos os materiais e links anteriores e detalhamos a reprodução. Mantemos os [registros da revisão](document/other/organizacao/REVISAO_DOCUMENTACAO.md).
-* Padronização do README - 25/10/2026
-    * Preservamos os fechamentos das Fases 1 e 2 em repositórios próprios e renomeamos este para a Fase 3. Retomamos a estrutura, os emojis e o estilo explicativo do README original, com os caminhos atuais e as pendências da Fase 3 identificadas.
+Consolidamos as entregas de cada dia em um único registro, atualizado com os avanços daquele dia.
+
+- **21/08/2026 — Fase 1:** estruturamos o CardioIA e preparamos as três modalidades de dados: base numérica Cleveland, corpus textual e amostra de 120 imagens de ECG, com fontes, curadoria e documentação.
+- **14/09/2026 — Fase 2:** desenvolvemos os modelos tabulares, a extração de sintomas e a classificação textual; implementamos Streamlit, portal React e MLP de ECG, com avaliações, testes e limitações documentadas.
+- **07/10/2026 — Fase 2:** concluímos a documentação da entrega e disponibilizamos o vídeo demonstrando a atividade obrigatória e os dois desafios Ir Além.
+- **24/10/2026 — Fase 3:** implementamos e validamos sensores no ESP32, fila offline, recuperação, transmissão MQTT, persistência e painel Node-RED; organizamos os materiais das três fases nas pastas oficiais da FIAP, preservando as entregas anteriores.
+- **25/10/2026 — Continuidade do projeto:** preservamos os fechamentos das Fases 1 e 2 em repositórios próprios e dedicamos este à evolução da Fase 3; consolidamos a apresentação das três fases, os guias de reprodução, os documentos e as evidências, com os entregáveis pendentes identificados.
 
 ## 📋 Licença
 
