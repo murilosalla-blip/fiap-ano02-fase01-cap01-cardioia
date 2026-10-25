@@ -30,11 +30,17 @@
 
 Desenvolvemos o **CardioIA** como projeto acadêmico da FIAP ao longo de 7 fases. Na **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"**, reunimos dados numéricos, textuais e visuais. Na **Fase 2 — Machine Learning**, desenvolvemos extração de sintomas, classificação textual com TF-IDF, portal React e experimentos tabulares e visuais. Na **Fase 3 — Monitoramento Contínuo: IoT na Saúde**, acrescentamos captura simulada com ESP32, resiliência offline, transmissão MQTT e visualização no Node-RED, mantendo a evolução das entregas anteriores.
 
+Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Ainda precisamos concluir os relatórios obrigatórios, o cliente REST com e-mail simulado e a comparação entre classificador tradicional e modelo neuromórfico, incluindo seus documentos e vídeo.
+
 > **Uso exclusivamente educacional.** Não realizamos diagnóstico, não estimamos risco clínico real e não substituímos avaliação médica.
 
 O repositório está disponível em [github.com/murilosalla-blip/fiap-ano02-fase03-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia).
 
-**Parte 1 — Dados Numéricos:**utilizamos o dataset público *Heart Disease (Cleveland)*, do UCI Machine Learning Repository (303 registros, 14 variáveis clínicas — idade, sexo, pressão arterial, colesterol, sintomas, frequência cardíaca, entre outras), processado em `assets/fase1/dados/processed/`, com dicionário de variáveis e justificativa clínica da relevância de cada atributo documentados em `document/fase1/` para os experimentos tabulares de Machine Learning da Fase 2.
+## 📊 Fase 1 — Batimentos de Dados
+
+Organizamos a entrega obrigatória da Fase 1 em três partes complementares, preparando os dados para as etapas seguintes do CardioIA:
+
+**Parte 1 — Dados Numéricos:** utilizamos o dataset público *Heart Disease (Cleveland)*, do UCI Machine Learning Repository (303 registros, 14 variáveis clínicas — idade, sexo, pressão arterial, colesterol, sintomas, frequência cardíaca, entre outras), processado em `assets/fase1/dados/processed/`, com dicionário de variáveis e justificativa clínica da relevância de cada atributo documentados em `document/fase1/` para os experimentos tabulares de Machine Learning da Fase 2.
 
 **Parte 2 — Dados Textuais:** reunimos dois textos `.txt` derivados de publicações oficiais do Ministério da Saúde/CONITEC — um sobre prevenção cardiovascular (fatores de risco, atenção básica) e outro sobre manejo de síndromes coronarianas agudas (sintomas, diagnóstico, tratamento) — formando um corpus complementar (antes vs. depois do evento cardíaco). Esse corpus poderá apoiar futuramente tarefas de NLP como identificação e extração de termos clínicos (sintomas, fatores de risco, procedimentos), classificação temática (prevenção vs. evento agudo), recuperação de informação e sumarização, além de servir de base textual para um sistema de perguntas e respostas ou para o Assistente Cardiológico Virtual (Fase 5).
 
@@ -42,7 +48,15 @@ O repositório está disponível em [github.com/murilosalla-blip/fiap-ano02-fase
 
 Nas três partes, seguimos um processo de **governança de dados** com atenção à proveniência, privacidade, qualidade e rastreabilidade. Limitações e possíveis vieses identificados, detalhados nos documentos específicos em `document/fase1/`: a Parte 1 usa uma base originada na Cleveland Clinic (EUA, década de 1980), sem representatividade populacional garantida para outros contextos; a Parte 2 usa textos institucionais brasileiros de linguagem técnica (não espontânea de pacientes), sendo que um dos materiais tem contexto temporal mais antigo (2006); a Parte 3 usa um dataset originado no Paquistão, com possíveis vieses de população e de equipamento de aquisição, e a amostra curada e balanceada não representa necessariamente a prevalência real das condições nas classes.
 
-Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Ainda precisamos concluir os relatórios obrigatórios, o cliente REST com e-mail simulado e a comparação entre classificador tradicional e modelo neuromórfico, incluindo seus documentos e vídeo.
+**Documentação completa:** [Guia da Fase 1](document/fase1/README.md)
+
+**Dados numéricos e variáveis:** [Preparação e justificativas](document/fase1/parte1_dados_numericos.md) e [dicionário das variáveis](document/fase1/parte1_dicionario_variaveis.md)
+
+**Dados textuais:** [Fontes, contexto e aplicações de NLP](document/fase1/parte2_dados_textuais.md)
+
+**Dados visuais:** [Curadoria, rastreabilidade e aplicações de visão computacional](document/fase1/parte3_dados_visuais.md)
+
+**Documento submetido:** [Entrega original da Fase 1](document/fase1/cardioia_fase1_entrega_fiap.pdf)
 
 ## 🧠 Fase 2 — Machine Learning
 
