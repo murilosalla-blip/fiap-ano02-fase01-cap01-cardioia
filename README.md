@@ -1,151 +1,226 @@
-# FIAP — Faculdade de Informática e Administração Paulista
+# FIAP - Faculdade de Informática e Administração Paulista
 
-<p align="center"><a href="https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP" width="40%"></a></p>
+<p align="center">
+<a href="https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width="40%" height="40%"></a>
+</p>
+
+<br>
 
 # CardioIA — Fases 1, 2 e 3
 
 ## Grupo Aura
 
-| Integrante | RM |
-|---|---|
-| Murilo Salla | 568041 |
-| Elias da Silva de Souza | 568500 |
-| Julia Duarte de Carvalho | 567816 |
+## 👨‍🎓 Integrantes:
 
-**Tutor:** Leonardo Ruiz Orabona. **Coordenador:** André Godoi Chiovato.
+- Murilo Salla — RM568041
+- Elias da Silva de Souza — RM568500
+- Julia Duarte de Carvalho — RM567816
 
-## Descrição
+## 👩‍🏫 Professores:
 
-Desenvolvemos o CardioIA como projeto acadêmico da FIAP, organizado em sete fases. Estudamos como transformar dados cardiovasculares em informação, construir modelos de IA e integrar dispositivos simulados a interfaces de acompanhamento. Neste repositório, apresentamos a evolução acumulada das Fases 1, 2 e 3: preparação dos dados, experimentos de inteligência artificial e monitoramento conectado. Demonstramos esse percurso de forma reproduzível, com rastreabilidade e explicação das limitações.
+### Tutor(a)
 
-Na Fase 1, reunimos três modalidades independentes: 303 registros e 14 variáveis da base Heart Disease Cleveland; dois textos derivados de publicações oficiais do Ministério da Saúde e da CONITEC; e 120 imagens de ECG. Documentamos origem, preparação, privacidade e possíveis aplicações de cada conjunto.
+- Leonardo Ruiz Orabona
 
-Na Fase 2, desenvolvemos a extração de sintomas por mapa de conhecimento e a classificação textual com TF-IDF. Acrescentamos experimentos tabulares, uma aplicação Streamlit, um portal React e a classificação visual por MLP. Mantivemos separados os dados e resultados das diferentes modalidades: eles não representam os mesmos pacientes.
+### Coordenador(a)
 
-Na Fase 3, ampliamos o CardioIA com monitoramento contínuo: implementamos a captura com ESP32 no Wokwi, a fila limitada para interrupções, a transmissão MQTT, a gravação em SQLite antes da confirmação e o painel Node-RED. Validamos coleta offline, recuperação, reenvio, deduplicação, pulsos, temperatura ambiente e alertas didáticos. Mantemos os módulos anteriores disponíveis e acrescentamos um fluxo próprio de telemetria; os classificadores da Fase 2 não recebem automaticamente essas leituras. Ainda precisamos produzir os relatórios obrigatórios e concluir os desafios REST/e-mail e comparação de modelos neuromórficos, incluindo seus documentos e vídeo.
+- André Godoi Chiovato
 
-Utilizamos dados e simulações identificados para fins educacionais. As métricas dos experimentos não demonstram validade clínica; não realizamos diagnóstico nem oferecemos orientação assistencial.
+## 📜 Descrição
 
-[Repositório atual — evolução até a Fase 3](https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia).
+Desenvolvemos o **CardioIA** como projeto acadêmico da FIAP ao longo de 7 fases. Na **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"**, reunimos dados numéricos, textuais e visuais. Na **Fase 2 — Machine Learning**, desenvolvemos extração de sintomas, classificação textual com TF-IDF, portal React e experimentos tabulares e visuais. Na **Fase 3 — Monitoramento Contínuo: IoT na Saúde**, acrescentamos captura simulada com ESP32, resiliência offline, transmissão MQTT e visualização no Node-RED, mantendo a evolução das entregas anteriores.
 
-## Fases e situação da entrega
+> **Uso exclusivamente educacional.** Não realizamos diagnóstico, não estimamos risco clínico real e não substituímos avaliação médica.
 
-| Fase | O que entregamos ou estamos preparando | Documentação para avaliação |
-|---|---|---|
-| 1 — Batimentos de Dados | Dados numéricos, textuais e visuais; entrega anterior avaliada com nota máxima | [Guia, fontes e documento submetido](document/fase1/README.md) |
-| 2 — Diagnóstico automatizado com IA | Extração, classificador textual, notebooks, interfaces e desafios; entrega anterior avaliada com nota máxima | [Como reproduzir e resultados](document/fase2/README.md), [relatório](document/fase2/RELATORIO_ENTREGA.md) |
-| 3 — Monitoramento contínuo | ESP32, fila offline, MQTT e Node-RED implementados e testados; documentação final e Ir Além em andamento | [Guia de reprodução](document/fase3/README.md), [matriz do enunciado](document/fase3/CHECKLIST_ENUNCIADO.md), [roteiro restante](document/fase3/ROTEIRO_ENTREGA.md) |
+O repositório está disponível em [github.com/murilosalla-blip/fiap-ano02-fase03-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia).
 
-O prazo informado para a Fase 3 é **04/11/2026, às 23h59**. A implementação das três primeiras etapas não representa o encerramento da fase: os relatórios mínimos ainda fazem parte da entrega obrigatória.
+**Parte 1 — Dados Numéricos:**utilizamos o dataset público *Heart Disease (Cleveland)*, do UCI Machine Learning Repository (303 registros, 14 variáveis clínicas — idade, sexo, pressão arterial, colesterol, sintomas, frequência cardíaca, entre outras), processado em `assets/fase1/dados/processed/`, com dicionário de variáveis e justificativa clínica da relevância de cada atributo documentados em `document/fase1/` para os experimentos tabulares de Machine Learning da Fase 2.
 
-Preservamos também as versões exatas dos fechamentos anteriores em repositórios próprios: [Fase 1](https://github.com/murilosalla-blip/fiap-ano02-fase01-cardioia), no commit `cbd9685`, e [Fase 2](https://github.com/murilosalla-blip/fiap-ano02-fase02-cardioia), no commit `bf4f0e1`. Neste repositório, mantemos seus materiais com os caminhos atuais e acrescentamos a Fase 3. As cópias históricas mantêm a estrutura e a documentação da época; os comandos abaixo utilizam a organização atual.
+**Parte 2 — Dados Textuais:** reunimos dois textos `.txt` derivados de publicações oficiais do Ministério da Saúde/CONITEC — um sobre prevenção cardiovascular (fatores de risco, atenção básica) e outro sobre manejo de síndromes coronarianas agudas (sintomas, diagnóstico, tratamento) — formando um corpus complementar (antes vs. depois do evento cardíaco). Esse corpus poderá apoiar futuramente tarefas de NLP como identificação e extração de termos clínicos (sintomas, fatores de risco, procedimentos), classificação temática (prevenção vs. evento agudo), recuperação de informação e sumarização, além de servir de base textual para um sistema de perguntas e respostas ou para o Assistente Cardiológico Virtual (Fase 5).
 
-## Evolução do CardioIA — Fases 1, 2 e 3
+**Parte 3 — Dados Visuais:** reunimos 120 imagens de eletrocardiograma (ECG), curadas a partir do dataset público *ECG Images dataset of Cardiac Patients* (Mendeley Data), balanceadas em 4 classes (`normal`, `myocardial_infarction`, `history_mi`, `abnormal_heartbeat`), com curadoria rigorosa (deduplicação por hash, remoção de dados administrativos/pessoais). Cada arquivo `.jpg` representa uma imagem de um exame de ECG de 12 derivações — não necessariamente um paciente único. Esse conjunto poderá ser reutilizado futuramente para classificação de imagens de ECG, aprendizado de padrões visuais e experimentos de distinção entre as quatro classes disponibilizadas com técnicas de Visão Computacional (Fase 4), sem qualquer promessa de capacidade diagnóstica clínica nesta etapa.
 
-### Fase 1 — origem, justificativa e materiais
+Nas três partes, seguimos um processo de **governança de dados** com atenção à proveniência, privacidade, qualidade e rastreabilidade. Limitações e possíveis vieses identificados, detalhados nos documentos específicos em `document/fase1/`: a Parte 1 usa uma base originada na Cleveland Clinic (EUA, década de 1980), sem representatividade populacional garantida para outros contextos; a Parte 2 usa textos institucionais brasileiros de linguagem técnica (não espontânea de pacientes), sendo que um dos materiais tem contexto temporal mais antigo (2006); a Parte 3 usa um dataset originado no Paquistão, com possíveis vieses de população e de equipamento de aquisição, e a amostra curada e balanceada não representa necessariamente a prevalência real das condições nas classes.
 
-| Modalidade | Conteúdo disponível | Por que selecionamos e como utilizar |
-|---|---|---|
-| Numérica | Heart Disease Cleveland: 303 registros, 14 variáveis; fonte bruta e CSV processado em `assets/fase1/dados/` | Idade e sexo contextualizam a amostra; pressão e colesterol representam medidas clínicas; dor torácica, angina e frequência cardíaca descrevem sintomas e resposta ao esforço; atributos de exames complementam a análise. Documentamos cada variável e o alvo no [dicionário](document/fase1/parte1_dicionario_variaveis.md). |
-| Textual | Dois arquivos `.txt` em `assets/fase1/textos/`, derivados de fontes MS/CONITEC | Trabalhamos prevenção e síndromes coronarianas. Propomos extração de sintomas e entidades, classificação temática, busca e sumarização; linguagem institucional não equivale a relatos espontâneos de pacientes. |
-| Visual | 120 JPG de ECG: 30 normais e 30 de cada uma das três categorias anormais, em `assets/fase1/imagens/ecg/` | Utilizamos a fonte Mendeley ECG Images dataset of Cardiac Patients. A amostra permite estudar pré-processamento e classificação; removemos cabeçalhos administrativos e duplicatas exatas e registramos a rastreabilidade. Um exame não comprova um paciente único. |
+Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Ainda precisamos concluir os relatórios obrigatórios, o cliente REST com e-mail simulado e a comparação entre classificador tradicional e modelo neuromórfico, incluindo seus documentos e vídeo.
 
-No [guia da Fase 1](document/fase1/README.md), detalhamos as fontes, o tratamento dos seis valores ausentes na base numérica, os recortes de privacidade das imagens e as limitações de representatividade. Os três conjuntos vêm de fontes e pessoas diferentes; não formam uma base multimodal de pacientes pareados. O balanceamento visual não representa prevalência clínica.
+## 🧠 Fase 2 — Machine Learning
 
-**Materiais externos preservados da entrega original:** [dados numéricos](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing), [dados textuais](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing) e [dados visuais](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing).
+Organizamos a entrega obrigatória da Fase 2 em duas partes independentes:
 
-### Fase 2 — entregáveis e resultados
+1. **Extração de sintomas:** preparamos dez relatos simulados completos em `.txt`, um mapa de conhecimento sintoma–doença em CSV e um extrator Python tolerante a maiúsculas, acentos e pontuação.
+2. **Classificação textual de risco:** preparamos uma base simulada com 120 frases únicas e balanceadas, aplicamos TF-IDF e Regressão Logística e separamos treino e teste por cenário, com avaliação de desempenho e viés.
 
-Na atividade obrigatória, preparamos dez relatos simulados, um mapa com 25 associações e 120 frases rotuladas para classificar risco textual. Separamos os pares de frases por cenário antes do treinamento. Acrescentamos o portal React do Ir Além 1 e os notebooks de MLP de ECG do Ir Além 2, mantendo o baseline visual e sua revisão ampliada.
+Também implementamos os dois desafios **Ir Além**:
 
-| Experimento | Resultado registrado | Limite da interpretação |
-|---|---|---|
-| TF-IDF + Regressão Logística | 100% de acurácia em 24 frases de teste | Base pequena, simulada e separável; não demonstra generalização clínica |
-| Modelo tabular Cleveland | ROC AUC 0,958 em 61 registros de teste | Dados históricos e subgrupos pequenos; avaliação independente da textual |
-| MLP visual ampliada | 69,7% de acurácia; 74,5% de acurácia balanceada; recall anormal 62,9%; ROC AUC 0,824 em 99 imagens | São métricas diferentes; persistem falsos negativos e ausência de ID confiável de paciente |
+- **Portal React + Vite:** autenticação simulada com token local, rotas protegidas, pacientes, agendamentos e dashboard, com testes automatizados;
+- **Classificação visual de ECG:** baseline binário com 60 exames equilibrados e revisão ampliada com os 491 conteúdos únicos recuperados da mesma fonte pública, pré-processamento em escala de cinza e MLP Keras. Mantemos hashes distintos entre treino, validação e teste e documentamos a ausência de identificador confiável de paciente.
 
-Preservamos os [notebooks executados](src/fase2/notebooks/), os [resultados](assets/fase2/resultados/README.md), o [vídeo completo da Fase 2, não listado e de até quatro minutos](https://youtu.be/qoKjl6oeotY), o [Streamlit](https://cardioia-fiap.streamlit.app/), o [portal publicado](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/) e seu [repositório independente](https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal).
+Como extensão adicional, preservamos o modelo tabular da base Heart Disease — Cleveland e sua aplicação Streamlit. Apresentamos as modalidades separadamente, pois utilizam fontes, pessoas e objetivos distintos.
 
-### Fase 3 — monitoramento contínuo com IoT
+**Aplicação principal:** [cardioia-fiap.streamlit.app](https://cardioia-fiap.streamlit.app/)
 
-Acrescentamos ao CardioIA a captura periódica de sinais simulados e o acompanhamento durante interrupções de comunicação. Utilizamos o ESP32 no Wokwi, o DHT22 para temperatura ambiente e umidade e o botão como segunda entrada para pulsos artificiais. Com isso, passamos dos dados preparados e dos experimentos de IA das fases anteriores para um fluxo de coleta, armazenamento local, transmissão, visualização e alerta.
+**Portal administrativo:** [julia-carvalho96.github.io/grupo-aura-cardioia-portal](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/)
 
-| Parte da entrega | O que implementamos | Como conferir |
-|---|---|---|
-| Parte 1 — Edge Computing | Coleta a cada cinco segundos simulados, conectividade booleana e fila FIFO limitada a 2.000 amostras; demonstramos sincronização pela saída Serial | [Firmware Serial](src/fase3/firmware/cardioia_edge/), [Wokwi da Parte 1](https://wokwi.com/projects/478054573982428161) e [resultados dos testes](document/other/fase3/evidencias/2026-10-24/RESULTADOS.md) |
-| Parte 2 — MQTT | Transmissão ao broker público, consumidor Python, persistência SQLite, confirmação após gravação e deduplicação de reenvios | [Firmware MQTT](src/fase3/firmware/cardioia_mqtt/), [Wokwi da Parte 2](https://wokwi.com/projects/478772789361460225) e [protocolo](document/fase3/mqtt/README.md) |
-| Parte 2 — Node-RED | Gráfico de BPM, gauge de temperatura ambiente, indicação de umidade, conexão, recuperação e alertas didáticos | [Export do fluxo](src/fase3/node-red/flows.json), [guia do painel](document/fase3/node-red/README.md) e [evidências visuais](assets/fase3/evidencias/) |
+**Repositório separado do portal:** [Julia-carvalho96/grupo-aura-cardioia-portal](https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal)
 
-Os dados de telemetria são simulados e independentes dos pacientes e relatos das bases anteriores. Mantemos os modelos da Fase 2 como módulos disponíveis do projeto; nesta etapa, avaliamos o monitoramento pelo fluxo ESP32 → broker MQTT → consumidor e painel Node-RED. A fila do ESP32 fica em RAM e perde pendências ao reiniciar; o SQLite preserva somente o que o consumidor recebeu e gravou.
+**Documentação completa:** [Guia da Fase 2](document/fase2/README.md)
 
-No painel, definimos alertas para pulsos acima de 120 BPM e temperatura ambiente acima de 30 °C, confirmados em duas leituras atuais consecutivas. Zero pulsos significa ausência de acionamentos do botão. Esses limites são escolhas acadêmicas e não representam critérios de diagnóstico. O [guia da Fase 3](document/fase3/README.md) detalha os estados, as regras e os testes de reprodução.
+**Checklist do enunciado:** [Critérios e evidências](document/fase2/CHECKLIST_ENUNCIADO.md)
 
-O escopo restante inclui os relatórios obrigatórios de Edge e MQTT/dashboard, o cliente REST com e-mail simulado do Ir Além 1 e a comparação entre classificador tradicional e modelo neuromórfico do Ir Além 2. Relacionamos os artefatos e seus critérios na [matriz do enunciado](document/fase3/CHECKLIST_ENUNCIADO.md); não apresentamos essas entregas como concluídas.
+**Resultados reproduzíveis:** [Resultados dos experimentos](assets/fase2/resultados/README.md)
 
-## Estrutura de pastas
+**Relatório de entrega:** [Relatório da Fase 2](document/fase2/RELATORIO_ENTREGA.md)
 
-Seguimos o [modelo oficial FIAP](https://github.com/agodoi/templateFiapVfinal). Organizamos as fases dentro das pastas institucionais; não mantemos `fase1`, `fase2` ou `fase3` diretamente na raiz.
+Resultados dos experimentos, apresentados no mesmo formato da entrega da Fase 2:
 
-| Pasta | Organização e finalidade |
-|---|---|
-| `.github/` | Workflows de verificação e integração contínua |
-| `assets/fase1/`, `assets/fase2/`, `assets/fase3/` | Dados, imagens, resultados e capturas por fase; logo compartilhado em `assets/` |
-| `config/fase1/`, `config/fase2/`, `config/fase3/` | Requisitos, contratos e configurações por fase |
-| `document/fase1/`, `document/fase2/`, `document/fase3/` | Guias, relatórios e requisitos de cada entrega |
-| `document/other/` | Enunciados e referências, auditorias, registros de testes e cópias históricas |
-| `scripts/fase1/`, `scripts/fase3/` | Verificações, inicialização e validações auxiliares |
-| `src/fase1/`, `src/fase2/`, `src/fase3/` | Código-fonte; portal em `src/fase2/portal-cardioia/` |
+| Experimento | Amostra de teste | Resultado principal |
+|---|---:|---:|
+| NLP — TF-IDF + Regressão Logística | 24 frases | acurácia 100,0% |
+| Tabular — Cleveland | 61 registros | ROC AUC 0,958 |
+| Visual — MLP de ECG ampliada | 99 imagens | acurácia balanceada 74,5%; ROC AUC 0,824 |
 
-Os arquivos de dependências exigidos pelas ferramentas permanecem junto dos aplicativos. As pastas locais `.venv/`, `.tools/` e `node_modules/` são geradas na execução e não integram a entrega versionada. O [índice da documentação](document/README.md) identifica os PDFs anteriores e os documentos pendentes por fase. Mantemos a visão consolidada no [AI Project Document](document/ai_project_document_fiap.md) e a rastreabilidade das mudanças no [registro de organização](document/other/organizacao/README.md).
+> Os dados textuais são simulados e intencionalmente separáveis; por isso, 100% no teste não demonstra validade clínica. Na revisão visual, a acurácia simples foi 69,7%, diferente da acurácia balanceada de 74,5%; o recall da classe anormal foi 62,9%. Preservamos o teste e definimos o limiar somente na validação. Não validamos os modelos para uso assistencial.
 
-## Links externos
+## 📡 Fase 3 — Monitoramento Contínuo: IoT na Saúde
 
-| Recurso | Endereço |
-|---|---|
-| Projeto atual — Fase 3 e evolução acumulada | [fiap-ano02-fase03-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia) |
-| Fechamento original da Fase 1 | [fiap-ano02-fase01-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase01-cardioia) |
-| Fechamento original da Fase 2 | [fiap-ano02-fase02-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase02-cardioia) |
-| Materiais da Fase 1 | [Numéricos](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing), [textuais](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing) e [visuais](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing) |
-| Aplicação da Fase 2 | [Streamlit](https://cardioia-fiap.streamlit.app/) |
-| Portal da Fase 2 | [Aplicação](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/) e [repositório independente](https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal) |
-| Vídeo da Fase 2 | [Demonstração completa](https://youtu.be/qoKjl6oeotY) |
-| Simulações da Fase 3 | [Parte 1 — Serial](https://wokwi.com/projects/478054573982428161) e [Parte 2 — MQTT](https://wokwi.com/projects/478772789361460225) |
+Organizamos a entrega obrigatória da Fase 3 em duas partes complementares:
 
-Preservamos o [endereço histórico do projeto](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia) e sua [URL Git original](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git), utilizados nas entregas anteriores. Após a renomeação, esses endereços direcionam ao repositório atual. O vídeo específico da Fase 3 será registrado quando concluirmos o Ir Além 2.
+1. **Armazenamento e processamento local — Edge Computing:** utilizamos ESP32 no Wokwi, DHT22 e botão para simular pulsos. Coletamos a cada cinco segundos simulados e armazenamos até 2.000 leituras em uma fila FIFO. Com a chave offline, continuamos coletando; ao voltar para online, sincronizamos as pendências. Na demonstração isolada da Parte 1, representamos o envio à nuvem pela saída Serial, conforme a alternativa prevista no enunciado.
+2. **Transmissão e visualização — Fog/Cloud Computing:** transmitimos pelo broker público `broker.hivemq.com:1883`, gravamos as leituras em SQLite e confirmamos o recebimento somente após a gravação. No Node-RED, apresentamos gráfico de BPM, gauge de temperatura ambiente, umidade, histórico e alertas didáticos. Reenviamos mensagens sem confirmação e evitamos duplicar a mesma medição no banco.
 
-## Como reproduzir
+O DHT22 representa um sensor, mesmo fornecendo temperatura e umidade; utilizamos o botão como segunda entrada para pulsos simulados, conforme o exemplo do enunciado. A chave à esquerda representa offline e, à direita, online. A fila fica em RAM: ao reiniciar o ESP32, perdemos as pendências e iniciamos uma nova sessão. Quando a fila enche, preservamos as leituras antigas, descartamos a nova e contabilizamos a perda. A capacidade cobre aproximadamente 2 h 46 min 40 s de coleta simulada. SPIFFS, hardware físico e Grafana são opcionais.
 
-### 1. Obter o projeto e preparar o ambiente
+Definimos alertas acima de 120 BPM e de 30 °C em duas leituras atuais consecutivas. Confirmamos o retorno com duas leituras de até 108 BPM ou até 28 °C, respectivamente. Os limites são escolhas acadêmicas; medimos temperatura ambiente, não corporal. Zero pulsos significa ausência de acionamentos do botão, não ausência de atividade cardíaca. Dados antigos recuperados entram no histórico e não confirmam alertas atuais.
 
-Pré-requisitos: **Git e Python 3.12**. Para o portal da Fase 2 e o painel da Fase 3, utilizar também **Node.js 24 e npm**. O Wokwi e o broker público da Fase 3 exigem internet e acesso à porta TCP 1883. Não é necessário comprar ESP32 ou sensores.
+Reutilizamos o mesmo circuito nos dois projetos Wokwi, com firmwares diferentes. Para avaliar a resiliência isolada com Serial, utilizar a **Parte 1**. Para avaliar transmissão MQTT e painel, utilizar a **Parte 2**, que é a demonstração principal. Não é necessário executar ambos simultaneamente.
 
-Os comandos principais abaixo utilizam **PowerShell no Windows**, sempre na raiz do repositório. O ambiente virtual dispensa ativação e alteração da política de execução.
+**Projeto Wokwi — Parte 1, saída Serial:** [CardioIA Edge](https://wokwi.com/projects/478054573982428161)
+
+**Projeto Wokwi — Parte 2, MQTT e painel:** [CardioIA MQTT](https://wokwi.com/projects/478772789361460225)
+
+**Painel local:** [127.0.0.1:1880/dashboard/monitoramento](http://127.0.0.1:1880/dashboard/monitoramento), disponível após iniciar os serviços na própria máquina.
+
+**Documentação completa:** [Guia da Fase 3](document/fase3/README.md)
+
+**Checklist do enunciado:** [Critérios, evidências e pendências](document/fase3/CHECKLIST_ENUNCIADO.md)
+
+**Código ESP32:** [Parte 1 — Serial](src/fase3/firmware/cardioia_edge/) e [Parte 2 — MQTT](src/fase3/firmware/cardioia_mqtt/)
+
+**Dashboard:** [Export Node-RED](src/fase3/node-red/flows.json) e [guia de configuração](document/fase3/node-red/README.md)
+
+**Evidências:** [Testes Edge](document/other/fase3/evidencias/2026-10-24/RESULTADOS.md), [testes MQTT](document/other/fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md) e [validação do painel](document/other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md)
+
+**Situação da entrega:** validamos as implementações de sensores, fila offline, MQTT e Node-RED. Ainda precisamos produzir o relatório Edge de **no mínimo uma página** e o relatório MQTT/dashboard de **no mínimo duas páginas**. Os registros de testes e capturas apoiam esses documentos, mas não substituem os relatórios exigidos.
+
+Incluímos no escopo os dois desafios **Ir Além**, ainda pendentes:
+
+- **Ir Além 1 — REST e e-mail:** implementar cliente Python que envia e recebe sinais vitais por uma API REST, verifica regras de risco e simula o disparo de e-mail; entregar relatório de **uma a duas páginas**. A consulta de estado do painel não substitui esse cliente.
+- **Ir Além 2 — séries temporais e neuromorfismo:** comparar um classificador tradicional com um modelo LIF ou FHN, entregar notebook Python comentado e executado, código e README públicos, relatório comparativo de **duas páginas** e vídeo de **até quatro minutos**, não listado no YouTube, com link neste README.
+
+O prazo informado é **04/11/2026, às 23h59**. Acompanhamos a conclusão, a reprodução do pacote e a submissão no [roteiro de entrega](document/fase3/ROTEIRO_ENTREGA.md).
+
+## 🎥 Vídeo de demonstração
+
+Na **Fase 2**, publicamos um vídeo único de até quatro minutos que apresenta a solução obrigatória de NLP e classificação textual, o portal React do Ir Além 1 e a MLP visual de ECG do Ir Além 2.
+
+- **Assistir no YouTube (não listado):** [CardioIA — Fase 2 completa](https://youtu.be/qoKjl6oeotY)
+
+Na **Fase 3**, ainda precisamos produzir e publicar o vídeo específico do Ir Além 2, com até quatro minutos e análise crítica da comparação dos modelos. O link da Fase 2 permanece como registro da entrega anterior e não substitui esse novo vídeo.
+
+## 📁 Estrutura de pastas
+
+Seguimos o [modelo oficial FIAP](https://github.com/agodoi/templateFiapVfinal). Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+
+- <b>.github</b>: mantemos as configurações específicas do GitHub e os workflows de verificação automática.
+
+- <b>assets</b>: reunimos datasets, textos, imagens, resultados e capturas, organizados por fase.
+
+- <b>config</b>: mantemos requisitos, contratos de dados e parâmetros de configuração do projeto.
+
+- <b>document</b>: reunimos os guias e documentos de cada entrega. Na subpasta `other`, mantemos referências, estudos, auditorias e cópias históricas.
+
+- <b>scripts</b>: mantemos scripts auxiliares de inicialização, migração e validação.
+
+- <b>src</b>: organizamos o código-fonte desenvolvido ao longo das fases, incluindo firmware, aplicações, notebooks e testes.
+
+- <b>README.md</b>: apresentamos o projeto, sua evolução e as instruções gerais de reprodução.
+
+Os artefatos estão organizados dentro das pastas oficiais:
+
+- `assets/fase1/dados/raw/` e `assets/fase1/dados/processed/`: fonte bruta e dataset numérico preparado.
+- `assets/fase1/textos/` e `assets/fase1/imagens/ecg/`: corpus textual e 120 imagens de ECG.
+- `assets/fase2/dados/` e `assets/fase2/resultados/`: dados e resultados da Fase 2.
+- `assets/fase3/evidencias/`: capturas da simulação e do painel.
+- `config/fase1/`, `config/fase2/` e `config/fase3/`: dependências e configurações de cada fase.
+- `document/fase1/`, `document/fase2/` e `document/fase3/`: documentação principal, documentos anteriores submetidos e acompanhamento da entrega atual.
+- `document/other/referencias/`: enunciados, fontes e materiais de aula separados por fase.
+- `document/other/fase3/evidencias/`: registros e resultados dos testes de IoT.
+- `document/other/historico/`: cópias das versões anteriores, preservadas como registros históricos.
+- `src/fase1/` e `scripts/fase1/`: preparação dos dados e verificação da preservação.
+- `src/fase2/`: aplicação Streamlit, modelos, notebooks e testes; portal em `src/fase2/portal-cardioia/`.
+- `src/fase3/` e `scripts/fase3/`: firmware, consumidor MQTT, Node-RED, testes e inicialização do monitoramento.
+
+O [índice da documentação](document/README.md) identifica os documentos principais e os [registros de organização](document/other/organizacao/README.md) explicam os caminhos anteriores. `.venv/`, `.tools/` e `node_modules/` são pastas locais geradas durante a execução e não fazem parte da entrega versionada.
+
+## 🔗 Links externos
+
+- **Parte 1 — Dados Numéricos da Fase 1:** [Acessar pasta](https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing)
+- **Parte 2 — Dados Textuais da Fase 1:** [Acessar pasta](https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing)
+- **Parte 3 — Dados Visuais da Fase 1:** [Acessar pasta](https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing)
+- **Fechamento original da Fase 1:** [fiap-ano02-fase01-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase01-cardioia), commit `cbd9685`.
+- **Fechamento original da Fase 2:** [fiap-ano02-fase02-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase02-cardioia), commit `bf4f0e1`.
+- **Projeto atual — evolução até a Fase 3:** [fiap-ano02-fase03-cardioia](https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia).
+- **Endereços históricos preservados:** [repositório original](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia) e [URL Git original](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git), que direcionam ao repositório atual após a renomeação.
+
+Preservamos nos repositórios históricos a estrutura e os documentos dos fechamentos anteriores. Nesta versão acumulada, utilizamos os caminhos atualizados descritos acima. Os links das aplicações, do portal e do vídeo da Fase 2 e os dois Wokwi estão identificados nas respectivas seções.
+
+## 🔧 Como executar o código
+
+Os dados finais da **Fase 1** já estão preparados e disponíveis nas pastas do projeto e nos links externos; não é necessário executar código para avaliá-los. Fornecemos os scripts para reprodução e rastreabilidade da preparação. As aplicações e os modelos da Fase 2 e o monitoramento da Fase 3 têm instruções próprias nas seções seguintes.
+
+**Pré-requisitos:** Git e Python **3.12**. Para as imagens, utilizamos Pillow. Para o portal React e o Node-RED, utilizamos Node.js **24** com npm. O Wokwi e o broker público exigem internet e acesso à porta TCP **1883**. Não é necessário comprar hardware.
+
+**Clonar o repositório e preparar o ambiente** — comandos PowerShell, executados na raiz do projeto:
 
 ```powershell
 git clone https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia.git
 Set-Location -LiteralPath './fiap-ano02-fase03-cardioia'
-python --version
 python -m venv .venv
 ```
 
-No Linux/macOS, criar o ambiente com `python3.12 -m venv .venv` e substituir `./.venv/Scripts/python.exe` ou `.\.venv\Scripts\python.exe` por `./.venv/bin/python` nos comandos Python. Os comandos `node` e `npm` são iguais nos dois ambientes. A configuração específica do Python usado pelo painel está indicada no passo da Fase 3.
+Se a cópia e o ambiente já existem, seguir diretamente os comandos da fase desejada. Utilizamos o executável do ambiente virtual sem precisar ativá-lo ou alterar a política de execução do PowerShell. No Linux/macOS, criar com `python3.12 -m venv .venv` e substituir `.venv/Scripts/python.exe` por `.venv/bin/python`, nas pastas correspondentes. Os comandos `node` e `npm` permanecem iguais.
 
-Para avaliar uma fase, seguir sua seção; não é necessário executar todos os treinamentos anteriores antes de testar a Fase 3.
-
-### 2. Reproduzir a Fase 1
-
-Os dados finais já estão incluídos: **a avaliação pode ser feita sem reconstruí-los**. Abrir o [guia da Fase 1](document/fase1/README.md), os arquivos em `assets/fase1/` e os links externos acima.
-
-Para conferir a preservação dos materiais e reproduzir a preparação numérica a partir do bruto incluído:
+**Reproduzir o dataset numérico da Parte 1** — gera o CSV a partir da fonte bruta incluída no repositório:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts/fase1/verificar_preservacao.py
 .\.venv\Scripts\python.exe src/fase1/preparar_dataset_numerico.py
+.\.venv\Scripts\python.exe scripts/fase1/verificar_preservacao.py
 ```
 
-Resultado esperado: verificação dos **223 arquivos inventariados no início da Fase 2**, incluindo os 181 arquivos do fechamento da Fase 1, e CSV processado em `assets/fase1/dados/processed/heart_disease_cleveland.csv`, com 303 registros. A reconstrução das imagens exige baixar a fonte bruta externa, instalar Pillow e ajustar `RAW_DIR`; o [guia completo](document/fase1/README.md) explica essa preparação separadamente.
+Resultado esperado: CSV em `assets/fase1/dados/processed/heart_disease_cleveland.csv`, com **303 registros**, e verificação dos **223 arquivos inventariados no início da Fase 2**, incluindo os 181 do fechamento da Fase 1. Os documentos das três modalidades estão no [guia da Fase 1](document/fase1/README.md).
 
-### 3. Reproduzir a Fase 2
+**Reproduzir a amostra de imagens de ECG da Parte 3** — requer preparação manual antes de executar:
+
+1. Consultar a [fonte do dataset](document/other/referencias/fase1/parte3/fonte_dataset.md), baixar a base bruta do Mendeley Data e extraí-la localmente.
+2. Ajustar `RAW_DIR` em `src/fase1/preparar_amostra_ecg.py` para a pasta extraída.
+3. Instalar Pillow e executar:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r config/fase1/requirements.txt
+.\.venv\Scripts\python.exe src/fase1/preparar_amostra_ecg.py
+```
+
+Resultado esperado: **120 JPG**, distribuídos em quatro categorias, e manifesto em `document/other/referencias/fase1/parte3/manifesto_amostra.csv`. Essa reconstrução depende da fonte externa; para apenas avaliar, utilizar a amostra já entregue. Os dois TXT estão prontos em `assets/fase1/textos/` e podem ser lidos sem executar preparação.
+
+## ▶️ Como executar a Fase 2
+
+A aplicação pública pode ser avaliada sem usar o terminal:
+
+- [Abrir CardioIA](https://cardioia-fiap.streamlit.app/)
+- [Abrir portal administrativo](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/)
+
+Para reprodução técnica da entrega obrigatória de NLP, executar na raiz com o ambiente Python preparado:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r config/fase2/requirements.txt
@@ -156,9 +231,9 @@ Resultado esperado: verificação dos **223 arquivos inventariados no início da
 .\.venv\Scripts\python.exe -m streamlit run src/fase2/app.py
 ```
 
-Resultado esperado: extração dos dez relatos, treinamento e métricas textuais em `assets/fase2/resultados/nlp/`, testes concluídos e aplicação em [localhost:8501](http://localhost:8501). Utilizar relatos fictícios e conferir a extração e a classificação. Encerrar o servidor com **Ctrl+C**.
+Resultado esperado: processamento dos **dez relatos**, treinamento e resultados textuais em `assets/fase2/resultados/nlp/`, testes concluídos e aplicação em [localhost:8501](http://localhost:8501). Utilizar exemplos fictícios para conferir extração, classificação e histórico temporário. Encerrar o servidor com **Ctrl+C**.
 
-Para iniciar o portal administrativo em outro terminal, a partir da raiz:
+Para o portal React, executar em outro terminal, também na raiz:
 
 ```powershell
 npm ci --prefix src/fase2/portal-cardioia
@@ -167,11 +242,24 @@ npm run build --prefix src/fase2/portal-cardioia
 npm run dev --prefix src/fase2/portal-cardioia
 ```
 
-Abrir o endereço exibido pelo Vite, testar o login fictício, consultar pacientes simulados e agendar uma consulta. Não utilizar credenciais reais. O [guia da Fase 2](document/fase2/README.md) detalha os notebooks, o treinamento tabular e o ambiente separado com TensorFlow para reproduzir a MLP. Preservamos os resultados anteriores para permitir a avaliação sem repetir todos os treinamentos.
+Abrir o endereço exibido pelo Vite. Utilizar um e-mail fictício em formato válido e senha de pelo menos seis caracteres. Conferir pacientes simulados, busca, agendamento e indicadores; não utilizar credenciais reais. Os sete testes e o build devem concluir.
 
-### 4. Reproduzir a Fase 3 — sistema completo MQTT e Node-RED
+Para o experimento visual, utilizar um ambiente separado com as versões de TensorFlow e Keras fixadas nos requisitos:
 
-Este é o caminho principal para avaliar a comunicação e o painel da Parte 2. Preparar as dependências e iniciar **painel e consumidor juntos**:
+```powershell
+python -m venv src/fase2/.venv
+.\src\fase2\.venv\Scripts\python.exe -m pip install -r config/fase2/requirements-visual.txt
+.\src\fase2\.venv\Scripts\python.exe src/fase2/tests/test_visual.py
+.\src\fase2\.venv\Scripts\python.exe src/fase2/src/treinar_mlp_ecg.py
+```
+
+O baseline utiliza a amostra versionada da Fase 1 e gera resultados em `assets/fase2/resultados/visual/`. Para reproduzir a revisão ampliada com 491 conteúdos únicos, o treinamento tabular e os notebooks, seguir o [guia completo da Fase 2](document/fase2/README.md). Os quatro notebooks já incluem saídas para avaliação; novas execuções devem ser gravadas separadamente.
+
+Os workflows do GitHub Actions verificam dados, testes, treinamentos, notebooks e build do portal. Preservamos as evidências dos resultados e suas limitações na documentação de cada experimento.
+
+## ▶️ Como executar a Fase 3
+
+Para avaliar o sistema completo, utilizar o **Wokwi MQTT da Parte 2** e o painel Node-RED. Não é necessário executar os treinamentos da Fase 2 antes do monitoramento. Na raiz, com o ambiente Python preparado, instalar as dependências e iniciar painel e consumidor juntos:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r config/fase3/requirements-mqtt.txt
@@ -180,50 +268,50 @@ $env:CARDIOIA_PYTHON = (Resolve-Path .\.venv\Scripts\python.exe).Path
 node scripts/fase3/iniciar_dashboard.js --com-consumidor
 ```
 
-No Linux/macOS, antes do último comando, utilizar `export CARDIOIA_PYTHON="$PWD/.venv/bin/python"` em lugar da atribuição PowerShell. Manter o terminal aberto. Não iniciar um segundo consumidor no mesmo tópico durante esse teste.
+No Linux/macOS, usar `export CARDIOIA_PYTHON="$PWD/.venv/bin/python"` em lugar da atribuição PowerShell. Manter o terminal aberto e apenas **um consumidor** no tópico durante o teste.
 
-1. Abrir o [monitoramento local](http://127.0.0.1:1880/dashboard/monitoramento). Sem ESP32 transmitindo, a espera por dados é normal.
-2. Abrir **[Parte 2 — ESP32 com MQTT no Wokwi](https://wokwi.com/projects/478772789361460225)**, dar Play e mover a chave de conexão para a **direita, online**. A chave é um interruptor do circuito, não uma senha ou chave de acesso.
-3. Aguardar no Serial `# mqtt_conectado` e `# ack_confirmado`. O JSON deve conter `"transport":"mqtt"`. Conferir no painel o avanço da última leitura e da última confirmação, além da temperatura e da umidade.
-4. Pressionar **e soltar** o botão verde, ou a tecla **B**, repetidamente. Seis pulsos em uma janela de cinco segundos simulados representam aproximadamente 72 BPM. Segurar o botão conta um único pulso. O gráfico deve registrar os valores; sem acionamentos, registra zero.
-5. Alterar o DHT22 para **31 °C** e aguardar duas leituras atuais consecutivas: o painel deve registrar o alerta didático de temperatura. Reduzir para **28 °C** e aguardar duas leituras atuais para conferir o retorno. Temperatura do ambiente não representa temperatura corporal.
-6. Mover a chave para a **esquerda, offline**, aguardar pelo menos três coletas no Serial e observar o crescimento da fila. Voltar para a direita: os dados pendentes devem ser transmitidos em ordem, confirmados e removidos da fila; o gráfico deve preservar a recuperação. O [guia detalhado](document/fase3/README.md) inclui os testes dos dois alertas, reenvio, banco e diagnóstico de falhas.
+**Validar a demonstração principal:**
 
-Coletamos a cada **cinco segundos do relógio do ESP32 simulado**. Em segundo plano, o Wokwi pode avançar mais devagar que o tempo real. Manter a simulação visível. O estado “broker conectado” não significa que chegou uma leitura recente; após 15 segundos reais sem leitura atual, o painel mantém o último valor em cinza. Os intervalos e limites são escolhas da implementação, não exigências temporais do exercício.
+1. Abrir o [monitoramento local](http://127.0.0.1:1880/dashboard/monitoramento). Antes de transmitir, é normal aguardar dados.
+2. Abrir o [Wokwi MQTT da Parte 2](https://wokwi.com/projects/478772789361460225), dar **Play** e mover a chave para a **direita, online**. Conferir `transport: mqtt`, `# mqtt_conectado` e `# ack_confirmado` no Serial, além do avanço da leitura e da confirmação no painel.
+3. Pressionar **e soltar** o botão verde ou a tecla **B**. Seis pulsos em cinco segundos simulados representam aproximadamente 72 BPM. Para testar o alerta, obter mais de dez acionamentos por janela em duas coletas atuais consecutivas; depois reduzir até 108 BPM por duas leituras atuais. Segurar o botão conta um único pulso.
+4. Clicar no DHT22 em execução, alterar para **31 °C** e aguardar duas leituras atuais para conferir o alerta. Reduzir para **28 °C** e aguardar duas leituras para conferir o retorno.
+5. Mover a chave para a **esquerda, offline**, aguardar pelo menos três coletas e conferir o crescimento da fila. Voltar à direita e observar a recuperação ordenada, as confirmações e a redução da fila até zero. Os dados recuperados devem permanecer no histórico.
+6. Parar a simulação e pressionar **Ctrl+C** no terminal para encerrar os serviços. O banco e os eventos permanecem em `.tools/runtime/fase3/`, fora do Git.
 
-Para encerrar, parar a simulação e pressionar **Ctrl+C** no terminal do painel. O banco e os eventos permanecem em `.tools/runtime/fase3/`, fora do Git.
+**Validar a resiliência isolada da Parte 1:** abrir o [Wokwi Serial](https://wokwi.com/projects/478054573982428161), dar Play, manter a chave à esquerda por pelo menos três coletas e voltar à direita. Conferir os JSON em ordem, com `transport: serial_demo`, e o esvaziamento da fila. Essa demonstração dispensa broker, consumidor e painel; representa a simulação Serial pedida na Parte 1.
 
-### Por que existem dois projetos Wokwi?
+**Interpretar o tempo e o estado do painel:** coletamos a cada cinco segundos do relógio do ESP32 simulado. Manter o Wokwi visível, pois em segundo plano pode desacelerar. O estado “broker conectado” é independente da chegada de uma leitura recente; após 15 segundos reais sem leitura atual, preservamos o último valor em cinza. Publicação tentada não comprova gravação: o ACK confirma a persistência no consumidor.
 
-Reutilizamos **o mesmo circuito** para demonstrar duas etapas do enunciado. O que muda é o **firmware e o destino dos dados**, não a montagem. Não é necessário executar os dois ao mesmo tempo.
+O [guia completo da Fase 3](document/fase3/README.md) detalha instalação para Windows e Linux/macOS, consulta ao banco, reenvio após ACK omitido, estados e diagnóstico de falhas. No painel, leituras recuperadas e reenvios não confirmam novos alertas do presente. Os intervalos e limites utilizados são escolhas da implementação.
 
-| Projeto e finalidade | Código correspondente | Como identificar e avaliar |
-|---|---|---|
-| [Parte 1 — Edge com demonstração Serial](https://wokwi.com/projects/478054573982428161) | `src/fase3/firmware/cardioia_edge/` | Não utiliza broker nem painel. Coleta offline e esvazia a fila pelo Serial quando a chave fica online. JSON com `transport: serial_demo`. Seguir a Parte 1 no [guia](document/fase3/README.md). |
-| [Parte 2 — MQTT e painel, demonstração principal](https://wokwi.com/projects/478772789361460225) | `src/fase3/firmware/cardioia_mqtt/` | Conecta ao broker real, recebe ACK após gravação SQLite e alimenta o Node-RED. JSON com `transport: mqtt`. Seguir o passo 4 acima. |
+## 🗃 Histórico de lançamentos
 
-A demonstração Serial atende à simulação de nuvem prevista na Parte 1; sozinha, não comprova a transmissão MQTT da Parte 2. Identificamos cada link pelo objetivo para evitar confundir circuitos iguais com funcionalidades iguais.
-
-## Evidências e critérios da Fase 3
-
-Relacionamos os cinco critérios de dois pontos, os artefatos e as pendências na [matriz de requisitos](document/fase3/CHECKLIST_ENUNCIADO.md). O [roteiro](document/fase3/ROTEIRO_ENTREGA.md) inclui os dois Ir Além. Ainda precisamos entregar:
-
-- Relatório Edge com **mínimo de uma página** e relatório MQTT/dashboard com **mínimo de duas páginas**.
-- Ir Além 1: cliente Python que envia e recebe pela API REST, regras de risco, e-mail simulado e relatório de **uma a duas páginas**.
-- Ir Além 2: série temporal, classificador tradicional e LIF ou FHN, notebook comentado e executado, relatório comparativo de **duas páginas** e vídeo de **até quatro minutos**, não listado, com link neste README.
-
-O endpoint local de consulta do painel não substitui o cliente REST exigido no Ir Além 1. SPIFFS, hardware físico e Grafana são opcionais no enunciado fornecido. Não apresentamos itens pendentes como concluídos.
-
-## Histórico de lançamentos
-
-- 0.1.0 a 0.4.0 — 21/08/2026: estruturamos o projeto e preparamos as três modalidades da Fase 1.
-- 0.5.0 a 0.8.0 — 14/09/2026: implementamos e documentamos modelos, NLP e interfaces da Fase 2.
-- 0.9.0 — 24/10/2026: validamos as implementações ESP32, MQTT e Node-RED da Fase 3.
-- 24/10/2026: reorganizamos os caminhos conforme o modelo FIAP, preservando materiais e links anteriores.
-- 25/10/2026: revisamos a documentação para redação coletiva e reprodução por fase; esclarecemos os dois Wokwi e os entregáveis ainda pendentes. Registramos a comparação com os enunciados e READMEs anteriores na [revisão documental](document/other/organizacao/REVISAO_DOCUMENTACAO.md).
-- 25/10/2026: preservamos os fechamentos originais das Fases 1 e 2 em repositórios próprios, renomeamos este repositório para a Fase 3 e padronizamos o README com a apresentação acumulada das três fases.
+* 0.1.0 - 21/08/2026
+    * Estruturamos o projeto CardioIA e sua configuração no repositório.
+* 0.2.0 - 21/08/2026
+    * Preparamos, validamos e documentamos o dataset numérico Cleveland.
+* 0.3.0 - 21/08/2026
+    * Preparamos e documentamos o corpus textual sobre prevenção e síndromes coronarianas agudas.
+* 0.4.0 - 21/08/2026
+    * Preparamos e documentamos a amostra de 120 imagens de ECG.
+* 0.5.0 - 14/09/2026
+    * Implementamos o pipeline tabular e a comparação e avaliação dos modelos da Fase 2.
+* 0.6.0 - 14/09/2026
+    * Acrescentamos análises de incerteza, calibração, interpretação e desempenho por subgrupos.
+* 0.7.0 - 14/09/2026
+    * Publicamos e testamos a aplicação acadêmica Streamlit.
+* 0.8.0 - 14/09/2026
+    * Implementamos e documentamos NLP, portal React e experimento visual com MLP.
+* Fechamento da Fase 2 - 07/10/2026
+    * Registramos o vídeo publicado e o encerramento da documentação da entrega.
+* 0.9.0 - 24/10/2026
+    * Validamos as implementações ESP32, recuperação offline, MQTT e Node-RED da Fase 3.
+* Organização e revisão documental - 24 e 25/10/2026
+    * Organizamos as fases nas pastas oficiais, preservamos os materiais e links anteriores e detalhamos a reprodução. Mantemos os [registros da revisão](document/other/organizacao/REVISAO_DOCUMENTACAO.md).
+* Padronização do README - 25/10/2026
+    * Preservamos os fechamentos das Fases 1 e 2 em repositórios próprios e renomeamos este para a Fase 3. Retomamos a estrutura, os emojis e o estilo explicativo do README original, com os caminhos atuais e as pendências da Fase 3 identificadas.
 
 ## 📋 Licença
-
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
