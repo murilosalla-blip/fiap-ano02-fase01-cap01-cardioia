@@ -4,7 +4,7 @@ Este diretório recebe as saídas reproduzíveis dos três experimentos independ
 
 ## Classificador textual obrigatório
 
-Base: 120 frases simuladas, balanceadas entre alto e baixo risco e pareadas por sexo.
+Base: 120 frases simuladas, balanceadas entre alto e baixamos risco e pareadas por sexo.
 
 Separação: 96 frases de treino e 24 de teste, agrupadas por `id_cenario`. Nenhum cenário aparece nos dois conjuntos.
 
@@ -27,7 +27,7 @@ Separação: 96 frases de treino e 24 de teste, agrupadas por `id_cenario`. Nenh
 
 O resultado perfeito decorre de uma base pequena, simulada e deliberadamente separável. Ele não estima desempenho em relatos reais.
 
-Uma sondagem adicional com 16 entradas verificou negação, caixa, pontuação, paráfrase e texto fora do vocabulário. Quatro entradas não ativaram nenhum termo do TF-IDF e a diferença entre “tenho dor no peito” e sua negação foi de apenas 0,0121. Isso não é uma métrica externa: evidencia que o classificador simples não compreende contexto linguístico complexo e justifica os alertas exibidos no front.
+Uma sondagem adicional com 16 entradas verificou negação, caixa, pontuação, paráfrase e texto fora do vocabulário. Quatro entradas não ativaram nenhum termo do TF-IDF e a diferença entre “temos dor no peito” e sua negação foi de apenas 0,0121. Isso não é uma métrica externa: evidencia que o classificador simples não compreende contexto linguístico complexo e justifica os alertas exibidos no front.
 
 Saídas geradas em `assets/fase2/resultados/nlp/`:
 
