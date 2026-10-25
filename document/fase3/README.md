@@ -24,8 +24,8 @@ Pré-requisitos: Git, Python **3.12**, Node.js **24** com npm, navegador e inter
 Para obter uma cópia nova, executar no PowerShell:
 
 ```powershell
-git clone https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git
-Set-Location -LiteralPath './fiap-ano02-fase01-cap01-cardioia'
+git clone https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia.git
+Set-Location -LiteralPath './fiap-ano02-fase03-cardioia'
 python --version
 node --version
 npm --version
@@ -39,8 +39,8 @@ Todos os comandos seguintes partem da **raiz do repositório**, não de `src/fas
 No Linux/macOS:
 
 ```bash
-git clone https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git
-cd fiap-ano02-fase01-cap01-cardioia
+git clone https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia.git
+cd fiap-ano02-fase03-cardioia
 python3.12 -m venv .venv
 ./.venv/bin/python -m pip install -r config/fase3/requirements-mqtt.txt
 npm ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
