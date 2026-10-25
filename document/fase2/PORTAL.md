@@ -2,7 +2,7 @@
 
 Portal responsivo desenvolvido em React + Vite para o **Ir Além 1** da Fase 2 do CardioIA. A aplicação simula a rotina administrativa de uma clínica cardiológica com autenticação, carteira de pacientes, agenda e indicadores.
 
-Nesta cópia do projeto, executo os comandos do portal dentro de `src/fase2/portal-cardioia/`. Preservo a publicação no repositório independente indicado abaixo.
+Nesta cópia do projeto, executamos os comandos do portal dentro de `src/fase2/portal-cardioia/`. Preservamos a publicação no repositório independente indicado abaixo.
 
 ## Links da demonstração
 
@@ -76,7 +76,7 @@ src/
 Pré-requisito: Node.js `22.13` ou superior, ou Node.js `24`. Essas versões são compatíveis com as dependências registradas no `package-lock.json`.
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
@@ -89,4 +89,4 @@ npm run build
 
 ## Vídeo da entrega
 
-O enunciado exige um vídeo não listado no YouTube, com até quatro minutos. O link será inserido aqui depois da gravação e publicação.
+Publicamos a demonstração conjunta da atividade obrigatória e dos dois desafios: [CardioIA — Fase 2 completa](https://youtu.be/qoKjl6oeotY), vídeo não listado de até quatro minutos.

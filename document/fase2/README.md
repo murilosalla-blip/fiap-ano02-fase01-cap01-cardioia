@@ -60,7 +60,7 @@ Os nomes representam associações didáticas, não diagnósticos.
 | Classe | Feminino | Masculino | Total |
 |---|---:|---:|---:|
 | Alto risco | 30 | 30 | 60 |
-| Baixo risco | 30 | 30 | 60 |
+| Baixamos risco | 30 | 30 | 60 |
 
 Cada cenário possui versões feminina e masculina com o mesmo rótulo. O identificador `id_cenario` mantém as duas versões no mesmo conjunto durante a divisão, evitando vazamento entre exemplos quase equivalentes.
 
@@ -163,7 +163,7 @@ O experimento binário usa 30 imagens normais e 30 anormais selecionadas determi
 | F1 — anormal | 22,2% |
 | ROC AUC | 0,667 |
 
-O baixo desempenho é mantido de forma transparente. Ele mostra que a pequena amostra e uma MLP simples sobre pixels achatados não sustentam generalização. Implementação funcional não equivale a modelo clinicamente útil.
+O baixamos desempenho é mantido de forma transparente. Ele mostra que a pequena amostra e uma MLP simples sobre pixels achatados não sustentam generalização. Implementação funcional não equivale a modelo clinicamente útil.
 
 ### Revisão ampliada
 
@@ -186,62 +186,97 @@ Os quatro notebooks da Fase 2 são versionados com contagens de execução e sa�
 
 ## Estrutura da Fase 2
 
-```text
-fase2/
-├── app.py
-├── CHECKLIST_ENUNCIADO.md
-├── dados/
-│   ├── classificacao_risco.csv
-│   ├── mapa_conhecimento.csv
-│   ├── relatos_sintomas.txt
-│   └── visual_ampliado/
-├── notebooks/
-│   ├── analise_baseline.ipynb
-│   ├── classificacao_textual_tfidf.ipynb
-│   ├── mlp_ecg_binaria.ipynb
-│   └── mlp_ecg_ampliada.ipynb
-├── src/
-│   ├── analisar_modelo.py
-│   ├── classificar_risco_texto.py
-│   ├── extrair_sintomas.py
-│   ├── treinar_baselines.py
-│   ├── treinar_mlp_ecg.py
-│   ├── preparar_visual_ampliado.py
-│   └── treinar_mlp_ecg_ampliada.py
-├── tests/
-│   ├── auditar_cenarios.py
-│   ├── test_app.py
-│   ├── test_nlp.py
-│   ├── test_visual.py
-│   └── test_visual_ampliado.py
-├── requirements.txt
-└── requirements-visual.txt
+| Caminho a partir da raiz | Conteúdo |
+|---|---|
+| `src/fase2/` | `app.py`, scripts em `src/`, notebooks executados e testes |
+| `src/fase2/portal-cardioia/` | Portal React + Vite, dependências e testes próprios |
+| `assets/fase2/dados/` | Relatos, mapa, dataset textual e derivados visuais |
+| `assets/fase2/resultados/` | Métricas e evidências; novas execuções também gravam nesta pasta |
+| `config/fase2/` | Requisitos do fluxo principal e do experimento visual |
+| `document/fase2/` | Guias, checklist e documento submetido |
+
+## Como reproduzir
+
+Para avaliar sem instalação, abrir o [Streamlit](https://cardioia-fiap.streamlit.app/), o [portal](https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/), o [vídeo da entrega](https://youtu.be/qoKjl6oeotY) e os [notebooks com saídas](../../src/fase2/notebooks/). Para reprodução local, seguir os passos abaixo a partir da **raiz do repositório**.
+
+### 1. Preparar o ambiente principal
+
+Pré-requisitos: Git e Python **3.12**; para o portal, Node.js **24** com npm. Após clonar e entrar na pasta, criar o ambiente caso ainda não exista:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r config/fase2/requirements.txt
 ```
 
-## Execução principal
+O [README principal](../../README.md) apresenta o clone. No Linux/macOS, criar com `python3.12 -m venv .venv` e substituir `.\.venv\Scripts\python.exe` por `./.venv/bin/python`. Não é necessário ativar o ambiente no PowerShell.
 
-Pré-requisito: Python 3.12.
+### 2. Executar a atividade obrigatória de NLP
 
-```bash
-pip install -r config/fase2/requirements.txt
-python src/fase2/src/extrair_sintomas.py
-python src/fase2/src/classificar_risco_texto.py
-python -m nbconvert --to notebook --execute src/fase2/notebooks/classificacao_textual_tfidf.ipynb
-streamlit run src/fase2/app.py
+```powershell
+.\.venv\Scripts\python.exe src/fase2/src/extrair_sintomas.py
+.\.venv\Scripts\python.exe src/fase2/src/classificar_risco_texto.py
+.\.venv\Scripts\python.exe src/fase2/tests/test_nlp.py
+.\.venv\Scripts\python.exe src/fase2/tests/test_app.py
 ```
 
-## Execução visual
+O primeiro script lê os dez relatos e o mapa e imprime as associações encontradas. O segundo treina o classificador e grava modelo, métricas, previsões, matriz de confusão e análise contrafactual em `assets/fase2/resultados/nlp/`. Conferir os 24 exemplos de teste, a separação por cenário e as limitações descritas acima. Os testes são scripts Python executáveis; não exigem instalar pytest.
 
-As dependências do TensorFlow foram isoladas para não tornar o deploy do Streamlit pesado.
+### 3. Abrir a aplicação
 
-```bash
-pip install -r config/fase2/requirements-visual.txt
-python src/fase2/tests/test_visual.py
-python src/fase2/src/treinar_mlp_ecg.py
-python src/fase2/src/preparar_visual_ampliado.py --cache /tmp/cardioia-ecg-raw
-python src/fase2/tests/test_visual_ampliado.py
-python src/fase2/src/treinar_mlp_ecg_ampliada.py
+```powershell
+.\.venv\Scripts\python.exe -m streamlit run src/fase2/app.py
 ```
+
+Abrir [localhost:8501](http://localhost:8501), seguir o início orientado e utilizar somente dados fictícios. Conferir extração de sintomas, classificação textual, demonstração tabular e histórico temporário da sessão. O experimento visual é apresentado como evidência, sem inferência no deploy. Encerrar com **Ctrl+C**.
+
+O Streamlit publicado está associado ao fork da Julia, separado deste repositório. Não inferimos sua configuração privada de publicação. Para publicar uma nova aplicação a partir desta organização, a entrada é `src/fase2/app.py`, com `src/fase2/requirements.txt` encaminhando aos requisitos de `config/fase2/`.
+
+### 4. Executar o portal React — Ir Além 1
+
+Em outro terminal, na raiz:
+
+```powershell
+npm ci --prefix src/fase2/portal-cardioia
+npm test --prefix src/fase2/portal-cardioia
+npm run build --prefix src/fase2/portal-cardioia
+npm run dev --prefix src/fase2/portal-cardioia
+```
+
+Abrir o endereço exibido pelo Vite. Informar um e-mail fictício em formato válido e senha com pelo menos seis caracteres. Conferir rotas protegidas, 12 pacientes, seis consultas iniciais, busca, criação de agendamento e atualização dos indicadores. Os sete testes e o build devem concluir. Encerrar com **Ctrl+C**. Detalhes em [PORTAL.md](PORTAL.md).
+
+### 5. Reexecutar notebook e extensão tabular
+
+Os notebooks já incluem resultados. Para reexecutar o obrigatório sem sobrescrever sua evidência versionada, registrar um kernel no próprio ambiente e gravar a nova execução em pasta ignorada:
+
+```powershell
+.\.venv\Scripts\python.exe -m ipykernel install --prefix .venv --name cardioia-fase2
+.\.venv\Scripts\python.exe -m nbconvert --to notebook --execute src/fase2/notebooks/classificacao_textual_tfidf.ipynb --ExecutePreprocessor.kernel_name=cardioia-fase2 --output classificacao_textual_tfidf.reexecutado.ipynb --output-dir .tools/reproducao/fase2
+```
+
+Para reproduzir a extensão tabular, executar `src/fase2/src/treinar_baselines.py` e depois `src/fase2/src/analisar_modelo.py` com o Python desse mesmo ambiente. Os resultados ficam em `assets/fase2/resultados/`. A análise inclui subgrupos e intervalos de confiança e pode levar mais tempo; não é pré-requisito para testar o MQTT da Fase 3.
+
+### 6. Reproduzir a MLP visual — Ir Além 2
+
+Utilizamos ambiente separado para TensorFlow CPU **2.21.0** e Keras **3.12.0**, conforme os requisitos fixados. O ambiente fica ignorado dentro de `src/fase2/.venv/`; não substitui o ambiente principal:
+
+```powershell
+python -m venv src/fase2/.venv
+.\src\fase2\.venv\Scripts\python.exe -m pip install -r config/fase2/requirements-visual.txt
+.\src\fase2\.venv\Scripts\python.exe src/fase2/tests/test_visual.py
+.\src\fase2\.venv\Scripts\python.exe src/fase2/src/treinar_mlp_ecg.py
+```
+
+O baseline utiliza a amostra versionada da Fase 1, gera métricas em `assets/fase2/resultados/visual/` e deve ser interpretado com suas limitações. Para reconstruir também a revisão ampliada, é necessário baixar a fonte pública pela rotina abaixo. A cache bruta deve ficar **fora do repositório**; no PowerShell, utilizamos a pasta temporária do sistema:
+
+```powershell
+.\src\fase2\.venv\Scripts\python.exe src/fase2/src/preparar_visual_ampliado.py --cache "$env:TEMP/cardioia-ecg-raw"
+.\src\fase2\.venv\Scripts\python.exe src/fase2/tests/test_visual_ampliado.py
+.\src\fase2\.venv\Scripts\python.exe src/fase2/src/treinar_mlp_ecg_ampliada.py
+```
+
+No Linux/macOS, criar o ambiente com `python3.12 -m venv src/fase2/.venv`, utilizar `./src/fase2/.venv/bin/python` e passar `--cache /tmp/cardioia-ecg-raw`. A preparação verifica hashes, remove cabeçalhos/rodapés e organiza 491 conteúdos únicos. O treino usa 313/79/99 imagens em treino/validação/teste e grava métricas em `assets/fase2/resultados/visual_ampliado/`. Comparar **acurácia (69,7%)** com **acurácia balanceada (74,5%)** como métricas distintas; versões, sementes e determinismo influenciam a reprodução exata.
+
+Os notebooks visuais podem ser lidos sem instalar TensorFlow. Para reexecutá-los, registrar um kernel próprio com o Python visual e selecioná-lo no Jupyter/nbconvert, preservando as saídas já entregues. A preparação ampliada depende de rede e pode demorar; não é necessária para apenas inspecionar resultados e notebooks versionados.
 
 ## Validação automática
 
@@ -256,7 +291,7 @@ Consulte `document/fase2/CHECKLIST_ENUNCIADO.md` para a correspondência complet
 - subgrupos demográficos pequenos, com intervalos de confiança amplos;
 - ausência de validação externa, clínica e prospectiva;
 - desempenho textual perfeito decorrente de base didática separável;
-- baixo desempenho do baseline visual e desempenho ainda insuficiente da revisão ampliada;
+- baixamos desempenho do baseline visual e desempenho ainda insuficiente da revisão ampliada;
 - ausência de identificador de paciente na fonte visual;
 - balanceamentos artificiais que não representam prevalência;
 - dados textuais, tabulares e visuais de pessoas e fontes diferentes;

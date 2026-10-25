@@ -1,6 +1,6 @@
 # Estudo do CardioIA e plano para a Fase 3
 
-Realizei este estudo em 16/10/2026 com base nos enunciados locais das três fases, na documentação, nos resultados e em trechos da implementação. Durante esse estudo inicial, não executei treinamentos, testes ou aplicações, nem verifiquei as publicações externas. Consultei os estados de conclusão das fases anteriores no repositório. Registrei as execuções posteriores separadamente em `document/other/fase3/evidencias/`.
+Realizamos este estudo em 16/10/2026 com base nos enunciados locais das três fases, na documentação, nos resultados e em trechos da implementação. Durante esse estudo inicial, não executamos treinamentos, testes ou aplicações, nem verificamos as publicações externas. Consultamos os estados de conclusão das fases anteriores no repositório. Registramos as execuções posteriores separadamente em `document/other/fase3/evidencias/`.
 
 ## Conclusão
 
@@ -23,7 +23,7 @@ O CardioIA é uma plataforma acadêmica desenvolvida em sete fases pelo Grupo Au
 | Interfaces | Streamlit e portal React com pacientes, agenda e autenticação simulada | Continuidade visual e acesso aos módulos |
 | Qualidade | Testes, notebooks, auditorias e workflows | Padrão de rastreabilidade a manter na fase seguinte |
 
-O serviço do portal lê `public/data/patients.json`; o dashboard resume pacientes e consultas fictícios. No levantamento inicial, não encontrei implementação do ciclo ESP32/MQTT/Node-RED nos arquivos de código inventariados. Os sinais temporais da Fase 3 precisarão ser produzidos pela nova simulação: uma linha clínica da base Cleveland não equivale a uma série de leituras de sensor.
+O serviço do portal lê `public/data/patients.json`; o dashboard resume pacientes e consultas fictícios. No levantamento inicial, não encontramos implementação do ciclo ESP32/MQTT/Node-RED nos arquivos de código inventariados. Os sinais temporais da Fase 3 precisarão ser produzidos pela nova simulação: uma linha clínica da base Cleveland não equivale a uma série de leituras de sensor.
 
 ## Requisitos obrigatórios da Fase 3
 
@@ -43,7 +43,7 @@ Grafana é opcional. React não substitui a entrega solicitada em Node-RED.
 
 ## Arquitetura proposta para a equipe
 
-Escolhi DHT22 e um botão para simular pulsos cardíacos, conforme exemplo permitido no enunciado. Vou identificar os eventos do botão como batimentos artificiais e a leitura do DHT22 como temperatura do sensor/ambiente simulado, sem alegar medição fisiológica ou temperatura corporal validada.
+Escolhemos DHT22 e um botão para simular pulsos cardíacos, conforme exemplo permitido no enunciado. Vamos identificar os eventos do botão como batimentos artificiais e a leitura do DHT22 como temperatura do sensor/ambiente simulado, sem alegar medição fisiológica ou temperatura corporal validada.
 
 1. ESP32 coleta temperatura/umidade e conta pulsos com tratamento de repique do botão.
 2. Cada amostra recebe versão do formato, identificador fictício do dispositivo, identificador da sessão, sequência, instante de coleta ou tempo desde inicialização, unidades e indicadores de validade.
@@ -52,23 +52,23 @@ Escolhi DHT22 e um botão para simular pulsos cardíacos, conforme exemplo permi
 5. Node-RED valida mensagens, reconhece amostras repetidas e distingue horário da coleta do horário de recebimento.
 6. Dashboard apresenta histórico, gauge, estado da conexão, dados desatualizados e alertas demonstrativos.
 
-Planejei dimensionar a fila a partir do intervalo, do tamanho real da amostra e da memória disponível. Calculei que uma amostra a cada cinco segundos produz 720 amostras/hora e que 2.000 amostras cobrem cerca de 2h47min. Na primeira implementação, medi o consumo, adotei esse limite e documentei o descarte das novas leituras quando a fila enche, com contagem de perdas em `document/other/fase3/evidencias/entrega1_resultados.md`.
+Planejamos dimensionar a fila a partir do intervalo, do tamanho real da amostra e da memória disponível. Calculamos que uma amostra a cada cinco segundos produz 720 amostras/hora e que 2.000 amostras cobrem cerca de 2h47min. Na primeira implementação, medimos o consumo, adotamos esse limite e documentamos o descarte das novas leituras quando a fila enche, com contagem de perdas em `document/other/fase3/evidencias/entrega1_resultados.md`.
 
-Não vou apagar uma pendência apenas porque tentei enviá-la. Vou definir o que confirma sua entrega e documentar a garantia obtida com a biblioteca e o protocolo escolhidos. Vou incluir confirmação pela aplicação e simular falha do broker além do booleano de Wi-Fi. Vou declarar no relatório que a fila em memória não preserva leituras após reinício.
+Não vamos apagar uma pendência apenas porque tentamos enviá-la. Vamos definir o que confirma sua entrega e documentar a garantia obtida com a biblioteca e o protocolo escolhidos. Vamos incluir confirmação pela aplicação e simular falha do broker além do booleano de Wi-Fi. Vamos declarar no relatório que a fila em memória não preserva leituras após reinício.
 
-Vou separar os limites didáticos de alerta dos classificadores da Fase 2. Esses modelos não foram treinados para receber diretamente temperatura e batimentos em sequência. Não vou associar uma leitura isolada à previsão tabular sem conferir a compatibilidade das variáveis e realizar avaliação específica.
+Vamos separar os limites didáticos de alerta dos classificadores da Fase 2. Esses modelos não foram treinados para receber diretamente temperatura e batimentos em sequência. Não vamos associar uma leitura isolada à previsão tabular sem conferir a compatibilidade das variáveis e realizar avaliação específica.
 
 ## Desafios Ir Além
 
 ### Ir Além 1 — REST e e-mail
 
-Vou implementar um cliente Python com envio e recebimento HTTP, verificação de riscos demonstrativos e simulação de disparo de e-mail. Vou entregar o código e um relatório de uma a duas páginas, reutilizar o formato de telemetria e registrar a simulação do e-mail. Também vou tratar a repetição de alertas para uma mesma ocorrência.
+Vamos implementar um cliente Python com envio e recebimento HTTP, verificação de riscos demonstrativos e simulação de disparo de e-mail. Vamos entregar o código e um relatório de uma a duas páginas, reutilizar o formato de telemetria e registrar a simulação do e-mail. Também vamos tratar a repetição de alertas para uma mesma ocorrência.
 
 ### Ir Além 2 — séries temporais e neuromorfismo
 
 Comparar classificador tradicional com modelo neuromórfico simples LIF ou FHN. Entregar notebook comentado, código/README público, relatório comparativo de duas páginas e vídeo de até quatro minutos no YouTube como não listado, linkado no README.
 
-Antes de treinar, vou definir o alvo e a saída de previsão do modelo neuromórfico. Vou gerar ou selecionar séries com origem e rótulos documentados, separar sessões ou dispositivos independentes e impedir que janelas sobrepostas atravessem treino e teste. Vou comparar os modelos no mesmo problema e nas mesmas divisões. Não vou inferir eficiência energética de hardware apenas pelo tempo de execução em Python.
+Antes de treinar, vamos definir o alvo e a saída de previsão do modelo neuromórfico. Vamos gerar ou selecionar séries com origem e rótulos documentados, separar sessões ou dispositivos independentes e impedir que janelas sobrepostas atravessem treino e teste. Vamos comparar os modelos no mesmo problema e nas mesmas divisões. Não vamos inferir eficiência energética de hardware apenas pelo tempo de execução em Python.
 
 ## Feedback da Fase 2 e dívida de evolução
 
@@ -78,7 +78,7 @@ Parte da negação já está tratada em `mencoes_afirmadas`, mas a própria impl
 
 No ECG, distinguir acurácia comum de acurácia balanceada: o feedback cita 69,7% de acurácia e 62,9% de recall anormal; a documentação destaca 74,5% de acurácia balanceada. Não tratar esses números como a mesma métrica. Hashes distintos eliminam duplicatas exatas, mas não garantem pacientes distintos.
 
-Vou manter essas melhorias em um backlog próprio e priorizar na Fase 3 a integridade temporal, a prevenção de perdas silenciosas, a conexão, os alertas e as evidências de funcionamento.
+Vamos manter essas melhorias em um backlog próprio e priorizar na Fase 3 a integridade temporal, a prevenção de perdas silenciosas, a conexão, os alertas e as evidências de funcionamento.
 
 ## Sequência de execução sugerida
 
@@ -91,11 +91,11 @@ Vou manter essas melhorias em um backlog próprio e priorizar na Fase 3 a integr
 | 01–03/11 | Reprodução por outro integrante, evidências, links públicos e revisão final |
 | 04/11 | Entrega com margem para problemas de upload |
 
-Vou organizar as frentes de firmware/Edge, MQTT/Node-RED e integração/testes/documentação. Vou combinar as responsabilidades com a equipe e manter o contrato de mensagens compartilhado para revisão cruzada.
+Vamos organizar as frentes de firmware/Edge, MQTT/Node-RED e integração/testes/documentação. Vamos combinar as responsabilidades com a equipe e manter o contrato de mensagens compartilhado para revisão cruzada.
 
-Organizei a execução em `document/fase3/ROTEIRO_ENTREGA.md`, incluindo a entrega obrigatória e os dois desafios Ir Além em seis etapas de implementação e revisão.
+Organizamos a execução em `document/fase3/ROTEIRO_ENTREGA.md`, incluindo a entrega obrigatória e os dois desafios Ir Além em seis etapas de implementação e revisão.
 
-Planejei organizar os arquivos em `src/fase3/firmware/`, `src/fase3/node-red/`, `src/fase3/python/`, `fase3/notebooks/`, `src/fase3/tests/`, `document/other/fase3/evidencias/`, `fase3/relatorios/`, `document/fase3/README.md` e `document/fase3/CHECKLIST_ENUNCIADO.md`. Vou versionar configurações de exemplo sem credenciais e preservar as entregas anteriores. Antes de alterar o portal, vou registrar seu repositório de origem oficial, pois encontrei uma cópia local e um repositório separado documentado.
+Planejamos organizar os arquivos em `src/fase3/firmware/`, `src/fase3/node-red/`, `src/fase3/python/`, `fase3/notebooks/`, `src/fase3/tests/`, `document/other/fase3/evidencias/`, `fase3/relatorios/`, `document/fase3/README.md` e `document/fase3/CHECKLIST_ENUNCIADO.md`. Vamos versionar configurações de exemplo sem credenciais e preservar as entregas anteriores. Antes de alterar o portal, vamos registrar seu repositório de origem oficial, pois encontramos uma cópia local e um repositório separado documentado.
 
 ## Critérios para considerar a entrega pronta
 

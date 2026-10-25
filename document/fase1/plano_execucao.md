@@ -1,6 +1,6 @@
 # Plano de Execução — CardioIA: Fase 1, Cap. 1 (Busca de Dados)
 
-> **Este é o plano oficial da atividade.** Deve ser atualizado sempre que houver mudança de estratégia, novo requisito identificado, conclusão de etapa, decisão relevante ou alteração de sequenciamento. Fonte do enunciado: `document/other/referencias/fase1/enunciado/Fase 1_Cap 1_Exercício.docx`.
+> **Registro do planejamento inicial da Fase 1.** Preservamos o contexto da época; a identificação atual do Grupo Aura e o guia para avaliação estão no README principal e no README desta fase. Este plano não representa o status da Fase 3. Fonte do enunciado: `document/other/referencias/fase1/enunciado/Fase 1_Cap 1_Exercício.docx`.
 
 ## Contexto
 
