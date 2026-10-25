@@ -1,8 +1,5 @@
 // Centralizo as regras do painel e as testo sem depender da interface.
-const path = require('path');
-const Ajv = require(require.resolve('ajv/dist/2020', {
-  paths: [__dirname, path.resolve(__dirname, '../../../fase3/node-red')]
-}));
+const Ajv = require('ajv/dist/2020');
 const schema = require('../../../config/fase3/contratos/telemetria.schema.json');
 const validate = new Ajv({strict: false}).compile(schema);
 const DEVICE = 'cardioia-esp32-01';

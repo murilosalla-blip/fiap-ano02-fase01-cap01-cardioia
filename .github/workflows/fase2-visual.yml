@@ -11,10 +11,9 @@ on:
       - "assets/fase2/**"
       - "scripts/fase2/**"
       - "document/other/fase2/**"
-      - "src/portal-cardioia/**"
-      - "fase2/**"
-      - "assets/dados/processed/heart_disease_cleveland.csv"
-      - "assets/imagens/ecg/**"
+      - "src/fase2/portal-cardioia/**"
+      - "assets/fase1/dados/processed/heart_disease_cleveland.csv"
+      - "assets/fase1/imagens/ecg/**"
       - ".github/workflows/fase2-visual.yml"
   pull_request:
     paths:
@@ -23,10 +22,9 @@ on:
       - "assets/fase2/**"
       - "scripts/fase2/**"
       - "document/other/fase2/**"
-      - "src/portal-cardioia/**"
-      - "fase2/**"
-      - "assets/dados/processed/heart_disease_cleveland.csv"
-      - "assets/imagens/ecg/**"
+      - "src/fase2/portal-cardioia/**"
+      - "assets/fase1/dados/processed/heart_disease_cleveland.csv"
+      - "assets/fase1/imagens/ecg/**"
       - ".github/workflows/fase2-visual.yml"
   workflow_dispatch:
 

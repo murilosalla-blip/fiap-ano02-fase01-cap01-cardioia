@@ -1,0 +1,41 @@
+name: Validar dados da Fase 1
+
+on:
+  push:
+    paths:
+      - "src/fase1/**"
+      - "scripts/fase1/**"
+      - "config/fase1/**"
+      - "assets/fase1/**"
+      - "document/other/organizacao/preservacao_fase1.json"
+      - ".github/workflows/fase1-dados.yml"
+  pull_request:
+    paths:
+      - "src/fase1/**"
+      - "scripts/fase1/**"
+      - "config/fase1/**"
+      - "assets/fase1/**"
+      - "document/other/organizacao/preservacao_fase1.json"
+      - ".github/workflows/fase1-dados.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preparar-e-preservar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Conferir sintaxe da preparação
+        run: python -m py_compile src/fase1/preparar_dataset_numerico.py src/fase1/preparar_amostra_ecg.py
+      - name: Reproduzir preparação numérica
+        run: python src/fase1/preparar_dataset_numerico.py
+      - name: Conferir integridade da entrega anterior
+        run: python scripts/fase1/verificar_preservacao.py
+      - name: Conferir estrutura FIAP e links das entregas
+        run: python scripts/validar_organizacao.py

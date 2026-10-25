@@ -15,8 +15,9 @@ from mqtt_store import ConflictingTelemetry, DEFAULT_TOPIC, InvalidTelemetry, Te
 
 class MqttStoreTest(unittest.TestCase):
     def setUp(self):
-        (ROOT / "build").mkdir(exist_ok=True)
-        self.temp = tempfile.TemporaryDirectory(dir=ROOT / "build")
+        build = ROOT.parents[1] / ".tools/build/fase3"
+        build.mkdir(parents=True, exist_ok=True)
+        self.temp = tempfile.TemporaryDirectory(dir=build)
         self.path = Path(self.temp.name) / "telemetria.sqlite3"
         self.store = TelemetryStore(self.path)
         self.sample = json.loads((ROOT.parents[1] / "config/fase3/contratos/exemplo_telemetria.json").read_text(encoding="utf-8"))

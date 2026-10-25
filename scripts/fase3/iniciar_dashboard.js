@@ -4,12 +4,12 @@ const path = require('path');
 const {spawn} = require('child_process');
 const root = path.resolve(__dirname,'../..');
 const source = path.join(root,'src/fase3/node-red');
-const nodeRedPackage = require.resolve('node-red/package.json',{paths:[source,path.join(root,'fase3/node-red')]});
+const nodeRedPackage = require.resolve('node-red/package.json',{paths:[source]});
 const installedModules = path.dirname(path.dirname(nodeRedPackage));
 const {build} = require(path.join(source,'gerar_fluxo'));
 const port = Number(process.env.CARDIOIA_PORT || 1880);
 if (!Number.isInteger(port) || port < 1024 || port > 65535) throw new Error('Porta local inválida.');
-const runtime = path.join(root,'fase3/runtime',port === 1880 ? 'node-red' : `node-red-${port}`);
+const runtime = path.join(root,'.tools/runtime/fase3',port === 1880 ? 'node-red' : `node-red-${port}`);
 fs.mkdirSync(runtime,{recursive:true});
 const modules = path.join(runtime,'node_modules');
 if (!fs.existsSync(modules)) fs.symlinkSync(installedModules,modules,process.platform === 'win32' ? 'junction' : 'dir');
@@ -28,7 +28,7 @@ if (process.argv.includes('--com-consumidor')) {
   consumer = spawn(process.env.CARDIOIA_PYTHON || 'python',['-u',path.join(root,'src/fase3/python/consumidor_mqtt.py')],
     {env:{...process.env,PYTHONPATH:pythonPath},stdio:['ignore',log,log],windowsHide:true});
   fs.closeSync(log);
-  console.log('Inicio também o consumidor. Registro seus eventos em fase3/runtime/node-red/consumidor.log.');
+  console.log('Inicio também o consumidor. Registro seus eventos em .tools/runtime/fase3/node-red/consumidor.log.');
   consumer.on('error',error=>console.error('Não consegui iniciar o consumidor: '+error.message));
   consumer.on('exit',code=>{if(code)console.error('O consumidor encerrou com erro. Confiro o arquivo consumidor.log.');});
 }

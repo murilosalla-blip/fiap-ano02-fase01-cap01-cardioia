@@ -5,11 +5,11 @@
 *.xlsx
 
 # Exceção: datasets processados exigidos pela atividade FIAP (devem ser versionados)
-!assets/dados/processed/*.csv
-!assets/dados/processed/*.xlsx
+!assets/fase1/dados/processed/*.csv
+!assets/fase1/dados/processed/*.xlsx
 
 # Exceção: manifesto de rastreabilidade da amostra de imagens da Parte 3 (documentação técnica, não dataset bruto)
-!document/other/referencias/parte3/*.csv
+!document/other/referencias/fase1/parte3/*.csv
 
 # Segredos e variáveis de ambiente
 .env
@@ -41,14 +41,11 @@ Thumbs.db
 
 # Ferramentas locais e saídas de compilação da Fase 3
 .tools/
-fase3/build/
-fase3/runtime/
-fase3/node-red/node_modules/
+.tools/build/fase3/
+.tools/runtime/fase3/
 
 # Fontes organizados por fase: dependências e artefatos ficam locais.
 **/node_modules/
-src/fase3/build/
-src/fase3/runtime/
 
 # Recursos tabulares pequenos já exigidos e versionados na Fase 2.
 !assets/fase2/dados/classificacao_risco.csv

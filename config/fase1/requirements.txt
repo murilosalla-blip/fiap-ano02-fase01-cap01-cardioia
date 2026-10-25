@@ -1,0 +1,2 @@
+# Uso Pillow apenas na preparação das imagens. A preparação numérica usa a biblioteca padrão.
+Pillow>=10,<13

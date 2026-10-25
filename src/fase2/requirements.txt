@@ -1,0 +1,2 @@
+# Declaro os requisitos junto do aplicativo para o Streamlit Cloud.
+-r ../../config/fase2/requirements.txt

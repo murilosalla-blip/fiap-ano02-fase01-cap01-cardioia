@@ -15,7 +15,7 @@ A referência preserva o estado existente antes desta revisão, não reconstrói
 - 183 arquivos protegidos conferidos por hash Git e modo.
 - Zero arquivos anteriores removidos.
 - Zero arquivos protegidos alterados.
-- 120 imagens permanecem em assets/imagens/ecg/.
+- 120 imagens permanecem em assets/fase1/imagens/ecg/.
 - Árvore retornada pelo GitHub completa, sem truncamento.
 
 Esta conferência foi feita comparando o inventário com a árvore Git; não representa uma nova inspeção visual dos exames.
@@ -23,7 +23,7 @@ Esta conferência foi feita comparando o inventário com a árvore Git; não rep
 ## Restrições aprovadas
 
 1. Não apagar qualquer arquivo anterior.
-2. Não alterar arquivos fora de fase2/ e src/portal-cardioia/, incluindo README raiz, assets/, document/, scripts/ e workflows existentes.
+2. Não alterar arquivos fora de fase2/ e src/fase2/portal-cardioia/, incluindo README raiz, assets/, document/, scripts/ e workflows existentes.
 3. Não modificar a Fase 1 nem integrar alterações à main nesta revisão.
 4. Salvar dados e derivados ampliados separadamente dentro da Fase 2.
 5. Preservar o experimento inicial visual e seus resultados como histórico.
@@ -55,7 +55,7 @@ Testes técnicos aprovados não demonstram utilidade clínica nem ausência de e
 | 4 | Protocolo de avaliação antes de ajustar a MLP | document/other/fase2/auditoria/ |
 | 5 | Pré-processamento e MLP revisados, preservando versão inicial | Novos módulos e notebook em fase2/ |
 | 6 | Métricas, incerteza, erros e feedback demográfico | assets/fase2/resultados/ e documentação da Fase 2 |
-| 7 | Testes e revisão de Streamlit e portal existente | src/fase2/app.py, src/fase2/tests/ e src/portal-cardioia/ |
+| 7 | Testes e revisão de Streamlit e portal existente | src/fase2/app.py, src/fase2/tests/ e src/fase2/portal-cardioia/ |
 | 8 | Consolidação de evidências e preparação da publicação | document/fase2/README.md e documentos complementares |
 
 A lista identifica áreas previstas, não alterações já executadas.
@@ -63,7 +63,7 @@ A lista identifica áreas previstas, não alterações já executadas.
 ## Verificação de preservação nos próximos blocos
 
 Executar explicitamente:
-python src/fase2/tests/verificar_preservacao.py
+python scripts/fase1/verificar_preservacao.py
 
 Além disso, comparar a árvore Git antes/depois de cada bloco.
 Como os workflows existentes são protegidos pelo inventário, não serão editados para acrescentar esse comando.

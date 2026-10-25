@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 def verificar(raiz=None):
-    raiz = Path(raiz or Path(__file__).resolve().parents[3])
+    raiz = Path(raiz or Path(__file__).resolve().parents[2])
     manifesto = json.loads((raiz / "document/other/organizacao/preservacao_fase1.json").read_text(encoding="utf-8"))
     erros = []
     for item in manifesto["arquivos"]:

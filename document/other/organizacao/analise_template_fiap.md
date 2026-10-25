@@ -27,7 +27,7 @@ No [modelo de relato de problemas](https://github.com/agodoi/templateFiapVfinal/
 |---|---|---|
 | Identificação | Encontrei instituição, logo, projeto, Grupo Aura, três integrantes com RM, tutor e coordenador | Vou preservar a identificação; não vou inventar outros integrantes nem links de perfil |
 | Descrição | Contei aproximadamente 489 palavras entre a seção Descrição e a próxima seção | Vou manter a descrição dentro das 600 palavras e atualizar sua síntese para refletir a evolução do projeto |
-| Código-fonte | Encontrei somente `src/readme.md` em `src/`; o código funcional está em `fase2/`, `fase3/` e `src/portal-cardioia/` | Vou propor a organização por fase dentro de `src/` |
+| Código-fonte | Encontrei somente `src/readme.md` em `src/`; o código funcional está em `fase2/`, `fase3/` e `src/fase2/portal-cardioia/` | Vou propor a organização por fase dentro de `src/` |
 | Configurações | Encontrei apenas orientação em `config/`; a Fase 3 contém contratos e configuração Node-RED fora dela | Vou separar os parâmetros e as configurações reutilizáveis, preservando os manifestos locais exigidos pelas ferramentas |
 | Scripts auxiliares | Encontrei preparação de datasets em `scripts/`, mas validação e inicialização da Fase 3 em outras pastas | Vou consolidar os auxiliares em `scripts/`, com subpastas por fase |
 | Documentação | Encontrei documentos em `document/`, mas relatórios, roteiros e checklists também misturados aos subprojetos da raiz | Vou organizar a documentação principal e complementar nos destinos indicados pelo modelo |
@@ -65,7 +65,7 @@ scripts/                           preparação, inicialização e validação
 src/
   fase2/                           código e testes da Fase 2
   fase3/                           firmware, consumidor e dashboard
-  src/portal-cardioia/                  código do portal
+  src/fase2/portal-cardioia/                  código do portal
 README.md
 ```
 
