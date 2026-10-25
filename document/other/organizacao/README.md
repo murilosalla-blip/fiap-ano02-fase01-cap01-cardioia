@@ -4,7 +4,7 @@ Organizamos o projeto conforme o [modelo FIAP](https://github.com/agodoi/templat
 
 ## Estrutura atual
 
-Mantemos na raiz as pastas institucionais `.github`, `assets`, `config`, `document`, `scripts` e `src`, o README e os arquivos de controle do Git. Organizamos `fase1`, `fase2` e `fase3` dentro de `src`, `assets`, `config` e `document`. Agrupo o portal em `src/fase2/portal-cardioia`.
+Mantemos na raiz as pastas institucionais `.github`, `assets`, `config`, `document`, `scripts` e `src`, o README e os arquivos de controle do Git. Organizamos `fase1`, `fase2` e `fase3` dentro de `src`, `assets`, `config` e `document`. Agrupamos o portal em `src/fase2/portal-cardioia`.
 
 Retiramos as entradas transitórias `fase2/` e `fase3/` da raiz e preservamos seus arquivos no [histórico versionado](../historico/entradas_transitorias/). Mantemos os requisitos de publicação junto de `src/fase2/app.py`, por meio de `src/fase2/requirements.txt`, que aponta para `config/fase2/requirements.txt`. Confirmamos no perfil público do Streamlit que a publicação aponta para o fork `Julia-carvalho96/fiap-ano02-fase01-cap01-cardioia`, separado deste repositório. Preservamos esse vínculo; uma futura publicação a partir desta estrutura usa a entrada padronizada.
 
