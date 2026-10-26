@@ -1,6 +1,6 @@
 {
   "commit_anterior": "ff54c728195d150963f306987d7656b7180acf11",
-  "descricao": "Registro as renomeações versionadas da padronização das fases. Preservo as entradas transitórias no histórico do próprio repositório.",
+  "descricao": "Registramos as renomeações versionadas da padronização das fases. Preservamos as entradas transitórias no histórico do próprio repositório.",
   "arquivos": [
     {
       "antes": "assets/dados/processed/heart_disease_cleveland.csv",

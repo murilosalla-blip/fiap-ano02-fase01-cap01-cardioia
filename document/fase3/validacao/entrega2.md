@@ -4,15 +4,15 @@ Preparamos o [projeto MQTT no Wokwi](https://wokwi.com/projects/4787727893614602
 
 ## Como reproduzir a demonstração ponta a ponta
 
-1. Vamos iniciar `python src/fase3/python/consumidor_mqtt.py --reter-primeiro-ack` e conferir conexão e assinaturas no broker.
-2. Vamos executar o Wokwi com a chave à esquerda e observar pelo menos três leituras acumuladas.
-3. Vamos mover a chave à direita e conferir que o consumidor recebe a primeira leitura e omite apenas seu primeiro ACK.
-4. Vamos conferir no Serial a manutenção da primeira pendência, sua nova tentativa e a liberação somente após a confirmação correta.
-5. Vamos verificar no banco uma única linha para essa identidade, apesar dos reenvios.
-6. Vamos voltar a chave à esquerda, continuar coletando e depois conferir a recuperação ordenada ao reconectar.
-7. Vamos enviar `broker_off` no Monitor Serial, observar a falha controlada de acesso ao endpoint e conferir que a coleta continua. Depois vamos enviar `broker_on` e conferir a reconexão e a recuperação.
-8. Vamos parar o consumidor, observar reenvios sem retirada da primeira pendência e reiniciar o consumidor com o mesmo banco para confirmar a deduplicação persistente.
-9. Vamos salvar eventos, capturas e resultados, distinguindo horários de coleta, preparação da tentativa e recebimento.
+1. iniciar `python src/fase3/python/consumidor_mqtt.py --reter-primeiro-ack` e conferir conexão e assinaturas no broker.
+2. executar o Wokwi com a chave à esquerda e observar pelo menos três leituras acumuladas.
+3. mover a chave à direita e conferir que o consumidor recebe a primeira leitura e omite apenas seu primeiro ACK.
+4. conferir no Serial a manutenção da primeira pendência, sua nova tentativa e a liberação somente após a confirmação correta.
+5. verificar no banco uma única linha para essa identidade, apesar dos reenvios.
+6. voltar a chave à esquerda, continuar coletando e depois conferir a recuperação ordenada ao reconectar.
+7. enviar `broker_off` no Monitor Serial, observar a falha controlada de acesso ao endpoint e conferir que a coleta continua. Depois, enviar `broker_on` e conferir a reconexão e a recuperação.
+8. parar o consumidor, observar reenvios sem retirada da primeira pendência e reiniciar o consumidor com o mesmo banco para confirmar a deduplicação persistente.
+9. salvar eventos, capturas e resultados, distinguindo horários de coleta, preparação da tentativa e recebimento.
 
 ## O que já conferimos
 

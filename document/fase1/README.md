@@ -10,7 +10,7 @@ Reunimos dados numéricos, textuais e visuais para preparar as etapas seguintes 
 - [Dados visuais](parte3_dados_visuais.md)
 - [Plano da Fase 1](plano_execucao.md)
 - [Documento submetido](cardioia_fase1_entrega_fiap.pdf)
-- [Enunciado e referências das aulas](../other/referencias/fase1)
+- [Enunciado e fontes de referência](../other/referencias/fase1)
 
 ## Materiais externos da entrega
 
@@ -35,13 +35,13 @@ Os datasets finais e os dois textos já estão preparados. **Não é necessário
 Instalar Git e Python 3.12. No PowerShell:
 
 ```powershell
-git clone https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia.git
-Set-Location -LiteralPath './fiap-ano02-fase01-cap01-cardioia'
+git clone https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia.git
+Set-Location -LiteralPath './fiap-ano02-fase03-cardioia'
 python -m venv .venv
 .\.venv\Scripts\python.exe scripts/fase1/verificar_preservacao.py
 ```
 
-Se a cópia e o ambiente já existem, executar apenas a verificação a partir da raiz. Resultado esperado: **223 arquivos anteriores conferidos**. No Linux/macOS, criar com `python3.12 -m venv .venv` e usar `./.venv/bin/python` no lugar do executável Windows.
+Se a cópia e o ambiente já existem, executar apenas a verificação a partir da raiz. Resultado esperado: **223 itens do inventário anterior: 212 arquivos locais e 11 PDFs de aulas identificados no histórico Git**. No Linux/macOS, criar com `python3.12 -m venv .venv` e usar `./.venv/bin/python` no lugar do executável Windows.
 
 ### Reproduzir a preparação numérica
 
@@ -49,7 +49,7 @@ Se a cópia e o ambiente já existem, executar apenas a verificação a partir d
 .\.venv\Scripts\python.exe src/fase1/preparar_dataset_numerico.py
 ```
 
-O script utiliza bibliotecas nativas, lê a fonte em `assets/fase1/dados/raw/` e gera `assets/fase1/dados/processed/heart_disease_cleveland.csv`. Conferir 303 registros, o tratamento explícito de ausências e a variável-alvo binária derivada, conforme o [guia numérico](parte1_dados_numericos.md). Os 14 atributos da fonte incluem seu diagnóstico original; a preparação acrescenta o alvo binário documentado.
+O script utiliza bibliotecas nativas, lê a fonte em `assets/fase1/dados/raw/` e gera `assets/fase1/dados/processed/heart_disease_cleveland.csv`. Conferir 303 registros, o tratamento explícito de ausências e a variável-alvo binária derivada, conforme o [guia numérico](parte1_dados_numericos.md). O CSV final tem 14 colunas: 13 atributos de entrada e o diagnóstico convertido em alvo binário.
 
 ### Reproduzir a seleção visual
 

@@ -1,6 +1,6 @@
 {
   "commit_anterior": "643d8abf3c7c6929087364065f2f8c547a184066",
-  "descricao": "Registro os destinos e hashes anteriores para conferir a reorganização sem perder entregas.",
+  "descricao": "Registramos os destinos e hashes anteriores para conferir a reorganização sem perder entregas.",
   "arquivos": [
     {
       "antes": ".gitattributes",

@@ -38,6 +38,6 @@ Usamos apenas dados fictícios em broker público, sem autenticação ou TLS. Ex
 
 ## Continuidade
 
-Conferimos automaticamente os cenários capturados com `scripts/validar_cenarios_mqtt.py` e registramos aprovação em `validacao_cenarios.json`. Cruzamos os ACKs do Serial com os eventos de armazenamento, conferimos as sequências em ordem, a ausência de registros duplicados e o retorno à fila vazia.
+Conferimos automaticamente os cenários capturados com `scripts/fase3/validar_cenarios_mqtt.py` e registramos aprovação em `validacao_cenarios.json`. Cruzamos os ACKs do Serial com os eventos de armazenamento, conferimos as sequências em ordem, a ausência de registros duplicados e o retorno à fila vazia.
 
 Concluímos nossa revisão funcional no Chrome e conferimos 75 medições únicas no banco. Preservamos os registros adicionais em [Nossa validação funcional](validacao_guiada/RESULTADOS.md). Nossa próxima etapa é Node-RED com gráficos, indicadores e alertas, mantendo separados dados atrasados e condição atual do dispositivo.

@@ -1,1 +1,0 @@
--r ../config/fase2/requirements-visual.txt

@@ -1339,5 +1339,6 @@
       "sha_git": "5c7ff620661147fbffe5f92bed49d59ef88cadb1",
       "imutavel": true
     }
-  ]
+  ],
+  "escopo": "Inventário de 223 itens do início da Fase 2: 181 do fechamento da Fase 1 e 42 acrescentados no começo da Fase 2. Mantemos os hashes originais; identificamos separadamente 11 PDFs de aulas no histórico Git."
 }

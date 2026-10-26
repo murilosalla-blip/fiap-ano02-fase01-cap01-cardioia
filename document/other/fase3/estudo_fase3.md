@@ -1,5 +1,7 @@
 # Estudo do CardioIA e plano para a Fase 3
 
+> Registro histórico da etapa inicial. Preservamos o contexto e os resultados da época; para executar a versão atual, consultar o [guia da Fase 3](../../fase3/README.md).
+
 Realizamos este estudo em 16/10/2026 com base nos enunciados locais das três fases, na documentação, nos resultados e em trechos da implementação. Durante esse estudo inicial, não executamos treinamentos, testes ou aplicações, nem verificamos as publicações externas. Consultamos os estados de conclusão das fases anteriores no repositório. Registramos as execuções posteriores separadamente em `document/other/fase3/evidencias/`.
 
 ## Conclusão

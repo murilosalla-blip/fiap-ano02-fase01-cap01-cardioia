@@ -1,3 +1,5 @@
-# Referências por fase
+# Enunciados e fontes por fase
 
-Separamos os materiais em [Fase 1](fase1), [Fase 2](fase2) e [Fase 3](fase3), com subpastas de aulas e enunciados. Preservamos as referências complementares de [textos](fase1/parte2) e [imagens](fase1/parte3). Organizamos os materiais locais sem presumir que todos já estejam publicados no GitHub.
+Mantemos os enunciados das [Fases 1](fase1/enunciado), [2](fase2/enunciado) e [3](fase3/enunciado), além das fontes complementares dos [textos](fase1/parte2) e das [imagens](fase1/parte3). Esses materiais fundamentam os requisitos, a origem dos dados e a reprodução das atividades.
+
+Retiramos as cópias de aulas da árvore atual para concentrar a entrega nos exercícios. Preservamos sua identificação e recuperação no [registro de organização](../organizacao/README.md). Os enunciados e as referências utilizadas permanecem disponíveis.

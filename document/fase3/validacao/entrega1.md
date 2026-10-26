@@ -1,34 +1,40 @@
-# Validação da entrega 1
+# Validação da Parte 1 — Edge e recuperação Serial
 
-## O que está disponível
+## Escopo desta demonstração
 
-Compilamos o firmware para ESP32 e executamos o circuito no [projeto público Wokwi](https://wokwi.com/projects/478054573982428161), com DHT22, botão de batimentos e chave de conectividade simulada. Ainda não implementamos MQTT. Registramos os resultados em `../../other/fase3/evidencias/entrega1_resultados.md`.
+Implementamos e validamos o circuito ESP32 com DHT22, botão de pulsos e chave de conectividade no [Wokwi Serial](https://wokwi.com/projects/478054573982428161). Nesta variante, demonstramos a recuperação pela saída Serial, identificada como `serial_demo`. A integração real já está implementada separadamente no [Wokwi MQTT](https://wokwi.com/projects/478772789361460225), conforme o [guia MQTT](../mqtt/README.md).
 
-Para reproduzir a montagem no Wokwi, vamos criar um projeto ESP32, copiar `cardioia_edge.ino` para `sketch.ino`, criar uma aba `edge_core.h`, substituir `diagram.json` e adicionar a biblioteca de `libraries.txt`. O DHT22 usa a biblioteca recomendada pela documentação Wokwi para ESP32.
+Para reproduzir a montagem, criar um projeto ESP32, copiar `src/fase3/firmware/cardioia_edge/cardioia_edge.ino` para `sketch.ino`, criar a aba `edge_core.h`, substituir `diagram.json` e adicionar a biblioteca de `libraries.txt`, todos da mesma pasta. Alternativamente, executar diretamente o projeto público.
 
-## Nosso plano de validação
+## Como reproduzir os cenários
+
+Contar os intervalos pelo relógio do ESP32 simulado; manter o Wokwi visível para evitar desaceleração em segundo plano.
 
 | Cenário | Ação | Resultado esperado |
 |---|---|---|
-| Coleta offline | Vamos iniciar com chave à esquerda e esperar 20 segundos | Linhas `# coleta` a cada cinco segundos; fila cresce; sem JSON de envio |
-| Pulsos | Vamos pressionar e soltar B seis vezes dentro de uma janela de cinco segundos | Aproximadamente 72 bpm naquela janela; depende da duração efetiva |
-| Botão segurado | Vamos segurar B por vários segundos | Apenas um pulso por pressão, sem repetição automática |
-| Temperatura | Vamos alterar temperatura no DHT22 | Nova leitura incorpora o valor após até uma janela |
-| Recuperação | Vamos mover chave à direita | JSONs antigos saem em ordem, preservando o tempo de coleta; fila esvazia |
-| Nova queda | Vamos voltar chave à esquerda | Coleta continua; envio para e pendências voltam a crescer |
-| Fila cheia | Vamos definir `CARDIOIA_QUEUE_CAPACITY` como 3 antes do bloco `#ifndef` e reiniciar offline | A quarta amostra é rejeitada, perdas aumentam e antigas permanecem |
-| Reinício | Vamos parar e reiniciar | Nova sessão; fila em RAM anterior é perdida, conforme limite documentado |
+| Coleta offline | Iniciar com a chave à esquerda e aguardar quatro coletas | Linhas `# coleta` a cada cinco segundos simulados; fila cresce, sem JSON de envio |
+| Pulsos | Pressionar e soltar B seis vezes dentro de uma janela de cinco segundos | Aproximadamente 72 BPM naquela janela |
+| Botão segurado | Segurar B por vários segundos | Um pulso por pressão, sem repetição automática |
+| Temperatura | Alterar a temperatura no DHT22 | Nova leitura incorpora o valor após até uma janela |
+| Recuperação | Mover a chave à direita | JSONs antigos saem em ordem, preservando o tempo de coleta; fila esvazia |
+| Nova queda | Voltar a chave à esquerda | Coleta continua; envio para e pendências voltam a crescer |
+| Fila cheia | Definir `CARDIOIA_QUEUE_CAPACITY` como 3 antes do bloco `#ifndef` e reiniciar offline | A quarta amostra é rejeitada; perdas aumentam e antigas permanecem |
+| Reinício | Parar e reiniciar com pendências | Nova sessão; fila em RAM anterior é perdida |
 
-Após o teste de fila cheia, vamos restaurar a capacidade padrão de 2.000. Vamos salvar os logs reais em `evidencias/` e registrar o link Wokwi e o resultado de cada cenário. Vamos manter o exemplo JSON do contrato separado das evidências de execução.
+Após testar fila cheia, restaurar a capacidade padrão de 2.000 leituras. Salvar logs reais separadamente dos exemplos de contrato. Conferir os registros preservados com `python scripts/fase3/validar_cenarios_edge.py` a partir da raiz; consultar os argumentos em `--help`.
 
-## Limites conhecidos
+## Limites da implementação
 
-- A fila ocupa RAM e não sobrevive a reinício. O firmware informa `sizeof` ao iniciar; a compilação ESP32 deve confirmar o uso total.
-- Serial confirma apenas escrita local. A etapa seguinte precisa MQTT e confirmação do consumidor.
-- O botão usa polling e exige estado estável por 25 ms; pulsos elétricos curtos não são o objetivo deste protótipo.
-- A resolução de uma janela de cinco segundos é de aproximadamente 12 bpm por pulso, suficiente para demonstração, não monitoramento clínico.
+- A fila ocupa RAM e não sobrevive ao reinício; a compilação confirma o uso total de memória.
+- Serial confirma escrita local. O consumidor e seu ACK confirmam persistência somente na variante MQTT.
+- O botão usa polling e exige estado estável por 25 ms; pulsos elétricos curtos não são o objetivo do protótipo.
+- A janela de cinco segundos produz resolução de aproximadamente 12 BPM por pulso. Não validamos monitoramento clínico.
 - DHT22 representa temperatura do sensor/ambiente, não temperatura corporal validada.
-- Não há relógio UTC sincronizado nem persistência externa nesta entrega.
+- Não implementamos relógio UTC sincronizado nem persistência externa no ESP32.
+
+## Resultados preservados
+
+Concluímos os cenários ampliados em 24/10/2026, incluindo fila cheia, botão segurado e reinício, e restauramos a capacidade padrão. Preservamos os [resultados e logs](../../other/fase3/evidencias/2026-10-24/RESULTADOS.md) e identificamos o [primeiro ensaio](../../other/fase3/evidencias/entrega1_resultados.md) como histórico. O relatório paginado obrigatório permanece pendente na [matriz de requisitos](../CHECKLIST_ENUNCIADO.md).
 
 ## Referências técnicas
 
@@ -36,7 +42,3 @@ Após o teste de fila cheia, vamos restaurar a capacidade padrão de 2.000. Vamo
 - https://docs.wokwi.com/parts/wokwi-pushbutton
 - https://docs.wokwi.com/parts/wokwi-slide-switch
 - https://docs.wokwi.com/diagram-format
-
-## Nossa revisão da entrega
-
-Concluímos a revisão funcional da primeira entrega em 24/10/2026. Reorganizamos os componentes, afastamos os rótulos dos fios e acrescentamos instruções da chave. Também desviamos o fio que atravessava o botão. Salvamos a nova disposição no projeto e no diagrama local. Em 24/10/2026, concluímos os cenários ampliados e restauramos a capacidade padrão de 2.000 leituras. Registramos os resultados em `../../other/fase3/evidencias/2026-10-24/RESULTADOS.md`. O relatório paginado obrigatório permanece pendente, conforme o checklist da fase.

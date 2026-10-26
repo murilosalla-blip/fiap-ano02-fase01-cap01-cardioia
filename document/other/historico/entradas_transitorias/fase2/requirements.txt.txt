@@ -1,2 +1,0 @@
-# Mantenho a instalação reconhecida pelo Streamlit Cloud.
--r ../config/fase2/requirements.txt

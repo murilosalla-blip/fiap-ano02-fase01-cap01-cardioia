@@ -14,7 +14,7 @@ Iniciamos uma segunda instância em `127.0.0.1:1881` e usamos o tópico isolado 
 
 Conferimos 12 cenários: leitura atual; reenvio sem novo ponto; mensagem inválida; primeira leitura acima do limite sem confirmar alerta; segunda leitura com entrada do alerta; permanência na faixa de histerese; replay no histórico sem avaliação atual; saída após duas leituras; DHT indisponível; estado offline; reconexão; e ausência de dados atuais após 15 segundos.
 
-Preservamos os estados e a aprovação em `teste_rede_final/`. Mantivemos o primeiro ensaio em `teste_rede/` e a captura visual em `ensaio_painel.png`. Na captura, conferimos gráfico, gauge, tabela e histórico de entrada e saída dos alertas. O cabeçalho identifica o publicador Python.
+Preservamos os estados e a aprovação em `teste_rede_final/` e a captura visual em `ensaio_painel.png`. Retiramos da árvore atual o primeiro ensaio, substituído pelo final; registramos sua recuperação em [higienizacao.json](../../../../organizacao/higienizacao.json). Na captura, conferimos gráfico, gauge, tabela e histórico de entrada e saída dos alertas. O cabeçalho identifica o publicador Python.
 
 ## Nossa integração com o ESP32 do Wokwi
 

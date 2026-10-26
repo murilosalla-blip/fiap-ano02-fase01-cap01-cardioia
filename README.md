@@ -216,7 +216,7 @@ Os dados finais da **Fase 1** já estão preparados e disponíveis nas pastas do
 .\.venv\Scripts\python.exe scripts/fase1/verificar_preservacao.py
 ```
 
-Resultado esperado: CSV em `assets/fase1/dados/processed/heart_disease_cleveland.csv`, com **303 registros**, e verificação dos **223 arquivos inventariados no início da Fase 2**, incluindo os 181 do fechamento da Fase 1. Os documentos das três modalidades estão no [guia da Fase 1](document/fase1/README.md).
+Resultado esperado: CSV em `assets/fase1/dados/processed/heart_disease_cleveland.csv`, com **303 registros**, e conferência dos **223 itens inventariados no início da Fase 2**, incluindo os 181 do fechamento da Fase 1. Mantemos 212 arquivos nos destinos atuais e identificamos no histórico os 11 PDFs de aulas retirados; os dados e programas permanecem disponíveis. Os documentos das três modalidades estão no [guia da Fase 1](document/fase1/README.md).
 
 **Reproduzir a amostra de imagens de ECG da Parte 3** — requer preparação manual antes de executar:
 
@@ -311,7 +311,7 @@ Consolidamos as entregas de cada dia em um único registro, atualizado com os av
 - **14/09/2026 — Fase 2:** desenvolvemos os modelos tabulares, a extração de sintomas e a classificação textual; implementamos Streamlit, portal React e MLP de ECG, com avaliações, testes e limitações documentadas.
 - **07/10/2026 — Fase 2:** concluímos a documentação da entrega e disponibilizamos o vídeo demonstrando a atividade obrigatória e os dois desafios Ir Além.
 - **24/10/2026 — Fase 3:** implementamos e validamos sensores no ESP32, fila offline, recuperação, transmissão MQTT, persistência e painel Node-RED; organizamos os materiais das três fases nas pastas oficiais da FIAP, preservando as entregas anteriores.
-- **25/10/2026 — Continuidade do projeto:** preservamos os fechamentos das Fases 1 e 2 em repositórios próprios e dedicamos este à evolução da Fase 3; consolidamos a apresentação das três fases, os guias de reprodução, os documentos e as evidências, com os entregáveis pendentes identificados.
+- **25/10/2026 — Continuidade do projeto:** preservamos os fechamentos das Fases 1 e 2 em repositórios próprios e dedicamos este à evolução da Fase 3; consolidamos a apresentação das três fases, os guias de reprodução, os documentos e as evidências, com os entregáveis pendentes identificados; higienizamos os materiais de apoio e corrigimos os textos, preservando dados, código e evidências necessárias à reprodução.
 
 ## 📋 Licença
 

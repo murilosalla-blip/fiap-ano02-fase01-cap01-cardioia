@@ -60,7 +60,7 @@ Os nomes representam associações didáticas, não diagnósticos.
 | Classe | Feminino | Masculino | Total |
 |---|---:|---:|---:|
 | Alto risco | 30 | 30 | 60 |
-| Baixamos risco | 30 | 30 | 60 |
+| Baixo risco | 30 | 30 | 60 |
 
 Cada cenário possui versões feminina e masculina com o mesmo rótulo. O identificador `id_cenario` mantém as duas versões no mesmo conjunto durante a divisão, evitando vazamento entre exemplos quase equivalentes.
 
@@ -163,7 +163,7 @@ O experimento binário usa 30 imagens normais e 30 anormais selecionadas determi
 | F1 — anormal | 22,2% |
 | ROC AUC | 0,667 |
 
-O baixamos desempenho é mantido de forma transparente. Ele mostra que a pequena amostra e uma MLP simples sobre pixels achatados não sustentam generalização. Implementação funcional não equivale a modelo clinicamente útil.
+O baixo desempenho é mantido de forma transparente. Ele mostra que a pequena amostra e uma MLP simples sobre pixels achatados não sustentam generalização. Implementação funcional não equivale a modelo clinicamente útil.
 
 ### Revisão ampliada
 
@@ -291,7 +291,7 @@ Consulte `document/fase2/CHECKLIST_ENUNCIADO.md` para a correspondência complet
 - subgrupos demográficos pequenos, com intervalos de confiança amplos;
 - ausência de validação externa, clínica e prospectiva;
 - desempenho textual perfeito decorrente de base didática separável;
-- baixamos desempenho do baseline visual e desempenho ainda insuficiente da revisão ampliada;
+- baixo desempenho do baseline visual e desempenho ainda insuficiente da revisão ampliada;
 - ausência de identificador de paciente na fonte visual;
 - balanceamentos artificiais que não representam prevalência;
 - dados textuais, tabulares e visuais de pessoas e fontes diferentes;

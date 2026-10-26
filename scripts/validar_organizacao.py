@@ -1,4 +1,4 @@
-"""Confiro presença, integridade e navegação das entregas após a organização."""
+"""Conferimos presença, integridade e navegação das entregas após a organização."""
 import hashlib
 import json
 from pathlib import Path
@@ -8,7 +8,37 @@ from urllib.parse import unquote
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def carregar_retirados(raiz=ROOT):
+    """Aceitamos somente retiradas individuais de apoio, nunca dados ou programas."""
+    registro = json.loads((raiz / "document/other/organizacao/higienizacao.json").read_text(encoding="utf-8"))
+    assert re.fullmatch(r"[0-9a-f]{40}", registro["commit_recuperacao"]), "Commit de recuperação inválido"
+    consolidacoes = {"analise_template_fiap.md", "PADRONIZACAO_FASES.md", "REVISAO_DOCUMENTACAO.md", "VALIDACAO.md"}
+    retirados = {}
+    for item in registro["retirados"]:
+        caminho, categoria = item["caminho"], item["categoria"]
+        p = Path(caminho)
+        assert not p.is_absolute() and ".." not in p.parts and "\\" not in caminho, "Caminho de retirada inválido"
+        permitido = (
+            categoria == "aulas_pdf" and p.suffix == ".pdf" and
+            p.parent.as_posix() in {f"document/other/referencias/fase{i}/aulas" for i in (1, 2, 3)}
+            or categoria == "entrada_transitoria" and caminho.startswith("document/other/historico/entradas_transitorias/")
+            or categoria == "ensaio_substituido" and p.suffix == ".json" and
+            p.parent.as_posix() == "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede"
+            or categoria == "registro_consolidado" and p.parent.as_posix() == "document/other/organizacao" and p.name in consolidacoes
+            or categoria == "workflow_inativo" and caminho == "src/fase2/portal-cardioia/.github/workflows/deploy-pages.yml"
+        )
+        assert permitido, "Retirada fora do escopo de apoio: " + caminho
+        assert caminho not in retirados, "Retirada duplicada: " + caminho
+        assert re.fullmatch(r"[0-9a-f]{64}", item["sha256"]), "SHA-256 inválido: " + caminho
+        assert re.fullmatch(r"[0-9a-f]{64}", item["sha256_lf"]), "SHA-256 de texto inválido: " + caminho
+        assert re.fullmatch(r"[0-9a-f]{40}", item["sha_git"]), "Blob Git inválido: " + caminho
+        assert not (raiz / caminho).exists(), "Arquivo retirado ainda presente: " + caminho
+        retirados[caminho] = item
+    return retirados
+
+
 def verificar():
+    retirados = carregar_retirados()
     registro = json.loads((ROOT / "document/other/organizacao/mapa_arquivos.json").read_text(encoding="utf-8"))
     erros = []
     pastas_modelo = {".github", "assets", "config", "document", "scripts", "src"}
@@ -27,6 +57,11 @@ def verificar():
             erros.append("Link externo removido do README: " + url)
     padronizacao = json.loads((ROOT / "document/other/organizacao/mudancas_padronizacao.json").read_text(encoding="utf-8"))
     for item in padronizacao["arquivos"]:
+        if item["depois"] in retirados:
+            arquivo = retirados[item["depois"]]
+            chave = "sha256_lf" if "sha256_lf" in item else "sha256"
+            assert arquivo[chave] == item.get("sha256_lf", item["sha256_antes"]), "Hash do apoio retirado divergente: " + item["depois"]
+            continue
         path = ROOT / item["depois"]
         if not path.is_file():
             erros.append("Renomeação sem destino: " + item["depois"])
@@ -40,6 +75,11 @@ def verificar():
             erros.append("Renomeação com conteúdo alterado: " + item["depois"])
     integros = 0
     for item in registro["arquivos"]:
+        if item["depois"] in retirados:
+            arquivo = retirados[item["depois"]]
+            chave = "sha256_lf" if "sha256_lf" in item else "sha256"
+            assert arquivo[chave] == item.get("sha256_lf", item["sha256_antes"]), "Hash do apoio retirado divergente: " + item["depois"]
+            continue
         p = ROOT / item["depois"]
         if not p.is_file():
             erros.append("Ausente: " + item["depois"])
@@ -82,7 +122,9 @@ def verificar():
             links += 1
     if erros:
         raise AssertionError("\n".join(erros))
-    print(f"Conferi {len(registro['arquivos'])} destinos, {integros} conteúdos preservados e {links} links locais.")
+    atuais = sum(item["depois"] not in retirados for item in registro["arquivos"])
+    print(f"Conferimos {atuais} destinos atuais, {integros} conteúdos preservados e {links} links locais; "
+          f"{len(retirados)} arquivos de apoio retirados com recuperação registrada.")
 
 
 if __name__ == "__main__":
