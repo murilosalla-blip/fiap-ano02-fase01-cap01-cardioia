@@ -1,6 +1,6 @@
 # Nosso painel Node-RED
 
-Implementamos o dashboard da terceira entrega com Node-RED 5.0.9 e FlowFuse Dashboard 1.34.0. Mantivemos o consumidor Python da segunda entrega responsável por persistir as leituras e publicar os ACKs. No painel, assino telemetria, estado e confirmação do mesmo ESP32.
+Implementamos o dashboard da terceira entrega com Node-RED 5.0.9 e FlowFuse Dashboard 1.34.0. Mantivemos o consumidor Python da segunda entrega responsável por persistir as leituras e publicar os ACKs. No painel, assinamos telemetria, estado e confirmação do mesmo ESP32.
 
 ## Como reproduzir
 
@@ -43,7 +43,7 @@ Incluímos leituras antigas no histórico, mas suspendemos a avaliação atual d
 
 ## Como manter e importar o fluxo
 
-Preparamos para versionamento `flows.json`, `painel.vue`, `monitor.js`, `settings.js`, os requisitos npm e o arquivo de versões travadas `package-lock.json`. Após editar o template ou a montagem do fluxo, regenero o export:
+Preparamos para versionamento `flows.json`, `painel.vue`, `monitor.js`, `settings.js`, os requisitos npm e o arquivo de versões travadas `package-lock.json`. Após editar o template ou a montagem do fluxo, regenerar o export:
 
 ```powershell
 node .\src\fase3\node-red\gerar_fluxo.js

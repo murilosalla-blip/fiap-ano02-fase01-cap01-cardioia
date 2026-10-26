@@ -8,7 +8,7 @@ Organizamos os documentos exigidos pelas atividades dentro de `document/fase1/`,
 |---|---|---|---|
 | 1 | [README e fontes](fase1/README.md), guias numérico, textual e visual na mesma pasta | [Documento da Fase 1 — cinco páginas](fase1/cardioia_fase1_entrega_fiap.pdf) | Preservamos o documento da entrega anterior |
 | 2 | [README e reprodução](fase2/README.md), [checklist](fase2/CHECKLIST_ENUNCIADO.md), [relatório de apoio](fase2/RELATORIO_ENTREGA.md) | [Documento de submissão da Fase 2 — seis páginas](fase2/CardioIA_Fase2_Documento_de_Submissao.pdf) | Preservamos o documento consolidado da entrega anterior |
-| 3 | [README e reprodução](fase3/README.md), [matriz de requisitos](fase3/CHECKLIST_ENUNCIADO.md), [roteiro](fase3/ROTEIRO_ENTREGA.md) | Relatório Edge ≥1 página; MQTT/dashboard ≥2 páginas; REST/e-mail 1–2 páginas; comparação de modelos 2 páginas | **Ainda precisamos produzir os quatro relatórios e concluir os desafios** |
+| 3 | [README e reprodução](fase3/README.md), [matriz de requisitos](fase3/CHECKLIST_ENUNCIADO.md), [roteiro](fase3/ROTEIRO_ENTREGA.md) | [Edge — duas páginas](fase3/CardioIA_Fase3_Relatorio_Edge.pdf); [MQTT/dashboard — três páginas](fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf); REST/e-mail 1–2 páginas; comparação de modelos 2 páginas | Produzimos e conferimos os dois relatórios obrigatórios; aguardamos revisão do grupo. Os dois relatórios Ir Além e os desafios continuam pendentes |
 
 O [AI Project Document](ai_project_document_fiap.md) apresenta a evolução consolidada. O [README raiz](../README.md) identifica o grupo, explica as fases, mantém os links públicos e orienta a execução.
 

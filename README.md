@@ -30,7 +30,7 @@
 
 Desenvolvemos o **CardioIA** como projeto acadêmico da FIAP ao longo de 7 fases. Na **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"**, reunimos dados numéricos, textuais e visuais. Na **Fase 2 — Machine Learning**, desenvolvemos extração de sintomas, classificação textual com TF-IDF, portal React e experimentos tabulares e visuais. Na **Fase 3 — Monitoramento Contínuo: IoT na Saúde**, acrescentamos captura simulada com ESP32, resiliência offline, transmissão MQTT e visualização no Node-RED, mantendo a evolução das entregas anteriores.
 
-Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Ainda precisamos concluir os relatórios obrigatórios, o cliente REST com e-mail simulado e a comparação entre classificador tradicional e modelo neuromórfico, incluindo seus documentos e vídeo.
+Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Produzimos os relatórios obrigatórios de Edge e MQTT/dashboard. Ainda precisamos concluir o cliente REST com e-mail simulado e a comparação entre classificador tradicional e modelo neuromórfico, incluindo seus documentos e vídeo.
 
 > **Uso exclusivamente educacional.** Não realizamos diagnóstico, não estimamos risco clínico real e não substituímos avaliação médica.
 
@@ -125,7 +125,7 @@ Reutilizamos o mesmo circuito nos dois projetos Wokwi, com firmwares diferentes.
 
 **Evidências:** [Testes Edge](document/other/fase3/evidencias/2026-10-24/RESULTADOS.md), [testes MQTT](document/other/fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md) e [validação do painel](document/other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md)
 
-**Situação da entrega:** validamos as implementações de sensores, fila offline, MQTT e Node-RED. Ainda precisamos produzir o relatório Edge de **no mínimo uma página** e o relatório MQTT/dashboard de **no mínimo duas páginas**. Os registros de testes e capturas apoiam esses documentos, mas não substituem os relatórios exigidos.
+**Situação da entrega:** validamos sensores, fila offline, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](document/fase3/CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de três páginas](document/fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), atendendo aos mínimos de uma e duas páginas. Conferimos conteúdo e paginação e aguardamos a revisão final do grupo. Os desafios Ir Além e a submissão continuam pendentes.
 
 Incluímos no escopo os dois desafios **Ir Além**, ainda pendentes:
 
@@ -312,6 +312,8 @@ Consolidamos as entregas de cada dia em um único registro, atualizado com os av
 - **07/10/2026 — Fase 2:** concluímos a documentação da entrega e disponibilizamos o vídeo demonstrando a atividade obrigatória e os dois desafios Ir Além.
 - **24/10/2026 — Fase 3:** implementamos e validamos sensores no ESP32, fila offline, recuperação, transmissão MQTT, persistência e painel Node-RED; organizamos os materiais das três fases nas pastas oficiais da FIAP, preservando as entregas anteriores.
 - **25/10/2026 — Continuidade do projeto:** preservamos os fechamentos das Fases 1 e 2 em repositórios próprios e dedicamos este à evolução da Fase 3; consolidamos a apresentação das três fases, os guias de reprodução, os documentos e as evidências, com os entregáveis pendentes identificados; higienizamos os materiais de apoio e corrigimos os textos, preservando dados, código e evidências necessárias à reprodução.
+
+- **26/10/2026 — Fase 3:** reavaliamos o enunciado e os critérios de entrega; produzimos e revisamos os relatórios obrigatórios de Edge e MQTT/dashboard, com funcionamento, configuração, evidências, limites e instruções de reprodução.
 
 ## 📋 Licença
 
