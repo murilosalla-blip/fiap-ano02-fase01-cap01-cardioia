@@ -4,7 +4,7 @@ Este diretório recebe as saídas reproduzíveis dos três experimentos independ
 
 ## Classificador textual obrigatório
 
-Base: 120 frases simuladas, balanceadas entre alto e baixamos risco e pareadas por sexo.
+Base: 120 frases simuladas, balanceadas entre alto e baixo risco e pareadas por sexo.
 
 Separação: 96 frases de treino e 24 de teste, agrupadas por `id_cenario`. Nenhum cenário aparece nos dois conjuntos.
 

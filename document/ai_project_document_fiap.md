@@ -8,7 +8,7 @@
 
 ## 1. Introdução
 
-Desenvolvemos o CardioIA como projeto acadêmico para estudar dados cardiovasculares, modelos de IA e integração IoT. Organizamos a evolução por fase e preservamos as evidências de cada entrega. Uso dados públicos, bases textuais simuladas e sensores simulados; não interpretamos os resultados como diagnóstico ou validação clínica.
+Desenvolvemos o CardioIA como projeto acadêmico para estudar dados cardiovasculares, modelos de IA e integração IoT. Organizamos a evolução por fase e preservamos as evidências de cada entrega. Usamos dados públicos, bases textuais simuladas e sensores simulados; não interpretamos os resultados como diagnóstico ou validação clínica.
 
 ## 2. Visão geral
 

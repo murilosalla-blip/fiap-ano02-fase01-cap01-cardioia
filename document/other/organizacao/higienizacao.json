@@ -1,0 +1,448 @@
+{
+  "commit_recuperacao": "ba328f487bd99cd844834161b0ee30fad10a13e9",
+  "repositorio_recuperacao": "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia",
+  "descricao": "Retiramos apenas materiais de estudo, entradas substituídas e registros intermediários. Preservamos dados, programas, documentos de entrega e evidências finais. Recuperamos os arquivos pelo commit e caminho registrados.",
+  "retirados": [
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/01_atual.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "890e4d81380894e0e953f7afc276ea2240fb1a7c5e4ded3d040f9df1d08b6bdd",
+      "sha256_lf": "d462f8c7c5bdfa9398d07bb945b2649e89008fe134d6fc712f7f93d717c5dbbc",
+      "sha_git": "d1e8244218b5bc7c4903e878d9e156ffa98b62ea"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/02_reenvio.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "03a10e457421150034d5c8eb11fe82237a185a330d977cd55b7aa5ceb708d0bf",
+      "sha256_lf": "dd6a1c75de7ca7950864aff518a44f35744e5276bcaca895c594f0549b00c434",
+      "sha_git": "8e66eda2bb69f3633a58bf2b8d6b1ffe8c066f09"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/03_invalida.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "390b17be894c8fe51662d1061bd02e01e789eb526513e0c6587c52beb7e21eec",
+      "sha256_lf": "731b127ed01eac9452ee32d19629ad95b09e179f10f2094d82902e6bae49ca75",
+      "sha_git": "27554f553b0416616d7732cc2d102db741398e1b"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/04_primeiro_limiar.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "6b1af9615b42e16c58a16806fde5851b7c9226218c5fdf4358e3813a57802719",
+      "sha256_lf": "2598e50eb7a377d730e4b52dc86cb451ded54af6df899ddd27aee40b66606da1",
+      "sha_git": "4700eca637c962ae19856c2cf8b44865a503b251"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/05_alerta_confirmado.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "d0e51667bd880a05297ba418c50518fd960e1e7253b9f32e52d9c1f73b0406ed",
+      "sha256_lf": "6e3ca3407ecc9b2311db38beec58950b43cb7389ab5ec87798f4dbbed06a97db",
+      "sha_git": "5983a3795aea655083b0dac28f90236610d2e6d6"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/06_permanencia.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "046b32d44a5401e8eb6525809e3a1d7c2098df24e6e6086e48772469973a1eec",
+      "sha256_lf": "01f123892e9f5ba569b6b2109fbe49d4032ea8c16e9efb62eb11c9c0061e233b",
+      "sha_git": "1fe1386418d2349c632c27529279418be71b29d9"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/07_recuperada.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "d8785e0c0915a1b27f10c31f27d9a7fa6b731845f3dd19ee65ed79858d45e7e9",
+      "sha256_lf": "734b067e4f6235a998c999e1de305c88b46ef90b06c1226d8c8bf9d4c91f25e1",
+      "sha_git": "2735a78190f608e3e7b957e354b861427bca23f7"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/08_saida_alerta.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "6300f3530db81cf4f3bc08dc4ae5dfbfd328366ad47ae8f04bb42d53a626783f",
+      "sha256_lf": "d9bf450e1cc4ff4a7e282397e5aec186118c56a192832fb38e23d07ca43da412",
+      "sha_git": "075858564fe3a3f933c55adece61454e42195edb"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/09_sensor_indisponivel.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "dd57f181d75e017cbf718f5705d562d89a310de6dbafd5fee2550e43dc7318e3",
+      "sha256_lf": "53e37f1458cc09508802b9be196a79db51016ce1355a99c2f21156e86974b7e7",
+      "sha_git": "770b65d55d6525c4ee0780581f3574031af02831"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/10_offline.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "1670738c366508492820ea4d8dd34b3bc9d6ce4f7a0231dd9e2e6d1345acdc18",
+      "sha256_lf": "0b4db20ff55c06cd7190264fbbda51b52f253d3be2942c13bf489bdce37b3784",
+      "sha_git": "7c3914223da222f098aa827be686e9ea0f4985ee"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/11_reconectado.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "6202de2415e78b9704409a604b6cee9eefdd13c2ea09bad00b9ff8629ab29412",
+      "sha256_lf": "aed415866b786bc2dd6213820e4a5966926dd480b40570746e225f728a5a2a36",
+      "sha_git": "a6fad8049930bd2ed85d37c581cbee2223e1bb16"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/12_sem_dados_recentes.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "8079146b678d9fc924f722df01e265f5744966dff01bb9879c60d3fc78b41813",
+      "sha256_lf": "bf0fc53b333c0dc8ef00d2db88d42387ea48ab229bdcb8e7d9497208bbb2ef91",
+      "sha_git": "daa9938e0816ae581f972d7b78f001d356030ffa"
+    },
+    {
+      "caminho": "document/other/fase3/evidencias/2026-10-24/dashboard/teste_rede/resultado.json",
+      "categoria": "ensaio_substituido",
+      "sha256": "a7ec92a24997fa97eee36710422448fb412c8de1ed7c5239060e1467f3f7ea00",
+      "sha256_lf": "7998fa6316171b17292f6d2dea3efc917920bde17859f2d4725f2c931bbaaadf",
+      "sha_git": "84d64215557ebd0b0e857d9334085805230e26ae"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase2/README.md",
+      "categoria": "entrada_transitoria",
+      "sha256": "05afe89352b9709fe2b199be04804314f11ab467ae497db45ea88f9275b2840f",
+      "sha256_lf": "05afe89352b9709fe2b199be04804314f11ab467ae497db45ea88f9275b2840f",
+      "sha_git": "4fcbe4d1febab11329d74258c4a091d4f23ec800"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase2/app.py.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "a76dbad64bc33b4c00d02a3305f9f3971c185fda5df6a50dfb772be0a4d4c2f3",
+      "sha256_lf": "a76dbad64bc33b4c00d02a3305f9f3971c185fda5df6a50dfb772be0a4d4c2f3",
+      "sha_git": "73a7dcd8e8043bc3a80a9ccd55cc116e991f3ba4"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase2/requirements-visual.txt.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "9e1801ce3172953a9fbe6f5300bd26bac52ec320919c57d416a61a6913c2946b",
+      "sha256_lf": "9e1801ce3172953a9fbe6f5300bd26bac52ec320919c57d416a61a6913c2946b",
+      "sha_git": "9fa1fa0143efa64946f182881d3ca210a927e818"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase2/requirements.txt.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "24120a8b6f9209a898be71e9316a6384229923ee327ac40a7bd1a99e52be2a9c",
+      "sha256_lf": "24120a8b6f9209a898be71e9316a6384229923ee327ac40a7bd1a99e52be2a9c",
+      "sha_git": "1042982ab5747bf3f61c8caca1d0ad53c0bd5178"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase3/README.md",
+      "categoria": "entrada_transitoria",
+      "sha256": "0a28280a3e4ed9dd3bf677880c5b70923f717441ba10fa281fcf8d9cd393934b",
+      "sha256_lf": "0a28280a3e4ed9dd3bf677880c5b70923f717441ba10fa281fcf8d9cd393934b",
+      "sha_git": "959ff1ae24d01a71aa38a76931a70a2eaa56c633"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase3/node-red/iniciar.js.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "54bdf61dcc749336ab1460a8c5ea1cfb85085b37543b2231280388b58fc437c4",
+      "sha256_lf": "54bdf61dcc749336ab1460a8c5ea1cfb85085b37543b2231280388b58fc437c4",
+      "sha_git": "a691cea15f2fb5fef40618bb3a258ecee8bb8fee"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase3/node-red/monitor.js.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "0e03ff352ce12448fb9953a4ffadb09ce6e3e631cef0e61e5a47c6aba27478bf",
+      "sha256_lf": "0e03ff352ce12448fb9953a4ffadb09ce6e3e631cef0e61e5a47c6aba27478bf",
+      "sha_git": "15e80b3fc45c854e09f45998b66823653177631f"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase3/node-red/package-lock.json.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "cb27c118bbe155260d2c47a65798a51ec5ad6dcd4ae12b2fb3b36b8feff2483a",
+      "sha256_lf": "c0f812cf04efa0b9b7a3ec45a700eec36de26811ed2b332a1a39803608044dbc",
+      "sha_git": "1d327464fcdfffd0a89eb645c9dff46ef252addc"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase3/node-red/package.json.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "836209011d46e1a6e734fb888ce7ccc4b10bcbd5cad378c541f35b73c996621b",
+      "sha256_lf": "ca3183c31b70d56a9fb5e44e0cf1472a88adb42c107eecdfec0d55bbff0ee2e5",
+      "sha_git": "31a28e9eef421ea68f7665910823a77a929c3df7"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase3/node-red/settings.js.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "6ee62ef4d9cb4c9f418256a0a0d4c1a056af4b85e9417ab0ad90f738ae3e9653",
+      "sha256_lf": "6ee62ef4d9cb4c9f418256a0a0d4c1a056af4b85e9417ab0ad90f738ae3e9653",
+      "sha_git": "c66c20c7a774c55b2816f235bdc146ea164922e4"
+    },
+    {
+      "caminho": "document/other/historico/entradas_transitorias/fase3/python/consumidor_mqtt.py.txt",
+      "categoria": "entrada_transitoria",
+      "sha256": "4fc7ef05de07c6649594a253fd29c4e04e1b86b75db02c7547fe03c19b915bbb",
+      "sha256_lf": "4fc7ef05de07c6649594a253fd29c4e04e1b86b75db02c7547fe03c19b915bbb",
+      "sha_git": "539ff95619f61f73d90079c232265bb2bc46166a"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap01 - A Busca de Dados Preparando o Terreno para a Inteligência Cardiológica_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "348c0515732a7c8c860275ef765ccf30714c6234eef5315a1834949e7b1e593b",
+      "sha256_lf": "a84e64e21fe403d8e56811e9c0a9ec7b57f0de1f1585a2f97765bb2df58c51b5",
+      "sha_git": "20f870e2034c1c77f46d1398146b7b04dda395b7"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap02 - RPA Bots que Libertam Humanos_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "e979c0af20a42b56e2b67df9c0a5b767f780aa63d1b80014a50220174caf3cfc",
+      "sha256_lf": "92aed06295d8cd5f5a5bebaa90bba76a57cd0f12314cfb9fa6082eacb000368a",
+      "sha_git": "29aae4cacb730f03c1b2fcaf4824eb9643790d44"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap03 - Computação Neuromórfica Inspirando Máquinas com o Cérebro_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "f57990521d9afd4b8609b7e8bb2c125d66151e971037477e56d723189ab620fa",
+      "sha256_lf": "819d98f77345cc81051d2761b26960358fee610e1489b38e606a05c7384e45f3",
+      "sha_git": "4ab63addcfd56055de7949fc86543f7376760e2c"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap04 - Computação Quântica Quebrando as Barreiras Clássicas_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "fedade0758f6a70ecb9646148463f8583a117350ae0bc66e4f0ac23fd735f5c3",
+      "sha256_lf": "9497e40bb41df36ac45c37cecee57babc73cd0d97d7d7bc85944aca1abbca616",
+      "sha_git": "99e8bb46429b5f0c9ba08ac3eaf7eec53834a46a"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap05 - Frontend Magico Interfaces que Encantam no Mobile_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "e93f4593b5f3c161860ab5b12f420ff3a94d03cb74089b5d6642d4f005806513",
+      "sha256_lf": "3218db784812be27c4f1e9bfca5a563755d23d94a189c46f7c29658713ef2d4a",
+      "sha_git": "36848b1e8eb348b79bb10efdf21458a23bff9380"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap06 - IA Generativa Criatividade Codificada_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "4a66e7f195628ad9a9a93f15fc0cff7fa04c1628f1a4af7ab51f5646f0b7c081",
+      "sha256_lf": "b1a20ba33779a6eb748cd8197aa23efe2351f4982da269a4bda16ae74e0b2d46",
+      "sha_git": "fb3a0d71b1a19ae21f42048f9e02f94858b01256"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap07 - Governança em IA O Cérebro Ético dos Dados_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "787d3a1b0f1ce3b850d53397329fb2d76b8e515eda5db6d75e8796a8ca36207c",
+      "sha256_lf": "d27c42ebd277ca0fcc40a6285a54aac3bae6a9a8b390eb9fd63cc13aeb7c3788",
+      "sha_git": "e4bc8afc21d28d4b979f9420d719b607a9116522"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap08 - IoT Cognitivo Sensores que Falam e Pensam_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "6078958c1055045194708e9e8549d6c7f7b721d259d7c3eafec966f183619e28",
+      "sha256_lf": "aa5a7485eae35ba8da9b88b5a192ac1e45882366f3cc76731d8a3f987cb610c0",
+      "sha_git": "a86d65dcf514d266b2db82e1a290a48aa97a0f4f"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap09 - O Encontro do IoT com a Nuvem_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "0b399b16ebff299c2bc51300809e6a8d55b45f1482227c0b575f0a35f28a38de",
+      "sha256_lf": "dcd34a510dfb48d8d29930446d734711853b7f21ed8e6d27153b3fe49d4a9462",
+      "sha_git": "001c6ee7c9e0d694a69cc9f7c137fe734deb23d6"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap10 - NLP e Chatbots Vozes Digitais que Compreendem_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "2d8ba8bc3c06487e523b8c6fce031dbd50b99234d80d39598fbdec8a0a3ff7fd",
+      "sha256_lf": "2548bff8a61a82a978f0edfe1750820e99216c56286a9c73da2825f92ce86781",
+      "sha_git": "506d4fd0ebee56bb0d5198cf33b896f4ab853126"
+    },
+    {
+      "caminho": "document/other/referencias/fase1/aulas/2TIAOA - Fase 1 - Cap11 - Visão Computacional Máquinas com Olhos e Intuição_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "a59dfbe4a52cb005461321dde533107d06ea2b88b88c95562a421d39a19362c7",
+      "sha256_lf": "8a87512076fc0c39ca572e9ace7d93bec9a72aba298a74395df042cb7f08ef07",
+      "sha_git": "ac11ce79caa186d7637b8594a58db3f18d5a1acf"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap01 - Robôs, Neurônios e Saúde Uma Integração Inovadora pela IA_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "0d4a9ab2a95b6f1b08570f7e43606fa1ddc8100279e2d799258e58db3c042167",
+      "sha256_lf": "4021d2628aa0a6b0c6f50484672f3ed1e9a0078535abdeab0015efe577a4da1b",
+      "sha_git": "494323b25e6d5b15200e6f1aa39c37fdc219824f"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap02 - RPA na Veia Automatizando Arquivos, Redes e Sistemas com Python_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "094567837763a813ab41e60841cd9c68719a3ff0c54fdb60079a3c790a425969",
+      "sha256_lf": "5ba653592a6ba6d733995e223ea7fa9dac5f00251bb30ed7917174f884e2ce25",
+      "sha_git": "753a949b71915bb2571feacdd1e359e6f50c6984"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap03 - Cérebros de Silício Neuromorfismo, Memristores e Simulações Biológicas_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "534ef52532c44571a8e4552b7218191ac8952bbb0926ba347d57d404b4116440",
+      "sha256_lf": "5979f4b8c1ebb6dfec6511e53ad0ef227b0b040ac9193644821805475cc439cb",
+      "sha_git": "eab2c18545744afe83bddfb450205d652ec01fe0"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap04 - Além do Bit Vetores, Qubits e a Lógica da Computação Quântica_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "a95eebbd05c1b51f4db9f5e37cfd44d61ec80061dd23e8aa2470bbbcf0928032",
+      "sha256_lf": "9d46b0f94ebdd0d5e5d245e910b92af074942e65601a6871ed847fe8f4ad4af4",
+      "sha_git": "a654a35b6075cbe9fda5ec7b598868c7f76e28b9"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap05 - Interfaces Inteligentes Conectando IA ao Usuário com React e JWT_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "8460130c040db3093497dff9148f0ab698fa7c0c386221274a38754955a4184b",
+      "sha256_lf": "0f1f6054d24d833df4160769398098b81bc36d09632fd12163cf99e60889f2fe",
+      "sha_git": "138d20895c178dc6d82603596915ef0500242d6a"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap06 - IA Criativa Desvendando o Cérebro das Máquinas que Criam_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "3e38f94faea022d0661f188af86740bee782043ac3599797a5a651c9b0dc5afa",
+      "sha256_lf": "abae6c4b9d67079642bcfc3d55315a75b52d6cb1bb0ccf7dc90e21b0bf7f156f",
+      "sha_git": "9770ea0d4736bfe9cf253901ea74595c7a8bd31f"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap07 - IA Responsável Ética, Sustentabilidade e Regulação na Era dos Dados_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "53a0c3639b252681493d0bb7a0f027cc892bedf54c7877d495c7851ac054d4a6",
+      "sha256_lf": "1b492e59c9092660c8040dc44c753901dcb8b4fc32f274779139ce6a63e51139",
+      "sha_git": "8cff0da9e4c7ddab2abd397b1efd217bf1d2ff95"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap08 - Memória da Máquina Armazenamento Inteligente em Sistemas IoT_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "e4746771fd46820cd03dc672db822b95e005027bf83d566e291e95a5b9752a8e",
+      "sha256_lf": "d433ec9475b6598b68d4dc9480157a9d82826c2d655c46d03e008ea94d9e4be7",
+      "sha_git": "17a8bff591da1cec1fb1e0e0e4eee9112c251075"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap09 - Veja para Crer Dashboards e Insights Visuais com IoT e IA_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "6dfdcb4f379bcb22e9feb08deb5ac58d2f2895b6842c1a33b075682f847cf23e",
+      "sha256_lf": "42dd13091ea57de589e854fd44807eaeeb5e8b70ab70252d4bb300054fa3a4d8",
+      "sha_git": "e0e94f0540763975eab1557debb80c2abfa49daa"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap10 - IA que Entende Processamento de Linguagem Natural Baseado em Regras_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "c0c2a7f173920e57a9aa29c800b20fe1ed021ec4d8151882d96afa4c6f530181",
+      "sha256_lf": "f468e3b2efe49852ef461a8c694936c700add2eadf760daecbde9f3a71921618",
+      "sha_git": "a21286c860868e08be09f0ffaebf27b29a2d2a83"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap11 - NLP no Estilo Clássico Estatística, Vetores e Emoções em Texto_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "086e82fd4a7d580571f393e6bd11d7d3c93234d484022ec507d92e422087fbd8",
+      "sha256_lf": "c68f95e0addefb138d051c194fab132841e0521ec5b07b53c21e54dea85c2fac",
+      "sha_git": "ec0a3e7d661934b7f14579be6818711aad0574ae"
+    },
+    {
+      "caminho": "document/other/referencias/fase2/aulas/2TIAOA - Fase 2 - Cap12 - Máquinas que Enxergam Filtragem Inteligente de Imagens com IA_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "d75d3a2eb3f7d39d71afcf45e9c961da4c17e7e10338be13fedbf8c6d660397d",
+      "sha256_lf": "387cd1195bd6ecf3fce8ad597ca772cca0d986d3606e68b7032043cda95e4989",
+      "sha_git": "15c672a2f7b81252b5733facc23850e70a219bfc"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap01 - CardioIA Conectada IoT e Visualização de Dados para a Saúde Digital_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "af3244288f6414b301a665ddb003f81fd2dfeaadfa4eb8c9ccd0d88b903cdd3c",
+      "sha256_lf": "adfd13eebd7a85f0883718468e83e1c870e15ea6997eba409f6cd6301b26c79c",
+      "sha_git": "72ffc19e53dd23bf39c8519fccd23350c61bf801"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap02 - REST e E-mail como Motores de Processos em RPA_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "87c6e443925e17849f33a4f428e6a52742e2d0b1ec5ad3758855e817416f9063",
+      "sha256_lf": "3dcafb6237dc013b48b5d3282cc77f53625123b9e5f8ea7beebfc11ef43b352e",
+      "sha_git": "013d4beba0916a047dd1945d2844fb845218396c"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap03 - Cérebros de Silício na Era dos Chips Neuromórficos_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "90aba29501b59835bb47ce6523ee83a9d8c862699d4487d9735dbde39f464ee3",
+      "sha256_lf": "76b255b6c2a3c4a6957aa085fd06bef1bec27cf8e1f4f4e973ab6d67dc28d9f4",
+      "sha_git": "5f67e88429f5282d83ef689c1b0a2d2a334ae9fd"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap04 - Computação Quântica Descomplicada Dos Qubits à Revolução da Informação_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "6bae7291894d0f262a538801c690940dfb8a977006c841db339205c3c3a19bf0",
+      "sha256_lf": "8f6365c4299f3c3f20a3fcc99d8cec60626104458d56e08fd37668057d548040",
+      "sha_git": "fa12d7eaead155d6d85d92e4283979aeb1f4b33d"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap05 - CardioIA em Ação Construindo Saúde Inteligente com ReactJS + Vite_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "80c6acb49f87fba023af67fb2677fec99e4354b1101395974f77770086dd9ded",
+      "sha256_lf": "1ee322c5d08457da10d5a70f20a2d8f7306c420d6df089e462a174fe16cd629a",
+      "sha_git": "03db3bfe46f303f54e623c859779d0d6f9be1fd9"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap06 - IA Criativa Explorando o Universo dos Modelos Gerativos Profundos_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "ce2f95c736d33d4529523c1feb71f829c4e8d8f952810225b61b6866089e1aeb",
+      "sha256_lf": "961d4fb9c81d299f7e808813693e738623e1b802556cc6b3793ac3886a8b4a92",
+      "sha_git": "fa2afeb54fe19858ca53d1a9ca738e992880b86e"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap07 - Governança Inteligente Frameworks e Arquiteturas de Dados na Era da IA_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "02377ee9bfa7a166f7a17c893e42194cecba6d60dca6409a15cb78a978e2712e",
+      "sha256_lf": "f41971b34ce9d8495200dbe1c921b8df27dd1b6b309fc7b6e24cd71bf482dc33",
+      "sha_git": "b0567a706989315a60698e998c3a7a10e56b5e26"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap08 - Cloud Computing como Pilar da IoT Moderna_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "501b757168b2e8ba01469ab5f2aea4fc12db39b56fe169cc35419c75b34df75b",
+      "sha256_lf": "d7ec92410cc7ca781dd74f088593bc76aea4c2c63bb391bedf75d62dd46d37a0",
+      "sha_git": "e0411c9b4f1b4e42b426d7e40691823b08f787ef"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap09 - Inteligência na Borda Fog e Edge Computing Transformando a IoT_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "6bcd57c5e9dc7c798a924d226ad6a3305871de8281ec39c333d5ba86c770633f",
+      "sha256_lf": "02d8255716c9a4cc010f7a1178f160d8f0000aff672895414ce9c4f466848a62",
+      "sha_git": "295c4f067765e2f2bd70802153c26174017012d3"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap10 - Linguagem sob Controle Modelos Profundos no NLP_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "7e19f6a9b3ba06422328bae6aa06c98b19dab4f33899afd3d0f6e47adf69b4db",
+      "sha256_lf": "925ddf19986e3b5130686e7847ddc625da14c3beabd2a85c1e4b60cf2afa64f1",
+      "sha_git": "5af9055815f2d4ec5a9bd4d69cc413adab0ebf79"
+    },
+    {
+      "caminho": "document/other/referencias/fase3/aulas/2TIAOA - Fase 3 - Cap11 - Visão que Enxerga Segmentação e Extração de Features em Imagens Digitais_RevFinal.pdf",
+      "categoria": "aulas_pdf",
+      "sha256": "6e54d18548ce26ef077db9deba44cdc782c3394dbb538a16fb46a2aaa941a33d",
+      "sha256_lf": "b30068e45aa8bae4e25b94a2e5d77ae384de53fc99c40adf5bd31c7f55f81197",
+      "sha_git": "db6a36b85b4337490532951178d709faf77fbfa4"
+    },
+    {
+      "caminho": "document/other/organizacao/analise_template_fiap.md",
+      "categoria": "registro_consolidado",
+      "sha256": "581339d60cfecde1091f4e7eda448e6870b9c740e8b0be9488f6e4d3267c9e8d",
+      "sha256_lf": "c1b1f95dfe9107f7c2a96b959c6c3a6396f592d3d8011882867bbcde8bf41d75",
+      "sha_git": "0087214cc049d3e84c4586d8389c9d80a3edf40f"
+    },
+    {
+      "caminho": "document/other/organizacao/PADRONIZACAO_FASES.md",
+      "categoria": "registro_consolidado",
+      "sha256": "aa3b8f1a5cdfb37e4b834bbc06204f565c41ff701b06bbc51c9a45bd4599efb3",
+      "sha256_lf": "966806dd146ccd045377971b29f374c1dc84d6e2beb1e8ef48da0b8874e46a54",
+      "sha_git": "f3be39720c1bdc6dcb29268e54e735e10dbf78ef"
+    },
+    {
+      "caminho": "document/other/organizacao/REVISAO_DOCUMENTACAO.md",
+      "categoria": "registro_consolidado",
+      "sha256": "80dc70789778af61b1bb74b42dc3c24e4d70cbeba317ac9d2c827d89c5200753",
+      "sha256_lf": "d246ed66b6d3bacea86c603be72c12ff3e6daf7e41dfa029d86785d80214974d",
+      "sha_git": "b4106b991f59bb5a41d472270cb2288c25dc0763"
+    },
+    {
+      "caminho": "document/other/organizacao/VALIDACAO.md",
+      "categoria": "registro_consolidado",
+      "sha256": "727b010d53722f273dc17a83a7b2d4edf6acb74f6bcbfa66aaad907e4e75d122",
+      "sha256_lf": "c1c25721f4758b7f19f6de634b3b29cbe78ad56288e37dd4c4d4bab26881fc0a",
+      "sha_git": "4ff0755059b0bbf681ee31f1173719eac80c65a9"
+    },
+    {
+      "caminho": "src/fase2/portal-cardioia/.github/workflows/deploy-pages.yml",
+      "categoria": "workflow_inativo",
+      "sha256": "36329c71ebde6f40d6cd6e2fd3466e759fb405664b615dc346e3ab14a9fdce43",
+      "sha256_lf": "36329c71ebde6f40d6cd6e2fd3466e759fb405664b615dc346e3ab14a9fdce43",
+      "sha_git": "96a44c06273409ffa255cac3712ad84d9933ce74"
+    }
+  ]
+}

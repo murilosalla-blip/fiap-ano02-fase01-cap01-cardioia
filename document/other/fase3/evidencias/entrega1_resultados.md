@@ -1,5 +1,7 @@
 # Evidências da primeira entrega
 
+> Registro histórico da etapa inicial. Preservamos o contexto e os resultados da época; para executar a versão atual, consultar o [guia da Fase 3](../../../fase3/README.md).
+
 Executamos as verificações em 16/10/2026. Salvamos o projeto público em: https://wokwi.com/projects/478054573982428161.
 
 ## Verificação local

@@ -7,7 +7,10 @@ on:
       - "scripts/fase1/**"
       - "config/fase1/**"
       - "assets/fase1/**"
-      - "document/other/organizacao/preservacao_fase1.json"
+      - "document/**"
+      - "README.md"
+      - "scripts/validar_organizacao.py"
+      - "scripts/tests/**"
       - ".github/workflows/fase1-dados.yml"
   pull_request:
     paths:
@@ -15,7 +18,10 @@ on:
       - "scripts/fase1/**"
       - "config/fase1/**"
       - "assets/fase1/**"
-      - "document/other/organizacao/preservacao_fase1.json"
+      - "document/**"
+      - "README.md"
+      - "scripts/validar_organizacao.py"
+      - "scripts/tests/**"
       - ".github/workflows/fase1-dados.yml"
   workflow_dispatch:
 
@@ -39,3 +45,5 @@ jobs:
         run: python scripts/fase1/verificar_preservacao.py
       - name: Conferir estrutura FIAP e links das entregas
         run: python scripts/validar_organizacao.py
+      - name: Testar proteção contra retiradas indevidas
+        run: python -m unittest discover -s scripts/tests -p 'test_*.py' -v

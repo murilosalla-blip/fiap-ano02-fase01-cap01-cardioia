@@ -24,12 +24,11 @@ Preservamos os PDFs anteriores sem reescrever conteúdo, autoria, métricas ou c
 | `fase2/` na raiz | Código em `src/fase2/`, dados/resultados em `assets/fase2/`, requisitos em `config/fase2/` e guias em `document/fase2/` |
 | `portal-cardioia/` na raiz | `src/fase2/portal-cardioia/`; publicação independente preservada |
 
-O [mapa de arquivos](other/organizacao/mapa_arquivos.json) e o [registro da padronização](other/organizacao/PADRONIZACAO_FASES.md) detalham os destinos. Arquivamos versões anteriores em `other/historico/`; elas não substituem o guia de execução atual.
+O [mapa de arquivos](other/organizacao/mapa_arquivos.json) e o [registro consolidado de preservação](other/organizacao/README.md) detalham os destinos e as retiradas de materiais de apoio. Mantemos em `other/historico/fase1/` as cópias originais exigidas pelo verificador; elas não substituem os guias atuais.
 
 ## Referências e registros de apoio
 
-- [Enunciados e materiais de aula por fase](other/referencias/README.md).
-- [Revisão dos enunciados, READMEs e documentos submetidos](other/organizacao/REVISAO_DOCUMENTACAO.md).
+- [Enunciados e fontes utilizadas por fase](other/referencias/README.md).
 - [Organização e verificação de preservação](other/organizacao/README.md).
 - [Evidências dos testes da Fase 3](other/fase3/evidencias/).
 

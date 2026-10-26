@@ -1,6 +1,6 @@
 # Verificação da Fase 1
 
-Conferimos os 223 arquivos originais pelo manifesto e pelos destinos preservados:
+Conferimos o inventário de 223 itens registrado no início da Fase 2, que inclui os 181 arquivos do fechamento da Fase 1. Mantemos 212 arquivos nos destinos locais e identificamos os 11 PDFs de aulas retirados pelo mesmo hash Git original, conforme o [registro de preservação](../../document/other/organizacao/README.md):
 
 ```powershell
 python scripts/fase1/verificar_preservacao.py

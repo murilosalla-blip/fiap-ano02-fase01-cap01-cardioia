@@ -28,7 +28,7 @@ Aceite: dois sensores distintos funcionam; a coleta continua offline; reconexão
 - [x] Implementamos reenvio e deduplicação persistente e testamos o consumidor pelo broker real com publicador Python identificado.
 - [x] Registramos coleta, preparação da tentativa e recebimento separadamente e incluímos indicação de replay.
 - [x] Confirmamos a troca ESP32 → broker → consumidor → ACK no Wokwi. Omitimos o primeiro ACK, conferimos reenvio em três segundos e uma única medição persistida. Registramos os resultados em `evidencias/2026-10-24/mqtt/RESULTADOS.md`.
-- [x] Demonstramos desconexão pela chave, falha controlada de acesso ao endpoint, reconexão, recuperação ordenada e reenvio sem duplicar medições. Conferimos as evidências com `scripts/validar_cenarios_mqtt.py`.
+- [x] Demonstramos desconexão pela chave, falha controlada de acesso ao endpoint, reconexão, recuperação ordenada e reenvio sem duplicar medições. Conferimos as evidências com `scripts/fase3/validar_cenarios_mqtt.py`.
 - [x] Concluímos a validação funcional da segunda entrega no Chrome em 24/10/2026; conferimos 75 medições únicas e a deduplicação no banco. Registramos a revisão em `evidencias/2026-10-24/mqtt/validacao_guiada/RESULTADOS.md`.
 
 Aceite: leituras chegam ao consumidor via MQTT real; falha de publicação ou ausência de confirmação preserva a pendência; mensagens repetidas não duplicam o histórico. Garantias e limites de persistência devem estar documentados.
