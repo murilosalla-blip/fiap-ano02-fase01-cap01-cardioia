@@ -34,7 +34,7 @@ Após testar fila cheia, restaurar a capacidade padrão de 2.000 leituras. Salva
 
 ## Resultados preservados
 
-Concluímos os cenários ampliados em 24/10/2026, incluindo fila cheia, botão segurado e reinício, e restauramos a capacidade padrão. Preservamos os [resultados e logs](../../other/fase3/evidencias/2026-10-24/RESULTADOS.md) e identificamos o [primeiro ensaio](../../other/fase3/evidencias/entrega1_resultados.md) como histórico. O relatório paginado obrigatório permanece pendente na [matriz de requisitos](../CHECKLIST_ENUNCIADO.md).
+Concluímos os cenários ampliados em 24/10/2026, incluindo fila cheia, botão segurado e reinício, e restauramos a capacidade padrão. Preservamos os [resultados e logs](../../other/fase3/evidencias/2026-10-24/RESULTADOS.md) e identificamos o [primeiro ensaio](../../other/fase3/evidencias/entrega1_resultados.md) como histórico. Produzimos o [relatório Edge de duas páginas](../CardioIA_Fase3_Relatorio_Edge.pdf) e conferimos sua paginação. A revisão final do grupo permanece indicada na [matriz de requisitos](../CHECKLIST_ENUNCIADO.md).
 
 ## Referências técnicas
 

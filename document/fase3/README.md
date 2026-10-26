@@ -2,7 +2,7 @@
 
 Implementamos o protótipo ESP32 → MQTT → consumidor SQLite → painel Node-RED. Este guia permite reproduzir coleta, interrupção, recuperação e alertas sem depender do ambiente utilizado pelo grupo.
 
-**Situação em 25/10/2026:** validamos as implementações Edge, MQTT e Node-RED. Os relatórios obrigatórios e os dois desafios Ir Além ainda estão pendentes. A [matriz do enunciado](CHECKLIST_ENUNCIADO.md) relaciona requisitos, evidências e pendências; o [roteiro](ROTEIRO_ENTREGA.md) organiza o trabalho restante. O prazo informado é **04/11/2026, às 23h59**.
+**Situação reavaliada em 26/10/2026:** validamos as implementações Edge, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de três páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), com paginação conferida e revisão final do grupo pendente. Os dois desafios Ir Além ainda estão pendentes. A [matriz do enunciado](CHECKLIST_ENUNCIADO.md) relaciona requisitos, evidências e pendências; o [roteiro](ROTEIRO_ENTREGA.md) organiza o trabalho restante. O prazo informado é **04/11/2026, às 23h59**.
 
 ## Qual Wokwi utilizar
 
@@ -211,4 +211,4 @@ Uma leitura atual exige `age_ms <= 10000`, `backlog_samples == 1`, recebimento l
 
 O inicializador carrega o export e suas dependências. Para importar em outra instância, instalar FlowFuse Dashboard e disponibilizar `monitor.js` por `config/fase3/node-red/settings.js`. O JSON sozinho não inclui essa configuração. Consultar o [guia Node-RED](node-red/README.md).
 
-Os registros Markdown e prints comprovam testes, mas **não substituem os relatórios com mínimos de páginas**. Ainda precisamos produzir os relatórios Edge ≥1 página e MQTT/dashboard ≥2 páginas; implementar o Ir Além 1 com cliente REST, regras, e-mail simulado e relatório de 1–2 páginas; e implementar o Ir Além 2 com comparação tradicional × LIF/FHN, notebook, relatório de duas páginas e vídeo não listado de até quatro minutos no README raiz. O endpoint de consulta do painel não satisfaz esses desafios.
+Os registros Markdown e prints comprovam testes, mas **não substituem os relatórios com mínimos de páginas**. Produzimos os relatórios Edge (duas páginas) e MQTT/dashboard (três páginas), disponíveis no início deste guia. Ainda precisamos implementar o Ir Além 1 com cliente REST, regras, e-mail simulado e relatório de 1–2 páginas; e implementar o Ir Além 2 com comparação tradicional × LIF/FHN, notebook, relatório de duas páginas e vídeo não listado de até quatro minutos no README raiz. O endpoint de consulta do painel não satisfaz esses desafios.

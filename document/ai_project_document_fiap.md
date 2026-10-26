@@ -44,14 +44,14 @@ Na Fase 3, validamos coleta offline, retomada, reenvio, deduplicação, pulsos, 
 
 ## 5. Conclusões e trabalhos futuros
 
-Concluímos a base de dados e os experimentos das Fases 1 e 2 e validamos as três primeiras entregas práticas da Fase 3. Ainda precisamos implementar e validar REST/e-mail, realizar a comparação com modelos neuromórficos e concluir os relatórios e a submissão final. Mantemos o acompanhamento no [roteiro da Fase 3](fase3/ROTEIRO_ENTREGA.md).
+Concluímos a base de dados e os experimentos das Fases 1 e 2 e validamos as três primeiras entregas práticas da Fase 3. Ainda precisamos implementar e validar REST/e-mail, realizar a comparação com modelos neuromórficos e concluir os relatórios dos desafios e a submissão final. Produzimos os relatórios obrigatórios de [Edge](fase3/CardioIA_Fase3_Relatorio_Edge.pdf) e [MQTT/dashboard](fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), com paginação conferida; aguardamos a revisão final do grupo. Mantemos o acompanhamento no [roteiro da Fase 3](fase3/ROTEIRO_ENTREGA.md).
 
 ## 6. Referências
 
 - [Fontes e documentação das modalidades da Fase 1](fase1/README.md).
 - [Referências e limitações dos experimentos da Fase 2](fase2/RELATORIO_ENTREGA.md).
 - [Modelo oficial de repositório FIAP](https://github.com/agodoi/templateFiapVfinal), revisão `50e1e2720637b222357a7ebd1919c38a44af7cd2`.
-- [Enunciados e aulas por fase](other/referencias/README.md).
+- [Enunciados e fontes por fase](other/referencias/README.md).
 
 ## 7. Anexos
 

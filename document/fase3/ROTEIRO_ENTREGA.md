@@ -76,8 +76,9 @@ Aceite: os dois modelos fazem previsões comparáveis em teste separado; execuç
 
 ## Entrega 6 — Fechamento e submissão
 
-- [ ] Vamos produzir relatório Edge de pelo menos uma página.
-- [ ] Vamos produzir relatório MQTT/dashboard de pelo menos duas páginas.
+- [x] Produzimos o [relatório Edge de duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e conferimos sua paginação e renderização.
+- [x] Produzimos o [relatório MQTT/dashboard de três páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) e conferimos sua paginação e renderização.
+- [ ] Vamos concluir a revisão final do grupo dos dois relatórios obrigatórios.
 - [ ] Vamos conferir os relatórios dos dois desafios e sua paginação final.
 - [ ] Vamos consolidar README com instalação, arquitetura, limites, integrantes/RMs e links públicos.
 - [ ] Vamos consolidar checklist requisito → arquivo → evidência → resultado.

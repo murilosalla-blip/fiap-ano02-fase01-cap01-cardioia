@@ -33,7 +33,7 @@ Não interpretamos `publish()==true` como confirmação de armazenamento. Nossa 
 
 Preservamos `collected_uptime_ms` como tempo da coleta relativo à inicialização. Acrescentamos `sent_uptime_ms` como momento de preparar a tentativa, `age_ms` como sua diferença para a coleta e `attempt` como contador de tentativas agendadas. Marcamos `replay=true` quando essa idade excede dez segundos.
 
-No consumidor, registramos `received_at` em UTC e mantemos o primeiro recebimento da medição. Não inventamos um horário UTC de coleta a partir do relógio relativo do ESP32. Uma espera entre preparar a tentativa e transmitimos-la pode aumentar a idade real; no painel Node-RED consideramos também a atualização do fluxo e o estado da conexão para os alertas.
+No consumidor, registramos `received_at` em UTC e mantemos o primeiro recebimento da medição. Não inventamos um horário UTC de coleta a partir do relógio relativo do ESP32. Uma espera entre preparar a tentativa e transmitir a mensagem pode aumentar a idade real; no painel Node-RED consideramos também a atualização do fluxo e o estado da conexão para os alertas.
 
 ## Como executar o consumidor
 
@@ -53,7 +53,7 @@ No Wokwi, usamos o sketch de `src/fase3/firmware/cardioia_mqtt/`, os três arqui
 
 Usamos o DHT22 em GPIO 15, o botão em GPIO 26 e a chave em GPIO 27. A chave à esquerda impede a conexão e mantém a coleta; à direita permite a conexão. No Monitor Serial, podemos enviar:
 
-| Comando | Cenário que preparo |
+| Comando | Cenário que preparamos |
 |---|---|
 | `broker_off` | Mantemos Wi-Fi e direcionamos as tentativas MQTT à porta TCP 1 para provocar falha de acesso ao endpoint |
 | `broker_on` | Restauramos a porta 1883 para reconexão e recuperação das pendências |

@@ -1,6 +1,6 @@
 # Fase 3 — requisitos, evidências e pendências
 
-Acompanhamos separadamente implementação, teste, documentação e submissão. Reavaliamos este checklist em **25/10/2026**, com os textos fornecidos, o enunciado Word arquivado e suas duas imagens. O prazo informado é **04/11/2026, às 23h59**. Os documentos e as evidências de testes abaixo não representam submissão concluída.
+Acompanhamos separadamente implementação, teste, documentação e submissão. Reavaliamos este checklist em **26/10/2026**, com os textos fornecidos, o enunciado Word arquivado e suas duas imagens. O prazo informado é **04/11/2026, às 23h59**. Os documentos e as evidências de testes abaixo não representam submissão concluída.
 
 ## Critérios da atividade obrigatória — 10 pontos
 
@@ -10,7 +10,7 @@ Acompanhamos separadamente implementação, teste, documentação e submissão. 
 | Resiliência offline | 2 | Chave booleana, coleta offline, fila FIFO de 2.000 amostras, sincronização e perdas contabilizadas; [resultados Edge](../other/fase3/evidencias/2026-10-24/RESULTADOS.md) | Validamos recuperação, limite, botão segurado e reinício; documentamos volatilidade da RAM |
 | MQTT e broker | 2 | Firmware `cardioia_mqtt`, broker real, consumidor SQLite e ACK; [resultados MQTT](../other/fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md) | Validamos transmissão, persistência, reenvio e recuperação |
 | Dashboard e alertas | 2 | [Export Node-RED](../../src/fase3/node-red/flows.json), gráfico de BPM, gauge ambiental e alertas; [capturas](../../assets/fase3/evidencias/) e [validação guiada](../other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md) | Validamos gráfico, temperatura, entrada e retorno dos alertas e estabilidade |
-| Documentação clara: código e relatórios | 2 | README e guias de execução, C++ comentado, relatório Edge **≥1 página** e relatório MQTT/dashboard **≥2 páginas** | Revisamos os guias; **os dois relatórios finais continuam pendentes** |
+| Documentação clara: código e relatórios | 2 | README e guias de execução, C++ comentado, relatório Edge **≥1 página** e relatório MQTT/dashboard **≥2 páginas** | Produzimos [Edge: duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e [MQTT/dashboard: três páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf); conferimos paginação e conteúdo; aguardamos revisão final do grupo |
 
 Não atribuímos nota antecipada a esta matriz. A avaliação pertence à FIAP; a implementação testada não dispensa os relatórios ou a entrega na plataforma.
 
@@ -22,16 +22,16 @@ Não atribuímos nota antecipada a esta matriz. A avaliação pertence à FIAP; 
 | Coleta periódica e conectividade booleana | 1 | Firmware e demonstração Serial | Conferimos no Wokwi e salvamos registros em `document/other/fase3/evidencias/` |
 | Resiliência offline e armazenamento limitado | 1–2 | Fila, testes e cenário de recuperação | Testamos o núcleo C++ e conferimos no Wokwi recuperação Serial, fila cheia, botão segurado e reinício; também implementamos MQTT, confirmamos reenvio e recuperação após reiniciar o consumidor |
 | C++ comentado e link Wokwi | 1 | `src/fase3/firmware/cardioia_edge/` e https://wokwi.com/projects/478054573982428161 | Comentamos o código, publicamos o link e reorganizamos o circuito durante nossa revisão |
-| Relatório Edge mínimo uma página | 6 | PDF final | Ainda precisamos concluir |
+| Relatório Edge mínimo uma página | 6 | [Relatório Edge](CardioIA_Fase3_Relatorio_Edge.pdf) | Produzimos duas páginas e conferimos a renderização; revisão final do grupo pendente |
 | Transmissão MQTT e broker | 2 | Firmware compilado, consumidor, eventos de rede e projeto https://wokwi.com/projects/478772789361460225 | Confirmamos a troca real do ESP32 pelo broker, a confirmação após persistência e a recuperação após reiniciar o consumidor; também conferimos falha controlada do endpoint, recuperação ordenada e retorno à fila vazia |
 | Dashboard Node-RED com gráfico, gauge e alerta | 3 | `src/fase3/node-red/flows.json` e `document/other/fase3/evidencias/2026-10-24/dashboard/` | Implementamos e testamos regras, rede e recebimento do ESP32; concluímos a revisão visual guiada com entrada e retorno dos dois alertas |
-| Relatório MQTT/dashboard mínimo duas páginas | 6 | PDF final | Ainda precisamos concluir |
+| Relatório MQTT/dashboard mínimo duas páginas | 6 | [Relatório MQTT/dashboard](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) | Produzimos três páginas e conferimos a renderização; revisão final do grupo pendente |
 | Ir Além 1 cliente REST envia e recebe | 4 | Python e teste HTTP | Ainda precisamos concluir |
 | Ir Além 1 regras de risco e e-mail simulado | 4 | Código, teste e e-mail demonstrativo | Ainda precisamos concluir |
-| Ir Além 1 relatório de uma a duas páginas | 4 | PDF final | Ainda precisamos concluir |
+| Ir Além 1 relatório de uma a duas páginas | 4 | Relatório paginado (PDF planejado) | Ainda precisamos concluir |
 | Ir Além 2 classificador tradicional e LIF/FHN | 5 | Notebook executado e resultados | Ainda precisamos concluir |
 | Ir Além 2 repositório público, código e README | 5–6 | Código da comparação, notebook e reprodução | O repositório já é público; ainda precisamos implementar e publicar os artefatos específicos do desafio |
-| Ir Além 2 relatório comparativo de duas páginas | 5 | PDF final | Ainda precisamos concluir |
+| Ir Além 2 relatório comparativo de duas páginas | 5 | Relatório paginado (PDF planejado) | Ainda precisamos concluir |
 | Ir Além 2 vídeo até quatro minutos não listado | 5 | YouTube e link README | Ainda precisamos concluir |
 | Clareza, organização e revisão de evidências | Todas | Roteiro e pacote final | Estamos acompanhando as evidências |
 
@@ -48,7 +48,9 @@ SPIFFS e hardware físico não são obrigatórios segundo o enunciado fornecido;
 
 ## Aceite antes da submissão
 
-- [ ] Concluir e conferir a paginação dos dois relatórios obrigatórios e dos dois relatórios Ir Além.
+- [x] Produzimos os dois relatórios obrigatórios e conferimos as duas páginas do Edge e as três de MQTT/dashboard.
+- [ ] Concluir a revisão final do grupo dos dois relatórios obrigatórios.
+- [ ] Produzir os dois relatórios Ir Além e conferir sua paginação.
 - [ ] Executar o cliente REST, a simulação de e-mail e os dois modelos comparáveis, preservando suas evidências.
 - [ ] Publicar o vídeo específico do Ir Além 2 e inserir o link no README raiz.
 - [ ] Reproduzir a entrega em cópia nova, incluindo instalação e cenários com resultado esperado.
@@ -56,3 +58,24 @@ SPIFFS e hardware físico não são obrigatórios segundo o enunciado fornecido;
 - [ ] Conferir integrantes/RMs no pacote e cadastro do grupo na plataforma antes do envio. O recorte fornecido da Fase 3 lista apenas um participante; precisamos conferir o cadastro efetivo, sem alterar a identificação coletiva do projeto com base nesse recorte.
 - [ ] Conferir o arquivo correto, enviar pela plataforma com antecedência e reabrir/baixar o arquivo enviado para confirmar o conteúdo. A imagem de orientação avisa que não é possível substituir o arquivo após o fechamento da entrega ou a correção.
 - [ ] Registrar o envio efetivamente confirmado, sem confundir merge no GitHub com submissão na FIAP.
+
+## Resultado da auditoria de 26/10/2026
+
+Relemos o enunciado Word e suas duas imagens, comparamos a estrutura com o modelo oficial FIAP e conferimos a `main` publicada no commit `6fd6aba`. Confirmamos repositório público e aprovação dos quatro workflows nesse commit, incluindo os treinamentos e notebooks da Fase 2. Conferimos os 372 destinos atuais do mapa de organização, 286 conteúdos protegidos, 157 links locais e os seis testes de proteção. Mantemos os 223 itens do inventário anterior: 212 arquivos locais e 11 aulas identificadas pelo hash original no histórico. As 63 retiradas de apoio continuam individualizadas no registro de higienização; mantemos os documentos submetidos, os enunciados, os dados e as evidências funcionais.
+
+Conferimos no código os parâmetros documentados de sensores, fila, MQTT e alertas. Corrigimos trechos remanescentes no singular, uma forma verbal incorreta e a referência a aulas já retiradas. Ampliamos o guia de testes para reunir as verificações Python, Node-RED, os dois núcleos C++, os registros Edge/MQTT e a compilação das duas variantes ESP32. Esses ajustes são documentais; não alteramos os programas ou as evidências.
+
+**Conclusão:** a organização e a implementação obrigatória estão acompanhadas por evidências, mas a entrega acadêmica ainda está incompleta. Após a auditoria, produzimos os dois relatórios obrigatórios e conferimos seu conteúdo, renderização e paginação. Ainda precisamos concluir a revisão final do grupo, os dois desafios e seus relatórios, publicar o vídeo específico e fechar a reprodução e a submissão. Não atribuímos nota antecipada nem marcamos essas pendências como concluídas.
+
+Os dois links Wokwi continuam identificados por finalidade. Nesta auditoria, as consultas automatizadas receberam HTTP 403; esse bloqueio não comprova que os projetos estejam privados ou inválidos. Mantemos pendente a conferência manual em sessão sem autenticação dos projetos, das pastas do Drive, das publicações e dos vídeos. Conferir os acessos novamente no fechamento do pacote final.
+
+## Regras da plataforma para o fechamento
+
+- [ ] Entregar até **04/11/2026 às 23h59**; o enunciado limita a até 70% a nota das atividades entregues nos três dias seguintes ao prazo.
+- [ ] Conferir integrantes e RMs no cadastro efetivo: o recorte arquivado lista somente Murilo, enquanto o repositório identifica três integrantes. O recorte não confirma o cadastro atual.
+- [ ] Conferir o arquivo enviado e seu conteúdo pela plataforma. A orientação informa que não é possível substituí-lo após o fechamento da entrega ou a correção do professor.
+- [ ] Respeitar a orientação de não compartilhar respostas em grupos de WhatsApp, Discord ou Microsoft Teams.
+
+Após a publicação da nota, eventual pedido de revisão deve observar o prazo máximo de 15 dias indicado na orientação arquivada. O merge no GitHub não representa envio à plataforma.
+
+Adotamos PDF como formato planejado para os relatórios; o enunciado fornecido exige paginação, mas não especifica extensão ou tamanho máximo do upload. Conferir os formatos aceitos e os limites efetivos da plataforma antes de montar o pacote final.
