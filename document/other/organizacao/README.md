@@ -41,3 +41,28 @@ python -m unittest discover -s scripts/tests -p 'test_*.py' -v
 Conferimos os arquivos atuais, os hashes protegidos, as saídas históricas dos notebooks e os links locais. As exceções são individuais e limitadas às categorias de apoio registradas; não autorizam retirar dados ou programas. Para as verificações funcionais, seguir os guias de cada fase. Preservar um endereço não comprova suas permissões públicas; conferir esse acesso antes da submissão.
 
 Na conferência de 25/10/2026, comparamos os arquivos antes e depois da higienização: mantivemos byte a byte os 250 arquivos de dados e execução conferidos em `assets`, `config` e `src`, excluindo textos Markdown revisados e o workflow inativo retirado. Reproduzimos os 303 registros da Fase 1 e conferimos as saídas dos quatro notebooks. Aprovamos os testes de NLP, Streamlit, sete testes do portal e seu build, 16 testes Python da Fase 3, 19 do painel, seis de proteção contra retiradas indevidas e os dois executáveis C++ de fila e confirmação MQTT. Conferimos novamente os logs existentes com os validadores Edge e MQTT; isso não representa uma nova simulação manual no Wokwi. Validamos a sintaxe dos quatro workflows e mantivemos os itens e hashes dos três inventários anteriores.
+
+## Revisão das instruções de reprodução - 27/10/2026
+
+Revisamos o README raiz, os guias atuais de cada fase, os guias auxiliares e os três relatórios da Fase 3. Explicitamos pré-requisitos, raiz de execução, preparação do ambiente, terminais separados, endereços, resultados esperados, encerramento e diagnóstico. Preservamos os PDFs submetidos nas fases anteriores e orientamos utilizar os guias atuais para executar a organização atual.
+
+Preparamos uma cópia isolada dos arquivos versionados e das alterações locais em revisão, sem copiar `.venv`, `.tools` ou `node_modules`. Não apresentamos essa cópia como um clone público já atualizado: as mudanças ainda dependem de publicação. Instalamos as dependências novamente. No primeiro caminho, muito aninhado, a instalação de Jupyter falhou com aviso de limite de caminho do Windows. Repetimos em pasta temporária curta e concluímos a instalação. Incluímos essa condição e a orientação de não mover ambientes virtuais no README.
+
+Conferimos nessa reprodução:
+
+- preparação numérica com 303 registros e verificação dos 223 itens inventariados;
+- extração textual, testes NLP, treinamento textual e teste funcional Streamlit;
+- conferência das saídas dos quatro notebooks entregues e reexecução do notebook textual com kernel registrado no ambiente novo, gravando a cópia em `.tools/reproducao/fase2/`;
+- 23 testes Python da Fase 3, incluindo REST por HTTP local, e seis testes de proteção da preservação;
+- instalação npm limpa, sete testes do portal e build concluído;
+- instalação limpa do Node-RED, 19 testes do painel e resposta HTTP 200 no endereço `/dashboard/monitoramento`, usando porta isolada 1889 apenas neste ensaio.
+
+Os logs e ambientes de trabalho ficam em `.tools/reproducao-20261027/` e em pasta temporária local, fora do versionamento. Os resultados desta revisão não representam novos ensaios manuais do Wokwi, nova validação dos links externos, reexecução de TensorFlow/treinamentos visuais ou testes em Linux/macOS. Mantemos as evidências anteriores desses experimentos e identificamos downloads, arquitetura e rede como dependências das instruções correspondentes. Não garantimos a disponibilidade futura de serviços externos nem a nota da avaliação.
+
+Na mesma revisão de 27/10, detalhamos a Fase 3 para reprodução por iniciantes: vocabulário inicial, instalação e download, verificações antes de avançar, terminais A/B, etapas numeradas do circuito e painel, nove passos de REST e conferência final. Mantemos o Ir Além 2 identificado como pendente. Esta ampliação é de instruções; não representa nova execução dos ensaios registrados acima.
+
+Reorganizamos também os três PDFs da Fase 3: Edge com sete passos em duas páginas; MQTT/dashboard com dez passos e preparação em quatro páginas; REST/e-mail com nove passos em duas páginas. Conferimos as oito páginas renderizadas e atualizamos os índices para a paginação atual. Mantivemos os mínimos de uma e duas páginas dos relatórios principais e o limite de uma a duas páginas do Ir Além 1. Os PDFs históricos das fases anteriores não foram reescritos.
+
+Consolidamos a [conferência final de reprodução de 27/10](../fase3/evidencias/2026-10-27/reproducao/RESULTADOS.md): clone com revisão local aplicada, instalações novas, execução Serial, integração MQTT observada, REST completo após reinício e 12 cenários do painel pelo broker real. Registramos expressamente a limitação na repetição integral dos passos visuais do Wokwi. Corrigimos a orientação para aguardar Server now running e Started flows antes de abrir o painel.
+
+Na continuação da mesma revisão, concluímos a repetição visual acompanhada do Wokwi e conferimos 41 medições únicas sem lacunas nem perdas, com entrada/retorno dos dois alertas e recuperação pela chave. A [conferência guiada](../fase3/evidencias/2026-10-27/reproducao/validacao_guiada/RESULTADOS.md) encerra a pendência visual registrada nas tentativas anteriores.

@@ -1,0 +1,244 @@
+{
+  "mode": "live",
+  "connection": "unknown",
+  "broker": "connected",
+  "status": "unknown",
+  "session": "66d5bec5f7007c6a",
+  "current": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "66d5bec5f7007c6a",
+    "sequence": 19,
+    "collected_uptime_ms": 96395,
+    "window_ms": 5000,
+    "temperature_c": 24,
+    "humidity_pct": 40,
+    "pulse_count": 4,
+    "heart_rate_bpm": 48,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 96395,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "tempKnown": true,
+  "alerts": [
+    "Pulsos acima do limite didático"
+  ],
+  "pending": true,
+  "history": [
+    {
+      "sequence": 1,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130061451,
+      "ageMs": 0
+    },
+    {
+      "sequence": 2,
+      "bpm": 288,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130076332,
+      "ageMs": 0
+    },
+    {
+      "sequence": 3,
+      "bpm": 36,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130089303,
+      "ageMs": 0
+    },
+    {
+      "sequence": 4,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130099745,
+      "ageMs": 0
+    },
+    {
+      "sequence": 5,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130111600,
+      "ageMs": 0
+    },
+    {
+      "sequence": 6,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130123144,
+      "ageMs": 0
+    },
+    {
+      "sequence": 7,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130134106,
+      "ageMs": 0
+    },
+    {
+      "sequence": 8,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130152169,
+      "ageMs": 0
+    },
+    {
+      "sequence": 9,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130170900,
+      "ageMs": 0
+    },
+    {
+      "sequence": 10,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130189556,
+      "ageMs": 0
+    },
+    {
+      "sequence": 11,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130209279,
+      "ageMs": 0
+    },
+    {
+      "sequence": 12,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130225900,
+      "ageMs": 0
+    },
+    {
+      "sequence": 13,
+      "bpm": 84,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130242527,
+      "ageMs": 0
+    },
+    {
+      "sequence": 14,
+      "bpm": 192,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130258794,
+      "ageMs": 0
+    },
+    {
+      "sequence": 15,
+      "bpm": 168,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130274118,
+      "ageMs": 0
+    },
+    {
+      "sequence": 16,
+      "bpm": 396,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130291450,
+      "ageMs": 0
+    },
+    {
+      "sequence": 17,
+      "bpm": 432,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130307963,
+      "ageMs": 0
+    },
+    {
+      "sequence": 18,
+      "bpm": 300,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130325100,
+      "ageMs": 0
+    },
+    {
+      "sequence": 19,
+      "bpm": 48,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130454431,
+      "ageMs": 0
+    }
+  ],
+  "events": [
+    {
+      "at": 1793130274118,
+      "kind": "alert",
+      "text": "Pulsos simulados: limite didático ultrapassado."
+    },
+    {
+      "at": 1793130061451,
+      "kind": "info",
+      "text": "Iniciei o acompanhamento de uma nova sessão."
+    },
+    {
+      "at": 1793129911086,
+      "kind": "info",
+      "text": "Iniciei o acompanhamento de uma nova sessão."
+    }
+  ],
+  "last": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "66d5bec5f7007c6a",
+    "sequence": 19,
+    "collected_uptime_ms": 96395,
+    "window_ms": 5000,
+    "temperature_c": 24,
+    "humidity_pct": 40,
+    "pulse_count": 4,
+    "heart_rate_bpm": 48,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 96395,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "lastSequence": 19,
+  "ack": {
+    "sequence": 19,
+    "at": 1793130454673
+  },
+  "ageSeconds": 6,
+  "liveAgeSeconds": 6,
+  "rejected": 0,
+  "duplicates": 0,
+  "totalInChart": 19,
+  "rules": {
+    "pulseEnter": 120,
+    "pulseExit": 108,
+    "tempEnter": 30,
+    "tempExit": 28,
+    "consecutive": 2
+  },
+  "generatedAt": 1793130460592,
+  "testMode": false
+}

@@ -51,4 +51,5 @@ O script não funciona imediatamente após um `git clone`, pois depende do datas
 
 1. baixar o dataset bruto completo em https://data.mendeley.com/datasets/gwbz3fsgp8/2 e extraí-lo localmente;
 2. abrir `src/fase1/preparar_amostra_ecg.py` e ajustar a constante `RAW_DIR` (próxima ao início do arquivo) para apontar para o caminho local onde o dataset foi extraído;
-3. executar `python src/fase1/preparar_amostra_ecg.py`.
+3. seguir a preparação do [guia da Fase 1](../../../../fase1/README.md), criar `.venv` e instalar `config/fase1/requirements.txt`;
+4. executar da raiz `.\.venv\Scripts\python.exe src/fase1/preparar_amostra_ecg.py`. No Linux/macOS, usar `./.venv/bin/python`. Esperar 120 JPG e o manifesto; a operação regrava derivados, portanto utilizar uma cópia de avaliação.

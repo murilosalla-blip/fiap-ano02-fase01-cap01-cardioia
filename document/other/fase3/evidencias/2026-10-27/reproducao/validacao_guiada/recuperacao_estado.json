@@ -1,0 +1,433 @@
+{
+  "mode": "live",
+  "connection": "online",
+  "broker": "connected",
+  "status": "online",
+  "session": "66d5bec5f7007c6a",
+  "current": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "66d5bec5f7007c6a",
+    "sequence": 41,
+    "collected_uptime_ms": 206395,
+    "window_ms": 5000,
+    "temperature_c": 11.19999981,
+    "humidity_pct": 40,
+    "pulse_count": 0,
+    "heart_rate_bpm": 0,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 206395,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "tempKnown": true,
+  "alerts": [],
+  "pending": false,
+  "history": [
+    {
+      "sequence": 1,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130061451,
+      "ageMs": 0
+    },
+    {
+      "sequence": 2,
+      "bpm": 288,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130076332,
+      "ageMs": 0
+    },
+    {
+      "sequence": 3,
+      "bpm": 36,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130089303,
+      "ageMs": 0
+    },
+    {
+      "sequence": 4,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130099745,
+      "ageMs": 0
+    },
+    {
+      "sequence": 5,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130111600,
+      "ageMs": 0
+    },
+    {
+      "sequence": 6,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130123144,
+      "ageMs": 0
+    },
+    {
+      "sequence": 7,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130134106,
+      "ageMs": 0
+    },
+    {
+      "sequence": 8,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130152169,
+      "ageMs": 0
+    },
+    {
+      "sequence": 9,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130170900,
+      "ageMs": 0
+    },
+    {
+      "sequence": 10,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130189556,
+      "ageMs": 0
+    },
+    {
+      "sequence": 11,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130209279,
+      "ageMs": 0
+    },
+    {
+      "sequence": 12,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130225900,
+      "ageMs": 0
+    },
+    {
+      "sequence": 13,
+      "bpm": 84,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130242527,
+      "ageMs": 0
+    },
+    {
+      "sequence": 14,
+      "bpm": 192,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130258794,
+      "ageMs": 0
+    },
+    {
+      "sequence": 15,
+      "bpm": 168,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130274118,
+      "ageMs": 0
+    },
+    {
+      "sequence": 16,
+      "bpm": 396,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130291450,
+      "ageMs": 0
+    },
+    {
+      "sequence": 17,
+      "bpm": 432,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130307963,
+      "ageMs": 0
+    },
+    {
+      "sequence": 18,
+      "bpm": 300,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130325100,
+      "ageMs": 0
+    },
+    {
+      "sequence": 19,
+      "bpm": 48,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130454431,
+      "ageMs": 0
+    },
+    {
+      "sequence": 20,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130478256,
+      "ageMs": 0
+    },
+    {
+      "sequence": 21,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130496980,
+      "ageMs": 0
+    },
+    {
+      "sequence": 22,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130517115,
+      "ageMs": 0
+    },
+    {
+      "sequence": 23,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130537197,
+      "ageMs": 0
+    },
+    {
+      "sequence": 24,
+      "bpm": 0,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793130556066,
+      "ageMs": 0
+    },
+    {
+      "sequence": 25,
+      "bpm": 0,
+      "temperature": 40.90000153,
+      "replay": false,
+      "receivedAt": 1793130574826,
+      "ageMs": 0
+    },
+    {
+      "sequence": 26,
+      "bpm": 0,
+      "temperature": 40.90000153,
+      "replay": false,
+      "receivedAt": 1793130592280,
+      "ageMs": 0
+    },
+    {
+      "sequence": 27,
+      "bpm": 0,
+      "temperature": 40.90000153,
+      "replay": false,
+      "receivedAt": 1793130608546,
+      "ageMs": 0
+    },
+    {
+      "sequence": 28,
+      "bpm": 0,
+      "temperature": 40.90000153,
+      "replay": false,
+      "receivedAt": 1793130625837,
+      "ageMs": 0
+    },
+    {
+      "sequence": 29,
+      "bpm": 0,
+      "temperature": 40.90000153,
+      "replay": false,
+      "receivedAt": 1793130643306,
+      "ageMs": 0
+    },
+    {
+      "sequence": 30,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": false,
+      "receivedAt": 1793130661320,
+      "ageMs": 0
+    },
+    {
+      "sequence": 31,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": false,
+      "receivedAt": 1793130678238,
+      "ageMs": 0
+    },
+    {
+      "sequence": 32,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": false,
+      "receivedAt": 1793130696706,
+      "ageMs": 0
+    },
+    {
+      "sequence": 33,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": false,
+      "receivedAt": 1793130715938,
+      "ageMs": 0
+    },
+    {
+      "sequence": 34,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": false,
+      "receivedAt": 1793130735588,
+      "ageMs": 0
+    },
+    {
+      "sequence": 35,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": true,
+      "receivedAt": 1793130804167,
+      "ageMs": 19248
+    },
+    {
+      "sequence": 36,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": true,
+      "receivedAt": 1793130805549,
+      "ageMs": 14532
+    },
+    {
+      "sequence": 37,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": true,
+      "receivedAt": 1793130806856,
+      "ageMs": 9828
+    },
+    {
+      "sequence": 38,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": true,
+      "receivedAt": 1793130808232,
+      "ageMs": 5063
+    },
+    {
+      "sequence": 39,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": false,
+      "receivedAt": 1793130809639,
+      "ageMs": 329
+    },
+    {
+      "sequence": 40,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": false,
+      "receivedAt": 1793130826675,
+      "ageMs": 0
+    },
+    {
+      "sequence": 41,
+      "bpm": 0,
+      "temperature": 11.19999981,
+      "replay": false,
+      "receivedAt": 1793130845441,
+      "ageMs": 0
+    }
+  ],
+  "events": [
+    {
+      "at": 1793130678238,
+      "kind": "resolved",
+      "text": "Temperatura ambiente: retorno à faixa definida."
+    },
+    {
+      "at": 1793130592280,
+      "kind": "alert",
+      "text": "Temperatura ambiente: limite didático ultrapassado."
+    },
+    {
+      "at": 1793130478256,
+      "kind": "resolved",
+      "text": "Pulsos simulados: retorno à faixa definida."
+    },
+    {
+      "at": 1793130274118,
+      "kind": "alert",
+      "text": "Pulsos simulados: limite didático ultrapassado."
+    },
+    {
+      "at": 1793130061451,
+      "kind": "info",
+      "text": "Iniciei o acompanhamento de uma nova sessão."
+    },
+    {
+      "at": 1793129911086,
+      "kind": "info",
+      "text": "Iniciei o acompanhamento de uma nova sessão."
+    }
+  ],
+  "last": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "66d5bec5f7007c6a",
+    "sequence": 41,
+    "collected_uptime_ms": 206395,
+    "window_ms": 5000,
+    "temperature_c": 11.19999981,
+    "humidity_pct": 40,
+    "pulse_count": 0,
+    "heart_rate_bpm": 0,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 206395,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "lastSequence": 41,
+  "ack": {
+    "sequence": 41,
+    "at": 1793130845674
+  },
+  "ageSeconds": 0,
+  "liveAgeSeconds": 0,
+  "rejected": 0,
+  "duplicates": 0,
+  "totalInChart": 41,
+  "rules": {
+    "pulseEnter": 120,
+    "pulseExit": 108,
+    "tempEnter": 30,
+    "tempExit": 28,
+    "consecutive": 2
+  },
+  "generatedAt": 1793130845969,
+  "testMode": false
+}

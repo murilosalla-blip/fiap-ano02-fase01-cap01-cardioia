@@ -11,7 +11,7 @@ $env:CARDIOIA_PYTHON = (Resolve-Path .\.venv\Scripts\python.exe).Path
 node scripts/fase3/iniciar_dashboard.js --com-consumidor
 ```
 
-Abrir o [painel](http://127.0.0.1:1880/dashboard/monitoramento) e utilizar o [Wokwi MQTT da Parte 2](https://wokwi.com/projects/478772789361460225). O projeto Serial da Parte 1 não alimenta o painel. Manter o terminal aberto e encerrar com Ctrl+C.
+Aguardar `Server now running` e `Started flows` no terminal; a linha inicial com o endereço antecede a conclusão do carregamento. Abrir o [painel](http://127.0.0.1:1880/dashboard/monitoramento) e utilizar o [Wokwi MQTT da Parte 2](https://wokwi.com/projects/478772789361460225). O projeto Serial da Parte 1 não alimenta o painel. Manter o terminal aberto e encerrar com Ctrl+C.
 
 O comando inicia um consumidor. Se já houver um consumidor em outro terminal, iniciar apenas o painel, sem `--com-consumidor`. Não manter consumidores concorrentes no teste de ACK omitido. O guia principal apresenta os comandos completos para Windows e Linux/macOS.
 
@@ -74,8 +74,10 @@ node .\scripts\fase3\iniciar_dashboard.js
 Em outro terminal, com as dependências Python disponíveis, executamos:
 
 ```powershell
-python scripts/fase3/testar_dashboard_mqtt.py --topico cardioia/aura/fase3/dashboard-test/meu-ensaio --saida .tools/runtime/fase3/teste-dashboard
+.\.venv\Scripts\python.exe scripts/fase3/testar_dashboard_mqtt.py --topico cardioia/aura/fase3/dashboard-test/meu-ensaio --saida .tools/runtime/fase3/teste-dashboard
 ```
+
+Ao encerrar o ensaio, pressionar Ctrl+C no terminal do servidor e fechar os terminais de teste para não reutilizar `CARDIOIA_PORT` e `CARDIOIA_TOPIC_ROOT` na demonstração principal.
 
 Usamos diretório de execução e tópicos separados para não misturar esse ensaio com as medições do Wokwi. Não mantivemos o inicializador do consumidor integrado no modo de ensaio.
 

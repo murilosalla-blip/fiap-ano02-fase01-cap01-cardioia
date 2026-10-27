@@ -35,6 +35,8 @@ Preservamos `collected_uptime_ms` como tempo da coleta relativo à inicializaç�
 
 No consumidor, registramos `received_at` em UTC e mantemos o primeiro recebimento da medição. Não inventamos um horário UTC de coleta a partir do relógio relativo do ESP32. Uma espera entre preparar a tentativa e transmitir a mensagem pode aumentar a idade real; no painel Node-RED consideramos também a atualização do fluxo e o estado da conexão para os alertas.
 
+Antes dos comandos, concluir a [preparação da Fase 3](../README.md#como-reproduzir--preparação), incluindo criação de `.venv` e instalação das dependências. Executar na raiz do repositório. Cada terminal novo precisa entrar nessa mesma pasta; o terminal do servidor permanece aberto durante os testes.
+
 ## Como executar o consumidor
 
 O [guia principal](../README.md) apresenta a instalação, a inicialização integrada e os resultados esperados. Para executar somente o consumidor, da raiz e com `.venv` preparado:

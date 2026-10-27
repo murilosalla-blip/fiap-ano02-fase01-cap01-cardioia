@@ -1,0 +1,21 @@
+{
+  "session_id": "66d5bec5f7007c6a",
+  "samples": 41,
+  "first_sequence": 1,
+  "last_sequence": 41,
+  "gaps": [],
+  "dropped_total": 0,
+  "stored_in_order": true,
+  "recovered_sequences": [
+    35,
+    36,
+    37,
+    38
+  ],
+  "replay_true": [
+    35,
+    36
+  ],
+  "serial_queue_empty_at": 39,
+  "result": "aprovado_na_validacao_acompanhada"
+}

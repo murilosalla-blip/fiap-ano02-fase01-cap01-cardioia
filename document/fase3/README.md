@@ -2,7 +2,7 @@
 
 Implementamos o protótipo ESP32 → MQTT → consumidor SQLite → painel Node-RED. Este guia permite reproduzir coleta, interrupção, recuperação e alertas sem depender do ambiente utilizado pelo grupo.
 
-**Situação reavaliada em 26/10/2026:** validamos as implementações Edge, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de três páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), com paginação conferida e revisão final do grupo pendente. Os dois desafios Ir Além ainda estão pendentes. A [matriz do enunciado](CHECKLIST_ENUNCIADO.md) relaciona requisitos, evidências e pendências; o [roteiro](ROTEIRO_ENTREGA.md) organiza o trabalho restante. O prazo informado é **04/11/2026, às 23h59**.
+**Situação reavaliada em 27/10/2026:** validamos as implementações Edge, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de quatro páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), com paginação conferida e revisão final do grupo pendente. Implementamos e testamos localmente o [Ir Além 1 REST](rest/README.md); concluímos sua validação guiada e produzimos o [relatório de duas páginas](CardioIA_Fase3_Relatorio_REST_Email.pdf), com revisão final pendente. O Ir Além 2 permanece pendente. A [matriz do enunciado](CHECKLIST_ENUNCIADO.md) relaciona requisitos, evidências e pendências; o [roteiro](ROTEIRO_ENTREGA.md) organiza o trabalho restante. O prazo informado é **04/11/2026, às 23h59**.
 
 ## Qual Wokwi utilizar
 
@@ -19,45 +19,141 @@ O DHT22 conta como **um sensor**, apesar de fornecer temperatura e umidade. Util
 
 ## Como reproduzir — preparação
 
-Pré-requisitos: Git, Python **3.12**, Node.js **24** com npm, navegador e internet. A conexão MQTT utiliza TCP **1883**. Não é necessário hardware físico, conta paga, chave de API ou Grafana.
+### Passo 1 — Entender o que vamos abrir
 
-Para obter uma cópia nova, executar no PowerShell:
+- **Navegador:** Chrome ou outro navegador para visualizar o circuito no Wokwi e o painel.
+- **PowerShell:** janela do Windows onde colamos comandos. Abrir o menu Iniciar, digitar `PowerShell` e abrir o aplicativo. Não é necessário executar como administrador.
+- **Pasta raiz:** pasta que contém `README.md`, `src`, `config`, `assets` e `document`.
+- **Ambiente `.venv`:** pasta criada pelo Python para guardar as dependências deste projeto.
+- **Servidor:** programa que permanece aberto para responder ao navegador ou a outro programa. Quando ele está rodando, o terminal pode não voltar ao prompt; isso é esperado.
+- **MQTT e broker:** MQTT é a forma de enviar mensagens do circuito; o broker é o serviço intermediário que as distribui. O projeto já configura esse serviço.
+- **Consumidor e ACK:** o consumidor recebe e grava as leituras; ACK é a confirmação de que uma leitura foi gravada.
+- **API REST:** serviço consultado por endereços HTTP. Neste projeto, enviamos e consultamos dados com um cliente Python.
+- **JSON:** texto com campos entre chaves, usado para transportar os dados. Ver JSON no teste REST é o resultado esperado, não um erro.
+
+**Ordem da demonstração:** preparar o computador → testar o circuito Serial → iniciar o painel → testar MQTT e sensores → testar interrupção → encerrar → testar REST e e-mail. O Ir Além 2 ainda não possui implementação executável; não considerar essa parte concluída.
+
+### Passo 2 — Instalar e conferir os programas
+
+1. Baixar e instalar [Git para Windows](https://git-scm.com/install/windows).
+2. Baixar Python **3.12** pela [página oficial para Windows](https://www.python.org/downloads/windows/). Conferir a versão: não escolher outra apenas por aparecer como mais recente. Usar instalador completo, não o pacote embutido (*embeddable*). Se o instalador oferecer adicionar Python ao PATH, marcar essa opção.
+3. Baixar [Node.js](https://nodejs.org/en/download), selecionar a versão **24**, Windows e o instalador correspondente ao computador. Manter a instalação do npm incluída.
+4. Fechar e abrir novamente o PowerShell depois das instalações.
+5. Executar **uma linha por vez**, pressionando Enter após cada uma:
+
+```powershell
+git --version
+python --version
+node --version
+npm.cmd --version
+```
+
+- **Esperado:** versões do Git e npm, Python `3.12.x` e Node `v24.x`.
+- **Se falhar:** não continuar. Se apenas `python` falhar, testar `py -3.12 --version`. Se funcionar, usar `py -3.12` no comando de criação do ambiente do passo 4. Se nenhuma opção funcionar, revisar a instalação com a mensagem de erro.
+- **Por que `npm.cmd`:** evita que o PowerShell tente executar um arquivo `.ps1` bloqueado pela política do computador.
+
+### Passo 3 — Baixar o projeto e entrar na pasta
+
+1. Abrir o Explorador de Arquivos e escolher uma pasta curta com permissão de escrita, por exemplo `C:\projetos`. Criar a pasta se necessário. Caminhos muito longos podem impedir a instalação de dependências no Windows.
+2. No PowerShell, entrar na pasta escolhida. O exemplo abaixo pressupõe que `C:\projetos` foi criada; se escolheu outra, substituir o caminho entre aspas:
+
+```powershell
+Set-Location -LiteralPath 'C:\projetos'
+```
+
+3. Baixar o código:
 
 ```powershell
 git clone https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia.git
-Set-Location -LiteralPath './fiap-ano02-fase03-cardioia'
-python --version
-node --version
-npm --version
+```
+
+4. Aguardar o download terminar e entrar na pasta criada:
+
+```powershell
+Set-Location -LiteralPath '.\fiap-ano02-fase03-cardioia'
+```
+
+5. Conferir a localização:
+
+```powershell
+Get-Location
+Test-Path .\README.md
+Test-Path .\src
+```
+
+- **Esperado:** caminho terminando na pasta do projeto e dois resultados `True`.
+- **Se já baixou o projeto:** não repetir o clone. Abrir sua pasta no Explorador, copiar o caminho da barra de endereços e executar `Set-Location -LiteralPath 'caminho copiado'`, substituindo o texto entre aspas. Depois fazer a conferência acima.
+- **Para cada terminal novo:** repetir a entrada na pasta do projeto. O segundo PowerShell não herda automaticamente a pasta do primeiro.
+- **Se o clone disser que a pasta já existe:** usar a cópia existente ou escolher uma pasta nova; não apagar arquivos para forçar o download.
+
+### Passo 4 — Criar o ambiente Python
+
+1. Conferir se o executável já existe:
+
+```powershell
+Test-Path .\.venv\Scripts\python.exe
+```
+
+2. Se o resultado for `False`, criar o ambiente e aguardar o retorno do prompt:
+
+```powershell
 python -m venv .venv
+```
+
+3. Conferir o ambiente, mesmo se ele já existia:
+
+```powershell
+.\.venv\Scripts\python.exe --version
+```
+
+- **Esperado:** `Python 3.12.x`. A criação do ambiente pode terminar sem imprimir mensagem.
+- **Se falhar:** conferir a pasta do passo 3 e a instalação do passo 2. Se o Python global foi identificado por `py -3.12`, criar com `py -3.12 -m venv .venv`.
+- **Não é necessário ativar o ambiente:** os comandos já apontam para o executável correto.
+
+### Passo 5 — Instalar o que o projeto utiliza
+
+1. Instalar as bibliotecas Python:
+
+```powershell
 .\.venv\Scripts\python.exe -m pip install -r config/fase3/requirements-mqtt.txt
-npm ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
 ```
 
-Todos os comandos seguintes partem da **raiz do repositório**, não de `src/fase3/`. Se a cópia e o ambiente já existem, não repetir o clone ou a criação do ambiente. Utilizamos o executável do ambiente diretamente, sem alterar a política de execução do PowerShell.
+2. Somente após terminar sem erro, instalar o painel:
 
-No Linux/macOS:
-
-```bash
-git clone https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia.git
-cd fiap-ano02-fase03-cardioia
-python3.12 -m venv .venv
-./.venv/bin/python -m pip install -r config/fase3/requirements-mqtt.txt
-npm ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
+```powershell
+npm.cmd ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
 ```
 
-Nos demais comandos Python deste guia, substituir `.\.venv\Scripts\python.exe` por `./.venv/bin/python` no Linux/macOS.
+- **Esperado:** instalação concluída e retorno ao prompt. `Requirement already satisfied` significa que a biblioteca já está instalada. Aviso de atualização do pip não exige atualização para seguir.
+- **Se falhar:** não iniciar os serviços. Guardar a mensagem completa e conferir a seção de diagnóstico ao final. Não instalar em outro Python para contornar o erro.
+- **Para testar apenas REST:** a instalação Python é suficiente; Node-RED não é necessário.
+- **Para testar apenas a Parte 1 Serial:** basta navegador e internet; pode ir diretamente à próxima seção.
 
-## Parte 1 — sensores, fila offline e saída Serial
+### Passo 6 — Usar os comandos com segurança de execução
+
+- Copiar somente o conteúdo dos blocos; não copiar `PS C:\...>` nem as marcas de formatação.
+- Executar um comando por vez. Se surgir erro, parar nesse passo e corrigir antes do próximo.
+- Usar os comandos no PowerShell. O código do Wokwi e a caixa do Monitor Serial têm outra finalidade.
+- Quando um servidor estiver rodando, deixar o terminal aberto; usar outro para consultas.
+- Para pedir ajuda a uma IA, enviar: número do passo, comando executado, saída completa e resultado de `Get-Location`. Não pedir para pular o erro ou marcar o teste como aprovado.
+
+### Outros sistemas operacionais
+
+O passo a passo guiado acima foi conferido no Windows. No Linux/macOS, instalar Git, Python 3.12 e Node.js 24 para o sistema; usar `cd` em lugar de `Set-Location`, criar o ambiente com `python3.12 -m venv .venv`, usar `./.venv/bin/python` em lugar de `.\.venv\Scripts\python.exe` e `npm` em lugar de `npm.cmd`. Para selecionar Python no inicializador, usar `export CARDIOIA_PYTHON="$PWD/.venv/bin/python"`. Os comandos específicos do Explorador e `Get-Content` são do Windows. Não afirmamos validação desta revisão nesses outros sistemas.
+
+## Etapa 1 — Ver o circuito funcionar sem o painel
 
 Esta demonstração pode ser avaliada no navegador, sem instalar as dependências do painel.
 
 1. Abrir o [Wokwi da Parte 1](https://wokwi.com/projects/478054573982428161) e dar **Play**.
 2. Conferir no Monitor Serial `CardioIA Edge: saida SERIAL LOCAL, sem MQTT nesta entrega` e `capacidade=2000`.
 3. Mover a chave para a **esquerda**. A cada cinco segundos simulados, observar `# coleta seq=... fila=... perdas=0 resultado=armazenada`. A fila deve crescer mesmo offline. Aguardar pelo menos três coletas.
-4. Pressionar e soltar o botão verde algumas vezes; clicar no DHT22 e alterar a temperatura. A leitura seguinte deve incorporar os valores, mesmo sem conexão.
+4. Pressionar e soltar o botão verde algumas vezes; clicar no DHT22 e alterar a temperatura. A leitura seguinte deve incorporar os valores, mesmo sem conexão; conferir os campos do JSON quando recuperar as pendências no passo 5.
 5. Mover a chave para a **direita**. Conferir a saída dos JSON em ordem de `sequence`, com `transport: serial_demo`, preservando o instante relativo de coleta. A fila deve esvaziar após a escrita Serial.
 6. Voltar à esquerda e repetir: a coleta deve continuar sem reiniciar o ESP32.
+7. Clicar em **Stop** para encerrar esta simulação antes de abrir o projeto MQTT.
+
+**Conferência antes de avançar:** observamos fila crescendo à esquerda e JSONs em ordem à direita. Se não aparecerem mensagens, conferir se o Play está ativo e se a área do Monitor Serial está aberta. Não confundir esse monitor com o editor de código.
 
 Simulamos a nuvem pela saída Serial, como permite a Parte 1. Essa variante não conecta ao broker. Como não utilizamos arquivo SPIFFS, removemos a amostra da fila RAM após a escrita Serial; não existe CSV local a apagar. O enunciado admite a alternativa do Monitor Serial no simulador.
 
@@ -71,11 +167,12 @@ A fila fica em **RAM**: parar ou reiniciar a simulação perde as pendências e 
 
 Validamos o estouro com capacidade reduzida para tornar o ensaio viável, depois restauramos as **2.000 amostras** do firmware entregue. Não é necessário esperar horas para verificar essa política: consultar os [testes do núcleo e cenários](tests/README.md).
 
-## Parte 2 — MQTT e painel
+## Etapa 2 — Ver as leituras no painel MQTT
 
-### 1. Iniciar os serviços locais
+### Passo 1 — Iniciar painel e consumidor no terminal A
 
-No PowerShell, selecionar o Python do ambiente e iniciar painel e consumidor:
+1. Usar o PowerShell que está na raiz e passou pela preparação. Vamos chamá-lo de **terminal A**.
+2. Executar as duas linhas abaixo, uma por vez. A primeira escolhe o Python; a segunda inicia os serviços:
 
 ```powershell
 $env:CARDIOIA_PYTHON = (Resolve-Path .\.venv\Scripts\python.exe).Path
@@ -89,29 +186,41 @@ export CARDIOIA_PYTHON="$PWD/.venv/bin/python"
 node scripts/fase3/iniciar_dashboard.js --com-consumidor
 ```
 
-Manter esse terminal aberto. O inicializador prepara os arquivos locais, inicia o Node-RED e **um consumidor Python**. Não executar outro consumidor no mesmo tópico durante o teste, pois ele poderia confirmar mensagens de um ensaio que pretendia omitir o ACK.
+Aguardar as mensagens `Server now running` e `Started flows` antes de abrir a página. A primeira linha `Painel: ...` apenas informa o endereço e não confirma que o servidor já está pronto; na primeira execução, o carregamento pode demorar. Se a página ainda recusar conexão, conferir o terminal em vez de iniciar outro servidor. Manter esse terminal aberto. O inicializador prepara os arquivos locais, inicia o Node-RED e **um consumidor Python**. Não executar outro consumidor no mesmo tópico durante o teste, pois ele poderia confirmar mensagens de um ensaio que pretendia omitir o ACK.
 
 Abrir o [painel](http://127.0.0.1:1880/dashboard/monitoramento). O [editor Node-RED](http://127.0.0.1:1880/editor/) permite inspecionar o fluxo. Antes de ligar o ESP32, é normal aguardar dados. A conexão com o broker e a atualidade da telemetria têm indicadores separados.
 
-### 2. Ligar o ESP32 correto
+### Passo 2 — Abrir o painel e ligar a simulação
 
-Abrir o [Wokwi MQTT da Parte 2](https://wokwi.com/projects/478772789361460225), dar **Play** e mover a chave para a **direita**. Manter apenas uma instância desse firmware MQTT ativa para esta demonstração.
+1. Confirmar que o painel abriu e manter o terminal A ocupado pelo servidor.
+2. Abrir o [Wokwi MQTT da Parte 2](https://wokwi.com/projects/478772789361460225), dar **Play** e mover a chave para a **direita**. Manter apenas uma instância desse firmware MQTT ativa para esta demonstração.
 
 No Serial, conferir a identificação MQTT, a conexão e os eventos de coleta/publicação. Após a primeira gravação pelo consumidor, deve aparecer `# ack_confirmado seq=... fila=0`, ou uma fila decrescente quando há pendências. O JSON deve conter `transport: mqtt`, `session_id`, `sequence`, `temperature_c`, `pulse_count`, `heart_rate_bpm`, `age_ms` e `attempt`.
 
 O painel deve atualizar leitura, confirmação, gráfico, temperatura e umidade. `# mqtt_publicacao=tentada` sozinho **não comprova gravação**; o ACK confirma que o consumidor terminou a transação SQLite.
 
-### 3. Testar pulsos e gráfico
+### Passo 3 — Produzir pulsos e conferir o gráfico
 
-Pressionar **e soltar** o botão verde ou a tecla **B**. Calculamos `BPM = pulse_count × 60000 / window_ms`: seis pulsos em 5.000 ms representam 72 BPM. Se os acionamentos atravessarem duas janelas, o valor será dividido entre elas; conferir `pulse_count` e `window_ms` no Serial.
+1. Clicar na área da simulação para dar foco ao Wokwi.
+2. Pressionar **e soltar** o botão verde ou a tecla **B**.
+3. Acompanhar a próxima linha de coleta no Monitor Serial e a leitura correspondente no painel.
+
+**Resultado esperado:** o gráfico recebe um ponto com o valor da janela de coleta. Calculamos `BPM = pulse_count × 60000 / window_ms`: seis pulsos em 5.000 ms representam 72 BPM. Se os acionamentos atravessarem duas janelas, o valor será dividido entre elas; conferir `pulse_count` e `window_ms` no Serial.
 
 Segurar o botão conta um único acionamento, não uma sequência automática. Sem pressionar, registramos **zero pulsos simulados**. Isso não significa parada cardíaca e não gera um alerta clínico de ausência de batimentos. O gráfico permanece em zero quando todas as amostras têm zero; isso é um registro válido.
 
 Para conferir o alerta, realizar **mais de dez acionamentos em cada janela de cinco segundos simulados**, por duas coletas atuais consecutivas. O painel deve registrar o limite didático ultrapassado. Depois, reduzir os acionamentos para obter até 108 BPM por duas leituras atuais e conferir o retorno. Acompanhar as coletas no Serial para identificar as janelas.
 
-### 4. Testar temperatura e alerta
+### Passo 4 — Alterar a temperatura e conferir o alerta
 
-Com a simulação em execução, clicar no **DHT22**, alterar para **31 °C** e aguardar duas leituras atuais consecutivas. Conferir a mudança no JSON, na tabela, no gauge e no evento de alerta. Depois, reduzir para **28 °C** e aguardar duas leituras atuais para conferir o retorno.
+1. Deixar a simulação em execução.
+2. Clicar no **DHT22**, o sensor de temperatura e umidade do circuito.
+3. No controle do sensor, ajustar a temperatura para **31 °C**.
+4. Aguardar duas leituras atuais consecutivas. Conferir `temperature_c` no Serial, a temperatura no medidor do painel e o evento de limite ultrapassado.
+5. Ajustar para **28 °C** e aguardar outras duas leituras atuais.
+6. Conferir o evento de retorno à faixa definida.
+
+**Se não mudar:** verificar primeiro se a sequência no Serial continua avançando e se o valor enviado já mudou. Não editar o código para forçar o indicador.
 
 Podemos testar temperatura sem apertar o botão. A umidade também pode ser alterada no DHT22 e deve aparecer no painel, mas não definimos alerta para esse campo. Medimos **temperatura ambiente simulada**, não corporal. O limite >38 °C do enunciado é um exemplo; escolhemos >30 °C para esta demonstração ambiental.
 
@@ -122,11 +231,16 @@ Podemos testar temperatura sem apertar o botão. A umidade também pode ser alte
 
 Contamos leituras **únicas e atuais**. Reenvios e dados antigos recuperados não confirmam alertas do presente. Os limites e a confirmação em duas janelas são escolhas do grupo, não critérios clínicos nem números obrigatórios do exercício.
 
-### 5. Testar interrupção e recuperação
+### Passo 5 — Interromper a conexão e recuperar os dados
 
-Mover a chave para a **esquerda** e aguardar pelo menos três novas coletas. O Serial deve continuar mostrando `armazenada`, com fila crescente e perdas zero enquanto houver espaço. O painel deve sinalizar a interrupção ou falta de atualização e preservar o histórico.
+1. Mover a chave para a **esquerda**.
+2. Aguardar pelo menos três novas coletas, contadas pelas linhas no Serial.
 
-Voltar à **direita**. Aguardar reconexão ao Wi-Fi e ao broker. Conferir as sequências pendentes em ordem, os ACKs e a redução da fila até zero. Amostras com idade acima de dez segundos simulados são identificadas como `replay: true` e aparecem como recuperadas. Após a recuperação, leituras atuais voltam a alimentar indicadores e alertas.
+**Resultado esperado:** O Serial deve continuar mostrando `armazenada`, com fila crescente e perdas zero enquanto houver espaço. O painel deve sinalizar a interrupção ou falta de atualização e preservar o histórico.
+
+3. Mover a chave de volta à **direita**.
+4. Aguardar reconexão ao Wi-Fi e ao broker.
+5. Conferir as sequências pendentes em ordem, os ACKs e a redução da fila até zero. Amostras com idade acima de dez segundos simulados são identificadas como `replay: true` e aparecem como recuperadas. Após a recuperação, leituras atuais voltam a alimentar indicadores e alertas.
 
 Utilizamos `broker.hivemq.com:1883`. A raiz de tópicos `cardioia/aura/fase3/478054573982428161/v1` identifica o namespace original e **não determina qual Wokwi executar**. A Parte 2 mantém essa raiz por compatibilidade. Os tópicos do dispositivo `cardioia-esp32-01` terminam em `/telemetry`, `/ack` e `/status`.
 
@@ -143,9 +257,11 @@ flowchart LR
 
 O broker fica na internet; consumidor, banco e Node-RED ficam na máquina de avaliação. Publicamos somente dados fictícios. Não utilizamos o broker público como serviço médico ou armazenamento permanente.
 
-### 6. Conferir os registros e encerrar
+### Passo 6 — Conferir os registros e encerrar
 
-Em outro terminal PowerShell, na raiz, consultar os eventos:
+1. Manter o terminal A aberto.
+2. Abrir um **terminal B** e entrar na mesma pasta pelo procedimento do passo 3 da preparação.
+3. Consultar os eventos:
 
 ```powershell
 Get-Content .tools/runtime/fase3/node-red/consumidor.log -Tail 20
@@ -159,7 +275,31 @@ São esperados `broker_connected`, `subscribed`, `stored` e `ack_queued`. Repeti
 
 Executar a consulta após o consumidor iniciar e receber dados. A chave é `(device_id, session_id, sequence)`; novas sessões podem reiniciar a sequência sem sobrescrever sessões anteriores. O total varia conforme o teste.
 
-Parar o Wokwi e pressionar **Ctrl+C** no terminal do painel para encerrar também os processos filhos. O banco `.tools/runtime/fase3/telemetria.sqlite3` e os eventos `.tools/runtime/fase3/eventos_mqtt.jsonl` permanecem locais. Reiniciar apenas o painel limpa seu histórico em memória, mas não apaga o banco. Não é necessário excluir bancos para repetir o teste.
+4. Ao terminar a conferência, clicar em **Stop** no Wokwi.
+5. Pressionar **Ctrl+C** no terminal A do painel para encerrar também os processos filhos. O banco `.tools/runtime/fase3/telemetria.sqlite3` e os eventos `.tools/runtime/fase3/eventos_mqtt.jsonl` permanecem locais. Reiniciar apenas o painel limpa seu histórico em memória, mas não apaga o banco. Não é necessário excluir bancos para repetir o teste.
+
+## Etapa 3 — Executar REST e visualizar os e-mails simulados
+
+1. Encerrar a etapa MQTT com o procedimento acima.
+2. Seguir o [passo a passo completo do Ir Além 1](rest/README.md), começando no passo 1. O ambiente Python preparado aqui pode ser reutilizado.
+3. Iniciar a API no terminal A, executar o cliente no terminal B e conferir cinco leituras.
+4. Abrir os dois arquivos de e-mail gerados e conferir os motivos dos alertas.
+5. Reiniciar o serviço e consultar novamente para confirmar que os dados permanecem salvos.
+6. Encerrar com Ctrl+C. A API mostra texto JSON; o painel gráfico pertence à etapa MQTT.
+
+**Resultado esperado:** cinco leituras únicas por demonstração, dois e-mails locais, reenvio sem duplicação e consulta após reinício. Não há envio de e-mail real.
+
+## Etapa 4 — Conferir o que foi concluído
+
+- [ ] Visualizamos coleta offline e recuperação Serial no Wokwi da Parte 1.
+- [ ] Visualizamos leituras e confirmações no painel com o Wokwi MQTT.
+- [ ] Conferimos gráfico de pulsos, mudança de temperatura e entrada/retorno dos alertas.
+- [ ] Conferimos crescimento e esvaziamento da fila durante interrupção/reconexão.
+- [ ] Consultamos as leituras REST e abrimos os dois e-mails locais.
+- [ ] Reiniciamos a API e encontramos as mesmas leituras.
+- [ ] Encerramos os serviços sem apagar bancos ou evidências.
+
+Esta lista é para quem reproduz marcar durante seu próprio teste. A comparação de modelos do **Ir Além 2 permanece pendente**; ainda não existe uma sequência de execução dessa entrega. Os [relatórios](../../document/README.md) e as evidências complementam a avaliação, sem substituir a execução acima.
 
 ## Teste adicional — reenvio e deduplicação
 
@@ -211,4 +351,4 @@ Uma leitura atual exige `age_ms <= 10000`, `backlog_samples == 1`, recebimento l
 
 O inicializador carrega o export e suas dependências. Para importar em outra instância, instalar FlowFuse Dashboard e disponibilizar `monitor.js` por `config/fase3/node-red/settings.js`. O JSON sozinho não inclui essa configuração. Consultar o [guia Node-RED](node-red/README.md).
 
-Os registros Markdown e prints comprovam testes, mas **não substituem os relatórios com mínimos de páginas**. Produzimos os relatórios Edge (duas páginas) e MQTT/dashboard (três páginas), disponíveis no início deste guia. Ainda precisamos implementar o Ir Além 1 com cliente REST, regras, e-mail simulado e relatório de 1–2 páginas; e implementar o Ir Além 2 com comparação tradicional × LIF/FHN, notebook, relatório de duas páginas e vídeo não listado de até quatro minutos no README raiz. O endpoint de consulta do painel não satisfaz esses desafios.
+Os registros Markdown e prints comprovam testes, mas **não substituem os relatórios com mínimos de páginas**. Produzimos os relatórios Edge (duas páginas) e MQTT/dashboard (quatro páginas), disponíveis no início deste guia. Implementamos cliente REST, regras e e-mail simulado no [Ir Além 1](rest/README.md), com sete testes locais; concluímos sua validação guiada e produzimos o relatório de duas páginas, com revisão final pendente. Ainda precisamos implementar o Ir Além 2 com comparação tradicional × LIF/FHN, notebook, relatório de duas páginas e vídeo não listado de até quatro minutos no README raiz. O endpoint de consulta do painel não satisfaz esses desafios.

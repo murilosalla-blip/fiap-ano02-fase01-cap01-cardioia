@@ -2,9 +2,11 @@
 
 Preparamos o [projeto MQTT no Wokwi](https://wokwi.com/projects/478772789361460225) e o consumidor descrito em `../mqtt/README.md`. Preservamos a versão Edge original.
 
+Antes dos comandos, concluir a [preparação da Fase 3](../README.md#como-reproduzir--preparação), incluindo criação de `.venv` e instalação das dependências. Executar na raiz do repositório. Cada terminal novo precisa entrar nessa mesma pasta; o terminal do servidor permanece aberto durante os testes.
+
 ## Como reproduzir a demonstração ponta a ponta
 
-1. iniciar `python src/fase3/python/consumidor_mqtt.py --reter-primeiro-ack` e conferir conexão e assinaturas no broker.
+1. iniciar `.\.venv\Scripts\python.exe src/fase3/python/consumidor_mqtt.py --reter-primeiro-ack` e conferir conexão e assinaturas no broker.
 2. executar o Wokwi com a chave à esquerda e observar pelo menos três leituras acumuladas.
 3. mover a chave à direita e conferir que o consumidor recebe a primeira leitura e omite apenas seu primeiro ACK.
 4. conferir no Serial a manutenção da primeira pendência, sua nova tentativa e a liberação somente após a confirmação correta.
