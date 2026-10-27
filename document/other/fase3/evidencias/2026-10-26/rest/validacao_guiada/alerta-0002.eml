@@ -1,0 +1,13 @@
+From: cardioia@example.invalid
+To: grupo-aura@example.invalid
+Subject: [SIMULACAO] CardioIA - alerta didatico
+Date: Mon, 26 Oct 2026 23:10:42 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
+
+Simulamos um alerta acadêmico, sem envio externo ou diagnóstico.
+Dispositivo/sessão/leitura: ('cardioia-rest-demo', '9ed8af36461d489c', 5)
+Motivos: pulsos_simulados_acima_120_bpm, temperatura_ambiente_acima_30_c
+BPM artificial: 132
+Temperatura AMBIENTE: 31 °C

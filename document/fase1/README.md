@@ -32,7 +32,7 @@ Os datasets finais e os dois textos já estão preparados. **Não é necessário
 
 ### Preparar uma cópia local
 
-Instalar Git e Python 3.12. No PowerShell:
+Instalar Git e Python 3.12. Conferir as versões e escolher uma pasta curta conforme a [preparação comum](../../README.md#-como-executar-o-código). No PowerShell:
 
 ```powershell
 git clone https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia.git

@@ -73,19 +73,18 @@ src/
 
 ## Executar
 
-Pré-requisito: Node.js `22.13` ou superior, ou Node.js `24`. Essas versões são compatíveis com as dependências registradas no `package-lock.json`.
+Seguir a [preparação comum](../../README.md#-como-executar-o-código). Utilizar Node.js 24 e npm; o portal dispensa Python. Executar da **raiz do repositório** no PowerShell:
 
-```bash
-npm ci
-npm run dev
+```powershell
+npm.cmd ci --prefix src/fase2/portal-cardioia
+npm.cmd test --prefix src/fase2/portal-cardioia
+npm.cmd run build --prefix src/fase2/portal-cardioia
+npm.cmd run dev --prefix src/fase2/portal-cardioia
 ```
 
-## Validar a build
+No Linux/macOS, utilizar `npm` em lugar de `npm.cmd`. Esperar sete testes aprovados e build concluído antes de iniciar o servidor. Abrir o endereço exibido pelo Vite; se a porta estiver ocupada, ele pode selecionar outra. Informar e-mail fictício válido e senha com pelo menos seis caracteres. Conferir 12 pacientes, busca, seis consultas iniciais e criação de agendamento. O login é demonstrativo.
 
-```bash
-npm test
-npm run build
-```
+Manter o terminal aberto durante a navegação. Encerrar com Ctrl+C. Para reabrir, repetir apenas `npm.cmd run dev --prefix src/fase2/portal-cardioia`; repetir `npm.cmd ci` quando as dependências versionadas mudarem. O build fica em `src/fase2/portal-cardioia/dist/`; ele não publica o site automaticamente.
 
 ## Vídeo da entrega
 

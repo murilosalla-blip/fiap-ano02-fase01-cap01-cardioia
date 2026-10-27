@@ -1,0 +1,122 @@
+{
+  "mode": "live",
+  "connection": "online",
+  "broker": "connected",
+  "status": "online",
+  "session": "ab5abf804d514f7c",
+  "current": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "ab5abf804d514f7c",
+    "sequence": 4,
+    "collected_uptime_ms": 20000,
+    "window_ms": 5000,
+    "temperature_c": 29,
+    "humidity_pct": 40,
+    "pulse_count": 10,
+    "heart_rate_bpm": 120,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 20000,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "tempKnown": true,
+  "alerts": [
+    "Pulsos acima do limite didático",
+    "Temperatura ambiente acima do limite didático"
+  ],
+  "pending": false,
+  "history": [
+    {
+      "sequence": 1,
+      "bpm": 72,
+      "temperature": 24,
+      "replay": false,
+      "receivedAt": 1793129552233,
+      "ageMs": 0
+    },
+    {
+      "sequence": 2,
+      "bpm": 132,
+      "temperature": 31,
+      "replay": false,
+      "receivedAt": 1793129552942,
+      "ageMs": 0
+    },
+    {
+      "sequence": 3,
+      "bpm": 132,
+      "temperature": 31,
+      "replay": false,
+      "receivedAt": 1793129553114,
+      "ageMs": 0
+    },
+    {
+      "sequence": 4,
+      "bpm": 120,
+      "temperature": 29,
+      "replay": false,
+      "receivedAt": 1793129553302,
+      "ageMs": 0
+    }
+  ],
+  "events": [
+    {
+      "at": 1793129553114,
+      "kind": "alert",
+      "text": "Temperatura ambiente: limite didático ultrapassado."
+    },
+    {
+      "at": 1793129553114,
+      "kind": "alert",
+      "text": "Pulsos simulados: limite didático ultrapassado."
+    },
+    {
+      "at": 1793129552233,
+      "kind": "info",
+      "text": "Iniciei o acompanhamento de uma nova sessão."
+    }
+  ],
+  "last": {
+    "schema_version": 1,
+    "device_id": "cardioia-esp32-01",
+    "session_id": "ab5abf804d514f7c",
+    "sequence": 4,
+    "collected_uptime_ms": 20000,
+    "window_ms": 5000,
+    "temperature_c": 29,
+    "humidity_pct": 40,
+    "pulse_count": 10,
+    "heart_rate_bpm": 120,
+    "dht_valid": true,
+    "dropped_total": 0,
+    "backlog_samples": 1,
+    "simulated": true,
+    "transport": "mqtt",
+    "sent_uptime_ms": 20000,
+    "age_ms": 0,
+    "attempt": 1,
+    "replay": false
+  },
+  "lastSequence": 4,
+  "ack": null,
+  "ageSeconds": 0,
+  "liveAgeSeconds": 0,
+  "rejected": 1,
+  "duplicates": 1,
+  "totalInChart": 4,
+  "rules": {
+    "pulseEnter": 120,
+    "pulseExit": 108,
+    "tempEnter": 30,
+    "tempExit": 28,
+    "consecutive": 2
+  },
+  "generatedAt": 1793129553302,
+  "testMode": true
+}

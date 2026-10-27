@@ -201,7 +201,7 @@ Para avaliar sem instalação, abrir o [Streamlit](https://cardioia-fiap.streaml
 
 ### 1. Preparar o ambiente principal
 
-Pré-requisitos: Git e Python **3.12**; para o portal, Node.js **24** com npm. Após clonar e entrar na pasta, criar o ambiente caso ainda não exista:
+Conferir as versões e os diagnósticos na [preparação comum](../../README.md#-como-executar-o-código). Pré-requisitos: Git e Python **3.12**; para o portal, Node.js **24** com npm. Após clonar e entrar na pasta, criar o ambiente caso ainda não exista:
 
 ```powershell
 python -m venv .venv
@@ -236,10 +236,10 @@ O Streamlit publicado está associado ao fork da Julia, separado deste repositó
 Em outro terminal, na raiz:
 
 ```powershell
-npm ci --prefix src/fase2/portal-cardioia
-npm test --prefix src/fase2/portal-cardioia
-npm run build --prefix src/fase2/portal-cardioia
-npm run dev --prefix src/fase2/portal-cardioia
+npm.cmd ci --prefix src/fase2/portal-cardioia
+npm.cmd test --prefix src/fase2/portal-cardioia
+npm.cmd run build --prefix src/fase2/portal-cardioia
+npm.cmd run dev --prefix src/fase2/portal-cardioia
 ```
 
 Abrir o endereço exibido pelo Vite. Informar um e-mail fictício em formato válido e senha com pelo menos seis caracteres. Conferir rotas protegidas, 12 pacientes, seis consultas iniciais, busca, criação de agendamento e atualização dos indicadores. Os sete testes e o build devem concluir. Encerrar com **Ctrl+C**. Detalhes em [PORTAL.md](PORTAL.md).
@@ -253,7 +253,13 @@ Os notebooks já incluem resultados. Para reexecutar o obrigatório sem sobrescr
 .\.venv\Scripts\python.exe -m nbconvert --to notebook --execute src/fase2/notebooks/classificacao_textual_tfidf.ipynb --ExecutePreprocessor.kernel_name=cardioia-fase2 --output classificacao_textual_tfidf.reexecutado.ipynb --output-dir .tools/reproducao/fase2
 ```
 
-Para reproduzir a extensão tabular, executar `src/fase2/src/treinar_baselines.py` e depois `src/fase2/src/analisar_modelo.py` com o Python desse mesmo ambiente. Os resultados ficam em `assets/fase2/resultados/`. A análise inclui subgrupos e intervalos de confiança e pode levar mais tempo; não é pré-requisito para testar o MQTT da Fase 3.
+Para reproduzir a extensão tabular, executar no mesmo ambiente:
+
+```powershell
+.\.venv\Scripts\python.exe src/fase2/src/treinar_baselines.py
+.\.venv\Scripts\python.exe src/fase2/src/analisar_modelo.py
+```
+ Os resultados ficam em `assets/fase2/resultados/`. A análise inclui subgrupos e intervalos de confiança e pode levar mais tempo; não é pré-requisito para testar o MQTT da Fase 3.
 
 ### 6. Reproduzir a MLP visual — Ir Além 2
 
@@ -276,7 +282,17 @@ O baseline utiliza a amostra versionada da Fase 1, gera métricas em `assets/fas
 
 No Linux/macOS, criar o ambiente com `python3.12 -m venv src/fase2/.venv`, utilizar `./src/fase2/.venv/bin/python` e passar `--cache /tmp/cardioia-ecg-raw`. A preparação verifica hashes, remove cabeçalhos/rodapés e organiza 491 conteúdos únicos. O treino usa 313/79/99 imagens em treino/validação/teste e grava métricas em `assets/fase2/resultados/visual_ampliado/`. Comparar **acurácia (69,7%)** com **acurácia balanceada (74,5%)** como métricas distintas; versões, sementes e determinismo influenciam a reprodução exata.
 
-Os notebooks visuais podem ser lidos sem instalar TensorFlow. Para reexecutá-los, registrar um kernel próprio com o Python visual e selecioná-lo no Jupyter/nbconvert, preservando as saídas já entregues. A preparação ampliada depende de rede e pode demorar; não é necessária para apenas inspecionar resultados e notebooks versionados.
+A instalação de TensorFlow depende de haver pacote compatível com o sistema e a arquitetura. Esta revisão não confirma instalação em macOS/ARM; se o pip indicar pacote indisponível, usar o ambiente Linux do workflow versionado ou inspecionar as saídas entregues, sem trocar versões silenciosamente.
+
+Os notebooks visuais podem ser lidos sem instalar TensorFlow. Para reexecutá-los, após preparar os dados e treinar cada variante, registrar o kernel do ambiente visual e salvar cópias em pasta ignorada:
+
+```powershell
+.\src\fase2\.venv\Scripts\python.exe -m ipykernel install --prefix src/fase2/.venv --name cardioia-visual
+.\src\fase2\.venv\Scripts\python.exe -m nbconvert --to notebook --execute src/fase2/notebooks/mlp_ecg_binaria.ipynb --ExecutePreprocessor.kernel_name=cardioia-visual --ExecutePreprocessor.timeout=600 --output mlp_ecg_binaria.reexecutado.ipynb --output-dir .tools/reproducao/fase2
+.\src\fase2\.venv\Scripts\python.exe -m nbconvert --to notebook --execute src/fase2/notebooks/mlp_ecg_ampliada.ipynb --ExecutePreprocessor.kernel_name=cardioia-visual --ExecutePreprocessor.timeout=600 --output mlp_ecg_ampliada.reexecutado.ipynb --output-dir .tools/reproducao/fase2
+```
+
+Esperar arquivos `.ipynb` com saídas e nenhuma exceção de célula. Um timeout não significa aprovação: guardar a mensagem e conferir as dependências e a etapa de preparação. Não substituir os notebooks entregues pelas saídas de um ensaio incompleto. A preparação ampliada depende de rede e pode demorar; não é necessária para apenas inspecionar resultados e notebooks versionados.
 
 ## Validação automática
 

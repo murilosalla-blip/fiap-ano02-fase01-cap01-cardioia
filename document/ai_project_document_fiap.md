@@ -44,7 +44,7 @@ Na Fase 3, validamos coleta offline, retomada, reenvio, deduplicação, pulsos, 
 
 ## 5. Conclusões e trabalhos futuros
 
-Concluímos a base de dados e os experimentos das Fases 1 e 2 e validamos as três primeiras entregas práticas da Fase 3. Ainda precisamos implementar e validar REST/e-mail, realizar a comparação com modelos neuromórficos e concluir os relatórios dos desafios e a submissão final. Produzimos os relatórios obrigatórios de [Edge](fase3/CardioIA_Fase3_Relatorio_Edge.pdf) e [MQTT/dashboard](fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), com paginação conferida; aguardamos a revisão final do grupo. Mantemos o acompanhamento no [roteiro da Fase 3](fase3/ROTEIRO_ENTREGA.md).
+Concluímos a base de dados e os experimentos das Fases 1 e 2 e validamos as três primeiras entregas práticas da Fase 3. Implementamos e validamos REST/e-mail e produzimos seu [relatório de duas páginas](fase3/CardioIA_Fase3_Relatorio_REST_Email.pdf). Ainda precisamos realizar a comparação com modelos neuromórficos, seu relatório e vídeo, revisar os documentos finais e concluir a submissão. Produzimos os relatórios obrigatórios de [Edge](fase3/CardioIA_Fase3_Relatorio_Edge.pdf) e [MQTT/dashboard](fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), com paginação conferida; aguardamos a revisão final do grupo. Mantemos o acompanhamento no [roteiro da Fase 3](fase3/ROTEIRO_ENTREGA.md).
 
 ## 6. Referências
 

@@ -1,0 +1,336 @@
+{
+  "scenario": "sintetico_local",
+  "session_id": "93b423c814b04abe",
+  "sent": [
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 1,
+        "collected_uptime_ms": 5000,
+        "window_ms": 5000,
+        "temperature_c": 24,
+        "humidity_pct": 40.0,
+        "pulse_count": 6,
+        "heart_rate_bpm": 72,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.598650+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [],
+      "active_episodes": [],
+      "email_id": null,
+      "delivery": null
+    },
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 2,
+        "collected_uptime_ms": 10000,
+        "window_ms": 5000,
+        "temperature_c": 31,
+        "humidity_pct": 40.0,
+        "pulse_count": 11,
+        "heart_rate_bpm": 132,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.623280+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "active_episodes": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "email_id": 1,
+      "delivery": "arquivo_local_sem_envio"
+    },
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 3,
+        "collected_uptime_ms": 15000,
+        "window_ms": 5000,
+        "temperature_c": 32,
+        "humidity_pct": 40.0,
+        "pulse_count": 12,
+        "heart_rate_bpm": 144,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.639288+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "active_episodes": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "email_id": null,
+      "delivery": null
+    },
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 4,
+        "collected_uptime_ms": 20000,
+        "window_ms": 5000,
+        "temperature_c": 24,
+        "humidity_pct": 40.0,
+        "pulse_count": 6,
+        "heart_rate_bpm": 72,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.655520+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [],
+      "active_episodes": [],
+      "email_id": null,
+      "delivery": null
+    },
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 5,
+        "collected_uptime_ms": 25000,
+        "window_ms": 5000,
+        "temperature_c": 31,
+        "humidity_pct": 40.0,
+        "pulse_count": 11,
+        "heart_rate_bpm": 132,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.671194+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "active_episodes": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "email_id": 2,
+      "delivery": "arquivo_local_sem_envio"
+    }
+  ],
+  "repeated": {
+    "sample": {
+      "schema_version": 1,
+      "device_id": "cardioia-rest-demo",
+      "session_id": "93b423c814b04abe",
+      "sequence": 5,
+      "collected_uptime_ms": 25000,
+      "window_ms": 5000,
+      "temperature_c": 31,
+      "humidity_pct": 40.0,
+      "pulse_count": 11,
+      "heart_rate_bpm": 132,
+      "dht_valid": true,
+      "dropped_total": 0,
+      "backlog_samples": 1,
+      "simulated": true,
+      "transport": "serial_demo"
+    },
+    "received_at": "2026-10-26T22:19:10.671194+00:00",
+    "duplicate": true,
+    "evaluation": "didatica",
+    "reasons": [
+      "pulsos_simulados_acima_120_bpm",
+      "temperatura_ambiente_acima_30_c"
+    ],
+    "active_episodes": [
+      "pulsos_simulados_acima_120_bpm",
+      "temperatura_ambiente_acima_30_c"
+    ],
+    "email_id": 2,
+    "delivery": "arquivo_local_sem_envio"
+  },
+  "received": [
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 5,
+        "collected_uptime_ms": 25000,
+        "window_ms": 5000,
+        "temperature_c": 31,
+        "humidity_pct": 40.0,
+        "pulse_count": 11,
+        "heart_rate_bpm": 132,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.671194+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "active_episodes": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "email_id": 2,
+      "delivery": "arquivo_local_sem_envio"
+    },
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 4,
+        "collected_uptime_ms": 20000,
+        "window_ms": 5000,
+        "temperature_c": 24,
+        "humidity_pct": 40.0,
+        "pulse_count": 6,
+        "heart_rate_bpm": 72,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.655520+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [],
+      "active_episodes": [],
+      "email_id": null,
+      "delivery": null
+    },
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 3,
+        "collected_uptime_ms": 15000,
+        "window_ms": 5000,
+        "temperature_c": 32,
+        "humidity_pct": 40.0,
+        "pulse_count": 12,
+        "heart_rate_bpm": 144,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.639288+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "active_episodes": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "email_id": null,
+      "delivery": null
+    },
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 2,
+        "collected_uptime_ms": 10000,
+        "window_ms": 5000,
+        "temperature_c": 31,
+        "humidity_pct": 40.0,
+        "pulse_count": 11,
+        "heart_rate_bpm": 132,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.623280+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "active_episodes": [
+        "pulsos_simulados_acima_120_bpm",
+        "temperatura_ambiente_acima_30_c"
+      ],
+      "email_id": 1,
+      "delivery": "arquivo_local_sem_envio"
+    },
+    {
+      "sample": {
+        "schema_version": 1,
+        "device_id": "cardioia-rest-demo",
+        "session_id": "93b423c814b04abe",
+        "sequence": 1,
+        "collected_uptime_ms": 5000,
+        "window_ms": 5000,
+        "temperature_c": 24,
+        "humidity_pct": 40.0,
+        "pulse_count": 6,
+        "heart_rate_bpm": 72,
+        "dht_valid": true,
+        "dropped_total": 0,
+        "backlog_samples": 1,
+        "simulated": true,
+        "transport": "serial_demo"
+      },
+      "received_at": "2026-10-26T22:19:10.598650+00:00",
+      "duplicate": false,
+      "evaluation": "didatica",
+      "reasons": [],
+      "active_episodes": [],
+      "email_id": null,
+      "delivery": null
+    }
+  ]
+}

@@ -48,14 +48,16 @@ Aceite: dashboard acompanha o ESP32 em tempo real, mostra histórico e alertas a
 
 ## Entrega 4 — Ir Além 1 REST e e-mail
 
-- [ ] Vamos implementar serviço demonstrativo e cliente Python com envio e recebimento REST.
-- [ ] Vamos reutilizar a telemetria da entrega principal.
-- [ ] Vamos aplicar regras didáticas de risco com motivo explícito.
-- [ ] Vamos simular e-mail em arquivo `.eml` ou caixa de saída local, sem enviar mensagens reais.
-- [ ] Vamos evitar e-mails repetidos para o mesmo episódio e tratar falhas HTTP.
-- [ ] Vamos testar o fluxo HTTP completo e inspecionar e-mail gerado.
-- [ ] Vamos produzir relatório final de uma a duas páginas.
-- [ ] Vamos validar o cliente, o alerta e o e-mail simulado.
+- [x] Implementamos serviço demonstrativo e cliente Python com envio e recebimento REST.
+- [x] Reutilizamos o contrato de telemetria da entrega principal, sem alterar o firmware.
+- [x] Aplicamos regras didáticas de risco com motivo explícito.
+- [x] Simulamos e-mail em arquivo `.eml` e caixa de saída persistente, sem enviar mensagens reais.
+- [x] Evitamos e-mails repetidos para o mesmo episódio e tratamos falhas HTTP.
+- [x] Testamos o fluxo HTTP completo e inspecionamos o conteúdo do e-mail gerado; conferimos sete testes e a demonstração sintética de cinco leituras.
+- [x] Produzimos o [relatório REST/e-mail de duas páginas](CardioIA_Fase3_Relatorio_REST_Email.pdf) e conferimos a renderização; revisão final do grupo pendente.
+- [x] Validamos o cliente, os alertas, os dois e-mails simulados e a consulta após reiniciar o serviço.
+
+Reprodução e validação guiada: [REST e e-mail simulado](rest/README.md). Concluímos a validação guiada e produzimos o relatório; sua revisão final permanece pendente.
 
 Aceite: requisições de envio e consulta funcionam; cenário com alerta produz e-mail simulado verificável; cenário normal não produz e-mail de alerta.
 
@@ -77,12 +79,12 @@ Aceite: os dois modelos fazem previsões comparáveis em teste separado; execuç
 ## Entrega 6 — Fechamento e submissão
 
 - [x] Produzimos o [relatório Edge de duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e conferimos sua paginação e renderização.
-- [x] Produzimos o [relatório MQTT/dashboard de três páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) e conferimos sua paginação e renderização.
+- [x] Produzimos o [relatório MQTT/dashboard de quatro páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) e conferimos sua paginação e renderização.
 - [ ] Vamos concluir a revisão final do grupo dos dois relatórios obrigatórios.
 - [ ] Vamos conferir os relatórios dos dois desafios e sua paginação final.
 - [ ] Vamos consolidar README com instalação, arquitetura, limites, integrantes/RMs e links públicos.
 - [ ] Vamos consolidar checklist requisito → arquivo → evidência → resultado.
-- [ ] Vamos fazer reprodução limpa e revisão cruzada dos cenários críticos.
+- [x] Fizemos a reprodução em cópia nova e a revisão acompanhada dos cenários visuais em 27/10/2026; conferimos sensores, entrada/retorno dos alertas, interrupção, recuperação e persistência REST. Preservamos 41 medições únicas sem lacunas ou perdas.
 - [ ] Vamos verificar link Wokwi, vídeo não listado e acesso público ao repositório.
 - [ ] Vamos preparar documento/arquivo para submissão conforme a plataforma.
 - [ ] Vamos validar o pacote final e realizar e conferir o envio na FIAP.

@@ -8,13 +8,13 @@ Organizamos os documentos exigidos pelas atividades dentro de `document/fase1/`,
 |---|---|---|---|
 | 1 | [README e fontes](fase1/README.md), guias numérico, textual e visual na mesma pasta | [Documento da Fase 1 — cinco páginas](fase1/cardioia_fase1_entrega_fiap.pdf) | Preservamos o documento da entrega anterior |
 | 2 | [README e reprodução](fase2/README.md), [checklist](fase2/CHECKLIST_ENUNCIADO.md), [relatório de apoio](fase2/RELATORIO_ENTREGA.md) | [Documento de submissão da Fase 2 — seis páginas](fase2/CardioIA_Fase2_Documento_de_Submissao.pdf) | Preservamos o documento consolidado da entrega anterior |
-| 3 | [README e reprodução](fase3/README.md), [matriz de requisitos](fase3/CHECKLIST_ENUNCIADO.md), [roteiro](fase3/ROTEIRO_ENTREGA.md) | [Edge — duas páginas](fase3/CardioIA_Fase3_Relatorio_Edge.pdf); [MQTT/dashboard — três páginas](fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf); REST/e-mail 1–2 páginas; comparação de modelos 2 páginas | Produzimos e conferimos os dois relatórios obrigatórios; aguardamos revisão do grupo. Os dois relatórios Ir Além e os desafios continuam pendentes |
+| 3 | [README e reprodução](fase3/README.md), [matriz de requisitos](fase3/CHECKLIST_ENUNCIADO.md), [roteiro](fase3/ROTEIRO_ENTREGA.md) | [Edge — duas páginas](fase3/CardioIA_Fase3_Relatorio_Edge.pdf); [MQTT/dashboard — quatro páginas](fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf); [REST/e-mail — duas páginas](fase3/CardioIA_Fase3_Relatorio_REST_Email.pdf); comparação de modelos 2 páginas | Produzimos e conferimos os dois relatórios obrigatórios; aguardamos revisão do grupo. Concluímos a validação guiada do Ir Além 1 e produzimos seu relatório, com revisão final pendente. O Ir Além 2 continua pendente |
 
 O [AI Project Document](ai_project_document_fiap.md) apresenta a evolução consolidada. O [README raiz](../README.md) identifica o grupo, explica as fases, mantém os links públicos e orienta a execução.
 
 ## Originais e caminhos atuais
 
-Preservamos os PDFs anteriores sem reescrever conteúdo, autoria, métricas ou caminhos da época. Para reproduzir hoje, utilizar os READMEs atuais. Os PDFs podem citar a organização antiga:
+Preservamos os PDFs anteriores sem reescrever conteúdo, autoria, métricas ou caminhos da época. Para reproduzir hoje, utilizar os READMEs atuais. Para execução por professores ou ferramentas automatizadas, começar pela preparação do README raiz e seguir o guia atual da fase. Não extrair comandos isolados dos documentos históricos: eles registram os caminhos da entrega original. Os PDFs podem citar a organização antiga:
 
 | Caminho anterior | Organização atual |
 |---|---|

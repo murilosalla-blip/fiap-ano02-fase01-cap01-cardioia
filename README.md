@@ -30,7 +30,7 @@
 
 Desenvolvemos o **CardioIA** como projeto acadêmico da FIAP ao longo de 7 fases. Na **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"**, reunimos dados numéricos, textuais e visuais. Na **Fase 2 — Machine Learning**, desenvolvemos extração de sintomas, classificação textual com TF-IDF, portal React e experimentos tabulares e visuais. Na **Fase 3 — Monitoramento Contínuo: IoT na Saúde**, acrescentamos captura simulada com ESP32, resiliência offline, transmissão MQTT e visualização no Node-RED, mantendo a evolução das entregas anteriores.
 
-Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Produzimos os relatórios obrigatórios de Edge e MQTT/dashboard. Ainda precisamos concluir o cliente REST com e-mail simulado e a comparação entre classificador tradicional e modelo neuromórfico, incluindo seus documentos e vídeo.
+Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Produzimos os relatórios obrigatórios de Edge e MQTT/dashboard. Implementamos e testamos localmente o cliente REST com e-mail simulado; concluímos a validação guiada e produzimos seu relatório de duas páginas, com revisão final pendente. A comparação entre classificador tradicional e modelo neuromórfico, incluindo documentos e vídeo, permanece pendente.
 
 > **Uso exclusivamente educacional.** Não realizamos diagnóstico, não estimamos risco clínico real e não substituímos avaliação médica.
 
@@ -125,11 +125,11 @@ Reutilizamos o mesmo circuito nos dois projetos Wokwi, com firmwares diferentes.
 
 **Evidências:** [Testes Edge](document/other/fase3/evidencias/2026-10-24/RESULTADOS.md), [testes MQTT](document/other/fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md) e [validação do painel](document/other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md)
 
-**Situação da entrega:** validamos sensores, fila offline, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](document/fase3/CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de três páginas](document/fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), atendendo aos mínimos de uma e duas páginas. Conferimos conteúdo e paginação e aguardamos a revisão final do grupo. Os desafios Ir Além e a submissão continuam pendentes.
+**Situação da entrega:** validamos sensores, fila offline, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](document/fase3/CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de quatro páginas](document/fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), atendendo aos mínimos de uma e duas páginas. Conferimos conteúdo e paginação e aguardamos a revisão final do grupo. Concluímos a validação guiada do Ir Além 1 e produzimos seu relatório. A revisão final dos relatórios, o Ir Além 2 e a submissão continuam pendentes.
 
-Incluímos no escopo os dois desafios **Ir Além**, ainda pendentes:
+Mantemos os dois desafios **Ir Além** no escopo do grupo, como na Fase 2. A tabela da atividade principal distribui dez pontos; não atribuímos pontuação adicional aos desafios:
 
-- **Ir Além 1 — REST e e-mail:** implementar cliente Python que envia e recebe sinais vitais por uma API REST, verifica regras de risco e simula o disparo de e-mail; entregar relatório de **uma a duas páginas**. A consulta de estado do painel não substitui esse cliente.
+- **Ir Além 1 — REST e e-mail:** implementamos cliente Python com envio e consulta HTTP, regras didáticas e e-mail em arquivo local. Conferimos sete testes e uma demonstração de cinco leituras e dois e-mails. Seguir o [guia de execução e validação](document/fase3/rest/README.md). Concluímos a validação guiada e produzimos o [relatório de duas páginas](document/fase3/CardioIA_Fase3_Relatorio_REST_Email.pdf), com revisão final pendente.
 - **Ir Além 2 — séries temporais e neuromorfismo:** comparar um classificador tradicional com um modelo LIF ou FHN, entregar notebook Python comentado e executado, código e README públicos, relatório comparativo de **duas páginas** e vídeo de **até quatro minutos**, não listado no YouTube, com link neste README.
 
 O prazo informado é **04/11/2026, às 23h59**. Acompanhamos a conclusão, a reprodução do pacote e a submissão no [roteiro de entrega](document/fase3/ROTEIRO_ENTREGA.md).
@@ -195,7 +195,25 @@ As instruções abaixo preparam uma cópia local do CardioIA. Depois, seguir a s
 
 **Pré-requisitos:** Git e Python **3.12**. Para as imagens, utilizamos Pillow. Para o portal React e o Node-RED, utilizamos Node.js **24** com npm. O Wokwi e o broker público exigem internet e acesso à porta TCP **1883**. Não é necessário comprar hardware.
 
-**Clonar o repositório e preparar o ambiente** — comandos PowerShell, executados na raiz do projeto:
+### Preparar a máquina e conferir o terminal
+
+Instalar Git, Python 3.12 e, somente para React ou Node-RED, Node.js 24 com npm. Abrir um **novo PowerShell** após a instalação e conferir:
+
+```powershell
+git --version
+python --version
+node --version
+npm.cmd --version
+```
+
+Esperar Python `3.12.x` e Node `v24.x`. Se `python` não for encontrado ou apontar para outra versão, conferir `py -3.12 --version` e usar `py -3.12` apenas para criar o ambiente. Se nenhum funcionar, instalar Python 3.12 antes de continuar. Os comandos seguintes utilizam o Python do ambiente criado, sem depender da ativação. `npm.cmd` evita o bloqueio de `npm.ps1` pela política do PowerShell.
+
+### Obter o código e criar o ambiente
+
+No Windows, escolher uma pasta curta, por exemplo `C:\projetos`, com permissão de escrita. Evitar pastas muito aninhadas: a instalação limpa revelou falha de caminho longo em uma dependência de Jupyter. Se aparecer `No such file or directory` acompanhado de aviso sobre `Long Path`, criar uma nova cópia e um novo ambiente em caminho curto, preservando a anterior. Não mover um ambiente virtual existente.
+
+Executar o clone **na pasta onde se deseja guardar o projeto**; o comando cria a subpasta abaixo. Não clonar novamente dentro de uma cópia existente:
+
 
 ```powershell
 git clone https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia.git
@@ -203,7 +221,13 @@ Set-Location -LiteralPath './fiap-ano02-fase03-cardioia'
 python -m venv .venv
 ```
 
-Se a cópia e o ambiente já existem, seguir diretamente os comandos da fase desejada. Utilizamos o executável do ambiente virtual sem precisar ativá-lo ou alterar a política de execução do PowerShell. No Linux/macOS, criar com `python3.12 -m venv .venv` e substituir `.venv/Scripts/python.exe` por `.venv/bin/python`, nas pastas correspondentes. Os comandos `node` e `npm` permanecem iguais.
+Se a cópia já existe, abrir o PowerShell nessa pasta e conferir `Test-Path .\README.md` e `Test-Path .\src`: ambos devem retornar `True`. Não utilizar o caminho pessoal de outro integrante. Se `.venv` ainda não existe, executar a criação acima; caso exista, conferir `.\.venv\Scripts\python.exe --version` antes de seguir.
+
+**Como acompanhar os passos:** executar um comando por vez e aguardar sua conclusão. Instalação bem-sucedida retorna ao prompt sem erro; avisos de atualização do pip não exigem atualização. Se aparecer erro, corrigir antes de avançar. Comandos de servidor permanecem ocupados: manter esse terminal aberto e usar outro, na mesma raiz, para consultas. Não digitar comandos Python no editor ou no Monitor Serial do Wokwi.
+
+**Escolher a trilha:** Fase 1 para dados; Fase 2 para NLP, Streamlit e extras; Fase 3 Parte 1 somente no navegador; Parte 2 para MQTT/painel; Ir Além 1 para HTTP local. Não é necessário executar fases ou treinamentos anteriores para testar IoT ou REST.
+
+Utilizamos o executável do ambiente virtual sem precisar ativá-lo ou alterar a política de execução do PowerShell. No Linux/macOS, criar com `python3.12 -m venv .venv` e substituir `.venv/Scripts/python.exe` por `.venv/bin/python`, nas pastas correspondentes. Usar `cd` em lugar de `Set-Location` e `npm` em lugar de `npm.cmd` no Linux/macOS. Cada guia indica as demais diferenças de terminal; os testes locais desta revisão foram feitos no Windows, não nos três sistemas.
 
 ## ▶️ Como executar a Fase 1
 
@@ -254,10 +278,10 @@ Resultado esperado: processamento dos **dez relatos**, treinamento e resultados 
 Para o portal React, executar em outro terminal, também na raiz:
 
 ```powershell
-npm ci --prefix src/fase2/portal-cardioia
-npm test --prefix src/fase2/portal-cardioia
-npm run build --prefix src/fase2/portal-cardioia
-npm run dev --prefix src/fase2/portal-cardioia
+npm.cmd ci --prefix src/fase2/portal-cardioia
+npm.cmd test --prefix src/fase2/portal-cardioia
+npm.cmd run build --prefix src/fase2/portal-cardioia
+npm.cmd run dev --prefix src/fase2/portal-cardioia
 ```
 
 Abrir o endereço exibido pelo Vite. Utilizar um e-mail fictício em formato válido e senha de pelo menos seis caracteres. Conferir pacientes simulados, busca, agendamento e indicadores; não utilizar credenciais reais. Os sete testes e o build devem concluir.
@@ -277,31 +301,84 @@ Os workflows do GitHub Actions verificam dados, testes, treinamentos, notebooks 
 
 ## ▶️ Como executar a Fase 3
 
-Para avaliar o sistema completo, utilizar o **Wokwi MQTT da Parte 2** e o painel Node-RED. Não é necessário executar os treinamentos da Fase 2 antes do monitoramento. Na raiz, com o ambiente Python preparado, instalar as dependências e iniciar painel e consumidor juntos:
+Seguir a sequência abaixo. O [guia passo a passo da Fase 3](document/fase3/README.md#como-reproduzir--preparação) explica cada ação desde abrir o PowerShell, com comandos completos, resultados esperados e solução de erros. Não é necessário executar os treinamentos das fases anteriores.
+
+### 1. Preparar o computador
+
+- Instalar Git, Python 3.12 e Node.js 24 pelos links oficiais indicados no guia.
+- Abrir um novo PowerShell e conferir as versões antes de continuar.
+- Escolher uma pasta curta, baixar o repositório e entrar na pasta criada.
+- Conferir que `README.md` e `src` existem nessa pasta.
+- Criar `.venv`, conferir seu Python e instalar as dependências da Fase 3.
+- **Avançar quando:** os comandos de instalação terminarem sem erro. Seguir os passos 1 a 6 da preparação no guia; não presumir que o ambiente já existe.
+
+### 2. Testar o circuito da Parte 1
+
+- Abrir o [Wokwi Serial](https://wokwi.com/projects/478054573982428161) e clicar em Play.
+- Mover a chave para a esquerda e aguardar pelo menos três coletas no Monitor Serial.
+- Pressionar e soltar o botão verde e alterar a temperatura no DHT22.
+- Mover a chave para a direita e conferir a saída das leituras acumuladas em ordem, com `transport: serial_demo`, até esvaziar a fila.
+- Clicar em Stop ao terminar.
+- **Resultado esperado:** a coleta continua offline e os dados acumulados aparecem após reconectar. Esta parte não alimenta o painel.
+
+### 3. Iniciar o painel da Parte 2
+
+- No PowerShell, na raiz do projeto, selecionar o Python e iniciar os serviços, uma linha por vez:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install -r config/fase3/requirements-mqtt.txt
-npm ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
 $env:CARDIOIA_PYTHON = (Resolve-Path .\.venv\Scripts\python.exe).Path
 node scripts/fase3/iniciar_dashboard.js --com-consumidor
 ```
 
-No Linux/macOS, usar `export CARDIOIA_PYTHON="$PWD/.venv/bin/python"` em lugar da atribuição PowerShell. Manter o terminal aberto e apenas **um consumidor** no tópico durante o teste.
+- Manter esse terminal aberto. O comando inicia painel e um consumidor; não iniciar outro consumidor junto.
+- Aguardar aparecerem `Server now running` e `Started flows` no terminal. A linha inicial `Painel: ...` apenas informa o endereço; ela aparece antes de o serviço estar pronto. Depois abrir o [painel local](http://127.0.0.1:1880/dashboard/monitoramento).
+- Abrir o [Wokwi MQTT](https://wokwi.com/projects/478772789361460225), clicar em Play e mover a chave para a direita.
+- **Resultado esperado:** `# ack_confirmado` no Serial e avanço das leituras no painel. Se só houver `mqtt_publicacao=tentada`, conferir o consumidor conforme o guia.
 
-**Validar a demonstração principal:**
+### 4. Conferir os sensores e alertas
 
-1. Abrir o [monitoramento local](http://127.0.0.1:1880/dashboard/monitoramento). Antes de transmitir, é normal aguardar dados.
-2. Abrir o [Wokwi MQTT da Parte 2](https://wokwi.com/projects/478772789361460225), dar **Play** e mover a chave para a **direita, online**. Conferir `transport: mqtt`, `# mqtt_conectado` e `# ack_confirmado` no Serial, além do avanço da leitura e da confirmação no painel.
-3. Pressionar **e soltar** o botão verde ou a tecla **B**. Seis pulsos em cinco segundos simulados representam aproximadamente 72 BPM. Para testar o alerta, obter mais de dez acionamentos por janela em duas coletas atuais consecutivas; depois reduzir até 108 BPM por duas leituras atuais. Segurar o botão conta um único pulso.
-4. Clicar no DHT22 em execução, alterar para **31 °C** e aguardar duas leituras atuais para conferir o alerta. Reduzir para **28 °C** e aguardar duas leituras para conferir o retorno.
-5. Mover a chave para a **esquerda, offline**, aguardar pelo menos três coletas e conferir o crescimento da fila. Voltar à direita e observar a recuperação ordenada, as confirmações e a redução da fila até zero. Os dados recuperados devem permanecer no histórico.
-6. Parar a simulação e pressionar **Ctrl+C** no terminal para encerrar os serviços. O banco e os eventos permanecem em `.tools/runtime/fase3/`, fora do Git.
+- Pressionar e soltar o botão verde: seis acionamentos na mesma janela de cinco segundos simulados equivalem a aproximadamente 72 BPM. Segurar conta um único pulso.
+- Obter mais de dez acionamentos por janela em duas coletas atuais consecutivas para conferir o alerta; depois reduzir para até 108 BPM por duas leituras e conferir o retorno.
+- Clicar no DHT22 durante a simulação, ajustar para 31 °C e aguardar duas leituras atuais. Conferir temperatura e alerta no painel.
+- Reduzir para 28 °C e aguardar duas leituras para conferir o retorno.
+- **Resultado esperado:** pontos no gráfico, temperatura atualizada e eventos de entrada/retorno. Manter Wokwi e painel visíveis; o tempo simulado pode desacelerar em segundo plano.
 
-**Validar a resiliência isolada da Parte 1:** abrir o [Wokwi Serial](https://wokwi.com/projects/478054573982428161), dar Play, manter a chave à esquerda por pelo menos três coletas e voltar à direita. Conferir os JSON em ordem, com `transport: serial_demo`, e o esvaziamento da fila. Essa demonstração dispensa broker, consumidor e painel; representa a simulação Serial pedida na Parte 1.
+### 5. Testar a interrupção e encerrar o painel
 
-**Interpretar o tempo e o estado do painel:** coletamos a cada cinco segundos do relógio do ESP32 simulado. Manter o Wokwi visível, pois em segundo plano pode desacelerar. O estado “broker conectado” é independente da chegada de uma leitura recente; após 15 segundos reais sem leitura atual, preservamos o último valor em cinza. Publicação tentada não comprova gravação: o ACK confirma a persistência no consumidor.
+- Mover a chave para a esquerda e aguardar pelo menos três novas coletas.
+- Conferir a fila crescendo no Serial, mesmo sem conexão.
+- Mover a chave à direita e acompanhar recuperação ordenada, confirmações e redução da fila.
+- Conferir o histórico preservado no painel. Valores antigos podem ficar cinza, com indicação de falta de atualização.
+- Clicar em Stop no Wokwi e pressionar Ctrl+C no PowerShell do painel.
+- **Resultado esperado:** os dados recebidos ficam em SQLite; não apagar `.tools/runtime/` para repetir testes.
 
-O [guia completo da Fase 3](document/fase3/README.md) detalha instalação para Windows e Linux/macOS, consulta ao banco, reenvio após ACK omitido, estados e diagnóstico de falhas. No painel, leituras recuperadas e reenvios não confirmam novos alertas do presente. Os intervalos e limites utilizados são escolhas da implementação.
+### 6. Executar o Ir Além 1 — REST e e-mail
+
+- Seguir os [nove passos do guia REST](document/fase3/rest/README.md).
+- Iniciar o serviço no terminal A e verificar `/saude` no navegador.
+- Abrir um terminal B na mesma pasta, executar a demonstração e consultar as cinco leituras.
+- Abrir os dois arquivos de e-mail e conferir os motivos dos alertas.
+- Reiniciar o serviço, consultar novamente e conferir a mesma sessão.
+- Encerrar com Ctrl+C.
+- **Resultado esperado:** cinco leituras únicas, dois e-mails locais e reenvio sem duplicação. A API mostra JSON; a raiz `/` não tem página e retorna “Rota inexistente”. Não há envio real de e-mails.
+
+### 7. Conferir a entrega e os próximos passos
+
+- Marcar a lista de conferência no [guia da Fase 3](document/fase3/README.md) somente após observar cada resultado.
+- Para verificações adicionais de contrato, fila e confirmações, seguir o [guia de testes](document/fase3/tests/README.md).
+- Consultar os relatórios e as evidências pelo [índice da documentação](document/README.md).
+- O **Ir Além 2 ainda está pendente**. Não existe execução dessa comparação pronta nesta revisão; o [roteiro](document/fase3/ROTEIRO_ENTREGA.md) identifica o que falta.
+
+### Se algum passo não funcionar
+
+- **Executável `.venv` não encontrado:** voltar à criação do ambiente; conferir a raiz e a versão do Python.
+- **`ModuleNotFoundError`:** instalar os requisitos da trilha com o mesmo executável `.venv` usado para rodar o código. Instalar no Python global não prepara automaticamente o ambiente virtual.
+- **Porta ocupada:** encerrar com Ctrl+C a instância anterior do próprio serviço; não encerrar processos desconhecidos. Conferir a porta indicada no guia (8501 Streamlit, 1880 Node-RED, 8765 REST; React informa seu endereço).
+- **REST retorna rota inexistente:** abrir `/saude` ou `/leituras`, não a raiz `/`. São respostas JSON, não painel gráfico.
+- **MQTT não conecta:** conferir internet, acesso TCP 1883, serviço consumidor e Wokwi da Parte 2. Preservar a mensagem de erro; a disponibilidade do broker público é externa ao projeto.
+- **Dependência ou download falhou:** não continuar o treinamento; guardar a saída e conferir conexão e requisitos. Os arquivos e resultados já entregues continuam disponíveis para inspeção.
+
+Não apagar `.tools/runtime/` para resolver problemas: ali ficam as medições e os e-mails dos testes. Reexecuções de treinamento podem substituir resultados locais; utilizar uma cópia de avaliação separada para preservar o material entregue. Confirmar as instruções da revisão baixada, pois alterações ainda locais não aparecem em um novo clone público.
 
 ## 🗃 Histórico de lançamentos
 
@@ -313,7 +390,9 @@ Consolidamos as entregas de cada dia em um único registro, atualizado com os av
 - **24/10/2026 — Fase 3:** implementamos e validamos sensores no ESP32, fila offline, recuperação, transmissão MQTT, persistência e painel Node-RED; organizamos os materiais das três fases nas pastas oficiais da FIAP, preservando as entregas anteriores.
 - **25/10/2026 — Continuidade do projeto:** preservamos os fechamentos das Fases 1 e 2 em repositórios próprios e dedicamos este à evolução da Fase 3; consolidamos a apresentação das três fases, os guias de reprodução, os documentos e as evidências, com os entregáveis pendentes identificados; higienizamos os materiais de apoio e corrigimos os textos, preservando dados, código e evidências necessárias à reprodução.
 
-- **26/10/2026 — Fase 3:** reavaliamos o enunciado e os critérios de entrega; produzimos e revisamos os relatórios obrigatórios de Edge e MQTT/dashboard, com funcionamento, configuração, evidências, limites e instruções de reprodução.
+- **27/10/2026 — Documentação:** revisamos preparação, terminais, versões, endereços e resultados esperados nas instruções de reprodução e organizamos a Fase 3 em etapas numeradas para quem inicia sem experiência técnica; conferimos a execução em ambiente isolado e distinguimos verificações locais de dependências externas; reorganizamos os três PDFs da Fase 3 com passos numerados, terminais e resultados esperados, mantendo duas páginas em Edge, quatro em MQTT/dashboard e duas em REST/e-mail; preservamos a conferência da cópia nova e os resultados de REST após reinício e dos 12 cenários do painel pelo broker, e concluímos a repetição visual acompanhada no Wokwi, com sensores, alertas, recuperação e 41 medições sem lacunas ou perdas.
+
+- **26/10/2026 — Fase 3:** reavaliamos o enunciado e os critérios de entrega; produzimos e revisamos os relatórios obrigatórios de Edge e MQTT/dashboard, com funcionamento, configuração, evidências, limites e instruções de reprodução; implementamos o Ir Além 1 com cliente REST, persistência e e-mail simulado, conferimos sete testes HTTP e concluímos a validação guiada com persistência após reinício e produzimos o relatório REST/e-mail de duas páginas.
 
 ## 📋 Licença
 

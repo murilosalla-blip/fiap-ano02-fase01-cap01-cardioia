@@ -38,7 +38,7 @@ Arquivo `.csv`, conforme exigência explícita do enunciado (requisito identific
    - simplifica a variável-alvo original (`num`, escala 0–4) para binária (`ausente`/`presente`), seguindo a prática documentada pelos próprios autores da base.
 5. Resultado salvo em `assets/fase1/dados/processed/heart_disease_cleveland.csv`.
 
-Toda transformação aplicada é reprodutível: basta executar `python src/fase1/preparar_dataset_numerico.py` a partir da raiz do repositório, tendo o arquivo original em `assets/fase1/dados/raw/` como entrada.
+Toda transformação aplicada é reprodutível: seguir a preparação do [guia da Fase 1](README.md) e executar `.\.venv\Scripts\python.exe src/fase1/preparar_dataset_numerico.py` no PowerShell, a partir da raiz. No Linux/macOS, usar `./.venv/bin/python`. A fonte em `assets/fase1/dados/raw/` acompanha o repositório; esperar CSV com 303 registros.
 
 ## Natureza das variáveis (quantitativas, categóricas e variável-alvo)
 

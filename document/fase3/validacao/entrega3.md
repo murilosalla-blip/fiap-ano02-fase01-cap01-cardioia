@@ -1,6 +1,10 @@
 # Validação do painel Node-RED
 
+Antes dos comandos, concluir a [preparação da Fase 3](../README.md#como-reproduzir--preparação), incluindo criação de `.venv` e instalação das dependências. Executar na raiz do repositório. Cada terminal novo precisa entrar nessa mesma pasta; o terminal do servidor permanece aberto durante os testes.
+
 ## Como reproduzir os cenários
+
+No PowerShell, selecionar o interpretador antes de iniciar: `$env:CARDIOIA_PYTHON = (Resolve-Path .\.venv\Scripts\python.exe).Path`.
 
 1. Iniciar painel e consumidor com `node scripts/fase3/iniciar_dashboard.js --com-consumidor` na raiz, após instalar as dependências do [guia da fase](../README.md). Utilizar apenas uma instância do consumidor no tópico.
 2. Abrir `http://127.0.0.1:1880/dashboard/monitoramento` e conferir o estado inicial sem dados atuais.
@@ -19,4 +23,4 @@ Concluímos a revisão funcional no Chrome, incluindo gráfico, gauge, entrada e
 
 Na implementação inicial, aprovamos 15 testes locais; após a correção de estabilidade, aprovamos 19 testes. Mantemos os [12 cenários finais de rede](../../other/fase3/evidencias/2026-10-24/dashboard/RESULTADOS.md) separados das leituras produzidas pelo ESP32. Registramos a observação de 101 segundos e a separação entre conexão e atualidade na [validação de estabilidade](../../other/fase3/evidencias/2026-10-24/dashboard/estabilidade/RESULTADOS.md).
 
-Para repetir as verificações locais, executar `node --test src/fase3/tests/test_dashboard.cjs`. Produzimos o [relatório MQTT/dashboard de três páginas](../CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) e conferimos sua paginação. A revisão final do grupo e os desafios continuam identificados na [matriz de requisitos](../CHECKLIST_ENUNCIADO.md); a validação do painel não encerra toda a Fase 3.
+Para repetir as verificações locais, executar `node --test src/fase3/tests/test_dashboard.cjs`. Produzimos o [relatório MQTT/dashboard de quatro páginas](../CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) e conferimos sua paginação. A revisão final do grupo e os desafios continuam identificados na [matriz de requisitos](../CHECKLIST_ENUNCIADO.md); a validação do painel não encerra toda a Fase 3.

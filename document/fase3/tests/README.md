@@ -4,6 +4,8 @@ Reunimos os testes de contrato, fila, confirmações, persistência e painel, al
 
 Executar os comandos na raiz do repositório. Os exemplos Python abaixo usam o ambiente `.venv` no Windows; no Linux/macOS, substituir `.\.venv\Scripts\python.exe` por `./.venv/bin/python`. Para os testes C++, utilizar um terminal com compilador `g++` compatível com C++11; a instalação desse compilador é opcional para quem avalia diretamente pelo Wokwi.
 
+Antes dos comandos, concluir a [preparação da Fase 3](../README.md#como-reproduzir--preparação), incluindo criação de `.venv` e instalação das dependências. Executar na raiz do repositório. Cada terminal novo precisa entrar nessa mesma pasta; o terminal do servidor permanece aberto durante os testes.
+
 ## Contratos, persistência e preservação
 
 ```powershell
@@ -14,12 +16,12 @@ Executar os comandos na raiz do repositório. Os exemplos Python abaixo usam o a
 .\.venv\Scripts\python.exe scripts/fase1/verificar_preservacao.py
 ```
 
-Resultado esperado: 16 testes Python da Fase 3 e seis testes de proteção aprovados; integridade e links locais válidos. Conferimos persistência antes do ACK, reenvio, duplicatas, conflitos, falhas e migração sem sobrescrever dados anteriores. O exemplo JSON validado é uma referência do contrato, não uma saída de sensor.
+Resultado esperado: 23 testes Python da Fase 3 e seis testes de proteção aprovados; integridade e links locais válidos. Conferimos persistência antes do ACK, reenvio, duplicatas, conflitos, falhas e migração sem sobrescrever dados anteriores. O exemplo JSON validado é uma referência do contrato, não uma saída de sensor.
 
 ## Regras e fluxo Node-RED
 
 ```powershell
-npm ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
+npm.cmd ci --prefix src/fase3/node-red --ignore-scripts --no-audit --no-fund
 node --test src/fase3/tests/test_dashboard.cjs
 ```
 
@@ -28,7 +30,7 @@ Resultado esperado: 19 testes aprovados, incluindo confirmação dos alertas em 
 ## Núcleos C++ compartilhados com o firmware
 
 ```sh
-python -c "from pathlib import Path; Path('.tools/tmp').mkdir(parents=True, exist_ok=True)"
+.\.venv\Scripts\python.exe -c "from pathlib import Path; Path('.tools/tmp').mkdir(parents=True, exist_ok=True)"
 g++ -std=c++11 -Wall -Wextra -Werror src/fase3/tests/test_edge_core.cpp -o .tools/tmp/test_edge_core.exe
 ./.tools/tmp/test_edge_core.exe
 g++ -std=c++11 -Wall -Wextra -Werror src/fase3/tests/test_mqtt_delivery.cpp -o .tools/tmp/test_mqtt_delivery.exe
