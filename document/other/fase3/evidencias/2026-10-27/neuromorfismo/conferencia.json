@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-27",
+  "origem": "experimento sintetico; nao e execucao do ESP32",
+  "seed": 42,
+  "sessoes": 240,
+  "particoes_sessoes": {
+    "treino": 144,
+    "validacao": 48,
+    "teste": 48
+  },
+  "testes_isolamento_dinamica_avaliacao": {
+    "total": 6,
+    "resultado": "OK"
+  },
+  "notebook": {
+    "celulas_codigo": 6,
+    "todas_executadas": true,
+    "erros": 0,
+    "ambiente_novo": true
+  },
+  "conferencia_ambientes": {
+    "hash_coincide": true,
+    "metricas_sessoes_coincidem": true
+  },
+  "sha256_sinais_rotulos": "24a148963d5de011a00dde738f46687e62eca99e65a051590c5825a0b98d6683",
+  "acertos_teste": {
+    "tradicional": 44,
+    "lif": 35
+  },
+  "ambiente": {
+    "python": "3.12.10",
+    "sistema": "Windows",
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7"
+  },
+  "validacao_guiada": "pendente",
+  "revisao_grupo": "pendente",
+  "publicacao_revisao": "pendente",
+  "video": "pendente",
+  "observacao": "Criamos ambiente temporario em caminho curto e instalamos os requisitos do zero. O primeiro ensaio de criacao no diretorio temporario restrito nao concluiu; nao o contamos como validacao. O ambiente novo efetivamente usado concluiu instalacao, testes e notebook."
+}

@@ -2,7 +2,7 @@
 
 Implementamos o protótipo ESP32 → MQTT → consumidor SQLite → painel Node-RED. Este guia permite reproduzir coleta, interrupção, recuperação e alertas sem depender do ambiente utilizado pelo grupo.
 
-**Situação reavaliada em 27/10/2026:** validamos as implementações Edge, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de quatro páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), com paginação conferida e revisão final do grupo pendente. Implementamos e testamos localmente o [Ir Além 1 REST](rest/README.md); concluímos sua validação guiada e produzimos o [relatório de duas páginas](CardioIA_Fase3_Relatorio_REST_Email.pdf), com revisão final pendente. O Ir Além 2 permanece pendente. A [matriz do enunciado](CHECKLIST_ENUNCIADO.md) relaciona requisitos, evidências e pendências; o [roteiro](ROTEIRO_ENTREGA.md) organiza o trabalho restante. O prazo informado é **04/11/2026, às 23h59**.
+**Situação reavaliada em 28/10/2026:** validamos as implementações Edge, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de quatro páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), com paginação conferida e revisão técnica concluída em 28/10/2026. Implementamos e testamos localmente o [Ir Além 1 REST](rest/README.md); concluímos sua validação guiada e produzimos o [relatório de duas páginas](CardioIA_Fase3_Relatorio_REST_Email.pdf), com revisão técnica concluída em 28/10/2026. Implementamos e testamos o [Ir Além 2](neuromorfismo/README.md), com notebook executado e [relatório comparativo de duas páginas](CardioIA_Fase3_Relatorio_Neuromorfismo.pdf); concluímos a validação guiada, com revisão técnica concluída e vídeo pendente. A [matriz do enunciado](CHECKLIST_ENUNCIADO.md) relaciona requisitos, evidências e pendências; o [roteiro](ROTEIRO_ENTREGA.md) organiza o trabalho restante. O prazo informado é **04/11/2026, às 23h59**.
 
 ## Qual Wokwi utilizar
 
@@ -31,7 +31,7 @@ O DHT22 conta como **um sensor**, apesar de fornecer temperatura e umidade. Util
 - **API REST:** serviço consultado por endereços HTTP. Neste projeto, enviamos e consultamos dados com um cliente Python.
 - **JSON:** texto com campos entre chaves, usado para transportar os dados. Ver JSON no teste REST é o resultado esperado, não um erro.
 
-**Ordem da demonstração:** preparar o computador → testar o circuito Serial → iniciar o painel → testar MQTT e sensores → testar interrupção → encerrar → testar REST e e-mail. O Ir Além 2 ainda não possui implementação executável; não considerar essa parte concluída.
+**Ordem da demonstração:** preparar o computador → testar o circuito Serial → iniciar o painel → testar MQTT e sensores → testar interrupção → encerrar → testar REST e e-mail. Depois, executar a comparação do Ir Além 2 pelo guia específico; sua validação guiada foi concluída e o vídeo permanece pendente.
 
 ### Passo 2 — Instalar e conferir os programas
 
@@ -289,7 +289,18 @@ Executar a consulta após o consumidor iniciar e receber dados. A chave é `(dev
 
 **Resultado esperado:** cinco leituras únicas por demonstração, dois e-mails locais, reenvio sem duplicação e consulta após reinício. Não há envio de e-mail real.
 
-## Etapa 4 — Conferir o que foi concluído
+## Etapa 4 — Comparar os modelos do Ir Além 2
+
+1. Seguir o [guia de séries temporais e LIF](neuromorfismo/README.md), começando no passo 1.
+2. Instalar `config/fase3/requirements-neuromorfismo.txt` no Python do ambiente.
+3. Executar a comparação e abrir os três gráficos na pasta local indicada.
+4. Executar todas as células do notebook pelo comando `--notebook` e abrir o HTML.
+5. Conferir os nove testes, as mesmas 48 sessões de teste e a análise crítica.
+6. Revisar o [relatório comparativo](CardioIA_Fase3_Relatorio_Neuromorfismo.pdf) e preparar a gravação pelo [roteiro de vídeo](neuromorfismo/ROTEIRO_VIDEO.md).
+
+**Resultado da referência:** tradicional com 44/48 acertos e LIF com 35/48, sem usar o teste para selecionar parâmetros. Os sinais são sintéticos e a rede LIF tem leitura logística treinada. Esta trilha não depende de Wokwi ou servidores. Gravação, publicação e link do vídeo ainda não estão concluídos.
+
+## Etapa 5 — Conferir o que foi concluído
 
 - [ ] Visualizamos coleta offline e recuperação Serial no Wokwi da Parte 1.
 - [ ] Visualizamos leituras e confirmações no painel com o Wokwi MQTT.
@@ -298,8 +309,9 @@ Executar a consulta após o consumidor iniciar e receber dados. A chave é `(dev
 - [ ] Consultamos as leituras REST e abrimos os dois e-mails locais.
 - [ ] Reiniciamos a API e encontramos as mesmas leituras.
 - [ ] Encerramos os serviços sem apagar bancos ou evidências.
+- [ ] Executamos a comparação tradicional/LIF, abrimos o notebook executado e conferimos testes e limites.
 
-Esta lista é para quem reproduz marcar durante seu próprio teste. A comparação de modelos do **Ir Além 2 permanece pendente**; ainda não existe uma sequência de execução dessa entrega. Os [relatórios](../../document/README.md) e as evidências complementam a avaliação, sem substituir a execução acima.
+Esta lista é para quem reproduz marcar durante seu próprio teste. O **Ir Além 2 possui implementação, notebook e relatório**, com reprodução detalhada no guia; concluímos a validação guiada e ainda precisamos produzir o vídeo. Os [relatórios](../../document/README.md) e as evidências complementam a avaliação, sem substituir a execução acima.
 
 ## Teste adicional — reenvio e deduplicação
 
@@ -351,4 +363,4 @@ Uma leitura atual exige `age_ms <= 10000`, `backlog_samples == 1`, recebimento l
 
 O inicializador carrega o export e suas dependências. Para importar em outra instância, instalar FlowFuse Dashboard e disponibilizar `monitor.js` por `config/fase3/node-red/settings.js`. O JSON sozinho não inclui essa configuração. Consultar o [guia Node-RED](node-red/README.md).
 
-Os registros Markdown e prints comprovam testes, mas **não substituem os relatórios com mínimos de páginas**. Produzimos os relatórios Edge (duas páginas) e MQTT/dashboard (quatro páginas), disponíveis no início deste guia. Implementamos cliente REST, regras e e-mail simulado no [Ir Além 1](rest/README.md), com sete testes locais; concluímos sua validação guiada e produzimos o relatório de duas páginas, com revisão final pendente. Ainda precisamos implementar o Ir Além 2 com comparação tradicional × LIF/FHN, notebook, relatório de duas páginas e vídeo não listado de até quatro minutos no README raiz. O endpoint de consulta do painel não satisfaz esses desafios.
+Os registros Markdown e prints comprovam testes, mas **não substituem os relatórios com mínimos de páginas**. Produzimos os relatórios Edge (duas páginas) e MQTT/dashboard (quatro páginas), disponíveis no início deste guia. Implementamos cliente REST, regras e e-mail simulado no [Ir Além 1](rest/README.md), com sete testes locais; concluímos sua validação guiada e produzimos o relatório de duas páginas, com revisão técnica concluída em 28/10/2026. Implementamos e testamos o [Ir Além 2](neuromorfismo/README.md), com comparação tradicional × LIF, notebook executado e relatório de duas páginas. Concluímos a validação guiada; faltam vídeo não listado de até quatro minutos no README raiz. O endpoint de consulta do painel não satisfaz esses desafios.
