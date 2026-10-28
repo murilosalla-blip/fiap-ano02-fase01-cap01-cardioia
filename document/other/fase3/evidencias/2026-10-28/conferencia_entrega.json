@@ -1,0 +1,171 @@
+{
+  "data": "2026-10-28",
+  "relatorios": [
+    {
+      "arquivo": "document/fase3/CardioIA_Fase3_Relatorio_Edge.pdf",
+      "paginas": 2,
+      "sha256": "5af930ca15082053a5b082c3ad1ba88ebd2d25e9c696e4059d7740bd7e68adab",
+      "integrantes_rms_conferidos": true,
+      "links_pdf": [
+        "https://wokwi.com/projects/478054573982428161",
+        "https://wokwi.com/projects/478054573982428161",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/tree/6fd6aba1b10a71e64fddac21b7a9efc3ce75a425/src/fase3/firmware/cardioia_edge",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/blob/main/document/fase3/README.md",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/blob/main/document/fase3/tests/README.md",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/tree/6fd6aba1b10a71e64fddac21b7a9efc3ce75a425/document/other/fase3/evidencias/2026-10-24",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/tree/6fd6aba1b10a71e64fddac21b7a9efc3ce75a425/document/other/referencias/fase3/enunciado"
+      ]
+    },
+    {
+      "arquivo": "document/fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf",
+      "paginas": 4,
+      "sha256": "e5d0c1bd5e37541c6ee7e8cad47b32ff559a32e4909ba2a13cf792e67a15eef3",
+      "integrantes_rms_conferidos": true,
+      "links_pdf": [
+        "https://git-scm.com/install/windows",
+        "https://www.python.org/downloads/windows/",
+        "https://nodejs.org/en/download",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/blob/main/document/fase3/README.md",
+        "http://127.0.0.1:1880/dashboard/monitoramento",
+        "https://wokwi.com/projects/478772789361460225",
+        "https://wokwi.com/projects/478772789361460225",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/blob/main/document/fase3/README.md",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/tree/6fd6aba1b10a71e64fddac21b7a9efc3ce75a425/src/fase3",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/tree/6fd6aba1b10a71e64fddac21b7a9efc3ce75a425/config/fase3",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/tree/6fd6aba1b10a71e64fddac21b7a9efc3ce75a425/document/other/fase3/evidencias/2026-10-24/mqtt/validacao_guiada",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/tree/6fd6aba1b10a71e64fddac21b7a9efc3ce75a425/document/other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada"
+      ]
+    },
+    {
+      "arquivo": "document/fase3/CardioIA_Fase3_Relatorio_REST_Email.pdf",
+      "paginas": 2,
+      "sha256": "8d23f7a94a8ee95c684da5cb236b6f8934c35390fb91c75c99c3dd9d5cc1b7a5",
+      "integrantes_rms_conferidos": true,
+      "links_pdf": [
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/blob/main/document/fase3/README.md",
+        "http://127.0.0.1:8765/saude",
+        "http://127.0.0.1:8765/leituras",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/blob/main/document/fase3/rest/README.md"
+      ]
+    },
+    {
+      "arquivo": "document/fase3/CardioIA_Fase3_Relatorio_Neuromorfismo.pdf",
+      "paginas": 2,
+      "sha256": "5d945063b79863bbd81d01b9398175fe55a80811c0f979a7ba21bedb127cd829",
+      "integrantes_rms_conferidos": true,
+      "links_pdf": [
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/blob/main/document/fase3/neuromorfismo/README.md",
+        "https://neuronaldynamics.epfl.ch/online/Ch1.S3.html",
+        "https://neuronaldynamics.epfl.ch/online/Ch20.S1.html",
+        "https://scikit-learn.org/stable/common_pitfalls.html",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/blob/main/src/fase3/notebooks/comparacao_temporal_lif.ipynb",
+        "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia/tree/main/assets/fase3/resultados/neuromorfismo"
+      ]
+    }
+  ],
+  "testes": {
+    "modelos": 6,
+    "exportacao": 3,
+    "contrato_mqtt_rest": 23,
+    "node_red": 19
+  },
+  "links_publicos": [
+    {
+      "url": "https://cardioia-fiap.streamlit.app/",
+      "erro": "HTTP Error 303: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nSee Other",
+      "verificacao_navegador": "Aplicativo em repouso; acionamos reativação e conferimos página inicial CardioIA, abas e identificação da Fase 2 sem solicitar login.",
+      "resultado": "acesso publico confirmado no navegador apos reativacao",
+      "captura": "A captura de tela da ferramenta excedeu o tempo limite em duas tentativas; preservamos a conferência textual da página, sem alegar print."
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing",
+      "status": 200,
+      "destino": "https://drive.google.com/drive/folders/135ZuObt02AxX13aiQG_sqef9nxAjkPMy?usp=sharing",
+      "titulo": "ecg - Google Drive",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing",
+      "status": 200,
+      "destino": "https://drive.google.com/drive/folders/1I_gzbCuJUYvx0lwPtg5XhDf-IH039t2s?usp=sharing",
+      "titulo": "processed - Google Drive",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing",
+      "status": 200,
+      "destino": "https://drive.google.com/drive/folders/1Qc5W_RoAIq1sopROYvCss5uBwO0IlI6C?usp=sharing",
+      "titulo": "textos - Google Drive",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal",
+      "status": 200,
+      "destino": "https://github.com/Julia-carvalho96/grupo-aura-cardioia-portal",
+      "titulo": "GitHub - Julia-carvalho96/grupo-aura-cardioia-portal · GitHub",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia",
+      "status": 200,
+      "destino": "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia",
+      "titulo": "GitHub - murilosalla-blip/fiap-ano02-fase03-cardioia: CardioIA - Fase 1, Cap 1: Busca e preparacao de dados numericos, textuais e visuais para saude cardiovascular (FIAP) · GitHub",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/",
+      "status": 200,
+      "destino": "https://julia-carvalho96.github.io/grupo-aura-cardioia-portal/",
+      "titulo": "CardioIA Portal",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://youtu.be/qoKjl6oeotY",
+      "status": 200,
+      "destino": "https://www.youtube.com/watch?v=qoKjl6oeotY&feature=youtu.be",
+      "titulo": "Cardio IA - FIAP - YouTube",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://wokwi.com/projects/478054573982428161",
+      "status": 200,
+      "destino": "https://wokwi.com/projects/478054573982428161",
+      "titulo": "CardioIA Grupo Aura Fase 3 Edge Entrega 1 - Wokwi ESP32, STM32, Arduino Simulator",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://wokwi.com/projects/478772789361460225",
+      "status": 200,
+      "destino": "https://wokwi.com/projects/478772789361460225",
+      "titulo": "CardioIA Grupo Aura Fase 3 MQTT Entrega 2 - Wokwi ESP32, STM32, Arduino Simulator",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://github.com/murilosalla-blip/fiap-ano02-fase01-cardioia",
+      "status": 200,
+      "destino": "https://github.com/murilosalla-blip/fiap-ano02-fase01-cardioia",
+      "titulo": "GitHub - murilosalla-blip/fiap-ano02-fase01-cardioia: CardioIA — Fase 1. Cópia histórica exata do fechamento original de 23/08/2026, com arquivos e histórico preservados. · GitHub",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://github.com/murilosalla-blip/fiap-ano02-fase02-cardioia",
+      "status": 200,
+      "destino": "https://github.com/murilosalla-blip/fiap-ano02-fase02-cardioia",
+      "titulo": "GitHub - murilosalla-blip/fiap-ano02-fase02-cardioia: CardioIA — Fase 2. Cópia histórica exata do fechamento original de 07/10/2026, com arquivos e histórico preservados. · GitHub",
+      "login_redirecionado": false
+    },
+    {
+      "url": "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia",
+      "status": 200,
+      "destino": "https://github.com/murilosalla-blip/fiap-ano02-fase03-cardioia",
+      "titulo": "GitHub - murilosalla-blip/fiap-ano02-fase03-cardioia: CardioIA - Fase 1, Cap 1: Busca e preparacao de dados numericos, textuais e visuais para saude cardiovascular (FIAP) · GitHub",
+      "login_redirecionado": false
+    }
+  ],
+  "pendencias": [
+    "Video especifico do Ir Alem 2, YouTube nao listado, ate 4 minutos e link no README.",
+    "Confirmar cadastro efetivo do grupo, formatos e limites aceitos na plataforma FIAP.",
+    "Enviar e conferir o pacote na plataforma FIAP."
+  ],
+  "nota": "Revisão técnica autorizada pelo grupo; não representa submissão nem publicação do vídeo. Não alegamos nova aprovação individual de cada integrante."
+}

@@ -59,3 +59,19 @@ jobs:
         run: |
           node --test src/fase3/tests/test_dashboard.cjs
           node src/fase3/node-red/gerar_fluxo.js
+  series-temporais-lif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: config/fase3/requirements-neuromorfismo.txt
+      - name: Instalar dependências do Ir Além 2
+        run: python -m pip install -r config/fase3/requirements-neuromorfismo.txt
+      - name: Conferir isolamento e dinâmica LIF
+        run: python -m unittest discover -s src/fase3/neuromorfismo/tests -v
+      - name: Executar todas as células do notebook
+        run: python scripts/fase3/executar_neuromorfismo.py --notebook

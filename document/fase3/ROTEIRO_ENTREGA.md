@@ -54,25 +54,27 @@ Aceite: dashboard acompanha o ESP32 em tempo real, mostra histórico e alertas a
 - [x] Simulamos e-mail em arquivo `.eml` e caixa de saída persistente, sem enviar mensagens reais.
 - [x] Evitamos e-mails repetidos para o mesmo episódio e tratamos falhas HTTP.
 - [x] Testamos o fluxo HTTP completo e inspecionamos o conteúdo do e-mail gerado; conferimos sete testes e a demonstração sintética de cinco leituras.
-- [x] Produzimos o [relatório REST/e-mail de duas páginas](CardioIA_Fase3_Relatorio_REST_Email.pdf) e conferimos a renderização; revisão final do grupo pendente.
+- [x] Produzimos o [relatório REST/e-mail de duas páginas](CardioIA_Fase3_Relatorio_REST_Email.pdf) e conferimos a renderização; revisão técnica concluída em 28/10/2026.
 - [x] Validamos o cliente, os alertas, os dois e-mails simulados e a consulta após reiniciar o serviço.
 
-Reprodução e validação guiada: [REST e e-mail simulado](rest/README.md). Concluímos a validação guiada e produzimos o relatório; sua revisão final permanece pendente.
+Reprodução e validação guiada: [REST e e-mail simulado](rest/README.md). Concluímos a validação guiada e produzimos o relatório; concluímos sua revisão técnica em 28/10/2026.
 
 Aceite: requisições de envio e consulta funcionam; cenário com alerta produz e-mail simulado verificável; cenário normal não produz e-mail de alerta.
 
 ## Entrega 5 — Ir Além 2 séries temporais e neuromorfismo
 
-- [ ] Vamos definir objetivo, rótulo, gerador/fonte e limites das séries de sinais simulados.
-- [ ] Vamos separar sessões independentes antes de criar janelas; impedir sobreposição entre treino e teste.
-- [ ] Vamos treinar classificador tradicional, como regressão logística.
-- [ ] Vamos implementar modelo neuromórfico LIF ou FHN com saída de classificação claramente definida.
-- [ ] Vamos comparar ambos na mesma tarefa e divisão, com métricas, matriz de confusão e análise de erros.
-- [ ] Vamos explicar limitações, sementes e parâmetros; não inferir consumo energético de chip a partir de Python.
-- [ ] Vamos entregar notebook comentado e executado, resultados e instruções.
-- [ ] Vamos produzir relatório comparativo de duas páginas.
-- [ ] Vamos preparar roteiro, gravar vídeo de até quatro minutos e publicar como não listado no YouTube.
-- [ ] Vamos validar a comparação, o relatório e o vídeo.
+- [x] Definimos dois regimes de oscilação em BPM artificial, 240 sessões, semente e limites explícitos.
+- [x] Separamos 144/48/48 sessões independentes antes de criar janelas; conferimos ausência de sessões compartilhadas.
+- [x] Treinamos regressão logística sobre oito atributos, com seleção de C na validação.
+- [x] Implementamos reservatório recorrente de 24 neurônios LIF e leitura logística treinada sobre sua atividade.
+- [x] Comparamos nas mesmas 48 sessões de teste, com métricas, matrizes, erros e intervalo pareado por sessão.
+- [x] Registramos limitações, semente, parâmetros e relógios distintos, sem inferir energia de chip a partir de Python.
+- [x] Produzimos notebook comentado e executado, resultados e [instruções passo a passo](neuromorfismo/README.md); código e guia incluídos nesta revisão.
+- [x] Produzimos [relatório comparativo de duas páginas](CardioIA_Fase3_Relatorio_Neuromorfismo.pdf) e conferimos a renderização; revisão técnica concluída em 28/10/2026.
+- [ ] Preparamos o [roteiro do vídeo](neuromorfismo/ROTEIRO_VIDEO.md); ainda precisamos gravar até quatro minutos e publicar como não listado no YouTube.
+- [x] Concluímos a validação guiada em 28/10/2026: instalação, comparação, três gráficos, notebook, HTML e seis testes com `OK`.
+- [x] Concluímos a revisão técnica do relatório comparativo em 28/10/2026.
+- [ ] Vamos conferir o vídeo após sua publicação.
 
 Aceite: os dois modelos fazem previsões comparáveis em teste separado; execução é reproduzível; relatório interpreta os resultados sem promessas clínicas.
 
@@ -80,12 +82,13 @@ Aceite: os dois modelos fazem previsões comparáveis em teste separado; execuç
 
 - [x] Produzimos o [relatório Edge de duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e conferimos sua paginação e renderização.
 - [x] Produzimos o [relatório MQTT/dashboard de quatro páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) e conferimos sua paginação e renderização.
-- [ ] Vamos concluir a revisão final do grupo dos dois relatórios obrigatórios.
-- [ ] Vamos conferir os relatórios dos dois desafios e sua paginação final.
-- [ ] Vamos consolidar README com instalação, arquitetura, limites, integrantes/RMs e links públicos.
-- [ ] Vamos consolidar checklist requisito → arquivo → evidência → resultado.
+- [x] Concluímos a revisão técnica dos dois relatórios obrigatórios em 28/10/2026.
+- [x] Conferimos os dois relatórios dos desafios, com duas páginas cada.
+- [x] Consolidamos README com instalação, arquitetura, limites, integrantes/RMs e links públicos; o link do vídeo da Fase 3 será acrescentado após a publicação.
+- [x] Consolidamos checklist requisito → arquivo → evidência → resultado, distinguindo os itens concluídos de vídeo e submissão.
 - [x] Fizemos a reprodução em cópia nova e a revisão acompanhada dos cenários visuais em 27/10/2026; conferimos sensores, entrada/retorno dos alertas, interrupção, recuperação e persistência REST. Preservamos 41 medições únicas sem lacunas ou perdas.
-- [ ] Vamos verificar link Wokwi, vídeo não listado e acesso público ao repositório.
+- [x] Conferimos os dois Wokwi, os repositórios e os materiais públicos das fases anteriores, sem autenticação.
+- [ ] Vamos conferir o novo vídeo não listado após sua publicação.
 - [ ] Vamos preparar documento/arquivo para submissão conforme a plataforma.
 - [ ] Vamos validar o pacote final e realizar e conferir o envio na FIAP.
 

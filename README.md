@@ -30,7 +30,7 @@
 
 Desenvolvemos o **CardioIA** como projeto acadêmico da FIAP ao longo de 7 fases. Na **Fase 1 — "Batimentos de Dados: Mapeando o Coração Moderno"**, reunimos dados numéricos, textuais e visuais. Na **Fase 2 — Machine Learning**, desenvolvemos extração de sintomas, classificação textual com TF-IDF, portal React e experimentos tabulares e visuais. Na **Fase 3 — Monitoramento Contínuo: IoT na Saúde**, acrescentamos captura simulada com ESP32, resiliência offline, transmissão MQTT e visualização no Node-RED, mantendo a evolução das entregas anteriores.
 
-Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Produzimos os relatórios obrigatórios de Edge e MQTT/dashboard. Implementamos e testamos localmente o cliente REST com e-mail simulado; concluímos a validação guiada e produzimos seu relatório de duas páginas, com revisão final pendente. A comparação entre classificador tradicional e modelo neuromórfico, incluindo documentos e vídeo, permanece pendente.
+Na **Fase 3**, coletamos temperatura ambiente, umidade e pulsos artificiais, preservamos leituras durante interrupções e acompanhamos a recuperação e os alertas no painel. A telemetria é independente dos pacientes e relatos das bases anteriores. Produzimos os relatórios obrigatórios de Edge e MQTT/dashboard. Implementamos e testamos localmente o cliente REST com e-mail simulado; concluímos a validação guiada e produzimos seu relatório de duas páginas, com revisão técnica concluída em 28/10/2026. Implementamos a comparação entre classificador tradicional e rede LIF, com notebook executado e relatório de duas páginas; concluímos a validação guiada, com revisão técnica concluída e vídeo pendente.
 
 > **Uso exclusivamente educacional.** Não realizamos diagnóstico, não estimamos risco clínico real e não substituímos avaliação médica.
 
@@ -125,12 +125,12 @@ Reutilizamos o mesmo circuito nos dois projetos Wokwi, com firmwares diferentes.
 
 **Evidências:** [Testes Edge](document/other/fase3/evidencias/2026-10-24/RESULTADOS.md), [testes MQTT](document/other/fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md) e [validação do painel](document/other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md)
 
-**Situação da entrega:** validamos sensores, fila offline, MQTT e Node-RED. Produzimos o [relatório Edge de duas páginas](document/fase3/CardioIA_Fase3_Relatorio_Edge.pdf) e o [relatório MQTT/dashboard de quatro páginas](document/fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), atendendo aos mínimos de uma e duas páginas. Conferimos conteúdo e paginação e aguardamos a revisão final do grupo. Concluímos a validação guiada do Ir Além 1 e produzimos seu relatório. A revisão final dos relatórios, o Ir Além 2 e a submissão continuam pendentes.
+**Situação da entrega:** validamos sensores, fila offline, MQTT, Node-RED e os dois desafios implementados. Concluímos a revisão técnica dos quatro relatórios em 28/10/2026: [Edge — duas páginas](document/fase3/CardioIA_Fase3_Relatorio_Edge.pdf), [MQTT/dashboard — quatro páginas](document/fase3/CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf), [REST/e-mail — duas páginas](document/fase3/CardioIA_Fase3_Relatorio_REST_Email.pdf) e [Tradicional/LIF — duas páginas](document/fase3/CardioIA_Fase3_Relatorio_Neuromorfismo.pdf). Registramos a [conferência do pacote e dos links](document/other/fase3/evidencias/2026-10-28/REVISAO_ENTREGA.md). O vídeo do Ir Além 2, a conferência do cadastro na FIAP e a submissão continuam pendentes.
 
 Mantemos os dois desafios **Ir Além** no escopo do grupo, como na Fase 2. A tabela da atividade principal distribui dez pontos; não atribuímos pontuação adicional aos desafios:
 
-- **Ir Além 1 — REST e e-mail:** implementamos cliente Python com envio e consulta HTTP, regras didáticas e e-mail em arquivo local. Conferimos sete testes e uma demonstração de cinco leituras e dois e-mails. Seguir o [guia de execução e validação](document/fase3/rest/README.md). Concluímos a validação guiada e produzimos o [relatório de duas páginas](document/fase3/CardioIA_Fase3_Relatorio_REST_Email.pdf), com revisão final pendente.
-- **Ir Além 2 — séries temporais e neuromorfismo:** comparar um classificador tradicional com um modelo LIF ou FHN, entregar notebook Python comentado e executado, código e README públicos, relatório comparativo de **duas páginas** e vídeo de **até quatro minutos**, não listado no YouTube, com link neste README.
+- **Ir Além 1 — REST e e-mail:** implementamos cliente Python com envio e consulta HTTP, regras didáticas e e-mail em arquivo local. Conferimos sete testes e uma demonstração de cinco leituras e dois e-mails. Seguir o [guia de execução e validação](document/fase3/rest/README.md). Concluímos a validação guiada e produzimos o [relatório de duas páginas](document/fase3/CardioIA_Fase3_Relatorio_REST_Email.pdf), com revisão técnica concluída em 28/10/2026.
+- **Ir Além 2 — séries temporais e neuromorfismo:** comparamos regressão logística com uma rede recorrente LIF de 24 neurônios e saída treinada, nas mesmas sessões sintéticas de BPM. Preservamos o [notebook executado](src/fase3/notebooks/comparacao_temporal_lif.ipynb), os resultados e o [relatório de duas páginas](document/fase3/CardioIA_Fase3_Relatorio_Neuromorfismo.pdf). Seguir o [guia completo](document/fase3/neuromorfismo/README.md). Concluímos a validação guiada; falta o vídeo não listado de **até quatro minutos**, com link neste README.
 
 O prazo informado é **04/11/2026, às 23h59**. Acompanhamos a conclusão, a reprodução do pacote e a submissão no [roteiro de entrega](document/fase3/ROTEIRO_ENTREGA.md).
 
@@ -140,7 +140,7 @@ Na **Fase 2**, publicamos um vídeo único de até quatro minutos que apresenta 
 
 - **Assistir no YouTube (não listado):** [CardioIA — Fase 2 completa](https://youtu.be/qoKjl6oeotY)
 
-Na **Fase 3**, ainda precisamos produzir e publicar o vídeo específico do Ir Além 2, com até quatro minutos e análise crítica da comparação dos modelos. O link da Fase 2 permanece como registro da entrega anterior e não substitui esse novo vídeo.
+Na **Fase 3**, ainda precisamos produzir e publicar o vídeo específico do Ir Além 2, com até quatro minutos e análise crítica da comparação dos modelos. Preparamos o [roteiro da apresentação](document/fase3/neuromorfismo/ROTEIRO_VIDEO.md), mas ainda não publicamos o vídeo. O link da Fase 2 permanece como registro da entrega anterior e não substitui esse novo vídeo.
 
 ## 📁 Estrutura de pastas
 
@@ -225,7 +225,7 @@ Se a cópia já existe, abrir o PowerShell nessa pasta e conferir `Test-Path .\R
 
 **Como acompanhar os passos:** executar um comando por vez e aguardar sua conclusão. Instalação bem-sucedida retorna ao prompt sem erro; avisos de atualização do pip não exigem atualização. Se aparecer erro, corrigir antes de avançar. Comandos de servidor permanecem ocupados: manter esse terminal aberto e usar outro, na mesma raiz, para consultas. Não digitar comandos Python no editor ou no Monitor Serial do Wokwi.
 
-**Escolher a trilha:** Fase 1 para dados; Fase 2 para NLP, Streamlit e extras; Fase 3 Parte 1 somente no navegador; Parte 2 para MQTT/painel; Ir Além 1 para HTTP local. Não é necessário executar fases ou treinamentos anteriores para testar IoT ou REST.
+**Escolher a trilha:** Fase 1 para dados; Fase 2 para NLP, Streamlit e extras; Fase 3 Parte 1 somente no navegador; Parte 2 para MQTT/painel; Ir Além 1 para HTTP local; Ir Além 2 para comparar modelos de séries temporais. Não é necessário executar fases ou treinamentos anteriores para testar IoT ou REST.
 
 Utilizamos o executável do ambiente virtual sem precisar ativá-lo ou alterar a política de execução do PowerShell. No Linux/macOS, criar com `python3.12 -m venv .venv` e substituir `.venv/Scripts/python.exe` por `.venv/bin/python`, nas pastas correspondentes. Usar `cd` em lugar de `Set-Location` e `npm` em lugar de `npm.cmd` no Linux/macOS. Cada guia indica as demais diferenças de terminal; os testes locais desta revisão foram feitos no Windows, não nos três sistemas.
 
@@ -362,12 +362,34 @@ node scripts/fase3/iniciar_dashboard.js --com-consumidor
 - Encerrar com Ctrl+C.
 - **Resultado esperado:** cinco leituras únicas, dois e-mails locais e reenvio sem duplicação. A API mostra JSON; a raiz `/` não tem página e retorna “Rota inexistente”. Não há envio real de e-mails.
 
-### 7. Conferir a entrega e os próximos passos
+### 7. Executar o Ir Além 2 — comparação tradicional e LIF
+
+- Usar o PowerShell na raiz, com Python 3.12 e `.venv` preparado. Esta trilha dispensa Wokwi, broker e Node-RED.
+- Instalar as dependências e executar, uma linha por vez:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r config/fase3/requirements-neuromorfismo.txt
+.\.venv\Scripts\python.exe scripts/fase3/executar_neuromorfismo.py
+```
+
+- Esperar as linhas `tradicional` e `lif`. Na referência, o F1 macro foi 0,9165 e 0,7262; o LIF teve desempenho inferior neste conjunto sintético.
+- Abrir `series.png`, `matrizes_confusao.png` e `atividade_lif.png` na pasta `.tools/runtime/fase3/neuromorfismo/`.
+- Executar o notebook completo e abrir a versão de leitura:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/fase3/executar_neuromorfismo.py --notebook
+Invoke-Item .tools/runtime/fase3/neuromorfismo/comparacao_temporal_lif.html
+```
+
+- Seguir os [oito passos de execução e conferência](document/fase3/neuromorfismo/README.md), incluindo nove testes (seis dos modelos e três de exportação). Os programas terminam sozinhos; não há servidor para encerrar.
+- A classificação compara regimes artificiais, sem diagnóstico ou medição de economia energética. O vídeo não listado continua pendente.
+
+### 8. Conferir a entrega e os próximos passos
 
 - Marcar a lista de conferência no [guia da Fase 3](document/fase3/README.md) somente após observar cada resultado.
 - Para verificações adicionais de contrato, fila e confirmações, seguir o [guia de testes](document/fase3/tests/README.md).
 - Consultar os relatórios e as evidências pelo [índice da documentação](document/README.md).
-- O **Ir Além 2 ainda está pendente**. Não existe execução dessa comparação pronta nesta revisão; o [roteiro](document/fase3/ROTEIRO_ENTREGA.md) identifica o que falta.
+- O **Ir Além 2 está implementado e testado localmente**. Concluímos a validação guiada; faltam vídeo e submissão; o [roteiro](document/fase3/ROTEIRO_ENTREGA.md) identifica o que falta.
 
 ### Se algum passo não funcionar
 
@@ -390,9 +412,11 @@ Consolidamos as entregas de cada dia em um único registro, atualizado com os av
 - **24/10/2026 — Fase 3:** implementamos e validamos sensores no ESP32, fila offline, recuperação, transmissão MQTT, persistência e painel Node-RED; organizamos os materiais das três fases nas pastas oficiais da FIAP, preservando as entregas anteriores.
 - **25/10/2026 — Continuidade do projeto:** preservamos os fechamentos das Fases 1 e 2 em repositórios próprios e dedicamos este à evolução da Fase 3; consolidamos a apresentação das três fases, os guias de reprodução, os documentos e as evidências, com os entregáveis pendentes identificados; higienizamos os materiais de apoio e corrigimos os textos, preservando dados, código e evidências necessárias à reprodução.
 
-- **27/10/2026 — Documentação:** revisamos preparação, terminais, versões, endereços e resultados esperados nas instruções de reprodução e organizamos a Fase 3 em etapas numeradas para quem inicia sem experiência técnica; conferimos a execução em ambiente isolado e distinguimos verificações locais de dependências externas; reorganizamos os três PDFs da Fase 3 com passos numerados, terminais e resultados esperados, mantendo duas páginas em Edge, quatro em MQTT/dashboard e duas em REST/e-mail; preservamos a conferência da cópia nova e os resultados de REST após reinício e dos 12 cenários do painel pelo broker, e concluímos a repetição visual acompanhada no Wokwi, com sensores, alertas, recuperação e 41 medições sem lacunas ou perdas.
+- **27/10/2026 — Fase 3:** revisamos preparação, terminais, versões, endereços e resultados esperados nas instruções de reprodução e organizamos a Fase 3 em etapas numeradas para quem inicia sem experiência técnica; conferimos a execução em ambiente isolado e distinguimos verificações locais de dependências externas; reorganizamos os três PDFs da Fase 3 com passos numerados, terminais e resultados esperados, mantendo duas páginas em Edge, quatro em MQTT/dashboard e duas em REST/e-mail; preservamos a conferência da cópia nova e os resultados de REST após reinício e dos 12 cenários do painel pelo broker, e concluímos a repetição visual acompanhada no Wokwi, com sensores, alertas, recuperação e 41 medições sem lacunas ou perdas; implementamos a comparação de regressão logística e rede LIF em sessões sintéticas, executamos o notebook em ambiente novo, conferimos seis testes e produzimos relatório comparativo de duas páginas e roteiro do vídeo, mantendo gravação e validação guiada pendentes.
 
 - **26/10/2026 — Fase 3:** reavaliamos o enunciado e os critérios de entrega; produzimos e revisamos os relatórios obrigatórios de Edge e MQTT/dashboard, com funcionamento, configuração, evidências, limites e instruções de reprodução; implementamos o Ir Além 1 com cliente REST, persistência e e-mail simulado, conferimos sete testes HTTP e concluímos a validação guiada com persistência após reinício e produzimos o relatório REST/e-mail de duas páginas.
+
+- **28/10/2026 — Validação:** iniciamos a reprodução guiada do Ir Além 2, conferimos métricas e os três gráficos e isolamos as saídas do notebook por execução para permitir sua repetição com imagens anteriores abertas no Windows; validamos a execução completa com arquivo anterior bloqueado, confirmamos a repetição acompanhada e conferimos conteúdo, imagens e links do HTML, e concluímos a validação guiada com seis testes aprovados; revisamos tecnicamente os quatro relatórios, conferimos integrantes/RMs e links públicos e ampliamos a verificação para nove testes, com links válidos também na cópia do notebook; mantemos vídeo e submissão pendentes.
 
 ## 📋 Licença
 

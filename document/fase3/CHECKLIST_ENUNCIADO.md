@@ -1,6 +1,6 @@
 # Fase 3 — requisitos, evidências e pendências
 
-Acompanhamos separadamente implementação, teste, documentação e submissão. Reavaliamos este checklist em **26/10/2026**, com os textos fornecidos, o enunciado Word arquivado e suas duas imagens. O prazo informado é **04/11/2026, às 23h59**. Os documentos e as evidências de testes abaixo não representam submissão concluída.
+Acompanhamos separadamente implementação, teste, documentação e submissão. Reavaliamos este checklist em **28/10/2026**, com os textos fornecidos, o enunciado Word arquivado e suas duas imagens. O prazo informado é **04/11/2026, às 23h59**. Os documentos e as evidências de testes abaixo não representam submissão concluída.
 
 ## Critérios da atividade obrigatória — 10 pontos
 
@@ -10,7 +10,7 @@ Acompanhamos separadamente implementação, teste, documentação e submissão. 
 | Resiliência offline | 2 | Chave booleana, coleta offline, fila FIFO de 2.000 amostras, sincronização e perdas contabilizadas; [resultados Edge](../other/fase3/evidencias/2026-10-24/RESULTADOS.md) | Validamos recuperação, limite, botão segurado e reinício; documentamos volatilidade da RAM |
 | MQTT e broker | 2 | Firmware `cardioia_mqtt`, broker real, consumidor SQLite e ACK; [resultados MQTT](../other/fase3/evidencias/2026-10-24/mqtt/RESULTADOS.md) | Validamos transmissão, persistência, reenvio e recuperação |
 | Dashboard e alertas | 2 | [Export Node-RED](../../src/fase3/node-red/flows.json), gráfico de BPM, gauge ambiental e alertas; [capturas](../../assets/fase3/evidencias/) e [validação guiada](../other/fase3/evidencias/2026-10-24/dashboard/validacao_guiada/RESULTADOS.md) | Validamos gráfico, temperatura, entrada e retorno dos alertas e estabilidade |
-| Documentação clara: código e relatórios | 2 | README e guias de execução, C++ comentado, relatório Edge **≥1 página** e relatório MQTT/dashboard **≥2 páginas** | Produzimos [Edge: duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e [MQTT/dashboard: quatro páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf); conferimos paginação e conteúdo; aguardamos revisão final do grupo |
+| Documentação clara: código e relatórios | 2 | README e guias de execução, C++ comentado, relatório Edge **≥1 página** e relatório MQTT/dashboard **≥2 páginas** | Produzimos [Edge: duas páginas](CardioIA_Fase3_Relatorio_Edge.pdf) e [MQTT/dashboard: quatro páginas](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf); conferimos paginação e conteúdo; concluímos a revisão técnica em 28/10/2026 |
 
 Não atribuímos nota antecipada a esta matriz. A avaliação pertence à FIAP; a implementação testada não dispensa os relatórios ou a entrega na plataforma.
 
@@ -22,16 +22,16 @@ Não atribuímos nota antecipada a esta matriz. A avaliação pertence à FIAP; 
 | Coleta periódica e conectividade booleana | 1 | Firmware e demonstração Serial | Conferimos no Wokwi e salvamos registros em `document/other/fase3/evidencias/` |
 | Resiliência offline e armazenamento limitado | 1–2 | Fila, testes e cenário de recuperação | Testamos o núcleo C++ e conferimos no Wokwi recuperação Serial, fila cheia, botão segurado e reinício; também implementamos MQTT, confirmamos reenvio e recuperação após reiniciar o consumidor |
 | C++ comentado e link Wokwi | 1 | `src/fase3/firmware/cardioia_edge/` e https://wokwi.com/projects/478054573982428161 | Comentamos o código, publicamos o link e reorganizamos o circuito durante nossa revisão |
-| Relatório Edge mínimo uma página | 6 | [Relatório Edge](CardioIA_Fase3_Relatorio_Edge.pdf) | Produzimos duas páginas e conferimos a renderização; revisão final do grupo pendente |
+| Relatório Edge mínimo uma página | 6 | [Relatório Edge](CardioIA_Fase3_Relatorio_Edge.pdf) | Produzimos duas páginas e conferimos a renderização; revisão técnica concluída em 28/10/2026 |
 | Transmissão MQTT e broker | 2 | Firmware compilado, consumidor, eventos de rede e projeto https://wokwi.com/projects/478772789361460225 | Confirmamos a troca real do ESP32 pelo broker, a confirmação após persistência e a recuperação após reiniciar o consumidor; também conferimos falha controlada do endpoint, recuperação ordenada e retorno à fila vazia |
 | Dashboard Node-RED com gráfico, gauge e alerta | 3 | `src/fase3/node-red/flows.json` e `document/other/fase3/evidencias/2026-10-24/dashboard/` | Implementamos e testamos regras, rede e recebimento do ESP32; concluímos a revisão visual guiada com entrada e retorno dos dois alertas |
-| Relatório MQTT/dashboard mínimo duas páginas | 6 | [Relatório MQTT/dashboard](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) | Produzimos quatro páginas e conferimos a renderização; revisão final do grupo pendente |
+| Relatório MQTT/dashboard mínimo duas páginas | 6 | [Relatório MQTT/dashboard](CardioIA_Fase3_Relatorio_MQTT_Dashboard.pdf) | Produzimos quatro páginas e conferimos a renderização; revisão técnica concluída em 28/10/2026 |
 | Ir Além 1 cliente REST envia e recebe | 4 | [Guia e evidência REST](rest/README.md) | Implementamos, testamos e concluímos a validação guiada com consulta após reinício |
 | Ir Além 1 regras de risco e e-mail simulado | 4 | Código, sete testes e demonstração de dois e-mails locais | Conferimos os dois e-mails na validação guiada |
-| Ir Além 1 relatório de uma a duas páginas | 4 | [Relatório de duas páginas](CardioIA_Fase3_Relatorio_REST_Email.pdf) | Produzimos e conferimos a renderização; revisão final do grupo pendente |
-| Ir Além 2 classificador tradicional e LIF/FHN | 5 | Notebook executado e resultados | Ainda precisamos concluir |
-| Ir Além 2 repositório público, código e README | 5–6 | Código da comparação, notebook e reprodução | O repositório já é público; ainda precisamos implementar e publicar os artefatos específicos do desafio |
-| Ir Além 2 relatório comparativo de duas páginas | 5 | Relatório paginado (PDF planejado) | Ainda precisamos concluir |
+| Ir Além 1 relatório de uma a duas páginas | 4 | [Relatório de duas páginas](CardioIA_Fase3_Relatorio_REST_Email.pdf) | Produzimos e conferimos a renderização; revisão técnica concluída em 28/10/2026 |
+| Ir Além 2 classificador tradicional e LIF/FHN | 5 | [Notebook executado](../../src/fase3/notebooks/comparacao_temporal_lif.ipynb) e [resultados](../../assets/fase3/resultados/neuromorfismo/) | Implementamos e executamos tradicional/LIF em ambiente novo; validação guiada concluída em 28/10/2026; nove testes locais aprovados após conferir a exportação |
+| Ir Além 2 repositório público, código e README | 5–6 | Código da comparação, notebook e reprodução | O repositório já é público; código, notebook executado, resultados e guia acompanham esta revisão |
+| Ir Além 2 relatório comparativo de duas páginas | 5 | [Relatório comparativo](CardioIA_Fase3_Relatorio_Neuromorfismo.pdf) | Produzimos duas páginas e conferimos a renderização; revisão técnica concluída em 28/10/2026 |
 | Ir Além 2 vídeo até quatro minutos não listado | 5 | YouTube e link README | Ainda precisamos concluir |
 | Clareza, organização e revisão de evidências | Todas | Roteiro e pacote final | Estamos acompanhando as evidências |
 
@@ -51,15 +51,19 @@ Mantemos os dois desafios no escopo por decisão do grupo, seguindo a Fase 2. El
 ## Aceite antes da submissão
 
 - [x] Produzimos os dois relatórios obrigatórios e conferimos as duas páginas do Edge e as quatro de MQTT/dashboard.
-- [ ] Concluir a revisão final do grupo dos dois relatórios obrigatórios.
+- [x] Concluímos a revisão técnica dos dois relatórios obrigatórios em 28/10/2026: conteúdo, comandos, identificação e paginação.
 - [x] Produzimos o relatório REST/e-mail de duas páginas e conferimos sua paginação.
-- [ ] Produzir o relatório comparativo do Ir Além 2 e conferir suas duas páginas.
+- [x] Produzimos o relatório comparativo do Ir Além 2 e conferimos suas duas páginas.
+- [x] Concluímos a validação guiada do Ir Além 2: comparação, gráficos, notebook, HTML e seis testes com `OK`.
+- [x] Concluímos a revisão técnica dos relatórios REST/e-mail e tradicional/LIF em 28/10/2026.
 - [x] Executamos o cliente REST e a simulação de e-mail, com consulta após reinício e evidências preservadas.
-- [ ] Executar os dois modelos comparáveis e preservar suas evidências.
+- [x] Executamos os dois modelos nas mesmas sessões de teste e preservamos métricas, previsões, divisão e notebook executado.
 - [ ] Publicar o vídeo específico do Ir Além 2 e inserir o link no README raiz.
 - [x] Reproduzimos instalação e serviços em cópia nova, conferimos REST após reinício e concluímos a repetição visual acompanhada no Wokwi: sensores, entrada/retorno dos alertas e recuperação pela chave. Preservamos 41 medições únicas sem lacunas ou perdas na [validação guiada de 27/10](../other/fase3/evidencias/2026-10-27/reproducao/validacao_guiada/RESULTADOS.md). A operação acompanhada está identificada separadamente do ensaio de rede Python.
-- [ ] Conferir acesso sem autenticação obrigatória aos links públicos, dados e vídeo; preservar também os links das fases anteriores.
-- [ ] Conferir integrantes/RMs no pacote e cadastro do grupo na plataforma antes do envio. O recorte fornecido da Fase 3 lista apenas um participante; precisamos conferir o cadastro efetivo, sem alterar a identificação coletiva do projeto com base nesse recorte.
+- [x] Conferimos acesso público aos repositórios, dois Wokwi, pastas do Drive, portal e vídeo da Fase 2; reativamos o Streamlit em repouso e confirmamos sua página inicial. Preservamos os links anteriores.
+- [ ] Publicar e conferir o novo vídeo do Ir Além 2 sem autenticação obrigatória.
+- [x] Conferimos os três integrantes/RMs no README e nos quatro relatórios.
+- [ ] Conferir o cadastro efetivo do grupo na plataforma antes do envio: o recorte fornecido lista apenas um participante, enquanto o projeto identifica três integrantes.
 - [ ] Conferir o arquivo correto, enviar pela plataforma com antecedência e reabrir/baixar o arquivo enviado para confirmar o conteúdo. A imagem de orientação avisa que não é possível substituir o arquivo após o fechamento da entrega ou a correção.
 - [ ] Registrar o envio efetivamente confirmado, sem confundir merge no GitHub com submissão na FIAP.
 
@@ -72,6 +76,10 @@ Conferimos no código os parâmetros documentados de sensores, fila, MQTT e aler
 **Conclusão:** a organização e a implementação obrigatória estão acompanhadas por evidências, mas a entrega acadêmica ainda está incompleta. Após a auditoria, produzimos os dois relatórios obrigatórios e conferimos seu conteúdo, renderização e paginação. Ainda precisamos concluir a revisão final do grupo, os dois desafios e seus relatórios, publicar o vídeo específico e fechar a reprodução e a submissão. Não atribuímos nota antecipada nem marcamos essas pendências como concluídas.
 
 Os dois links Wokwi continuam identificados por finalidade. Nesta auditoria, as consultas automatizadas receberam HTTP 403; esse bloqueio não comprova que os projetos estejam privados ou inválidos. Mantemos pendente a conferência manual em sessão sem autenticação dos projetos, das pastas do Drive, das publicações e dos vídeos. Conferir os acessos novamente no fechamento do pacote final.
+
+## Atualização da revisão técnica de 28/10/2026
+
+Concluímos a revisão dos quatro relatórios, a validação guiada dos dois desafios implementados e a conferência dos links públicos e dos integrantes nos documentos. Os nove testes de modelos/exportação passaram, além dos testes de contratos, persistência, REST e painel. A [conferência do pacote](../other/fase3/evidencias/2026-10-28/REVISAO_ENTREGA.md) atualiza as pendências da auditoria histórica acima: faltam o vídeo do Ir Além 2, a conferência do cadastro/formatos na plataforma e o envio. O vídeo da Fase 2 foi preservado.
 
 ## Regras da plataforma para o fechamento
 
